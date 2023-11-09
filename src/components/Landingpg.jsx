@@ -6,7 +6,7 @@ import Solar from '../../public/Images/Frame.png'
 const Landingpg = () => {
   return (
     <div>
-      <div className=" bg-[url('../../public/Images/Ellipse8.png')] bg-center bg-no-repeat bg-cover">
+      <div className=" bg-[url('../../public/Images/Ellipse8.png')] bg-no-repeat bg-cover">
         <div className="relative isolate px-6 pt-14 lg:px-8">
           <div
             className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
@@ -17,7 +17,7 @@ const Landingpg = () => {
           <div className="mx-auto lg:w-[60%] py-32 sm:pt-48 lg:pt-56">
             <div className="text-center">
               <h1 className="lg:text-6xl text-3xl lg:pb-8 font-bold tracking-tight text-white sm:text-6xl">
-                A Metaverse Development Company From Future
+                A Metaverse Development Comapny From Future
               </h1>
               <p className="mt-6 text-center mx-auto lg:w-[60%] lg:text-2xl lg:leading-8 text-white ">
                 We will grow your business 10X with our exceptionally well
@@ -47,8 +47,8 @@ const Landingpg = () => {
           </div> */}
         </div>
       </div>
-      <div className="mx-auto text-center justify-center pb-16">
-      {/* <Image
+      {/* <div className="mx-auto text-center justify-center pb-16">
+      <Image
           width={700} height={700}
             src={Solar}
             alt="Sl1"
@@ -56,8 +56,8 @@ const Landingpg = () => {
             className="mx-auto"
             
 
-          /> */}
-      </div>
+          />
+      </div> */}
     </div>
   );
 };

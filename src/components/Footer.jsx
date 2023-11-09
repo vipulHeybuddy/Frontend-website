@@ -5,21 +5,21 @@ import Logo from "../../public/Images/logo2.png";
 
 const Footer = () => {
   return (
-    <div className="lg:w-[80%]  mx-auto ">
+    <div className="lg:w-[80%] h-full bottom-0   mx-auto ">
       <footer class="top-8 bg-[url('../../public/Images/footerimg.png')] bottom-0 h-[42] bg-no-repeat bg-auto object-cover bg-[center_top_10rem]">
         <div class="mx-auto space-y-8 px-4  sm:px-6 lg:space-y-16 lg:px-16">
           <div class="sm:flex sm:items-center sm:justify-between">
-            <div class="text-white">
+            <div class="text-white py-4">
               <Image
                 width={700}
                 height={700}
                 src={Logo}
-                className="mr-6 h-16 w-[17rem] cursor-pointer"
+                className="mr-6 h:8 w-[10rem] lg:h-16 lg:w-[17rem] cursor-pointer"
                 alt="Hey Buddy"
               />
             </div>
             <div>
-              <h1 className="text-white text-2xl font-bold pb-4">Follow Us</h1>
+              <h1 className="text-white text-2xl font-semibold lg:pb-4">Follow Us</h1>
               <ul class="mt-8 flex justify-start gap-6 sm:mt-0 sm:justify-end">
                 <li>
                   <a
@@ -117,10 +117,10 @@ const Footer = () => {
           </div>
 
           <div class="grid grid-cols-1 pt-8 sm:grid-cols-2 lg:grid-cols-6 lg:pt-16">
-            <div>
+            <div className="py-4">
               <p class="font-bold text-white text-xl">Company</p>
 
-              <ul class="mt-6 space-y-4 text-sm">
+              <ul class="mt-6 space-y-2 text-sm">
                 <li>
                   <a href="#" class="text-white transition hover:opacity-75">
                     About
@@ -141,10 +141,10 @@ const Footer = () => {
               </ul>
             </div>
 
-            <div>
+            <div className="py-4">
               <p class="font-bold text-white text-xl">Helpful Links</p>
 
-              <ul class="mt-6 space-y-4 text-sm">
+              <ul class="mt-6 space-y-2 text-sm">
                 <li>
                   <a href="#" class="text-white transition hover:opacity-75">
                     Contact
@@ -165,10 +165,10 @@ const Footer = () => {
               </ul>
             </div>
 
-            <div>
+            <div className="py-4">
               <p class="font-bold text-white text-xl">Legal</p>
 
-              <ul class="mt-6 space-y-4 text-sm">
+              <ul class="mt-6 space-y-2 text-sm">
                 <li>
                   <a href="#" class="text-white transition hover:opacity-75">
                     Accessibility

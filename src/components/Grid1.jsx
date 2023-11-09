@@ -17,12 +17,12 @@ const Grid1 = () => {
 
       <div className="pt-[2px] mx-auto text-center justify-center lg:w-[90%] lg:pt-16 lg:pb-40">
         <div className="mx-auto text-center justify-center ">
-          <div className="p-8 lg:pt-24 lg:px-24  h-full ">
-            <div className="lg:px-8">
-              <h1 className="text-4xl lg:text-4xl font-bold text-white mb-6">
+          <div className="px-2 pt-24 lg:pt-24 lg:px-24  h-full ">
+            <div className=" lg:px-8">
+              <h1 className="px-4 text-2xl lg:text-4xl font-bold text-white mb-6">
                 Future of Metaverse looks like this
               </h1>
-              <p className="text-white  lg:w-[60%]  mx-auto text-center justify-center">
+              <p className="text-white text-sm lg:w-[60%]  mx-auto text-center justify-center">
                 Hey Buddy is ahead of time & helping businesses to be ahead of
                 their competitor by enhancing their digital experience.
               </p>
@@ -31,15 +31,16 @@ const Grid1 = () => {
         </div>
         <div>
           <div class="p-4  grid mb-8 mx-auto text-center justify-center rounded-3xl shadow-sm grid-cols-2 md:grid-cols-2 ">
-            <figure class="flex flex-col  p-4 lg:p-12  border-b border-gray-900 rounded-t-3xl md:rounded-t-none md:rounded-tl-3xl md:border-r h-full w-full bg-gray-600  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-40">
-              <blockquote class=" mb-4 lg:mb-8 dark:text-gray-400">
+            
+            <figure class="flex flex-col py-6  lg:p-12  border-b border-gray-900 rounded-tl-3xl md:rounded-t-none md:rounded-tl-3xl md:border-r h-full w-full bg-gray-600  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-40">
+              <blockquote class="  lg:mb-8 dark:text-gray-400">
                 <div className="grid sm:grid-1 md:grid-cols-2 lg:grid-cols-2">
-                  <div>
+                  <div className="py-4">
                     <Image
                       src={Img1}
                       width={300}
                       height={300}
-                      className="w-[7vh] h-[7vh] lg:w-[10vh] lg:h-[10vh] lg:float-left "
+                      className="w-[7vh] h-[7vh] lg:w-[10vh] lg:h-[10vh] lg:float-left mx-auto "
                     />
                   </div>
 
@@ -53,15 +54,15 @@ const Grid1 = () => {
               </blockquote>
             </figure>
 
-            <figure class="flex flex-col p-8 lg:p-12 border-b border-gray-900 rounded-tr-3xl  h-full w-full bg-gray-500  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-40">
-              <blockquote class="mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
+            <figure class="flex flex-col py-6 lg:p-12 border-b border-gray-900 rounded-tr-3xl  h-full w-full bg-gray-500  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-40">
+              <blockquote class=" text-gray-500 lg:mb-8 dark:text-gray-400">
                 <div className="grid sm:grid-1 md:grid-cols-2 lg:grid-cols-2">
-                  <div>
+                  <div className="py-4">
                     <Image
                       src={Img2}
                       width={300}
                       height={300}
-                      className=" w-[7vh] h-[7vh] lg:w-[10vh] lg:h-[10vh] lg:float-left  "
+                      className="w-[7vh] h-[7vh] lg:w-[10vh] lg:h-[10vh] lg:float-left mx-auto "
                     />
                   </div>
 
@@ -75,20 +76,20 @@ const Grid1 = () => {
               </blockquote>
             </figure>
 
-            <figure class="flex flex-col items-center justify-center p-8 lg:p-12 text-center  border-b border-gray-900 rounded-bl-3xl md:border-b-0 md:border-r   h-full w-full bg-gray-500  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-40">
+            <figure class="flex flex-col items-center justify-center py-6 px-2 lg:p-12 text-center  border-b border-gray-900 rounded-bl-3xl md:border-b-0 md:border-r   h-full w-full bg-gray-500  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-40">
               <blockquote class=" mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
                 <div className="grid sm:grid-1 md:grid-cols-2 lg:grid-cols-2">
-                  <div>
+                  <div className="py-4">
                     <Image
                       src={Img3}
                       width={300}
                       height={300}
-                      className=" w-[7vh] h-[7vh] lg:w-[10vh] lg:h-[10vh] lg:float-left  "
+                      className="w-[7vh] h-[7vh] lg:w-[10vh] lg:h-[10vh] lg:float-left mx-auto "
                     />
                   </div>
                   <div className="lg:text-left">
                     <h3 class="lg:text-2xl font-semibold text-gray-900 dark:text-white">
-                      Nightguards & Splints
+                      $17.6 Billion
                     </h3>
                     <p className="text-sm">investment in VR Gaming by 2024</p>
                   </div>
@@ -96,15 +97,15 @@ const Grid1 = () => {
               </blockquote>
             </figure>
 
-            <figure class="flex flex-col items-center justify-center p-8 lg:p-12 text-center  border-gray-900 rounded-br-3xl md:rounded-br-3xl h-full w-full bg-gray-600  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30">
+            <figure class="flex flex-col items-center justify-center py-6 px-2 lg:p-12 text-center  border-gray-900 rounded-br-3xl md:rounded-br-3xl h-full w-full bg-gray-600  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30">
               <blockquote class="mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
                 <div className="grid sm:grid-1 md:grid-cols-2 lg:grid-cols-2">
-                  <div >
+                  <div className="py-4">
                     <Image
                       src={Img4}
                       width={300}
                       height={300}
-                      className=" w-[7vh] h-[7vh] lg:w-[10vh] lg:h-[10vh] lg:float-left  "
+                      className="w-[7vh] h-[7vh] lg:w-[10vh] lg:h-[10vh] lg:float-left mx-auto "
                     />
                   </div>
 

@@ -1,4 +1,4 @@
-// File: /Users/vipulsharma/Downloads/heybuddy/randomproject/dentel/src/app/layout.js
+// File: D:\resent_work\heybuddy\finalheybuddy\Frontend\src\app\layout.js
 import * as entry from '../../../src/app/layout.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

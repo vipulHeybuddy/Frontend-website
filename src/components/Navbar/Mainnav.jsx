@@ -6,8 +6,8 @@ import { useMediaQuery } from 'react-responsive';
 import Navbarnew from './Navbarnew';
 import Link from 'next/link'
 import Image from "next/image";
-import Logo from "../../../public/logo.png";
 
+import Logo from '../../../public/Images/logo.png';
 
 export default function Navbar() {
   const [dropdownOpen, setDropdownOpen] = useState(false);
@@ -57,12 +57,12 @@ export default function Navbar() {
     <nav className={classNames('fixed w-full transition-all duration-800 py-4 z-50 ', {
       '   bg-clip-padding backdrop-filter backdrop-blur-2xl bg-opacity-70 z-50': backgroundwhite
     })}>
-      <div className="px-4 container mx-auto top-0 flex justify-between items-center  ">
+      <div className="px-4 container mx-auto top-0 flex justify-between items-center ">
         <div className="flex items-center lg:px-16 text-center justify-center mx-auto">
           <div className='lg:pr-32'>
 
           <Link href="/">
-          <Image src="/logo.png" alt="logo" className="mr-6 h-12 w-60 cursor-pointer" width={300} height={300} unoptimized/>
+          <Image width={300} height={300} src={Logo} className="lg:mr-6 h-10 w-40 lg:h-10 lg:w-[12rem] cursor-pointer float-left" alt="Hey Buddy" />
           </Link>
 
           </div>
@@ -73,11 +73,11 @@ export default function Navbar() {
         </div>
         
         <div className="lg:hidden text-2xl">
-          <button className="z-50 p-4 block bg-white transition-all" onClick={() => setDropdownOpen(!dropdownOpen)}>
+          <button className="z-50 p-4 block transition-all" onClick={() => setDropdownOpen(!dropdownOpen)}>
             {dropdownOpen ?
-              <BsX />
+              <BsX className='text-white'/>
               :
-              <BsList />
+              <BsList className='text-white'/>
             }
           </button>
 

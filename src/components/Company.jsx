@@ -26,31 +26,29 @@ function Company() {
 
     <>
     <div className="text-center mx-auto justify-center py-16">
-      <h1 className="text-white text-4xl font-bold">Brands that trust us </h1>
+      <h1 className="text-white text-2xl lg:text-4xl font-bold">Brands that trust us </h1>
       <p className="text-white text-sm">Driving technology for leading brands</p>
 
     </div>
-    <AppContainer className="w-[80%]">
+    <AppContainer className="w-[90%] overflow-hidden lg:w-[80%]">
 
       <Wrapper>
     
         <Marquee>
-        <MarqueeGroup>
-  {row1.map((el, index) => (
-    <ImageGroup key={index}>
-      <Image src={el} />
-    </ImageGroup>
-  ))}
-</MarqueeGroup>
-
-<MarqueeGroup>
-  {row1.map((el, index) => (
-    <ImageGroup key={index}>
-      <Image src={el} />
-    </ImageGroup>
-  ))}
-</MarqueeGroup>
-
+          <MarqueeGroup>
+            {row1.map((el) => (
+              <ImageGroup>
+                <Image src={el} />
+              </ImageGroup>
+            ))}
+          </MarqueeGroup>
+          <MarqueeGroup>
+            {row1.map((el) => (
+              <ImageGroup>
+                <Image src={el} />
+              </ImageGroup>
+            ))}
+          </MarqueeGroup>
         </Marquee>
 
         {/* <Marquee>
