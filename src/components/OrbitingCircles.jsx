@@ -34,7 +34,7 @@ const OrbitingCircles = () => {
   }, []); 
 
   return (
-    <div className="container">
+    <div className="container hidden">
       <div className="semicircle"></div>
       <div className="center-circle">
         <Image   src={union}  width={50} height={62.5} />
