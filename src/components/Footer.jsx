@@ -6,7 +6,7 @@ import Logo from "../../public/Images/logo2.png";
 const Footer = () => {
   return (
     <div className="lg:w-[80%] h-full bottom-0   mx-auto ">
-      <footer class="top-8 bg-[url('../../public/Images/footerimg.png')] bottom-0 h-[42] bg-no-repeat bg-auto object-cover bg-[center_top_10rem]">
+      <footer class="top-8 bg-[url('../../public/Images/footerimg.png')] bottom-0 h-[42] bg-no-repeat bg-auto object-cover bg-[bottom]">
         <div class="mx-auto space-y-8 px-4  sm:px-6 lg:space-y-16 lg:px-16">
           <div class="sm:flex sm:items-center sm:justify-between">
             <div class="text-white py-4">

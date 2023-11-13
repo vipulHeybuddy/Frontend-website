@@ -20,7 +20,7 @@ const Grid = () => {
   }, []);
 
   return (
-    <div className="">
+    <div className="" id="whyus">
       {isSmallScreen ? (
         <div>
           <div class="p-2 lg:p-6 w-[90%] lg:w-[80%] bg-[url('../../public/Images/Ellipse6.png')] bg-no-repeat bg-cover  grid mb-8 mx-auto text-center justify-center rounded-xl shadow-sm sm:grid-1 md:mb-12 md:grid-cols-4 gap-y-4 gap-x-4">

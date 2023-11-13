@@ -39,7 +39,7 @@ function Slider1() {
 
   return (
     <>
-    <div className="lg:w-[80%]  lg:mt-16 bg-[url('../../public/Images/Ellipse0.png')] bg-no-repeat bg-auto bg-[center_top_1rem]">
+    <div className="lg:w-[80%]  lg:mt-16 bg-[url('../../public/Images/Ellipse0.png')] bg-no-repeat bg-auto bg-[center_top_1rem]" id="projects">
 
     <div className="text-center mx-auto justify-center py-12 ">
             <h1 className="text-2xl lg:text-4xl font-bold text-white ">

@@ -1,11 +1,27 @@
-import React from "react";
+"use client";
+import React, { useEffect } from "react";
+import { motion } from "framer-motion";
 import Image from "next/image";
 import Img1 from "../../public/Images/img1.png";
 import Img2 from "../../public/Images/img2.png";
 import Img3 from "../../public/Images/img3.png";
 import Img4 from "../../public/Images/img4.png";
 
+
+
+
 const Grid1 = () => {
+
+  useEffect(() => {
+   
+  }, []);
+
+  const textAnimation1 = {
+    initial: { opacity: 0, y: 20 },
+    animate: { opacity: 1, y: 0 },
+    transition: { duration: 1.2 },
+  };
+
   return (
     <div className="bg-[url('../../public/Images/Ellipse7.png')] bg-no-repeat bg-auto bg-[center_top_3rem] ">
       <div
@@ -17,20 +33,22 @@ const Grid1 = () => {
 
       <div className="pt-[2px] mx-auto text-center justify-center lg:w-[90%] lg:pt-16 lg:pb-40">
         <div className="mx-auto text-center justify-center ">
-          <div className="px-2 pt-24 lg:pt-24 lg:px-24  h-full ">
-            <div className=" lg:px-8">
-              <h1 className="px-4 text-2xl lg:text-4xl font-bold text-white mb-6">
+          <div className="px-2 pt-24 lg:pt-24 lg:px-24  h-full " >
+            <div className=" lg:px-8"  >
+              <motion.h1 className="px-4 text-2xl lg:text-4xl font-bold text-white mb-6"
+              {...textAnimation1}
+              >
                 Future of Metaverse looks like this
-              </h1>
-              <p className="text-white text-sm lg:w-[60%]  mx-auto text-center justify-center">
+              </motion.h1>
+              <motion.p className="text-white text-sm lg:w-[60%]  mx-auto text-center justify-center" {...textAnimation1}>
                 Hey Buddy is ahead of time & helping businesses to be ahead of
                 their competitor by enhancing their digital experience.
-              </p>
+              </motion.p>
             </div>
           </div>
         </div>
         <div>
-          <div class="p-4  grid mb-8 mx-auto text-center justify-center rounded-3xl shadow-sm grid-cols-2 md:grid-cols-2 ">
+          <motion.div class="p-4  grid mb-8 mx-auto text-center justify-center rounded-3xl shadow-sm grid-cols-2 md:grid-cols-2 " {...textAnimation1}>
             
             <figure class="flex flex-col py-6  lg:p-12  border-b border-gray-900 rounded-tl-3xl md:rounded-t-none md:rounded-tl-3xl md:border-r h-full w-full bg-gray-600  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-40">
               <blockquote class="  lg:mb-8 dark:text-gray-400">
@@ -118,7 +136,7 @@ const Grid1 = () => {
                 </div>
               </blockquote>
             </figure>
-          </div>
+          </motion.div>
         </div>
       </div>
     </div>

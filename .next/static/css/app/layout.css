@@ -1534,17 +1534,11 @@ details.collapse summary::-webkit-details-marker {
   left: 0px;
   right: 0px;
 }
-.-top-40 {
-  top: -10rem;
-}
 .bottom-0 {
   bottom: 0px;
 }
 .left-0 {
   left: 0px;
-}
-.left-\[calc\(50\%\+3rem\)\] {
-  left: calc(50% + 3rem);
 }
 .left-\[calc\(50\%-11rem\)\] {
   left: calc(50% - 11rem);
@@ -1560,9 +1554,6 @@ details.collapse summary::-webkit-details-marker {
 }
 .top-\[calc\(100\%-0rem\)\] {
   top: calc(100% - 0rem);
-}
-.top-\[calc\(100\%-13rem\)\] {
-  top: calc(100% - 13rem);
 }
 .top-full {
   top: 100%;
@@ -1608,9 +1599,6 @@ details.collapse summary::-webkit-details-marker {
 }
 .mt-10 {
   margin-top: 2.5rem;
-}
-.mt-16 {
-  margin-top: 4rem;
 }
 .mt-2 {
   margin-top: 0.5rem;
@@ -1699,9 +1687,6 @@ details.collapse summary::-webkit-details-marker {
 .w-\[7vh\] {
   width: 7vh;
 }
-.w-\[80\%\] {
-  width: 80%;
-}
 .w-\[90\%\] {
   width: 90%;
 }
@@ -1743,9 +1728,6 @@ details.collapse summary::-webkit-details-marker {
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
-.flex-row {
-  flex-direction: row;
-}
 .flex-col {
   flex-direction: column;
 }
@@ -1776,9 +1758,6 @@ details.collapse summary::-webkit-details-marker {
 .gap-x-6 {
   column-gap: 1.5rem;
 }
-.gap-y-2 {
-  row-gap: 0.5rem;
-}
 .gap-y-4 {
   row-gap: 1rem;
 }
@@ -1800,9 +1779,6 @@ details.collapse summary::-webkit-details-marker {
 }
 .overflow-x-auto {
   overflow-x: auto;
-}
-.overflow-y-auto {
-  overflow-y: auto;
 }
 .rounded-3xl {
   border-radius: 1.5rem;
@@ -1883,10 +1859,6 @@ details.collapse summary::-webkit-details-marker {
   --tw-bg-opacity: 1;
   background-color: rgb(75 85 99 / var(--tw-bg-opacity));
 }
-.bg-gray-700 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(55 65 81 / var(--tw-bg-opacity));
-}
 .bg-gray-800 {
   --tw-bg-opacity: 1;
   background-color: rgb(31 41 55 / var(--tw-bg-opacity));
@@ -1941,18 +1913,10 @@ details.collapse summary::-webkit-details-marker {
 .bg-gradient-to-tr {
   background-image: linear-gradient(to top right, var(--tw-gradient-stops));
 }
-.from-\[\#6455c8\] {
-  --tw-gradient-from: #6455c8 var(--tw-gradient-from-position);
-  --tw-gradient-to: rgb(100 85 200 / 0) var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
 .from-\[\#ff80b5\] {
   --tw-gradient-from: #ff80b5 var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(255 128 181 / 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
-.to-\[\#1100ff\] {
-  --tw-gradient-to: #1100ff var(--tw-gradient-to-position);
 }
 .to-\[\#9089fc\] {
   --tw-gradient-to: #9089fc var(--tw-gradient-to-position);
@@ -1966,8 +1930,8 @@ details.collapse summary::-webkit-details-marker {
 .bg-clip-padding {
   background-clip: padding-box;
 }
-.bg-\[center_top_10rem\] {
-  background-position: center top 10rem;
+.bg-\[bottom\] {
+  background-position: bottom;
 }
 .bg-\[center_top_1rem\] {
   background-position: center top 1rem;
@@ -2047,12 +2011,6 @@ details.collapse summary::-webkit-details-marker {
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-}
-.pb-16 {
-  padding-bottom: 4rem;
-}
-.pt-10 {
-  padding-top: 2.5rem;
 }
 .pt-14 {
   padding-top: 3.5rem;
@@ -2261,24 +2219,12 @@ body{
 }
 @media (min-width: 640px) {
 
-  .sm\:-top-80 {
-    top: -20rem;
-  }
-
-  .sm\:left-\[calc\(50\%\+36rem\)\] {
-    left: calc(50% + 36rem);
-  }
-
   .sm\:left-\[calc\(50\%-30rem\)\] {
     left: calc(50% - 30rem);
   }
 
   .sm\:top-\[calc\(100\%-0rem\)\] {
     top: calc(100% - 0rem);
-  }
-
-  .sm\:top-\[calc\(100\%-30rem\)\] {
-    top: calc(100% - 30rem);
   }
 
   .sm\:mt-0 {
@@ -2309,10 +2255,6 @@ body{
     justify-content: space-between;
   }
 
-  .sm\:gap-y-6 {
-    row-gap: 1.5rem;
-  }
-
   .sm\:px-6 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
@@ -2340,10 +2282,6 @@ body{
 
   .md\:mb-12 {
     margin-bottom: 3rem;
-  }
-
-  .md\:mt-20 {
-    margin-top: 5rem;
   }
 
   .md\:grid-cols-2 {
@@ -2465,10 +2403,6 @@ body{
     width: 90%;
   }
 
-  .lg\:grid-cols-12 {
-    grid-template-columns: repeat(12, minmax(0, 1fr));
-  }
-
   .lg\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -2564,10 +2498,6 @@ body{
 
   .lg\:pr-32 {
     padding-right: 8rem;
-  }
-
-  .lg\:pt-0 {
-    padding-top: 0px;
   }
 
   .lg\:pt-16 {
