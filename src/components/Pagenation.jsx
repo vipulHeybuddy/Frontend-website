@@ -5,7 +5,7 @@ import React, { useEffect, useState } from "react";
 import { Tab } from "@headlessui/react";
 import Image from "next/image";
 import Img from "../../public/Images/img1.webp";
-
+import Link from "next/link";
 const Pagenation = () => {
   const [isSmallScreen, setIsSmallScreen] = useState(false);
   let [tabOrientation, setTabOrientation] = useState("horizontal");
@@ -36,10 +36,7 @@ const Pagenation = () => {
         <motion.h3 {...textAnimation1}>Featured Projects</motion.h3>
       </div>
 
-      <Tab.Group
-      
-     
-      >
+      <Tab.Group>
         
         <Tab.List className="text-centre mx-auto justify-center text-white overflow-x-auto">
           <Tab className="px-12 mx-8 bg-blue-600 rounded-lg p-4">
@@ -79,9 +76,11 @@ const Pagenation = () => {
                   Used Technology :{" "}
                   <span className="font-bold">3D, AR Design</span>
                 </p>
-                <button className="rounded-lg bg-indigo-600 px-6 py-4 text-sm font-semibold text-white shadow-sm">
+                <Link href='/Pages/sliderpages'>
+                <button className="rounded-3xl bg-indigo-600 px-6 py-4 text-sm font-semibold text-white shadow-sm">
                   Read Case Study <span aria-hidden="true">→</span>{" "}
                 </button>
+                </Link>
               </div>
             </div>
           </Tab.Panel>
@@ -111,9 +110,11 @@ const Pagenation = () => {
                   Used Technology :{" "}
                   <span className="font-bold">3D, AR Design</span>
                 </p>
-                <button className="rounded-lg bg-indigo-600 px-6 py-4 text-sm font-semibold text-white shadow-sm">
+                <Link href='/Pages/sliderpages'>
+                <button className="rounded-3xl bg-indigo-600 px-6 py-4 text-sm font-semibold text-white shadow-sm">
                   Read Case Study <span aria-hidden="true">→</span>{" "}
                 </button>
+                </Link>
               </div>
             </div>
           </Tab.Panel>
@@ -142,9 +143,11 @@ const Pagenation = () => {
                   Used Technology :{" "}
                   <span className="font-bold">3D, AR Design</span>
                 </p>
-                <button className="rounded-lg bg-indigo-600 px-6 py-4 text-sm font-semibold text-white shadow-sm">
+                <Link href='/Pages/sliderpages'>
+                <button className="rounded-3xl bg-indigo-600 px-6 py-4 text-sm font-semibold text-white shadow-sm">
                   Read Case Study <span aria-hidden="true">→</span>{" "}
                 </button>
+                </Link>
               </div>
             </div>
           </Tab.Panel>
@@ -173,9 +176,11 @@ const Pagenation = () => {
                   Used Technology :{" "}
                   <span className="font-bold">3D, AR Design</span>
                 </p>
-                <button className="rounded-lg bg-indigo-600 px-6 py-4 text-sm font-semibold text-white shadow-sm">
+                <Link href='/Pages/sliderpages'>
+                <button className="rounded-3xl bg-indigo-600 px-6 py-4 text-sm font-semibold text-white shadow-sm">
                   Read Case Study <span aria-hidden="true">→</span>{" "}
                 </button>
+                </Link>
               </div>
             </div>
           </Tab.Panel>
