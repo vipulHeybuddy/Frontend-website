@@ -23,7 +23,7 @@ export default function Navbarnew() {
         <a href="#aboutus" className='lg:text-[15px]  p-4 text-white border-transparent hover:border-black block'>About Us</a>
       </div>
       <div className=" ">
-        <a href="/" className='lg:text-[15px]  py-4 px-8 rounded-3xl bg-blue-600 text-white border-transparent hover:border-black block'>Get In Touch</a>
+        <a href="/" className='lg:text-[15px]  py-4 px-8 rounded-3xl bg-[#3F8AE2] text-white border-transparent hover:border-black block'>Get In Touch</a>
       </div> 
      
     </>

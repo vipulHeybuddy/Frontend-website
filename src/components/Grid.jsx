@@ -72,13 +72,13 @@ const Grid = () => {
       flexDirection: 'column',
       fontWeight: 'bold',
     }}
-    className="" id="whyus">
+    className=" " id="whyus">
       {isSmallScreen ? (
         <div>
           <div class="p-2 lg:p-6 w-[90%] lg:w-[80%] bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Ellipse6.png')] bg-no-repeat bg-cover  grid mb-8 mx-auto text-center justify-center rounded-xl shadow-sm sm:grid-1 md:mb-12 md:grid-cols-4 gap-y-4 gap-x-4">
-          <figure style={{display: 'flex' , justifyContent: 'center'}} class="lg:col-span-2 lg:row-span-2 flex flex-col lg:p-16 border-2 border-gray-500 rounded-3xl h-full w-full bg-gray-600 bg-clip-padding  bg-opacity-0 justify-center items-center">
+          <figure style={{display: 'flex' , justifyContent: 'center'}} class="lg:col-span-2 py-6 lg:row-span-2 flex flex-col lg:p-16 border-2 border-gray-500 rounded-3xl h-full w-full bg-gray-600 bg-clip-padding  bg-opacity-0 justify-center items-center">
               <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
-                <h3 class="lg:text-6xl font-semibold text-gray-900 dark:text-white">
+                <h3 class="lg:text-6xl  font-semibold text-gray-900 dark:text-white">
                   Why <br /> Choose Us?
                 </h3>
               </blockquote>
@@ -92,7 +92,7 @@ const Grid = () => {
                 <p className="text-left font-bold text-white py-2 text-xl">
                   Expertise
                 </p>
-                <p className="text-left">
+                <p className="text-left ">
                   Hey Buddy excels in IT services, specializing in cutting-edge
                   technologies like AR, VR, Metaverse, Game Development, and App
                   Development.
@@ -150,7 +150,7 @@ const Grid = () => {
           </div>
         </div>
       ) : (
-        <div>
+        <div className="">
 
           <div class="p-2 lg:p-6 w-[90%] lg:w-[80%] bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Ellipse6.png')] bg-no-repeat bg-cover  grid mb-8 mx-auto text-center justify-center rounded-xl shadow-sm sm:grid-1 md:mb-12 md:grid-cols-4 gap-y-4 gap-x-4">
             <figure class="flex flex-col  p-2 lg:p-4  border-b border-2 border-gray-500 rounded-3xl  h-full w-full bg-gray-600  bg-clip-padding  bg-opacity-0">
@@ -161,7 +161,7 @@ const Grid = () => {
                 <p className="text-left font-bold text-white py-2 text-xl">
                   Expertise
                 </p>
-                <p className="text-left">
+                <p className="text-left text-sm">
                   Hey Buddy excels in IT services, specializing in cutting-edge
                   technologies like AR, VR, Metaverse, Game Development, and App
                   Development.
@@ -185,7 +185,7 @@ const Grid = () => {
                 <p className="text-left font-bold text-white py-2 text-xl">
                   Solutions
                 </p>
-                <p className="text-left">
+                <p className="text-left text-sm">
                   Hey Buddy stands out by delivering seamless and immersive
                   experiences. They specialize in creating captivating VR games,
                   interactive.
@@ -201,7 +201,7 @@ const Grid = () => {
                 <p className="text-left font-bold text-white py-2 text-xl">
                   Immersive
                 </p>
-                <p className="text-left">
+                <p className="text-left text-sm">
                   Hey Buddy excels in tailoring services to diverse industries
                   with a client-centric approach. They empower businesses with
                   innovative training solutions.
@@ -217,7 +217,7 @@ const Grid = () => {
                 <p className="text-left font-bold text-white py-2 text-xl">
                   Futuristic
                 </p>
-                <p className="text-left">
+                <p className="text-left text-sm">
                   Hey Buddy excels in tailoring services to diverse industries
                   with a client-centric approach. They empower businesses with
                   innovative training solutions.

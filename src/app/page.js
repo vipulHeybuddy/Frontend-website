@@ -9,9 +9,8 @@ import Landingpg from "@/components/Landingpg";
 import Ourclients from "@/components/Ourclients";
 import Pagenation from "@/components/Pagenation";
 import Slider from "@/components/Slider1";
+// import Tab1 from "@/components/Tab1";
 import OrbitingCircles from "@/components/OrbitingCircles";
-// import Showslider from "@/components/Sliderc/Showslider";
-// import Solarcomp from "@/components/Solarcomp";
 
 import { motion } from "framer-motion"
 
@@ -52,6 +51,8 @@ export default function Home() {
       <Pagenation />
       {/* </motion.div> */}
 
+      {/* <Tab1/> */}
+      
       <Grid2 />
       <Ourclients />
       <Bottomsec />

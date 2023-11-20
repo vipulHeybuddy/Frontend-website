@@ -41,7 +41,7 @@ const Landingpg = () => {
               >
                 <a
                   href="#"
-                  className="rounded-3xl bg-blue-600 px-10 py-4 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                  className="rounded-3xl bg-[#3F8AE2] px-10 py-4 text-sm font-semibold text-white shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                 >
                   Get in Touch <span aria-hidden="true" className="px-2 text-xl ">→</span>
                 </a>
