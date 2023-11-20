@@ -12,7 +12,7 @@ const Grid2 = () => {
 
 
   return (
-    <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Ellipse5.png')] bg-no-repeat bg-auto bg-[center_top_1rem]">
+    <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Ellipse7.png')] bg-no-repeat bg-auto bg-[center_top_1rem]">
       {/* <div
         className=" absolute inset-x-0 top-90 -z-10 transform-gpu overflow-hidden blur-3xl sm:top-90"
         aria-hidden="true"

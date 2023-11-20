@@ -17,7 +17,7 @@ export default function Navbarnew() {
         <a href="#whyus" className=' lg:text-[15px]  p-4 text-white border-transparent hover:border-black block'>Why Us</a>
       </div>
       <div className=" ">
-        <a href="#testiomnials" className='lg:text-[15px]  p-4 text-white border-transparent hover:border-black block'>Testiomnials</a>
+        <a href="#testimonials" className='lg:text-[15px]  p-4 text-white border-transparent hover:border-black block'>Testimonials</a>
       </div>
       <div className="">
         <a href="#aboutus" className='lg:text-[15px]  p-4 text-white border-transparent hover:border-black block'>About Us</a>

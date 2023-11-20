@@ -2,6 +2,7 @@
 import React, { useEffect } from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import  './grid1styles.css';
 // import Img1 from "../../public/Images/img1.png";
 // import Img2 from "../../public/Images/img2.png";
 // import Img3 from "../../public/Images/img3.png";
@@ -47,7 +48,7 @@ const Grid1 = () => {
             </div>
           </div>
         </div>
-        <div>
+        <div style={{marginTop: '2rem'}}>
           <motion.div
             class="p-4  grid mb-8 mx-auto text-center justify-center rounded-3xl shadow-sm grid-cols-2 md:grid-cols-2 "
             {...textAnimation1}

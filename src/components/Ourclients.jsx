@@ -11,7 +11,7 @@ const Ourclients = () => {
   };
 
   return (
-    <div className="pt-16 bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Ellipse4.png')] bg-no-repeat bg-auto bg-[center_top_1rem]" id="testiomnials">
+    <div className="pt-16 bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Ellipse4.png')] bg-no-repeat bg-auto bg-[center_top_1rem]" id="testimonials">
 
 
     <div className="py-2 lg:py-8  mx-auto text-center justify-center  text-2xl lg:text-4xl font-bold text-white mb-6"> 

@@ -6,9 +6,9 @@ import styled, { keyframes, css } from "styled-components";
 function Company() {
   const row1 = [
     "https://assets.algoexpert.io/spas/main/prod/g523bdeb478-prod/dist/images/7ae42bac3b34999c0db3.png",
-    "https://assets.algoexpert.io/spas/main/prod/g523bdeb478-prod/dist/images/b2bd91d7b87b2181ca45.png",
+    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/dotpe.png",
     "https://assets.algoexpert.io/spas/main/prod/g523bdeb478-prod/dist/images/6591cdc0702b32310306.png",
-    "https://assets.algoexpert.io/spas/main/prod/g523bdeb478-prod/dist/images/3b7d9f4b073deb6a9b74.png",
+    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/bloomberg-logo-white.png",
     "https://assets.algoexpert.io/spas/main/prod/g523bdeb478-prod/dist/images/3cd767dea94a85078ca4.png",
     "https://assets.algoexpert.io/spas/main/prod/g523bdeb478-prod/dist/images/a2b3c3709ffedce2a22a.png",
   ];
@@ -169,5 +169,5 @@ const Image = styled.img`
   border-radius: 0.5rem;
   aspect-ratio: 16/9;
   padding: 5px 20px;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  
 `;

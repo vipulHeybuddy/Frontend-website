@@ -1,7 +1,45 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
+import { motion, useAnimation } from 'framer-motion';
 
 const Grid = () => {
+  const controls = useAnimation();
+  const ref = useRef();
+
+  const variants = {
+    hidden: { opacity: 0, y: '20%' },
+    visible: { opacity: 1, y: 0, transition: { duration: 2, ease: 'easeOut' } },
+  };
+
+  const onScreen = async () => {
+    const element = ref.current;
+    if (element) {
+      const isVisible = await controls.start('visible');
+      if (isVisible) {
+       
+      }
+    }
+  };
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          onScreen();
+        }
+      },
+      { threshold: 0 } 
+    );
+
+    if (ref.current) {
+      observer.observe(ref.current);
+    }
+
+    return () => {
+      observer.disconnect();
+    };
+  }, []);
+
   
   const [isSmallScreen, setIsSmallScreen] = useState(false);
 
@@ -20,19 +58,33 @@ const Grid = () => {
   }, []);
 
   return (
-    <div className="" id="whyus">
+   
+    <motion.div 
+    ref={ref}
+    initial="hidden"
+    animate={controls}
+    variants={variants}
+    style={{
+      width: '100vw',
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'center',
+      flexDirection: 'column',
+      fontWeight: 'bold',
+    }}
+    className="" id="whyus">
       {isSmallScreen ? (
         <div>
           <div class="p-2 lg:p-6 w-[90%] lg:w-[80%] bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Ellipse6.png')] bg-no-repeat bg-cover  grid mb-8 mx-auto text-center justify-center rounded-xl shadow-sm sm:grid-1 md:mb-12 md:grid-cols-4 gap-y-4 gap-x-4">
-            <figure class="lg:col-span-2 lg:row-span-2 flex flex-col p-2 lg:p-16 border-2 border-gray-500 rounded-3xl  h-full w-full bg-gray-600  bg-clip-padding backdrop-filter backdrop-blur-2xl bg-opacity-20">
+          <figure style={{display: 'flex' , justifyContent: 'center'}} class="lg:col-span-2 lg:row-span-2 flex flex-col lg:p-16 border-2 border-gray-500 rounded-3xl h-full w-full bg-gray-600 bg-clip-padding  bg-opacity-0 justify-center items-center">
               <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
-                <h3 class="lg:text-6xl lg:pt-32 font-semibold text-gray-900 dark:text-white">
+                <h3 class="lg:text-6xl font-semibold text-gray-900 dark:text-white">
                   Why <br /> Choose Us?
                 </h3>
               </blockquote>
             </figure>
 
-            <figure class="flex flex-col  p-2 lg:p-4  border-b border-2 border-gray-500 rounded-3xl  h-full w-full bg-gray-600  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20">
+            <figure class="flex flex-col  p-2 lg:p-4  border-b border-2 border-gray-500 rounded-3xl  h-full w-full bg-gray-600  bg-clip-padding  bg-opacity-0">
               <blockquote class="   dark:text-gray-400">
                 <h3 class="text-left text-4xl lg:text-6xl font-semibold text-gray-900 dark:text-gray-500 opacity-30">
                   01
@@ -48,7 +100,7 @@ const Grid = () => {
               </blockquote>
             </figure>
 
-            <figure class="flex flex-col items-center justify-center p-2 lg:p-4 text-center border-2 border-gray-500 rounded-3xl  h-full w-full bg-gray-600  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20">
+            <figure class="flex flex-col items-center justify-center p-2 lg:p-4 text-center border-2 border-gray-500 rounded-3xl  h-full w-full bg-gray-600  bg-clip-padding  bg-opacity-0">
               <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
                 <h3 class="text-left text-4xl lg:text-6xl font-semibold text-gray-900 dark:text-gray-500 opacity-30">
                   02
@@ -64,7 +116,7 @@ const Grid = () => {
               </blockquote>
             </figure>
 
-            <figure class="flex flex-col items-center justify-center p-2 lg:p-4 text-center border-2 border-gray-500 rounded-3xl   h-full w-full bg-gray-600  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20">
+            <figure class="flex flex-col items-center justify-center p-2 lg:p-4 text-center border-2 border-gray-500 rounded-3xl   h-full w-full bg-gray-600  bg-clip-padding  bg-opacity-0">
               <blockquote class="max-w-2xl mx-auto  text-gray-500 lg:mb-8 dark:text-gray-400">
                 <h3 class="text-left text-4xl lg:text-6xl font-semibold text-gray-900 dark:text-gray-500 opacity-30">
                   03
@@ -80,7 +132,7 @@ const Grid = () => {
               </blockquote>
             </figure>
 
-            <figure class="flex flex-col items-center justify-center p-2 lg:p-4 text-center border-2 border-gray-500 rounded-3xl   h-full w-full bg-gray-600  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20">
+            <figure class="flex flex-col items-center justify-center p-2 lg:p-4 text-center border-2 border-gray-500 rounded-3xl   h-full w-full bg-gray-600  bg-clip-padding  bg-opacity-0">
               <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
                 <h3 class="text-left text-4xl lg:text-6xl font-semibold text-gray-900 dark:text-gray-500 opacity-30">
                   04
@@ -101,7 +153,7 @@ const Grid = () => {
         <div>
 
           <div class="p-2 lg:p-6 w-[90%] lg:w-[80%] bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Ellipse6.png')] bg-no-repeat bg-cover  grid mb-8 mx-auto text-center justify-center rounded-xl shadow-sm sm:grid-1 md:mb-12 md:grid-cols-4 gap-y-4 gap-x-4">
-            <figure class="flex flex-col  p-2 lg:p-4  border-b border-2 border-gray-500 rounded-3xl  h-full w-full bg-gray-600  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20">
+            <figure class="flex flex-col  p-2 lg:p-4  border-b border-2 border-gray-500 rounded-3xl  h-full w-full bg-gray-600  bg-clip-padding  bg-opacity-0">
               <blockquote class="   dark:text-gray-400">
                 <h3 class="text-left text-4xl lg:text-6xl font-semibold text-gray-900 dark:text-gray-500 opacity-30">
                   01
@@ -117,15 +169,15 @@ const Grid = () => {
               </blockquote>
             </figure>
 
-            <figure class="lg:col-span-2 lg:row-span-2 flex flex-col p-2 lg:p-16 border-2 border-gray-500 rounded-3xl  h-full w-full bg-gray-600  bg-clip-padding backdrop-filter backdrop-blur-2xl bg-opacity-20">
+            <figure  style={{display: 'flex' , justifyContent: 'center'}} class="lg:col-span-2 lg:row-span-2 flex flex-col border-2 border-gray-500 rounded-3xl  h-full w-full bg-gray-600  bg-clip-padding  bg-opacity-0 justify-centre">
               <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
-                <h3 class="lg:text-6xl lg:pt-32 font-semibold text-gray-900 dark:text-white">
+                <h3 class="lg:text-6xl font-semibold text-gray-900 dark:text-white">
                   Why <br /> Choose Us?
                 </h3>
               </blockquote>
             </figure>
 
-            <figure class="flex flex-col items-center justify-center p-2 lg:p-4 text-center border-2 border-gray-500 rounded-3xl   h-full w-full bg-gray-600  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20">
+            <figure class="flex flex-col items-center justify-center p-2 lg:p-4 text-center border-2 border-gray-500 rounded-3xl   h-full w-full bg-gray-600  bg-clip-padding  bg-opacity-0">
               <blockquote class="max-w-2xl mx-auto  text-gray-500 lg:mb-8 dark:text-gray-400">
                 <h3 class="text-left text-4xl lg:text-6xl font-semibold text-gray-900 dark:text-gray-500 opacity-30">
                   03
@@ -141,7 +193,7 @@ const Grid = () => {
               </blockquote>
             </figure>
 
-            <figure class="flex flex-col items-center justify-center p-2 lg:p-4 text-center border-2 border-gray-500 rounded-3xl  h-full w-full bg-gray-600  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20">
+            <figure class="flex flex-col items-center justify-center p-2 lg:p-4 text-center border-2 border-gray-500 rounded-3xl  h-full w-full bg-gray-600  bg-clip-padding  bg-opacity-0">
               <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
                 <h3 class="text-left text-4xl lg:text-6xl font-semibold text-gray-900 dark:text-gray-500 opacity-30">
                   02
@@ -157,7 +209,7 @@ const Grid = () => {
               </blockquote>
             </figure>
 
-            <figure class="flex flex-col items-center justify-center p-2 lg:p-4 text-center border-2 border-gray-500 rounded-3xl   h-full w-full bg-gray-600  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20">
+            <figure class="flex flex-col items-center justify-center p-2 lg:p-4 text-center border-2 border-gray-500 rounded-3xl   h-full w-full bg-gray-600  bg-clip-padding  bg-opacity-0">
               <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
                 <h3 class="text-left text-4xl lg:text-6xl font-semibold text-gray-900 dark:text-gray-500 opacity-30">
                   04
@@ -175,7 +227,8 @@ const Grid = () => {
           </div>
         </div>
       )}
-    </div>
+   
+    </motion.div>
   );
 };
 

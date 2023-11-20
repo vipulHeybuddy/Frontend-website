@@ -1,6 +1,6 @@
-/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[5].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"src\\app\\layout.js","import":"Inter","arguments":[{"subsets":["latin"]}],"variableName":"inter"} ***!
-  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[5].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"src/app/layout.js","import":"Inter","arguments":[{"subsets":["latin"]}],"variableName":"inter"} ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /* cyrillic-ext */
 @font-face {
   font-family: '__Inter_e66fe9';
@@ -102,8 +102,10 @@
 
 html {
   line-height: 1.5; /* 1 */
-  -webkit-text-size-adjust: 100%; /* 2 */ /* 3 */
-  tab-size: 4; /* 3 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  -moz-tab-size: 4; /* 3 */
+  -o-tab-size: 4;
+     tab-size: 4; /* 3 */
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; /* 4 */
   font-feature-settings: normal; /* 5 */
   font-variation-settings: normal; /* 6 */
@@ -395,6 +397,11 @@ textarea {
 1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)
 2. Set the default placeholder color to the user's configured gray 400 color.
 */
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+  opacity: 1; /* 1 */
+  color: #9ca3af; /* 2 */
+}
 
 input::placeholder,
 textarea::placeholder {
@@ -775,31 +782,6 @@ html {
     background-color: hsl(var(--b3) / var(--tw-bg-opacity));
   }
 }
-.carousel {
-  display: inline-flex;
-  overflow-x: scroll;
-  scroll-snap-type: x mandatory;
-  scroll-behavior: smooth;
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-}
-.carousel-vertical {
-  flex-direction: column;
-  overflow-y: scroll;
-  scroll-snap-type: y mandatory;
-}
-.carousel-item {
-  box-sizing: content-box;
-  display: flex;
-  flex: none;
-  scroll-snap-align: start;
-}
-.carousel-center .carousel-item {
-  scroll-snap-align: center;
-}
-.carousel-end .carousel-item {
-  scroll-snap-align: end;
-}
 .collapse:not(td):not(tr):not(colgroup) {
   visibility: visible;
 }
@@ -821,7 +803,9 @@ html {
 }
 .collapse > input[type="checkbox"],
 .collapse > input[type="radio"] {
-  appearance: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   opacity: 0;
 }
 .collapse[open],
@@ -920,7 +904,8 @@ html {
   width: 100%;
   grid-auto-flow: row;
   place-items: start;
-  column-gap: 1rem;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
   row-gap: 2.5rem;
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -952,6 +937,7 @@ html {
 .menu li.disabled {
   cursor: not-allowed;
   -webkit-user-select: none;
+     -moz-user-select: none;
           user-select: none;
   color: hsl(var(--bc) / 0.3);
 }
@@ -960,6 +946,7 @@ html {
   display: inline-flex;
   cursor: pointer;
   -webkit-user-select: none;
+     -moz-user-select: none;
           user-select: none;
   flex-wrap: wrap;
   align-items: center;
@@ -1016,7 +1003,9 @@ html {
   height: 1.5rem;
   width: 3rem;
   cursor: pointer;
-  appearance: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   border-width: 1px;
   border-color: hsl(var(--bc) / var(--tw-border-opacity));
   --tw-border-opacity: 0.2;
@@ -1056,9 +1045,6 @@ html {
   100% {
     transform: scale(1);
   }
-}
-.carousel::-webkit-scrollbar {
-  display: none;
 }
 @keyframes checkmark {
 
@@ -1349,9 +1335,6 @@ details.collapse summary::-webkit-details-marker {
   --togglehandleborder: 0 0 0 3px hsl(var(--bc)) inset,
       var(--handleoffsetcalculator) 0 0 3px hsl(var(--bc)) inset;
 }
-.rounded-box {
-  border-radius: var(--rounded-box, 1rem);
-}
 .artboard.phone-1.horizontal,
       .artboard.phone-1.artboard-horizontal {
   width: 568px;
@@ -1468,6 +1451,7 @@ details.collapse summary::-webkit-details-marker {
   line-height: 1.25rem;
   background-color: var(--tooltip-color);
   color: var(--tooltip-text-color);
+  width: -moz-max-content;
   width: max-content;
 }
 .tooltip.tooltip-open:before,
@@ -1573,10 +1557,6 @@ details.collapse summary::-webkit-details-marker {
 .float-left {
   float: left;
 }
-.mx-2 {
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
-}
 .mx-8 {
   margin-left: 2rem;
   margin-right: 2rem;
@@ -1599,9 +1579,6 @@ details.collapse summary::-webkit-details-marker {
 }
 .mt-10 {
   margin-top: 2.5rem;
-}
-.mt-2 {
-  margin-top: 0.5rem;
 }
 .mt-6 {
   margin-top: 1.5rem;
@@ -1635,9 +1612,6 @@ details.collapse summary::-webkit-details-marker {
 }
 .h-6 {
   height: 1.5rem;
-}
-.h-\[36vh\] {
-  height: 36vh;
 }
 .h-\[42\] {
   height: 42;
@@ -1678,14 +1652,8 @@ details.collapse summary::-webkit-details-marker {
 .w-\[36\.125rem\] {
   width: 36.125rem;
 }
-.w-\[40vh\] {
-  width: 40vh;
-}
 .w-\[52rem\] {
   width: 52rem;
-}
-.w-\[60vh\] {
-  width: 60vh;
 }
 .w-\[7vh\] {
   width: 7vh;
@@ -1753,13 +1721,16 @@ details.collapse summary::-webkit-details-marker {
   gap: 1.5rem;
 }
 .gap-x-16 {
-  column-gap: 4rem;
+  -moz-column-gap: 4rem;
+       column-gap: 4rem;
 }
 .gap-x-4 {
-  column-gap: 1rem;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
 }
 .gap-x-6 {
-  column-gap: 1.5rem;
+  -moz-column-gap: 1.5rem;
+       column-gap: 1.5rem;
 }
 .gap-y-4 {
   row-gap: 1rem;
@@ -1792,10 +1763,6 @@ details.collapse summary::-webkit-details-marker {
 .rounded-xl {
   border-radius: 0.75rem;
 }
-.rounded-b-3xl {
-  border-bottom-right-radius: 1.5rem;
-  border-bottom-left-radius: 1.5rem;
-}
 .rounded-bl-3xl {
   border-bottom-left-radius: 1.5rem;
 }
@@ -1822,10 +1789,6 @@ details.collapse summary::-webkit-details-marker {
 }
 .border-t {
   border-top-width: 1px;
-}
-.border-gray-200 {
-  --tw-border-opacity: 1;
-  border-color: rgb(229 231 235 / var(--tw-border-opacity));
 }
 .border-gray-500 {
   --tw-border-opacity: 1;
@@ -1874,6 +1837,9 @@ details.collapse summary::-webkit-details-marker {
   --tw-bg-opacity: 1;
   background-color: rgb(79 70 229 / var(--tw-bg-opacity));
 }
+.bg-opacity-0 {
+  --tw-bg-opacity: 0;
+}
 .bg-opacity-20 {
   --tw-bg-opacity: 0.2;
 }
@@ -1889,32 +1855,20 @@ details.collapse summary::-webkit-details-marker {
 .bg-opacity-70 {
   --tw-bg-opacity: 0.7;
 }
-.bg-\[url\(\'https\:\/\/heybuddywebsite\.s3\.ap-south-1\.amazonaws\.com\/Images\/Ellipse0\.png\?response-content-disposition\=inline\&X-Amz-Security-Token\=IQoJb3JpZ2luX2VjEEEaCmFwLXNvdXRoLTEiRjBEAiAa\%2FdAUqAEzdF\%2BXbeENKQLuX2vnD64RcDlFXLNrjr3XAgIgdWIa6KJBFCle122SL\%2BfN\%2FuybSK551exz5bSiNVkp4PoqhAMIiv\%2F\%2F\%2F\%2F\%2F\%2F\%2F\%2F\%2F\%2FARAAGgwxMzk1ODY0OTU2MDgiDFy7YKnWS4QLgTBp3SrYAo5mEUXyF6sRHeP6Ilkch2eJ\%2FpZPhqs\%2BOo83Zmj0xAU1q0atmfva4JcKPiPg9AllwHVV6FQ8qBCfx9n4UVlE8QzjIlsYTUSbpJD4npAy\%2BvbYVZR9vYt0cYZkpffVqEhGbnxJk7qJUjBN4qs3WKTkShTbcAg5cCkTnEI0TG8Vg8\%2BMPufZ43H0\%2BwP6eOpsdnP\%2BBtJ0SYtMUCY3CYF\%2Fsmob75IVCNpwk\%2BP17\%2BbrNgngEbEQDX2pXgSwjLb9gjR4YRM3Duo\%2BERX\%2F6De3YabJYc\%2FZppDYEyuCrsAOPoF5tNxqR3ir3iNpp66g4jLVvV1D8tRRxpahTze\%2Frs9bh7XMz3hxpdxMBchhyaxmgohMuo\%2FHuiL4eNvXPN90ZNb5UUdiLJtVUFojxFjbcjMuuQMMUU1VF5g3\%2BlStq5dlIOxnhemWOYS8\%2B4Nxfk\%2Bi1uICnlIKal13ZsJvw9cnAcjAMKir16oGOrQCjlR6WBSITHlL8GQSO\%2B7jaxFsQHfCAaqcbqKwWvlc7PevH5y4Pk6hnjNgHMi2PSGnGYS9W2nCbnZkEqtOJqy6za1GMNH58JzmNMnf5znPk13GnoMd\%2FGankqIqTJZ6jMcx5fYyyaDd\%2BaFTg1NrUl9Vw4NDHmgvyWH\%2BKDrXbPTT5\%2BItyBSqdUr97xDLS4GximjTlbqZEOsu4kgxuKfHdIz73AKQQxZ8IXHXsbeG2XQR2eUwznDTZ2DpNFCaxDJ8g4rSx0FydyBZhBzkg4vsF\%2F778n\%2B4JvQVr9WajFgGL2JhwM5Wg3NbqZTo1iphFlItPDHhF9T1ZeKa1v8HPN3GrGxRes8IlL\%2BIjPOsSNOW7dsOjB4Azbes\%2FfjszgH\%2Fu7l4o6My8I8KJm3eyyWXosH0fLSxUgpzt20\%3D\&X-Amz-Algorithm\=AWS4-HMAC-SHA256\&X-Amz-Date\=20231116T084543Z\&X-Amz-SignedHeaders\=host\&X-Amz-Expires\=300\&X-Amz-Credential\=ASIASBAAA4R4COL4Z34Q\%2F20231116\%2Fap-south-1\%2Fs3\%2Faws4_request\&X-Amz-Signature\=ccab1dfd5ada735aa85a35579495be72552dc74b03133d7374713d4c8b4e3d03\'\)\] {
-  background-image: url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Ellipse0.png?response-content-disposition=inline&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEEaCmFwLXNvdXRoLTEiRjBEAiAa%2FdAUqAEzdF%2BXbeENKQLuX2vnD64RcDlFXLNrjr3XAgIgdWIa6KJBFCle122SL%2BfN%2FuybSK551exz5bSiNVkp4PoqhAMIiv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwxMzk1ODY0OTU2MDgiDFy7YKnWS4QLgTBp3SrYAo5mEUXyF6sRHeP6Ilkch2eJ%2FpZPhqs%2BOo83Zmj0xAU1q0atmfva4JcKPiPg9AllwHVV6FQ8qBCfx9n4UVlE8QzjIlsYTUSbpJD4npAy%2BvbYVZR9vYt0cYZkpffVqEhGbnxJk7qJUjBN4qs3WKTkShTbcAg5cCkTnEI0TG8Vg8%2BMPufZ43H0%2BwP6eOpsdnP%2BBtJ0SYtMUCY3CYF%2Fsmob75IVCNpwk%2BP17%2BbrNgngEbEQDX2pXgSwjLb9gjR4YRM3Duo%2BERX%2F6De3YabJYc%2FZppDYEyuCrsAOPoF5tNxqR3ir3iNpp66g4jLVvV1D8tRRxpahTze%2Frs9bh7XMz3hxpdxMBchhyaxmgohMuo%2FHuiL4eNvXPN90ZNb5UUdiLJtVUFojxFjbcjMuuQMMUU1VF5g3%2BlStq5dlIOxnhemWOYS8%2B4Nxfk%2Bi1uICnlIKal13ZsJvw9cnAcjAMKir16oGOrQCjlR6WBSITHlL8GQSO%2B7jaxFsQHfCAaqcbqKwWvlc7PevH5y4Pk6hnjNgHMi2PSGnGYS9W2nCbnZkEqtOJqy6za1GMNH58JzmNMnf5znPk13GnoMd%2FGankqIqTJZ6jMcx5fYyyaDd%2BaFTg1NrUl9Vw4NDHmgvyWH%2BKDrXbPTT5%2BItyBSqdUr97xDLS4GximjTlbqZEOsu4kgxuKfHdIz73AKQQxZ8IXHXsbeG2XQR2eUwznDTZ2DpNFCaxDJ8g4rSx0FydyBZhBzkg4vsF%2F778n%2B4JvQVr9WajFgGL2JhwM5Wg3NbqZTo1iphFlItPDHhF9T1ZeKa1v8HPN3GrGxRes8IlL%2BIjPOsSNOW7dsOjB4Azbes%2FfjszgH%2Fu7l4o6My8I8KJm3eyyWXosH0fLSxUgpzt20%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20231116T084543Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIASBAAA4R4COL4Z34Q%2F20231116%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Signature=ccab1dfd5ada735aa85a35579495be72552dc74b03133d7374713d4c8b4e3d03');
+.bg-\[url\(\'https\:\/\/heybuddywebsite\.s3\.ap-south-1\.amazonaws\.com\/Images\/Ellipse4\.png\'\)\] {
+  background-image: url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Ellipse4.png');
 }
-.bg-\[url\(\'https\:\/\/heybuddywebsite\.s3\.ap-south-1\.amazonaws\.com\/Images\/Ellipse1\.png\?response-content-disposition\=inline\&X-Amz-Security-Token\=IQoJb3JpZ2luX2VjEEEaCmFwLXNvdXRoLTEiRjBEAiAa\%2FdAUqAEzdF\%2BXbeENKQLuX2vnD64RcDlFXLNrjr3XAgIgdWIa6KJBFCle122SL\%2BfN\%2FuybSK551exz5bSiNVkp4PoqhAMIiv\%2F\%2F\%2F\%2F\%2F\%2F\%2F\%2F\%2F\%2FARAAGgwxMzk1ODY0OTU2MDgiDFy7YKnWS4QLgTBp3SrYAo5mEUXyF6sRHeP6Ilkch2eJ\%2FpZPhqs\%2BOo83Zmj0xAU1q0atmfva4JcKPiPg9AllwHVV6FQ8qBCfx9n4UVlE8QzjIlsYTUSbpJD4npAy\%2BvbYVZR9vYt0cYZkpffVqEhGbnxJk7qJUjBN4qs3WKTkShTbcAg5cCkTnEI0TG8Vg8\%2BMPufZ43H0\%2BwP6eOpsdnP\%2BBtJ0SYtMUCY3CYF\%2Fsmob75IVCNpwk\%2BP17\%2BbrNgngEbEQDX2pXgSwjLb9gjR4YRM3Duo\%2BERX\%2F6De3YabJYc\%2FZppDYEyuCrsAOPoF5tNxqR3ir3iNpp66g4jLVvV1D8tRRxpahTze\%2Frs9bh7XMz3hxpdxMBchhyaxmgohMuo\%2FHuiL4eNvXPN90ZNb5UUdiLJtVUFojxFjbcjMuuQMMUU1VF5g3\%2BlStq5dlIOxnhemWOYS8\%2B4Nxfk\%2Bi1uICnlIKal13ZsJvw9cnAcjAMKir16oGOrQCjlR6WBSITHlL8GQSO\%2B7jaxFsQHfCAaqcbqKwWvlc7PevH5y4Pk6hnjNgHMi2PSGnGYS9W2nCbnZkEqtOJqy6za1GMNH58JzmNMnf5znPk13GnoMd\%2FGankqIqTJZ6jMcx5fYyyaDd\%2BaFTg1NrUl9Vw4NDHmgvyWH\%2BKDrXbPTT5\%2BItyBSqdUr97xDLS4GximjTlbqZEOsu4kgxuKfHdIz73AKQQxZ8IXHXsbeG2XQR2eUwznDTZ2DpNFCaxDJ8g4rSx0FydyBZhBzkg4vsF\%2F778n\%2B4JvQVr9WajFgGL2JhwM5Wg3NbqZTo1iphFlItPDHhF9T1ZeKa1v8HPN3GrGxRes8IlL\%2BIjPOsSNOW7dsOjB4Azbes\%2FfjszgH\%2Fu7l4o6My8I8KJm3eyyWXosH0fLSxUgpzt20\%3D\&X-Amz-Algorithm\=AWS4-HMAC-SHA256\&X-Amz-Date\=20231116T084811Z\&X-Amz-SignedHeaders\=host\&X-Amz-Expires\=299\&X-Amz-Credential\=ASIASBAAA4R4COL4Z34Q\%2F20231116\%2Fap-south-1\%2Fs3\%2Faws4_request\&X-Amz-Signature\=3de9cfa520301bd661d177272eaa4c98c464301175686ee70382d5c6ab7993db\'\)\] {
-  background-image: url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Ellipse1.png?response-content-disposition=inline&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEEaCmFwLXNvdXRoLTEiRjBEAiAa%2FdAUqAEzdF%2BXbeENKQLuX2vnD64RcDlFXLNrjr3XAgIgdWIa6KJBFCle122SL%2BfN%2FuybSK551exz5bSiNVkp4PoqhAMIiv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwxMzk1ODY0OTU2MDgiDFy7YKnWS4QLgTBp3SrYAo5mEUXyF6sRHeP6Ilkch2eJ%2FpZPhqs%2BOo83Zmj0xAU1q0atmfva4JcKPiPg9AllwHVV6FQ8qBCfx9n4UVlE8QzjIlsYTUSbpJD4npAy%2BvbYVZR9vYt0cYZkpffVqEhGbnxJk7qJUjBN4qs3WKTkShTbcAg5cCkTnEI0TG8Vg8%2BMPufZ43H0%2BwP6eOpsdnP%2BBtJ0SYtMUCY3CYF%2Fsmob75IVCNpwk%2BP17%2BbrNgngEbEQDX2pXgSwjLb9gjR4YRM3Duo%2BERX%2F6De3YabJYc%2FZppDYEyuCrsAOPoF5tNxqR3ir3iNpp66g4jLVvV1D8tRRxpahTze%2Frs9bh7XMz3hxpdxMBchhyaxmgohMuo%2FHuiL4eNvXPN90ZNb5UUdiLJtVUFojxFjbcjMuuQMMUU1VF5g3%2BlStq5dlIOxnhemWOYS8%2B4Nxfk%2Bi1uICnlIKal13ZsJvw9cnAcjAMKir16oGOrQCjlR6WBSITHlL8GQSO%2B7jaxFsQHfCAaqcbqKwWvlc7PevH5y4Pk6hnjNgHMi2PSGnGYS9W2nCbnZkEqtOJqy6za1GMNH58JzmNMnf5znPk13GnoMd%2FGankqIqTJZ6jMcx5fYyyaDd%2BaFTg1NrUl9Vw4NDHmgvyWH%2BKDrXbPTT5%2BItyBSqdUr97xDLS4GximjTlbqZEOsu4kgxuKfHdIz73AKQQxZ8IXHXsbeG2XQR2eUwznDTZ2DpNFCaxDJ8g4rSx0FydyBZhBzkg4vsF%2F778n%2B4JvQVr9WajFgGL2JhwM5Wg3NbqZTo1iphFlItPDHhF9T1ZeKa1v8HPN3GrGxRes8IlL%2BIjPOsSNOW7dsOjB4Azbes%2FfjszgH%2Fu7l4o6My8I8KJm3eyyWXosH0fLSxUgpzt20%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20231116T084811Z&X-Amz-SignedHeaders=host&X-Amz-Expires=299&X-Amz-Credential=ASIASBAAA4R4COL4Z34Q%2F20231116%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Signature=3de9cfa520301bd661d177272eaa4c98c464301175686ee70382d5c6ab7993db');
+.bg-\[url\(\'https\:\/\/heybuddywebsite\.s3\.ap-south-1\.amazonaws\.com\/Images\/Ellipse6\.png\'\)\] {
+  background-image: url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Ellipse6.png');
 }
-.bg-\[url\(\'https\:\/\/heybuddywebsite\.s3\.ap-south-1\.amazonaws\.com\/Images\/Ellipse4\.png\?response-content-disposition\=inline\&X-Amz-Security-Token\=IQoJb3JpZ2luX2VjEEEaCmFwLXNvdXRoLTEiRjBEAiAa\%2FdAUqAEzdF\%2BXbeENKQLuX2vnD64RcDlFXLNrjr3XAgIgdWIa6KJBFCle122SL\%2BfN\%2FuybSK551exz5bSiNVkp4PoqhAMIiv\%2F\%2F\%2F\%2F\%2F\%2F\%2F\%2F\%2F\%2FARAAGgwxMzk1ODY0OTU2MDgiDFy7YKnWS4QLgTBp3SrYAo5mEUXyF6sRHeP6Ilkch2eJ\%2FpZPhqs\%2BOo83Zmj0xAU1q0atmfva4JcKPiPg9AllwHVV6FQ8qBCfx9n4UVlE8QzjIlsYTUSbpJD4npAy\%2BvbYVZR9vYt0cYZkpffVqEhGbnxJk7qJUjBN4qs3WKTkShTbcAg5cCkTnEI0TG8Vg8\%2BMPufZ43H0\%2BwP6eOpsdnP\%2BBtJ0SYtMUCY3CYF\%2Fsmob75IVCNpwk\%2BP17\%2BbrNgngEbEQDX2pXgSwjLb9gjR4YRM3Duo\%2BERX\%2F6De3YabJYc\%2FZppDYEyuCrsAOPoF5tNxqR3ir3iNpp66g4jLVvV1D8tRRxpahTze\%2Frs9bh7XMz3hxpdxMBchhyaxmgohMuo\%2FHuiL4eNvXPN90ZNb5UUdiLJtVUFojxFjbcjMuuQMMUU1VF5g3\%2BlStq5dlIOxnhemWOYS8\%2B4Nxfk\%2Bi1uICnlIKal13ZsJvw9cnAcjAMKir16oGOrQCjlR6WBSITHlL8GQSO\%2B7jaxFsQHfCAaqcbqKwWvlc7PevH5y4Pk6hnjNgHMi2PSGnGYS9W2nCbnZkEqtOJqy6za1GMNH58JzmNMnf5znPk13GnoMd\%2FGankqIqTJZ6jMcx5fYyyaDd\%2BaFTg1NrUl9Vw4NDHmgvyWH\%2BKDrXbPTT5\%2BItyBSqdUr97xDLS4GximjTlbqZEOsu4kgxuKfHdIz73AKQQxZ8IXHXsbeG2XQR2eUwznDTZ2DpNFCaxDJ8g4rSx0FydyBZhBzkg4vsF\%2F778n\%2B4JvQVr9WajFgGL2JhwM5Wg3NbqZTo1iphFlItPDHhF9T1ZeKa1v8HPN3GrGxRes8IlL\%2BIjPOsSNOW7dsOjB4Azbes\%2FfjszgH\%2Fu7l4o6My8I8KJm3eyyWXosH0fLSxUgpzt20\%3D\&X-Amz-Algorithm\=AWS4-HMAC-SHA256\&X-Amz-Date\=20231116T084949Z\&X-Amz-SignedHeaders\=host\&X-Amz-Expires\=300\&X-Amz-Credential\=ASIASBAAA4R4COL4Z34Q\%2F20231116\%2Fap-south-1\%2Fs3\%2Faws4_request\&X-Amz-Signature\=aeaf9ef2534983308a79fcf126c83ea0e560f682bf574c9589c0e335c9b04dcd\'\)\] {
-  background-image: url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Ellipse4.png?response-content-disposition=inline&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEEaCmFwLXNvdXRoLTEiRjBEAiAa%2FdAUqAEzdF%2BXbeENKQLuX2vnD64RcDlFXLNrjr3XAgIgdWIa6KJBFCle122SL%2BfN%2FuybSK551exz5bSiNVkp4PoqhAMIiv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwxMzk1ODY0OTU2MDgiDFy7YKnWS4QLgTBp3SrYAo5mEUXyF6sRHeP6Ilkch2eJ%2FpZPhqs%2BOo83Zmj0xAU1q0atmfva4JcKPiPg9AllwHVV6FQ8qBCfx9n4UVlE8QzjIlsYTUSbpJD4npAy%2BvbYVZR9vYt0cYZkpffVqEhGbnxJk7qJUjBN4qs3WKTkShTbcAg5cCkTnEI0TG8Vg8%2BMPufZ43H0%2BwP6eOpsdnP%2BBtJ0SYtMUCY3CYF%2Fsmob75IVCNpwk%2BP17%2BbrNgngEbEQDX2pXgSwjLb9gjR4YRM3Duo%2BERX%2F6De3YabJYc%2FZppDYEyuCrsAOPoF5tNxqR3ir3iNpp66g4jLVvV1D8tRRxpahTze%2Frs9bh7XMz3hxpdxMBchhyaxmgohMuo%2FHuiL4eNvXPN90ZNb5UUdiLJtVUFojxFjbcjMuuQMMUU1VF5g3%2BlStq5dlIOxnhemWOYS8%2B4Nxfk%2Bi1uICnlIKal13ZsJvw9cnAcjAMKir16oGOrQCjlR6WBSITHlL8GQSO%2B7jaxFsQHfCAaqcbqKwWvlc7PevH5y4Pk6hnjNgHMi2PSGnGYS9W2nCbnZkEqtOJqy6za1GMNH58JzmNMnf5znPk13GnoMd%2FGankqIqTJZ6jMcx5fYyyaDd%2BaFTg1NrUl9Vw4NDHmgvyWH%2BKDrXbPTT5%2BItyBSqdUr97xDLS4GximjTlbqZEOsu4kgxuKfHdIz73AKQQxZ8IXHXsbeG2XQR2eUwznDTZ2DpNFCaxDJ8g4rSx0FydyBZhBzkg4vsF%2F778n%2B4JvQVr9WajFgGL2JhwM5Wg3NbqZTo1iphFlItPDHhF9T1ZeKa1v8HPN3GrGxRes8IlL%2BIjPOsSNOW7dsOjB4Azbes%2FfjszgH%2Fu7l4o6My8I8KJm3eyyWXosH0fLSxUgpzt20%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20231116T084949Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIASBAAA4R4COL4Z34Q%2F20231116%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Signature=aeaf9ef2534983308a79fcf126c83ea0e560f682bf574c9589c0e335c9b04dcd');
+.bg-\[url\(\'https\:\/\/heybuddywebsite\.s3\.ap-south-1\.amazonaws\.com\/Images\/Ellipse7\.png\'\)\] {
+  background-image: url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Ellipse7.png');
 }
-.bg-\[url\(\'https\:\/\/heybuddywebsite\.s3\.ap-south-1\.amazonaws\.com\/Images\/Ellipse5\.png\?response-content-disposition\=inline\&X-Amz-Security-Token\=IQoJb3JpZ2luX2VjEEEaCmFwLXNvdXRoLTEiRjBEAiAa\%2FdAUqAEzdF\%2BXbeENKQLuX2vnD64RcDlFXLNrjr3XAgIgdWIa6KJBFCle122SL\%2BfN\%2FuybSK551exz5bSiNVkp4PoqhAMIiv\%2F\%2F\%2F\%2F\%2F\%2F\%2F\%2F\%2F\%2FARAAGgwxMzk1ODY0OTU2MDgiDFy7YKnWS4QLgTBp3SrYAo5mEUXyF6sRHeP6Ilkch2eJ\%2FpZPhqs\%2BOo83Zmj0xAU1q0atmfva4JcKPiPg9AllwHVV6FQ8qBCfx9n4UVlE8QzjIlsYTUSbpJD4npAy\%2BvbYVZR9vYt0cYZkpffVqEhGbnxJk7qJUjBN4qs3WKTkShTbcAg5cCkTnEI0TG8Vg8\%2BMPufZ43H0\%2BwP6eOpsdnP\%2BBtJ0SYtMUCY3CYF\%2Fsmob75IVCNpwk\%2BP17\%2BbrNgngEbEQDX2pXgSwjLb9gjR4YRM3Duo\%2BERX\%2F6De3YabJYc\%2FZppDYEyuCrsAOPoF5tNxqR3ir3iNpp66g4jLVvV1D8tRRxpahTze\%2Frs9bh7XMz3hxpdxMBchhyaxmgohMuo\%2FHuiL4eNvXPN90ZNb5UUdiLJtVUFojxFjbcjMuuQMMUU1VF5g3\%2BlStq5dlIOxnhemWOYS8\%2B4Nxfk\%2Bi1uICnlIKal13ZsJvw9cnAcjAMKir16oGOrQCjlR6WBSITHlL8GQSO\%2B7jaxFsQHfCAaqcbqKwWvlc7PevH5y4Pk6hnjNgHMi2PSGnGYS9W2nCbnZkEqtOJqy6za1GMNH58JzmNMnf5znPk13GnoMd\%2FGankqIqTJZ6jMcx5fYyyaDd\%2BaFTg1NrUl9Vw4NDHmgvyWH\%2BKDrXbPTT5\%2BItyBSqdUr97xDLS4GximjTlbqZEOsu4kgxuKfHdIz73AKQQxZ8IXHXsbeG2XQR2eUwznDTZ2DpNFCaxDJ8g4rSx0FydyBZhBzkg4vsF\%2F778n\%2B4JvQVr9WajFgGL2JhwM5Wg3NbqZTo1iphFlItPDHhF9T1ZeKa1v8HPN3GrGxRes8IlL\%2BIjPOsSNOW7dsOjB4Azbes\%2FfjszgH\%2Fu7l4o6My8I8KJm3eyyWXosH0fLSxUgpzt20\%3D\&X-Amz-Algorithm\=AWS4-HMAC-SHA256\&X-Amz-Date\=20231116T084910Z\&X-Amz-SignedHeaders\=host\&X-Amz-Expires\=300\&X-Amz-Credential\=ASIASBAAA4R4COL4Z34Q\%2F20231116\%2Fap-south-1\%2Fs3\%2Faws4_request\&X-Amz-Signature\=e5880737a0cf853ac7272f1284aac4963d549b4102553515cb13bb3fe96c088a\'\)\] {
-  background-image: url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Ellipse5.png?response-content-disposition=inline&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEEaCmFwLXNvdXRoLTEiRjBEAiAa%2FdAUqAEzdF%2BXbeENKQLuX2vnD64RcDlFXLNrjr3XAgIgdWIa6KJBFCle122SL%2BfN%2FuybSK551exz5bSiNVkp4PoqhAMIiv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwxMzk1ODY0OTU2MDgiDFy7YKnWS4QLgTBp3SrYAo5mEUXyF6sRHeP6Ilkch2eJ%2FpZPhqs%2BOo83Zmj0xAU1q0atmfva4JcKPiPg9AllwHVV6FQ8qBCfx9n4UVlE8QzjIlsYTUSbpJD4npAy%2BvbYVZR9vYt0cYZkpffVqEhGbnxJk7qJUjBN4qs3WKTkShTbcAg5cCkTnEI0TG8Vg8%2BMPufZ43H0%2BwP6eOpsdnP%2BBtJ0SYtMUCY3CYF%2Fsmob75IVCNpwk%2BP17%2BbrNgngEbEQDX2pXgSwjLb9gjR4YRM3Duo%2BERX%2F6De3YabJYc%2FZppDYEyuCrsAOPoF5tNxqR3ir3iNpp66g4jLVvV1D8tRRxpahTze%2Frs9bh7XMz3hxpdxMBchhyaxmgohMuo%2FHuiL4eNvXPN90ZNb5UUdiLJtVUFojxFjbcjMuuQMMUU1VF5g3%2BlStq5dlIOxnhemWOYS8%2B4Nxfk%2Bi1uICnlIKal13ZsJvw9cnAcjAMKir16oGOrQCjlR6WBSITHlL8GQSO%2B7jaxFsQHfCAaqcbqKwWvlc7PevH5y4Pk6hnjNgHMi2PSGnGYS9W2nCbnZkEqtOJqy6za1GMNH58JzmNMnf5znPk13GnoMd%2FGankqIqTJZ6jMcx5fYyyaDd%2BaFTg1NrUl9Vw4NDHmgvyWH%2BKDrXbPTT5%2BItyBSqdUr97xDLS4GximjTlbqZEOsu4kgxuKfHdIz73AKQQxZ8IXHXsbeG2XQR2eUwznDTZ2DpNFCaxDJ8g4rSx0FydyBZhBzkg4vsF%2F778n%2B4JvQVr9WajFgGL2JhwM5Wg3NbqZTo1iphFlItPDHhF9T1ZeKa1v8HPN3GrGxRes8IlL%2BIjPOsSNOW7dsOjB4Azbes%2FfjszgH%2Fu7l4o6My8I8KJm3eyyWXosH0fLSxUgpzt20%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20231116T084910Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIASBAAA4R4COL4Z34Q%2F20231116%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Signature=e5880737a0cf853ac7272f1284aac4963d549b4102553515cb13bb3fe96c088a');
+.bg-\[url\(\'https\:\/\/heybuddywebsite\.s3\.ap-south-1\.amazonaws\.com\/Images\/Ellipse8\.png\'\)\] {
+  background-image: url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Ellipse8.png');
 }
-.bg-\[url\(\'https\:\/\/heybuddywebsite\.s3\.ap-south-1\.amazonaws\.com\/Images\/Ellipse6\.png\?response-content-disposition\=inline\&X-Amz-Security-Token\=IQoJb3JpZ2luX2VjEEEaCmFwLXNvdXRoLTEiRjBEAiAa\%2FdAUqAEzdF\%2BXbeENKQLuX2vnD64RcDlFXLNrjr3XAgIgdWIa6KJBFCle122SL\%2BfN\%2FuybSK551exz5bSiNVkp4PoqhAMIiv\%2F\%2F\%2F\%2F\%2F\%2F\%2F\%2F\%2F\%2FARAAGgwxMzk1ODY0OTU2MDgiDFy7YKnWS4QLgTBp3SrYAo5mEUXyF6sRHeP6Ilkch2eJ\%2FpZPhqs\%2BOo83Zmj0xAU1q0atmfva4JcKPiPg9AllwHVV6FQ8qBCfx9n4UVlE8QzjIlsYTUSbpJD4npAy\%2BvbYVZR9vYt0cYZkpffVqEhGbnxJk7qJUjBN4qs3WKTkShTbcAg5cCkTnEI0TG8Vg8\%2BMPufZ43H0\%2BwP6eOpsdnP\%2BBtJ0SYtMUCY3CYF\%2Fsmob75IVCNpwk\%2BP17\%2BbrNgngEbEQDX2pXgSwjLb9gjR4YRM3Duo\%2BERX\%2F6De3YabJYc\%2FZppDYEyuCrsAOPoF5tNxqR3ir3iNpp66g4jLVvV1D8tRRxpahTze\%2Frs9bh7XMz3hxpdxMBchhyaxmgohMuo\%2FHuiL4eNvXPN90ZNb5UUdiLJtVUFojxFjbcjMuuQMMUU1VF5g3\%2BlStq5dlIOxnhemWOYS8\%2B4Nxfk\%2Bi1uICnlIKal13ZsJvw9cnAcjAMKir16oGOrQCjlR6WBSITHlL8GQSO\%2B7jaxFsQHfCAaqcbqKwWvlc7PevH5y4Pk6hnjNgHMi2PSGnGYS9W2nCbnZkEqtOJqy6za1GMNH58JzmNMnf5znPk13GnoMd\%2FGankqIqTJZ6jMcx5fYyyaDd\%2BaFTg1NrUl9Vw4NDHmgvyWH\%2BKDrXbPTT5\%2BItyBSqdUr97xDLS4GximjTlbqZEOsu4kgxuKfHdIz73AKQQxZ8IXHXsbeG2XQR2eUwznDTZ2DpNFCaxDJ8g4rSx0FydyBZhBzkg4vsF\%2F778n\%2B4JvQVr9WajFgGL2JhwM5Wg3NbqZTo1iphFlItPDHhF9T1ZeKa1v8HPN3GrGxRes8IlL\%2BIjPOsSNOW7dsOjB4Azbes\%2FfjszgH\%2Fu7l4o6My8I8KJm3eyyWXosH0fLSxUgpzt20\%3D\&X-Amz-Algorithm\=AWS4-HMAC-SHA256\&X-Amz-Date\=20231116T084707Z\&X-Amz-SignedHeaders\=host\&X-Amz-Expires\=300\&X-Amz-Credential\=ASIASBAAA4R4COL4Z34Q\%2F20231116\%2Fap-south-1\%2Fs3\%2Faws4_request\&X-Amz-Signature\=1805d0ea6834e1048733d2405ea451aa95721b56c2e1638c0b0400754674f861\'\)\] {
-  background-image: url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Ellipse6.png?response-content-disposition=inline&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEEaCmFwLXNvdXRoLTEiRjBEAiAa%2FdAUqAEzdF%2BXbeENKQLuX2vnD64RcDlFXLNrjr3XAgIgdWIa6KJBFCle122SL%2BfN%2FuybSK551exz5bSiNVkp4PoqhAMIiv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwxMzk1ODY0OTU2MDgiDFy7YKnWS4QLgTBp3SrYAo5mEUXyF6sRHeP6Ilkch2eJ%2FpZPhqs%2BOo83Zmj0xAU1q0atmfva4JcKPiPg9AllwHVV6FQ8qBCfx9n4UVlE8QzjIlsYTUSbpJD4npAy%2BvbYVZR9vYt0cYZkpffVqEhGbnxJk7qJUjBN4qs3WKTkShTbcAg5cCkTnEI0TG8Vg8%2BMPufZ43H0%2BwP6eOpsdnP%2BBtJ0SYtMUCY3CYF%2Fsmob75IVCNpwk%2BP17%2BbrNgngEbEQDX2pXgSwjLb9gjR4YRM3Duo%2BERX%2F6De3YabJYc%2FZppDYEyuCrsAOPoF5tNxqR3ir3iNpp66g4jLVvV1D8tRRxpahTze%2Frs9bh7XMz3hxpdxMBchhyaxmgohMuo%2FHuiL4eNvXPN90ZNb5UUdiLJtVUFojxFjbcjMuuQMMUU1VF5g3%2BlStq5dlIOxnhemWOYS8%2B4Nxfk%2Bi1uICnlIKal13ZsJvw9cnAcjAMKir16oGOrQCjlR6WBSITHlL8GQSO%2B7jaxFsQHfCAaqcbqKwWvlc7PevH5y4Pk6hnjNgHMi2PSGnGYS9W2nCbnZkEqtOJqy6za1GMNH58JzmNMnf5znPk13GnoMd%2FGankqIqTJZ6jMcx5fYyyaDd%2BaFTg1NrUl9Vw4NDHmgvyWH%2BKDrXbPTT5%2BItyBSqdUr97xDLS4GximjTlbqZEOsu4kgxuKfHdIz73AKQQxZ8IXHXsbeG2XQR2eUwznDTZ2DpNFCaxDJ8g4rSx0FydyBZhBzkg4vsF%2F778n%2B4JvQVr9WajFgGL2JhwM5Wg3NbqZTo1iphFlItPDHhF9T1ZeKa1v8HPN3GrGxRes8IlL%2BIjPOsSNOW7dsOjB4Azbes%2FfjszgH%2Fu7l4o6My8I8KJm3eyyWXosH0fLSxUgpzt20%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20231116T084707Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIASBAAA4R4COL4Z34Q%2F20231116%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Signature=1805d0ea6834e1048733d2405ea451aa95721b56c2e1638c0b0400754674f861');
-}
-.bg-\[url\(\'https\:\/\/heybuddywebsite\.s3\.ap-south-1\.amazonaws\.com\/Images\/Ellipse7\.png\?response-content-disposition\=inline\&X-Amz-Security-Token\=IQoJb3JpZ2luX2VjEEEaCmFwLXNvdXRoLTEiRjBEAiAa\%2FdAUqAEzdF\%2BXbeENKQLuX2vnD64RcDlFXLNrjr3XAgIgdWIa6KJBFCle122SL\%2BfN\%2FuybSK551exz5bSiNVkp4PoqhAMIiv\%2F\%2F\%2F\%2F\%2F\%2F\%2F\%2F\%2F\%2FARAAGgwxMzk1ODY0OTU2MDgiDFy7YKnWS4QLgTBp3SrYAo5mEUXyF6sRHeP6Ilkch2eJ\%2FpZPhqs\%2BOo83Zmj0xAU1q0atmfva4JcKPiPg9AllwHVV6FQ8qBCfx9n4UVlE8QzjIlsYTUSbpJD4npAy\%2BvbYVZR9vYt0cYZkpffVqEhGbnxJk7qJUjBN4qs3WKTkShTbcAg5cCkTnEI0TG8Vg8\%2BMPufZ43H0\%2BwP6eOpsdnP\%2BBtJ0SYtMUCY3CYF\%2Fsmob75IVCNpwk\%2BP17\%2BbrNgngEbEQDX2pXgSwjLb9gjR4YRM3Duo\%2BERX\%2F6De3YabJYc\%2FZppDYEyuCrsAOPoF5tNxqR3ir3iNpp66g4jLVvV1D8tRRxpahTze\%2Frs9bh7XMz3hxpdxMBchhyaxmgohMuo\%2FHuiL4eNvXPN90ZNb5UUdiLJtVUFojxFjbcjMuuQMMUU1VF5g3\%2BlStq5dlIOxnhemWOYS8\%2B4Nxfk\%2Bi1uICnlIKal13ZsJvw9cnAcjAMKir16oGOrQCjlR6WBSITHlL8GQSO\%2B7jaxFsQHfCAaqcbqKwWvlc7PevH5y4Pk6hnjNgHMi2PSGnGYS9W2nCbnZkEqtOJqy6za1GMNH58JzmNMnf5znPk13GnoMd\%2FGankqIqTJZ6jMcx5fYyyaDd\%2BaFTg1NrUl9Vw4NDHmgvyWH\%2BKDrXbPTT5\%2BItyBSqdUr97xDLS4GximjTlbqZEOsu4kgxuKfHdIz73AKQQxZ8IXHXsbeG2XQR2eUwznDTZ2DpNFCaxDJ8g4rSx0FydyBZhBzkg4vsF\%2F778n\%2B4JvQVr9WajFgGL2JhwM5Wg3NbqZTo1iphFlItPDHhF9T1ZeKa1v8HPN3GrGxRes8IlL\%2BIjPOsSNOW7dsOjB4Azbes\%2FfjszgH\%2Fu7l4o6My8I8KJm3eyyWXosH0fLSxUgpzt20\%3D\&X-Amz-Algorithm\=AWS4-HMAC-SHA256\&X-Amz-Date\=20231116T084622Z\&X-Amz-SignedHeaders\=host\&X-Amz-Expires\=300\&X-Amz-Credential\=ASIASBAAA4R4COL4Z34Q\%2F20231116\%2Fap-south-1\%2Fs3\%2Faws4_request\&X-Amz-Signature\=fcbdfa7c0558e13c14214ebd150dcc2282135e74aa02322db86a2e155df48c9e\'\)\] {
-  background-image: url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Ellipse7.png?response-content-disposition=inline&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEEaCmFwLXNvdXRoLTEiRjBEAiAa%2FdAUqAEzdF%2BXbeENKQLuX2vnD64RcDlFXLNrjr3XAgIgdWIa6KJBFCle122SL%2BfN%2FuybSK551exz5bSiNVkp4PoqhAMIiv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwxMzk1ODY0OTU2MDgiDFy7YKnWS4QLgTBp3SrYAo5mEUXyF6sRHeP6Ilkch2eJ%2FpZPhqs%2BOo83Zmj0xAU1q0atmfva4JcKPiPg9AllwHVV6FQ8qBCfx9n4UVlE8QzjIlsYTUSbpJD4npAy%2BvbYVZR9vYt0cYZkpffVqEhGbnxJk7qJUjBN4qs3WKTkShTbcAg5cCkTnEI0TG8Vg8%2BMPufZ43H0%2BwP6eOpsdnP%2BBtJ0SYtMUCY3CYF%2Fsmob75IVCNpwk%2BP17%2BbrNgngEbEQDX2pXgSwjLb9gjR4YRM3Duo%2BERX%2F6De3YabJYc%2FZppDYEyuCrsAOPoF5tNxqR3ir3iNpp66g4jLVvV1D8tRRxpahTze%2Frs9bh7XMz3hxpdxMBchhyaxmgohMuo%2FHuiL4eNvXPN90ZNb5UUdiLJtVUFojxFjbcjMuuQMMUU1VF5g3%2BlStq5dlIOxnhemWOYS8%2B4Nxfk%2Bi1uICnlIKal13ZsJvw9cnAcjAMKir16oGOrQCjlR6WBSITHlL8GQSO%2B7jaxFsQHfCAaqcbqKwWvlc7PevH5y4Pk6hnjNgHMi2PSGnGYS9W2nCbnZkEqtOJqy6za1GMNH58JzmNMnf5znPk13GnoMd%2FGankqIqTJZ6jMcx5fYyyaDd%2BaFTg1NrUl9Vw4NDHmgvyWH%2BKDrXbPTT5%2BItyBSqdUr97xDLS4GximjTlbqZEOsu4kgxuKfHdIz73AKQQxZ8IXHXsbeG2XQR2eUwznDTZ2DpNFCaxDJ8g4rSx0FydyBZhBzkg4vsF%2F778n%2B4JvQVr9WajFgGL2JhwM5Wg3NbqZTo1iphFlItPDHhF9T1ZeKa1v8HPN3GrGxRes8IlL%2BIjPOsSNOW7dsOjB4Azbes%2FfjszgH%2Fu7l4o6My8I8KJm3eyyWXosH0fLSxUgpzt20%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20231116T084622Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIASBAAA4R4COL4Z34Q%2F20231116%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Signature=fcbdfa7c0558e13c14214ebd150dcc2282135e74aa02322db86a2e155df48c9e');
-}
-.bg-\[url\(\'https\:\/\/heybuddywebsite\.s3\.ap-south-1\.amazonaws\.com\/Images\/Ellipse8\.png\?response-content-disposition\=inline\&X-Amz-Security-Token\=IQoJb3JpZ2luX2VjEEEaCmFwLXNvdXRoLTEiRjBEAiAa\%2FdAUqAEzdF\%2BXbeENKQLuX2vnD64RcDlFXLNrjr3XAgIgdWIa6KJBFCle122SL\%2BfN\%2FuybSK551exz5bSiNVkp4PoqhAMIiv\%2F\%2F\%2F\%2F\%2F\%2F\%2F\%2F\%2F\%2FARAAGgwxMzk1ODY0OTU2MDgiDFy7YKnWS4QLgTBp3SrYAo5mEUXyF6sRHeP6Ilkch2eJ\%2FpZPhqs\%2BOo83Zmj0xAU1q0atmfva4JcKPiPg9AllwHVV6FQ8qBCfx9n4UVlE8QzjIlsYTUSbpJD4npAy\%2BvbYVZR9vYt0cYZkpffVqEhGbnxJk7qJUjBN4qs3WKTkShTbcAg5cCkTnEI0TG8Vg8\%2BMPufZ43H0\%2BwP6eOpsdnP\%2BBtJ0SYtMUCY3CYF\%2Fsmob75IVCNpwk\%2BP17\%2BbrNgngEbEQDX2pXgSwjLb9gjR4YRM3Duo\%2BERX\%2F6De3YabJYc\%2FZppDYEyuCrsAOPoF5tNxqR3ir3iNpp66g4jLVvV1D8tRRxpahTze\%2Frs9bh7XMz3hxpdxMBchhyaxmgohMuo\%2FHuiL4eNvXPN90ZNb5UUdiLJtVUFojxFjbcjMuuQMMUU1VF5g3\%2BlStq5dlIOxnhemWOYS8\%2B4Nxfk\%2Bi1uICnlIKal13ZsJvw9cnAcjAMKir16oGOrQCjlR6WBSITHlL8GQSO\%2B7jaxFsQHfCAaqcbqKwWvlc7PevH5y4Pk6hnjNgHMi2PSGnGYS9W2nCbnZkEqtOJqy6za1GMNH58JzmNMnf5znPk13GnoMd\%2FGankqIqTJZ6jMcx5fYyyaDd\%2BaFTg1NrUl9Vw4NDHmgvyWH\%2BKDrXbPTT5\%2BItyBSqdUr97xDLS4GximjTlbqZEOsu4kgxuKfHdIz73AKQQxZ8IXHXsbeG2XQR2eUwznDTZ2DpNFCaxDJ8g4rSx0FydyBZhBzkg4vsF\%2F778n\%2B4JvQVr9WajFgGL2JhwM5Wg3NbqZTo1iphFlItPDHhF9T1ZeKa1v8HPN3GrGxRes8IlL\%2BIjPOsSNOW7dsOjB4Azbes\%2FfjszgH\%2Fu7l4o6My8I8KJm3eyyWXosH0fLSxUgpzt20\%3D\&X-Amz-Algorithm\=AWS4-HMAC-SHA256\&X-Amz-Date\=20231116T084446Z\&X-Amz-SignedHeaders\=host\&X-Amz-Expires\=300\&X-Amz-Credential\=ASIASBAAA4R4COL4Z34Q\%2F20231116\%2Fap-south-1\%2Fs3\%2Faws4_request\&X-Amz-Signature\=a3a8eaf17a02acb70c42c5cda3850c03ae07d2da77b11179b8e42dd8bcb9d2e2\'\)\] {
-  background-image: url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Ellipse8.png?response-content-disposition=inline&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEEaCmFwLXNvdXRoLTEiRjBEAiAa%2FdAUqAEzdF%2BXbeENKQLuX2vnD64RcDlFXLNrjr3XAgIgdWIa6KJBFCle122SL%2BfN%2FuybSK551exz5bSiNVkp4PoqhAMIiv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwxMzk1ODY0OTU2MDgiDFy7YKnWS4QLgTBp3SrYAo5mEUXyF6sRHeP6Ilkch2eJ%2FpZPhqs%2BOo83Zmj0xAU1q0atmfva4JcKPiPg9AllwHVV6FQ8qBCfx9n4UVlE8QzjIlsYTUSbpJD4npAy%2BvbYVZR9vYt0cYZkpffVqEhGbnxJk7qJUjBN4qs3WKTkShTbcAg5cCkTnEI0TG8Vg8%2BMPufZ43H0%2BwP6eOpsdnP%2BBtJ0SYtMUCY3CYF%2Fsmob75IVCNpwk%2BP17%2BbrNgngEbEQDX2pXgSwjLb9gjR4YRM3Duo%2BERX%2F6De3YabJYc%2FZppDYEyuCrsAOPoF5tNxqR3ir3iNpp66g4jLVvV1D8tRRxpahTze%2Frs9bh7XMz3hxpdxMBchhyaxmgohMuo%2FHuiL4eNvXPN90ZNb5UUdiLJtVUFojxFjbcjMuuQMMUU1VF5g3%2BlStq5dlIOxnhemWOYS8%2B4Nxfk%2Bi1uICnlIKal13ZsJvw9cnAcjAMKir16oGOrQCjlR6WBSITHlL8GQSO%2B7jaxFsQHfCAaqcbqKwWvlc7PevH5y4Pk6hnjNgHMi2PSGnGYS9W2nCbnZkEqtOJqy6za1GMNH58JzmNMnf5znPk13GnoMd%2FGankqIqTJZ6jMcx5fYyyaDd%2BaFTg1NrUl9Vw4NDHmgvyWH%2BKDrXbPTT5%2BItyBSqdUr97xDLS4GximjTlbqZEOsu4kgxuKfHdIz73AKQQxZ8IXHXsbeG2XQR2eUwznDTZ2DpNFCaxDJ8g4rSx0FydyBZhBzkg4vsF%2F778n%2B4JvQVr9WajFgGL2JhwM5Wg3NbqZTo1iphFlItPDHhF9T1ZeKa1v8HPN3GrGxRes8IlL%2BIjPOsSNOW7dsOjB4Azbes%2FfjszgH%2Fu7l4o6My8I8KJm3eyyWXosH0fLSxUgpzt20%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20231116T084446Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIASBAAA4R4COL4Z34Q%2F20231116%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Signature=a3a8eaf17a02acb70c42c5cda3850c03ae07d2da77b11179b8e42dd8bcb9d2e2');
-}
-.bg-\[url\(\'https\:\/\/heybuddywebsite\.s3\.ap-south-1\.amazonaws\.com\/Images\/Ellipse8\.png\?response-content-disposition\=inline\&X-Amz-Security-Token\=IQoJb3JpZ2luX2VjEEEaCmFwLXNvdXRoLTEiRjBEAiAa\%2FdAUqAEzdF\%2BXbeENKQLuX2vnD64RcDlFXLNrjr3XAgIgdWIa6KJBFCle122SL\%2BfN\%2FuybSK551exz5bSiNVkp4PoqhAMIiv\%2F\%2F\%2F\%2F\%2F\%2F\%2F\%2F\%2F\%2FARAAGgwxMzk1ODY0OTU2MDgiDFy7YKnWS4QLgTBp3SrYAo5mEUXyF6sRHeP6Ilkch2eJ\%2FpZPhqs\%2BOo83Zmj0xAU1q0atmfva4JcKPiPg9AllwHVV6FQ8qBCfx9n4UVlE8QzjIlsYTUSbpJD4npAy\%2BvbYVZR9vYt0cYZkpffVqEhGbnxJk7qJUjBN4qs3WKTkShTbcAg5cCkTnEI0TG8Vg8\%2BMPufZ43H0\%2BwP6eOpsdnP\%2BBtJ0SYtMUCY3CYF\%2Fsmob75IVCNpwk\%2BP17\%2BbrNgngEbEQDX2pXgSwjLb9gjR4YRM3Duo\%2BERX\%2F6De3YabJYc\%2FZppDYEyuCrsAOPoF5tNxqR3ir3iNpp66g4jLVvV1D8tRRxpahTze\%2Frs9bh7XMz3hxpdxMBchhyaxmgohMuo\%2FHuiL4eNvXPN90ZNb5UUdiLJtVUFojxFjbcjMuuQMMUU1VF5g3\%2BlStq5dlIOxnhemWOYS8\%2B4Nxfk\%2Bi1uICnlIKal13ZsJvw9cnAcjAMKir16oGOrQCjlR6WBSITHlL8GQSO\%2B7jaxFsQHfCAaqcbqKwWvlc7PevH5y4Pk6hnjNgHMi2PSGnGYS9W2nCbnZkEqtOJqy6za1GMNH58JzmNMnf5znPk13GnoMd\%2FGankqIqTJZ6jMcx5fYyyaDd\%2BaFTg1NrUl9Vw4NDHmgvyWH\%2BKDrXbPTT5\%2BItyBSqdUr97xDLS4GximjTlbqZEOsu4kgxuKfHdIz73AKQQxZ8IXHXsbeG2XQR2eUwznDTZ2DpNFCaxDJ8g4rSx0FydyBZhBzkg4vsF\%2F778n\%2B4JvQVr9WajFgGL2JhwM5Wg3NbqZTo1iphFlItPDHhF9T1ZeKa1v8HPN3GrGxRes8IlL\%2BIjPOsSNOW7dsOjB4Azbes\%2FfjszgH\%2Fu7l4o6My8I8KJm3eyyWXosH0fLSxUgpzt20\%3D\&X-Amz-Algorithm\=AWS4-HMAC-SHA256\&X-Amz-Date\=20231116T085040Z\&X-Amz-SignedHeaders\=host\&X-Amz-Expires\=300\&X-Amz-Credential\=ASIASBAAA4R4COL4Z34Q\%2F20231116\%2Fap-south-1\%2Fs3\%2Faws4_request\&X-Amz-Signature\=1f20899f8d6cca21739f769afd3044eac71499c86b66ed24b9b3f73889f058b4\'\)\] {
-  background-image: url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Ellipse8.png?response-content-disposition=inline&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEEaCmFwLXNvdXRoLTEiRjBEAiAa%2FdAUqAEzdF%2BXbeENKQLuX2vnD64RcDlFXLNrjr3XAgIgdWIa6KJBFCle122SL%2BfN%2FuybSK551exz5bSiNVkp4PoqhAMIiv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwxMzk1ODY0OTU2MDgiDFy7YKnWS4QLgTBp3SrYAo5mEUXyF6sRHeP6Ilkch2eJ%2FpZPhqs%2BOo83Zmj0xAU1q0atmfva4JcKPiPg9AllwHVV6FQ8qBCfx9n4UVlE8QzjIlsYTUSbpJD4npAy%2BvbYVZR9vYt0cYZkpffVqEhGbnxJk7qJUjBN4qs3WKTkShTbcAg5cCkTnEI0TG8Vg8%2BMPufZ43H0%2BwP6eOpsdnP%2BBtJ0SYtMUCY3CYF%2Fsmob75IVCNpwk%2BP17%2BbrNgngEbEQDX2pXgSwjLb9gjR4YRM3Duo%2BERX%2F6De3YabJYc%2FZppDYEyuCrsAOPoF5tNxqR3ir3iNpp66g4jLVvV1D8tRRxpahTze%2Frs9bh7XMz3hxpdxMBchhyaxmgohMuo%2FHuiL4eNvXPN90ZNb5UUdiLJtVUFojxFjbcjMuuQMMUU1VF5g3%2BlStq5dlIOxnhemWOYS8%2B4Nxfk%2Bi1uICnlIKal13ZsJvw9cnAcjAMKir16oGOrQCjlR6WBSITHlL8GQSO%2B7jaxFsQHfCAaqcbqKwWvlc7PevH5y4Pk6hnjNgHMi2PSGnGYS9W2nCbnZkEqtOJqy6za1GMNH58JzmNMnf5znPk13GnoMd%2FGankqIqTJZ6jMcx5fYyyaDd%2BaFTg1NrUl9Vw4NDHmgvyWH%2BKDrXbPTT5%2BItyBSqdUr97xDLS4GximjTlbqZEOsu4kgxuKfHdIz73AKQQxZ8IXHXsbeG2XQR2eUwznDTZ2DpNFCaxDJ8g4rSx0FydyBZhBzkg4vsF%2F778n%2B4JvQVr9WajFgGL2JhwM5Wg3NbqZTo1iphFlItPDHhF9T1ZeKa1v8HPN3GrGxRes8IlL%2BIjPOsSNOW7dsOjB4Azbes%2FfjszgH%2Fu7l4o6My8I8KJm3eyyWXosH0fLSxUgpzt20%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20231116T085040Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIASBAAA4R4COL4Z34Q%2F20231116%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Signature=1f20899f8d6cca21739f769afd3044eac71499c86b66ed24b9b3f73889f058b4');
-}
-.bg-\[url\(\'https\:\/\/heybuddywebsite\.s3\.ap-south-1\.amazonaws\.com\/Images\/footerimg\.png\?response-content-disposition\=inline\&X-Amz-Security-Token\=IQoJb3JpZ2luX2VjEEEaCmFwLXNvdXRoLTEiRjBEAiAa\%2FdAUqAEzdF\%2BXbeENKQLuX2vnD64RcDlFXLNrjr3XAgIgdWIa6KJBFCle122SL\%2BfN\%2FuybSK551exz5bSiNVkp4PoqhAMIiv\%2F\%2F\%2F\%2F\%2F\%2F\%2F\%2F\%2F\%2FARAAGgwxMzk1ODY0OTU2MDgiDFy7YKnWS4QLgTBp3SrYAo5mEUXyF6sRHeP6Ilkch2eJ\%2FpZPhqs\%2BOo83Zmj0xAU1q0atmfva4JcKPiPg9AllwHVV6FQ8qBCfx9n4UVlE8QzjIlsYTUSbpJD4npAy\%2BvbYVZR9vYt0cYZkpffVqEhGbnxJk7qJUjBN4qs3WKTkShTbcAg5cCkTnEI0TG8Vg8\%2BMPufZ43H0\%2BwP6eOpsdnP\%2BBtJ0SYtMUCY3CYF\%2Fsmob75IVCNpwk\%2BP17\%2BbrNgngEbEQDX2pXgSwjLb9gjR4YRM3Duo\%2BERX\%2F6De3YabJYc\%2FZppDYEyuCrsAOPoF5tNxqR3ir3iNpp66g4jLVvV1D8tRRxpahTze\%2Frs9bh7XMz3hxpdxMBchhyaxmgohMuo\%2FHuiL4eNvXPN90ZNb5UUdiLJtVUFojxFjbcjMuuQMMUU1VF5g3\%2BlStq5dlIOxnhemWOYS8\%2B4Nxfk\%2Bi1uICnlIKal13ZsJvw9cnAcjAMKir16oGOrQCjlR6WBSITHlL8GQSO\%2B7jaxFsQHfCAaqcbqKwWvlc7PevH5y4Pk6hnjNgHMi2PSGnGYS9W2nCbnZkEqtOJqy6za1GMNH58JzmNMnf5znPk13GnoMd\%2FGankqIqTJZ6jMcx5fYyyaDd\%2BaFTg1NrUl9Vw4NDHmgvyWH\%2BKDrXbPTT5\%2BItyBSqdUr97xDLS4GximjTlbqZEOsu4kgxuKfHdIz73AKQQxZ8IXHXsbeG2XQR2eUwznDTZ2DpNFCaxDJ8g4rSx0FydyBZhBzkg4vsF\%2F778n\%2B4JvQVr9WajFgGL2JhwM5Wg3NbqZTo1iphFlItPDHhF9T1ZeKa1v8HPN3GrGxRes8IlL\%2BIjPOsSNOW7dsOjB4Azbes\%2FfjszgH\%2Fu7l4o6My8I8KJm3eyyWXosH0fLSxUgpzt20\%3D\&X-Amz-Algorithm\=AWS4-HMAC-SHA256\&X-Amz-Date\=20231116T085105Z\&X-Amz-SignedHeaders\=host\&X-Amz-Expires\=300\&X-Amz-Credential\=ASIASBAAA4R4COL4Z34Q\%2F20231116\%2Fap-south-1\%2Fs3\%2Faws4_request\&X-Amz-Signature\=ffab3985668bdd3e66107e681e04e95e61c9ac7f9eb18b2905036d073aa3c561\'\)\] {
-  background-image: url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/footerimg.png?response-content-disposition=inline&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEEaCmFwLXNvdXRoLTEiRjBEAiAa%2FdAUqAEzdF%2BXbeENKQLuX2vnD64RcDlFXLNrjr3XAgIgdWIa6KJBFCle122SL%2BfN%2FuybSK551exz5bSiNVkp4PoqhAMIiv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwxMzk1ODY0OTU2MDgiDFy7YKnWS4QLgTBp3SrYAo5mEUXyF6sRHeP6Ilkch2eJ%2FpZPhqs%2BOo83Zmj0xAU1q0atmfva4JcKPiPg9AllwHVV6FQ8qBCfx9n4UVlE8QzjIlsYTUSbpJD4npAy%2BvbYVZR9vYt0cYZkpffVqEhGbnxJk7qJUjBN4qs3WKTkShTbcAg5cCkTnEI0TG8Vg8%2BMPufZ43H0%2BwP6eOpsdnP%2BBtJ0SYtMUCY3CYF%2Fsmob75IVCNpwk%2BP17%2BbrNgngEbEQDX2pXgSwjLb9gjR4YRM3Duo%2BERX%2F6De3YabJYc%2FZppDYEyuCrsAOPoF5tNxqR3ir3iNpp66g4jLVvV1D8tRRxpahTze%2Frs9bh7XMz3hxpdxMBchhyaxmgohMuo%2FHuiL4eNvXPN90ZNb5UUdiLJtVUFojxFjbcjMuuQMMUU1VF5g3%2BlStq5dlIOxnhemWOYS8%2B4Nxfk%2Bi1uICnlIKal13ZsJvw9cnAcjAMKir16oGOrQCjlR6WBSITHlL8GQSO%2B7jaxFsQHfCAaqcbqKwWvlc7PevH5y4Pk6hnjNgHMi2PSGnGYS9W2nCbnZkEqtOJqy6za1GMNH58JzmNMnf5znPk13GnoMd%2FGankqIqTJZ6jMcx5fYyyaDd%2BaFTg1NrUl9Vw4NDHmgvyWH%2BKDrXbPTT5%2BItyBSqdUr97xDLS4GximjTlbqZEOsu4kgxuKfHdIz73AKQQxZ8IXHXsbeG2XQR2eUwznDTZ2DpNFCaxDJ8g4rSx0FydyBZhBzkg4vsF%2F778n%2B4JvQVr9WajFgGL2JhwM5Wg3NbqZTo1iphFlItPDHhF9T1ZeKa1v8HPN3GrGxRes8IlL%2BIjPOsSNOW7dsOjB4Azbes%2FfjszgH%2Fu7l4o6My8I8KJm3eyyWXosH0fLSxUgpzt20%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20231116T085105Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIASBAAA4R4COL4Z34Q%2F20231116%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Signature=ffab3985668bdd3e66107e681e04e95e61c9ac7f9eb18b2905036d073aa3c561');
+.bg-\[url\(\'https\:\/\/heybuddywebsite\.s3\.ap-south-1\.amazonaws\.com\/Images\/footerimg\.png\'\)\] {
+  background-image: url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/footerimg.png');
 }
 .bg-gradient-to-tr {
   background-image: linear-gradient(to top right, var(--tw-gradient-stops));
@@ -1929,6 +1883,9 @@ details.collapse summary::-webkit-details-marker {
 }
 .bg-auto {
   background-size: auto;
+}
+.bg-contain {
+  background-size: contain;
 }
 .bg-cover {
   background-size: cover;
@@ -1949,10 +1906,8 @@ details.collapse summary::-webkit-details-marker {
   background-repeat: no-repeat;
 }
 .object-cover {
-  object-fit: cover;
-}
-.object-fill {
-  object-fit: fill;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .p-2 {
   padding: 0.5rem;
@@ -1989,10 +1944,6 @@ details.collapse summary::-webkit-details-marker {
 .px-8 {
   padding-left: 2rem;
   padding-right: 2rem;
-}
-.py-12 {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
 }
 .py-16 {
   padding-top: 4rem;
@@ -2081,22 +2032,12 @@ details.collapse summary::-webkit-details-marker {
 .font-semibold {
   font-weight: 600;
 }
-.leading-7 {
-  line-height: 1.75rem;
-}
-.leading-8 {
-  line-height: 2rem;
-}
 .tracking-tight {
   letter-spacing: -0.025em;
 }
 .text-gray-500 {
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity));
-}
-.text-gray-600 {
-  --tw-text-opacity: 1;
-  color: rgb(75 85 99 / var(--tw-text-opacity));
 }
 .text-gray-900 {
   --tw-text-opacity: 1;
@@ -2167,7 +2108,8 @@ details.collapse summary::-webkit-details-marker {
 }
 
 body{
-    background-color: black;;
+    background-color: black;
+    overflow-x: hidden;
 }
 
 .scrollbar-hide::-webkit-scrollbar {
@@ -2341,10 +2283,6 @@ body{
     margin-right: 1.5rem;
   }
 
-  .lg\:mt-16 {
-    margin-top: 4rem;
-  }
-
   .lg\:flex {
     display: flex;
   }
@@ -2363,10 +2301,6 @@ body{
 
   .lg\:h-\[10vh\] {
     height: 10vh;
-  }
-
-  .lg\:h-\[60vh\] {
-    height: 60vh;
   }
 
   .lg\:h-\[70vh\] {
@@ -2395,10 +2329,6 @@ body{
 
   .lg\:w-\[60\%\] {
     width: 60%;
-  }
-
-  .lg\:w-\[60vh\] {
-    width: 60vh;
   }
 
   .lg\:w-\[80\%\] {
@@ -2516,10 +2446,6 @@ body{
 
   .lg\:pt-24 {
     padding-top: 6rem;
-  }
-
-  .lg\:pt-32 {
-    padding-top: 8rem;
   }
 
   .lg\:pt-56 {

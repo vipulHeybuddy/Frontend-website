@@ -26,7 +26,7 @@ const Landingpg = () => {
                 className="lg:text-6xl text-3xl lg:pb-8 font-bold tracking-tight text-white sm:text-6xl"
                 {...textAnimation}
               >
-                A Metaverse Development Comapny From Future
+                A Metaverse Development Company From Future
               </motion.h1>
               <motion.p
                 className="mt-6 text-center mx-auto lg:w-[60%] lg:text-2xl lg:leading-8 text-white "
