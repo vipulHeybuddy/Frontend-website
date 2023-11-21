@@ -17,7 +17,7 @@ const Landingpg = () => {
 
   return (
     <div>
-      <div className=" bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Ellipse8.png')] bg-no-repeat bg-cover">
+      <div className=" bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Ellipse8.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
         <div className="relative isolate px-6 pt-14 lg:px-8">
           {/* ... Your existing code ... */}
           <div className="mx-auto lg:w-[60%] py-32 sm:pt-48 lg:pt-56">

@@ -50,8 +50,6 @@ export default function Home() {
       {/* <motion.div {...fadeInAnimation2}> */}
       <Pagenation />
       {/* </motion.div> */}
-
-      {/* <Tab1/> */}
       
       <Grid2 />
       <Ourclients />

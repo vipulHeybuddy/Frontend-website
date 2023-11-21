@@ -48,14 +48,14 @@ const Grid1 = () => {
             </div>
           </div>
         </div>
-        <div style={{marginTop: '2rem'}}>
+        <div style={{marginTop: '2rem'}} className="">
           <motion.div
-            class="p-4  grid mb-8 mx-auto text-center justify-center rounded-3xl shadow-sm grid-cols-2 md:grid-cols-2 "
+            class="p-4  grid mb-8 mx-auto text-center justify-center rounded-3xl shadow-sm grid-cols-2 md:grid-cols-2"
             {...textAnimation1}
           >
             <figure class="flex flex-col py-6  lg:p-12  border-b border-gray-900 rounded-tl-3xl md:rounded-t-none md:rounded-tl-3xl md:border-r h-full w-full bg-gray-600  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-40">
               <blockquote class="  lg:mb-8 dark:text-gray-400">
-                <div className="grid sm:grid-1 md:grid-cols-2 lg:grid-cols-2">
+                <div className="grid lg:px-12 sm:grid-1 md:grid-cols-2 lg:grid-cols-2">
                   <div className="py-4">
                     <Image
 
@@ -63,7 +63,7 @@ const Grid1 = () => {
                       width={300}
                       height={300}
                       alt="logo"
-                      className="w-[7vh] h-[7vh] lg:w-[10vh] lg:h-[10vh] lg:float-left mx-auto "
+                      className="w-[7vh] h-[7vh] lg:w-[10vh] lg:h-[10vh] lg:float-left mx-auto"
                     />
                   </div>
 
@@ -79,7 +79,7 @@ const Grid1 = () => {
 
             <figure class="flex flex-col py-6 lg:p-12 border-b border-gray-900 rounded-tr-3xl  h-full w-full bg-gray-500  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-40">
               <blockquote class=" text-gray-500 lg:mb-8 dark:text-gray-400">
-                <div className="grid sm:grid-1 md:grid-cols-2 lg:grid-cols-2">
+                <div className="lg:px-10 grid sm:grid-1 md:grid-cols-2 lg:grid-cols-2">
                   <div className="py-4">
                     <Image
                       src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/img2.png"
@@ -89,11 +89,11 @@ const Grid1 = () => {
                     />
                   </div>
 
-                  <div className="lg:text-left">
+                  <div className="lg:text-left px-4">
                     <h3 class="lg:text-2xl font-semibold text-gray-900 dark:text-white">
                       2.5 Billion
                     </h3>
-                    <p className="text-sm">people will use VR by 2027</p>
+                    <p className="text-sm px-2">people will use VR by 2027</p>
                   </div>
                 </div>
               </blockquote>
@@ -101,7 +101,7 @@ const Grid1 = () => {
 
             <figure class="flex flex-col items-center justify-center py-6 px-2 lg:p-12 text-center  border-b border-gray-900 rounded-bl-3xl md:border-b-0 md:border-r   h-full w-full bg-gray-500  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-40">
               <blockquote class=" mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
-                <div className="grid sm:grid-1 md:grid-cols-2 lg:grid-cols-2">
+                <div className="lg:px-10 grid sm:grid-1 md:grid-cols-2 lg:grid-cols-2">
                   <div className="py-4">
                     <Image
                       src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/img3.png"
@@ -122,7 +122,7 @@ const Grid1 = () => {
 
             <figure class="flex flex-col items-center justify-center py-6 px-2 lg:p-12 text-center  border-gray-900 rounded-br-3xl md:rounded-br-3xl h-full w-full bg-gray-600  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30">
               <blockquote class="mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
-                <div className="grid sm:grid-1 md:grid-cols-2 lg:grid-cols-2">
+                <div className="lg:px-10 grid sm:grid-1 md:grid-cols-2 lg:grid-cols-2">
                   <div className="py-4">
                     <Image
                       src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/img4.png"

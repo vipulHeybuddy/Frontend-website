@@ -75,7 +75,7 @@ const Grid = () => {
     className=" " id="whyus">
       {isSmallScreen ? (
         <div>
-          <div class="p-2 lg:p-6 w-[90%] lg:w-[80%] bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Ellipse6.png')] bg-no-repeat bg-cover  grid mb-8 mx-auto text-center justify-center rounded-xl shadow-sm sm:grid-1 md:mb-12 md:grid-cols-4 gap-y-4 gap-x-4">
+          <div class="p-2 lg:p-6 w-[90%] lg:w-[80%] bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Ellipse6.png')] bg-no-repeat bg-cover bg-[center_top_1rem] grid mb-8 mx-auto text-center justify-center rounded-xl shadow-sm sm:grid-1 md:mb-12 md:grid-cols-4 gap-y-4 gap-x-4">
           <figure style={{display: 'flex' , justifyContent: 'center'}} class="lg:col-span-2 py-6 lg:row-span-2 flex flex-col lg:p-16 border-2 border-gray-500 rounded-3xl h-full w-full bg-gray-600 bg-clip-padding  bg-opacity-0 justify-center items-center">
               <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
                 <h3 class="lg:text-6xl  font-semibold text-gray-900 dark:text-white">
@@ -150,9 +150,9 @@ const Grid = () => {
           </div>
         </div>
       ) : (
-        <div className="">
+        <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Ellipse6.png')] bg-no-repeat bg-cover">
 
-          <div class="p-2 lg:p-6 w-[90%] lg:w-[80%] bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Ellipse6.png')] bg-no-repeat bg-cover  grid mb-8 mx-auto text-center justify-center rounded-xl shadow-sm sm:grid-1 md:mb-12 md:grid-cols-4 gap-y-4 gap-x-4">
+          <div class="p-2 lg:p-6 w-[90%] lg:w-[80%]  grid mb-8 mx-auto text-center justify-center rounded-xl shadow-sm sm:grid-1 md:mb-12 md:grid-cols-4 gap-y-4 gap-x-4">
             <figure class="flex flex-col  p-2 lg:p-4  border-b border-2 border-gray-500 rounded-3xl  h-full w-full bg-gray-600  bg-clip-padding  bg-opacity-0">
               <blockquote class="   dark:text-gray-400">
                 <h3 class="text-left text-4xl lg:text-6xl font-semibold text-gray-900 dark:text-gray-500 opacity-30">

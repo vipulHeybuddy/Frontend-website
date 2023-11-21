@@ -7,26 +7,12 @@ import Link from "next/link";
 
 
 const Pagenation = () => {
-  // const [isSmallScreen, setIsSmallScreen] = useState(false);
+  const [isSmallScreen, setIsSmallScreen] = useState(false);
   // let [tabOrientation, setTabOrientation] = useState("horizontal");
 
   const [openTab, setOpenTab] = React.useState(1);
 
-  
 
-  // useEffect(() => {
-  //   const handleResize = () => {
-  //     setIsSmallScreen(window.innerWidth <= 600);
-  //   };
-
-  //   handleResize();
-
-  //   window.addEventListener("resize", handleResize);
-
-  //   return () => {
-  //     window.removeEventListener("resize", handleResize);
-  //   };
-  // }, []);
 
   const textAnimation1 = {
     initial: { opacity: 0, y: 20 },
@@ -42,7 +28,8 @@ const Pagenation = () => {
         <motion.h3 {...textAnimation1}>Featured Projects</motion.h3>
       </div>
        
-        
+
+          
           <div
             className="flex mb-0 list-none flex-wrap pt-3 pb-4 flex-row"
             role="tablist"
@@ -126,12 +113,12 @@ const Pagenation = () => {
                 Fashion & Lifestyle
               </a>
             </div>
-
+         
           </div>
-
+           
 
           <div className="relative flex flex-col min-w-0 break-words text-white w-full mb-6 shadow-lg rounded">
-            <div className="px-4 py-5 flex-auto">
+            <div className=" lg:px-4 py-5 flex-auto">
 
               <div className="tab-content tab-space">
 
@@ -142,7 +129,7 @@ const Pagenation = () => {
                   src='https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/img1.webp'
                   width={700}
                   height={700}
-                  className="rounded-3xl w-[100vh] h-[60vh] "
+                  className="rounded-3xl w-[100vh] h-[40vh] lg:w-[100vh] lg:h-[60vh] "
                 />
               </div>
               <div className="lg:pt-20">
@@ -176,7 +163,7 @@ const Pagenation = () => {
                   src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/img1.webp"
                   width={700}
                   height={700}
-                  className="rounded-3xl w-[100vh] h-[60vh] "
+                  className="rounded-3xl w-[100vh] h-[40vh] lg:w-[100vh] lg:h-[60vh] "
                 />
               </div>
 
@@ -210,7 +197,7 @@ const Pagenation = () => {
                   src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/img1.webp"
                   width={700}
                   height={700}
-                  className="rounded-3xl w-[100vh] h-[60vh] "
+                  className="rounded-3xl w-[100vh] h-[40vh] lg:w-[100vh] lg:h-[60vh] "
                 />
               </div>
               <div className="lg:pt-20">
@@ -243,7 +230,7 @@ const Pagenation = () => {
                   src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/img1.webp"
                   width={700}
                   height={700}
-                  className="rounded-3xl w-[100vh] h-[60vh] "
+                  className="rounded-3xl w-[100vh] h-[40vh] lg:w-[100vh] lg:h-[60vh] "
                 />
               </div>
               <div className="lg:pt-20">

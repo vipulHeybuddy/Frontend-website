@@ -5,23 +5,23 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <div className="lg:w-[80%] h-full bottom-0   mx-auto ">
+    <div className="lg:w-[80%] h-full bottom-0  mx-auto text-center lg:text-left ">
       <footer class="top-8 bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/footerimg.png')] bottom-0 h-[42] bg-no-repeat bg-auto object-cover bg-[bottom]">
         <div class="mx-auto space-y-8 px-4  sm:px-6 lg:space-y-16 lg:px-16">
           <div class="sm:flex sm:items-center sm:justify-between">
-            <div class="text-white py-4">
+            <div class="text-white py-4 ">
               <Image
                 width={700}
                 height={700}
                 // src={Logo}
                 src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/logo2.png"
-                className="mr-6 h:8 w-[10rem] lg:h-16 lg:w-[17rem] cursor-pointer"
+                className="mx-auto lg:mr-6 h:8 w-[10rem] lg:h-16 lg:w-[17rem] cursor-pointer"
                 alt="Hey Buddy"
               />
             </div>
-            <div>
+            <div className="">
               <h1 className="text-white text-2xl font-semibold lg:pb-4">Follow Us</h1>
-              <ul class="mt-8 flex justify-start gap-6 sm:mt-0 sm:justify-end">
+              <ul class="mx-auto justify-center mt-8 flex lg:justify-start gap-6 sm:mt-0 sm:justify-end">
                 <li>
                   <a
                     href="/"
@@ -197,7 +197,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <p class=" text-center mx-auto border-t py-4 text-white">
+          <p class=" text-center text-sm mx-auto border-t py-4 text-white">
             Copyright &copy; 2023. heybuddy.co.in | All Rights Reserved.
           </p>
         </div>
