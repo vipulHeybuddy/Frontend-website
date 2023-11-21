@@ -1,6 +1,9 @@
-"use client"
+'use client'
+import React, { useEffect, useRef, useState } from "react";
+import { motion } from "framer-motion";
+import Slider1 from "@/components/Slider1";
+import MobSlider from "@/components/Slider2";
 import Bottomsec from "@/components/Bottomsec";
-import Image from "next/image";
 import Grid from "@/components/Grid";
 import Grid1 from "@/components/Grid1";
 import Grid2 from "@/components/Grid2";
@@ -8,11 +11,7 @@ import Company from "@/components/Company";
 import Landingpg from "@/components/Landingpg";
 import Ourclients from "@/components/Ourclients";
 import Pagenation from "@/components/Pagenation";
-import Slider from "@/components/Slider1";
-// import Tab1 from "@/components/Tab1";
 import OrbitingCircles from "@/components/OrbitingCircles";
-
-import { motion } from "framer-motion"
 
 const fadeInAnimation = {
   initial: { opacity: 0 },
@@ -26,31 +25,43 @@ const fadeInAnimation2 = {
   transition: { duration: 4.5 },
 };
 
-
-
 export default function Home() {
-  
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768); // Adjust the breakpoint as needed
+    };
+
+    // Initial check on mount
+    handleResize();
+
+    // Listen for window resize events
+    window.addEventListener("resize", handleResize);
+
+    // Cleanup on component unmount
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   return (
     <main className="flex min-h-screen flex-col items-center justify-between">
-      {/* <Landingpg /> */}
       <motion.div {...fadeInAnimation}>
         <Landingpg />
       </motion.div>
 
       <OrbitingCircles />
       <Company />
-      <Slider />
+
+      {isMobile ? <MobSlider /> : <Slider1 />}
 
       <motion.div {...fadeInAnimation2}>
-      <Grid1 />
+        <Grid1 />
       </motion.div>
 
       <Grid />
-
-      {/* <motion.div {...fadeInAnimation2}> */}
       <Pagenation />
-      {/* </motion.div> */}
-      
       <Grid2 />
       <Ourclients />
       <Bottomsec />

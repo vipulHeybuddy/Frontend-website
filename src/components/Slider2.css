@@ -1,0 +1,25 @@
+.container8 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px; /* Adjust as needed for spacing */
+  }
+  
+  .textdiv1 {
+    background-color: #333; /* Background color for each card */
+    color: white;
+    padding: 20px; /* Adjust as needed for spacing and padding inside the card */
+    margin-bottom: 20px; /* Adjust as needed for spacing between cards */
+    border-radius: 10px; /* Adjust as needed for card border radius */
+  }
+  
+  .textdiv1 img {
+    width: 100%; /* Make the image fill the width of its container */
+    height: auto; /* Maintain the aspect ratio of the image */
+    border-radius: 10px; /* Adjust as needed for image border radius */
+    height: 35vh;
+  }
+  
+  /* Add additional styles as needed */
+  
