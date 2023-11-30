@@ -130,10 +130,10 @@ function Slider1() {
               }}
             >
               <div style={{ textAlign: "left", margin: "1rem" }}>
-                <h1 style={{ fontSize: "1.4rem", color: "white" }}>
+                <h1 style={{ fontSize: "1.7rem", color: "white" }}>
                   Game Development
                 </h1>
-                <p>
+                <p style={{color: '#ffffff8f'}}>
                 We excel in developing games across diverse genres on leading platforms like Unity and Unreal.
                 </p>
               </div>
@@ -154,10 +154,10 @@ function Slider1() {
               }}
             >
               <div style={{ textAlign: "left", margin: "1rem" }}>
-                <h1 style={{ fontSize: "1.4rem", color: "white" }}>
+                <h1 style={{ fontSize: "1.7rem", color: "white" }}>
                   Immersive Development
                 </h1>
-                <p>
+                <p style={{color: '#ffffff8f'}}>
                 We create realistic immersive solutions that create a convincing new reality to impress your user with  AR, VR or through Metaverse
 platforms. 
 
@@ -178,10 +178,10 @@ platforms.
               }}
             >
               <div style={{ textAlign: "left", margin: "1rem" }}>
-                <h1 style={{ fontSize: "1.4rem", color: "white" }}>
+                <h1 style={{ fontSize: "1.7rem", color: "white" }}>
                   3D Development
                 </h1>
-                <p>
+                <p style={{color: '#ffffff8f'}}>
                 We develop responsive, meticulous, and true-to-life 3D models and use them for eye-catching 3D animations.
                 </p>
               </div>
@@ -200,10 +200,10 @@ platforms.
               }}
             >
               <div style={{ textAlign: "left", margin: "1rem" }}>
-                <h1 style={{ fontSize: "1.4rem", color: "white" }}>
+                <h1 style={{ fontSize: "1.7rem", color: "white" }}>
                   AI Services
                 </h1>
-                <p>
+                <p style={{color: '#ffffff8f'}}>
                 Harness the most powerful technology known to humans with our AI business integration services. 
                 </p>
               </div>
@@ -221,10 +221,10 @@ platforms.
               }}
             >
               <div style={{ textAlign: "left", margin: "1rem" }}>
-                <h1 style={{ fontSize: "1.4rem", color: "white" }}>
+                <h1 style={{ fontSize: "1.7rem", color: "white" }}>
                  APP Development
                 </h1>
-                <p>
+                <p style={{color: '#ffffff8f'}}>
                 We employ the best software development practices for cross-device and cross-platform compatible, user-friendly Android and iOS applications.
 
                 </p>
@@ -242,10 +242,10 @@ platforms.
               }}
             >
               <div style={{ textAlign: "left", margin: "1rem" }}>
-                <h1 style={{ fontSize: "1.4rem", color: "white" }}>
+                <h1 style={{ fontSize: "1.7rem", color: "white" }}>
                   VR Training & Simulation
                 </h1>
-                <p>
+                <p style={{color: '#ffffff8f'}}>
                 Help your trainees learn 4 times faster with 500% more focus and 1.75% time more confidence.
                 </p>
               </div>
@@ -262,10 +262,10 @@ platforms.
               }}
             >
               <div style={{ textAlign: "left", margin: "1rem" }}>
-                <h1 style={{ fontSize: "1.4rem", color: "white" }}>
+                <h1 style={{ fontSize: "1.7rem", color: "white" }}>
                   Web3 Development
                 </h1>
-                <p>
+                <p style={{color: '#ffffff8f'}}>
                 Seize the power of pathbreaking Web3 technologies like blockchain with use and open new digital avenues of financial streams.
                 </p>
               </div>

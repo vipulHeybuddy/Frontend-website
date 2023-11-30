@@ -192,17 +192,14 @@ const Pagenation = () => {
               </div>
               <div className="lg:pt-20">
                 <h1 className="py-4 font-semibold text-3xl">
-                  Housing Landing Page 1
+                  Real Estate 
                 </h1>
                 <p>
-                  Lorem, ipsum dolor sit ame earum delectus. Sit explicabo
-                  repellendus ullam, nesciunt illo ipsam doloremque consectetur
-                  nisi temporibus suscipit architecto aut quaerat. Corrupti,
-                  nulla?
+                Real estate businesses can replicate their properties in a virtual environment to create incredible user experiences. Some examples of Metaverse use cases in virtual real estate and business include: Providing accurate virtual modeling of the property. Helping in feasible property construction.
                 </p>
                 <p className="py-4">
                   Used Technology :{" "}
-                  <span className="font-bold">3D, AR Design</span>
+                  <span className="font-bold">3D, AR & VR Experiences</span>
                 </p>
                 <Link href='/Pages/sliderpages'>
                 <button className="rounded-3xl bg-[#3F8AE2] px-6 py-4 text-sm font-semibold text-white shadow-sm">

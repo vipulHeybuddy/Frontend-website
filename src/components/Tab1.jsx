@@ -189,13 +189,10 @@ const Tab1 = ({ color }) => {
               </div>
               <div className="lg:pt-20">
                 <h1 className="py-4 font-semibold text-3xl">
-                  Housing Landing Page 1
+                  Property Real Estate
                 </h1>
                 <p>
-                  Lorem, ipsum dolor sit ame earum delectus. Sit explicabo
-                  repellendus ullam, nesciunt illo ipsam doloremque consectetur
-                  nisi temporibus suscipit architecto aut quaerat. Corrupti,
-                  nulla?
+                Real estate businesses can replicate their properties in a virtual environment to create incredible user experiences. Some examples of Metaverse use cases in virtual real estate and business include: Providing accurate virtual modeling of the property. Helping in feasible property construction.
                 </p>
                 <p className="py-4">
                   Used Technology :{" "}
