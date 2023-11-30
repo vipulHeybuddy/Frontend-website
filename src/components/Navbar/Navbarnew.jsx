@@ -1,7 +1,16 @@
+import React, { useState } from 'react';
+import './navbar.css'
+import Link from "next/link";
 
-import React from 'react';
+ 
 
 export default function Navbarnew() {
+  const [isPopupOpen, setPopupOpen] = useState(false);
+
+  const togglePopup = () => {
+    setPopupOpen(!isPopupOpen);
+  };
+
 
 
   return (
@@ -22,9 +31,15 @@ export default function Navbarnew() {
       <div className="">
         <a href="#aboutus" className='lg:text-[15px]  p-4 text-white border-transparent hover:border-black block'>About Us</a>
       </div>
-      <div className=" ">
-        <a href="/" className='lg:text-[15px]  py-4 px-8 rounded-3xl bg-[#3F8AE2] text-white border-transparent hover:border-black block'>Get In Touch</a>
-      </div> 
+      
+      <div className=" text-white shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 lg:text-[15px]  p-4 text-white border-transparent hover:border-black block">
+      <Link href='/Pages/Contactus'>
+       
+          Contact Us
+        </Link>
+      </div>
+      
+
      
     </>
   );

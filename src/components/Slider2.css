@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 20px; /* Adjust as needed for spacing */
+    
   }
   
   .textdiv1 {
@@ -12,6 +13,8 @@
     padding: 20px; /* Adjust as needed for spacing and padding inside the card */
     margin-bottom: 20px; /* Adjust as needed for spacing between cards */
     border-radius: 10px; /* Adjust as needed for card border radius */
+    position: sticky;
+    top: 10rem;
   }
   
   .textdiv1 img {

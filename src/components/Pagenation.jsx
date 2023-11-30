@@ -1,9 +1,10 @@
 
 "use client";
-import { motion } from "framer-motion";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { motion, useAnimation } from "framer-motion";
+
 
 
 const Pagenation = () => {
@@ -12,7 +13,57 @@ const Pagenation = () => {
 
   const [openTab, setOpenTab] = React.useState(1);
 
+  const controls = useAnimation();
+  const ref = useRef();
 
+  const variants = {
+    hidden: { opacity: 0, y: "20%" },
+    visible: { opacity: 1, y: 0, transition: { duration: 1, ease: "easeOut" } },
+  };
+
+  const onScreen = async () => {
+    const element = ref.current;
+    if (element) {
+      const isVisible = await controls.start("visible");
+      if (isVisible) {
+      }
+    }
+  };
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          onScreen();
+        }
+      },
+      { threshold: 0 }
+    );
+
+    if (ref.current) {
+      observer.observe(ref.current);
+    }
+
+    return () => {
+      observer.disconnect();
+    };
+  }, []);
+
+
+  
+  useEffect(() => {
+    const handleResize = () => {
+      setIsSmallScreen(window.innerWidth <= 600);
+    };
+
+    handleResize();
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
   const textAnimation1 = {
     initial: { opacity: 0, y: 20 },
@@ -20,9 +71,14 @@ const Pagenation = () => {
     transition: { duration: 2.2 },
   };
 
+
   return (
     <>
-      <div className="flex flex-wrap lg:w-[80%] p-4 bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Ellipse8.png')] bg-no-repeat bg-auto bg-[center_top_1rem] " >
+     <motion.div
+    ref={ref}
+    initial="hidden"
+    animate={controls}
+    variants={variants}className="flex flex-wrap lg:w-[80%] p-4 bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Ellipse8.png')] bg-no-repeat bg-auto bg-[center_top_1rem] " >
        
       <div className="py-20  mx-auto text-center justify-center  text-4xl lg:text-4xl font-bold text-white mb-6">
         <motion.h3 {...textAnimation1}>Featured Projects</motion.h3>
@@ -31,11 +87,13 @@ const Pagenation = () => {
 
           
           <div
+          style={{color: 'white'}}
             className="flex mb-0 list-none flex-wrap pt-3 pb-4 flex-row"
             role="tablist"
           >
-            <div className="px-12 mx-4 rounded-lg p-4">
+            <div style={{color: 'white'}} className="px-12 mx-4 rounded-lg p-4">
               <a
+              style={{color: 'white'}}
                 className={
                   " px-4 py-3  rounded block leading-normal " +
                   (openTab === 1
@@ -129,7 +187,7 @@ const Pagenation = () => {
                   src='https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/img1.webp'
                   width={700}
                   height={700}
-                  className="rounded-3xl w-[100vh] h-[40vh] lg:w-[100vh] lg:h-[60vh] "
+                  className="rounded-3xl w-[100vh] h-[40vh] lg:w-[100vh] lg:h-[50vh] "
                 />
               </div>
               <div className="lg:pt-20">
@@ -163,7 +221,7 @@ const Pagenation = () => {
                   src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/img1.webp"
                   width={700}
                   height={700}
-                  className="rounded-3xl w-[100vh] h-[40vh] lg:w-[100vh] lg:h-[60vh] "
+                  className="rounded-3xl w-[100vh] h-[40vh] lg:w-[100vh] lg:h-[50vh] "
                 />
               </div>
 
@@ -197,7 +255,7 @@ const Pagenation = () => {
                   src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/img1.webp"
                   width={700}
                   height={700}
-                  className="rounded-3xl w-[100vh] h-[40vh] lg:w-[100vh] lg:h-[60vh] "
+                  className="rounded-3xl w-[100vh] h-[40vh] lg:w-[100vh] lg:h-[50vh] "
                 />
               </div>
               <div className="lg:pt-20">
@@ -230,7 +288,7 @@ const Pagenation = () => {
                   src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/img1.webp"
                   width={700}
                   height={700}
-                  className="rounded-3xl w-[100vh] h-[40vh] lg:w-[100vh] lg:h-[60vh] "
+                  className="rounded-3xl w-[100vh] h-[40vh] lg:w-[100vh] lg:h-[50vh] "
                 />
               </div>
               <div className="lg:pt-20">
@@ -261,7 +319,7 @@ const Pagenation = () => {
             </div>
           </div>
 
-        </div>
+        </motion.div>
       
     </>
   );

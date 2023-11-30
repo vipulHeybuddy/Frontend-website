@@ -90,7 +90,7 @@ export default function Navbar() {
             'visible opacity-100': dropdownOpen,
           })}>
             <div className="h-screen left-0 bg-black bg-opacity-30" onClick={handleBlackScreenClick}>
-              <div className="z-20 shadow-xl bg-blue-100 p-6">
+              <div className="z-20 shadow-xl bg-black p-6">
                
                 <div className="mb-4 ">
                   <Navbarnew/>

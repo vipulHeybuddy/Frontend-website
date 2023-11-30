@@ -13,6 +13,7 @@ import Ourclients from "@/components/Ourclients";
 import Pagenation from "@/components/Pagenation";
 import OrbitingCircles from "@/components/OrbitingCircles";
 
+
 const fadeInAnimation = {
   initial: { opacity: 0 },
   animate: { opacity: 1 },
@@ -47,6 +48,7 @@ export default function Home() {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between">
+      
       <motion.div {...fadeInAnimation}>
         <Landingpg />
       </motion.div>

@@ -28,10 +28,8 @@ const Grid2 = () => {
                 About Us
               </motion.h1>
               <motion.p className="text-white text-sm lg:w-[60%]  mx-auto text-center justify-center" {...textAnimation1}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptatibus non provident mollitia doloribus, rerum minima.
-                Dignissimos nobis nam ea quod facere vel officia veritatis iusto
-                delectus maxime. Amet, praesentium nostrum.
+              Hey Buddy is a leading name in Metaverse and Game Development in India and US. With industry-leading experts on our side and vast experience of working on projects of different scales, we are ready to develop a business solution that lets you achieve your business goals with ease.  Our wide gamut of clients includes Fortune 500-listers to budding start-ups with HeyBuddy successfully serving their business needs.
+
               </motion.p>
             </div>
           </div>
@@ -47,38 +45,38 @@ const Grid2 = () => {
           <motion.div class="p-4 lg:p-2 lg:w-[60%]  grid mb-8 mx-auto text-center justify-center rounded-xl shadow-sm  md:mb-12 grid-cols-2 md:grid-cols-2" {...textAnimation1}>
             
             <figure class="flex flex-col  p-8  border-b border-gray-900 rounded-tl-3xl md:rounded-t-none md:rounded-tl-3xl md:border-r h-full w-full bg-gray-600  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-40">
-              <blockquote class=" mb-4 lg:py-8 lg:mb-8 dark:text-gray-400">
-                <h3 class="text-xl lg:text-5xl font-semibold text-gray-900 dark:text-white">
-                 10+
+              <blockquote class=" mb-4 lg:py-8 lg:mb-8 :text-gray-400">
+                <h3 class="text-xl lg:text-5xl font-semibold text-gray-900 text-white">
+                 400+
                 </h3>
-                <p className="text-sm">years of experience</p>
+                <p style={{color: 'white'}} className="text-sm">Projects</p>
               </blockquote>
             </figure>
 
             <figure class="flex flex-col p-8  border-b border-gray-900 rounded-tr-3xl    h-full w-full bg-gray-500  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-40">
-              <blockquote class="max-w-2xl lg:py-8 mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
-                <h3 class="text-xl lg:text-5xl font-semibold text-gray-900 dark:text-white">
-                  100+
+              <blockquote class="max-w-2xl lg:py-8 mx-auto mb-4 text-gray-500 lg:mb-8 :text-gray-400">
+                <h3 class="text-xl lg:text-5xl font-semibold text-gray-900 text-white">
+                  150+
                 </h3>
-                <p className="text-sm">repeated clients</p>
+                <p  style={{color: 'white'}}className="text-sm">Clients</p>
               </blockquote>
             </figure>
 
             <figure class="flex flex-col items-center justify-center p-8 text-center  border-b border-gray-900 rounded-bl-3xl md:border-b-0 md:border-r   h-full w-full bg-gray-500  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-40">
-              <blockquote class="max-w-2xl lg:py-8 mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
-                <h3 class="text-xl lg:text-5xl font-semibold text-gray-900 dark:text-white">
-                 400+
+              <blockquote class="max-w-2xl lg:py-8 mx-auto mb-4 text-gray-500 lg:mb-8 :text-gray-400">
+                <h3 class="text-xl lg:text-5xl font-semibold text-gray-900 text-white">
+                 250+
                 </h3>
-                <p className="text-sm">projects completed</p>
+                <p style={{color: 'white'}} className="text-sm">Experts</p>
               </blockquote>
             </figure>
 
             <figure class="flex flex-col mx-auto items-center justify-center p-8 text-center  border-gray-900 rounded-br-3xl md:rounded-br-3xl h-full w-full bg-gray-600  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30">
-              <blockquote class="max-w-2xl lg:py-8 mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
-                <h3 class="text-xl lg:text-5xl font-semibold text-gray-900 dark:text-white">
-                  200+
+              <blockquote class="max-w-2xl lg:py-8 mx-auto mb-4 text-gray-500 lg:mb-8 :text-gray-400">
+                <h3 class="text-xl lg:text-5xl font-semibold text-gray-900 text-white">
+                97.68%
                 </h3>
-                <p className="text-sm">happy clients</p>
+                <p style={{color: 'white'}} className="text-sm">Retention Rate</p>
               </blockquote>
             </figure>
           </motion.div>

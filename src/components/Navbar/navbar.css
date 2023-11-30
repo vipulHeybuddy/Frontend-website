@@ -1,0 +1,81 @@
+/* Navbarnew.css */
+
+@font-face {
+  font-family: 'customFont';
+  src: url('../../../public/fonts/sft-schrifted-sans-font-family-1697519383-0/SFT-Schrifted-Sans-TRIAL-Var-BF6413e215ec95b.ttf') format('ttf');
+
+}
+
+div{
+  font-family: 'customFont';
+}
+body{
+  font-family: 'customFont'!important;
+}
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    background-image: url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Ellipse1.png');
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+    width: 40vw;
+  }
+  
+  .popup-content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .success-message {
+    color: rgb(0, 207, 0);
+    
+  }
+  
+  .tick {
+    font-size: 30px;
+  }
+  
+  .close-btn {
+   
+    cursor: pointer;
+  }
+  
+  /* Styling for form inputs */
+.popup-content input,
+.popup-content textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  background-color: transparent;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.504);
+  border-radius: 15px;
+  outline: none;
+}
+
+.popup-content textarea {
+  height: 100px; /* Adjust the height as needed */
+}
+
+.popup-content button {
+
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.popup-content button:hover {
+  background-color: #1e497e;
+}

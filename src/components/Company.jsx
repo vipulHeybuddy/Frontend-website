@@ -2,6 +2,7 @@
 
 import React from "react";
 import styled, { keyframes, css } from "styled-components";
+import './company.css';
 
 function Company() {
   const row1 = [
@@ -26,7 +27,7 @@ function Company() {
 
     <>
     <div className="text-center mx-auto justify-center py-16">
-      <h1 className="text-white text-2xl lg:text-4xl font-bold">Brands that trust us </h1>
+      <h1 className="btn-shine text-white text-2xl lg:text-4xl font-bold">Brands that trust us </h1>
       <p className="text-white text-sm">Driving technology for leading brands</p>
 
     </div>

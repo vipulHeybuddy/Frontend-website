@@ -1,10 +1,12 @@
 import React, { useEffect, useRef } from "react";
-import { motion, useAnimation } from "framer-motion";
+
 import "./Slider2.css";
 
 function Mobslider() {
 
 
+
+ 
 
   const slideData = [
     {

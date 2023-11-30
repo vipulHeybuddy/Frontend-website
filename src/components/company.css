@@ -1,0 +1,31 @@
+
+@font-face {
+    font-family: 'customFont';
+    src: url('../../public/fonts/sft-schrifted-sans-font-family-1697519383-0/SFTSchriftedSansTRIAL-ExtraBoldComp-BF6413e215ef17d.woff') format('woff');
+
+}
+.btn-shine {
+    
+    color: #ffffff;
+    background: linear-gradient(to right, #4d4d4d 0, white 10%, #4d4d4d 20%);
+    background-position: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 12s infinite linear;
+    animation-fill-mode: forwards;
+    -webkit-text-size-adjust: none;
+    font-family: 'customFont';
+    font-weight: 900;
+    
+  }
+  
+  @keyframes shine {
+    0% {
+      background-position: 0;
+    }
+   
+    100% {
+      background-position: 100vw;
+    }
+  }
+  

@@ -5,9 +5,20 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <div className="lg:w-[80%] h-full bottom-0  mx-auto text-center lg:text-left ">
-      <footer class="top-8 bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/footerimg.png')] bottom-0 h-[42] bg-no-repeat bg-auto object-cover bg-[bottom]">
-        <div class="mx-auto space-y-8 px-4  sm:px-6 lg:space-y-16 lg:px-16">
+    <div className="relative lg:w-[100%] h-full bottom-0 mx-auto text-center lg:text-left">
+    <footer className="relative top-8 bg-[bottom] h-[42] bg-no-repeat bg-auto object-cover">
+      <video
+         style={{objectPosition: 'top'}}
+        className="w-full h-full object-cover absolute top-0 left-0"
+        autoPlay
+        loop
+        muted
+      >
+        <source src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/video+(1080p).mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+
+      <div className="mx-auto lg:w-[80%] space-y-8 px-4 sm:px-6 lg:space-y-16 lg:px-16 relative z-10">
           <div class="sm:flex sm:items-center sm:justify-between">
             <div class="text-white py-4 ">
               <Image
@@ -18,6 +29,7 @@ const Footer = () => {
                 className="mx-auto lg:mr-6 h:8 w-[10rem] lg:h-16 lg:w-[17rem] cursor-pointer"
                 alt="Hey Buddy"
               />
+
             </div>
             <div className="">
               <h1 className="text-white text-2xl font-semibold lg:pb-4">Follow Us</h1>
@@ -166,7 +178,7 @@ const Footer = () => {
               </ul>
             </div>
 
-            <div className="py-4">
+            {/* <div className="py-4">
               <p class="font-bold text-white text-xl">Legal</p>
 
               <ul class="mt-6 space-y-2 text-sm">
@@ -194,7 +206,7 @@ const Footer = () => {
                   </a>
                 </li>
               </ul>
-            </div>
+            </div> */}
           </div>
 
           <p class=" text-center text-sm mx-auto border-t py-4 text-white">

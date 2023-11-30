@@ -1,27 +1,68 @@
 "use client";
-import React, { useEffect } from "react";
-import { motion } from "framer-motion";
+import React, { useState ,useEffect, useRef } from "react";
 import Image from "next/image";
 import  './grid1styles.css';
+import { motion, useAnimation } from 'framer-motion';
+
+
 // import Img1 from "../../public/Images/img1.png";
 // import Img2 from "../../public/Images/img2.png";
 // import Img3 from "../../public/Images/img3.png";
 // import Img4 from "../../public/Images/img4.png";
 
 const Grid1 = () => {
-  const Img1 = `https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/img1.png`;
+  const [userCount, setUserCount] = useState(0);
+  const controls = useAnimation();
+  const ref = useRef();
 
-  useEffect(() => {}, []);
-
-  const textAnimation1 = {
-    initial: { opacity: 0, y: 20 },
-    animate: { opacity: 1, y: 0 },
-    transition: { duration: 1.2 },
+  const variants = {
+    hidden: { opacity: 0, y: "20%" },
+    visible: { opacity: 1, y: 0, transition: { duration: 1, ease: "easeOut" } },
   };
 
+  const onScreen = async () => {
+    const element = ref.current;
+    if (element) {
+      const isVisible = await controls.start("visible");
+      if (isVisible) {
+      }
+    }
+  };
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          onScreen();
+        }
+      },
+      { threshold: 0 }
+    );
+
+    if (ref.current) {
+      observer.observe(ref.current);
+    }
+
+    return () => {
+      observer.disconnect();
+    };
+  }, []);
+
+
+  
+
+  const Img1 = `https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/img1.png`;
+
+  
   return (
+    <motion.div
+      ref={ref}
+      initial="hidden"
+      animate={controls}
+      variants={variants}
+    >
     <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Ellipse7.png')] bg-no-repeat bg-auto bg-[center_top_3rem] ">
-      <div
+      <div 
         className="absolute inset-x-0 top-90 -z-10 transform-gpu overflow-hidden blur-3xl sm:top-90"
         aria-hidden="true"
       >
@@ -32,53 +73,51 @@ const Grid1 = () => {
         <div className="mx-auto text-center justify-center ">
           <div className="px-2 pt-24 lg:pt-24 lg:px-24  h-full ">
             <div className=" lg:px-8">
-              <motion.h1
+              <h1
                 className="px-4 text-2xl lg:text-4xl font-bold text-white mb-6"
-                {...textAnimation1}
+               
               >
                 Future of Metaverse looks like this
-              </motion.h1>
-              <motion.p
+              </h1>
+              <p
                 className="text-white text-sm lg:w-[60%]  mx-auto text-center justify-center"
-                {...textAnimation1}
+               
               >
                 Hey Buddy is ahead of time & helping businesses to be ahead of
                 their competitor by enhancing their digital experience.
-              </motion.p>
+              </p>
             </div>
           </div>
         </div>
         <div style={{marginTop: '2rem'}} className="">
-          <motion.div
+          <div
             class="p-4  grid mb-8 mx-auto text-center justify-center rounded-3xl shadow-sm grid-cols-2 md:grid-cols-2"
-            {...textAnimation1}
+         
           >
-            <figure class="flex flex-col py-6  lg:p-12  border-b border-gray-900 rounded-tl-3xl md:rounded-t-none md:rounded-tl-3xl md:border-r h-full w-full bg-gray-600  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-40">
-              <blockquote class="  lg:mb-8 dark:text-gray-400">
-                <div className="grid lg:px-12 sm:grid-1 md:grid-cols-2 lg:grid-cols-2">
-                  <div className="py-4">
-                    <Image
-
-                      src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/img1.png"
-                      width={300}
-                      height={300}
-                      alt="logo"
-                      className="w-[7vh] h-[7vh] lg:w-[10vh] lg:h-[10vh] lg:float-left mx-auto"
-                    />
-                  </div>
-
-                  <div className=" lg:text-left">
-                    <h3 class="lg:text-2xl font-semibold text-gray-900 dark:text-white">
-                      400 Billion
-                    </h3>
-                    <p className="text-sm">people already using Metaverse</p>
-                  </div>
-                </div>
-              </blockquote>
-            </figure>
+            <figure className="flex flex-col py-6 lg:p-12 border-b border-gray-900 rounded-tl-3xl md:rounded-t-none md:rounded-tl-3xl md:border-r h-full w-full bg-gray-600 bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-40">
+      <blockquote className="lg:mb-8 text-white">
+        <div className="grid lg:px-12 sm:grid-1 md:grid-cols-2 lg:grid-cols-2">
+          <div className="py-4">
+            <Image
+              src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/img1.png"
+              width={300}
+              height={300}
+              alt="logo"
+              className="w-[7vh] h-[7vh] lg:w-[10vh] lg:h-[10vh] lg:float-left mx-auto"
+            />
+          </div>
+          <div className="lg:text-left">
+            <h3 className="lg:text-2xl font-semibold text-gray-900 text-white">
+             400 Billion
+            </h3>
+            <p className="text-sm">people already using Metaverse</p>
+          </div>
+        </div>
+      </blockquote>
+    </figure>
 
             <figure class="flex flex-col py-6 lg:p-12 border-b border-gray-900 rounded-tr-3xl  h-full w-full bg-gray-500  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-40">
-              <blockquote class=" text-gray-500 lg:mb-8 dark:text-gray-400">
+              <blockquote class=" text-gray-500 lg:mb-8 text-white">
                 <div className="lg:px-10 grid sm:grid-1 md:grid-cols-2 lg:grid-cols-2">
                   <div className="py-4">
                     <Image
@@ -90,7 +129,7 @@ const Grid1 = () => {
                   </div>
 
                   <div className="lg:text-left px-4">
-                    <h3 class="lg:text-2xl font-semibold text-gray-900 dark:text-white">
+                    <h3 class="lg:text-2xl font-semibold text-gray-900 text-white">
                       2.5 Billion
                     </h3>
                     <p className="text-sm px-2">people will use VR by 2027</p>
@@ -100,7 +139,7 @@ const Grid1 = () => {
             </figure>
 
             <figure class="flex flex-col items-center justify-center py-6 px-2 lg:p-12 text-center  border-b border-gray-900 rounded-bl-3xl md:border-b-0 md:border-r   h-full w-full bg-gray-500  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-40">
-              <blockquote class=" mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
+              <blockquote class=" mb-4 text-gray-500 lg:mb-8 text-white">
                 <div className="lg:px-10 grid sm:grid-1 md:grid-cols-2 lg:grid-cols-2">
                   <div className="py-4">
                     <Image
@@ -111,7 +150,7 @@ const Grid1 = () => {
                     />
                   </div>
                   <div className="lg:text-left">
-                    <h3 class="lg:text-2xl font-semibold text-gray-900 dark:text-white">
+                    <h3 class="lg:text-2xl font-semibold text-gray-900 text-white">
                       $17.6 Billion
                     </h3>
                     <p className="text-sm">investment in VR Gaming by 2024</p>
@@ -121,7 +160,7 @@ const Grid1 = () => {
             </figure>
 
             <figure class="flex flex-col items-center justify-center py-6 px-2 lg:p-12 text-center  border-gray-900 rounded-br-3xl md:rounded-br-3xl h-full w-full bg-gray-600  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30">
-              <blockquote class="mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
+              <blockquote class="mb-4 text-gray-500 lg:mb-8 text-white">
                 <div className="lg:px-10 grid sm:grid-1 md:grid-cols-2 lg:grid-cols-2">
                   <div className="py-4">
                     <Image
@@ -133,7 +172,7 @@ const Grid1 = () => {
                   </div>
 
                   <div className="lg:text-left">
-                    <h3 class="lg:text-2xl font-semibold text-gray-900 dark:text-white">
+                    <h3 class="lg:text-2xl font-semibold text-gray-900 text-white">
                       936 Billion
                     </h3>
                     <p className="text-sm">metaverse Industry size by 2030</p>
@@ -141,10 +180,11 @@ const Grid1 = () => {
                 </div>
               </blockquote>
             </figure>
-          </motion.div>
+          </div>
         </div>
       </div>
-    </div>
+      </div>
+    </motion.div >
   );
 };
 
