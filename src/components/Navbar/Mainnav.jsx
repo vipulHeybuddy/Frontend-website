@@ -59,8 +59,8 @@ export default function Navbar() {
     })}>
       <div className="px-4 container mx-auto top-0 flex justify-between items-center ">
         <div className="flex items-center lg:px-16 text-center justify-center mx-auto">
+         
           <div className='lg:pr-32'>
-
           <Link href="/">
           <Image width={300} height={300} 
           src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/logo.png"
@@ -89,8 +89,8 @@ export default function Navbar() {
             'invisible opacity-0': !dropdownOpen,
             'visible opacity-100': dropdownOpen,
           })}>
-            <div className="h-screen left-0 bg-black bg-opacity-30" onClick={handleBlackScreenClick}>
-              <div className="z-20 shadow-xl bg-black p-6">
+            <div className="h-screen left-0 backdrop-blur-3xl bg-opacity-30" onClick={handleBlackScreenClick}>
+              <div className="z-20 h-full shadow-xl backdrop-filter backdrop-blur-3xl p-6">
                
                 <div className="mb-4 ">
                   <Navbarnew/>
