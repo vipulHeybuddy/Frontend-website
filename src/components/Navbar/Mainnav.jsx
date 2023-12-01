@@ -49,11 +49,6 @@ export default function Navbar() {
 
   return (
 
-     //#e0e1dd - grey
-    //#cce3de - green
-    //#eaf4f4   bg-[#cce3de]
-    // #9f86c0
-
     <nav className={classNames('fixed w-full transition-all duration-800 py-4 z-50 ', {
       '   bg-clip-padding backdrop-filter backdrop-blur-2xl bg-opacity-70 z-50': backgroundwhite
     })}>
@@ -89,7 +84,7 @@ export default function Navbar() {
             'invisible opacity-0': !dropdownOpen,
             'visible opacity-100': dropdownOpen,
           })}>
-            <div className="h-screen left-0 backdrop-blur-3xl bg-opacity-30" onClick={handleBlackScreenClick}>
+            <div className="h-screen bg-black left-0 " onClick={handleBlackScreenClick}>
               <div className="z-20 h-full shadow-xl backdrop-filter backdrop-blur-3xl p-6">
                
                 <div className="mb-4 ">

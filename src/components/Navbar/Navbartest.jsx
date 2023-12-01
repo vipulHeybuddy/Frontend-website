@@ -1,15 +1,16 @@
 "use client"; 
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import { RxHamburgerMenu } from "react-icons/rx";
 import { AiOutlineClose } from "react-icons/ai";
 import Link from 'next/link'
 import Image from "next/image";
 import classNames from 'classnames';
+import { useMediaQuery } from 'react-responsive';
 
 const Navbartest = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [backgroundwhite, setBackgroundWhite] = useState(false);
-
+  
   const handleWindowScroll = (e) => {
     const height = window.scrollY;
     const tresholdHeight = 50;
@@ -32,8 +33,18 @@ const Navbartest = () => {
 
   const handleBlackScreenClick = (e) => {
     e.stopPropagation();
-    setDropdownOpen(false);
+    setIsMenuOpen(false);
   };
+
+  useEffect(() => {
+    setBackgroundWhite(isMenuOpen);
+  }, [isMenuOpen]);
+
+  useEffect(() => {
+    setBackgroundWhite(isMenuOpen);
+  }, [isMenuOpen]);
+
+
 
   useEffect(() => {
     window.addEventListener('scroll', handleWindowScroll);
@@ -46,7 +57,7 @@ const Navbartest = () => {
   return (
     <div className=''>
       <header className="fixed top-0 transition-all duration-800 lg:px-24  w-full  z-50">
-        {/* <nav className="flex lg:px-24  justify-center mx-auto items-center max-container"> */}
+      
           <nav className={classNames('fixed   lg:px-24 justify-center mx-auto items-center max-container w-full transition-all duration-800 py-4 z-50 ', {
       '   bg-clip-padding backdrop-filter backdrop-blur-2xl bg-opacity-70 z-50': backgroundwhite
     })}>
@@ -85,22 +96,25 @@ const Navbartest = () => {
       </header>
 
       {isMenuOpen && (
-        <div className=''>
-          <nav className="fixed top-0 right-0 left-0 bottom-0 px-4 w-full lg:bottom-auto backdrop-filter bg-[#000000] backdrop-blur-2xl bg-opacity-30  z-50">
+        <div className='' >
+          <nav className="fixed top-0 right-0 left-0 bottom-0 px-4  w-full lg:bottom-auto backdrop-filter bg-[#000000] backdrop-blur-2xl bg-opacity-30  z-50" >
             <div
               className="hidden max-lg:block fixed right-0  px-8 py-4 cursor-pointer"
               onClick={() => {
                 setIsMenuOpen(!isMenuOpen);
 
               }}
+             
             >
               <AiOutlineClose className="text-white text-2xl" />
             </div>
-            <ul className=" lg:hidden flex flex-col items-center justify-center h-full ">
+            
+            <ul className=" lg:hidden flex flex-col items-center justify-center h-full " onClick={handleBlackScreenClick}>
               {navLinks.map((item) => (
-                <li key={item.label}>
+                <li key={item.label} > 
                   <a
                     href={item.href}
+                    
                     className="top-[295px] text-[24px font-bold  p-4 text-white border-transparent hover:border-black block"
                   >
                     {item.label}
