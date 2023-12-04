@@ -19,14 +19,14 @@ div{
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin-left: 9rem;
+    margin-left: 12rem; /* Adjusted to center without left margin */
     font-family: 'customFont';
   
-    @media (max-width: 768px) {
-      margin-left: 0; /* Adjust margin for smaller screens */
-      flex-direction: column; /* Stack items vertically on smaller screens */
-      font-size: 26px;
-    font-weight: 500;
+    @media screen and (max-width: 768px) {
+      /* Adjust styles for mobile view */
+      font-size: 15px;
+      white-space: nowrap; /* Prevent text wrapping */
+      margin-left: 12px; /* Remove the left margin on mobile */
     }
   
     div {
@@ -36,15 +36,6 @@ div{
       height: 65px;
       padding-top: 10px;
       margin-top: -10px;
-  
-      @media (max-width: 768px) {
-        overflow: hidden;
-        position: relative;
-        float: right;
-        height: 65px;
-        padding-top: 10px;
-        margin-top: -10px;
-      }
   
       li {
         font-family: 'customFont';
@@ -56,9 +47,10 @@ div{
         display: block;
         margin-right: 10px; /* Adjust the spacing between list items */
   
-        @media (max-width: 768px) {
-          margin-right: 0 !important; /* Remove right margin on smaller screens */
-          margin-bottom: 15px; /* Adjust margin between list items on smaller screens */
+        @media screen and (max-width: 768px) {
+          /* Adjust styles for mobile view */
+          margin-top: 1rem;
+          margin-right: 0 !important;
         }
       }
     }

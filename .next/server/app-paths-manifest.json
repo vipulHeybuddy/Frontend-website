@@ -1,3 +1,8 @@
 {
-  "/page": "app/page.js"
+  "/_not-found": "app/_not-found.js",
+  "/Pages/pageninationpages/page": "app/Pages/pageninationpages/page.js",
+  "/Pages/Contactus/page": "app/Pages/Contactus/page.js",
+  "/Pages/sliderpages/page": "app/Pages/sliderpages/page.js",
+  "/page": "app/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
 }

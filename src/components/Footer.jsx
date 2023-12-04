@@ -11,8 +11,9 @@ const Footer = () => {
          style={{objectPosition: 'top'}}
         className="w-full h-full object-cover absolute top-0 left-0"
         autoPlay
-        loop
+         loop
         muted
+        playsInline
       >
         <source src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/video+(1080p).mp4" type="video/mp4" />
         Your browser does not support the video tag.

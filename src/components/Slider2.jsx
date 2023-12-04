@@ -64,11 +64,12 @@ function Mobslider() {
           width: "100vw",
           color: "white",
           textAlign: "center",
-          fontSize: "2rem",
-          padding: "10vh",
+          fontSize: "1.2rem",
+          padding: "5vh",
         }}
       >
-        Need to enhance your business online? We’ve got you covered
+       Get All Emerging Tech Solutions Under One Roof
+
       </h1>
       <div className="container8">
         {slideData.map((slide, index) => (

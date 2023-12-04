@@ -81,15 +81,15 @@ const Pagenation = () => {
     variants={variants}className="flex flex-wrap lg:w-[80%] p-4 bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Ellipse8.png')] bg-no-repeat bg-auto bg-[center_top_1rem] " >
        
       <div className="py-20  mx-auto text-center justify-center  text-4xl lg:text-4xl font-bold text-white mb-6">
-        <motion.h3 {...textAnimation1}>Featured Projects</motion.h3>
+        <motion.h3 {...textAnimation1}>Success Stories with Hey Buddy</motion.h3>
       </div>
        
 
           
           <div
-          style={{color: 'white'}}
-            className="flex mb-0 list-none flex-wrap pt-3 pb-4 flex-row"
-            role="tablist"
+          style={{ color: 'white', justifyContent: 'center', alignItems: 'center' }}
+          className="flex mb-0 list-none flex-wrap pt-3 pb-4 flex-row"
+          role="tablist"
           >
             <div style={{color: 'white'}} className="px-12 mx-4 rounded-lg p-4">
               <a
@@ -128,7 +128,7 @@ const Pagenation = () => {
                 href="#link2"
                 role="tablist"
               >
-                 Mobile/App Development
+                 Automotive
               </a>
             </div>
 
@@ -192,14 +192,14 @@ const Pagenation = () => {
               </div>
               <div className="lg:pt-20">
                 <h1 className="py-4 font-semibold text-3xl">
-                  Real Estate 
+                Virtual Property Tour
                 </h1>
                 <p>
-                Real estate businesses can replicate their properties in a virtual environment to create incredible user experiences. Some examples of Metaverse use cases in virtual real estate and business include: Providing accurate virtual modeling of the property. Helping in feasible property construction.
+                Our client in the Real Estate industry needed an innovative solution to showcase their properties to their prospective buyers. We created an immersive 360° Metaverse for our clients to showcase their properties and impress buyers.
                 </p>
                 <p className="py-4">
                   Used Technology :{" "}
-                  <span className="font-bold">3D, AR & VR Experiences</span>
+                  <span className="font-bold">3D Max; C#; Unreal Engine 5</span>
                 </p>
                 <Link href='/Pages/sliderpages'>
                 <button className="rounded-3xl bg-[#3F8AE2] px-6 py-4 text-sm font-semibold text-white shadow-sm">
@@ -224,17 +224,15 @@ const Pagenation = () => {
 
               <div className="lg:pt-20">
                 <h1 className="py-4 font-semibold text-3xl">
-                  Housing Landing Page 2
+                Safe VR Training Solution
                 </h1>
                 <p>
-                  Lorem, ipsum dolor sit ame earum delectus. Sit explicabo
-                  repellendus ullam, nesciunt illo ipsam doloremque consectetur
-                  nisi temporibus suscipit architecto aut quaerat. Corrupti,
-                  nulla?
+                Our client wanted to train their employees on complex machine operations but in a safer and controlled environment to prevent any mishaps. We helped them with a VR training solution to deliver exactly that. As a result, they achieved better training outcomes in a safer environment saving a lot of time and resources.
                 </p>
                 <p className="py-4">
                   Used Technology :{" "}
-                  <span className="font-bold">3D, AR Design</span>
+                  <span className="font-bold"> Autodesk 3D; C++; Unity 2023.1.5
+</span>
                 </p>
                 <Link href='/Pages/sliderpages'>
                 <button className="rounded-3xl bg-[#3F8AE2] px-6 py-4 text-sm font-semibold text-white shadow-sm">
@@ -257,17 +255,16 @@ const Pagenation = () => {
               </div>
               <div className="lg:pt-20">
                 <h1 className="py-4 font-semibold text-3xl">
-                  Housing Landing Page 3
+                Youth attracting AR Games
+
                 </h1>
                 <p>
-                  Lorem, ipsum dolor sit ame earum delectus. Sit explicabo
-                  repellendus ullam, nesciunt illo ipsam doloremque consectetur
-                  nisi temporibus suscipit architecto aut quaerat. Corrupti,
-                  nulla?
+                Our client approached us after learning about our expertise in Game development. They wanted to reach out to Millennials and Gen Z through an attractive AR gaming experience that established a relationship with their brand. Staying true to our name, we created phenomenal AR games with the new world.
+
                 </p>
                 <p className="py-4">
                   Used Technology :{" "}
-                  <span className="font-bold">3D, AR Design</span>
+                  <span className="font-bold">3D MAX; C#; Unreal Engine 5</span>
                 </p>
                 <Link href='/Pages/sliderpages'>
                 <button className="rounded-3xl bg-[#3F8AE2] px-6 py-4 text-sm font-semibold text-white shadow-sm">
@@ -290,17 +287,15 @@ const Pagenation = () => {
               </div>
               <div className="lg:pt-20">
                 <h1 className="py-4 font-semibold text-3xl">
-                  Housing Landing Page 4
+                 AR Fashion Solution
                 </h1>
                 <p>
-                  Lorem, ipsum dolor sit ame earum delectus. Sit explicabo
-                  repellendus ullam, nesciunt illo ipsam doloremque consectetur
-                  nisi temporibus suscipit architecto aut quaerat. Corrupti,
-                  nulla?
+                Our client wanted to enhance the convenience of their existing eCommerce store. They collaborated with us for our renowned AR tryon solution. This allowed users to try 3D models of the wearable without leaving home, be more certain and confident about the product and make faster decisions. More importantly, it reduced returns.
+
                 </p>
                 <p className="py-4">
                   Used Technology :{" "}
-                  <span className="font-bold">3D, AR Design</span>
+                  <span className="font-bold">3D MAX; C#; Unity, Three.Js</span>
                 </p>
                 <Link href='/Pages/sliderpages'>
                 <button className="rounded-3xl bg-[#3F8AE2] px-6 py-4 text-sm font-semibold text-white shadow-sm">

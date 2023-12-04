@@ -77,14 +77,13 @@ const Grid1 = () => {
                 className="px-4 text-2xl lg:text-4xl font-bold text-white mb-6"
                
               >
-                Future of Metaverse looks like this
+                Metaverse is the Future: It's Now and it's Here, You Better Gear Up!
               </h1>
               <p
                 className="text-white text-sm lg:w-[60%]  mx-auto text-center justify-center"
                
               >
-                Hey Buddy is ahead of time & helping businesses to be ahead of
-                their competitor by enhancing their digital experience.
+                Experts across the globe agree the Metaverse is the next social space where users will spend a significant part of their day: socializing, working, and entertaining themselves. HeyBuddy is not just in the Metaverse, It is building the Metaverse.
               </p>
             </div>
           </div>
@@ -108,9 +107,10 @@ const Grid1 = () => {
           </div>
           <div className="lg:text-left">
             <h3 className="lg:text-2xl font-semibold text-gray-900 text-white">
-             400 Billion
+             13 Trillion
             </h3>
-            <p className="text-sm">people already using Metaverse</p>
+            <p className="text-sm">The metaverse will reach somewhere between $8 Trillion to $13 Trillion by 2030.
+</p>
           </div>
         </div>
       </blockquote>
@@ -130,9 +130,9 @@ const Grid1 = () => {
 
                   <div className="lg:text-left px-4">
                     <h3 class="lg:text-2xl font-semibold text-gray-900 text-white">
-                      2.5 Billion
+                      280 Billion
                     </h3>
-                    <p className="text-sm px-2">people will use VR by 2027</p>
+                    <p className="text-sm px-2">By 2024, the metaverse market may reach $280 billion</p>
                   </div>
                 </div>
               </blockquote>
@@ -151,9 +151,9 @@ const Grid1 = () => {
                   </div>
                   <div className="lg:text-left">
                     <h3 class="lg:text-2xl font-semibold text-gray-900 text-white">
-                      $17.6 Billion
+                      43%
                     </h3>
-                    <p className="text-sm">investment in VR Gaming by 2024</p>
+                    <p className="text-sm">Metaverse Market could at a phenomenal CAGR of 43% between 2021 to 2027</p>
                   </div>
                 </div>
               </blockquote>
@@ -173,9 +173,10 @@ const Grid1 = () => {
 
                   <div className="lg:text-left">
                     <h3 class="lg:text-2xl font-semibold text-gray-900 text-white">
-                      936 Billion
+                      5 Billion
                     </h3>
-                    <p className="text-sm">metaverse Industry size by 2030</p>
+                    <p className="text-sm">By 2030, Metaverse’s unique users may reach up to 5 billion!
+</p>
                   </div>
                 </div>
               </blockquote>
