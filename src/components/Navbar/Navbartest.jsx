@@ -61,11 +61,11 @@ const Navbartest = () => {
           <nav className={classNames('fixed   lg:px-24 justify-center mx-auto items-center max-container w-full transition-all duration-800 py-4 z-50 ', {
       '   bg-clip-padding backdrop-filter backdrop-blur-2xl bg-opacity-70 z-50': backgroundwhite
     })}>
-        <div className='lg:pr-32 px-4 pt-2'>
+        <div className=' px-4 pt-2'>
           <Link href="/">
           <Image width={300} height={300} 
           src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/logo.png"
-           className="lg:mr-32 lg:ml-0 h-6 w-[6rem] lg:h-10 lg:w-[12rem] cursor-pointer float-left" alt="Hey Buddy" />
+           className=" lg:ml-0 h-6 w-[6rem] lg:h-10 lg:w-[12rem] cursor-pointer float-left" alt="Hey Buddy" />
           </Link>
 
           </div>
@@ -75,7 +75,7 @@ const Navbartest = () => {
               <li key={item.label}>
                 <a
                   href={item.href}
-                  className="lg:text-[15px]  px-4 text-white border-transparent hover:border-black block"
+                  className="lg:text-[15px] px-2 sm:text-sm  text-white border-transparent hover:border-black "
                 >
                   {item.label}
                 </a>
@@ -115,7 +115,7 @@ const Navbartest = () => {
                   <a
                     href={item.href}
                     
-                    className="top-[295px] text-[24px font-bold  p-4 text-white border-transparent hover:border-black block"
+                    className="top-[295px] text-[24px] font-bold  p-4 text-white border-transparent hover:border-black block"
                   >
                     {item.label}
                   </a>

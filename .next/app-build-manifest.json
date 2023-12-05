@@ -16,11 +16,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/Pages/services/gamedevelopment/page.js"
-    ],
-    "/Pages/casestudies/gamedev/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/Pages/casestudies/gamedev/page.js"
     ]
   }
 }
