@@ -16,7 +16,7 @@ const Grid2 = () => {
       {/* <div
         className=" absolute inset-x-0 top-90 -z-10 transform-gpu overflow-hidden blur-3xl sm:top-90"
         aria-hidden="true"
-      >
+      
         
       </div> */}
 

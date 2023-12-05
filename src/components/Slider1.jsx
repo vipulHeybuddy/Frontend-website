@@ -120,7 +120,7 @@ function Slider1() {
         >
            
           <SwiperSlide>
-          <Link href='/Pages/sliderpages'>
+          <Link href='/Pages/services/gamedevelopment'>
             <div
               className="textdiv"
               style={{

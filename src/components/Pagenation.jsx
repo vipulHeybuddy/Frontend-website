@@ -269,7 +269,7 @@ const Pagenation = () => {
                   Used Technology :{" "}
                   <span className="font-bold">3D, AR Design</span>
                 </p>
-                <Link href='/Pages/sliderpages'>
+                <Link href='/Pages/casestudies/gamedev'>
                 <button className="rounded-3xl bg-[#3F8AE2] px-6 py-4 text-sm font-semibold text-white shadow-sm">
                   Read Case Study <span aria-hidden="true">→</span>{" "}
                 </button>
