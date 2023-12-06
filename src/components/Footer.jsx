@@ -129,7 +129,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div class="grid grid-cols-1 pt-8 sm:grid-cols-2 lg:grid-cols-6 lg:pt-16">
+          <div class="grid grid-cols-1 pt-8 gap-4 sm:grid-cols-2 lg:grid-cols-6 lg:pt-16">
             <div className="py-4">
               <p class="font-bold text-white text-xl">Company</p>
 
