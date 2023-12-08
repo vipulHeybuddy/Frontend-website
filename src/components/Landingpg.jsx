@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import './landingpage.scss';
 import { BsArrowRightShort } from "react-icons/bs";
+import Link from 'next/link'
 import '../styles/styles.css';
 // import Solar from '../../public/Images/Frame.png';
 
@@ -49,13 +50,16 @@ const Landingpg = () => {
                               className="mt-10 flex items-center justify-center gap-x-6"
                 {...textAnimation}
               >
-                <a
-                  href="#"
+                 <Link href='/Pages/Contactus'>
+                <div
                   className="getintouch rounded-3xl px-10 py-4 text-sm text-white shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-                >
+               >
                   Get in Touch <span aria-hidden="true" className="arrow">➜
 </span>
-                </a>
+
+    
+                </div>
+                </Link>
               </motion.div>
             </div>
           </div>

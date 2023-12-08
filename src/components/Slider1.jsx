@@ -85,12 +85,13 @@ function Slider1() {
           color: "white",
           textAlign: "center",
           fontSize: "2rem",
-          padding: "10vh",
+          padding: "5vh",
         }}
 
         
       >
-        Need to enhance your business online? We’ve got you covered
+        Get All Emerging Tech Solutions Under One Roof
+
       </h1>
       <div className="container7">
         <Swiper
