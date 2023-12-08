@@ -86,6 +86,7 @@ function Slider1() {
           textAlign: "center",
           fontSize: "2rem",
           padding: "5vh",
+         
         }}
 
         

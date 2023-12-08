@@ -10,6 +10,7 @@ import Grid2 from "@/components/Grid2";
 import Company from "@/components/Company";
 import Landingpg from "@/components/Landingpg";
 import Ourclients from "@/components/Ourclients";
+import Ourclientsmob from "@/components/Ourclientsmob";
 import Pagenation from "@/components/Pagenation";
 import OrbitingCircles from "@/components/OrbitingCircles";
 
@@ -65,7 +66,8 @@ export default function Home() {
       <Grid />
       <Pagenation />
       <Grid2 />
-      <Ourclients />
+      {isMobile ? <Ourclientsmob />: <Ourclients />}
+      
       <Bottomsec />
     </main>
   );

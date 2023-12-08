@@ -80,7 +80,7 @@ const Pagenation = () => {
     animate={controls}
     variants={variants}className="flex flex-wrap lg:w-[80%] p-4 bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Ellipse8.png')] bg-no-repeat bg-auto bg-[center_top_1rem] " >
        
-      <div className="py-20  mx-auto text-center justify-center  text-4xl lg:text-4xl font-bold text-white mb-6">
+      <div id="projects" className="py-20  mx-auto text-center justify-center  text-4xl lg:text-4xl font-bold text-white mb-6">
         <motion.h3 {...textAnimation1}>Success Stories with Hey Buddy</motion.h3>
       </div>
        

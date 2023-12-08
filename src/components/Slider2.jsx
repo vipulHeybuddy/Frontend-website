@@ -56,17 +56,25 @@ function Mobslider() {
         alignItems: "center",
         flexDirection: "column",
         fontWeight: "bold",
+       
+      
       }}
-      className=" bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Ellipse8.png')] bg-no-repeat bg-contain "
+      // className=" bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Ellipse8.png')] bg-no-repeat bg-contain "
     >
       <h1
         style={{
           width: "100vw",
           color: "white",
+          display: "flex",
+          justifyContent: "center",
+        alignItems: "center",
           textAlign: "center",
           fontSize: "1.2rem",
           padding: "5vh",
+          position: 'sticky',
+          top: "5rem",
         }}
+        className=" bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Ellipse8.png')] bg-no-repeat bg-cover "
       >
        Get All Emerging Tech Solutions Under One Roof
 

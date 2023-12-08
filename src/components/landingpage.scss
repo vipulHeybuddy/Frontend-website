@@ -11,6 +11,14 @@ h1{
 div{
     font-family: 'customFont';
 }
+
+.wearetext{
+  @media screen and (max-width: 768px) {
+    margin-right: -5px;
+  }
+
+
+}
 .wordCarousel {
     font-size: 36px;
     font-weight: 500;
