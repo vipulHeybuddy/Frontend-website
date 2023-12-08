@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import Ourclients from './Ourclients';
+import SwipeableViews from 'react-swipeable-views';
 
 const Ourclientsmob = () => {
   const cardData = [
@@ -15,87 +16,84 @@ const Ourclientsmob = () => {
 
   const [currentCard, setCurrentCard] = useState(0);
 
-  const nextCard = () => {
-    setCurrentCard((prevCard) => (prevCard === cardData.length - 2 ? 0 : prevCard + 1));
-  };
-
-  const prevCard = () => {
-    setCurrentCard((prevCard) => (prevCard === 0 ? cardData.length - 2 : prevCard - 1));
+  const handleChangeIndex = (index) => {
+    setCurrentCard(index);
   };
 
   return (
-   
-    <div style={{ overflow: 'hidden', width: '100%' }}>
-         <div  className="pt-16 bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Ellipse4.png')] bg-no-repeat bg-auto bg-[center_top_1rem]" id="testimonials">
+    <div style={{ overflow: 'hidden', width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+      <div className="pt-16 bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Ellipse4.png')] bg-no-repeat bg-auto bg-[center_top_1rem]" id="testimonials">
 
+        <div className="py-2 lg:py-8  mx-auto text-center justify-center  text-2xl lg:text-4xl font-bold text-white mb-6">
+          <h3>Listen from our clients</h3>
+        </div>
 
-<div className="py-2 lg:py-8  mx-auto text-center justify-center  text-2xl lg:text-4xl font-bold text-white mb-6"> 
-<h3>Listen from our clients</h3>
-</div>
-      <div
-        style={{
-          display: 'flex',
-          transition: 'transform 0.5s ease',
-          transform: `translateX(-${currentCard * (70)}%)`, 
-        }}
-      >
-        {cardData.map((card) => (
-          <div
-            key={card.id}
-            style={{
-              flex: '0 0 60%', // Set width to 50%
-              boxSizing: 'border-box',
-              padding: '16px',
-              margin: '8px',
-              borderRadius: '12px',
-              backgroundColor: '#fff',
-              boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
-              color: 'white',
-            //   height: '20vh',
-              backgroundColor: '#0000004a'
-            }}
-          >
-            <p>{card.content}</p>
+        <SwipeableViews
+          index={currentCard}
+          onChangeIndex={handleChangeIndex}
+          style={{
+            width: '60%', // Set initial width to 60%
+            margin: 'auto', // Center the container
             
-            <p style={{textAlign: 'right'}}>{card.number}</p>
-            <p style={{textAlign: 'right'}}>{card.name}</p>
+          
+          }}
+        >
+          {cardData.map((card) => (
+            <div style={{display: 'flex' , justifyContent: 'center'}}>
+            <div
+              key={card.id}
+              style={{
+                flex: '0 0 70%', // Set width to 100%
+                boxSizing: 'border-box',
+                padding: '16px',
+                borderRadius: '12px',
+                backgroundColor: '#fff',
+                boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
+                color: 'white',
+                backgroundColor: '#0000004a',
+                width: '80%',
+                
+              }}
+            >
+              <p>{card.content}</p>
 
-          </div>
-        ))}
-      </div>
-      <div style={{ textAlign: 'center', marginTop: '16px' }}>
-        <button
-          style={{
-            padding: '8px 16px',
-            margin: '0 8px',
-            borderRadius: '8px',
-           
-            color: '#fff',
-            border: 'none',
-            cursor: 'pointer',
-          }}
-          onClick={prevCard}
-        >
-          Previous
-        </button>
-        <button
-          style={{
-            padding: '8px 16px',
-            margin: '0 8px',
-            borderRadius: '8px',
-           
-            color: '#fff',
-            border: 'none',
-            cursor: 'pointer',
-          }}
-          onClick={nextCard}
-        >
-          Next
-        </button>
-      </div>
+              <p style={{ textAlign: 'right' }}>{card.number}</p>
+              <p style={{ textAlign: 'right' }}>{card.name}</p>
+            </div>
+            </div>
+          ))}
+        </SwipeableViews>
+
+        <div style={{ textAlign: 'center', marginTop: '16px' }}>
+          <button
+            style={{
+              padding: '8px 16px',
+              margin: '0 8px',
+              borderRadius: '8px',
+              color: '#fff',
+              border: 'none',
+              cursor: 'pointer',
+            }}
+            onClick={() => handleChangeIndex((currentCard - 1 + cardData.length) % cardData.length)}
+          >
+            Previous
+          </button>
+          <button
+            style={{
+              padding: '8px 16px',
+              margin: '0 8px',
+              borderRadius: '8px',
+              color: '#fff',
+              border: 'none',
+              cursor: 'pointer',
+            }}
+            onClick={() => handleChangeIndex((currentCard + 1) % cardData.length)}
+          >
+            Next
+          </button>
+        </div>
       </div>
     </div>
-    
   );
 };
 

@@ -34,7 +34,7 @@ const Landingpg = () => {
 
               </motion.h1>
               <motion.div className="wordCarousel">
-        <span style={{fontWeight: '300'}}>We Are </span>
+        <span className="wearetext"  style={{fontWeight: '300'}}>We Are </span>
         <div>
         <ul className="flip5">
           <li style={{marginRight: '10rem'}}>Buddies!</li>
