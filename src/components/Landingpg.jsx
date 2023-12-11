@@ -50,7 +50,7 @@ const Landingpg = () => {
                               className="mt-10 flex items-center justify-center gap-x-6"
                 {...textAnimation}
               >
-                 <Link href='/Pages/Contactus'>
+                 <Link href='Pages/Contactus'>
                 <div
                   className="getintouch rounded-3xl px-10 py-4 text-sm text-white shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                >

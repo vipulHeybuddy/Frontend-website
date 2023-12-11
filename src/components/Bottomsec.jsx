@@ -1,4 +1,5 @@
 import React from "react";
+import Link from 'next/link';
 
 const Bottomsec = () => {
   return (
@@ -10,12 +11,12 @@ const Bottomsec = () => {
 
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
-            <a
+            <Link
               href="/Pages/Contactus"
               className="rounded-3xl bg-[#3F8AE2] px-6 py-4 text-sm font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
             >
              Let’s Discuss <span aria-hidden="true"  className="px-2 text-xl ">→</span>
-            </a>
+            </Link>
           </div>
         </div>
       </div>
