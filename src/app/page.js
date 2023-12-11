@@ -12,6 +12,8 @@ import Landingpg from "@/components/Landingpg";
 import Ourclients from "@/components/Ourclients";
 import Ourclientsmob from "@/components/Ourclientsmob";
 import Pagenation from "@/components/Pagenation";
+import Pagenationmob from "@/components/Pagenationmob";
+
 import OrbitingCircles from "@/components/OrbitingCircles";
 
 
@@ -64,7 +66,9 @@ export default function Home() {
       </motion.div>
 
       <Grid />
-      <Pagenation />
+      {/* <Pagenation /> */}
+      {isMobile ? <Pagenationmob />: <Pagenation />}
+
       <Grid2 />
       {isMobile ? <Ourclientsmob />: <Ourclients />}
       

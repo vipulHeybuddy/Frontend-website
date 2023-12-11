@@ -180,7 +180,9 @@ const Pagenation = () => {
 
               <div className="tab-content tab-space">
 
-                <div className={openTab === 1 ? "block" : "hidden"} id="link1">
+                
+              <div className={openTab === 1 ? "block" : "hidden"} id="link1">
+                
                 <div className="grid sm:grid-1 gap-y-4 gap-x-16  md:mb-12 md:grid-cols-2 lg:grid-cols-2">
               <div className="border-2 rounded-3xl ">
                 <Image
@@ -212,6 +214,7 @@ const Pagenation = () => {
                 </div>
 
                 <div className={openTab === 2 ? "block" : "hidden"} id="link2">
+               
                 <div className="grid sm:grid-1 gap-y-4 gap-x-16  md:mb-12 md:grid-cols-2 lg:grid-cols-2">
               <div className="border-2 rounded-3xl ">
                 <Image
@@ -241,9 +244,11 @@ const Pagenation = () => {
                 </Link>
               </div>
             </div>
+            
                 </div>
 
                 <div className={openTab === 3 ? "block" : "hidden"} id="link3">
+              
                 <div className="grid sm:grid-1 gap-y-4 gap-x-16  md:mb-12 md:grid-cols-2 lg:grid-cols-2">
               <div className="border-2 rounded-3xl ">
                 <Image
@@ -273,9 +278,11 @@ const Pagenation = () => {
                 </Link>
               </div>
             </div>
+
                 </div>
 
                 <div className={openTab === 4 ? "block" : "hidden"} id="link3">
+                
                 <div className="grid sm:grid-1 gap-y-4 gap-x-16  md:mb-12 md:grid-cols-2 lg:grid-cols-2">
               <div className="border-2 rounded-3xl ">
                 <Image
@@ -304,6 +311,7 @@ const Pagenation = () => {
                 </Link>
               </div>
             </div>
+
                 </div>
 
 
