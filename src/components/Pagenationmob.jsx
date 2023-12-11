@@ -109,13 +109,13 @@ const Pagenationmob = () => {
         {cards.map((card) => (
           <div  key={card.id} className="px-2 grid sm:grid-1 gap-y-4 gap-x-16  ">
 
-            <p className="bg-[#3F8AE2] bg-opacity-[50%] p-4 text-center text-white rounded-lg block  ">{card.cardheading}</p>
+            <h1 style={{fontSize: '2rem'}} className="  text-center text-white rounded-lg block  ">{card.cardheading}</h1>
             <div className="border-2 rounded-3xl ">
               <Image
                 src={card.imageurl}
                 width={500}
                 height={500}
-                className="rounded-3xl w-[100%] h-[40vh] "
+                className="rounded-3xl w-[100%] h-[30vh] "
               />
             </div>
             <div className="lg:pt-20">
