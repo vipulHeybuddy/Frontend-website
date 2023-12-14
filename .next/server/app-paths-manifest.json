@@ -1,5 +1,4 @@
 {
-  "/not-found": "app/not-found.js",
-  "/Pages/services/gamedevelopment/page": "app/Pages/services/gamedevelopment/page.js",
-  "/page": "app/page.js"
+  "/page": "app/page.js",
+  "/Pages/services/gamedevelopment/page": "app/Pages/services/gamedevelopment/page.js"
 }

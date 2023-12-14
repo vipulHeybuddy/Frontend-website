@@ -213,7 +213,7 @@ const page = () => {
         <div className="relative isolate px-6  pt-20 lg:px-8 ">
           {/* ----------------------hero section---------------------------------------- */}
 
-          <div className="mx-auto  border border-white  py-32 sm:pt-48 lg:pt-56">
+          <div className="mx-auto rounded-lg py-32 sm:pt-48 lg:pt-56 h-[95vh] bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev1.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
             <div className="text-center mx-auto lg:w-[80%]">
               <h1 className="heading1 lg:text-6xl text-3xl lg:pb-8 font-bold tracking-tight text-white sm:text-6xl">
                 Level up With AI: Best Game Development Company in India
@@ -281,35 +281,38 @@ const page = () => {
 
           {/* -------------------------------------------------------------- */}
 
-          <Gridsection listData={List1} textData={Text1} />
+          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev2.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
+            <Gridsection listData={List1} textData={Text1} />
+          </div>
 
           {/* ------------------------scroll component-------------------------------------- */}
 
-
           {/* ----------------------------mix section---------------------------------- */}
-          <Mixsection/>
-
+          <Mixsection />
 
           {/* ------------------------left side scroll timeline section-------------------------------------- */}
 
-
-
-
           {/* -------------------------------------------------------------- */}
+          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev6.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
 
           <Gridsection listData={List2} textData={Text2} />
+          </div>
 
           {/* -------------------------------------------------------------- */}
+          {/* https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev7.png */}
+          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev7.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
 
           <Gridsection listData={List3} textData={Text3} />
+          </div>
 
           {/* ------------------------pagination section-------------------------------------- */}
-          <Pagenation/>
+          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev8.png')] py-8 bg-no-repeat lg:bg-cover ">
 
-
+          <Pagenation />
+          </div>
 
           {/* -----------------------client section--------------------------------------- */}
-          <div className="text-white">
+          <div className="text-white lg:py-16 bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev9.png')] py-8 bg-no-repeat lg:bg-cover">
             <h1 className="py-4 lg:w-[80%] text-2xl lg:text-4xl">
               How Clients Rate Our Game Development Services
             </h1>
@@ -344,7 +347,11 @@ const page = () => {
           </div>
 
           {/* -----------------------------FAQ section------------------------------------ */}
-          <Faqsection/>
+          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev10.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
+
+          <Faqsection />
+          </div>
+
         </div>
       </div>
     </div>

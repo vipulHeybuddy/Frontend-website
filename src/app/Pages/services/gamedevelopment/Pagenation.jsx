@@ -46,7 +46,7 @@ const Pagenation = () => {
 
 
   return (
-    <div>
+    <div className="lg:py-24">
       {/* <TabView>
         {Pagecontent.map((section, index) => (
           <TabPanel header={section.heading}  className="p-8 ">
