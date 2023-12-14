@@ -1,5 +1,7 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
+
 // import Img1 from "../../public/Images/img1.png";
 // import Logo from "../../public/Images/logo2.png";
 
@@ -21,7 +23,7 @@ const Footer = () => {
 
       <div className="mx-auto lg:w-[80%] space-y-8 px-4 sm:px-6 lg:space-y-16 lg:px-16 relative z-10">
           <div class="sm:flex sm:items-center sm:justify-between">
-            <div class="text-white py-4 ">
+            <Link href='/' class="text-white py-4 ">
               <Image
                 width={700}
                 height={700}
@@ -31,7 +33,7 @@ const Footer = () => {
                 alt="Hey Buddy"
               />
 
-            </div>
+            </Link>
             <div className="">
               <h1 className="text-white text-2xl font-semibold lg:pb-4">Follow Us</h1>
               <ul class="mx-auto justify-center mt-8 flex lg:justify-start gap-6 sm:mt-0 sm:justify-end">
