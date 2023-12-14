@@ -73,12 +73,13 @@ const Navbartest = () => {
           <ul className="flex-1 flex justify-center items-center gap-4 max-lg:hidden">
             {navLinks.map((item) => (
               <li key={item.label}>
-                <a
-                  href={item.href}
-                  className="lg:text-[15px] px-2 sm:text-sm  text-white border-transparent hover:border-black "
-                >
-                  {item.label}
-                </a>
+               <Link href={item.href}
+              
+            className="lg:text-[15px] px-2 sm:text-sm text-white border-transparent hover:border-black "
+              >
+               {item.label}
+                
+            </Link>
               </li>
             ))}
           </ul>
@@ -112,13 +113,13 @@ const Navbartest = () => {
             <ul className=" lg:hidden flex flex-col items-center justify-center h-full " onClick={handleBlackScreenClick}>
               {navLinks.map((item) => (
                 <li key={item.label} > 
-                  <a
+                  <Link
                     href={item.href}
                     
                     className="top-[295px] text-[24px] font-bold  p-4 text-white border-transparent hover:border-black block"
                   >
                     {item.label}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>
