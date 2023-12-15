@@ -6,6 +6,8 @@ import Gridsection from "./Gridsection";
 import Faqsection from "./Faqsection";
 import Pagenation from "./Pagenation";
 import Mixsection from "./Mixsection";
+import Timelinecomp from "./Timelinecomp";
+import Motionslide from "./Motionslide";
 
 const page = () => {
   const checklist1 = [
@@ -286,29 +288,37 @@ const page = () => {
           </div>
 
           {/* ------------------------scroll component-------------------------------------- */}
+          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev3.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
+            <Motionslide/>
+          </div>
+
+
 
           {/* ----------------------------mix section---------------------------------- */}
           <Mixsection />
 
+
+
           {/* ------------------------left side scroll timeline section-------------------------------------- */}
+          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev5.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
+            <Timelinecomp />
+          </div>
+
+
 
           {/* -------------------------------------------------------------- */}
           <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev6.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
-
-          <Gridsection listData={List2} textData={Text2} />
+            <Gridsection listData={List2} textData={Text2} />
           </div>
 
           {/* -------------------------------------------------------------- */}
-          {/* https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev7.png */}
           <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev7.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
-
-          <Gridsection listData={List3} textData={Text3} />
+            <Gridsection listData={List3} textData={Text3} />
           </div>
 
           {/* ------------------------pagination section-------------------------------------- */}
           <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev8.png')] py-8 bg-no-repeat lg:bg-cover ">
-
-          <Pagenation />
+            <Pagenation />
           </div>
 
           {/* -----------------------client section--------------------------------------- */}
@@ -348,10 +358,8 @@ const page = () => {
 
           {/* -----------------------------FAQ section------------------------------------ */}
           <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev10.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
-
-          <Faqsection />
+            <Faqsection />
           </div>
-
         </div>
       </div>
     </div>
