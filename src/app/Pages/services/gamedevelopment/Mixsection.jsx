@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import Image from "next/image";
 import SwipeableViews from 'react-swipeable-views';
 import Sliderclient from "./Sliderclient";
+import { AiFillCheckCircle } from "react-icons/ai";
 
 
 const Mixsection = () => {
@@ -95,8 +96,9 @@ const Mixsection = () => {
           <ol className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 px-2 gap-5 lg:gap-x-16">
             {checklist1.map((section, index) => (
               <div className="px-2 lg:px-16 flex items-center text-[#FFFFFF]  space-x-2.5 rtl:space-x-reverse">
-                <san className="flex items-center justify-center w-8 h-8 text-[#0B0DF4] bg-[#6FCF97]  rounded-full shrink-0 ">
-                  &#10004;
+                <san className="flex items-center justify-center w-8 h-8  rounded-full shrink-0 ">
+                <AiFillCheckCircle className="w-8 h-8 text-[#6FCF97]"/>
+
                 </san>
                 <span>
                   <h3 className="font-medium leading-tight">{section.title}</h3>

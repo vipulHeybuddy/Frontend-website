@@ -9,12 +9,14 @@
     "/Pages/services/gamedevelopment/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
+      "static/css/app/Pages/services/gamedevelopment/page.css",
       "static/chunks/app/Pages/services/gamedevelopment/page.js"
     ],
-    "/not-found": [
+    "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/not-found.js"
+      "static/css/app/page.css",
+      "static/chunks/app/page.js"
     ]
   }
 }

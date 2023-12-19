@@ -1,48 +1,10 @@
 import React from "react";
-// import { TabView, TabPanel } from "primereact/tabview";
-// import { Tabs } from "flowbite-react";
 import { TabPanel, useTabs } from "react-headless-tabs";
 import { TabSelector } from "./TabSelector";
+import Image from "next/image";
 
 const Pagenation = () => {
-  const Pagecontent = [
-    {
-      id: "1",
-      heading: "Platforms",
-      content:
-        "Lorem ipsum dolor sit amet,consectetur adipiscing elit, sed do eiusmod tempor incididunt ut laboreconsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    },
-    {
-      id: "2",
-      heading: "AR/VR Platforms",
-      content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt utconsectetur adipiscing elit, sed do eiusmod tempor incididunt ut laboreconsectetur adipiscing elit, sed do eiusmod tempor incididunt ut laboreconsectetur adipiscing elit, sed do eiusmod tempor incididunt ut laboreconsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    },
-    {
-      id: "3",
-      heading: "Metaveerse Platforms",
-      content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    },
-    {
-      id: "4",
-      heading: "Game Engines",
-      content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut laboreconsectetur adipiscing elit, sed do eiusmod tempor incididunt ut laboreesse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    },
-    {
-      id: "5",
-      heading: "Languages",
-      content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    },
-    {
-      id: "6",
-      heading: "Artifical Intelligence(AI)",
-      content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur consectetur adipiscing elit, sed do eiusmod tempor incididunt ut laboreconsectetur adipiscing elit, sed do eiusmod tempor incididunt ut laboreconsectetur adipiscing elit, sed do eiusmod tempor incididunt ut laboreconsectetur adipiscing elit, sed do eiusmod tempor incididunt ut laboresint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    },
-  ];
+ 
 
   const [selectedTab, setSelectedTab] = useTabs([
     "Platforms",
@@ -78,13 +40,13 @@ const Pagenation = () => {
           isActive={selectedTab === "ARVRPlatforms"}
           onClick={() => setSelectedTab("ARVRPlatforms")}
         >
-         AR/VR Platforms
+          AR/VR Platforms
         </TabSelector>
         <TabSelector
           isActive={selectedTab === "MetaveersePlatforms"}
           onClick={() => setSelectedTab("MetaveersePlatforms")}
         >
-         Metaveerse Platformss
+          Metaveerse Platformss
         </TabSelector>
 
         <TabSelector
@@ -107,49 +69,416 @@ const Pagenation = () => {
         >
           Artifical Intelligence(AI)
         </TabSelector>
-
       </nav>
 
       <div className="py-6 px-2">
-        <TabPanel hidden={selectedTab !== "Platforms"}
-        className="p-6 bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 rounded-lg h-[30vh] w-full"
+        <TabPanel
+          hidden={selectedTab !== "Platforms"}
+          className="p-6 bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 rounded-lg h-[20vh] w-full"
         >
-          Platforms
-          </TabPanel>
+          <div className="grid sm:grid-1 md:mb-12 md:grid-cols-2 lg:grid-cols-6 gap-y-4 gap-x-2">
+            <div className="bg-white h-[12vh] w-[22vh] rounded-lg mx-auto text-center"> 
+            <Image 
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/p1.png"
+                width={450}
+                height={450}
+                className="h-[24px] w-[24px] bg-white mx-auto mt-4"
+                />
+                <h1 className="text-black py-2">Appstore</h1>
+            </div>
 
-        <TabPanel hidden={selectedTab !== "ARVRPlatforms"}
-        className="p-6 bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 rounded-lg h-[30vh] w-full"
-        >
-          AR/VR Platforms
-          </TabPanel>
+            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center" >
+            <Image 
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/p2.png"
+                width={450}
+                height={450}
+                className="h-6 w-6 bg-white mx-auto mt-4"
+                />
+                <h1 className="text-black py-2">Playstore</h1>
+            </div>
 
-        <TabPanel hidden={selectedTab !== "MetaveersePlatforms"}
-        className="p-6 bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 rounded-lg h-[30vh] w-full"
-        
-        >
-          Metaveerse Platforms
-          </TabPanel>
+            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center">
+            <Image 
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/p3.png"
+                width={450}
+                height={450}
+                className="h-6 w-6 bg-white mx-auto mt-4"
+                />
+                <h1 className="text-black py-2">PC</h1>
+            </div>
 
-        <TabPanel hidden={selectedTab !== "GameEngines"}
-        className="p-6 bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 rounded-lg h-[30vh] w-full"
-        
-        >
-          Game Engines
-          </TabPanel>
+            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center" >
+            <Image 
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/p4.png"
+                width={450}
+                height={450}
+                className="h-6 w-6 bg-white mx-auto mt-4"
+                />
+                <h1 className="text-black py-2">Playstation</h1>
+            </div>
 
-        <TabPanel hidden={selectedTab !== "Languages"}
-        className="p-6 bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 rounded-lg h-[30vh] w-full"
-        
-        >
-          Languages
-          </TabPanel>
+            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center">
+            <Image 
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/p5.png"
+                width={450}
+                height={450}
+                className="h-6 w-6 bg-white mx-auto mt-4"
+                />
+                <h1 className="text-black py-2">Xbox</h1>
+            </div>
 
-        <TabPanel hidden={selectedTab !== "ArtificalIntelligence(AI)"}
-        className="p-6 bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 rounded-lg h-[30vh] w-full"
-        
+            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center">
+            <Image 
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/p6.png"
+                width={450}
+                height={450}
+                className="h-6 w-6 bg-white mx-auto mt-4"
+                />
+                <h1 className="text-black py-2">Nintendo</h1>
+            </div>
+
+          </div>
+        </TabPanel>
+
+        <TabPanel
+          hidden={selectedTab !== "ARVRPlatforms"}
+          className="p-6 bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 rounded-lg h-[20vh] w-full"
         >
-          Artifical Intelligence(AI)
-          </TabPanel>
+          <div className="grid sm:grid-1 md:mb-12 md:grid-cols-2 lg:grid-cols-6 gap-y-4 gap-x-2">
+            <div className="bg-white h-[12vh] w-[22vh] rounded-lg mx-auto text-center"> 
+            <Image 
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av1.png"
+                width={450}
+                height={450}
+                className="h-[24px] w-[49px] bg-white mx-auto mt-4"
+                />
+                <h1 className="text-black py-2">Apple Vision Pro</h1>
+            </div>
+
+            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center" >
+            <Image 
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av2.png"
+                width={450}
+                height={450}
+                className="h-6 w-[49px] bg-white mx-auto mt-4"
+                />
+                <h1 className="text-black py-2">Oculus Rift</h1>
+            </div>
+
+            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center">
+            <Image 
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av3.png"
+                width={450}
+                height={450}
+                className="h-6 w-6 bg-white mx-auto mt-4"
+                />
+                <h1 className="text-black py-2">HTC Vive</h1>
+            </div>
+
+            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center" >
+            <Image 
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av4.png"
+                width={450}
+                height={450}
+                className="h-6 w-[51px] bg-white mx-auto mt-4"
+                />
+                <h1 className="text-black py-2">Google Daydream</h1>
+            </div>
+
+            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center">
+            <Image 
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av5.png"
+                width={450}
+                height={450}
+                className="h-[29px] w-[71px] bg-white mx-auto mt-4"
+                />
+                <h1 className="text-black py-2">Meta Quest</h1>
+            </div>
+
+            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center">
+            <Image 
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av6.png"
+                width={450}
+                height={450}
+                className="h-6 w-[61px] bg-white mx-auto mt-4"
+                />
+                <h1 className="text-black py-2">Microsoft HoloLens</h1>
+            </div>
+
+          </div>
+        </TabPanel>
+
+        <TabPanel
+          hidden={selectedTab !== "MetaveersePlatforms"}
+          className="p-6 bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 rounded-lg h-[20vh] w-full"
+        >
+          <div className="grid sm:grid-1 md:mb-12 md:grid-cols-2 lg:grid-cols-6 gap-y-4 gap-x-2">
+            <div className="bg-white h-[12vh] w-[22vh] rounded-lg mx-auto text-center"> 
+            <Image 
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av1.png"
+                width={450}
+                height={450}
+                className="h-[24px] w-[49px] bg-white mx-auto mt-4"
+                />
+                <h1 className="text-black py-2">Apple Vision Pro</h1>
+            </div>
+
+            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center" >
+            <Image 
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av2.png"
+                width={450}
+                height={450}
+                className="h-6 w-[49px] bg-white mx-auto mt-4"
+                />
+                <h1 className="text-black py-2">Oculus Rift</h1>
+            </div>
+
+            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center">
+            <Image 
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av3.png"
+                width={450}
+                height={450}
+                className="h-6 w-6 bg-white mx-auto mt-4"
+                />
+                <h1 className="text-black py-2">HTC Vive</h1>
+            </div>
+
+            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center" >
+            <Image 
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av4.png"
+                width={450}
+                height={450}
+                className="h-6 w-[51px] bg-white mx-auto mt-4"
+                />
+                <h1 className="text-black py-2">Google Daydream</h1>
+            </div>
+
+            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center">
+            <Image 
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av5.png"
+                width={450}
+                height={450}
+                className="h-[29px] w-[71px] bg-white mx-auto mt-4"
+                />
+                <h1 className="text-black py-2">Meta Quest</h1>
+            </div>
+
+            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center">
+            <Image 
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av6.png"
+                width={450}
+                height={450}
+                className="h-6 w-[61px] bg-white mx-auto mt-4"
+                />
+                <h1 className="text-black py-2">Microsoft HoloLens</h1>
+            </div>
+
+          </div>
+        </TabPanel>
+
+        <TabPanel
+          hidden={selectedTab !== "GameEngines"}
+          className="p-6 bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 rounded-lg h-[20vh] w-full"
+        >
+         <div className="grid sm:grid-1 md:mb-12 md:grid-cols-2 lg:grid-cols-6 gap-y-4 gap-x-2">
+            <div className="bg-white h-[12vh] w-[22vh] rounded-lg mx-auto text-center"> 
+            <Image 
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av1.png"
+                width={450}
+                height={450}
+                className="h-[24px] w-[49px] bg-white mx-auto mt-4"
+                />
+                <h1 className="text-black py-2">Apple Vision Pro</h1>
+            </div>
+
+            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center" >
+            <Image 
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av2.png"
+                width={450}
+                height={450}
+                className="h-6 w-[49px] bg-white mx-auto mt-4"
+                />
+                <h1 className="text-black py-2">Oculus Rift</h1>
+            </div>
+
+            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center">
+            <Image 
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av3.png"
+                width={450}
+                height={450}
+                className="h-6 w-6 bg-white mx-auto mt-4"
+                />
+                <h1 className="text-black py-2">HTC Vive</h1>
+            </div>
+
+            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center" >
+            <Image 
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av4.png"
+                width={450}
+                height={450}
+                className="h-6 w-[51px] bg-white mx-auto mt-4"
+                />
+                <h1 className="text-black py-2">Google Daydream</h1>
+            </div>
+
+            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center">
+            <Image 
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av5.png"
+                width={450}
+                height={450}
+                className="h-[29px] w-[71px] bg-white mx-auto mt-4"
+                />
+                <h1 className="text-black py-2">Meta Quest</h1>
+            </div>
+
+            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center">
+            <Image 
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av6.png"
+                width={450}
+                height={450}
+                className="h-6 w-[61px] bg-white mx-auto mt-4"
+                />
+                <h1 className="text-black py-2">Microsoft HoloLens</h1>
+            </div>
+
+          </div>
+        </TabPanel>
+
+        <TabPanel
+          hidden={selectedTab !== "Languages"}
+          className="p-6 bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 rounded-lg h-[20vh] w-full"
+        >
+         <div className="grid sm:grid-1 md:mb-12 md:grid-cols-2 lg:grid-cols-6 gap-y-4 gap-x-2">
+            <div className="bg-white h-[12vh] w-[22vh] rounded-lg mx-auto text-center"> 
+            <Image 
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av1.png"
+                width={450}
+                height={450}
+                className="h-[24px] w-[49px] bg-white mx-auto mt-4"
+                />
+                <h1 className="text-black py-2">Apple Vision Pro</h1>
+            </div>
+
+            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center" >
+            <Image 
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av2.png"
+                width={450}
+                height={450}
+                className="h-6 w-[49px] bg-white mx-auto mt-4"
+                />
+                <h1 className="text-black py-2">Oculus Rift</h1>
+            </div>
+
+            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center">
+            <Image 
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av3.png"
+                width={450}
+                height={450}
+                className="h-6 w-6 bg-white mx-auto mt-4"
+                />
+                <h1 className="text-black py-2">HTC Vive</h1>
+            </div>
+
+            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center" >
+            <Image 
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av4.png"
+                width={450}
+                height={450}
+                className="h-6 w-[51px] bg-white mx-auto mt-4"
+                />
+                <h1 className="text-black py-2">Google Daydream</h1>
+            </div>
+
+            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center">
+            <Image 
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av5.png"
+                width={450}
+                height={450}
+                className="h-[29px] w-[71px] bg-white mx-auto mt-4"
+                />
+                <h1 className="text-black py-2">Meta Quest</h1>
+            </div>
+
+            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center">
+            <Image 
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av6.png"
+                width={450}
+                height={450}
+                className="h-6 w-[61px] bg-white mx-auto mt-4"
+                />
+                <h1 className="text-black py-2">Microsoft HoloLens</h1>
+            </div>
+
+          </div>
+        </TabPanel>
+
+        <TabPanel
+          hidden={selectedTab !== "ArtificalIntelligence(AI)"}
+          className="p-6 bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 rounded-lg h-[20vh] w-full"
+        >
+          <div className="grid sm:grid-1 md:mb-12 md:grid-cols-2 lg:grid-cols-6 gap-y-4 gap-x-2">
+            <div className="bg-white h-[12vh] w-[22vh] rounded-lg mx-auto text-center"> 
+            <Image 
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av1.png"
+                width={450}
+                height={450}
+                className="h-[24px] w-[49px] bg-white mx-auto mt-4"
+                />
+                <h1 className="text-black py-2">Apple Vision Pro</h1>
+            </div>
+
+            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center" >
+            <Image 
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av2.png"
+                width={450}
+                height={450}
+                className="h-6 w-[49px] bg-white mx-auto mt-4"
+                />
+                <h1 className="text-black py-2">Oculus Rift</h1>
+            </div>
+
+            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center">
+            <Image 
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av3.png"
+                width={450}
+                height={450}
+                className="h-6 w-6 bg-white mx-auto mt-4"
+                />
+                <h1 className="text-black py-2">HTC Vive</h1>
+            </div>
+
+            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center" >
+            <Image 
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av4.png"
+                width={450}
+                height={450}
+                className="h-6 w-[51px] bg-white mx-auto mt-4"
+                />
+                <h1 className="text-black py-2">Google Daydream</h1>
+            </div>
+
+            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center">
+            <Image 
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av5.png"
+                width={450}
+                height={450}
+                className="h-[29px] w-[71px] bg-white mx-auto mt-4"
+                />
+                <h1 className="text-black py-2">Meta Quest</h1>
+            </div>
+
+            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center">
+            <Image 
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av6.png"
+                width={450}
+                height={450}
+                className="h-6 w-[61px] bg-white mx-auto mt-4"
+                />
+                <h1 className="text-black py-2">Microsoft HoloLens</h1>
+            </div>
+
+          </div>
+        </TabPanel>
 
       </div>
     </div>

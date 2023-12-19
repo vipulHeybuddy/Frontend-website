@@ -8,6 +8,7 @@ import Pagenation from "./Pagenation";
 import Mixsection from "./Mixsection";
 import Timelinecomp from "./Timelinecomp";
 import Motionslide from "./Motionslide";
+import { AiFillCheckCircle } from "react-icons/ai";
 
 const page = () => {
   const checklist1 = [
@@ -30,37 +31,37 @@ const page = () => {
     {
       id: "1",
       heading: "Enhanced Brand Engagement",
-      imgurl: "",
+      imgurl: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid1.png",
       para: "Gaming offers a unique platform to connect with your audience on a deeper level. Your brand establishes a memorable presence in the mind of the gamer, fostering stronger connections and long-term loyalty.",
     },
     {
       id: "2",
       heading: "Enhanced Brand Engagement",
-      imgurl: "",
+      imgurl: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid2.png",
       para: "Gaming offers a unique platform to connect with your audience on a deeper level. Your brand establishes a memorable presence in the mind of the gamer, fostering stronger connections and long-term loyalty.",
     },
     {
       id: "3",
       heading: "Enhanced Brand Engagement",
-      imgurl: "",
+      imgurl: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid3.png",
       para: "Gaming offers a unique platform to connect with your audience on a deeper level. Your brand establishes a memorable presence in the mind of the gamer, fostering stronger connections and long-term loyalty.",
     },
     {
       id: "4",
       heading: "Enhanced Brand Engagement",
-      imgurl: "",
+      imgurl: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid4.png",
       para: "Gaming offers a unique platform to connect with your audience on a deeper level. Your brand establishes a memorable presence in the mind of the gamer, fostering stronger connections and long-term loyalty.",
     },
     {
       id: "5",
       heading: "Enhanced Brand Engagement",
-      imgurl: "",
+      imgurl: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid5.png",
       para: "Gaming offers a unique platform to connect with your audience on a deeper level. Your brand establishes a memorable presence in the mind of the gamer, fostering stronger connections and long-term loyalty.",
     },
     {
       id: "6",
       heading: "Enhanced Brand Engagement",
-      imgurl: "",
+      imgurl: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid6.png",
       para: "Gaming offers a unique platform to connect with your audience on a deeper level. Your brand establishes a memorable presence in the mind of the gamer, fostering stronger connections and long-term loyalty.",
     },
   ];
@@ -79,37 +80,37 @@ const page = () => {
     {
       id: "1",
       heading: "Enhanced Brand Engagement",
-      imgurl: "",
+      imgurl: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid7.png",
       para: "Gaming offers a unique platform to connect with your audience on a deeper level. Your brand establishes a memorable presence in the mind of the gamer, fostering stronger connections and long-term loyalty.",
     },
     {
       id: "2",
       heading: "Enhanced Brand Engagement",
-      imgurl: "",
+      imgurl: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid8.png",
       para: "Gaming offers a unique platform to connect with your audience on a deeper level. Your brand establishes a memorable presence in the mind of the gamer, fostering stronger connections and long-term loyalty.",
     },
     {
       id: "3",
       heading: "Enhanced Brand Engagement",
-      imgurl: "",
+      imgurl: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid9.png",
       para: "Gaming offers a unique platform to connect with your audience on a deeper level. Your brand establishes a memorable presence in the mind of the gamer, fostering stronger connections and long-term loyalty.",
     },
     {
       id: "4",
       heading: "Enhanced Brand Engagement",
-      imgurl: "",
+      imgurl: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid10.png",
       para: "Gaming offers a unique platform to connect with your audience on a deeper level. Your brand establishes a memorable presence in the mind of the gamer, fostering stronger connections and long-term loyalty.",
     },
     {
       id: "5",
       heading: "Enhanced Brand Engagement",
-      imgurl: "",
+      imgurl: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid11.png",
       para: "Gaming offers a unique platform to connect with your audience on a deeper level. Your brand establishes a memorable presence in the mind of the gamer, fostering stronger connections and long-term loyalty.",
     },
     {
       id: "6",
       heading: "Enhanced Brand Engagement",
-      imgurl: "",
+      imgurl: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid12.png",
       para: "Gaming offers a unique platform to connect with your audience on a deeper level. Your brand establishes a memorable presence in the mind of the gamer, fostering stronger connections and long-term loyalty.",
     },
   ];
@@ -128,19 +129,19 @@ const page = () => {
     {
       id: "1",
       heading: "Enhanced Brand Engagement",
-      imgurl: "",
+      // imgurl: "",
       para: "Gaming offers a unique platform to connect with your audience on a deeper level. Your brand establishes a memorable presence in the mind of the gamer, fostering stronger connections and long-term loyalty.",
     },
     {
       id: "2",
       heading: "Enhanced Brand Engagement",
-      imgurl: "",
+      // imgurl: "",
       para: "Gaming offers a unique platform to connect with your audience on a deeper level. Your brand establishes a memorable presence in the mind of the gamer, fostering stronger connections and long-term loyalty.",
     },
     {
       id: "3",
       heading: "Enhanced Brand Engagement",
-      imgurl: "",
+      // imgurl: "",
       para: "Gaming offers a unique platform to connect with your audience on a deeper level. Your brand establishes a memorable presence in the mind of the gamer, fostering stronger connections and long-term loyalty.",
     },
   ];
@@ -252,8 +253,9 @@ const page = () => {
               <ol className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 px-2 gap-5 lg:gap-x-16">
                 {checklist1.map((section, index) => (
                   <div className="px-2 lg:px-16 flex items-center text-[#FFFFFF]  space-x-2.5 rtl:space-x-reverse">
-                    <san className="flex items-center justify-center w-8 h-8 text-[#0B0DF4] bg-[#6FCF97]  rounded-full shrink-0 ">
-                      &#10004;
+                    <san className="flex items-center justify-center w-8 h-8  rounded-full shrink-0 ">
+                      {/* &#10004; */}
+                      <AiFillCheckCircle className="w-8 h-8 text-[#6FCF97]"/>
                     </san>
                     <span>
                       <h3 className="font-medium leading-tight">

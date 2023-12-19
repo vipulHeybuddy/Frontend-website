@@ -67,10 +67,10 @@ const Gridsection = ({listData,textData}) => {
             <blockquote class="  text-gray-400">
 
                 <Image 
-                // src={}
-                w={450}
-                h={450}
-                className="h-14 w-14 bg-white"
+                src={section.imgurl}
+                width={450}
+                height={450}
+                className="h-[32px] w-[32px] "
                 />
 
 
