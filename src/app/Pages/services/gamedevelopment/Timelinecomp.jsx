@@ -1,8 +1,48 @@
-import React from "react";
+"use client";
+
+import React, { useEffect, useRef } from "react";
 import Image from "next/image";
 import './Timelinecomp.css'
+import { motion, useAnimation } from "framer-motion";
+
+
 const Timelinecomp = () => {
 
+  const controls = useAnimation();
+  const ref = useRef();
+
+  const textAnimation1 = {
+    hidden: { opacity: 0, y: "20%" },
+    visible: { opacity: 1, y: 0, transition: { duration: 1.5, ease: "easeOut" } },
+  };
+
+  const onScreen = async () => {
+    const element = ref.current;
+    if (element) {
+      const isVisible = await controls.start("visible");
+      if (isVisible) {
+      }
+    }
+  };
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          onScreen();
+        }
+      },
+      { threshold: 0 }
+    );
+
+    if (ref.current) {
+      observer.observe(ref.current);
+    }
+
+    return () => {
+      observer.disconnect();
+    };
+  }, []);
   const events = [
     { status: 'Ordered', date: '15/10/2020 10:30', icon: 'pi pi-shopping-cart', color: '#9C27B0', image: 'game-controller.jpg' },
     { status: 'Processing', date: '15/10/2020 14:00', icon: 'pi pi-cog', color: '#673AB7' },
@@ -13,7 +53,12 @@ const Timelinecomp = () => {
 
 
   return (
-    <div>
+    <motion.div
+    ref={ref}
+      initial="hidden"
+      animate={controls}
+      variants={textAnimation1}
+    >
       <div className="py-8 text-white">
 
         <h1 className="py-4 lg:w-[80%] text-2xl lg:text-4xl">
@@ -86,7 +131,7 @@ const Timelinecomp = () => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

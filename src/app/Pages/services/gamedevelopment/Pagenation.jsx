@@ -1,10 +1,48 @@
-import React from "react";
+"use client";
+
+import React, { useEffect, useRef } from "react";
 import { TabPanel, useTabs } from "react-headless-tabs";
 import { TabSelector } from "./TabSelector";
 import Image from "next/image";
+import { motion, useAnimation } from "framer-motion";
 
 const Pagenation = () => {
  
+  const controls = useAnimation();
+  const ref = useRef();
+
+  const textAnimation1 = {
+    hidden: { opacity: 0, y: "20%" },
+    visible: { opacity: 1, y: 0, transition: { duration: 1.5, ease: "easeOut" } },
+  };
+
+  const onScreen = async () => {
+    const element = ref.current;
+    if (element) {
+      const isVisible = await controls.start("visible");
+      if (isVisible) {
+      }
+    }
+  };
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          onScreen();
+        }
+      },
+      { threshold: 0 }
+    );
+
+    if (ref.current) {
+      observer.observe(ref.current);
+    }
+
+    return () => {
+      observer.disconnect();
+    };
+  }, []);
 
   const [selectedTab, setSelectedTab] = useTabs([
     "Platforms",
@@ -16,7 +54,13 @@ const Pagenation = () => {
   ]);
 
   return (
-    <div className="lg:py-8 text-white">
+    <motion.div 
+    ref={ref}
+    initial="hidden"
+    animate={controls}
+    variants={textAnimation1}
+    
+    className="lg:py-8 text-white">
       <div className="py-6">
         <h1 className="py-4 lg:w-[80%] text-2xl lg:text-4xl">
           Hey Buddy Tech Arsenal for best Game Solutions: <br /> Expertise on
@@ -481,7 +525,7 @@ const Pagenation = () => {
         </TabPanel>
 
       </div>
-    </div>
+    </motion.div>
   );
 };
 

@@ -1,9 +1,47 @@
-import React from "react";
+"use client";
+
+import React, { useEffect, useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { motion, useAnimation } from "framer-motion";
 
 const Gridsection = ({listData,textData}) => {
+  const controls = useAnimation();
+  const ref = useRef();
 
+  const textAnimation1 = {
+    hidden: { opacity: 0, y: "20%" },
+    visible: { opacity: 1, y: 0, transition: { duration: 1.5, ease: "easeOut" } },
+  };
+
+  const onScreen = async () => {
+    const element = ref.current;
+    if (element) {
+      const isVisible = await controls.start("visible");
+      if (isVisible) {
+      }
+    }
+  };
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          onScreen();
+        }
+      },
+      { threshold: 0 }
+    );
+
+    if (ref.current) {
+      observer.observe(ref.current);
+    }
+
+    return () => {
+      observer.disconnect();
+    };
+  }, []);
+  
 //   const List = [
 //     {
 //       id: "1",
@@ -51,9 +89,14 @@ const Gridsection = ({listData,textData}) => {
 //   ]
 
   return (
-    <div className="lg:py-4 text-white">
+    <motion.div 
+    ref={ref}
+    initial="hidden"
+    animate={controls}
+    variants={textAnimation1}
+    className="lg:py-4 text-white">
 
-        <div>
+        <div >
         {textData.map((section, index) => (
           <div className="py-12" key={index}>
             <h1 className="py-4 lg:w-[80%] text-2xl lg:text-4xl">{section.heading}</h1>
@@ -61,7 +104,7 @@ const Gridsection = ({listData,textData}) => {
           </div>
         ))}
         </div>
-      <div class="p-2 lg:py-4  grid mx-auto  justify-center rounded-xl shadow-sm sm:grid-1 md:mb-12 md:grid-cols-2 lg:grid-cols-3 gap-y-4 gap-x-4">
+      <div  class="p-2 lg:py-4  grid mx-auto  justify-center rounded-xl shadow-sm sm:grid-1 md:mb-12 md:grid-cols-2 lg:grid-cols-3 gap-y-4 gap-x-4">
         {listData.map((section, index) => (
           <figure class="flex flex-col  p-2 lg:p-6  rounded-lg  h-full w-full bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20">
             <blockquote class="  text-gray-400">
@@ -88,7 +131,7 @@ const Gridsection = ({listData,textData}) => {
           </figure>
         ))}
       </div>
-    </div>
+    </motion.div>
   );
 };
 

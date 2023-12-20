@@ -5,11 +5,6 @@ import  './grid1styles.css';
 import { motion, useAnimation } from 'framer-motion';
 
 
-// import Img1 from "../../public/Images/img1.png";
-// import Img2 from "../../public/Images/img2.png";
-// import Img3 from "../../public/Images/img3.png";
-// import Img4 from "../../public/Images/img4.png";
-
 const Grid1 = () => {
   const [userCount, setUserCount] = useState(0);
   const controls = useAnimation();
@@ -106,7 +101,7 @@ const Grid1 = () => {
             />
           </div>
           <div className="lg:text-left">
-            <h3 className="lg:text-2xl font-semibold text-gray-900 text-white">
+            <h3 className="lg:text-2xl font-semibold  text-white">
              13 Trillion
             </h3>
             <p className="text-sm">The metaverse will reach somewhere between $8 Trillion to $13 Trillion by 2030.
@@ -117,7 +112,7 @@ const Grid1 = () => {
     </figure>
 
             <figure class="flex flex-col py-6 lg:p-12 border-b border-gray-900 rounded-tr-3xl  h-full w-full bg-gray-500  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-40">
-              <blockquote class=" text-gray-500 lg:mb-8 text-white">
+              <blockquote class="  lg:mb-8 text-white">
                 <div className="lg:px-10 grid sm:grid-1 md:grid-cols-2 lg:grid-cols-2">
                   <div className="py-4">
                     <Image
@@ -129,7 +124,7 @@ const Grid1 = () => {
                   </div>
 
                   <div className="lg:text-left px-4">
-                    <h3 class="lg:text-2xl font-semibold text-gray-900 text-white">
+                    <h3 class="lg:text-2xl font-semibold text-white">
                       280 Billion
                     </h3>
                     <p className="text-sm px-2">By 2024, the metaverse market may reach $280 billion</p>
@@ -139,7 +134,7 @@ const Grid1 = () => {
             </figure>
 
             <figure class="flex flex-col items-center justify-center py-6 px-2 lg:p-12 text-center  border-b border-gray-900 rounded-bl-3xl md:border-b-0 md:border-r   h-full w-full bg-gray-500  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-40">
-              <blockquote class=" mb-4 text-gray-500 lg:mb-8 text-white">
+              <blockquote class=" mb-4  lg:mb-8 text-white">
                 <div className="lg:px-10 grid sm:grid-1 md:grid-cols-2 lg:grid-cols-2">
                   <div className="py-4">
                     <Image
@@ -150,7 +145,7 @@ const Grid1 = () => {
                     />
                   </div>
                   <div className="lg:text-left">
-                    <h3 class="lg:text-2xl font-semibold text-gray-900 text-white">
+                    <h3 class="lg:text-2xl font-semibold  text-white">
                       43%
                     </h3>
                     <p className="text-sm">Metaverse Market could at a phenomenal CAGR of 43% between 2021 to 2027</p>
@@ -160,7 +155,7 @@ const Grid1 = () => {
             </figure>
 
             <figure class="flex flex-col items-center justify-center py-6 px-2 lg:p-12 text-center  border-gray-900 rounded-br-3xl md:rounded-br-3xl h-full w-full bg-gray-600  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30">
-              <blockquote class="mb-4 text-gray-500 lg:mb-8 text-white">
+              <blockquote class="mb-4  lg:mb-8 text-white">
                 <div className="lg:px-10 grid sm:grid-1 md:grid-cols-2 lg:grid-cols-2">
                   <div className="py-4">
                     <Image

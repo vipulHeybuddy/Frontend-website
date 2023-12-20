@@ -1,12 +1,51 @@
-import React, { useState } from "react";
+"use client";
+
+import React, { useState, useEffect, useRef } from "react";
 import Slider from "react-slick";
 import Image from "next/image";
 import SwipeableViews from 'react-swipeable-views';
 import Sliderclient from "./Sliderclient";
 import { AiFillCheckCircle } from "react-icons/ai";
+import { motion, useAnimation } from "framer-motion";
 
 
 const Mixsection = () => {
+
+  const controls = useAnimation();
+  const ref = useRef();
+
+  const textAnimation1 = {
+    hidden: { opacity: 0, y: "20%" },
+    visible: { opacity: 1, y: 0, transition: { duration: 1.5, ease: "easeOut" } },
+  };
+
+  const onScreen = async () => {
+    const element = ref.current;
+    if (element) {
+      const isVisible = await controls.start("visible");
+      if (isVisible) {
+      }
+    }
+  };
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          onScreen();
+        }
+      },
+      { threshold: 0 }
+    );
+
+    if (ref.current) {
+      observer.observe(ref.current);
+    }
+
+    return () => {
+      observer.disconnect();
+    };
+  }, []);
   const checklist1 = [
     {
       title: "Tablet/Mobile Game Development",
@@ -76,7 +115,14 @@ const Mixsection = () => {
   };
 
   return (
-    <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev4.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
+    <motion.div 
+    ref={ref}
+      initial="hidden"
+      animate={controls}
+      variants={textAnimation1}
+
+    // className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev4.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]"
+    >
       <div className="py-4 text-white">
         <h1 className="py-4 lg:w-[80%] text-2xl lg:text-4xl">
           Our AI Gaming Solutions for the <br /> Future of Gaming
@@ -118,7 +164,7 @@ const Mixsection = () => {
       
 
 
-    </div>
+    </motion.div>
   );
 };
 

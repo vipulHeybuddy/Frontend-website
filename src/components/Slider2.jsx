@@ -5,9 +5,6 @@ import "./Slider2.css";
 function Mobslider() {
 
 
-
- 
-
   const slideData = [
     {
       title: "Game Development",
