@@ -1,6 +1,6 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
-import Header2 from '@/components/Navbar/Navbartest'
+import Header from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Header2/>
+        <Header/>
         {children}
         <Footer/>
         </body>

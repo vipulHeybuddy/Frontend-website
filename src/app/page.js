@@ -1,21 +1,18 @@
-'use client'
+"use client";
 import React, { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
-import Slider1 from "@/components/Slider1";
-import MobSlider from "@/components/Slider2";
-import Bottomsec from "@/components/Bottomsec";
-import Grid from "@/components/Grid";
-import Grid1 from "@/components/Grid1";
-import Grid2 from "@/components/Grid2";
-import Company from "@/components/Company";
-import Landingpg from "@/components/Landingpg";
-import Ourclients from "@/components/Ourclients";
-import Ourclientsmob from "@/components/Ourclientsmob";
-import Pagenation from "@/components/Pagenation";
-import Pagenationmob from "@/components/Pagenationmob";
-
-import OrbitingCircles from "@/components/OrbitingCircles";
-
+import Slider1 from "@/components/homepg/Section3latopview";
+import MobSlider from "@/components/homepg/Section3mobview";
+import Bottomsec from "@/components/homepg/Section9";
+import Grid from "@/components/homepg/Section5";
+import Grid1 from "@/components/homepg/Section4";
+import Grid2 from "@/components/homepg/Section7";
+import Company from "@/components/homepg/Section2";
+import Landingpg from "@/components/homepg/Section1";
+import Ourclients from "@/components/homepg/Section8large";
+import Ourclientsmob from "@/components/homepg/Section8mob";
+import Pagenation from "@/components/homepg/Section6large";
+import Pagenationmob from "@/components/homepg/Section6mob";
 
 const fadeInAnimation = {
   initial: { opacity: 0 },
@@ -51,28 +48,46 @@ export default function Home() {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between">
-      
+      {/*  --------------------section-1---------------------------------- */}
+
       <motion.div {...fadeInAnimation}>
         <Landingpg />
       </motion.div>
 
-      <OrbitingCircles />
+      {/*  --------------------section-2---------------------------------- */}
+
       <Company />
 
+      {/*  --------------------section-3---------------------------------- */}
+
       {isMobile ? <MobSlider /> : <Slider1 />}
+
+      {/*  --------------------section-4---------------------------------- */}
 
       <motion.div {...fadeInAnimation2}>
         <Grid1 />
       </motion.div>
 
+      {/*  --------------------section-5---------------------------------- */}
+
       <Grid />
-      {/* <Pagenation /> */}
-      {isMobile ? <Pagenationmob />: <Pagenation />}
+
+      {/*  --------------------section-6---------------------------------- */}
+
+      {isMobile ? <Pagenationmob /> : <Pagenation />}
+
+      {/*  --------------------section-7---------------------------------- */}
 
       <Grid2 />
-      {isMobile ? <Ourclientsmob />: <Ourclients />}
-      
+
+      {/*  --------------------section-8---------------------------------- */}
+
+      {isMobile ? <Ourclientsmob /> : <Ourclients />}
+
+      {/*  --------------------section-9---------------------------------- */}
+
       <Bottomsec />
+
     </main>
   );
 }

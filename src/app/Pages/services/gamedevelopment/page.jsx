@@ -3,17 +3,16 @@
 import React, { useEffect, useState , useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import Gridsection from "./Gridsection";
-import Faqsection from "./Faqsection";
-import Pagenation from "./Pagenation";
-import Mixsection from "./Mixsection";
-import Timelinecomp from "./Timelinecomp";
-import Motionslide from "./Motionslide";
+import Gridsection from "@/components/Gridsection";
+import Faqsection from "@/components/gamedevelopmentcomp/Section10";
+import Pagenation from "@/components/gamedevelopmentcomp/Section8";
+import Mixsection from "@/components/gamedevelopmentcomp/Section4";
+import Timelinecomp from "@/components/gamedevelopmentcomp/Section5";
+import Motionslide from "@/components/gamedevelopmentcomp/Section3";
 import { AiFillCheckCircle } from "react-icons/ai";
-
 import { motion, useAnimation } from "framer-motion";
-import Herosection from "./Herosection";
-import Bottomclient from "./Bottomclient";
+import Herosection from "@/components/gamedevelopmentcomp/Section1";
+import Bottomclient from "@/components/gamedevelopmentcomp/Section9";
 
 const page = () => {
 
@@ -256,31 +255,11 @@ const page = () => {
   return (
     <div className="lg:w-[80%] mx-auto">
       <div>
+
+          {/* --------------------Section-1 ------------------------------------------ */}
         <div className="relative isolate px-6  pt-20 lg:px-8 ">
          
          <Herosection />
-
-
-
-
-          {/* ----------------------para section---------------------------------------- */}
-          <div
-            ref={ref}
-            initial="hidden"
-            animate={controls}
-            variants={textAnimation1}
-            className="py-8 text-xl "
-          >
-            <p>
-              Get an AI-powered smart gaming solution that captivates with its
-              hyper-realistic graphics and enthrals with its deeply engaging
-              gameplay. Hey Buddy is India's leading game development company,
-              maintaining a large team of gamer-first developers who know what
-              works.
-            </p>
-          </div>
-
-          {/* --------------------box section ------------------------------------------ */}
 
           <div
             ref={ref}
@@ -308,53 +287,55 @@ const page = () => {
             </div>
           </div>
 
-          {/* -------------------------------------------------------------- */}
+          {/* -------------------------grid-reuse------------------------------------- */}
 
           <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev2.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
             <Gridsection listData={List1} textData={Text1} />
           </div>
 
-          {/* ------------------------scroll component-------------------------------------- */}
+          {/* ------------------------Section-3-------------------------------------- */}
           <div> 
             <Motionslide />
           </div>
 
        
 
-          {/* ----------------------------mix section---------------------------------- */}
+          {/* ----------------------------Section-4---------------------------------- */}
           <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev4.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
             <Mixsection />
           </div>
 
-          {/* ------------------------left side scroll timeline section-------------------------------------- */}
+          {/* ------------------------Section-5------------------------------------- */}
           <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev5.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
             <Timelinecomp />
           </div>
 
-          {/* -------------------------------------------------------------- */}
+          {/* ----------------------------grid-reuse---------------------------------- */}
           <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev6.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
             <Gridsection listData={List2} textData={Text2} />
           </div>
 
-          {/* -------------------------------------------------------------- */}
+          {/* ----------------------------grid-reuse---------------------------------- */}
           <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev7.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
             <Gridsection listData={List3} textData={Text3} />
           </div>
 
-          {/* ------------------------pagination section-------------------------------------- */}
+          {/* ------------------------section-8-------------------------------------- */}
           <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev8.png')] py-8 bg-no-repeat lg:bg-cover ">
             <Pagenation />
           </div>
 
-          {/* -----------------------client section--------------------------------------- */}
+          {/* -----------------------Section-9--------------------------------------- */}
           <div className="text-white lg:py-16 bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev9.png')] py-8 bg-no-repeat lg:bg-cover">
             <Bottomclient />
           </div>
 
-          {/* -----------------------------FAQ section------------------------------------ */}
+          {/* -----------------------------Section-10----------------------------------- */}
           <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev10.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
             <Faqsection />
           </div>
+
+
         </div>
       </div>
     </div>
