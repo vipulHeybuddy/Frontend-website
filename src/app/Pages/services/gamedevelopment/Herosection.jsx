@@ -1,29 +1,102 @@
 import React from 'react'
 import Link from 'next/link'
+import Image from "next/image";
+import { useState , useEffect } from 'react';
+import { Button } from '@material-tailwind/react';
 
 const Herosection = () => {
-  return (
-    <div>
-        <div
-              
-              className="text-center mx-auto lg:w-[80%]"
-            >
-              <h1 className="heading1 lg:text-6xl text-3xl lg:pb-8 font-bold tracking-tight text-white sm:text-6xl">
-                Level up With AI: Best Game Development Company in India
-              </h1>
 
-              <div className="mt-10 flex items-center justify-center gap-x-6">
-                <Link href="/">
-                  <div className="getintouch rounded-3xl px-10 py-4 text-sm text-white shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
-                    Consult Our Experts
-                    <span aria-hidden="true" className="arrow">
-                      ➜
-                    </span>
-                  </div>
-                </Link>
-              </div>
-            </div>
-    </div>
+  const [scrollPosition, setScrollPosition] = useState(0);
+  const [isHovered, setIsHovered] = useState(false);
+
+ 
+
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrollPosition(window.scrollY);
+    };
+
+    // Add scroll event listener
+    window.addEventListener('scroll', handleScroll);
+
+    // Remove the event listener when the component is unmounted
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+
+  
+  const containerStyle = {
+   
+    padding: '20px',
+    position: 'sticky',
+    
+  };
+
+  const textContainerStyle = {
+    marginBottom: '30%',
+    position: 'sticky',
+    left: '50%',
+    zIndex: 2,
+    color: '#fff',
+    textAlign: 'center',
+    top: '30%',
+  
+    
+  };
+
+  const imageContainerStyle = {
+    position: 'sticky',
+    top: '30%',
+    left: '50%',
+    // transform: `translateX(-50%) translateY(-${scrollPosition / 2}px)`,
+    width: '100%',
+    height: '100%',
+    overflow: 'hidden',
+    
+    top: '15rem' , 
+  };
+
+  const imageStyle = {
+    width: '100%',
+    height: 'auto',
+    transition: 'transform 0.3s ease-out',
+    opacity: '0.3',
+  };
+
+  const buttonHeader = {
+    border: isHovered ? '0px' : '1px solid white' ,
+    background: isHovered
+      ? 'linear-gradient(180deg, color(display-p3 0.2471 0.5412 0.8863) 0%, color(display-p3 0.137 0.3826 0.6708) 100%)'
+      : 'transparent',
+    color: isHovered ? 'white' : 'white', // Change the text color as needed
+    padding: '10px 20px',
+    fontSize: '16px',
+    transition: 'background-color 0.3s, transform 0.3s',
+    cursor: 'pointer',
+    transform: isHovered ? 'scale(1.1)' : 'scale(1)',
+  };
+ 
+
+  return (     
+   <div style={containerStyle}>
+      <div style={textContainerStyle}>
+        <h1 style={{fontSize: '3rem'}}>Level up With AI: </h1>
+        <h1 style={{fontSize: '3rem'}}>Best Game Development Company in India</h1>
+        <Button style={buttonHeader}
+          onMouseEnter={() => setIsHovered(true)}
+          onMouseLeave={() => setIsHovered(false)}>Consult Our Experts</Button>
+      </div>
+      <div style={imageContainerStyle}>
+        {/* Replace 'your-image.jpg' with the actual image source */}
+        <Image style={imageStyle} width={450}
+                height={450}
+                className="h-[24px] w-[24px] bg-white mx-auto mt-4"
+                 src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Gaming+controller.jpg" alt="Background" />
+         </div>
+     </div>
   )
 }
 

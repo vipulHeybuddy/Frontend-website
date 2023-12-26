@@ -177,12 +177,12 @@ const Sliderclient = () => {
           <figure class="flex flex-col p-4 lg:p-6  rounded-lg  h-full w-full bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20">
             <blockquote class="  text-gray-400">
 
-                <Image 
+                {/* <Image 
                 // src={}
                 w={450}
                 h={450}
                 className="h-14 w-14 bg-white"
-                />
+                /> */}
 
 
               <h3

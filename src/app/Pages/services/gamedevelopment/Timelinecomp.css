@@ -36,18 +36,17 @@
 .container ul {
 	list-style: none;
 }
-.container ul::after {
+.container ul::before {
 	content: " ";
 	position: absolute;
 	width: 4px;
 	height: 100%;
-	left: 50%;
 	top: 0;
 	transform: translateX(-50%);
 	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.767), rgba(255, 255, 255, 0.747));
 }
 .container ul li {
-	width: 50%;
+	
 	height: auto;
 	padding: 15px 20px;
 	position: relative;
@@ -74,13 +73,11 @@
 
 }
 ul li:nth-child(odd) .circle {
-	transform: translate(50%, -50%);
-	right: -30px;
+	
 }
 ul li:nth-child(even) .circle {
-	transform: translate(-50%, -50%);
-	left: -30px;
 }
+	
 
 /* .container ul li:nth-child(odd) {
 	float: left;

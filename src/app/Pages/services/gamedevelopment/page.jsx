@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useState , useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import Gridsection from "./Gridsection";
@@ -16,9 +16,36 @@ import Herosection from "./Herosection";
 import Bottomclient from "./Bottomclient";
 
 const page = () => {
+
+
   const controls = useAnimation();
   const ref = useRef();
 
+  const [isVisible, setIsVisible] = useState(false);
+
+  const handleScroll = () => {
+    // Check if the container is in the viewport
+    const container = document.getElementById('fade-in-container');
+    if (container) {
+      const rect = container.getBoundingClientRect();
+      const isInViewport = rect.top >= 0 && rect.bottom <= window.innerHeight;
+      if (isInViewport) {
+        setIsVisible(true);
+      }
+    }
+  };
+
+ 
+
+  useEffect(() => {
+    // Add scroll event listener when component mounts
+    window.addEventListener('scroll', handleScroll);
+
+    // Clean up the event listener when component unmounts
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
   const textAnimation = {
     hidden: { opacity: 0, y: "0%" },
     visible: {
@@ -91,38 +118,38 @@ const page = () => {
     },
     {
       id: "2",
-      heading: "Enhanced Brand Engagement",
+      heading: "Increased User Retention:",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid2.png",
-      para: "Gaming offers a unique platform to connect with your audience on a deeper level. Your brand establishes a memorable presence in the mind of the gamer, fostering stronger connections and long-term loyalty.",
+      para: "Games have an inherent ability to keep users hooked and invested. By incorporating addictive gameplay mechanics, your business can boost user retention, ensuring that your audience keeps coming back for more, and strengthening brand loyalty over time.",
     },
     {
       id: "3",
-      heading: "Enhanced Brand Engagement",
+      heading: "Best Way for Brand Awareness",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid3.png",
-      para: "Gaming offers a unique platform to connect with your audience on a deeper level. Your brand establishes a memorable presence in the mind of the gamer, fostering stronger connections and long-term loyalty.",
+      para: "Gaming is a powerful tool to aware, educate and train your audience on your products. Create immersive experiences that communicate your brand message to your customers and inform them about your products or services. Thus, merging entertainment and marketing for the best possible outcomes. ",
     },
     {
       id: "4",
-      heading: "Enhanced Brand Engagement",
+      heading: "Data-Driven Insights:",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid4.png",
-      para: "Gaming offers a unique platform to connect with your audience on a deeper level. Your brand establishes a memorable presence in the mind of the gamer, fostering stronger connections and long-term loyalty.",
+      para: "Games generate a wealth of data and information about player behaviour and preferences. Leverage it to gain deep audience insights, refine your marketing strategies, and make data-driven impactful decisions that get you the best business outcomes.",
     },
     {
       id: "5",
-      heading: "Enhanced Brand Engagement",
+      heading: "Cross-Platform Reach:",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid5.png",
-      para: "Gaming offers a unique platform to connect with your audience on a deeper level. Your brand establishes a memorable presence in the mind of the gamer, fostering stronger connections and long-term loyalty.",
+      para: "Reach your audience across various platforms and devices. From mobile and tablets to PCs, consoles, or VR, be present where your audience is and enjoy a broader reach. Gaming ensures that your message is accessible to a diverse and widespread audience.",
     },
     {
       id: "6",
-      heading: "Enhanced Brand Engagement",
+      heading: "Innovative Marketing Opportunities:",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid6.png",
-      para: "Gaming offers a unique platform to connect with your audience on a deeper level. Your brand establishes a memorable presence in the mind of the gamer, fostering stronger connections and long-term loyalty.",
+      para: "Games offer innovative marketing avenues by integrating your brand seamlessly into gaming storylines and environments. Utilize in-game advertising, or create branded mini-games for hyper-interactive campaigns, to enhance brand visibility and brand recall.",
     },
   ];
 
@@ -225,26 +252,19 @@ const page = () => {
 
   // ----------------------------------------------------------------
 
+
   return (
     <div className="lg:w-[80%] mx-auto">
       <div>
         <div className="relative isolate px-6  pt-20 lg:px-8 ">
-          {/* ----------------------hero section---------------------------------------- */}
+         
+         <Herosection />
 
-          <motion.div
-            ref={ref}
-            initial="hidden"
-            animate={controls}
-            variants={textAnimation}
-            className="mx-auto rounded-lg py-32 sm:pt-48 lg:pt-56 h-[95vh] bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev1.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]"
-          >
-            <div>
-              <Herosection />
-            </div>
-          </motion.div>
+
+
 
           {/* ----------------------para section---------------------------------------- */}
-          <motion.div
+          <div
             ref={ref}
             initial="hidden"
             animate={controls}
@@ -258,11 +278,11 @@ const page = () => {
               maintaining a large team of gamer-first developers who know what
               works.
             </p>
-          </motion.div>
+          </div>
 
           {/* --------------------box section ------------------------------------------ */}
 
-          <motion.div
+          <div
             ref={ref}
             initial="hidden"
             animate={controls}
@@ -286,18 +306,20 @@ const page = () => {
                 ))}
               </ol>
             </div>
-          </motion.div>
+          </div>
 
           {/* -------------------------------------------------------------- */}
 
-          <motion.div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev2.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
+          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev2.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
             <Gridsection listData={List1} textData={Text1} />
-          </motion.div>
+          </div>
 
           {/* ------------------------scroll component-------------------------------------- */}
-          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev3.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
+          <div> 
             <Motionslide />
           </div>
+
+       
 
           {/* ----------------------------mix section---------------------------------- */}
           <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev4.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
