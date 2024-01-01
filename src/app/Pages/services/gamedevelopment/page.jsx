@@ -4,15 +4,15 @@ import React, { useEffect, useState , useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import Gridsection from "@/components/Gridsection";
-import Faqsection from "@/components/gamedevelopmentcomp/Section10";
-import Pagenation from "@/components/gamedevelopmentcomp/Section8";
-import Mixsection from "@/components/gamedevelopmentcomp/Section4";
-import Timelinecomp from "@/components/gamedevelopmentcomp/Section5";
-import Motionslide from "@/components/gamedevelopmentcomp/Section3";
+import Faqsection from "@/components/servicescomp/gamedevelopmentcomp/Section10";
+import Pagenation from "@/components/servicescomp/gamedevelopmentcomp/Section8";
+import Mixsection from "@/components/servicescomp/gamedevelopmentcomp/Section4";
+import Timelinecomp from "@/components/servicescomp/gamedevelopmentcomp/Section5";
+import Motionslide from "@/components/servicescomp/gamedevelopmentcomp/Section3";
 import { AiFillCheckCircle } from "react-icons/ai";
 import { motion, useAnimation } from "framer-motion";
-import Herosection from "@/components/gamedevelopmentcomp/Section1";
-import Bottomclient from "@/components/gamedevelopmentcomp/Section9";
+import Herosection from "@/components/servicescomp/gamedevelopmentcomp/Section1";
+import Bottomclient from "@/components/servicescomp/gamedevelopmentcomp/Section9";
 
 const page = () => {
 

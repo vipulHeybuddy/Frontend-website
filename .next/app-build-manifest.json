@@ -6,6 +6,12 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
+    "/Pages/casestudies/gamedev/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/Pages/casestudies/gamedev/page.css",
+      "static/chunks/app/Pages/casestudies/gamedev/page.js"
+    ],
     "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -18,10 +24,11 @@
       "static/css/app/Pages/services/gamedevelopment/page.css",
       "static/chunks/app/Pages/services/gamedevelopment/page.js"
     ],
-    "/not-found": [
+    "/Pages/sliderpages/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/not-found.js"
+      "static/css/app/Pages/sliderpages/page.css",
+      "static/chunks/app/Pages/sliderpages/page.js"
     ]
   }
 }

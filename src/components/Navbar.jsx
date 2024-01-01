@@ -66,6 +66,7 @@ const Navbartest = () => {
           <Image width={300} height={300} 
           src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/logo.png"
            className=" lg:ml-0 h-6 w-[6rem] lg:h-10 lg:w-[12rem] cursor-pointer float-left" alt="Hey Buddy" />
+         
           </Link>
 
           </div>
