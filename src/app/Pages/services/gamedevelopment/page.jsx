@@ -13,6 +13,7 @@ import { AiFillCheckCircle } from "react-icons/ai";
 import { motion, useAnimation } from "framer-motion";
 import Herosection from "@/components/servicescomp/gamedevelopmentcomp/Section1";
 import Bottomclient from "@/components/servicescomp/gamedevelopmentcomp/Section9";
+import Section7 from "@/components/servicescomp/gamedevelopmentcomp/Section7";
 
 const page = () => {
 
@@ -215,39 +216,6 @@ const page = () => {
         "Hey Buddy is a renowned name in the game development space. We have an experienced development team who know what works best for your business.",
     },
   ];
-  //   ------------------grid section-3----------------------------------
-
-  const List3 = [
-    {
-      id: "1",
-      heading: "Interactive Mobile Game to Promote eCommerce Deals and Offers",
-      // imgurl: "",
-      para: "Hey Buddy developed an interactive mobile game for a leading eCommerce brand with in-game challenges related to the brand's offerings. The game featured exclusive discounts and rewards for top players, encouraging users to explore the brand's products while having fun.The mobile game phenomenally exceeded mobile game expectations. It doubled user engagement and led to an increase of 20% increase sales. Players enjoyed the interactive experience, and the brand reinforced its connection with its audience making it more profound.",
-    },
-    {
-      id: "2",
-      heading: "Collaboration to Realize Metaverse Vision",
-      // imgurl: "",
-      para: "Hey Buddy extended its expertise as a metaverse game development company to realise the vision of a tech startup. We designed and developed a cutting-edge metaverse game that seamlessly integrated virtual and augmented reality experiences for a unique and completely immersive digital environment.The game received phenomenal reviews for its innovation and attracted an audience from a wide game - tech enthusiasts and mainstream media. As a result, the startup gained industry recognition and attracted potential partnerships and investors. We look forward to more such collaboration.",
-    },
-    {
-      id: "3",
-      heading: "Ai-Integration To Revitalize A Flagship Gaming Title",
-      // imgurl: "",
-      para: "Hey Buddy's unmatched AI expertise helped an established gaming company revitalize its flagship gaming title. We integrated sophisticated AI algorithms into the game, to introduce PCG, adaptive gameplay, and AI-enable intelligent opponents that blew away their audience. The outcome, a 30% increase in active players and a 25% boost to in-game purchases. Players applauded the dynamic experience and our client solidified the game's position as a leading title in the competitive gaming market.",
-    },
-  ];
-
-  const Text3 = [
-    {
-      heading:
-        "Digital Joysticks, Real Rewards: Success Stories with Hey Buddy",
-      subtext:
-        "Hey Buddy offers its services to clients working in different industries and different scales. Here are the success stories that make us the best gaming development company in India. ",
-    },
-  ];
-
-  //   ------------------grid section-4----------------------------------
 
   // ----------------------------------------------------------------
 
@@ -310,14 +278,16 @@ const page = () => {
             <Timelinecomp />
           </div>
 
-          {/* ----------------------------grid-reuse---------------------------------- */}
+          {/* --------------------------Section-6--grid-reuse---------------------------------- */}
           <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev6.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
             <Gridsection listData={List2} textData={Text2} />
           </div>
 
-          {/* ----------------------------grid-reuse---------------------------------- */}
+          {/* ----------------------------Section7---------------------------------- */}
           <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev7.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
-            <Gridsection listData={List3} textData={Text3} />
+            {/* <Gridsection listData={List3} textData={Text3} /> */}
+            <Section7/>
+
           </div>
 
           {/* ------------------------section-8-------------------------------------- */}

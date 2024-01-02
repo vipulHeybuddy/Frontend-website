@@ -13,6 +13,7 @@ import { AiFillCheckCircle } from "react-icons/ai";
 import { motion, useAnimation } from "framer-motion";
 import Herosection from "@/components/servicescomp/customsoftwarecomp/Section1";
 import Bottomclient from "@/components/servicescomp/customsoftwarecomp/Section9";
+import Section7 from "@/components/servicescomp/customsoftwarecomp/Section7";
 
 const page = () => {
 
@@ -215,37 +216,7 @@ const page = () => {
         "Hey Buddy is a renowned name in the game development space. We have an experienced development team who know what works best for your business.",
     },
   ];
-  //   ------------------grid section-3----------------------------------
 
-  const List3 = [
-    {
-      id: "1",
-      heading: "Enhanced Brand Engagement",
-      // imgurl: "",
-      para: "Gaming offers a unique platform to connect with your audience on a deeper level. Your brand establishes a memorable presence in the mind of the gamer, fostering stronger connections and long-term loyalty.",
-    },
-    {
-      id: "2",
-      heading: "Enhanced Brand Engagement",
-      // imgurl: "",
-      para: "Gaming offers a unique platform to connect with your audience on a deeper level. Your brand establishes a memorable presence in the mind of the gamer, fostering stronger connections and long-term loyalty.",
-    },
-    {
-      id: "3",
-      heading: "Enhanced Brand Engagement",
-      // imgurl: "",
-      para: "Gaming offers a unique platform to connect with your audience on a deeper level. Your brand establishes a memorable presence in the mind of the gamer, fostering stronger connections and long-term loyalty.",
-    },
-  ];
-
-  const Text3 = [
-    {
-      heading:
-        "Digital Joysticks, Real Rewards: Success Stories with Hey Buddy",
-      subtext:
-        "Hey Buddy offers its services to clients working in different industries and different scales. Here are the success stories that make us the best gaming development company in India. ",
-    },
-  ];
 
   //   ------------------grid section-4----------------------------------
 
@@ -315,9 +286,10 @@ const page = () => {
             <Gridsection listData={List2} textData={Text2} />
           </div>
 
-          {/* ----------------------------grid-reuse---------------------------------- */}
+          {/* ----------------------------Section7---------------------------------- */}
           <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev7.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
-            <Gridsection listData={List3} textData={Text3} />
+            {/* <Gridsection listData={List3} textData={Text3} /> */}
+            <Section7/>
           </div>
 
           {/* ------------------------section-8-------------------------------------- */}

@@ -299,13 +299,13 @@ const Timelinecomp = () => {
 
             <div style={{ width: '100%', height: 0, paddingBottom: '100%', position: 'relative' }}>
               <iframe
-                src="https://giphy.com/embed/lXiRpzaKeG9nWR5eM"
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/giphyunscreen.gif"
                 width="100%"
                 height="100%"
                 // style={{position:"absolute"}}
-                style={{ position: 'absolute', top: 0, left: 0 }}
+                // style={{ position: 'absolute',  height: '100%', width: '100%'}}
                 frameBorder="0"
-                class="giphy-embed"
+                class="giphy-embed h-full w-full absolute"
                 allowFullScreen
               ></iframe>
             </div>
