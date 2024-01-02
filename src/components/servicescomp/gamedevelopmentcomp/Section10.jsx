@@ -97,13 +97,10 @@ const Faqsection = () => {
               style={{ border: "0" }}
               onClick={() => handleOpen(1)}
             >
-              What is Material Tailwind?
+              Is Hey Buddy a game development company in India?
             </AccordionHeader>
             <AccordionBody>
-              We&apos;re not always in the position that we want to be at.
-              We&apos;re constantly growing. We&apos;re constantly making
-              mistakes. We&apos;re constantly trying to express ourselves and
-              actualize our dreams.
+            Yes, Hey Buddy is a leading game development company based in India. They are known for offering innovative gaming solutions and top AI-integration services. cutting-edge game development expertise.
             </AccordionBody>
           </Accordion>
 
@@ -116,13 +113,10 @@ const Faqsection = () => {
               style={{ border: "0" }}
               onClick={() => handleOpen(2)}
             >
-              How to use Material Tailwind?
+              Does Hey Buddy specialize in metaverse game development?
             </AccordionHeader>
             <AccordionBody>
-              We&apos;re not always in the position that we want to be at.
-              We&apos;re constantly growing. We&apos;re constantly making
-              mistakes. We&apos;re constantly trying to express ourselves and
-              actualize our dreams.
+            Absolutely! Hey Buddy is counted as a leading metaverse game development company. They craft immersive digital experiences that take users into a completely different reality,
             </AccordionBody>
           </Accordion>
 
@@ -135,13 +129,10 @@ const Faqsection = () => {
               style={{ border: "0" }}
               onClick={() => handleOpen(3)}
             >
-              What can I do with Material Tailwind?
+               Is Hey Buddy a mobile game development company?
             </AccordionHeader>
             <AccordionBody>
-              We&apos;re not always in the position that we want to be at.
-              We&apos;re constantly growing. We&apos;re constantly making
-              mistakes. We&apos;re constantly trying to express ourselves and
-              actualize our dreams.
+            Yes, Hey Buddy also offers mobile game development services. They develop games for all platforms from iOS to Android.
             </AccordionBody>
           </Accordion>
         </div>
@@ -156,13 +147,10 @@ const Faqsection = () => {
               style={{ border: "0" }}
               onClick={() => handleOpen(4)}
             >
-              What is Material Tailwind?
+              Is Hey Buddy a Unity game development company?
             </AccordionHeader>
             <AccordionBody>
-              We&apos;re not always in the position that we want to be at.
-              We&apos;re constantly growing. We&apos;re constantly making
-              mistakes. We&apos;re constantly trying to express ourselves and
-              actualize our dreams.
+            Indeed! Hey Buddy leverages the power of Unity to deliver exceptional gaming products, They use Unity to ensure seamless and high-quality gaming experiences.
             </AccordionBody>
           </Accordion>
 
@@ -175,13 +163,10 @@ const Faqsection = () => {
               style={{ border: "0" }}
               onClick={() => handleOpen(5)}
             >
-              How to use Material Tailwind?
+               Can Hey Buddy be considered a game app development company?
             </AccordionHeader>
             <AccordionBody>
-              We&apos;re not always in the position that we want to be at.
-              We&apos;re constantly growing. We&apos;re constantly making
-              mistakes. We&apos;re constantly trying to express ourselves and
-              actualize our dreams.
+            Of course! Hey Buddy is your go-to game app development company. We bring your app ideas to life with our years of game development experience.
             </AccordionBody>
           </Accordion>
 

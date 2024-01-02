@@ -78,33 +78,33 @@ const Sliderclient = () => {
         },
         {
           id: "2",
-          heading: "Enhanced Brand Engagement2",
+          heading: "Increased User Retention",
           imgurl: "",
-          para: "Gaming offers a unique platform to connect with your audience on a deeper level. Your brand establishes a memorable presence in the mind of the gamer, fostering stronger connections and long-term loyalty.",
+          para: "Games have an inherent ability to keep users hooked and invested. By incorporating addictive gameplay mechanics, your business can boost user retention, ensuring that your audience keeps coming back for more, and strengthening brand loyalty over time.",
         },
         {
           id: "3",
-          heading: "Enhanced Brand Engagement3",
+          heading: "Best Way for Brand Awareness",
           imgurl: "",
-          para: "Gaming offers a unique platform to connect with your audience on a deeper level. Your brand establishes a memorable presence in the mind of the gamer, fostering stronger connections and long-term loyalty.",
+          para: "Gaming is a powerful tool to aware, educate and train your audience on your products. Create immersive experiences that communicate your brand message to your customers and inform them about your products or services. Thus, merging entertainment and marketing for the best possible outcomes.",
         },
         {
           id: "4",
-          heading: "Enhanced Brand Engagement4",
+          heading: "Data-Driven Insights",
           imgurl: "",
-          para: "Gaming offers a unique platform to connect with your audience on a deeper level. Your brand establishes a memorable presence in the mind of the gamer, fostering stronger connections and long-term loyalty.",
+          para: "Games generate a wealth of data and information about player behaviour and preferences. Leverage it to gain deep audience insights, refine your marketing strategies, and make data-driven impactful decisions that get you the best business outcomes.",
         },
         {
           id: "5",
-          heading: "Enhanced Brand Engagement5",
+          heading: "Cross-Platform Reach",
           imgurl: "",
-          para: "Gaming offers a unique platform to connect with your audience on a deeper level. Your brand establishes a memorable presence in the mind of the gamer, fostering stronger connections and long-term loyalty.",
+          para: "Reach your audience across various platforms and devices. From mobile and tablets to PCs, consoles, or VR, be present where your audience is and enjoy a broader reach. Gaming ensures that your message is accessible to a diverse and widespread audience.",
         },
         {
           id: "6",
-          heading: "Enhanced Brand Engagement6",
+          heading: "Innovative Marketing Opportunities",
           imgurl: "",
-          para: "Gaming offers a unique platform to connect with your audience on a deeper level. Your brand establishes a memorable presence in the mind of the gamer, fostering stronger connections and long-term loyalty.",
+          para: "Games offer innovative marketing avenues by integrating your brand seamlessly into gaming storylines and environments. Utilize in-game advertising, or create branded mini-games for hyper-interactive campaigns, to enhance brand visibility and brand recall.",
         },
       ];
  

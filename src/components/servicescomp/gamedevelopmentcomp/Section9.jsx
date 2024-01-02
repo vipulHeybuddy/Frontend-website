@@ -45,29 +45,29 @@ const Bottomclient = () => {
         {
           id: 1,
           content:
-            "Here is my opinion based on my experience, I have really enjoyed working with the game development team. The team is amicable, creative and understanding.",
+            "We assure you that no one can beat Hey Buddy in AI gaming. Their AI gaming solutions took our game to a whole new level. Our game became more dynamic and engaging throwing perfect challenges to the players. The team's dedication to offering the best solution sets them apart in the AI gaming space.",
           position: "Head of VP at Disney Hotstar",
-          name: "Zan Syed",
+          name: "Jonathan",
         },
         {
           id: 2,
           name: "Sarah",
           content:
-            "Thank you very much! An amazing job done by buddies what I like to call the team that exceeds all expectations. I am glad that I trusted you guys with the work.",
+            "Cross-platform development was like a breeze with Hey Buddy. They seamlessly optimized our game for iOS, Android, and PC, ensuring a consistent experience for players across different platforms. They are certainly the best game development company in India commitment to quality made them an invaluable partner in our game development journey.",
           position: "Head of VP at Disney Hotstar",
         },
         {
           id: 3,
-          name: "Ankit",
+          name: "Michael",
           content:
-            "I loved working with Hey Buddy and the way my VR project was handled, I consider this company as one of the best metaverse and game company in India.",
+            "Our metaverse game wouldn't have been possible without Hey Buddy's expertise in the immersive gaming domain. They skillfully integrated VR and AR elements into our project We highly recommend them as a trusted metaverse game development company.",
           position: "Head of VP at Disney Hotstar",
         },
         {
           id: 4,
-          name: "Riyahi",
+          name: "Emily",
           content:
-            "OMG where to start, I have no idea! people are amazing here, very focused and client-oriented. Kudos to the team for delivering the game project on time.",
+            "Choosing Hey Buddy for our mobile game development was the right decision. Their team's proficiency in iOS and Android development ensured a smooth launch and unwavering post-release support. Moreover, the game's success surpassed our expectations. They are the best mobile game development company.",
           position: "Head of VP at Disney Hotstar",
         },
         {
@@ -79,7 +79,7 @@ const Bottomclient = () => {
         },
         {
           id: 6,
-          name: "Bhaskar",
+          name: "Alex",
           content:
             "If anyone has a futuristic idea in mind and not finding the way to turn the idea into reality, I would recommend to reach out to Hey buddy, they are the best technology partner.",
           position: "Head of VP at Disney Hotstar",
