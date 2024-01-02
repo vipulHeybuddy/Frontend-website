@@ -88,28 +88,28 @@ const Timelinecomp = () => {
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit excepturi accusamus minus
                         totam </p>
                       
-                        <span className="circle bg-gray-800"></span>
+                       
                     </li>
                     <li>
                         <h3 className="heading">BackEnd Developer</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit excepturi accusamus minus
                         totam </p>
                        
-                        <span className="circle bg-gray-800"></span>
+                       
                     </li>
                     <li>
                         <h3 className="heading">Full Stack Developer</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit excepturi accusamus minus
                         totam </p>
                         
-                        <span className="circle bg-gray-800"></span>
+                       
                     </li>
                     <li>
                         <h3 className="heading">App Developer</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit excepturi accusamus minus
                         totam </p>
                        
-                        <span className="circle bg-gray-800"></span>
+                       
                     </li>
                 </ul>
             </div>

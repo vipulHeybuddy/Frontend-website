@@ -179,13 +179,14 @@ const Faqsection = () => {
               style={{ border: "0" }}
               onClick={() => handleOpen(6)}
             >
-              What can I do with Material Tailwind?
+              
+              Is Hey Buddy a Unreal game development company?
+
+
             </AccordionHeader>
             <AccordionBody>
-              We&apos;re not always in the position that we want to be at.
-              We&apos;re constantly growing. We&apos;re constantly making
-              mistakes. We&apos;re constantly trying to express ourselves and
-              actualize our dreams.
+            Indeed! Hey Buddy leverages the power of Unreal Engine to deliver exceptional gaming products, They use Unreal Engine to ensure seamless and high-quality gaming experiences.
+
             </AccordionBody>
           </Accordion>
         </div>
