@@ -24,7 +24,7 @@ function SampleNextArrow(props) {
     return (
       <div
         className={className}
-        style={{ ...style, display: "block" }}
+        style={{ ...style, display: "none" }}
         onClick={onClick}
       />
     );
@@ -102,7 +102,7 @@ const Sliderclient = () => {
         },
         {
           id: "6",
-          heading: "Innovative Marketing Opportunities",
+          heading: "Innovative Marketing",
           imgurl: "",
           para: "Games offer innovative marketing avenues by integrating your brand seamlessly into gaming storylines and environments. Utilize in-game advertising, or create branded mini-games for hyper-interactive campaigns, to enhance brand visibility and brand recall.",
         },
@@ -178,7 +178,7 @@ const Sliderclient = () => {
                 {section.heading}
               </h3>
 
-              <p style={{ color: "white" }} className="text-left">
+              <p style={{ color: "white", height:"25vh"}} className="text-left ">
                 {section.para}
               </p>
             </blockquote>

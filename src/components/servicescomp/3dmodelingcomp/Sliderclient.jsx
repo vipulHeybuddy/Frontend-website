@@ -13,7 +13,7 @@ function SampleNextArrow(props) {
     return (
       <div
         className={className}
-        style={{ ...style, display: "none" }}
+        style={{ ...style, display: "block" }}
         onClick={onClick}
       />
     );
@@ -178,7 +178,7 @@ const Sliderclient = () => {
                 {section.heading}
               </h3>
 
-              <p style={{ color: "white" }} className="text-left">
+              <p style={{ color: "white",  height:"25vh" }} className="text-left">
                 {section.para}
               </p>
             </blockquote>

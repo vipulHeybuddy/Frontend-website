@@ -61,33 +61,33 @@ body {
 
 .image_1 {
   z-index: 1;
-  background-image: url("https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Immersive.png");
+  background-image: url("https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg");
 }
 
 .image_2 {
   z-index: 2;
-  background-image: url("https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/ai.jpg");
+  background-image: url("https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds2.jpg");
 }
 
 .image_3 {
   z-index: 3;
-  background-image: url("https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/appdev.jpg");
+  background-image: url("https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds3.jpg");
 }
 
 .image_4 {
   z-index: 4;
-  background-image: url("https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.png");
+  background-image: url("https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds4.jpg");
 }
 
 .image_5 {
-  z-index: 0;
-  background-image: url("https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.png");
+  z-index: 5;
+  background-image: url("https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds5.jpg");
 }
 
-.image_6 {
-  z-index: 1;
-  background-image: url("https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Immersive.png");
-}
+/* .image_6 {
+  z-index: 5;
+  background-image: url("https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds5.jpg");
+} */
 
 .image_visible {
   opacity: 1;
