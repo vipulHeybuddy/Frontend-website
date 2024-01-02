@@ -23,10 +23,19 @@ body {
 
 .text {
   position: absolute;
-  top: 50%; /* Adjust based on image and text size */
+  font-size: 24px;
+  top: 40%; /* Adjust based on image and text size */
   width: 50%;
   text-align: center;
  background-image: url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev3.png');
+ opacity: 1;
+}
+.text-desctiption {
+  font-size: 20px;
+  position: absolute;
+  top: 50%; /* Adjust based on image and text size */
+  width: 50%;
+  text-align: center;
  opacity: 1;
 }
 .text_visible{
@@ -37,11 +46,12 @@ body {
   position: absolute;
   top: 30%;
   left: 60%;
-  width: 40%;
+  width: 30%;
   height: 55%;
   opacity: 0;
   background-repeat: no-repeat;
   background-size: cover;
+  border-radius: 18px;
 }
 
 .image_0 {
