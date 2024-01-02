@@ -129,6 +129,7 @@ function Slider1() {
                   display: "flex",
                   flexDirection: "column",
                   alignItems: "flex-start",
+                  overflow:"hidden",
                 }}
               >
                 <div style={{ textAlign: "left", margin: "1rem" }}>
@@ -153,6 +154,8 @@ function Slider1() {
                   display: "flex",
                   flexDirection: "column",
                   alignItems: "flex-start",
+                  overflow:"hidden",
+
                 }}
               >
                 <div style={{ textAlign: "left", margin: "1rem" }}>

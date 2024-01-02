@@ -12,28 +12,17 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
+    "/Pages/sliderpages/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/Pages/sliderpages/page.css",
+      "static/chunks/app/Pages/sliderpages/page.js"
+    ],
     "/Pages/services/gamedevelopment/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/Pages/services/gamedevelopment/page.css",
       "static/chunks/app/Pages/services/gamedevelopment/page.js"
-    ],
-    "/Pages/services/3dmodeling/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/Pages/services/3dmodeling/page.css",
-      "static/chunks/app/Pages/services/3dmodeling/page.js"
-    ],
-    "/Pages/services/customsoftware/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/Pages/services/customsoftware/page.css",
-      "static/chunks/app/Pages/services/customsoftware/page.js"
-    ],
-    "/not-found": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/not-found.js"
     ]
   }
 }

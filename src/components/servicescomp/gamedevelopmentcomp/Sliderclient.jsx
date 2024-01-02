@@ -24,7 +24,7 @@ function SampleNextArrow(props) {
     return (
       <div
         className={className}
-        style={{ ...style, display: "none" }}
+        style={{ ...style, display: "block" }}
         onClick={onClick}
       />
     );
@@ -116,8 +116,8 @@ const Sliderclient = () => {
         slidesToShow: 3,
         slidesToScroll: 1,
         initialSlide: 0,
-        // autoplay: true,
-        // autoplaySpeed: 2000,
+        autoplay: true,
+        autoplaySpeed: 2000,
         // cssEase: "linear",
 
 
