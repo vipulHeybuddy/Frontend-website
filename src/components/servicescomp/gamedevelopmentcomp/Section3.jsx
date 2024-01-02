@@ -10,45 +10,40 @@ const texts = [
   {
           title: "Game Development",
           description:
-            "From casual mobile gaming to console adventure, we create all here.",
+            "We develop highly functional mobile game solutions with cross-platform compatibility. So whether it is iOS or Android, smartphone or console, you name it and we, as your trusted Mobile game development company, will do it ",
          
         },
         {
-          title: "Immersive Development",
+          title: "Mobile Game Development",
           description:
-            "From casual mobile gaming to console adventure, we create all here.",
+            "We develop highly functional mobile game solutions with cross-platform compatibility. So whether it is iOS or Android, smartphone or console, you name it and we, as your trusted Mobile game development company, will do it ",
          
         },
         {
-          title: "3D Development",
+          title: "Unreal Game Development",
           description:
-            "From casual mobile gaming to console adventure, we create all here.",
+            "Unreal engine is known to deliver powerful and dynamic games that stun gamers with its visuals and realism. Our developers love to work on this platform and get you a game with realistic game physics and animation and AI’s smart interactivity.",
          
         },
         {
-          title: "AI Services",
+          title: "Unity 3D Game Development",
           description:
-            "From casual mobile gaming to console adventure, we create all here.",
+            "We use the robust Unity engine to develop immersive, high-performing, and visually stunning games for your target audience. Unity is known for its powerful tools and features and we, as Unity Game development company use it to the fullest for 2D and 3D games.",
          
         },
         {
-          title: "APP Development",
+          title: "Metaverse Game Development",
           description:
-            "From casual mobile gaming to console adventure, we create all here.",
+            "Get ready to teleport your gaming audience into a new reality of Metaverse games. We are a renowned Metaverse game development company that knows community-building, utilisation of user-generated content, and capitalise on social connectivity.",
           
         },
         {
-          title: "VR Training & Simulation",
+          title: "Web3 Game Development",
           description:
-            "From casual mobile gaming to console adventure, we create all here.",
+            "Ready to explore decentralised gaming for untapped business opportunities, we have an offer. Our team develops decentralised and secure Web3 gaming solutions utilising leading technologies like AI, blockchain, smart contracts, NFTs, and much more. ",
          
         },
-        {
-          title: "Web3 Development",
-          description:
-            "From casual mobile gaming to console adventure, we create all here.",
-          
-        },
+        
 ];
 
 const Motionslide = () => {
@@ -61,6 +56,7 @@ const Motionslide = () => {
   );
 
   const [currentText, setCurrentText] = useState(null);
+  const [currentText1, setCurrentText1] = useState(null);
 
 
   useLayoutEffect(() => {
@@ -80,6 +76,7 @@ const Motionslide = () => {
 
     // Update the current text based on the currently visible image
     setCurrentText(texts[currentImageIndex]?.title);
+    setCurrentText1(texts[currentImageIndex]?.description);
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -108,7 +105,10 @@ const Motionslide = () => {
           {images.map((image, index) => (
             <div key={image} className={`image-container ${index % 2 === 0 ? 'image-left' : 'image-right'}`}>
               {currentText && (
+                <div style={{display: 'flex' ,flexDirection: 'column'}}>
                 <div className="text">{currentText}</div>
+                <div  className="text-desctiption">{currentText1}</div>
+                </div>
               )}
               <div
                 className={classnames("image", `image_${image}`, {
