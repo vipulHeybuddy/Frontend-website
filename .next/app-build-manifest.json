@@ -1,22 +1,16 @@
 {
   "pages": {
-    "/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/layout.css",
-      "static/chunks/app/layout.js"
-    ],
-    "/Pages/casestudies/gamedev/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/Pages/casestudies/gamedev/page.css",
-      "static/chunks/app/Pages/casestudies/gamedev/page.js"
-    ],
     "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/page.css",
       "static/chunks/app/page.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
     ],
     "/Pages/services/gamedevelopment/page": [
       "static/chunks/webpack.js",
@@ -24,11 +18,22 @@
       "static/css/app/Pages/services/gamedevelopment/page.css",
       "static/chunks/app/Pages/services/gamedevelopment/page.js"
     ],
-    "/Pages/sliderpages/page": [
+    "/Pages/services/3dmodeling/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/Pages/sliderpages/page.css",
-      "static/chunks/app/Pages/sliderpages/page.js"
+      "static/css/app/Pages/services/3dmodeling/page.css",
+      "static/chunks/app/Pages/services/3dmodeling/page.js"
+    ],
+    "/Pages/services/customsoftware/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/Pages/services/customsoftware/page.css",
+      "static/chunks/app/Pages/services/customsoftware/page.js"
+    ],
+    "/not-found": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/not-found.js"
     ]
   }
 }

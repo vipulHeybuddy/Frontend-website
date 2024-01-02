@@ -17,7 +17,7 @@ const page = () => {
     <div className=" mx-auto">
       <Section1 />
 
-      <div className="lg:w-[90%] mx-auto bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/csgame2.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
+      <div className="lg:w-[90%] mx-auto bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/csgame2.png')] bg-no-repeat  bg-[center_top_0rem]">
         <Section2 />
       </div>
 
