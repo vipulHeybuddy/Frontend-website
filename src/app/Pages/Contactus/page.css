@@ -30,6 +30,10 @@ body {
     text-align: center;
    
   }
+  .PhoneInputInput{
+    background-color: black !important;
+  }
+  
 
   
   .input-field {
@@ -37,7 +41,7 @@ body {
     margin: 10px 0;
     padding: 10px;
     box-sizing: border-box;
-    background-color: #000;
+    background-color: black !important;
   }
   
   .submit-button {
