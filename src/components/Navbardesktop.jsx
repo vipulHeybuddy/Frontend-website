@@ -1,0 +1,126 @@
+"use client";
+import React, { useEffect, useState, useRef } from "react";
+
+import Link from "next/link";
+import Image from "next/image";
+import classNames from "classnames";
+
+const Navbardesktop = () => {
+  const [backgroundwhite, setBackgroundWhite] = useState(false);
+
+  const handleWindowScroll = (e) => {
+    const height = window.scrollY;
+    const tresholdHeight = 50;
+
+    if (height > tresholdHeight) {
+      setBackgroundWhite(true);
+    } else {
+      setBackgroundWhite(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleWindowScroll);
+
+    return () => window.removeEventListener("scroll", handleWindowScroll);
+  }, []);
+
+  return (
+    <div className="fixed top-0 transition-all duration-800   w-full  z-50">
+      <nav className="relative  px-2 py-0">
+        <div
+          className={classNames(
+            "fixed   lg:px-24 justify-center mx-auto items-center max-container w-full transition-all duration-800 py-4 z-50 ",
+            {
+              "   bg-clip-padding backdrop-filter backdrop-blur-2xl bg-opacity-70 z-50":
+                backgroundwhite,
+            }
+          )}
+        >
+          <div className="py-2 lg:px-24">
+            <Link href="/">
+              <Image
+                width={300}
+                height={300}
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/logo.png"
+                className=" lg:ml-0 h-6 w-[6rem] lg:h-10 lg:w-[12rem] cursor-pointer float-left"
+                alt="Hey Buddy"
+              />
+            </Link>
+
+            <ul className=" flex-1 flex justify-center items-center gap-4 max-lg:hidden">
+             
+              <li className="flex relative group lg:text-[15px] px-2 sm:text-sm border-transparent hover:border-black">
+            
+             {/* <Link href=""  className=""> */}
+                  Services
+                    
+             {/* </Link> */}
+
+                <i className="fa-solid fa-chevron-down fa-2xs pt-3" />
+                {/* Submenu starts */}
+                <ul className="absolute bg-white rounded-lg p-3 w-52 top-6 transform scale-0 group-hover:scale-100 transition duration-150 ease-in-out origin-top shadow-lg">
+                  <Link href="/Pages/services/3dmodeling">
+                    <li className="text-sm px-4 hover:bg-slate-200 hover:rounded-lg hover:text-blue-500 hover:font-bold leading-8">
+                      3D Modeling
+                    </li>
+                  </Link>
+
+                  <Link href="/Pages/services/customsoftware">
+                    <li className="text-sm px-4 hover:bg-slate-200 hover:rounded-lg hover:text-blue-500 hover:font-bold leading-8">
+                      AR Development
+                    </li>
+                  </Link>
+
+                  <Link href="/Pages/services/customsoftware">
+                    <li className="text-sm px-4 hover:bg-slate-200 hover:rounded-lg hover:text-blue-500 hover:font-bold leading-8">
+                      Custom Software
+                    </li>
+                  </Link>
+
+                  <Link href="/Pages/services/gamedevelopment">
+                    <li className="text-sm px-4 hover:bg-slate-200 hover:rounded-lg hover:text-blue-500 hover:font-bold leading-8">
+                      Game Development
+                    </li>
+                  </Link>
+
+                  <Link href="/Pages/services/vrdevelopment">
+                    <li className="text-sm px-4 hover:bg-slate-200 hover:rounded-lg hover:text-blue-500 hover:font-bold leading-8">
+                      VR Development
+                    </li>
+                  </Link>
+                </ul>
+
+                {/* Submenu ends */}
+              </li>
+
+              <Link href="/#projects">
+                <li>Projects</li>
+              </Link>
+
+              <Link href="/#whyus">
+                <li>Why Us</li>
+              </Link>
+
+              <Link href="/#testimonials">
+                <li>Testimonials</li>
+              </Link>
+
+              <Link href="/#aboutus">
+                <li>About Us</li>
+              </Link>
+
+              <Link href="/Pages/Contactus">
+                <li>Contact Us</li>
+              </Link>
+
+            </ul>
+
+          </div>
+        </div>
+      </nav>
+    </div>
+  );
+};
+
+export default Navbardesktop;

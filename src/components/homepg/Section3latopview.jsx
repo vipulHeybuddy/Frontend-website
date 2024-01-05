@@ -70,6 +70,7 @@ function Slider1() {
 
   return (
     <motion.div
+    id="services"
       ref={ref}
       initial="hidden"
       animate={controls}
