@@ -298,16 +298,14 @@ const Timelinecomp = () => {
           
 
             <div style={{ width: '100%', height: 0, paddingBottom: '100%', position: 'relative' }}>
-              <iframe
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/giphyunscreen.gif"
-                width="100%"
-                height="100%"
-                // style={{position:"absolute"}}
-                // style={{ position: 'absolute',  height: '100%', width: '100%'}}
-                frameBorder="0"
-                class="giphy-embed h-full w-full absolute"
-                allowFullScreen
-              ></iframe>
+              
+               <Image
+              width={700}
+              height={700}
+              src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/wheel-unscreen.gif"
+              className="lg:mr-6 h-[50vh] w-[52rem] lg:h-[70vh] lg:w-[52rem] "
+              alt="Hey B"
+              />
             </div>
             
           </div>

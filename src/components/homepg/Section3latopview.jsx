@@ -19,6 +19,8 @@ import Link from "next/link";
 function Slider1() {
   const controls = useAnimation();
   const ref = useRef();
+  let swiper = null; // Reference to the Swiper instance
+
 
   const variants = {
     hidden: { opacity: 0, y: "20%" },
@@ -52,6 +54,20 @@ function Slider1() {
       observer.disconnect();
     };
   }, []);
+
+  const handleMouseEnter = () => {
+    // Pause the autoplay when mouse enters the SwiperSlide
+    if (swiper && swiper.autoplay) {
+      swiper.autoplay.stop();
+    }
+  };
+
+  const handleMouseLeave = () => {
+    // Resume the autoplay when mouse leaves the SwiperSlide
+    if (swiper && swiper.autoplay) {
+      swiper.autoplay.start();
+    }
+  };
 
   const slide_image_1 =
     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.png";
@@ -121,8 +137,14 @@ function Slider1() {
           }}
           modules={[Autoplay, EffectCoverflow, Pagination, Navigation]}
           className="swiper_container"
+          onSwiper={(swiperInstance) => {
+            swiper = swiperInstance;
+          }}
         >
-          <SwiperSlide>
+          <SwiperSlide
+          onMouseEnter={handleMouseEnter}
+          onMouseLeave={handleMouseLeave}
+          >
             <Link href="/Pages/services/gamedevelopment">
               <div
                 className="textdiv"
@@ -147,7 +169,9 @@ function Slider1() {
             </Link>
           </SwiperSlide>
 
-          <SwiperSlide>
+          <SwiperSlide
+              onMouseEnter={handleMouseEnter}
+              onMouseLeave={handleMouseLeave}>
             <Link href="/Pages/services/ardevelopment">
               <div
                 className="textdiv"
@@ -174,7 +198,9 @@ function Slider1() {
             </Link>
           </SwiperSlide>
 
-          <SwiperSlide>
+          <SwiperSlide
+              onMouseEnter={handleMouseEnter}
+              onMouseLeave={handleMouseLeave}>
             <Link href="/Pages/services/3dmodeling">
               <div
                 className="textdiv"
@@ -198,7 +224,9 @@ function Slider1() {
             </Link>
           </SwiperSlide>
 
-          <SwiperSlide>
+          <SwiperSlide
+              onMouseEnter={handleMouseEnter}
+              onMouseLeave={handleMouseLeave}>
             <Link href="/Pages/services/customsoftware">
               <div
                 className="textdiv"
@@ -223,7 +251,9 @@ function Slider1() {
             </Link>
           </SwiperSlide>
 
-          <SwiperSlide>
+          <SwiperSlide
+              onMouseEnter={handleMouseEnter}
+              onMouseLeave={handleMouseLeave}>
             <Link href="/Pages/services/vrdevelopment">
               <div
                 className="textdiv"
@@ -247,7 +277,9 @@ function Slider1() {
             </Link>
           </SwiperSlide>
 
-          <SwiperSlide>
+          <SwiperSlide
+              onMouseEnter={handleMouseEnter}
+              onMouseLeave={handleMouseLeave}>
             <Link href="/Pages/services/">
               <div
                 className="textdiv"
