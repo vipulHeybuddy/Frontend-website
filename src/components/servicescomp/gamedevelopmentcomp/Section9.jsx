@@ -110,17 +110,10 @@ const Bottomclient = () => {
                       {section.content}{" "}
                     </p>
 
-                    <h3 className="pt-4 text-right font-semibold text-white text-xl">
+                    <h3 className="pt-6 text-right  font-semibold text-white text-xl">
                       {section.name}
                     </h3>
 
-                    {/* <h3
-                      style={{ color: "white" }}
-                      class="pt-2 text-right text-xl   text-gray-500 "
-                    >
-                      {section.position}
-                    </h3> */}
-                    {/* <h3 className="text-right text-white text-xl">{section.name}</h3> */}
                   </blockquote>
                 </figure>
               ))}

@@ -23,12 +23,13 @@ body {
 
 .text {
   position: absolute;
-  font-size: 24px;
+  font-size: 30px;
   top: 40%; /* Adjust based on image and text size */
   width: 50%;
   text-align: center;
  background-image: url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev3.png');
  opacity: 1;
+ padding-left: 120px;
 }
 .text-desctiption {
   font-size: 20px;
@@ -37,6 +38,7 @@ body {
   width: 50%;
   text-align: center;
  opacity: 1;
+ padding-left: 120px;
 }
 .text_visible{
   opacity: 1;

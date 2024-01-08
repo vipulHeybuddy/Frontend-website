@@ -66,7 +66,7 @@ const Pagenation = () => {
           Hey Buddy Tech Arsenal for best Game Solutions: <br /> Expertise on
           all fronts
         </h1>
-        <p className="text-xl lg:text-2xl">
+        <p className="text-sm lg:text-lg">
           Hey Buddy claim to the leading spot of a game development company in
           India emanates from its expert team. Our developers bring in advanced
           and profound expertise to deliver the best gaming solution for you.

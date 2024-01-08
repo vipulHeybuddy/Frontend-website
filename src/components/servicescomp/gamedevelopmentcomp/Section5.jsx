@@ -139,7 +139,7 @@ const Timelinecomp = () => {
           Our Perfected Game Development Process - <br />
           Level by level
         </h1>
-        <p className="text-xl lg:text-2xl">
+        <p className="text-xl lg:text-lg">
           Over years of experience as a game app development company, we have
           refined, streamlined and aligned our game development process to serve
           you better.
@@ -303,7 +303,7 @@ const Timelinecomp = () => {
               width={700}
               height={700}
               src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/wheel-unscreen.gif"
-              className="lg:mr-6 h-[50vh] w-[52rem] lg:h-[70vh] lg:w-[52rem] "
+              className="lg:mr-6 h-[50vh] w-[52rem] lg:h-[70vh] lg:w-[92rem] "
               alt="Hey B"
               />
             </div>

@@ -121,7 +121,7 @@ const Herosection = () => {
             initial="hidden"
             animate={controls}
             variants={textAnimation1}
-            className="py-8 text-xl "
+            className="py-8 text-xl text-white "
           >
             <p>
               Get an AI-powered smart gaming solution that captivates with its

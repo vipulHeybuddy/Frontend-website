@@ -127,7 +127,7 @@ const Mixsection = () => {
         <h1 className="py-4 lg:w-[80%] text-2xl lg:text-4xl">
           Our AI Gaming Solutions for the <br /> Future of Gaming
         </h1>
-        <p className="text-xl lg:text-2xl">
+        <p className="text-sm lg:text-lg">
           As the leading game development company in India, AI Gaming is one of
           our strongest suits. Our dedicated AI Gaming team develops your games
           with innovative AI-based features for a highly personalised and

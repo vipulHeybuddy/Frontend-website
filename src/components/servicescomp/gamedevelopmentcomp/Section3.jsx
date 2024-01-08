@@ -93,7 +93,7 @@ const Motionslide = () => {
             Hey Buddy, Game On!! <br />
             Complete Game Development Services
           </h1>
-          <p className="text-xl lg:text-2xl">
+          <p className="text-sm lg:text-lg">
             Hey Buddy is your one-stop shop for end-to-end game development
             services. With AI on our side, we successfully clear levels of your
             game development needs.
@@ -106,8 +106,8 @@ const Motionslide = () => {
             <div key={image} className={`image-container ${index % 2 === 0 ? 'image-left' : 'image-right'}`}>
               {currentText && (
                 <div style={{display: 'flex' ,flexDirection: 'column'}}>
-                <div className="text">{currentText}</div>
-                <div  className="text-desctiption">{currentText1}</div>
+                <div className="text font-semibold text-2xl text-white">{currentText}</div>
+                <div  className="text-desctiption text-white">{currentText1}</div>
                 </div>
               )}
               <div
