@@ -46,7 +46,7 @@ const Bottomclient = () => {
           id: 1,
           content:
             "Here is my opinion based on my experience, I have really enjoyed working with the game development team. The team is amicable, creative and understanding.",
-          position: "Head of VP at Disney Hotstar",
+          // position: "Head of VP at Disney Hotstar",
           name: "Zan Syed",
         },
         {
@@ -54,35 +54,35 @@ const Bottomclient = () => {
           name: "Sarah",
           content:
             "Thank you very much! An amazing job done by buddies what I like to call the team that exceeds all expectations. I am glad that I trusted you guys with the work.",
-          position: "Head of VP at Disney Hotstar",
+          // position: "Head of VP at Disney Hotstar",
         },
         {
           id: 3,
           name: "Ankit",
           content:
             "I loved working with Hey Buddy and the way my VR project was handled, I consider this company as one of the best metaverse and game company in India.",
-          position: "Head of VP at Disney Hotstar",
+          // position: "Head of VP at Disney Hotstar",
         },
         {
           id: 4,
           name: "Riyahi",
           content:
             "OMG where to start, I have no idea! people are amazing here, very focused and client-oriented. Kudos to the team for delivering the game project on time.",
-          position: "Head of VP at Disney Hotstar",
+          // position: "Head of VP at Disney Hotstar",
         },
         {
           id: 5,
           name: "Jeremy",
           content:
             "Best game development company in India, though I am from the United States but never felt that I had hired this company, it was like this is my in-house team.",
-          position: "Head of VP at Disney Hotstar",
+          // position: "Head of VP at Disney Hotstar",
         },
         {
           id: 6,
           name: "Bhaskar",
           content:
             "If anyone has a futuristic idea in mind and not finding the way to turn the idea into reality, I would recommend to reach out to Hey buddy, they are the best technology partner.",
-          position: "Head of VP at Disney Hotstar",
+          // position: "Head of VP at Disney Hotstar",
         },
       ];
 

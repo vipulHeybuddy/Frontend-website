@@ -95,16 +95,22 @@ const page = () => {
 
   const checklist1 = [
     {
-      title: "Tablet/Mobile Game Development",
+      title: "3D Assets",
     },
     {
-      title: "Metaverse Game Development",
+      title: "3D Characters",
     },
     {
-      title: "Immersive AR/VR Game Development",
+      title: "3D Environments",
     },
     {
-      title: "Unreal and Unity Game Development",
+      title: "MetaHuman Creations",
+    },
+    {
+      title: "3D Hard Surface ",
+    },
+    {
+      title: "3D Animation",
     },
   ];
 
@@ -112,54 +118,54 @@ const page = () => {
   const List1 = [
     {
       id: "1",
-      heading: "Enhanced Brand Engagement",
+      heading: "High Quality, Faster Turnaround",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid1.png",
-      para: "Gaming offers a unique platform to connect with your audience on a deeper level. Your brand establishes a memorable presence in the mind of the gamer, fostering stronger connections and long-term loyalty.",
+      para: "With an experienced team that has worked on various projects, you get high-quality renders at affordable prices and in less time. ",
     },
     {
       id: "2",
-      heading: "Increased User Retention:",
+      heading: "Mitigate Risk with Experience",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid2.png",
-      para: "Games have an inherent ability to keep users hooked and invested. By incorporating addictive gameplay mechanics, your business can boost user retention, ensuring that your audience keeps coming back for more, and strengthening brand loyalty over time.",
+      para: "Let the experienced team share your responsibilities and tackle challenges on your behalf so that you work with complete peace of mind ",
     },
     {
       id: "3",
-      heading: "Best Way for Brand Awareness",
+      heading: "Technological Advancements",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid3.png",
-      para: "Gaming is a powerful tool to aware, educate and train your audience on your products. Create immersive experiences that communicate your brand message to your customers and inform them about your products or services. Thus, merging entertainment and marketing for the best possible outcomes. ",
+      para: "Expand your capability with the most advanced tools and technologies in the industry. Get customised 3D model development for your projects that set standards.",
     },
     {
       id: "4",
-      heading: "Data-Driven Insights:",
+      heading: "Access to Specialized Talent",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid4.png",
-      para: "Games generate a wealth of data and information about player behaviour and preferences. Leverage it to gain deep audience insights, refine your marketing strategies, and make data-driven impactful decisions that get you the best business outcomes.",
+      para: "On-board the best talents in the industry for 3D modelling services by expanding your search to the global level.",
     },
     {
       id: "5",
-      heading: "Cross-Platform Reach:",
+      heading: "Focus on Core Competencies",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid5.png",
-      para: "Reach your audience across various platforms and devices. From mobile and tablets to PCs, consoles, or VR, be present where your audience is and enjoy a broader reach. Gaming ensures that your message is accessible to a diverse and widespread audience.",
+      para: "When experts are taking care of your 3D modelling requirement, your in-house team concentrates on core and critical tasks.",
     },
     {
       id: "6",
-      heading: "Innovative Marketing Opportunities:",
+      heading: "Ease of Scalability",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid6.png",
-      para: "Games offer innovative marketing avenues by integrating your brand seamlessly into gaming storylines and environments. Utilize in-game advertising, or create branded mini-games for hyper-interactive campaigns, to enhance brand visibility and brand recall.",
+      para: "Scale up or down as per your business requirements with ease. Say goodbye to the hiring and training challenges of additional staff.",
     },
   ];
 
   const Text1 = [
     {
       heading:
-        "Power up Your Brand and Press Start for Profit with Game Development -  Your Gamified Success Awaits!",
+        "Get 3D Models Your Project Needs and Your Desire",
       subtext:
-        "Investing in game development is not just about creating entertainment but a strategic move to brand expansion and market leadership. It is a strategic avenue for investing in innovation and engagement and staying ahead in today's dynamic business landscape.",
+        "With our large team of experienced 3D modellers, we have a skillset to suit every business. Whether you need Toon (Cel-Shaded) or hyper-realistic 3D models, High-poly or low-poly count we can develop anything and everything exactly the way you want for your project.",
     },
   ];
 
@@ -167,54 +173,55 @@ const page = () => {
   const List2 = [
     {
       id: "1",
-      heading: "Enhanced Brand Engagement",
+      heading: "Quality by Expert",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid7.png",
-      para: "Gaming offers a unique platform to connect with your audience on a deeper level. Your brand establishes a memorable presence in the mind of the gamer, fostering stronger connections and long-term loyalty.",
+      para: "Our dedicated and experienced team of 3D modellers has 200+ members with a variety of experience delivering the industry-leading quality for your projects.",
     },
     {
       id: "2",
-      heading: "Enhanced Brand Engagement",
+      heading: "Timely Deliveries",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid8.png",
-      para: "Gaming offers a unique platform to connect with your audience on a deeper level. Your brand establishes a memorable presence in the mind of the gamer, fostering stronger connections and long-term loyalty.",
+      para: "At Hey Buddy, we strictly adhere to your project timelines with our streamlined 3D development process that churns out high-quality results in a shorter time.",
     },
     {
       id: "3",
-      heading: "Enhanced Brand Engagement",
+      heading: "Communication Clarity",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid9.png",
-      para: "Gaming offers a unique platform to connect with your audience on a deeper level. Your brand establishes a memorable presence in the mind of the gamer, fostering stronger connections and long-term loyalty.",
+      para: "We understand the criticality of clear communication and keeping you informed. We use the latest project management tool for data-driven and agile decision-making by you.",
     },
     {
       id: "4",
-      heading: "Enhanced Brand Engagement",
+      heading: "Flexible and Cost-Effective Models",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid10.png",
-      para: "Gaming offers a unique platform to connect with your audience on a deeper level. Your brand establishes a memorable presence in the mind of the gamer, fostering stronger connections and long-term loyalty.",
+      para: "Choose from a variety of outsourcing models that best suit your project needs. Get the best quality 3D development services at the most reasonable prices.",
     },
     {
       id: "5",
-      heading: "Enhanced Brand Engagement",
+      heading: "Adherence to Specifications",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid11.png",
-      para: "Gaming offers a unique platform to connect with your audience on a deeper level. Your brand establishes a memorable presence in the mind of the gamer, fostering stronger connections and long-term loyalty.",
+      para: "We do not just follow your specifications, we integrate them into the process. So that the outcomes automatically align with your specific project needs.",
     },
     {
       id: "6",
-      heading: "Enhanced Brand Engagement",
+      heading: "Transparent Communication",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid12.png",
-      para: "Gaming offers a unique platform to connect with your audience on a deeper level. Your brand establishes a memorable presence in the mind of the gamer, fostering stronger connections and long-term loyalty.",
+      para: "By working with clients across industries and scales, we understood the gravity of transparent communication. Be assured to experience transparent communication, timely updates, and a responsive team to keep you informed and involved.",
     },
+    
   ];
 
   const Text2 = [
     {
       heading:
-        "Score Big Wins With Hey Buddy: Your Trusted  Game Development Company",
+        "Why Choose Hey Buddy",
       subtext:
-        "Hey Buddy is a renowned name in the game development space. We have an experienced development team who know what works best for your business.",
+        "Partner with Hey Buddy if you want quality work from experts. We deliver the best outcome while completely adhering to timelines and ensuring that you get the best ROI every time.",
     },
   ];
 

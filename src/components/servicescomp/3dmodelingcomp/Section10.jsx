@@ -97,13 +97,10 @@ const Faqsection = () => {
               style={{ border: "0" }}
               onClick={() => handleOpen(1)}
             >
-              What is Material Tailwind?
+              What types of projects can benefit from Hey Buddy's 3D modelling services?
             </AccordionHeader>
             <AccordionBody>
-              We&apos;re not always in the position that we want to be at.
-              We&apos;re constantly growing. We&apos;re constantly making
-              mistakes. We&apos;re constantly trying to express ourselves and
-              actualize our dreams.
+            Hey Buddy's 3D modelling services contribute to a wide range of projects, including AR/VR, animations, CGI, product visualizations, product animations, and game development using Unity and Unreal Engine.
             </AccordionBody>
           </Accordion>
 
@@ -116,13 +113,10 @@ const Faqsection = () => {
               style={{ border: "0" }}
               onClick={() => handleOpen(2)}
             >
-              How to use Material Tailwind?
+              How does Hey Buddy ensure the security and confidentiality of client projects?
             </AccordionHeader>
             <AccordionBody>
-              We&apos;re not always in the position that we want to be at.
-              We&apos;re constantly growing. We&apos;re constantly making
-              mistakes. We&apos;re constantly trying to express ourselves and
-              actualize our dreams.
+            We prioritize client confidentiality and security through robust measures, including signed NDAs, restricted access to project data, and secure file transfer protocols.
             </AccordionBody>
           </Accordion>
 
@@ -135,13 +129,26 @@ const Faqsection = () => {
               style={{ border: "0" }}
               onClick={() => handleOpen(3)}
             >
-              What can I do with Material Tailwind?
+              What is the typical turnaround time for 3D modelling projects at Hey Buddy?
             </AccordionHeader>
             <AccordionBody>
-              We&apos;re not always in the position that we want to be at.
-              We&apos;re constantly growing. We&apos;re constantly making
-              mistakes. We&apos;re constantly trying to express ourselves and
-              actualize our dreams.
+            Turnaround times vary based on project complexity and scope. However, we strive for efficient timelines, ensuring timely deliveries without compromising quality.
+            </AccordionBody>
+          </Accordion>
+
+          <Accordion
+            open={open === 8}
+            icon={<Icon id={8} open={open} />}
+            className="py-2 lg:px-8 my-4  rounded-lg bg-gray-500  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 hover:bg-red-500 hover:bg-opacity-20"
+          >
+            <AccordionHeader
+              style={{ border: "0" }}
+              onClick={() => handleOpen(8)}
+            >
+              What is Unity 3D development, and how can it benefit my gaming or interactive project?
+            </AccordionHeader>
+            <AccordionBody>
+            Unity 3D development involves creating interactive experiences, primarily in gaming. It offers a versatile platform for developing immersive games and applications across multiple platforms.
             </AccordionBody>
           </Accordion>
         </div>
@@ -156,13 +163,10 @@ const Faqsection = () => {
               style={{ border: "0" }}
               onClick={() => handleOpen(4)}
             >
-              What is Material Tailwind?
+              Can clients provide input during the 3D modelling process, and how is feedback handled?
             </AccordionHeader>
             <AccordionBody>
-              We&apos;re not always in the position that we want to be at.
-              We&apos;re constantly growing. We&apos;re constantly making
-              mistakes. We&apos;re constantly trying to express ourselves and
-              actualize our dreams.
+            Yes, client input is encouraged. We have a collaborative approach, with dedicated points for client feedback. Revisions are made based on client suggestions to ensure the final product aligns with their vision.
             </AccordionBody>
           </Accordion>
 
@@ -175,13 +179,28 @@ const Faqsection = () => {
               style={{ border: "0" }}
               onClick={() => handleOpen(5)}
             >
-              How to use Material Tailwind?
+              What sets Hey Buddy apart from other 3D modelling service providers?
             </AccordionHeader>
             <AccordionBody>
-              We&apos;re not always in the position that we want to be at.
-              We&apos;re constantly growing. We&apos;re constantly making
-              mistakes. We&apos;re constantly trying to express ourselves and
-              actualize our dreams.
+              Hey Buddy stands out due to its comprehensive suite of services covering various industries, a transparent and collaborative workflow, a client-centric approach, and a commitment to delivering high-quality, visually impressive 3D assets.
+
+            </AccordionBody>
+          </Accordion>
+
+          <Accordion
+            open={open === 7}
+            icon={<Icon id={7} open={open} />}
+            className="py-2 lg:px-8 my-4  rounded-lg bg-gray-500  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 hover:bg-red-500 hover:bg-opacity-20"
+          >
+            <AccordionHeader
+              style={{ border: "0" }}
+              onClick={() => handleOpen(7)}
+            >
+              Does Hey Buddy provide Unity 3D development services, and what types of projects can be developed using Unity?
+            </AccordionHeader>
+            <AccordionBody>
+            Yes, Hey Buddy offers Unity 3D development services. Projects developed using Unity include games, simulations, virtual tours, training applications, and various interactive experiences across diverse industries.
+
             </AccordionBody>
           </Accordion>
 
@@ -194,13 +213,10 @@ const Faqsection = () => {
               style={{ border: "0" }}
               onClick={() => handleOpen(6)}
             >
-              What can I do with Material Tailwind?
+              What is hard surface modelling, and how does it differ from other 3D modelling techniques?
             </AccordionHeader>
             <AccordionBody>
-              We&apos;re not always in the position that we want to be at.
-              We&apos;re constantly growing. We&apos;re constantly making
-              mistakes. We&apos;re constantly trying to express ourselves and
-              actualize our dreams.
+            Hard surface modelling focuses on creating detailed 3D models of inanimate objects or structures, differing from organic modelling that emphasizes natural forms like characters or creatures.
             </AccordionBody>
           </Accordion>
         </div>

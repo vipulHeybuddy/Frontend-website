@@ -46,30 +46,51 @@ const Section7 = () => {
     const List = [
         {
           id: "1",
-          heading: "Interactive Mobile Game to Promote eCommerce Deals and Offers",
+          heading: "Consultation",
           // imgurl: "",
-          para: "Hey Buddy developed an interactive mobile game for a leading eCommerce brand with in-game challenges related to the brand's offerings. The game featured exclusive discounts and rewards for top players, encouraging users to explore the brand's products while having fun.The mobile game phenomenally exceeded mobile game expectations. It doubled user engagement and led to an increase of 20% increase sales. Players enjoyed the interactive experience, and the brand reinforced its connection with its audience making it more profound.",
+          para: "We initiate with a thorough consultation, grasping the intricacies of your project, goals, and expectations. This clear communication ensures that our plans and processes align with your vision, and lays a strong foundation for a successful collaboration.",
         },
         {
           id: "2",
-          heading: "Collaboration to Realize Metaverse Vision",
+          heading: "Conceptualization and Planning",
           // imgurl: "",
-          para: "Hey Buddy extended its expertise as a metaverse game development company to realise the vision of a tech startup. We designed and developed a cutting-edge metaverse game that seamlessly integrated virtual and augmented reality experiences for a unique and completely immersive digital environment.The game received phenomenal reviews for its innovation and attracted an audience from a wide game - tech enthusiasts and mainstream media. As a result, the startup gained industry recognition and attracted potential partnerships and investors. We look forward to more such collaboration.",
+          para: "Our skilled team transforms ideas into a consolidated plan, outlining your project scope, timelines, and key milestones. This sets the roadmap for the project while ensuring transparency and clarity in the development process.",
         },
         {
           id: "3",
-          heading: "Ai-Integration To Revitalize A Flagship Gaming Title",
+          heading: "Design and Development",
           // imgurl: "",
-          para: "Hey Buddy's unmatched AI expertise helped an established gaming company revitalize its flagship gaming title. We integrated sophisticated AI algorithms into the game, to introduce PCG, adaptive gameplay, and AI-enable intelligent opponents that blew away their audience. The outcome, a 30% increase in active players and a 25% boost to in-game purchases. Players applauded the dynamic experience and our client solidified the game's position as a leading title in the competitive gaming market.",
+          para: "We utilize advanced tools and technologies in our design and development process. Here, we aim to get you high-quality assets that not only meet your project's visual and functional requirements but also exceed your expectations.",
+        },
+
+        {
+          id: "4",
+          heading: "Client Feedback and Revisions",
+          // imgurl: "",
+          para: "Staying true to our collaborative approach toward 3D development, we welcome your feedback and suggestions in this step. Accordingly, we make necessary revisions so that your input shapes the final product, guaranteeing satisfaction.",
+        },
+
+        {
+          id: "5",
+          heading: "Quality Assurance",
+          // imgurl: "",
+          para: "Before we finally deliver, the resulting 3D models undergo rigorous quality checks to ensure that our 3D models meet your project standards. We deliver polished, error-free 3D assets that meet your project's visual and functional needs.",
+        },
+
+        {
+          id: "6",
+          heading: "Timely Delivery",
+          // imgurl: "",
+          para: "With our unwavering commitment, we deliver your 3D assets with high regard to timelines. We ensure this by utilizing our reliable development process and high professionalism, the two most essential ingredients for your project's success.",
         },
       ];
     
       const Text = [
         {
           heading:
-            "Digital Joysticks, Real Rewards: Success Stories with Hey Buddy",
+            "Our Streamlined 3D Development Process",
           subtext:
-            "Hey Buddy offers its services to clients working in different industries and different scales. Here are the success stories that make us the best gaming development company in India. ",
+            "Project after project, we have refined our 3D development process to deliver creativity and innovation to your project. We understand the importance of a transparent and collaborative workflow, which is reflected in our process.",
         },
       ];
   return (
