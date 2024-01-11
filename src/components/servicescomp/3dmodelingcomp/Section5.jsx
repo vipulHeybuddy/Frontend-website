@@ -63,13 +63,11 @@ const Timelinecomp = () => {
       <div className="py-8 text-white">
 
         <h1 className="py-4 lg:w-[80%] text-2xl lg:text-4xl">
-          Our Perfected Game Development Process - <br />
-          Level by level
+        Customised 3D Model Development for Every Project and 
+        Every Business
         </h1>
         <p className="text-xl lg:text-2xl">
-          Over years of experience as a game app development company, we have
-          refined, streamlined and aligned our game development process to serve
-          you better.
+        Hey Buddy, offering tailored solutions for your projects. Our versatile 3D development team perfectly adapts outcomes to your domains and brings your vision to life with precision and creativity.
         </p>
       </div>
 
@@ -84,30 +82,40 @@ const Timelinecomp = () => {
             <div class="container text-white">
                 <ul>
                     <li>
-                        <h3 className="heading">FrontEnd Developer</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit excepturi accusamus minus
-                        totam </p>
+                        <h3 className="heading">AR/VR Experiences</h3>
+                        <p>Our expert 3D modellers enrich the visual appeal of your AR/VR projects, creating deeply immersive environments and characters for a truly interactive journey.</p>
                       
                         <span className="circle bg-gray-800"></span>
                     </li>
                     <li>
-                        <h3 className="heading">BackEnd Developer</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit excepturi accusamus minus
-                        totam </p>
+                        <h3 className="heading">Animation</h3>
+                        <p>Whether for promotional videos, educational content, or entertainment, our skilled 3D artists craft visually impressive animations, breathing life into your narratives.</p>
                        
                         <span className="circle bg-gray-800"></span>
                     </li>
                     <li>
-                        <h3 className="heading">Full Stack Developer</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit excepturi accusamus minus
-                        totam </p>
+                        <h3 className="heading">Computer-generated imagery (CGI)</h3>
+                        <p>Our CGI-specialist 3D modellers bring stunning visuals for your films, advertisements, and various digital media to add gravity to your storytelling and brand communication.</p>
                         
                         <span className="circle bg-gray-800"></span>
                     </li>
                     <li>
-                        <h3 className="heading">App Developer</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit excepturi accusamus minus
-                        totam </p>
+                        <h3 className="heading">Product Visualisation</h3>
+                        <p>Our 3D development team delivers lifelike visualisations for you to showcase products with ultra-realistic visuals and gain an edge in your marketing efforts for unbeatable success.</p>
+                       
+                        <span className="circle bg-gray-800"></span>
+                    </li>
+
+                    <li>
+                        <h3 className="heading">Product Animation</h3>
+                        <p>Our team synergizes with yours to produce compelling product animations and dynamic product demonstrations that impactfully showcase your product’s functionality and features.</p>
+                       
+                        <span className="circle bg-gray-800"></span>
+                    </li>
+
+                    <li>
+                        <h3 className="heading">Gaming</h3>
+                        <p>Our game-crazy 3D modellers develop characters, environments, assets and other customised 3D models for Unity, Unreal or your specific game engine.</p>
                        
                         <span className="circle bg-gray-800"></span>
                     </li>

@@ -90,9 +90,9 @@ const Herosection = () => {
     <>
       <div style={containerStyle}>
         <div style={textContainerStyle}>
-          <h1 style={{ fontSize: "3rem" }}>Level up With AI: </h1>
+          <h1 style={{ fontSize: "3rem" }}>Get Top-notch Renders with Our Leading 3D</h1>
           <h1 style={{ fontSize: "3rem" }}>
-            Best Game Development Company in India
+          Modelling Services 
           </h1>
           <Button
             style={buttonHeader}
@@ -124,11 +124,8 @@ const Herosection = () => {
             className="py-8 text-xl text-white "
           >
             <p>
-              Get an AI-powered smart gaming solution that captivates with its
-              hyper-realistic graphics and enthrals with its deeply engaging
-              gameplay. Hey Buddy is India's leading game development company,
-              maintaining a large team of gamer-first developers who know what
-              works.
+            Hey Buddy, India’s leading 3D modelling services provider offers high-quality 3D models specific to your project needs at the right time, and at a reasonable cost.
+
             </p>
           </div>
     </>
