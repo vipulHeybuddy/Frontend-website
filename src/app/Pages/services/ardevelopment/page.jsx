@@ -92,73 +92,73 @@ const page = () => {
     };
   }, []);
 
-  const checklist1 = [
-    {
-      title: "Tablet/Mobile Game Development",
-    },
-    {
-      title: "Metaverse Game Development",
-    },
-    {
-      title: "Immersive AR/VR Game Development",
-    },
-    {
-      title: "Unreal and Unity Game Development",
-    },
-  ];
+  // const checklist1 = [
+  //   {
+  //     title: "Tablet/Mobile Game Development",
+  //   },
+  //   {
+  //     title: "Metaverse Game Development",
+  //   },
+  //   {
+  //     title: "Immersive AR/VR Game Development",
+  //   },
+  //   {
+  //     title: "Unreal and Unity Game Development",
+  //   },
+  // ];
 
   // --------------------grid section-1----------------------------------
   const List1 = [
     {
       id: "1",
-      heading: "Enhanced Brand Engagement",
+      heading: "Expertise in Cutting-Edge AR Technologies",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid1.png",
-      para: "Gaming offers a unique platform to connect with your audience on a deeper level. Your brand establishes a memorable presence in the mind of the gamer, fostering stronger connections and long-term loyalty.",
+      para: "Benefit from our seasoned team of AR experts. Their expertise in the latest AR technologies brings your desired high-quality results.",
     },
     {
       id: "2",
-      heading: "Increased User Retention:",
+      heading: "Proven Track Record with Diverse AR Projects",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid2.png",
-      para: "Games have an inherent ability to keep users hooked and invested. By incorporating addictive gameplay mechanics, your business can boost user retention, ensuring that your audience keeps coming back for more, and strengthening brand loyalty over time.",
+      para: "We have delivered AR projects of varying scales for a variety of clients. This included projects for budding startups to Fortune listers.",
     },
     {
       id: "3",
-      heading: "Best Way for Brand Awareness",
+      heading: "Innovation and Creativity at the Core",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid3.png",
-      para: "Gaming is a powerful tool to aware, educate and train your audience on your products. Create immersive experiences that communicate your brand message to your customers and inform them about your products or services. Thus, merging entertainment and marketing for the best possible outcomes. ",
+      para: "With Hey Buddy, expect nothing less than innovation and creativity for your AR project. Our team goes up and beyond to infuse uniqueness into your project.",
     },
     {
       id: "4",
-      heading: "Data-Driven Insights:",
+      heading: "Tailored Solutions Aligned with Your Goals",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid4.png",
-      para: "Games generate a wealth of data and information about player behaviour and preferences. Leverage it to gain deep audience insights, refine your marketing strategies, and make data-driven impactful decisions that get you the best business outcomes.",
+      para: "We understand that your business is unique, and so are your project and its requirements. And that is precisely why our customized AR solutions are here.",
     },
     {
       id: "5",
-      heading: "Cross-Platform Reach:",
+      heading: "Seamless Integration with Existing Systems",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid5.png",
-      para: "Reach your audience across various platforms and devices. From mobile and tablets to PCs, consoles, or VR, be present where your audience is and enjoy a broader reach. Gaming ensures that your message is accessible to a diverse and widespread audience.",
+      para: "Want to include AR functionality but hesitant? Experience a smooth transition with our AR applications. We offer seamless integration with full compatibility and interoperability.",
     },
     {
       id: "6",
-      heading: "Innovative Marketing Opportunities:",
+      heading: "Scalability and Future-Proofing",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid6.png",
-      para: "Games offer innovative marketing avenues by integrating your brand seamlessly into gaming storylines and environments. Utilize in-game advertising, or create branded mini-games for hyper-interactive campaigns, to enhance brand visibility and brand recall.",
+      para: "Get scalable AR software solutions and future-proof your investments. Our AR applications adapt to your growing business needs for longevity and relevance.",
     },
   ];
 
   const Text1 = [
     {
       heading:
-        "Power up Your Brand and Press Start for Profit with Game Development -  Your Gamified Success Awaits!",
+        "Immerse Your Audience in Great Visuals with Our AR Software Solutions",
       subtext:
-        "Investing in game development is not just about creating entertainment but a strategic move to brand expansion and market leadership. It is a strategic avenue for investing in innovation and engagement and staying ahead in today's dynamic business landscape.",
+        "At Hey Buddy, we pride ourselves on exceeding client expectations. With our comprehensive suite of Augmented Reality (AR) development services, we easily meet your project requirements. Here are the benefits and features of our AR development services, reflecting our commitment to excellence. ",
     },
   ];
 
@@ -208,14 +208,14 @@ const page = () => {
     },
   ];
 
-  const Text2 = [
-    {
-      heading:
-        "Score Big Wins With Hey Buddy: Your Trusted  Game Development Company",
-      subtext:
-        "Hey Buddy is a renowned name in the game development space. We have an experienced development team who know what works best for your business.",
-    },
-  ];
+  // const Text2 = [
+  //   {
+  //     heading:
+  //       "Score Big Wins With Hey Buddy: Your Trusted  Game Development Company",
+  //     subtext:
+  //       "Hey Buddy is a renowned name in the game development space. We have an experienced development team who know what works best for your business.",
+  //   },
+  // ];
 
   // ----------------------------------------------------------------
 
@@ -229,7 +229,7 @@ const page = () => {
          
          <Herosection />
 
-          <div
+          {/* <div
             ref={ref}
             initial="hidden"
             animate={controls}
@@ -241,7 +241,7 @@ const page = () => {
                 {checklist1.map((section, index) => (
                   <div className="px-2 lg:px-16 flex items-center text-[#FFFFFF]  space-x-2.5 rtl:space-x-reverse">
                     <san className="flex items-center justify-center w-8 h-8  rounded-full shrink-0 ">
-                      {/* &#10004; */}
+                      
                       <AiFillCheckCircle className="w-8 h-8 text-[#6FCF97]" />
                     </san>
                     <span>
@@ -253,7 +253,7 @@ const page = () => {
                 ))}
               </ol>
             </div>
-          </div>
+          </div> */}
 
           {/* -------------------------grid-reuse------------------------------------- */}
 
@@ -279,9 +279,9 @@ const page = () => {
           </div>
 
           {/* ----------------------------grid-reuse---------------------------------- */}
-          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev6.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
+          {/* <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev6.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
             <Gridsection listData={List2} textData={Text2} />
-          </div>
+          </div> */}
 
           {/* ----------------------------section7---------------------------------- */}
           <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev7.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">

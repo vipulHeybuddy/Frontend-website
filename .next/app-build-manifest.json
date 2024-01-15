@@ -12,11 +12,11 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/Pages/services/3dmodeling/page": [
+    "/Pages/services/ardevelopment/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/Pages/services/3dmodeling/page.css",
-      "static/chunks/app/Pages/services/3dmodeling/page.js"
+      "static/css/app/Pages/services/ardevelopment/page.css",
+      "static/chunks/app/Pages/services/ardevelopment/page.js"
     ]
   }
 }

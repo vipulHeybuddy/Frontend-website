@@ -1,5 +1,4 @@
 {
   "/page": "app/page.js",
-  "/Pages/services/3dmodeling/page": "app/Pages/services/3dmodeling/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js"
+  "/Pages/services/ardevelopment/page": "app/Pages/services/ardevelopment/page.js"
 }

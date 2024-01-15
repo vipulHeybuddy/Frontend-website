@@ -63,13 +63,15 @@ const Timelinecomp = () => {
       <div className="py-8 text-white">
 
         <h1 className="py-4 lg:w-[80%] text-2xl lg:text-4xl">
-          Our Perfected Game Development Process - <br />
-          Level by level
+        Our Proven AR Development Process at <br />
+        Hey Buddy
+
         </h1>
         <p className="text-xl lg:text-2xl">
-          Over years of experience as a game app development company, we have
-          refined, streamlined and aligned our game development process to serve
-          you better.
+        At Hey Buddy, we improved our AR development process with every project. Now, it has evolved into a meticulous, client-centric AR development process designed to realize your vision. 
+
+We offer transparency, collaboration, and the timely delivery of your AR projects. Here's an overview of our step-by-step process:
+
         </p>
       </div>
 
@@ -84,33 +86,66 @@ const Timelinecomp = () => {
             <div class="container text-white">
                 <ul>
                     <li>
-                        <h3 className="heading">FrontEnd Developer</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit excepturi accusamus minus
-                        totam </p>
+                        <h3 className="heading"> Discovery and Consultation:</h3>
+                        <p>We begin by attaining a complete understanding of your business objectives and vision for the AR project. Here, our team collaborates closely with yours.</p>
                       
                         <span className="circle bg-gray-800"></span>
                     </li>
                     <li>
-                        <h3 className="heading">BackEnd Developer</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit excepturi accusamus minus
-                        totam </p>
+                        <h3 className="heading"> Ideation and Conceptualization:</h3>
+                        <p>Then, we brainstorm ideas to align the development with your brand and objectives. This phase ensures that our proposed solutions resonate with your vision.</p>
                        
                         <span className="circle bg-gray-800"></span>
                     </li>
                     <li>
-                        <h3 className="heading">Full Stack Developer</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit excepturi accusamus minus
-                        totam </p>
+                        <h3 className="heading">Technical Feasibility Assessment:</h3>
+                        <p>On the final idea, our technical experts conduct a thorough feasibility assessment. They evaluate the compatibility of proposed AR functionalities with your existing systems.</p>
                         
                         <span className="circle bg-gray-800"></span>
                     </li>
                     <li>
-                        <h3 className="heading">App Developer</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit excepturi accusamus minus
-                        totam </p>
+                        <h3 className="heading">Development and Coding</h3>
+                        <p>Once the idea passes feasibility assessment, our seasoned developers leverage AR technologies such as ARKit and ARCore to bring your vision to life. </p>
                        
                         <span className="circle bg-gray-800"></span>
                     </li>
+                    <li>
+                        <h3 className="heading">Iterative Prototyping</h3>
+                        <p>We provide you with iterative prototypes to solicit your invaluable feedback. This helps us refine the AR application and ensure it meets and exceeds your expectations. </p>
+                       
+                        <span className="circle bg-gray-800"></span>
+                    </li>
+                    <li>
+                        <h3 className="heading"> Comprehensive Testing</h3>
+                        <p>With rigorous testing, we achieve the desired functionality with security and performance. This also ensures that your AR application is a seamless and robust final product.</p>
+                       
+                        <span className="circle bg-gray-800"></span>
+                    </li>
+                    <li>
+                        <h3 className="heading"> Client Approval and Deployment</h3>
+                        <p>Once the prototype meets your satisfaction, we seek your approval before deploying. Our streamlined process ensures your AR solution is launched within specified timelines.</p>
+                       
+                        <span className="circle bg-gray-800"></span>
+                    </li>
+                    <li>
+                        <h3 className="heading"> Analytics and Performance Monitoring</h3>
+                        <p>We integrate analytics tools to monitor the performance of your AR application. Insights gained lead to data-driven decisions that make an industry-wide impact. </p>
+                       
+                        <span className="circle bg-gray-800"></span>
+                    </li>
+                    <li>
+                        <h3 className="heading"> Post-launch support and Optimization</h3>
+                        <p>Our support doesn't end with deployment. Hey Buddy offers post-launch support, updates, and optimization services for your unhindered success.</p>
+                       
+                        <span className="circle bg-gray-800"></span>
+                    </li>
+                    <li>
+                        <h3 className="heading">Client Collaboration and Feedback Loop</h3>
+                        <p>And our collaboration doesn’t end with project completion. We value your feedback and maintain an open line of communication, fostering long-term partnerships.</p>
+                       
+                        <span className="circle bg-gray-800"></span>
+                    </li>
+
                 </ul>
             </div>
         </div>
