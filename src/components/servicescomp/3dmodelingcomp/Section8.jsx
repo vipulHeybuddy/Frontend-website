@@ -63,14 +63,13 @@ const Pagenation = () => {
     className="lg:py-8 text-white">
       <div className="py-6">
         <h1 className="py-4 lg:w-[80%] text-2xl lg:text-4xl">
-          Hey Buddy Tech Arsenal for best Game Solutions: <br /> Expertise on
-          all fronts
+        Hey Buddy Advanced Tech-stack for High-Quality 3D Model Development
         </h1>
-        <p className="text-xl lg:text-2xl">
+        {/* <p className="text-xl lg:text-2xl">
           Hey Buddy claim to the leading spot of a game development company in
           India emanates from its expert team. Our developers bring in advanced
           and profound expertise to deliver the best gaming solution for you.
-        </p>
+        </p> */}
       </div>
 
       <nav className="flex border-b border-gray-300 overflow-auto">
@@ -78,38 +77,124 @@ const Pagenation = () => {
           isActive={selectedTab === "Platforms"}
           onClick={() => setSelectedTab("Platforms")}
         >
-          Platforms
+          Blender
         </TabSelector>
         <TabSelector
           isActive={selectedTab === "ARVRPlatforms"}
           onClick={() => setSelectedTab("ARVRPlatforms")}
         >
-          AR/VR Platforms
+          Autodesk Maya
         </TabSelector>
         <TabSelector
           isActive={selectedTab === "MetaveersePlatforms"}
           onClick={() => setSelectedTab("MetaveersePlatforms")}
         >
-          Metaveerse Platformss
+          Autodesk 3ds Max
         </TabSelector>
         <TabSelector
           isActive={selectedTab === "GameEngines"}
           onClick={() => setSelectedTab("GameEngines")}
         >
-          Game Engines
+          ZBrush
         </TabSelector>
         <TabSelector
           isActive={selectedTab === "Languages"}
           onClick={() => setSelectedTab("Languages")}
         >
-          Languages
+          Cinema 4D
         </TabSelector>
         <TabSelector
           isActive={selectedTab === "ArtificalIntelligence(AI)"}
           onClick={() => setSelectedTab("ArtificalIntelligence(AI)")}
         >
-          Artifical Intelligence(AI)
+          Houdini
         </TabSelector>
+
+        <TabSelector
+          isActive={selectedTab === "ArtificalIntelligence(AI)"}
+          onClick={() => setSelectedTab("ArtificalIntelligence(AI)")}
+        >
+         Substance Painter
+        </TabSelector>
+        <TabSelector
+          isActive={selectedTab === "ArtificalIntelligence(AI)"}
+          onClick={() => setSelectedTab("ArtificalIntelligence(AI)")}
+        >
+          Mudbox
+        </TabSelector>
+        <TabSelector
+          isActive={selectedTab === "ArtificalIntelligence(AI)"}
+          onClick={() => setSelectedTab("ArtificalIntelligence(AI)")}
+        >
+          Rhinoceros 3D
+        </TabSelector>
+        <TabSelector
+          isActive={selectedTab === "ArtificalIntelligence(AI)"}
+          onClick={() => setSelectedTab("ArtificalIntelligence(AI)")}
+        >
+          SketchUp
+        </TabSelector>
+        <TabSelector
+          isActive={selectedTab === "ArtificalIntelligence(AI)"}
+          onClick={() => setSelectedTab("ArtificalIntelligence(AI)")}
+        >
+          Unity3D
+        </TabSelector>
+        <TabSelector
+          isActive={selectedTab === "ArtificalIntelligence(AI)"}
+          onClick={() => setSelectedTab("ArtificalIntelligence(AI)")}
+        >
+          Unreal Engine
+        </TabSelector>
+        <TabSelector
+          isActive={selectedTab === "ArtificalIntelligence(AI)"}
+          onClick={() => setSelectedTab("ArtificalIntelligence(AI)")}
+        >
+         Adobe Photoshop
+        </TabSelector>
+        <TabSelector
+          isActive={selectedTab === "ArtificalIntelligence(AI)"}
+          onClick={() => setSelectedTab("ArtificalIntelligence(AI)")}
+        >
+          Marvelous Designer
+        </TabSelector>
+        <TabSelector
+          isActive={selectedTab === "ArtificalIntelligence(AI)"}
+          onClick={() => setSelectedTab("ArtificalIntelligence(AI)")}
+        >
+          3D-Coat
+        </TabSelector>
+        <TabSelector
+          isActive={selectedTab === "ArtificalIntelligence(AI)"}
+          onClick={() => setSelectedTab("ArtificalIntelligence(AI)")}
+        >
+         Marmoset Toolbag
+        </TabSelector>
+        <TabSelector
+          isActive={selectedTab === "ArtificalIntelligence(AI)"}
+          onClick={() => setSelectedTab("ArtificalIntelligence(AI)")}
+        >
+         KeyShot
+        </TabSelector>
+        <TabSelector
+          isActive={selectedTab === "ArtificalIntelligence(AI)"}
+          onClick={() => setSelectedTab("ArtificalIntelligence(AI)")}
+        >
+          SolidWorks
+        </TabSelector>
+        <TabSelector
+          isActive={selectedTab === "ArtificalIntelligence(AI)"}
+          onClick={() => setSelectedTab("ArtificalIntelligence(AI)")}
+        >
+          Modo
+        </TabSelector>
+        <TabSelector
+          isActive={selectedTab === "ArtificalIntelligence(AI)"}
+          onClick={() => setSelectedTab("ArtificalIntelligence(AI)")}
+        >
+          Daz 3D
+        </TabSelector>
+
       </nav>
 
       <div className="py-6 px-2">

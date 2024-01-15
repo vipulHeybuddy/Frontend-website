@@ -97,13 +97,12 @@ const Faqsection = () => {
               style={{ border: "0" }}
               onClick={() => handleOpen(1)}
             >
-              What is Material Tailwind?
+             What are Augmented Reality development services?
+
             </AccordionHeader>
             <AccordionBody>
-              We&apos;re not always in the position that we want to be at.
-              We&apos;re constantly growing. We&apos;re constantly making
-              mistakes. We&apos;re constantly trying to express ourselves and
-              actualize our dreams.
+            AR development services create AR experiences that offer immersion. To explain, these experiences overlay digital 3D information or objects onto the real world. All you need is a smartphone. 
+
             </AccordionBody>
           </Accordion>
 
@@ -116,13 +115,11 @@ const Faqsection = () => {
               style={{ border: "0" }}
               onClick={() => handleOpen(2)}
             >
-              How to use Material Tailwind?
+              What kind of Augmented Reality services do you offer?
             </AccordionHeader>
             <AccordionBody>
-              We&apos;re not always in the position that we want to be at.
-              We&apos;re constantly growing. We&apos;re constantly making
-              mistakes. We&apos;re constantly trying to express ourselves and
-              actualize our dreams.
+            We offer a wide range of AR development services for various industries. This includes concept ideation, design, software development, integration, testing, and deployment. Our Augmented reality applications offer a stable and enriched AR experience across various platforms.
+
             </AccordionBody>
           </Accordion>
 
@@ -135,13 +132,10 @@ const Faqsection = () => {
               style={{ border: "0" }}
               onClick={() => handleOpen(3)}
             >
-              What can I do with Material Tailwind?
+             What platforms do you develop AR applications for?
             </AccordionHeader>
             <AccordionBody>
-              We&apos;re not always in the position that we want to be at.
-              We&apos;re constantly growing. We&apos;re constantly making
-              mistakes. We&apos;re constantly trying to express ourselves and
-              actualize our dreams.
+            We specialize in developing AR applications for iOS using ARKit, Android using ARCore, and web-based AR. Along with that, we develop cross-platform solutions under our comprehensive Augmented Reality development services that can be run on different platforms such as iOS and Android.  For this, we use the most powerful tools like Unity 3D, Vuforia, or other AR frameworks. 
             </AccordionBody>
           </Accordion>
         </div>
@@ -156,13 +150,11 @@ const Faqsection = () => {
               style={{ border: "0" }}
               onClick={() => handleOpen(4)}
             >
-              What is Material Tailwind?
+              Can you help in the entire AR development lifecycle?
+
             </AccordionHeader>
             <AccordionBody>
-              We&apos;re not always in the position that we want to be at.
-              We&apos;re constantly growing. We&apos;re constantly making
-              mistakes. We&apos;re constantly trying to express ourselves and
-              actualize our dreams.
+            HeyBuddy is one of the few AR development companies that provide end-to-end Augmented Reality services. Starting from initial consultation and concept creation to design, development, testing, deployment, and ongoing support for AR applications.
             </AccordionBody>
           </Accordion>
 
@@ -175,17 +167,15 @@ const Faqsection = () => {
               style={{ border: "0" }}
               onClick={() => handleOpen(5)}
             >
-              How to use Material Tailwind?
+             What are the typical costs associated with AR development?
+
             </AccordionHeader>
             <AccordionBody>
-              We&apos;re not always in the position that we want to be at.
-              We&apos;re constantly growing. We&apos;re constantly making
-              mistakes. We&apos;re constantly trying to express ourselves and
-              actualize our dreams.
+            Costs can vary based on project complexity, features, platforms, and the scope of work. We offer tailored pricing after understanding your project requirements during the initial consultation phase.
             </AccordionBody>
           </Accordion>
 
-          <Accordion
+          {/* <Accordion
             open={open === 6}
             icon={<Icon id={6} open={open} />}
             className="py-2 lg:px-8 my-4  rounded-lg bg-gray-500  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 hover:bg-red-500 hover:bg-opacity-20"
@@ -202,7 +192,7 @@ const Faqsection = () => {
               mistakes. We&apos;re constantly trying to express ourselves and
               actualize our dreams.
             </AccordionBody>
-          </Accordion>
+          </Accordion> */}
         </div>
       </div>
     </motion.div>

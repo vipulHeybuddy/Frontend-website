@@ -118,7 +118,7 @@ const Pagenation = () => {
           className="p-6 bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 rounded-lg h-[20vh] w-full"
         >
           <div className="grid  md:mb-12 grid-cols-6 gap-y-4 gap-x-2  ">
-            <div className="bg-white h-[12vh] w-[22vh] rounded-2xl mx-auto text-center"> 
+            <div className="bg-white  w-[22vh] rounded-lg mx-auto text-center"> 
             <Image 
                 src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/p1.png"
                 width={450}
@@ -128,7 +128,7 @@ const Pagenation = () => {
                 <h1 className="text-black py-2">Appstore</h1>
             </div>
 
-            <div className="bg-white h-[12vh] w-[22vh] rounded-2xl mx-auto text-center" >
+            <div className="bg-white  w-[22vh] rounded-lg  mx-auto text-center" >
             <Image 
                 src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/p2.png"
                 width={450}
@@ -138,7 +138,7 @@ const Pagenation = () => {
                 <h1 className="text-black py-2">Playstore</h1>
             </div>
 
-            <div className="bg-white h-[12vh] w-[22vh] rounded-2xl mx-auto text-center">
+            <div className="bg-white  w-[22vh] rounded-lg  mx-auto text-center">
             <Image 
                 src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/p3.png"
                 width={450}
@@ -148,7 +148,7 @@ const Pagenation = () => {
                 <h1 className="text-black py-2">PC</h1>
             </div>
 
-            <div className="bg-white h-[12vh] w-[22vh] rounded-2xl mx-auto text-center" >
+            <div className="bg-white  w-[22vh] rounded-lg  mx-auto text-center" >
             <Image 
                 src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/p4.png"
                 width={450}
@@ -158,7 +158,7 @@ const Pagenation = () => {
                 <h1 className="text-black py-2">Playstation</h1>
             </div>
 
-            <div className="bg-white h-[12vh] w-[22vh] rounded-2xl mx-auto text-center">
+            <div className="bg-white  w-[22vh] rounded-lg  mx-auto text-center">
             <Image 
                 src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/p5.png"
                 width={450}
@@ -168,7 +168,7 @@ const Pagenation = () => {
                 <h1 className="text-black py-2">Xbox</h1>
             </div>
 
-            <div className="bg-white h-[12vh] w-[22vh] rounded-2xl mx-auto text-center">
+            <div className="bg-white w-[22vh] rounded-lg  mx-auto text-center">
             <Image 
                 src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/p6.png"
                 width={450}
@@ -186,7 +186,7 @@ const Pagenation = () => {
           className="p-6 bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 rounded-lg h-[20vh] w-full"
         >
           <div className="grid sm:grid-1 md:mb-12 md:grid-cols-2 lg:grid-cols-6 gap-y-4 gap-x-2">
-            <div className="bg-white h-[12vh] w-[22vh] rounded-2xl mx-auto text-center"> 
+            <div className="bg-white h-[12vh] w-[22vh] rounded-lg mx-auto text-center"> 
             <Image 
                 src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av1.png"
                 width={450}
@@ -196,7 +196,7 @@ const Pagenation = () => {
                 <h1 className="text-black py-2">Apple Vision Pro</h1>
             </div>
 
-            <div className="bg-white h-[12vh] w-[22vh] rounded-2xl  mx-auto text-center" >
+            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center" >
             <Image 
                 src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av2.png"
                 width={450}
@@ -206,7 +206,7 @@ const Pagenation = () => {
                 <h1 className="text-black py-2">Oculus Rift</h1>
             </div>
 
-            <div className="bg-white h-[12vh] w-[22vh] rounded-2xl  mx-auto text-center">
+            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center">
             <Image 
                 src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av3.png"
                 width={450}
@@ -216,7 +216,7 @@ const Pagenation = () => {
                 <h1 className="text-black py-2">HTC Vive</h1>
             </div>
 
-            <div className="bg-white h-[12vh] w-[22vh] rounded-2xl  mx-auto text-center" >
+            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center" >
             <Image 
                 src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av4.png"
                 width={450}
@@ -226,7 +226,7 @@ const Pagenation = () => {
                 <h1 className="text-black py-2">Google Daydream</h1>
             </div>
 
-            <div className="bg-white h-[12vh] w-[22vh] rounded-2xl  mx-auto text-center">
+            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center">
             <Image 
                 src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av5.png"
                 width={450}
@@ -236,7 +236,7 @@ const Pagenation = () => {
                 <h1 className="text-black py-2">Meta Quest</h1>
             </div>
 
-            <div className="bg-white h-[12vh] w-[22vh] rounded-2xl  mx-auto text-center">
+            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center">
             <Image 
                 src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av6.png"
                 width={450}
@@ -254,214 +254,269 @@ const Pagenation = () => {
           className="p-6 bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 rounded-lg h-[20vh] w-full"
         >
           <div className="grid sm:grid-1 md:mb-12 md:grid-cols-2 lg:grid-cols-6 gap-y-4 gap-x-2">
-            <div className=" mx-auto text-center"> 
+            <div className="bg-white h-[12vh] w-[22vh] rounded-lg mx-auto text-center"> 
             <Image 
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Decentraland.svg"
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av1.png"
                 width={450}
                 height={450}
-                // className="h-[24px] w-[49px] bg-white mx-auto mt-4"
+                className="h-[24px] w-[49px] bg-white mx-auto mt-4"
                 />
-                {/* <h1 className="text-black py-2">Decentraland</h1> */}
+                <h1 className="text-black py-2">Apple Vision Pro</h1>
             </div>
 
-            <div className="  mx-auto text-center" >
+            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center" >
             <Image 
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Roblox.svg"
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av2.png"
                 width={450}
                 height={450}
-                // className="h-6 w-[49px] bg-white mx-auto mt-4"
+                className="h-6 w-[49px] bg-white mx-auto mt-4"
                 />
-                {/* <h1 className="text-black py-2">Roblox</h1> */}
+                <h1 className="text-black py-2">Oculus Rift</h1>
             </div>
 
-            <div className="  mx-auto text-center">
+            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center">
             <Image 
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Axie+Infinity.svg"
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av3.png"
                 width={450}
                 height={450}
-                // className="h-6 w-6 bg-white mx-auto mt-4"
+                className="h-6 w-6 bg-white mx-auto mt-4"
                 />
-                {/* <h1 className="text-black py-2">Axie Infinity</h1> */}
+                <h1 className="text-black py-2">HTC Vive</h1>
             </div>
 
-            <div className=" mx-auto text-center" >
+            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center" >
             <Image 
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Sandbox.svg"
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av4.png"
                 width={450}
                 height={450}
-                // className="h-6 w-[51px] bg-white mx-auto mt-4"
+                className="h-6 w-[51px] bg-white mx-auto mt-4"
                 />
-                {/* <h1 className="text-black py-2">The Sandbox</h1> */}
+                <h1 className="text-black py-2">Google Daydream</h1>
             </div>
 
-            <div className=" mx-auto text-center">
+            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center">
             <Image 
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Horizon+Worlds.svg"
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av5.png"
                 width={450}
                 height={450}
-                // className="h-[29px] w-[71px] bg-white mx-auto mt-4"
+                className="h-[29px] w-[71px] bg-white mx-auto mt-4"
                 />
-                {/* <h1 className="text-black py-2">Horizon Worlds</h1> */}
+                <h1 className="text-black py-2">Meta Quest</h1>
             </div>
 
-            <div className=" mx-auto text-center">
+            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center">
             <Image 
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Sanskar.svg"
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av6.png"
                 width={450}
                 height={450}
-                // className="h-6 w-[61px] bg-white mx-auto mt-4"
+                className="h-6 w-[61px] bg-white mx-auto mt-4"
                 />
-                {/* <h1 className="text-black py-2">Sansar</h1> */}
+                <h1 className="text-black py-2">Microsoft HoloLens</h1>
             </div>
 
           </div>
         </TabPanel>
 
-
         <TabPanel
           hidden={selectedTab !== "GameEngines"}
-          className="p-6 bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 rounded-lg h-[23vh] w-full"
+          className="p-6 bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 rounded-lg h-[20vh] w-full"
         >
-         <div className="grid sm:grid-1 md:mb-12 md:grid-cols-2 lg:grid-cols-2 gap-y-4 gap-x-2">
-            <div className=" mx-auto text-center"> 
+         <div className="grid sm:grid-1 md:mb-12 md:grid-cols-2 lg:grid-cols-6 gap-y-4 gap-x-2">
+            <div className="bg-white h-[12vh] w-[22vh] rounded-lg mx-auto text-center"> 
             <Image 
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Unreal+engine.svg"
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av1.png"
                 width={450}
                 height={450}
-                className="h-[90%] w-[90%]"
-
-                // className="h-[24px] w-[49px] bg-white mx-auto mt-4"
+                className="h-[24px] w-[49px] bg-white mx-auto mt-4"
                 />
-                {/* <h1 className="text-black py-2">Unreal Engine</h1> */}
+                <h1 className="text-black py-2">Apple Vision Pro</h1>
             </div>
 
-            <div className=" mx-auto text-center" >
+            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center" >
             <Image 
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Unity.svg"
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av2.png"
                 width={450}
                 height={450}
-                className="h-[90%] w-[90%]"
-
-                // className="h-6 w-[49px] bg-white mx-auto mt-4"
+                className="h-6 w-[49px] bg-white mx-auto mt-4"
                 />
-                {/* <h1 className="text-black py-2">Unity</h1> */}
+                <h1 className="text-black py-2">Oculus Rift</h1>
             </div>
 
-            
+            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center">
+            <Image 
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av3.png"
+                width={450}
+                height={450}
+                className="h-6 w-6 bg-white mx-auto mt-4"
+                />
+                <h1 className="text-black py-2">HTC Vive</h1>
+            </div>
+
+            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center" >
+            <Image 
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av4.png"
+                width={450}
+                height={450}
+                className="h-6 w-[51px] bg-white mx-auto mt-4"
+                />
+                <h1 className="text-black py-2">Google Daydream</h1>
+            </div>
+
+            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center">
+            <Image 
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av5.png"
+                width={450}
+                height={450}
+                className="h-[29px] w-[71px] bg-white mx-auto mt-4"
+                />
+                <h1 className="text-black py-2">Meta Quest</h1>
+            </div>
+
+            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center">
+            <Image 
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av6.png"
+                width={450}
+                height={450}
+                className="h-6 w-[61px] bg-white mx-auto mt-4"
+                />
+                <h1 className="text-black py-2">Microsoft HoloLens</h1>
+            </div>
 
           </div>
         </TabPanel>
 
         <TabPanel
           hidden={selectedTab !== "Languages"}
-          className="p-6 bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 rounded-lg h-[23vh] w-full"
+          className="p-6 bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 rounded-lg h-[20vh] w-full"
         >
-         <div className="grid sm:grid-1 md:mb-12 md:grid-cols-2 lg:grid-cols-4 gap-y-4 gap-x-2">
-            <div className=" mx-auto text-center"> 
+         <div className="grid sm:grid-1 md:mb-12 md:grid-cols-2 lg:grid-cols-6 gap-y-4 gap-x-2">
+            <div className="bg-white h-[12vh] w-[22vh] rounded-lg mx-auto text-center"> 
             <Image 
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/C%23.svg"
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av1.png"
                 width={450}
                 height={450}
-                className="h-[90%] w-[90%]"
-
-                // className="h-[24px] w-[49px] bg-white mx-auto mt-4"
+                className="h-[24px] w-[49px] bg-white mx-auto mt-4"
                 />
-                {/* <h1 className="text-black py-2">C#</h1> */}
+                <h1 className="text-black py-2">Apple Vision Pro</h1>
             </div>
 
-            <div className=" mx-auto text-center" >
+            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center" >
             <Image 
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/C%2B%2B.svg"
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av2.png"
                 width={450}
                 height={450}
-                className="h-[90%] w-[90%]"
-
-                // className="h-6 w-[49px] bg-white mx-auto mt-4"
+                className="h-6 w-[49px] bg-white mx-auto mt-4"
                 />
-                {/* <h1 className="text-black py-2">C++</h1> */}
+                <h1 className="text-black py-2">Oculus Rift</h1>
             </div>
 
-            <div className=" mx-auto text-center">
+            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center">
             <Image 
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Java+script.svg"
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av3.png"
                 width={450}
                 height={450}
-                className="h-[90%] w-[90%]"
-
-                // className="h-6 w-6 bg-white mx-auto mt-4"
+                className="h-6 w-6 bg-white mx-auto mt-4"
                 />
-                {/* <h1 className="text-black py-2">JavaScript</h1> */}
+                <h1 className="text-black py-2">HTC Vive</h1>
             </div>
 
-            <div className=" mx-auto text-center" >
+            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center" >
             <Image 
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Python.svg"
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av4.png"
                 width={450}
                 height={450}
-                className="h-[90%] w-[90%]"
-
-                // className="h-6 w-[51px] bg-white mx-auto mt-4"
+                className="h-6 w-[51px] bg-white mx-auto mt-4"
                 />
-                {/* <h1 className="text-black py-2">Python</h1> */}
+                <h1 className="text-black py-2">Google Daydream</h1>
             </div>
 
-          
+            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center">
+            <Image 
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av5.png"
+                width={450}
+                height={450}
+                className="h-[29px] w-[71px] bg-white mx-auto mt-4"
+                />
+                <h1 className="text-black py-2">Meta Quest</h1>
+            </div>
+
+            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center">
+            <Image 
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av6.png"
+                width={450}
+                height={450}
+                className="h-6 w-[61px] bg-white mx-auto mt-4"
+                />
+                <h1 className="text-black py-2">Microsoft HoloLens</h1>
+            </div>
+
           </div>
         </TabPanel>
 
         <TabPanel
           hidden={selectedTab !== "ArtificalIntelligence(AI)"}
-          className="p-6 bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 rounded-lg h-[23vh] w-full"
+          className="p-6 bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 rounded-lg h-[20vh] w-full"
         >
-          <div className="grid sm:grid-1 md:mb-12 md:grid-cols-2 lg:grid-cols-4 gap-y-4 gap-x-2">
-            <div className=" mx-auto text-center"> 
+          <div className="grid sm:grid-1 md:mb-12 md:grid-cols-2 lg:grid-cols-6 gap-y-4 gap-x-2">
+            <div className="bg-white h-[12vh] w-[22vh] rounded-lg mx-auto text-center"> 
             <Image 
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/PCG.svg"
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av1.png"
                 width={450}
                 height={450}
-                // className="h-[150px] w-[199px] bg-white mx-auto mt-4"
-                className="h-[90%] w-[90%]"
+                className="h-[24px] w-[49px] bg-white mx-auto mt-4"
                 />
-                {/* <h1 className="text-black py-2">Procedural Content Generation (PCG)</h1> */}
+                <h1 className="text-black py-2">Apple Vision Pro</h1>
             </div>
 
-            <div className=" mx-auto text-center" >
+            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center" >
             <Image 
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Natural+language+processing.svg"
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av2.png"
                 width={450}
                 height={450}
-                className="h-[90%] w-[90%]"
-
-                // className="h-6 w-[49px] bg-white mx-auto mt-4"
+                className="h-6 w-[49px] bg-white mx-auto mt-4"
                 />
-                {/* <h1 className="text-black py-2">Natural Language Processing (NLP)</h1> */}
+                <h1 className="text-black py-2">Oculus Rift</h1>
             </div>
 
-            <div className="  mx-auto text-center">
+            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center">
             <Image 
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Machine+learning.svg"
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av3.png"
                 width={450}
                 height={450}
-                className="h-[90%] w-[90%]"
-
-                // className="h-6 w-6 bg-white mx-auto mt-4"
+                className="h-6 w-6 bg-white mx-auto mt-4"
                 />
-                {/* <h1 className="text-black py-2">Machine Learning (ML)</h1> */}
+                <h1 className="text-black py-2">HTC Vive</h1>
             </div>
 
-            <div className=" mx-auto text-center" >
+            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center" >
             <Image 
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/AGA.svg"
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av4.png"
                 width={450}
                 height={450}
-                className="h-[90%] w-[90%]"
-
-                // className="h-6 w-[51px] bg-white mx-auto mt-4"
+                className="h-6 w-[51px] bg-white mx-auto mt-4"
                 />
-                {/* <h1 className="text-black py-2">Adaptive Gameplay Algorithms</h1> */}
+                <h1 className="text-black py-2">Google Daydream</h1>
             </div>
 
-          
+            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center">
+            <Image 
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av5.png"
+                width={450}
+                height={450}
+                className="h-[29px] w-[71px] bg-white mx-auto mt-4"
+                />
+                <h1 className="text-black py-2">Meta Quest</h1>
+            </div>
+
+            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center">
+            <Image 
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av6.png"
+                width={450}
+                height={450}
+                className="h-6 w-[61px] bg-white mx-auto mt-4"
+                />
+                <h1 className="text-black py-2">Microsoft HoloLens</h1>
+            </div>
 
           </div>
         </TabPanel>

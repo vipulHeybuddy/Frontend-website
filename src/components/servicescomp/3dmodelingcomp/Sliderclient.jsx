@@ -72,39 +72,39 @@ const Sliderclient = () => {
     const List = [
         {
           id: "1",
-          heading: "Enhanced Brand Engagement1",
+          heading: "3D Character Development",
           imgurl: "",
-          para: "Gaming offers a unique platform to connect with your audience on a deeper level. Your brand establishes a memorable presence in the mind of the gamer, fostering stronger connections and long-term loyalty.",
+          para: "Our experienced, skilled and creative 3D artists and modellers produce visually impressive 3D characters just for your project, brand and storytelling",
         },
         {
           id: "2",
-          heading: "Enhanced Brand Engagement2",
+          heading: "3D Asset Development",
           imgurl: "",
-          para: "Gaming offers a unique platform to connect with your audience on a deeper level. Your brand establishes a memorable presence in the mind of the gamer, fostering stronger connections and long-term loyalty.",
+          para: "We develop meticulously detailed, accurate, and high-quality 3D assets that perfectly fulfil your project's visual and functional needs.",
         },
         {
           id: "3",
-          heading: "Enhanced Brand Engagement3",
+          heading: "3D Environment Development",
           imgurl: "",
-          para: "Gaming offers a unique platform to connect with your audience on a deeper level. Your brand establishes a memorable presence in the mind of the gamer, fostering stronger connections and long-term loyalty.",
+          para: "We create deeply immersive environments that captivate your audience with ultra-realistic visuals and perfectly fit your project needs.",
         },
         {
           id: "4",
-          heading: "Enhanced Brand Engagement4",
+          heading: "3D Hard Surface Modelling",
           imgurl: "",
-          para: "Gaming offers a unique platform to connect with your audience on a deeper level. Your brand establishes a memorable presence in the mind of the gamer, fostering stronger connections and long-term loyalty.",
+          para: "We create detailed 3D models of objects or structures following your specific guidelines and ensure timely delivery for uninterrupted project operations.",
         },
         {
           id: "5",
-          heading: "Enhanced Brand Engagement5",
+          heading: "3D Animation Services",
           imgurl: "",
-          para: "Gaming offers a unique platform to connect with your audience on a deeper level. Your brand establishes a memorable presence in the mind of the gamer, fostering stronger connections and long-term loyalty.",
+          para: "Our client-centric approach ensures our 3D animations and meticulous rigging convey your vision accurately while captivating the audience with high-quality visuals.",
         },
         {
           id: "6",
-          heading: "Enhanced Brand Engagement6",
+          heading: "3D MetaHuman Creation Services",
           imgurl: "",
-          para: "Gaming offers a unique platform to connect with your audience on a deeper level. Your brand establishes a memorable presence in the mind of the gamer, fostering stronger connections and long-term loyalty.",
+          para: "Get photorealistic digital humans with easy customisation, We create Metahumans for virtual productions, games, or all other applications.",
         },
       ];
  

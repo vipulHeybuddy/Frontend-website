@@ -90,9 +90,9 @@ const Herosection = () => {
     <>
       <div style={containerStyle}>
         <div style={textContainerStyle}>
-          <h1 style={{ fontSize: "3rem" }}>Level up With AI: </h1>
+          <h1 style={{ fontSize: "3rem" }}>Hey Buddy: </h1>
           <h1 style={{ fontSize: "3rem" }}>
-            Best Game Development Company in India
+          Your Trusted Experts for Augmented Reality Services 
           </h1>
           <Button
             style={buttonHeader}
@@ -121,14 +121,13 @@ const Herosection = () => {
             initial="hidden"
             animate={controls}
             variants={textAnimation1}
-            className="py-8 text-xl "
+            className="py-8 text-xl, text-white "
           >
             <p>
-              Get an AI-powered smart gaming solution that captivates with its
-              hyper-realistic graphics and enthrals with its deeply engaging
-              gameplay. Hey Buddy is India's leading game development company,
-              maintaining a large team of gamer-first developers who know what
-              works.
+            Hey Buddy is the leading Augmented Reality or AR development company in India and the US. Our dedicated team of AR experts consistently delivers innovative and creative projects within specified timelines.<br/>
+
+[Experience Innovation]
+
             </p>
           </div>
     </>
