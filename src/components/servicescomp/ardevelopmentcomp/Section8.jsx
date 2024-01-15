@@ -63,13 +63,10 @@ const Pagenation = () => {
     className="lg:py-8 text-white">
       <div className="py-6">
         <h1 className="py-4 lg:w-[80%] text-2xl lg:text-4xl">
-          Hey Buddy Tech Arsenal for best Game Solutions: <br /> Expertise on
-          all fronts
+        Your Search for expertise ends with Augmented Reality Services, Hey Buddy, your trusted AR development company.
         </h1>
         <p className="text-xl lg:text-2xl">
-          Hey Buddy claim to the leading spot of a game development company in
-          India emanates from its expert team. Our developers bring in advanced
-          and profound expertise to deliver the best gaming solution for you.
+        [Let’s Discuss]
         </p>
       </div>
 
