@@ -136,13 +136,10 @@ const Timelinecomp = () => {
     >
       <div className="py-8 text-white">
         <h1 className="py-4 lg:w-[80%] text-2xl lg:text-4xl">
-          Our Perfected Game Development Process - <br />
-          Level by level
+        Our Refined VR Development Process
         </h1>
         <p className="text-xl lg:text-lg">
-          Over years of experience as a game app development company, we have
-          refined, streamlined and aligned our game development process to serve
-          you better.
+        Our VR development process has evolved with every project in favor of client-centricity, and user experience. We not only realize your vision but ensure your complete satisfaction with transparency, collaboration, and the timely delivery of your VR projects. 
         </p>
       </div>
 
@@ -167,125 +164,86 @@ const Timelinecomp = () => {
 
                     <li>
                       <h3 className="font-bold text-2xl heading">
-                        1. Requirement Gathering
+                      1. Discovery and Consultation
                       </h3>
                       <p>
-                        The process starts with the pre-production phase. Here,
-                        we settle the dust around the basics of the games such
-                        as the game narrative, gameplay rules, game level, and
-                        basic structure. All this is documented securely in the
-                        Game Development Document (GDD).
+                      We start with a complete grasp of your business objectives and your vision. Our team collaborates closely with yours to ensure a collaborative approach from day one.{" "}
+
                       </p>
                     </li>
 
                     <li>
                       <h3 className="font-bold text-2xl heading">
-                        2. Concept Art
+                      2. Ideation and Conceptualization
                       </h3>
                       <p>
-                        Then, based on GDD, the story, the intended theme, and
-                        the characters, we work on the concept art of the game.
-                        Here, we give shape to the characters, environments, and
-                        other in-game objects to set the ball running for 3D
-                        visualization and upcoming processes.{" "}
+                      We ideat and brainstorm to choose the best solution for your brand and objectives. Here, we ensure that our proposed solutions perfectly align with your vision.{" "}
                       </p>
                     </li>
 
                     <li>
                       <h3 className="font-bold text-2xl heading">
-                        3. Assets Creation
+                      3. Technical Feasibility Assessment
                       </h3>
                       <p>
-                        Once the concept art takes the final shape that you
-                        approve of, we start with the 3D & 2D modeling of the
-                        game assets. Using the latest software applications, we
-                        give your game the look and feel that attracts gamers in
-                        huge numbers{" "}
+                      That’s not it, on the chosen idea, our VR technical experts conduct a thorough feasibility assessment. They evaluate compatibility and viability from different aspects.{" "}
                       </p>
                     </li>
 
                     <li>
                       <h3 className="font-bold text-2xl heading">
-                        4. Animation
+                      4. Development and Coding
                       </h3>
                       <p>
-                        Now comes the most important yet challenging part. We
-                        animated your game assets with different techniques as
-                        per requirement such as human body animation for game
-                        characters and inorganic animation for game objects to
-                        make it not just convincing, but captivating.{" "}
+                      The approved idea is taken over by our expert VR developers. Who leverage every state-of-the-art VR technology so that the outcome matches your vision.{" "}
                       </p>
                     </li>
 
                     <li>
                       <h3 className="font-bold text-2xl heading">
-                        5. Game Level Designing
+                      5. Iterative Prototyping
                       </h3>
                       <p>
-                        Now that the characters and assets are ready, it's time
-                        to put them on the battlefield. Hence, we design game
-                        levels, player abilities, obstacles, and all other
-                        elements required for a perfect game. Our main focus -
-                        is a great gaming experience by all means.{" "}
+                      Our development team comes up with iterative prototypes and solicits your feedback on the same. Based on that, we modify the VR experience to exceed your expectations.{" "}
                       </p>
                     </li>
 
                     <li>
                       <h3 className="font-bold text-2xl heading">
-                        6. Building Mechanics
+                      6. Comprehensive Testing
                       </h3>
                       <p>
-                        Now, onto some serious tasks, we program the game
-                        mechanics that govern how players progress, interact,
-                        and experience the game. We ensure intuitive, balanced,
-                        and adaptive game mechanics for a meaningful gaming
-                        experience.{" "}
+                      Our rigorous testing protocol ensures that your VR experience possesses the functionality and features that captivate and engage your audience.{" "}
                       </p>
                     </li>
                     <li>
                       <h3 className="font-bold text-2xl heading">
-                        7. AI Infusion
+                      7. Client Approval and Deployment
                       </h3>
                       <p>
-                        Yet another critical factor is the AI integration into
-                        the game. This infuses intelligent behaviors into the
-                        non-player characters (NPCs), the game environment, and
-                        the game assets for hyper-realistic in-game interaction
-                        and dynamics.{" "}
+                      We send the outcome for your approval and make it deployment-ready. Here, our streamlined process ensures that we adhere to the stipulated timeline.{" "}
                       </p>
                     </li>
                     <li>
                       <h3 className="font-bold text-2xl heading">
-                        8. Graphic Optimization
+                      8. Analytics and Performance Monitoring
                       </h3>
                       <p>
-                        We understand that visuals are the first thing that
-                        gamers notice and it is the key to attracting an
-                        audience. Hence, we optimize the graphics to maintain
-                        consistency and the highest visual experience through
-                        the devices and platform.{" "}
+                      Deployment is not enough, tracking is crucial. That’s why we integrate analytics tools. With this, we monitor the performance of your VR experience for data-driven insights. {" "}
                       </p>
                     </li>
                     <li>
                       <h3 className="font-bold text-2xl heading">
-                        9. Rigorous Testing
+                      9. Post-launch support and Optimization
                       </h3>
                       <p>
-                        We rigorously test your game on every aspect of the
-                        process to identify bugs and issues in the game
-                        actively. We make your game market-ready and ensure that
-                        you gamers get a smooth and enjoyable gaming experience
-                        without hiccups.{" "}
+                      On the same line, we keep on offering you post-launch support, updates, and optimization services for the assured success of your VR experiences.{" "}
                       </p>
                     </li>
                     <li>
-                      <h3 className="font-bold text-2xl heading">10. Launch</h3>
+                      <h3 className="font-bold text-2xl heading">10. Client Collaboration and Feedback Loop</h3>
                       <p>
-                        This whole process results in a game in which you aspire
-                        for your endeavor. Now, we help launch the game on the
-                        targeted platform(s). Post that we stay on our toes to
-                        troubleshoot issues post-launch, nipping them in the
-                        bud.{" "}
+                      Lastly, we collaborate with you to draw your valuable feedback and sustain an open line of communication for long-term partnerships.{" "}
                       </p>
                     </li>
                   </ul>

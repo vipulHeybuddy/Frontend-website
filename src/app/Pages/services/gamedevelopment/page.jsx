@@ -118,7 +118,7 @@ const page = () => {
     },
     {
       id: "2",
-      heading: "Increased User Retention:",
+      heading: "Increased User Retention",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid2.png",
       para: "Games have an inherent ability to keep users hooked and invested. By incorporating addictive gameplay mechanics, your business can boost user retention, ensuring that your audience keeps coming back for more, and strengthening brand loyalty over time.",

@@ -3,44 +3,63 @@
 import { useLayoutEffect, useState } from "react";
 // import { render } from "react-dom";
 import classnames from "classnames";
-import "../../../styles/slide.css";
+import "../../../styles/slide3.css";
 
 const images = [0, 1, 2, 3, 4 , 5 , 6];
 const texts = [
-  {
-          title: "Game Development",
+        
+        {
+          title: "Capitalize on Expertise",
           description:
-            "We develop highly functional mobile game solutions with cross-platform compatibility. So whether it is iOS or Android, smartphone or console, you name it and we, as your trusted Mobile game development company, will do it ",
+            "Leverage our extensive experience in VR development. Get the best solution for your specific business and industry needs as our VR experts use cutting-edge technology. ",
          
         },
         {
-          title: "Mobile Game Development",
+          title: "Achieve Quality in Time",
           description:
-            "We develop highly functional mobile game solutions with cross-platform compatibility. So whether it is iOS or Android, smartphone or console, you name it and we, as your trusted Mobile game development company, will do it ",
+            "Count on Hey Buddy’s streamlined VR development process for prompt project completion. Get high-quality VR solutions delivered in your timelines with precision.",
          
         },
         {
-          title: "Unreal Game Development",
+          title: "Take Control",
           description:
-            "Unreal engine is known to deliver powerful and dynamic games that stun gamers with its visuals and realism. Our developers love to work on this platform and get you a game with realistic game physics and animation and AI’s smart interactivity.",
+            "Experience transparent and effective communication with Hey Buddy and command full control. Our dedicated SPOC keeps you informed throughout the development process.",
          
         },
         {
-          title: "Unity 3D Game Development",
+          title: "Be the Trendsetter",
           description:
-            "We use the robust Unity engine to develop immersive, high-performing, and visually stunning games for your target audience. Unity is known for its powerful tools and features and we, as Unity Game development company use it to the fullest for 2D and 3D games.",
-         
-        },
-        {
-          title: "Metaverse Game Development",
-          description:
-            "Get ready to teleport your gaming audience into a new reality of Metaverse games. We are a renowned Metaverse game development company that knows community-building, utilisation of user-generated content, and capitalise on social connectivity.",
+            "Surpass industry standards with high-quality Virtual Reality software solutions. Our expert team delivers consistently with industry-leading expertise and a streamlined process.",
           
         },
         {
-          title: "Web3 Game Development",
+          title: "Lead Your Domain",
           description:
-            "Ready to explore decentralised gaming for untapped business opportunities, we have an offer. Our team develops decentralised and secure Web3 gaming solutions utilising leading technologies like AI, blockchain, smart contracts, NFTs, and much more. ",
+            "We offer VR development services with an in-depth understanding of your industry. Get bespoke VR experiences aligned perfectly with your unique requirements.",
+         
+        },
+        {
+          title: "Outsmart Competition",
+          description:
+            "Capitalise on the power of innovation with Hey Buddy's creative VR solutions. Set your brand apart with a memorable and engaging user experience and high visual quality.",
+         
+        },
+        {
+          title: "Stay Agile",
+          description:
+            "Overcome challenges seamlessly with Hey Buddy's agile methodology. We rapidly adjust strategies to meet evolving project requirements and ensure success.",
+         
+        },
+        {
+          title: "Your Investment Yields",
+          description:
+            "Optimize your returns with Hey Buddy's cost-effective VR development services. We offer competitive pricing structures and zero compromise on quality.",
+         
+        },
+        {
+          title: "Stay Confident",
+          description:
+            "Sail easy with our strong commitment to post-service support and maintenance. We ensure your VR experience remains functional and up-to-date for sustained success.",
          
         },
         
