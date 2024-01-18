@@ -113,7 +113,7 @@ function Slider1() {
         Get All Emerging Tech Solutions Under One Roof
       </h1>
       <div className="container7">
-        <Swiper
+      <Swiper
           effect={"coverflow"}
           grabCursor={true}
           centeredSlides={true}
@@ -159,7 +159,7 @@ function Slider1() {
                   <h1 style={{ fontSize: "1.7rem", color: "white" }}>
                     Game Development
                   </h1>
-                  <p style={{ color: "#ffffff8f" }}>
+                  <p className="text-[#cfcece] font-thin">
                     We excel in developing games across diverse genres on
                     leading platforms like Unity and Unreal.
                   </p>
@@ -183,11 +183,11 @@ function Slider1() {
 
                 }}
               >
-                <div style={{ textAlign: "left", margin: "1rem" }}>
-                  <h1 style={{ fontSize: "1.7rem", color: "white" }}>
+                <div style={{ textAlign: "left", margin: "1rem" }} >
+                  <h1 style={{ fontSize: "1.7rem", color: "white" }} className="mt-4">
                     AR development
                   </h1>
-                  <p style={{ color: "#ffffff8f" }}>
+                  <p className="text-[#cfcece] font-thin">
                     We create realistic immersive solutions that create a
                     convincing new reality to impress your user with AR, VR or
                     through Metaverse platforms.
@@ -214,7 +214,7 @@ function Slider1() {
                   <h1 style={{ fontSize: "1.7rem", color: "white" }}>
                     3D modeling
                   </h1>
-                  <p style={{ color: "#ffffff8f" }}>
+                  <p className="text-[#cfcece] font-thin">
                     We develop responsive, meticulous, and true-to-life 3D
                     models and use them for eye-catching 3D animations.
                   </p>
@@ -236,11 +236,11 @@ function Slider1() {
                   alignItems: "flex-start",
                 }}
               >
-                <div style={{ textAlign: "left", margin: "1rem" }}>
-                  <h1 style={{ fontSize: "1.7rem", color: "white" }}>
+                <div style={{ textAlign: "left", }} className="p-4">
+                  <h1 style={{ fontSize: "1.7rem", color: "white" }} className="mt-3">
                     Custom Software Development
                   </h1>
-                  <p style={{ color: "#ffffff8f" }}>
+                  <p className="text-[#cfcece] font-thin">
                     We employ the best software development practices for
                     cross-device and cross-platform compatible, user-friendly
                     Android and iOS applications.
@@ -267,7 +267,7 @@ function Slider1() {
                   <h1 style={{ fontSize: "1.7rem", color: "white" }}>
                     VR Development
                   </h1>
-                  <p style={{ color: "#ffffff8f" }}>
+                  <p className="text-[#cfcece] font-thin">
                     Help your trainees learn 4 times faster with 500% more focus
                     and 1.75% time more confidence.
                   </p>
@@ -289,11 +289,11 @@ function Slider1() {
                   alignItems: "flex-start",
                 }}
               >
-                <div style={{ textAlign: "left", margin: "1rem" }}>
-                  <h1 style={{ fontSize: "1.7rem", color: "white" }}>
+                <div style={{ textAlign: "left", }} className="pt-4 px-4">
+                  <h1 style={{ fontSize: "1.7rem", color: "white" }} className="mt-3">
                     Web3 Development
                   </h1>
-                  <p style={{ color: "#ffffff8f" }}>
+                  <p className="text-[#cfcece] pb-2 font-thin">
                     Seize the power of pathbreaking Web3 technologies like
                     blockchain with use and open new digital avenues of
                     financial streams.
