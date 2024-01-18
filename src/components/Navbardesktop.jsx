@@ -59,33 +59,33 @@ const Navbardesktop = () => {
 
                 <i className="fa-solid fa-chevron-down fa-2xs pt-3" />
                 {/* Submenu starts */}
-                <ul className="absolute bg-white rounded-lg p-3 w-52 top-6 transform scale-0 group-hover:scale-100 transition duration-150 ease-in-out origin-top shadow-lg">
+                <ul className="absolute bg-[#030914] rounded-lg p-3 w-[500px] top-6 transform scale-0 group-hover:scale-100 transition duration-150 ease-in-out origin-top shadow-2xl bg-clip-padding backdrop-filter backdrop-blur-2xl bg-opacity-90 ">
                   <Link href="/Pages/services/3dmodeling">
-                    <li className="text-sm px-4 hover:bg-slate-200 hover:rounded-lg hover:text-blue-500 hover:font-bold leading-8">
+                    <li className="text-sm px-4 text-[#a2acbf] hover:bg-[#74787f] hover:rounded-lg  hover:font-bold leading-8">
                       3D Modeling
                     </li>
                   </Link>
 
                   <Link href="/Pages/services/customsoftware">
-                    <li className="text-sm px-4 hover:bg-slate-200 hover:rounded-lg hover:text-blue-500 hover:font-bold leading-8">
+                    <li className="text-sm px-4 text-[#a2acbf] hover:bg-[#74787f] hover:rounded-lg hover:font-bold leading-8">
                       AR Development
                     </li>
                   </Link>
 
                   <Link href="/Pages/services/customsoftware">
-                    <li className="text-sm px-4 hover:bg-slate-200 hover:rounded-lg hover:text-blue-500 hover:font-bold leading-8">
+                    <li className="text-sm px-4 text-[#a2acbf] hover:bg-[#74787f] hover:rounded-lg hover:font-bold leading-8">
                       Custom Software
                     </li>
                   </Link>
 
                   <Link href="/Pages/services/gamedevelopment">
-                    <li className="text-sm px-4 hover:bg-slate-200 hover:rounded-lg hover:text-blue-500 hover:font-bold leading-8">
+                    <li className="text-sm px-4 text-[#a2acbf] hover:bg-[#74787f] hover:rounded-lg hover:font-bold leading-8">
                       Game Development
                     </li>
                   </Link>
 
                   <Link href="/Pages/services/vrdevelopment">
-                    <li className="text-sm px-4 hover:bg-slate-200 hover:rounded-lg hover:text-blue-500 hover:font-bold leading-8">
+                    <li className="text-sm px-4 text-[#a2acbf] hover:bg-[#74787f] hover:rounded-lg hover:font-bold leading-8">
                       VR Development
                     </li>
                   </Link>

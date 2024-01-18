@@ -101,7 +101,8 @@ const Motionslide = () => {
         </div>
       </div>
       <div className="sticky">
-        <div className="frame bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev3.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
+        <div className="frame relative">
+          <img src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev3.png" alt="bg_image" className="absolute bottom-0" loading="lazy" />
           {images.map((image, index) => (
             <div key={image} className={`image-container ${index % 2 === 0 ? 'image-left' : 'image-right'}`}>
               {currentText && (

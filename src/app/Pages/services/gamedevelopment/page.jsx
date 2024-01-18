@@ -274,7 +274,8 @@ const page = () => {
           </div>
 
           {/* ------------------------Section-5------------------------------------- */}
-          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev5.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
+          <div className=" relative">
+            <img src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev5.png" alt="bg image" className='absolute bottom-0' loading='lazy' />
             <Timelinecomp />
           </div>
 
