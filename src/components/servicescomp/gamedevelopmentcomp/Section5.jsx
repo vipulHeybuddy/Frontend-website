@@ -166,7 +166,7 @@ const Timelinecomp = () => {
                     </li> */}
 
                     <li>
-                      <h3 className="font-bold text-2xl heading">
+                      <h3 className="font-bold text-2xl heading !text-start">
                         1. Requirement Gathering
                       </h3>
                       <p>
@@ -179,7 +179,7 @@ const Timelinecomp = () => {
                     </li>
 
                     <li>
-                      <h3 className="font-bold text-2xl heading">
+                      <h3 className="font-bold text-2xl heading !text-start">
                         2. Concept Art
                       </h3>
                       <p>
@@ -192,7 +192,7 @@ const Timelinecomp = () => {
                     </li>
 
                     <li>
-                      <h3 className="font-bold text-2xl heading">
+                      <h3 className="font-bold text-2xl heading !text-start">
                         3. Assets Creation
                       </h3>
                       <p>
@@ -205,7 +205,7 @@ const Timelinecomp = () => {
                     </li>
 
                     <li>
-                      <h3 className="font-bold text-2xl heading">
+                      <h3 className="font-bold text-2xl heading !text-start">
                         4. Animation
                       </h3>
                       <p>
@@ -218,7 +218,7 @@ const Timelinecomp = () => {
                     </li>
 
                     <li>
-                      <h3 className="font-bold text-2xl heading">
+                      <h3 className="font-bold text-2xl heading !text-start">
                         5. Game Level Designing
                       </h3>
                       <p>
@@ -231,7 +231,7 @@ const Timelinecomp = () => {
                     </li>
 
                     <li>
-                      <h3 className="font-bold text-2xl heading">
+                      <h3 className="font-bold text-2xl heading !text-start">
                         6. Building Mechanics
                       </h3>
                       <p>
@@ -243,7 +243,7 @@ const Timelinecomp = () => {
                       </p>
                     </li>
                     <li>
-                      <h3 className="font-bold text-2xl heading">
+                      <h3 className="font-bold text-2xl heading !text-start">
                         7. AI Infusion
                       </h3>
                       <p>
@@ -255,7 +255,7 @@ const Timelinecomp = () => {
                       </p>
                     </li>
                     <li>
-                      <h3 className="font-bold text-2xl heading">
+                      <h3 className="font-bold text-2xl heading !text-start">
                         8. Graphic Optimization
                       </h3>
                       <p>
@@ -267,7 +267,7 @@ const Timelinecomp = () => {
                       </p>
                     </li>
                     <li>
-                      <h3 className="font-bold text-2xl heading">
+                      <h3 className="font-bold text-2xl heading !text-start">
                         9. Rigorous Testing
                       </h3>
                       <p>
@@ -279,7 +279,7 @@ const Timelinecomp = () => {
                       </p>
                     </li>
                     <li>
-                      <h3 className="font-bold text-2xl heading">10. Launch</h3>
+                      <h3 className="font-bold text-2xl heading !text-start">10. Launch</h3>
                       <p>
                         This whole process results in a game in which you aspire
                         for your endeavor. Now, we help launch the game on the
