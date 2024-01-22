@@ -64,62 +64,58 @@ const Section7 = () => {
         },
       ];
     
-      const Text = [
-        {
-          heading:
-            "Digital Joysticks, Real Rewards: Success Stories with Hey Buddy",
-          subtext:
-            "Hey Buddy offers its services to clients working in different industries and different scales. Here are the success stories that make us the best gaming development company in India. ",
-        },
-      ];
+      // const Text = [
+      //   {
+      //     heading:
+      //       "Digital Joysticks, Real Rewards: Success Stories with Hey Buddy",
+      //     subtext:
+      //       "Hey Buddy offers its services to clients working in different industries and different scales. Here are the success stories that make us the best gaming development company in India. ",
+      //   },
+      // ];
   return (
-    <div>
+    <></>
+//     <div>
 
-<motion.div 
-    ref={ref}
-    initial="hidden"
-    animate={controls}
-    variants={textAnimation1}
-    className="lg:py-4 text-white">
+// <motion.div 
+//     ref={ref}
+//     initial="hidden"
+//     animate={controls}
+//     variants={textAnimation1}
+//     className="lg:py-4 text-white">
 
-        <div >
-        {Text.map((section, index) => (
-          <div className="py-12" key={index}>
-            <h1 className="py-4 lg:w-[80%] text-2xl lg:text-4xl">{section.heading}</h1>
-            <p className="text-xl lg:text-2xl">{section.subtext}</p>
-          </div>
-        ))}
-        </div>
-      <div  class="p-2 lg:py-4  grid mx-auto  justify-center rounded-xl shadow-sm sm:grid-1 md:mb-12 md:grid-cols-2 lg:grid-cols-3 gap-y-4 gap-x-4">
-        {List.map((section, index) => (
-          <figure class="flex flex-col  p-2 lg:p-6  rounded-lg  h-full w-full bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20 hover:bg-yellow-600 hover:bg-opacity-40">
-            <blockquote class="  text-gray-400">
+//         <div >
+//         {Text.map((section, index) => (
+//           <div className="py-12" key={index}>
+//             <h1 className="py-4 lg:w-[80%] text-2xl lg:text-4xl">{section.heading}</h1>
+//             <p className="text-xl lg:text-2xl">{section.subtext}</p>
+//           </div>
+//         ))}
+//         </div>
+//       <div  class="p-2 lg:py-4  grid mx-auto  justify-center rounded-xl shadow-sm sm:grid-1 md:mb-12 md:grid-cols-2 lg:grid-cols-3 gap-y-4 gap-x-4">
+//         {List.map((section, index) => (
+//           <figure class="flex flex-col  p-2 lg:p-6  rounded-lg  h-full w-full bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20 hover:bg-yellow-600 hover:bg-opacity-40">
+//             <blockquote class="  text-gray-400">
 
-                {/* <Image 
-                src={section.imgurl}
-                width={450}
-                height={450}
-                className="h-[32px] w-[32px] "
-                /> */}
+              
 
 
-              <h3
-                style={{ color: "white" }}
-                class="py-4 text-xl font-semibold  text-gray-500 "
-              >
-                {section.heading}
-              </h3>
+//               <h3
+//                 style={{ color: "white" }}
+//                 class="py-4 text-xl font-semibold  text-gray-500 "
+//               >
+//                 {section.heading}
+//               </h3>
 
-              <p style={{ color: "white" }} className="text-left">
-                {section.para}
-              </p>
-            </blockquote>
-          </figure>
-        ))}
-      </div>
-    </motion.div>
+//               <p style={{ color: "white" }} className="text-left">
+//                 {section.para}
+//               </p>
+//             </blockquote>
+//           </figure>
+//         ))}
+//       </div>
+//     </motion.div>
 
-    </div>
+//     </div>
   )
 }
 
