@@ -61,9 +61,9 @@ const Pagenation = () => {
     variants={textAnimation1}
     
     className="lg:py-8 text-white">
-      <div className="py-6">
+      {/* <div className="py-6">
         <h1 className="py-4 lg:w-[80%] text-2xl lg:text-4xl">
-          Hey Buddy Tech Arsenal for best Game Solutions: <br /> Expertise on
+          Hey Buddy Tech Arsenal for best Game Solutions<br /> Expertise on
           all fronts
         </h1>
         <p className="text-sm lg:text-lg">
@@ -71,9 +71,9 @@ const Pagenation = () => {
           India emanates from its expert team. Our developers bring in advanced
           and profound expertise to deliver the best gaming solution for you.
         </p>
-      </div>
+      </div> */}
 
-      <nav className="flex border-b border-gray-300 overflow-auto">
+      {/* <nav className="flex border-b border-gray-300 overflow-auto">
         <TabSelector
           isActive={selectedTab === "Platforms"}
           onClick={() => setSelectedTab("Platforms")}
@@ -110,9 +110,9 @@ const Pagenation = () => {
         >
           Artifical Intelligence(AI)
         </TabSelector>
-      </nav>
+      </nav> */}
 
-      <div className="py-6 px-2">
+      {/* <div className="py-6 px-2">
         <TabPanel
           hidden={selectedTab !== "Platforms"}
           className="p-6 bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 rounded-lg h-[20vh] w-full"
@@ -259,9 +259,9 @@ const Pagenation = () => {
                 src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Decentraland.svg"
                 width={450}
                 height={450}
-                // className="h-[24px] w-[49px] bg-white mx-auto mt-4"
+               
                 />
-                {/* <h1 className="text-black py-2">Decentraland</h1> */}
+                
             </div>
 
             <div className="  mx-auto text-center" >
@@ -269,9 +269,9 @@ const Pagenation = () => {
                 src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Roblox.svg"
                 width={450}
                 height={450}
-                // className="h-6 w-[49px] bg-white mx-auto mt-4"
+                
                 />
-                {/* <h1 className="text-black py-2">Roblox</h1> */}
+                
             </div>
 
             <div className="  mx-auto text-center">
@@ -279,9 +279,9 @@ const Pagenation = () => {
                 src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Axie+Infinity.svg"
                 width={450}
                 height={450}
-                // className="h-6 w-6 bg-white mx-auto mt-4"
+                
                 />
-                {/* <h1 className="text-black py-2">Axie Infinity</h1> */}
+                
             </div>
 
             <div className=" mx-auto text-center" >
@@ -289,9 +289,9 @@ const Pagenation = () => {
                 src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Sandbox.svg"
                 width={450}
                 height={450}
-                // className="h-6 w-[51px] bg-white mx-auto mt-4"
+                
                 />
-                {/* <h1 className="text-black py-2">The Sandbox</h1> */}
+               
             </div>
 
             <div className=" mx-auto text-center">
@@ -299,9 +299,9 @@ const Pagenation = () => {
                 src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Horizon+Worlds.svg"
                 width={450}
                 height={450}
-                // className="h-[29px] w-[71px] bg-white mx-auto mt-4"
+                
                 />
-                {/* <h1 className="text-black py-2">Horizon Worlds</h1> */}
+                
             </div>
 
             <div className=" mx-auto text-center">
@@ -309,9 +309,9 @@ const Pagenation = () => {
                 src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Sanskar.svg"
                 width={450}
                 height={450}
-                // className="h-6 w-[61px] bg-white mx-auto mt-4"
+               
                 />
-                {/* <h1 className="text-black py-2">Sansar</h1> */}
+                
             </div>
 
           </div>
@@ -330,9 +330,9 @@ const Pagenation = () => {
                 height={450}
                 className="h-[90%] w-[90%]"
 
-                // className="h-[24px] w-[49px] bg-white mx-auto mt-4"
+                
                 />
-                {/* <h1 className="text-black py-2">Unreal Engine</h1> */}
+                
             </div>
 
             <div className=" mx-auto text-center" >
@@ -342,9 +342,9 @@ const Pagenation = () => {
                 height={450}
                 className="h-[90%] w-[90%]"
 
-                // className="h-6 w-[49px] bg-white mx-auto mt-4"
+                
                 />
-                {/* <h1 className="text-black py-2">Unity</h1> */}
+                
             </div>
 
             
@@ -364,9 +364,9 @@ const Pagenation = () => {
                 height={450}
                 className="h-[90%] w-[90%]"
 
-                // className="h-[24px] w-[49px] bg-white mx-auto mt-4"
+                
                 />
-                {/* <h1 className="text-black py-2">C#</h1> */}
+                
             </div>
 
             <div className=" mx-auto text-center" >
@@ -376,9 +376,9 @@ const Pagenation = () => {
                 height={450}
                 className="h-[90%] w-[90%]"
 
-                // className="h-6 w-[49px] bg-white mx-auto mt-4"
+                
                 />
-                {/* <h1 className="text-black py-2">C++</h1> */}
+                
             </div>
 
             <div className=" mx-auto text-center">
@@ -388,9 +388,9 @@ const Pagenation = () => {
                 height={450}
                 className="h-[90%] w-[90%]"
 
-                // className="h-6 w-6 bg-white mx-auto mt-4"
+                
                 />
-                {/* <h1 className="text-black py-2">JavaScript</h1> */}
+               
             </div>
 
             <div className=" mx-auto text-center" >
@@ -400,9 +400,9 @@ const Pagenation = () => {
                 height={450}
                 className="h-[90%] w-[90%]"
 
-                // className="h-6 w-[51px] bg-white mx-auto mt-4"
+                
                 />
-                {/* <h1 className="text-black py-2">Python</h1> */}
+                
             </div>
 
           
@@ -419,10 +419,10 @@ const Pagenation = () => {
                 src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/PCG.svg"
                 width={450}
                 height={450}
-                // className="h-[150px] w-[199px] bg-white mx-auto mt-4"
+                
                 className="h-[90%] w-[90%]"
                 />
-                {/* <h1 className="text-black py-2">Procedural Content Generation (PCG)</h1> */}
+                
             </div>
 
             <div className=" mx-auto text-center" >
@@ -432,9 +432,9 @@ const Pagenation = () => {
                 height={450}
                 className="h-[90%] w-[90%]"
 
-                // className="h-6 w-[49px] bg-white mx-auto mt-4"
+                
                 />
-                {/* <h1 className="text-black py-2">Natural Language Processing (NLP)</h1> */}
+                
             </div>
 
             <div className="  mx-auto text-center">
@@ -444,9 +444,9 @@ const Pagenation = () => {
                 height={450}
                 className="h-[90%] w-[90%]"
 
-                // className="h-6 w-6 bg-white mx-auto mt-4"
+                
                 />
-                {/* <h1 className="text-black py-2">Machine Learning (ML)</h1> */}
+                
             </div>
 
             <div className=" mx-auto text-center" >
@@ -456,9 +456,9 @@ const Pagenation = () => {
                 height={450}
                 className="h-[90%] w-[90%]"
 
-                // className="h-6 w-[51px] bg-white mx-auto mt-4"
+                
                 />
-                {/* <h1 className="text-black py-2">Adaptive Gameplay Algorithms</h1> */}
+                
             </div>
 
           
@@ -466,7 +466,7 @@ const Pagenation = () => {
           </div>
         </TabPanel>
 
-      </div>
+      </div> */}
     </motion.div>
   );
 };

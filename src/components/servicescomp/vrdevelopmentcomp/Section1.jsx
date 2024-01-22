@@ -90,7 +90,7 @@ const Herosection = () => {
     <>
       <div style={containerStyle}>
         <div style={textContainerStyle}>
-          <h1 style={{ fontSize: "3rem" }}>Level up With AI: </h1>
+          <h1 style={{ fontSize: "3rem" }}>Level up With AI:</h1>
           <h1 style={{ fontSize: "3rem" }}>
             Best Game Development Company in India
           </h1>

@@ -84,7 +84,7 @@ export default function Home() {
 
       {isMobile ? <Ourclientsmob /> : <Ourclients />}
 
-      {/*  --------------------section-9---------------------------------- */}
+      {/*  --------------------section-9 --------------------------------- */}
 
       <Bottomsec />
 
