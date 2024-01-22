@@ -21,6 +21,7 @@
     "font-awesome-icons": "^1.6.0",
     "framer-motion": "^10.16.4",
     "framework7-react": "^8.3.0",
+    "gsap": "^3.12.5",
     "ionicons": "^7.2.1",
     "jquerry": "^0.0.1-security",
     "jquery": "^3.7.1",
