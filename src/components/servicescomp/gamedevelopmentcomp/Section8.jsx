@@ -61,7 +61,7 @@ const Pagenation = () => {
     variants={textAnimation1}
     
     className="lg:py-8 text-white">
-      {/* <div className="py-6">
+      <div className="py-6">
         <h1 className="py-4 lg:w-[80%] text-2xl lg:text-4xl">
           Hey Buddy Tech Arsenal for best Game Solutions<br /> Expertise on
           all fronts
@@ -71,9 +71,9 @@ const Pagenation = () => {
           India emanates from its expert team. Our developers bring in advanced
           and profound expertise to deliver the best gaming solution for you.
         </p>
-      </div> */}
+      </div> 
 
-      {/* <nav className="flex border-b border-gray-300 overflow-auto">
+      <nav className="flex border-b border-gray-300 overflow-auto">
         <TabSelector
           isActive={selectedTab === "Platforms"}
           onClick={() => setSelectedTab("Platforms")}
@@ -110,72 +110,71 @@ const Pagenation = () => {
         >
           Artifical Intelligence(AI)
         </TabSelector>
-      </nav> */}
-
-      {/* <div className="py-6 px-2">
+      </nav> 
+       <div className="py-6 px-2">
         <TabPanel
           hidden={selectedTab !== "Platforms"}
-          className="p-6 bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 rounded-lg h-[20vh] w-full"
+          className="p-4 bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 rounded-lg h-[20vh] w-full"
         >
           <div className="grid  md:mb-12 grid-cols-6 gap-y-4 gap-x-2  ">
-            <div className="bg-white h-[12vh] w-[22vh] rounded-2xl mx-auto text-center"> 
+          <div className=" mx-auto text-center"> 
             <Image 
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/p1.png"
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Game+Development+Service/Apple+vision.svg"
                 width={450}
                 height={450}
-                className="h-[24px] w-[24px] bg-white mx-auto mt-4"
+                alt="Hey B"
                 />
-                <h1 className="text-black py-2">Appstore</h1>
+                
             </div>
 
-            <div className="bg-white h-[12vh] w-[22vh] rounded-2xl mx-auto text-center" >
+            <div className=" mx-auto text-center"> 
             <Image 
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/p2.png"
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Game+Development+Service/Appstore.svg"
                 width={450}
                 height={450}
-                className="h-6 w-6 bg-white mx-auto mt-4"
+                alt="Hey B"
                 />
-                <h1 className="text-black py-2">Playstore</h1>
+                
             </div>
 
-            <div className="bg-white h-[12vh] w-[22vh] rounded-2xl mx-auto text-center">
+            <div className=" mx-auto text-center"> 
             <Image 
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/p3.png"
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Game+Development+Service/PC.svg"
                 width={450}
                 height={450}
-                className="h-6 w-6 bg-white mx-auto mt-4"
+                alt="Hey B"
                 />
-                <h1 className="text-black py-2">PC</h1>
+                
             </div>
 
-            <div className="bg-white h-[12vh] w-[22vh] rounded-2xl mx-auto text-center" >
+            <div className=" mx-auto text-center"> 
             <Image 
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/p4.png"
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Game+Development+Service/Playstation.svg"
                 width={450}
                 height={450}
-                className="h-6 w-6 bg-white mx-auto mt-4"
+                alt="Hey B"
                 />
-                <h1 className="text-black py-2">Playstation</h1>
+                
             </div>
 
-            <div className="bg-white h-[12vh] w-[22vh] rounded-2xl mx-auto text-center">
+            <div className=" mx-auto text-center"> 
             <Image 
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/p5.png"
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Game+Development+Service/Xbox.svg"
                 width={450}
                 height={450}
-                className="h-6 w-6 bg-white mx-auto mt-4"
+                alt="Hey B"
                 />
-                <h1 className="text-black py-2">Xbox</h1>
+                
             </div>
 
-            <div className="bg-white h-[12vh] w-[22vh] rounded-2xl mx-auto text-center">
+            <div className=" mx-auto text-center"> 
             <Image 
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/p6.png"
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Game+Development+Service/Nintendo.svg"
                 width={450}
                 height={450}
-                className="h-6 w-6 bg-white mx-auto mt-4"
+                alt="Hey B"
                 />
-                <h1 className="text-black py-2">Nintendo</h1>
+                
             </div>
 
           </div>
@@ -183,67 +182,66 @@ const Pagenation = () => {
 
         <TabPanel
           hidden={selectedTab !== "ARVRPlatforms"}
-          className="p-6 bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 rounded-lg h-[20vh] w-full"
+          className="p-4 bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 rounded-lg h-[20vh] w-full"
         >
           <div className="grid sm:grid-1 md:mb-12 md:grid-cols-2 lg:grid-cols-6 gap-y-4 gap-x-2">
-            <div className="bg-white h-[12vh] w-[22vh] rounded-2xl mx-auto text-center"> 
+          <div className=" mx-auto text-center"> 
             <Image 
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av1.png"
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Game+Development+Service/Apple+vision.svg"
                 width={450}
                 height={450}
-                className="h-[24px] w-[49px] bg-white mx-auto mt-4"
+                alt="Hey B"
                 />
-                <h1 className="text-black py-2">Apple Vision Pro</h1>
+                
             </div>
 
-            <div className="bg-white h-[12vh] w-[22vh] rounded-2xl  mx-auto text-center" >
+            <div className=" mx-auto text-center"> 
             <Image 
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av2.png"
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Game+Development+Service/Oculus.svg"
                 width={450}
                 height={450}
-                className="h-6 w-[49px] bg-white mx-auto mt-4"
+                alt="Hey B"
                 />
-                <h1 className="text-black py-2">Oculus Rift</h1>
+                
             </div>
 
-            <div className="bg-white h-[12vh] w-[22vh] rounded-2xl  mx-auto text-center">
+            <div className=" mx-auto text-center"> 
             <Image 
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av3.png"
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Game+Development+Service/HTC+vive.svg"
                 width={450}
                 height={450}
-                className="h-6 w-6 bg-white mx-auto mt-4"
+                alt="Hey B"
                 />
-                <h1 className="text-black py-2">HTC Vive</h1>
+                
             </div>
 
-            <div className="bg-white h-[12vh] w-[22vh] rounded-2xl  mx-auto text-center" >
+            <div className=" mx-auto text-center"> 
             <Image 
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av4.png"
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Game+Development+Service/Google+daydream.svg"
                 width={450}
                 height={450}
-                className="h-6 w-[51px] bg-white mx-auto mt-4"
+                alt="Hey B"
                 />
-                <h1 className="text-black py-2">Google Daydream</h1>
+                
             </div>
 
-            <div className="bg-white h-[12vh] w-[22vh] rounded-2xl  mx-auto text-center">
+            <div className=" mx-auto text-center"> 
             <Image 
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av5.png"
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Game+Development+Service/Meta+quest.svg"
                 width={450}
                 height={450}
-                className="h-[29px] w-[71px] bg-white mx-auto mt-4"
+                alt="Hey B"
                 />
-                <h1 className="text-black py-2">Meta Quest</h1>
+                
             </div>
-
-            <div className="bg-white h-[12vh] w-[22vh] rounded-2xl  mx-auto text-center">
+            <div className=" mx-auto text-center"> 
             <Image 
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av6.png"
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Game+Development+Service/Microsoft+Hololens.svg"
                 width={450}
                 height={450}
-                className="h-6 w-[61px] bg-white mx-auto mt-4"
+                alt="Hey B"
                 />
-                <h1 className="text-black py-2">Microsoft HoloLens</h1>
+                
             </div>
 
           </div>
@@ -259,7 +257,7 @@ const Pagenation = () => {
                 src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Decentraland.svg"
                 width={450}
                 height={450}
-               
+                alt="Hey B"
                 />
                 
             </div>
@@ -269,7 +267,7 @@ const Pagenation = () => {
                 src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Roblox.svg"
                 width={450}
                 height={450}
-                
+                alt="Hey B"
                 />
                 
             </div>
@@ -279,7 +277,7 @@ const Pagenation = () => {
                 src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Axie+Infinity.svg"
                 width={450}
                 height={450}
-                
+                alt="Hey B"
                 />
                 
             </div>
@@ -289,7 +287,7 @@ const Pagenation = () => {
                 src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Sandbox.svg"
                 width={450}
                 height={450}
-                
+                alt="Hey B"
                 />
                
             </div>
@@ -299,7 +297,7 @@ const Pagenation = () => {
                 src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Horizon+Worlds.svg"
                 width={450}
                 height={450}
-                
+                alt="Hey B"
                 />
                 
             </div>
@@ -309,7 +307,7 @@ const Pagenation = () => {
                 src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Sanskar.svg"
                 width={450}
                 height={450}
-               
+                alt="Hey B"
                 />
                 
             </div>
@@ -320,7 +318,7 @@ const Pagenation = () => {
 
         <TabPanel
           hidden={selectedTab !== "GameEngines"}
-          className="p-6 bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 rounded-lg h-[23vh] w-full"
+          className="p-2 bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 rounded-lg h-[20vh] w-full"
         >
          <div className="grid sm:grid-1 md:mb-12 md:grid-cols-2 lg:grid-cols-2 gap-y-4 gap-x-2">
             <div className=" mx-auto text-center"> 
@@ -330,7 +328,7 @@ const Pagenation = () => {
                 height={450}
                 className="h-[90%] w-[90%]"
 
-                
+                alt="Hey B"
                 />
                 
             </div>
@@ -342,7 +340,7 @@ const Pagenation = () => {
                 height={450}
                 className="h-[90%] w-[90%]"
 
-                
+                alt="Hey B"
                 />
                 
             </div>
@@ -354,16 +352,16 @@ const Pagenation = () => {
 
         <TabPanel
           hidden={selectedTab !== "Languages"}
-          className="p-6 bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 rounded-lg h-[23vh] w-full"
+          className="p-4 bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 rounded-lg h-[20vh] w-full"
         >
-         <div className="grid sm:grid-1 md:mb-12 md:grid-cols-2 lg:grid-cols-4 gap-y-4 gap-x-2">
+         <div className=" grid sm:grid-1 md:mb-12 md:grid-cols-2 lg:grid-cols-4 gap-y-4 gap-x-2">
             <div className=" mx-auto text-center"> 
             <Image 
                 src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/C%23.svg"
                 width={450}
                 height={450}
                 className="h-[90%] w-[90%]"
-
+                alt="Hey B"
                 
                 />
                 
@@ -376,7 +374,7 @@ const Pagenation = () => {
                 height={450}
                 className="h-[90%] w-[90%]"
 
-                
+                alt="Hey B"
                 />
                 
             </div>
@@ -388,7 +386,7 @@ const Pagenation = () => {
                 height={450}
                 className="h-[90%] w-[90%]"
 
-                
+                alt="Hey B"
                 />
                
             </div>
@@ -400,7 +398,7 @@ const Pagenation = () => {
                 height={450}
                 className="h-[90%] w-[90%]"
 
-                
+                alt="Hey B"
                 />
                 
             </div>
@@ -411,7 +409,7 @@ const Pagenation = () => {
 
         <TabPanel
           hidden={selectedTab !== "ArtificalIntelligence(AI)"}
-          className="p-6 bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 rounded-lg h-[23vh] w-full"
+          className="p-4 bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 rounded-lg h-[20vh] w-full"
         >
           <div className="grid sm:grid-1 md:mb-12 md:grid-cols-2 lg:grid-cols-4 gap-y-4 gap-x-2">
             <div className=" mx-auto text-center"> 
@@ -419,7 +417,7 @@ const Pagenation = () => {
                 src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/PCG.svg"
                 width={450}
                 height={450}
-                
+                alt="Hey B"
                 className="h-[90%] w-[90%]"
                 />
                 
@@ -431,7 +429,7 @@ const Pagenation = () => {
                 width={450}
                 height={450}
                 className="h-[90%] w-[90%]"
-
+                alt="Hey B"
                 
                 />
                 
@@ -444,7 +442,7 @@ const Pagenation = () => {
                 height={450}
                 className="h-[90%] w-[90%]"
 
-                
+                alt="Hey B"
                 />
                 
             </div>
@@ -455,7 +453,7 @@ const Pagenation = () => {
                 width={450}
                 height={450}
                 className="h-[90%] w-[90%]"
-
+                alt="Hey B"
                 
                 />
                 
@@ -466,7 +464,7 @@ const Pagenation = () => {
           </div>
         </TabPanel>
 
-      </div> */}
+      </div> 
     </motion.div>
   );
 };

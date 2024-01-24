@@ -84,14 +84,9 @@ const Timelinecomp = () => {
             <div class="container text-white">
                 <ul>
                     <li>
-                        <h3 className="heading">Technologies</h3>
+                        <h3 className="font-bold text-2xl heading heading">Technologies</h3>
                         <p>
-                          {/* <ul>
-                            <li>Cloud Computing</li>
-                            <li>Internet of Things (IoT)</li>
-                            <li>Artificial Intelligence (AI)</li>
-                            <li>Blockchain</li>
-                          </ul> */}
+                    
 
                               Cloud Computing,
                               Internet of Things (IoT),
@@ -101,10 +96,10 @@ const Timelinecomp = () => {
 
                         </p>
                       
-                        <span className="circle bg-gray-800"></span>
+                       
                     </li>
                     <li>
-                        <h3 className="heading">Tools</h3>
+                        <h3 className="font-bold text-2xl heading heading">Tools</h3>
                         <p>Git,
                             Jira,
                             Docker,
@@ -112,10 +107,10 @@ const Timelinecomp = () => {
                             Selenium,
                          </p>
                        
-                        <span className="circle bg-gray-800"></span>
+                       
                     </li>
                     <li>
-                        <h3 className="heading">Platforms</h3>
+                        <h3 className=" font-bold text-2xl headingheading">Platforms</h3>
                         <p>AWS (Amazon Web Services),
                             Microsoft Azure,
                             Google Cloud Platform,
@@ -123,10 +118,10 @@ const Timelinecomp = () => {
                             IBM Cloud,
                             </p>
                      
-                        <span className="circle bg-gray-800"></span>
+                       
                     </li>
                     <li>
-                        <h3 className="heading">Programming Languages</h3>
+                        <h3 className="font-bold text-2xl heading heading">Programming Languages</h3>
                         <p>
                         Java,
                         Python,
@@ -136,10 +131,10 @@ const Timelinecomp = () => {
 
                         </p>
                        
-                        <span className="circle bg-gray-800"></span>
+                        
                     </li>
                     <li>
-                        <h3 className="heading">Frameworks</h3>
+                        <h3 className=" font-bold text-2xl heading heading">Frameworks</h3>
                         <p>
                         Django,
                         Ruby on Rails,
@@ -150,10 +145,10 @@ const Timelinecomp = () => {
 
                         </p>
                        
-                        <span className="circle bg-gray-800"></span>
+                      
                     </li>
                     <li>
-                        <h3 className="heading">Databases</h3>
+                        <h3 className=" font-bold text-2xl heading heading">Databases</h3>
                         <p>
                         MySQL,
                         PostgreSQL,
@@ -163,11 +158,10 @@ const Timelinecomp = () => {
 
 
                         </p>
-                       
-                        <span className="circle bg-gray-800"></span>
+                      
                     </li>
                     <li>
-                        <h3 className="heading">Development Methodologies</h3>
+                        <h3 className="font-bold text-2xl heading heading">Development Methodologies</h3>
                         <p>
                         Agile,
                         Scrum,
@@ -178,10 +172,10 @@ const Timelinecomp = () => {
 
                         </p>
                        
-                        <span className="circle bg-gray-800"></span>
+             
                     </li>
                     <li>
-                        <h3 className="heading">Mobile Development</h3>
+                        <h3 className=" font-bold text-2xl heading heading">Mobile Development</h3>
                         <p>
                         Flutter,
                         React Native,
@@ -192,7 +186,7 @@ const Timelinecomp = () => {
 
                         </p>
                        
-                        <span className="circle bg-gray-800"></span>
+                      
                     </li>
                 </ul>
             </div>
@@ -206,13 +200,24 @@ const Timelinecomp = () => {
 
 
           <div className="h-[50vh] w-full  px-16">
-          <Image 
-                // src={}
-                w={700}
-                h={700}
-                className="h-full w-full rounded-lg  bg-gray-800"
-                />
+            <div
+              style={{
+                width: "100%",
+                height: 0,
+                paddingBottom: "100%",
+                position: "relative",
+              }}
+            >
+              <Image
+                width={700}
+                height={700}
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/wheel-unscreen.gif"
+                className="lg:mr-6 h-[50vh] w-[52rem] lg:h-[70vh] lg:w-[92rem] "
+                alt="Hey B"
+              />
+            </div>
           </div>
+          
         </div>
       </div>
     </motion.div>
