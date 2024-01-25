@@ -12,13 +12,10 @@ import WorkItem from "./WorkItem";
 import PhotoItem from "./PhotoItem";
 import GamedevCard from "./GamedevCard";
 
-import "../../../styles/slide3.css";
-
 
 const images = [0, 1, 2, 3, 4, 5, 6];
 const texts = [
   {
-
     title: "Game Development",
     description:
       "We develop highly functional mobile game solutions with cross-platform compatibility. So whether it is iOS or Android, smartphone or console, you name it and we, as your trusted Mobile game development company, will do it ",
@@ -54,67 +51,6 @@ const texts = [
       "Ready to explore decentralised gaming for untapped business opportunities, we have an offer. Our team develops decentralised and secure Web3 gaming solutions utilising leading technologies like AI, blockchain, smart contracts, NFTs, and much more. ",
     img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg",
   },
-
-          title: "Game Development",
-          description:
-            "We develop highly functional mobile game solutions with cross-platform compatibility. So whether it is iOS or Android, smartphone or console, you name it and we, as your trusted Mobile game development company, will do it ",
-         
-        },
-        {
-          title: "Capitalize on Expertise",
-          description:
-            "Leverage our extensive experience in VR development. Get the best solution for your specific business and industry needs as our VR experts use cutting-edge technology. ",
-         
-        },
-        {
-          title: "Achieve Quality in Time",
-          description:
-            "Count on Hey Buddy’s streamlined VR development process for prompt project completion. Get high-quality VR solutions delivered in your timelines with precision.",
-         
-        },
-        {
-          title: "Take Control",
-          description:
-            "Experience transparent and effective communication with Hey Buddy and command full control. Our dedicated SPOC keeps you informed throughout the development process.",
-         
-        },
-        {
-          title: "Be the Trendsetter",
-          description:
-            "Surpass industry standards with high-quality Virtual Reality software solutions. Our expert team delivers consistently with industry-leading expertise and a streamlined process.",
-          
-        },
-        {
-          title: "Outsmart Competition",
-          description:
-            "Capitalise on the power of innovation with Hey Buddy's creative VR solutions. Set your brand apart with a memorable and engaging user experience and high visual quality.",
-         
-        },
-        {
-          title: "Lead Your Domain",
-          description:
-            "We offer VR development services with an in-depth understanding of your industry. Get bespoke VR experiences aligned perfectly with your unique requirements.",
-         
-        },
-        {
-          title: "Stay Agile",
-          description:
-            "Overcome challenges seamlessly with Hey Buddy's agile methodology. We rapidly adjust strategies to meet evolving project requirements and ensure success.",
-         
-        },
-        {
-          title: "Your Investment Yields",
-          description:
-            "Optimize your returns with Hey Buddy's cost-effective VR development services. We offer competitive pricing structures and zero compromise on quality.",
-         
-        },
-        {
-          title: "Stay Confident",
-          description:
-            "Sail easy with our strong commitment to post-service support and maintenance. We ensure your VR experience remains functional and up-to-date for sustained success.",
-         
-        },
-        
 ];
 
 const Motionslide = () => {
@@ -195,8 +131,7 @@ const Motionslide = () => {
       <div className="py-8 text-white">
         <div className="text-content lg:w-[80%]">
           <h1 className="py-4 text-2xl lg:text-4xl">
-          Benefits of our Custom Virtual Reality Development Services
-
+            Benefits of our Custom Virtual Reality Development Services
           </h1>
           {/* <p className="text-sm lg:text-lg">
             Hey Buddy is your one-stop shop for end-to-end game development
@@ -205,13 +140,7 @@ const Motionslide = () => {
           </p> */}
         </div>
       </div>
-      <div className="h-fit relative">
-        <img
-          src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev3.png"
-          alt="bg_image"
-          className="absolute bottom-0"
-          loading="lazy"
-        />
+      <div className="h-fit relative bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev3.png')] bg-fixed bg-bottom ">
         <section className="work  hidden lg:flex flex-row justify-between">
           <div className="work__left">
             <div className="work__text">
@@ -268,8 +197,13 @@ const Motionslide = () => {
           </div>
         </section>
         <section className="flex flex-col gap-10 lg:hidden">
-          { texts.map((text , index)=>(
-            <GamedevCard  key={index} imageUrl={text.img} description={text.description} title={text.title}/>
+          {texts.map((text, index) => (
+            <GamedevCard
+              key={index}
+              imageUrl={text.img}
+              description={text.description}
+              title={text.title}
+            />
           ))}
         </section>
         {/* <div className="frame relative">
