@@ -15,7 +15,7 @@ import Herosection from "@/components/servicescomp/gamedevelopmentcomp/Section1"
 import Bottomclient from "@/components/servicescomp/gamedevelopmentcomp/Section9";
 import Section7 from "@/components/servicescomp/gamedevelopmentcomp/Section7";
 
-const page = () => {
+const Page = () => {
 
 
   const controls = useAnimation();
@@ -313,4 +313,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

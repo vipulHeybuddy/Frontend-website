@@ -48,17 +48,17 @@ const Navbardesktop = () => {
               />
             </Link>
 
-            <ul className=" flex-1 flex justify-center items-center gap-4 max-lg:hidden">
+            <ul className=" flex-1 flex justify-center  gap-4 max-lg:hidden">
               <li className="flex relative group lg:text-[15px] px-2 sm:text-sm border-transparent hover:border-black">
                 {/* <Link href=""  className=""> */}
                 Services
                 {/* </Link> */}
                 <i className="fa-solid fa-chevron-down fa-2xs pt-3" />
                 {/* Submenu starts */}
-                <ul className=" flex flex-col items-center absolute bg-[#030914] rounded-lg p-3 w-[250px] top-6 transform scale-0 group-hover:scale-100 transition duration-150 ease-in-out origin-top shadow-2xl bg-clip-padding backdrop-filter backdrop-blur-2xl bg-opacity-90 ">
+                <ul className=" flex flex-col items-left absolute bg-[#030914] rounded-lg p-3 w-[250px] top-6 transform scale-0 group-hover:scale-100 transition duration-150 ease-in-out origin-top shadow-2xl bg-clip-padding backdrop-filter backdrop-blur-2xl bg-opacity-90 ">
                   <Link
                     href="/Pages/services/3dmodeling"
-                    className="w-full text-center"
+                    className="w-full "
                   >
                     <li className="text-sm px-4 text-[#a2acbf] hover:bg-[#74787f4c] hover:text-primary-focus hover:rounded-lg  hover:font-bold leading-8">
                       3D Modeling
@@ -66,8 +66,8 @@ const Navbardesktop = () => {
                   </Link>
 
                   <Link
-                    href="/Pages/services/customsoftware"
-                    className="w-full text-center"
+                    href="/Pages/services/ardevelopment"
+                    className="w-full "
                   >
                     <li className="text-sm px-4 text-[#a2acbf] hover:bg-[#74787f4c] hover:text-primary-focus hover:rounded-lg hover:font-bold leading-8">
                       AR Development
@@ -76,7 +76,7 @@ const Navbardesktop = () => {
 
                   <Link
                     href="/Pages/services/customsoftware"
-                    className="w-full text-center"
+                    className="w-full "
                   >
                     <li className="text-sm px-4 text-[#a2acbf] hover:bg-[#74787f4c] hover:text-primary-focus hover:rounded-lg hover:font-bold leading-8">
                       Custom Software
@@ -85,7 +85,7 @@ const Navbardesktop = () => {
 
                   <Link
                     href="/Pages/services/gamedevelopment"
-                    className="w-full text-center"
+                    className="w-full "
                   >
                     <li className="text-sm px-4 text-[#a2acbf] hover:bg-[#74787f4c] hover:text-primary-focus hover:rounded-lg hover:font-bold leading-8">
                       Game Development
@@ -94,7 +94,7 @@ const Navbardesktop = () => {
 
                   <Link
                     href="/Pages/services/vrdevelopment"
-                    className="w-full text-center"
+                    className="w-full"
                   >
                     <li className="text-sm px-4 text-[#a2acbf] hover:bg-[#74787f4c] hover:text-primary-focus hover:rounded-lg hover:font-bold leading-8">
                       VR Development

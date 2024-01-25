@@ -45,12 +45,11 @@ const Pagenation = () => {
   }, []);
 
   const [selectedTab, setSelectedTab] = useTabs([
-    "Platforms",
-    "ARVRPlatforms",
-    "MetaveersePlatforms",
-    "GameEngines",
-    "Languages",
-    "ArtificalIntelligence(AI)",
+    "task1",
+    "task2",
+    "task3",
+    "task4",
+    
   ]);
 
   return (
@@ -63,463 +62,317 @@ const Pagenation = () => {
     className="lg:py-8 text-white">
       <div className="py-6">
         <h1 className="py-4 lg:w-[80%] text-2xl lg:text-4xl">
-          Hey Buddy Tech Arsenal for best Game Solutions: <br /> Expertise on
-          all fronts
+        Hey Buddy Advanced Tech-stack for High-Quality 3D Model Development
         </h1>
-        <p className="text-xl lg:text-2xl">
+        {/* <p className="text-xl lg:text-2xl">
           Hey Buddy claim to the leading spot of a game development company in
           India emanates from its expert team. Our developers bring in advanced
           and profound expertise to deliver the best gaming solution for you.
-        </p>
+        </p> */}
       </div>
 
       <nav className="flex border-b border-gray-300 overflow-auto">
         <TabSelector
-          isActive={selectedTab === "Platforms"}
-          onClick={() => setSelectedTab("Platforms")}
+          isActive={selectedTab === "task1"}
+          onClick={() => setSelectedTab("task1")}
         >
-          Platforms
+          Task 1
         </TabSelector>
         <TabSelector
-          isActive={selectedTab === "ARVRPlatforms"}
-          onClick={() => setSelectedTab("ARVRPlatforms")}
+          isActive={selectedTab === "task2"}
+          onClick={() => setSelectedTab("task2")}
         >
-          AR/VR Platforms
+          Task 2
         </TabSelector>
         <TabSelector
-          isActive={selectedTab === "MetaveersePlatforms"}
-          onClick={() => setSelectedTab("MetaveersePlatforms")}
+          isActive={selectedTab === "task3"}
+          onClick={() => setSelectedTab("task3")}
         >
-          Metaveerse Platformss
+          Task 3
         </TabSelector>
         <TabSelector
-          isActive={selectedTab === "GameEngines"}
-          onClick={() => setSelectedTab("GameEngines")}
+          isActive={selectedTab === "task4"}
+          onClick={() => setSelectedTab("task4")}
         >
-          Game Engines
+          Task 4
         </TabSelector>
-        <TabSelector
-          isActive={selectedTab === "Languages"}
-          onClick={() => setSelectedTab("Languages")}
-        >
-          Languages
-        </TabSelector>
-        <TabSelector
-          isActive={selectedTab === "ArtificalIntelligence(AI)"}
-          onClick={() => setSelectedTab("ArtificalIntelligence(AI)")}
-        >
-          Artifical Intelligence(AI)
-        </TabSelector>
+
+
+
+
       </nav>
 
       <div className="py-6 px-2">
         <TabPanel
-          hidden={selectedTab !== "Platforms"}
-          className="p-6 bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 rounded-lg h-[20vh] w-full"
+          hidden={selectedTab !== "task1"}
+          className="p-4 bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 rounded-lg h-[20vh] w-full"
         >
-          <div className="grid  md:mb-12 grid-cols-6 gap-y-4 gap-x-2  ">
-            <div className="bg-white  w-[22vh] rounded-lg mx-auto text-center"> 
+          <div className="grid  md:mb-12 grid-cols-5 gap-y-4 gap-x-2  ">
+          <div className=" mx-auto text-center"> 
             <Image 
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/p1.png"
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3D+Development+Icons/blender.svg"
                 width={450}
                 height={450}
-                className="h-[24px] w-[24px] bg-white mx-auto mt-4"
+                alt="9"
+               
                 />
-                <h1 className="text-black py-2">Appstore</h1>
+                
             </div>
 
-            <div className="bg-white  w-[22vh] rounded-lg  mx-auto text-center" >
+            <div className=" mx-auto text-center"> 
             <Image 
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/p2.png"
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3D+Development+Icons/Autodesk+Maya.svg"
                 width={450}
                 height={450}
-                className="h-6 w-6 bg-white mx-auto mt-4"
+                alt="9"
+               
                 />
-                <h1 className="text-black py-2">Playstore</h1>
+                
             </div>
 
-            <div className="bg-white  w-[22vh] rounded-lg  mx-auto text-center">
+            <div className=" mx-auto text-center"> 
             <Image 
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/p3.png"
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3D+Development+Icons/3ds+max.svg"
                 width={450}
                 height={450}
-                className="h-6 w-6 bg-white mx-auto mt-4"
+                alt="9"
+               
                 />
-                <h1 className="text-black py-2">PC</h1>
+                
             </div>
 
-            <div className="bg-white  w-[22vh] rounded-lg  mx-auto text-center" >
+            <div className=" mx-auto text-center"> 
             <Image 
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/p4.png"
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3D+Development+Icons/Z+brush.svg"
                 width={450}
                 height={450}
-                className="h-6 w-6 bg-white mx-auto mt-4"
+                alt="9"
+               
                 />
-                <h1 className="text-black py-2">Playstation</h1>
+                
             </div>
 
-            <div className="bg-white  w-[22vh] rounded-lg  mx-auto text-center">
+            <div className=" mx-auto text-center"> 
             <Image 
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/p5.png"
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3D+Development+Icons/Cinema+4D.svg"
                 width={450}
                 height={450}
-                className="h-6 w-6 bg-white mx-auto mt-4"
+                alt="9"
+               
                 />
-                <h1 className="text-black py-2">Xbox</h1>
+                
             </div>
 
-            <div className="bg-white w-[22vh] rounded-lg  mx-auto text-center">
-            <Image 
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/p6.png"
-                width={450}
-                height={450}
-                className="h-6 w-6 bg-white mx-auto mt-4"
-                />
-                <h1 className="text-black py-2">Nintendo</h1>
-            </div>
+         
 
           </div>
         </TabPanel>
 
         <TabPanel
-          hidden={selectedTab !== "ARVRPlatforms"}
-          className="p-6 bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 rounded-lg h-[20vh] w-full"
+          hidden={selectedTab !== "task2"}
+          className="p-4 bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 rounded-lg h-[20vh] w-full"
         >
-          <div className="grid sm:grid-1 md:mb-12 md:grid-cols-2 lg:grid-cols-6 gap-y-4 gap-x-2">
-            <div className="bg-white h-[12vh] w-[22vh] rounded-lg mx-auto text-center"> 
+          <div className="grid sm:grid-1 md:mb-12 md:grid-cols-2 lg:grid-cols-5 gap-y-4 gap-x-2">
+          <div className=" mx-auto text-center"> 
             <Image 
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av1.png"
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3D+Development+Icons/Houdini.svg"
                 width={450}
                 height={450}
-                className="h-[24px] w-[49px] bg-white mx-auto mt-4"
+                alt="9"
+               
                 />
-                <h1 className="text-black py-2">Apple Vision Pro</h1>
+                
             </div>
 
-            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center" >
+            <div className=" mx-auto text-center"> 
             <Image 
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av2.png"
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3D+Development+Icons/Substance+Painter.svg"
                 width={450}
                 height={450}
-                className="h-6 w-[49px] bg-white mx-auto mt-4"
+                alt="9"
+               
                 />
-                <h1 className="text-black py-2">Oculus Rift</h1>
+                
             </div>
 
-            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center">
+            <div className=" mx-auto text-center"> 
             <Image 
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av3.png"
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3D+Development+Icons/Mudbox.svg"
                 width={450}
                 height={450}
-                className="h-6 w-6 bg-white mx-auto mt-4"
+                alt="9"
+               
                 />
-                <h1 className="text-black py-2">HTC Vive</h1>
+                
             </div>
 
-            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center" >
+            <div className=" mx-auto text-center"> 
             <Image 
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av4.png"
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3D+Development+Icons/SketchUp.svg"
                 width={450}
                 height={450}
-                className="h-6 w-[51px] bg-white mx-auto mt-4"
+                alt="9"
+               
                 />
-                <h1 className="text-black py-2">Google Daydream</h1>
+                
             </div>
 
-            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center">
+            <div className=" mx-auto text-center"> 
             <Image 
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av5.png"
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3D+Development+Icons/Rhinoceros+3D.svg"
                 width={450}
                 height={450}
-                className="h-[29px] w-[71px] bg-white mx-auto mt-4"
+                alt="9"
+               
                 />
-                <h1 className="text-black py-2">Meta Quest</h1>
+                
             </div>
-
-            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center">
-            <Image 
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av6.png"
-                width={450}
-                height={450}
-                className="h-6 w-[61px] bg-white mx-auto mt-4"
-                />
-                <h1 className="text-black py-2">Microsoft HoloLens</h1>
-            </div>
+          
 
           </div>
         </TabPanel>
 
         <TabPanel
-          hidden={selectedTab !== "MetaveersePlatforms"}
-          className="p-6 bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 rounded-lg h-[20vh] w-full"
+          hidden={selectedTab !== "task3"}
+          className="p-4 bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 rounded-lg h-[20vh] w-full"
         >
-          <div className="grid sm:grid-1 md:mb-12 md:grid-cols-2 lg:grid-cols-6 gap-y-4 gap-x-2">
-            <div className="bg-white h-[12vh] w-[22vh] rounded-lg mx-auto text-center"> 
+          <div className="grid sm:grid-1 md:mb-12 md:grid-cols-2 lg:grid-cols-5 gap-y-4 gap-x-2">
+            <div className=" mx-auto text-center"> 
             <Image 
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av1.png"
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3D+Development+Icons/Unity3D.svg"
                 width={450}
                 height={450}
-                className="h-[24px] w-[49px] bg-white mx-auto mt-4"
+                alt="9"
+               
                 />
-                <h1 className="text-black py-2">Apple Vision Pro</h1>
+                
             </div>
 
-            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center" >
+            <div className="  mx-auto text-center" >
             <Image 
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av2.png"
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3D+Development+Icons/Unreal+Engine.svg"
                 width={450}
                 height={450}
-                className="h-6 w-[49px] bg-white mx-auto mt-4"
+                alt="9"
+                
                 />
-                <h1 className="text-black py-2">Oculus Rift</h1>
+                
             </div>
 
-            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center">
+            <div className="  mx-auto text-center">
             <Image 
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av3.png"
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3D+Development+Icons/Photoshop.svg"
                 width={450}
                 height={450}
-                className="h-6 w-6 bg-white mx-auto mt-4"
+                alt="9"
+                
                 />
-                <h1 className="text-black py-2">HTC Vive</h1>
+                
             </div>
 
-            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center" >
+            <div className=" mx-auto text-center" >
             <Image 
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av4.png"
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3D+Development+Icons/Marvelous+Designer.svg"
                 width={450}
                 height={450}
-                className="h-6 w-[51px] bg-white mx-auto mt-4"
+                alt="9"
+                
                 />
-                <h1 className="text-black py-2">Google Daydream</h1>
+               
             </div>
 
-            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center">
+            <div className=" mx-auto text-center">
             <Image 
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av5.png"
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3D+Development+Icons/3D+coat.svg"
                 width={450}
                 height={450}
-                className="h-[29px] w-[71px] bg-white mx-auto mt-4"
+                alt="9"
+                
                 />
-                <h1 className="text-black py-2">Meta Quest</h1>
+                
             </div>
 
-            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center">
-            <Image 
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av6.png"
-                width={450}
-                height={450}
-                className="h-6 w-[61px] bg-white mx-auto mt-4"
-                />
-                <h1 className="text-black py-2">Microsoft HoloLens</h1>
-            </div>
+       
 
           </div>
         </TabPanel>
+
 
         <TabPanel
-          hidden={selectedTab !== "GameEngines"}
-          className="p-6 bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 rounded-lg h-[20vh] w-full"
+          hidden={selectedTab !== "task4"}
+          className="p-4 bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 rounded-lg h-[20vh] w-full"
         >
-         <div className="grid sm:grid-1 md:mb-12 md:grid-cols-2 lg:grid-cols-6 gap-y-4 gap-x-2">
-            <div className="bg-white h-[12vh] w-[22vh] rounded-lg mx-auto text-center"> 
+         <div className="grid sm:grid-1 md:mb-12 md:grid-cols-2 lg:grid-cols-5 gap-y-4 gap-x-2">
+            <div className=" mx-auto text-center"> 
             <Image 
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av1.png"
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3D+Development+Icons/Marmoset+Toolbag.svg"
                 width={450}
                 height={450}
-                className="h-[24px] w-[49px] bg-white mx-auto mt-4"
+                // className="h-[90%] w-[90%]"
+                alt="9"
+
+                
                 />
-                <h1 className="text-black py-2">Apple Vision Pro</h1>
+                
             </div>
 
-            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center" >
+            <div className=" mx-auto text-center" >
             <Image 
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av2.png"
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3D+Development+Icons/KeyShot.svg"
                 width={450}
                 height={450}
-                className="h-6 w-[49px] bg-white mx-auto mt-4"
+                // className="h-[90%] w-[90%]"
+                alt="9"
+
+                
                 />
-                <h1 className="text-black py-2">Oculus Rift</h1>
+                
             </div>
 
-            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center">
+            <div className=" mx-auto text-center" >
             <Image 
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av3.png"
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3D+Development+Icons/SolidWorks.svg"
                 width={450}
                 height={450}
-                className="h-6 w-6 bg-white mx-auto mt-4"
+                // className="h-[90%] w-[90%]"
+                alt="9"
+
+                
                 />
-                <h1 className="text-black py-2">HTC Vive</h1>
+                
             </div>
 
-            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center" >
+            <div className=" mx-auto text-center" >
             <Image 
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av4.png"
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3D+Development+Icons/Modo.svg"
                 width={450}
                 height={450}
-                className="h-6 w-[51px] bg-white mx-auto mt-4"
+                // className="h-[90%] w-[90%]"
+                alt="9"
+
+                
                 />
-                <h1 className="text-black py-2">Google Daydream</h1>
+                
             </div>
 
-            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center">
+            <div className=" mx-auto text-center" >
             <Image 
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av5.png"
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3D+Development+Icons/Daz+3D.svg"
                 width={450}
                 height={450}
-                className="h-[29px] w-[71px] bg-white mx-auto mt-4"
+                // className="h-[90%] w-[90%]"
+                alt="9"
+
+                
                 />
-                <h1 className="text-black py-2">Meta Quest</h1>
+                
             </div>
 
-            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center">
-            <Image 
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av6.png"
-                width={450}
-                height={450}
-                className="h-6 w-[61px] bg-white mx-auto mt-4"
-                />
-                <h1 className="text-black py-2">Microsoft HoloLens</h1>
-            </div>
+            
 
           </div>
         </TabPanel>
 
-        <TabPanel
-          hidden={selectedTab !== "Languages"}
-          className="p-6 bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 rounded-lg h-[20vh] w-full"
-        >
-         <div className="grid sm:grid-1 md:mb-12 md:grid-cols-2 lg:grid-cols-6 gap-y-4 gap-x-2">
-            <div className="bg-white h-[12vh] w-[22vh] rounded-lg mx-auto text-center"> 
-            <Image 
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av1.png"
-                width={450}
-                height={450}
-                className="h-[24px] w-[49px] bg-white mx-auto mt-4"
-                />
-                <h1 className="text-black py-2">Apple Vision Pro</h1>
-            </div>
-
-            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center" >
-            <Image 
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av2.png"
-                width={450}
-                height={450}
-                className="h-6 w-[49px] bg-white mx-auto mt-4"
-                />
-                <h1 className="text-black py-2">Oculus Rift</h1>
-            </div>
-
-            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center">
-            <Image 
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av3.png"
-                width={450}
-                height={450}
-                className="h-6 w-6 bg-white mx-auto mt-4"
-                />
-                <h1 className="text-black py-2">HTC Vive</h1>
-            </div>
-
-            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center" >
-            <Image 
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av4.png"
-                width={450}
-                height={450}
-                className="h-6 w-[51px] bg-white mx-auto mt-4"
-                />
-                <h1 className="text-black py-2">Google Daydream</h1>
-            </div>
-
-            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center">
-            <Image 
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av5.png"
-                width={450}
-                height={450}
-                className="h-[29px] w-[71px] bg-white mx-auto mt-4"
-                />
-                <h1 className="text-black py-2">Meta Quest</h1>
-            </div>
-
-            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center">
-            <Image 
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av6.png"
-                width={450}
-                height={450}
-                className="h-6 w-[61px] bg-white mx-auto mt-4"
-                />
-                <h1 className="text-black py-2">Microsoft HoloLens</h1>
-            </div>
-
-          </div>
-        </TabPanel>
-
-        <TabPanel
-          hidden={selectedTab !== "ArtificalIntelligence(AI)"}
-          className="p-6 bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 rounded-lg h-[20vh] w-full"
-        >
-          <div className="grid sm:grid-1 md:mb-12 md:grid-cols-2 lg:grid-cols-6 gap-y-4 gap-x-2">
-            <div className="bg-white h-[12vh] w-[22vh] rounded-lg mx-auto text-center"> 
-            <Image 
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av1.png"
-                width={450}
-                height={450}
-                className="h-[24px] w-[49px] bg-white mx-auto mt-4"
-                />
-                <h1 className="text-black py-2">Apple Vision Pro</h1>
-            </div>
-
-            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center" >
-            <Image 
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av2.png"
-                width={450}
-                height={450}
-                className="h-6 w-[49px] bg-white mx-auto mt-4"
-                />
-                <h1 className="text-black py-2">Oculus Rift</h1>
-            </div>
-
-            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center">
-            <Image 
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av3.png"
-                width={450}
-                height={450}
-                className="h-6 w-6 bg-white mx-auto mt-4"
-                />
-                <h1 className="text-black py-2">HTC Vive</h1>
-            </div>
-
-            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center" >
-            <Image 
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av4.png"
-                width={450}
-                height={450}
-                className="h-6 w-[51px] bg-white mx-auto mt-4"
-                />
-                <h1 className="text-black py-2">Google Daydream</h1>
-            </div>
-
-            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center">
-            <Image 
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av5.png"
-                width={450}
-                height={450}
-                className="h-[29px] w-[71px] bg-white mx-auto mt-4"
-                />
-                <h1 className="text-black py-2">Meta Quest</h1>
-            </div>
-
-            <div className="bg-white h-[12vh] w-[22vh] rounded-lg  mx-auto text-center">
-            <Image 
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/av6.png"
-                width={450}
-                height={450}
-                className="h-6 w-[61px] bg-white mx-auto mt-4"
-                />
-                <h1 className="text-black py-2">Microsoft HoloLens</h1>
-            </div>
-
-          </div>
-        </TabPanel>
 
       </div>
     </motion.div>
