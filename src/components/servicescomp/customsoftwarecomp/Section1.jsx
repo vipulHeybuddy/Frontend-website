@@ -70,7 +70,7 @@ const Herosection = () => {
     width: "100%",
     height: "auto",
     transition: "transform 0.3s ease-out",
-    opacity: "0.3",
+    opacity: "1",
   };
 
   const buttonHeader = {
@@ -109,7 +109,7 @@ const Herosection = () => {
             width={450}
             height={450}
             className="h-[24px] w-[24px] bg-white mx-auto mt-4"
-            src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Gaming+controller.jpg"
+            src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Rectangle+34.png"
             alt="Background"
           />
         </div>
