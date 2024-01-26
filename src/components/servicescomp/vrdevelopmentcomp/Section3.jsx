@@ -3,51 +3,67 @@
 import { useLayoutEffect, useState } from "react";
 // import { render } from "react-dom";
 import classnames from "classnames";
-import "../../../styles/slide.css";
+import "../../../styles/slide3.css";
 
 const images = [0, 1, 2, 3, 4 , 5 , 6];
 const texts = [
-  {
-          title: "Game Development",
+        {
+          title: "Capitalize on Expertise",
           description:
-            "From casual mobile gaming to console adventure, we create all here.",
+            "Leverage our extensive experience in VR development. Get the best solution for your specific business and industry needs as our VR experts use cutting-edge technology.",
+        },
+        {
+          title: "Achieve Quality in Time",
+          description:
+            "Count on Hey Buddy’s streamlined VR development process for prompt project completion. Get high-quality VR solutions delivered in your timelines with precision.",
+           
+        },
+        {
+          title: "Take Control",
+          description:
+            "Experience transparent and effective communication with Hey Buddy and command full control. Our dedicated SPOC keeps you informed throughout the development process.",
          
         },
         {
-          title: "Immersive Development",
+          title: "Be the Trendsetter",
           description:
-            "From casual mobile gaming to console adventure, we create all here.",
+            "Surpass industry standards with high-quality Virtual Reality software solutions. Our expert team delivers consistently with industry-leading expertise and a streamlined process.",
          
         },
         {
-          title: "3D Development",
+          title: "Outsmart Competition",
           description:
-            "From casual mobile gaming to console adventure, we create all here.",
-         
-        },
-        {
-          title: "AI Services",
-          description:
-            "From casual mobile gaming to console adventure, we create all here.",
-         
-        },
-        {
-          title: "APP Development",
-          description:
-            "From casual mobile gaming to console adventure, we create all here.",
+            "Capitalise on the power of innovation with Hey Buddy's creative VR solutions. Set your brand apart with a memorable and engaging user experience and high visual quality.",
           
         },
         {
-          title: "VR Training & Simulation",
+          title: "Lead Your Domain",
           description:
-            "From casual mobile gaming to console adventure, we create all here.",
+            "We offer VR development services with an in-depth understanding of your industry. Get bespoke VR experiences aligned perfectly with your unique requirements.",
          
         },
         {
-          title: "Web3 Development",
+          title: "Stay Agile",
           description:
-            "From casual mobile gaming to console adventure, we create all here.",
+            "Overcome challenges seamlessly with Hey Buddy's agile methodology. We rapidly adjust strategies to meet evolving project requirements and ensure success.",
           
+        },
+        {
+          title: "Your Investment Yields",
+          description:
+            "Optimize your returns with Hey Buddy's cost-effective VR development services. We offer competitive pricing structures and zero compromise on quality.",
+          
+        },
+        {
+          title: "Stay Confident",
+          description:
+            "Sail easy with our strong commitment to post-service support and maintenance. We ensure your VR experience remains functional and up-to-date for sustained success.",
+          
+        },
+        {
+          title: "Capitalize on Expertise",
+          description:
+            "Leverage our extensive experience in VR development. Get the best solution for your specific business and industry needs as our VR experts use cutting-edge technology.",
         },
 ];
 
@@ -93,14 +109,14 @@ const Motionslide = () => {
       <div className="py-8 text-white">
         <div className="text-content lg:w-[80%]">
           <h1 className="py-4 text-2xl lg:text-4xl">
-            Hey Buddy, Game On!! <br />
-            Complete Game Development Services
+          Benefits of our Custom Virtual Reality Development Services
+
           </h1>
-          <p className="text-xl lg:text-2xl">
+          {/* <p className="text-xl lg:text-2xl">
             Hey Buddy is your one-stop shop for end-to-end game development
             services. With AI on our side, we successfully clear levels of your
             game development needs.
-          </p>
+          </p> */}
         </div>
       </div>
       <div className="sticky">

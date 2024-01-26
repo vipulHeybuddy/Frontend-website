@@ -136,13 +136,11 @@ const Timelinecomp = () => {
     >
       <div className="py-8 text-white">
         <h1 className="py-4 lg:w-[80%] text-2xl lg:text-4xl">
-          Our Refined VR Development Process
+        Our Perfected Game Development Process - Level by level
+
         </h1>
         <p className="text-xl lg:text-lg">
-          Our VR development process has evolved with every project in favor of
-          client-centricity, and user experience. We not only realize your
-          vision but ensure your complete satisfaction with transparency,
-          collaboration, and the timely delivery of your VR projects.
+        Over years of experience as a game app development company, we have refined, streamlined and aligned our game development process to serve you better.
         </p>
       </div>
 

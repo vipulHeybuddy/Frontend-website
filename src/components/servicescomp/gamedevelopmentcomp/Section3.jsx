@@ -51,6 +51,12 @@ const texts = [
       "Ready to explore decentralised gaming for untapped business opportunities, we have an offer. Our team develops decentralised and secure Web3 gaming solutions utilising leading technologies like AI, blockchain, smart contracts, NFTs, and much more. ",
     img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg",
   },
+  {
+    title: "AR/VR Game Development",
+    description:
+      "We create immersive AR and VR games that merge with gamers' real world and alter their gaming experience for good. The high-fidelity games blur the line between the real and the gaming world and create a gaming experience that gamers can never get enough of.",
+    img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.png",
+  },
 ];
 
 const Motionslide = () => {
@@ -131,13 +137,13 @@ const Motionslide = () => {
       <div className="py-8 text-white">
         <div className="text-content lg:w-[80%]">
           <h1 className="py-4 text-2xl lg:text-4xl">
-            Benefits of our Custom Virtual Reality Development Services
+          Hey Buddy, Game On!! - Complete Game Development Services 
           </h1>
-          {/* <p className="text-sm lg:text-lg">
+          <p className="text-sm lg:text-lg">
             Hey Buddy is your one-stop shop for end-to-end game development
             services. With AI on our side, we successfully clear levels of your
             game development needs.
-          </p> */}
+          </p>
         </div>
       </div>
       <div className="h-fit relative bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev3.png')] bg-fixed bg-bottom ">

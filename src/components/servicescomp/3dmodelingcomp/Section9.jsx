@@ -95,7 +95,7 @@ const Bottomclient = () => {
     variants={textAnimation1}
     >
         <h1 className="py-4 lg:w-[80%] text-2xl lg:text-4xl">
-              How Clients Rate Our Game Development Services
+              How Clients Rate Our 3D Modeling Services
             </h1>
             <p className="text-xl lg:text-2xl">
               Feature testimonials from satisfied clients who have utilised your

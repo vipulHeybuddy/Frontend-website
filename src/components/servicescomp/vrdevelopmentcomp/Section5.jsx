@@ -77,53 +77,53 @@ const Timelinecomp = () => {
   const text = [
     {
       id: "1",
-      head: "1. Requirement Gathering",
-      para: "The process starts with the pre-production phase. Here, we settle the dust around the basics of the games such as the game narrative, gameplay rules, game level, and basic structure. All this is documented securely in the Game Development Document (GDD).    ",
+      head: "1.  Discovery and Consultation",
+      para: "We start with a complete grasp of your business objectives and your vision. Our team collaborates closely with yours to ensure a collaborative approach from day one. ",
     },
     {
       id: "2",
-      head: "2. Concept Art",
-      para: "Then, based on GDD, the story, the intended theme, and the characters, we work on the concept art of the game. Here, we give shape to the characters, environments, and other in-game objects to set the ball running for 3D visualization and upcoming processes.",
+      head: "2. Ideation and Conceptualization",
+      para: "We ideat and brainstorm to choose the best solution for your brand and objectives. Here, we ensure that our proposed solutions perfectly align with your vision.",
     },
     {
       id: "3",
-      head: "3. Assets Creation",
-      para: "Once the concept art takes the final shape that you approve of, we start with the 3D & 2D modeling of the game assets. Using the latest software applications, we give your game the look and feel that attracts gamers in huge numbers     ",
+      head: "3. Technical Feasibility Assessment",
+      para: "That’s not it, on the chosen idea, our VR technical experts conduct a thorough feasibility assessment. They evaluate compatibility and viability from different aspects.",
     },
     {
       id: "4",
-      head: "4. Animation",
-      para: "Now comes the most important yet challenging part. We animated your game assets with different techniques as per requirement such as human body animation for game characters and inorganic animation for game objects to make it not just convincing, but captivating.",
+      head: "4.  Development and Coding",
+      para: "The approved idea is taken over by our expert VR developers. Who leverage every state-of-the-art VR technology so that the outcome matches your vision.",
     },
     {
       id: "5",
-      head: "5. Game Level Designing",
-      para: "Now that the characters and assets are ready, it's time to put them on the battlefield. Hence, we design game levels, player abilities, obstacles, and all other elements required for a perfect game. Our main focus - is a great gaming experience by all means.     ",
+      head: "5.  Iterative Prototyping",
+      para: "Our development team comes up with iterative prototypes and solicits your feedback on the same. Based on that, we modify the VR experience to exceed your expectations.",
     },
     {
       id: "6",
-      head: "6. Building Mechanics ",
-      para: "Now, onto some serious tasks, we program the game mechanics that govern how players progress, interact, and experience the game. We ensure intuitive, balanced, and adaptive game mechanics for a meaningful gaming experience.",
+      head: "6. Comprehensive Testing ",
+      para: "Our rigorous testing protocol ensures that your VR experience possesses the functionality and features that captivate and engage your audience.",
     },
     {
       id: "7",
-      head: "7. AI Infusion",
-      para: "Yet another critical factor is the AI integration into the game. This infuses intelligent behaviors into the non-player characters (NPCs), the game environment, and the game assets for hyper-realistic in-game interaction and dynamics.",
+      head: "7. Client Approval and Deployment",
+      para: "We send the outcome for your approval and make it deployment-ready. Here, our streamlined process ensures that we adhere to the stipulated timeline.",
     },
     {
       id: "8",
-      head: "8. Graphic Optimization",
-      para: "We understand that visuals are the first thing that gamers notice and it is the key to attracting an audience. Hence, we optimize the graphics to maintain consistency and the highest visual experience through the devices and platform. ",
+      head: "8. Analytics and Performance Monitoring",
+      para: "Deployment is not enough, tracking is crucial. That’s why we integrate analytics tools. With this, we monitor the performance of your VR experience for data-driven insights.",
     },
     {
       id: "9",
-      head: "9. Rigorous Testing",
-      para: "We rigorously test your game on every aspect of the process to identify bugs and issues in the game actively. We make your game market-ready and ensure that you gamers get a smooth and enjoyable gaming experience without hiccups.",
+      head: "9.  Post-launch support and Optimization",
+      para: "On the same line, we keep on offering you post-launch support, updates, and optimization services for the assured success of your VR experiences.",
     },
     {
       id: "10",
-      head: "10. Launch",
-      para: "This whole process results in a game in which you aspire for your endeavor. Now, we help launch the game on the targeted platform(s). Post that we stay on our toes to troubleshoot issues post-launch, nipping them in the bud.",
+      head: "10. Client Collaboration and Feedback Loop",
+      para: "Lastly, we collaborate with you to draw your valuable feedback and sustain an open line of communication for long-term partnerships.",
     },
   ];
 
