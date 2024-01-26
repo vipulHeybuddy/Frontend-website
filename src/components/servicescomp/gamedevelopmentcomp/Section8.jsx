@@ -163,6 +163,8 @@ const Pagenation = () => {
                 width={450}
                 height={450}
                 alt="Hey B"
+                style={{backgroundColor: 'white',
+                  borderRadius: '18px'}}
                 />
                 
             </div>
