@@ -101,7 +101,7 @@ const Timelinecomp = () => {
                 <div class="container text-white">
                   <ul>
                     <li>
-                      <h3 className="font-bold text-2xl heading heading">AR/VR Experiences</h3>
+                      <h3 className="font-bold text-2xl  ">AR/VR Experiences</h3>
                       <p>
                         Our expert 3D modellers enrich the visual appeal of your
                         AR/VR projects, creating deeply immersive environments
@@ -110,7 +110,7 @@ const Timelinecomp = () => {
 
                     </li>
                     <li>
-                      <h3 className="font-bold text-2xl heading">Animation</h3>
+                      <h3 className="font-bold text-2xl ">Animation</h3>
                       <p>
                         Whether for promotional videos, educational content, or
                         entertainment, our skilled 3D artists craft visually
@@ -121,7 +121,7 @@ const Timelinecomp = () => {
                
                     </li>
                     <li>
-                      <h3 className="font-bold text-2xl heading">
+                      <h3 className="font-bold text-2xl ">
                         Computer-generated imagery (CGI)
                       </h3>
                       <p>
@@ -133,7 +133,7 @@ const Timelinecomp = () => {
 
                     </li>
                     <li>
-                      <h3 className="font-bold text-2xl heading">Product Visualisation</h3>
+                      <h3 className="font-bold text-2xl ">Product Visualisation</h3>
                       <p>
                         Our 3D development team delivers lifelike visualisations
                         for you to showcase products with ultra-realistic
@@ -144,7 +144,7 @@ const Timelinecomp = () => {
                     </li>
 
                     <li>
-                      <h3 className="font-bold text-2xl heading">Product Animation</h3>
+                      <h3 className="font-bold text-2xl ">Product Animation</h3>
                       <p>
                         Our team synergizes with yours to produce compelling
                         product animations and dynamic product demonstrations
@@ -155,7 +155,7 @@ const Timelinecomp = () => {
                     </li>
 
                     <li>
-                      <h3 className="font-bold text-2xl heading">Gaming</h3>
+                      <h3 className="font-bold text-2xl ">Gaming</h3>
                       <p>
                         Our game-crazy 3D modellers develop characters,
                         environments, assets and other customised 3D models for
@@ -182,7 +182,7 @@ const Timelinecomp = () => {
                 width={700}
                 height={700}
                 src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/wheel-unscreen.gif"
-                className="lg:mr-6 h-[50vh] w-[52rem] lg:h-[70vh] lg:w-[92rem] "
+                className="lg:mr-6 h-[50vh] w-[62rem] lg:h-[70vh] lg:w-[102rem] "
                 alt="Hey B"
               />
             </div>
