@@ -30,14 +30,14 @@ const Navbardesktop = () => {
       <nav className="relative  px-2 py-0">
         <div
           className={classNames(
-            "fixed   lg:px-24 justify-center mx-auto items-center max-container w-full transition-all duration-800 py-4 z-50 ",
+            "fixed justify-center mx-auto items-center max-container w-full border-white transition-all duration-800 py-4 z-50 ",
             {
               "   bg-clip-padding backdrop-filter backdrop-blur-2xl bg-opacity-70 z-50":
                 backgroundwhite,
             }
           )}
         >
-          <div className="py-2 lg:px-24">
+          <div className=" w-[80%] m-auto">
             <Link href="/">
               <Image
                 width={300}
@@ -48,19 +48,16 @@ const Navbardesktop = () => {
               />
             </Link>
 
-            <ul className=" flex-1 flex justify-center  gap-4 max-lg:hidden">
-              <li className="flex relative group lg:text-[15px] px-2 sm:text-sm border-transparent hover:border-black">
+            <ul className=" flex-1 flex justify-end items-center text-white  gap-4 max-lg:hidden ">
+              <li className="flex relative  group lg:text-[16px] px-2 sm:text-sm border-transparent hover:border-black">
                 {/* <Link href=""  className=""> */}
                 Services
                 {/* </Link> */}
                 <i className="fa-solid fa-chevron-down fa-2xs pt-3" />
                 {/* Submenu starts */}
                 <ul className=" flex flex-col items-left absolute bg-[#030914] rounded-lg p-3 w-[250px] top-6 transform scale-0 group-hover:scale-100 transition duration-150 ease-in-out origin-top shadow-2xl bg-clip-padding backdrop-filter backdrop-blur-2xl bg-opacity-90 ">
-                  <Link
-                    href="/Pages/services/3dmodeling"
-                    className="w-full "
-                  >
-                    <li className="text-sm px-4 text-[#a2acbf] hover:bg-[#74787f4c] hover:text-primary-focus hover:rounded-lg  hover:font-bold leading-8">
+                  <Link href="/Pages/services/3dmodeling" className="w-full ">
+                    <li className="text-sm px-4 text-[white] hover:bg-[#1a1ae669] hover:text-[white]-focus hover:rounded-lg  hover:font-bold leading-8">
                       3D Modeling
                     </li>
                   </Link>
@@ -69,7 +66,7 @@ const Navbardesktop = () => {
                     href="/Pages/services/ardevelopment"
                     className="w-full "
                   >
-                    <li className="text-sm px-4 text-[#a2acbf] hover:bg-[#74787f4c] hover:text-primary-focus hover:rounded-lg hover:font-bold leading-8">
+                    <li className="text-sm px-4 text-[white] hover:bg-[#1a1ae669] hover:text-[white]-focus hover:rounded-lg hover:font-bold leading-8">
                       AR Development
                     </li>
                   </Link>
@@ -78,7 +75,7 @@ const Navbardesktop = () => {
                     href="/Pages/services/customsoftware"
                     className="w-full "
                   >
-                    <li className="text-sm px-4 text-[#a2acbf] hover:bg-[#74787f4c] hover:text-primary-focus hover:rounded-lg hover:font-bold leading-8">
+                    <li className="text-sm px-4 text-[white] hover:bg-[#1a1ae669] hover:text-[white]-focus hover:rounded-lg hover:font-bold leading-8">
                       Custom Software
                     </li>
                   </Link>
@@ -87,16 +84,13 @@ const Navbardesktop = () => {
                     href="/Pages/services/gamedevelopment"
                     className="w-full "
                   >
-                    <li className="text-sm px-4 text-[#a2acbf] hover:bg-[#74787f4c] hover:text-primary-focus hover:rounded-lg hover:font-bold leading-8">
+                    <li className="text-sm px-4 text-[white] hover:bg-[#1a1ae669] hover:text-[white]-focus hover:rounded-lg hover:font-bold leading-8">
                       Game Development
                     </li>
                   </Link>
 
-                  <Link
-                    href="/Pages/services/vrdevelopment"
-                    className="w-full"
-                  >
-                    <li className="text-sm px-4 text-[#a2acbf] hover:bg-[#74787f4c] hover:text-primary-focus hover:rounded-lg hover:font-bold leading-8">
+                  <Link href="/Pages/services/vrdevelopment" className="w-full">
+                    <li className="text-sm px-4 text-[white] hover:bg-[#1a1ae669] hover:text-[white]-focus hover:rounded-lg hover:font-bold leading-8">
                       VR Development
                     </li>
                   </Link>
