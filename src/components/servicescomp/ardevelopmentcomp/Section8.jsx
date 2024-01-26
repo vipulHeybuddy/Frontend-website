@@ -60,18 +60,18 @@ const Pagenation = () => {
     variants={textAnimation1}
     
     className="lg:py-8 text-white">
-      <div className="py-6">
+      {/* <div className="py-6">
         <h1 className="py-4 lg:w-[80%] text-2xl lg:text-4xl">
         Hey Buddy Advanced Tech-stack for High-Quality 3D Model Development
         </h1>
-        {/* <p className="text-xl lg:text-2xl">
+        <p className="text-xl lg:text-2xl">
           Hey Buddy claim to the leading spot of a game development company in
           India emanates from its expert team. Our developers bring in advanced
           and profound expertise to deliver the best gaming solution for you.
-        </p> */}
-      </div>
+        </p>
+      </div> */}
 
-      <nav className="flex border-b border-gray-300 overflow-auto">
+      {/* <nav className="flex border-b border-gray-300 overflow-auto">
         <TabSelector
           isActive={selectedTab === "task1"}
           onClick={() => setSelectedTab("task1")}
@@ -100,9 +100,9 @@ const Pagenation = () => {
 
 
 
-      </nav>
+      </nav> */}
 
-      <div className="py-6 px-2">
+      {/* <div className="py-6 px-2">
         <TabPanel
           hidden={selectedTab !== "task1"}
           className="p-4 bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 rounded-lg h-[20vh] w-full"
@@ -374,7 +374,7 @@ const Pagenation = () => {
         </TabPanel>
 
 
-      </div>
+      </div> */}
     </motion.div>
   );
 };

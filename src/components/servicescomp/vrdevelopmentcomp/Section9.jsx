@@ -45,45 +45,45 @@ const Bottomclient = () => {
         {
           id: 1,
           content:
-            "Here is my opinion based on my experience, I have really enjoyed working with the game development team. The team is amicable, creative and understanding.",
-          position: "Head of VP at Disney Hotstar",
-          name: "Zan Syed",
+            "Hey Buddy wonderfully turned our vision into reality! Their expertise in delivering immersive experiences is unbelievable and they surpassed our expectations. The attention to detail, clear communication, and commitment to quality truly set them apart as the top VR development agency. We're content with the results and look forward to future collaborations with them.",
+          // position: "Head of VP at Disney Hotstar",
+          name: "Owen Foster",
         },
         {
           id: 2,
-          name: "Sarah",
+          name: "Riley Jordan",
           content:
-            "Thank you very much! An amazing job done by buddies what I like to call the team that exceeds all expectations. I am glad that I trusted you guys with the work.",
-          position: "Head of VP at Disney Hotstar",
+            "Working with Hey Buddy was a great experience. They delivered high-quality VR solutions, with a strong commitment to timely delivery. They maintained a clear line of communication and kept us aware and informed at every stage of the development. This helped us infuse necessary changes to align the development process with our project goals. ",
+          // position: "Head of VP at Disney Hotstar",
         },
         {
           id: 3,
-          name: "Ankit",
+          name: "Alex Taylor",
           content:
-            "I loved working with Hey Buddy and the way my VR project was handled, I consider this company as one of the best metaverse and game company in India.",
-          position: "Head of VP at Disney Hotstar",
+            "Choosing Hey Buddy for our VR project was the right decision. Their collaborative approach made the entire development journey transparent and easy. We felt involved and valued, and the end result reflected a true partnership. Highly recommend their VR expertise.",
+          // position: "Head of VP at Disney Hotstar",
         },
-        {
-          id: 4,
-          name: "Riyahi",
-          content:
-            "OMG where to start, I have no idea! people are amazing here, very focused and client-oriented. Kudos to the team for delivering the game project on time.",
-          position: "Head of VP at Disney Hotstar",
-        },
-        {
-          id: 5,
-          name: "Jeremy",
-          content:
-            "Best game development company in India, though I am from the United States but never felt that I had hired this company, it was like this is my in-house team.",
-          position: "Head of VP at Disney Hotstar",
-        },
-        {
-          id: 6,
-          name: "Bhaskar",
-          content:
-            "If anyone has a futuristic idea in mind and not finding the way to turn the idea into reality, I would recommend to reach out to Hey buddy, they are the best technology partner.",
-          position: "Head of VP at Disney Hotstar",
-        },
+        // {
+        //   id: 4,
+        //   name: "Riyahi",
+        //   content:
+        //     "OMG where to start, I have no idea! people are amazing here, very focused and client-oriented. Kudos to the team for delivering the game project on time.",
+        //   position: "Head of VP at Disney Hotstar",
+        // },
+        // {
+        //   id: 5,
+        //   name: "Jeremy",
+        //   content:
+        //     "Best game development company in India, though I am from the United States but never felt that I had hired this company, it was like this is my in-house team.",
+        //   position: "Head of VP at Disney Hotstar",
+        // },
+        // {
+        //   id: 6,
+        //   name: "Bhaskar",
+        //   content:
+        //     "If anyone has a futuristic idea in mind and not finding the way to turn the idea into reality, I would recommend to reach out to Hey buddy, they are the best technology partner.",
+        //   position: "Head of VP at Disney Hotstar",
+        // },
       ];
 
 
@@ -95,13 +95,13 @@ const Bottomclient = () => {
     variants={textAnimation1}
     >
         <h1 className="py-4 lg:w-[80%] text-2xl lg:text-4xl">
-              How Clients Rate Our Game Development Services
+        What Clients Say about our Virtual Reality Development Software Services
             </h1>
-            <p className="text-xl lg:text-2xl">
+            {/* <p className="text-xl lg:text-2xl">
               Feature testimonials from satisfied clients who have utilised your
               game development services. Include their feedback on your
               professionalism, creativity, and the quality of your work.
-            </p>
+            </p> */}
             <div class=" lg:py-12  grid mx-auto text-center justify-center rounded-xl shadow-sm sm:grid-1 md:mb-12 md:grid-cols-2 lg:grid-cols-3 gap-y-4 gap-x-4">
               {clientcardData.map((section, index) => (
                 <figure class="flex flex-col  p-2 lg:p-6 border-2  border-gray-500 rounded-lg  h-full w-full bg-gray-900  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20 hover:bg-yellow-600 hover:bg-opacity-30">

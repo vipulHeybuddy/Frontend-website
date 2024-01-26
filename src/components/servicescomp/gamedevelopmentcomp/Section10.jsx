@@ -97,12 +97,11 @@ const Faqsection = () => {
               style={{ border: "0" }}
               onClick={() => handleOpen(1)}
             >
-              What expertise does Hey Buddy offer in VR development for Oculus?
+              Is Hey Buddy a game development company in India?
 
             </AccordionHeader>
             <AccordionBody>
-            Hey Buddy specializes in Oculus VR development. We develop immersive experiences tailored for Oculus devices.
-We maximize the potential of virtual reality on Oculus platforms, creating applications that redefine user interactions and elevate immersive experiences.
+            Yes, Hey Buddy is a leading game development company based in India. They are known for offering innovative gaming solutions and top AI-integration services. cutting-edge game development expertise.
 
             </AccordionBody>
           </Accordion>
@@ -116,10 +115,12 @@ We maximize the potential of virtual reality on Oculus platforms, creating appli
               style={{ border: "0" }}
               onClick={() => handleOpen(2)}
             >
-              Does Hey Buddy provide VR development services for iOS and Android?
+              Does Hey Buddy specialize in metaverse game development?
+
             </AccordionHeader>
             <AccordionBody>
-            Yes, we offer complete VR development services for both iOS and Android platforms, for maximum reach and ensuring seamless and captivating experiences across mobile devices.
+            Absolutely! Hey Buddy is counted as a leading metaverse game development company. They craft immersive digital experiences that take users into a completely different reality,
+
             </AccordionBody>
           </Accordion>
 
@@ -132,11 +133,11 @@ We maximize the potential of virtual reality on Oculus platforms, creating appli
               style={{ border: "0" }}
               onClick={() => handleOpen(3)}
             >
-               Can Hey Buddy assist in VR development for Metaverse?
+              Is Hey Buddy a mobile game development company?
 
             </AccordionHeader>
             <AccordionBody>
-            Hey Buddy excels in Metaverse VR development for all prominent platforms including Roblox, Decentralance, Sansaar, and more. We align our solution with the right creative and social aspects to meet the standard at Metaverse. 
+            Yes, Hey Buddy also offers mobile game development services. They develop games for all platforms from iOS to Android.
             </AccordionBody>
           </Accordion>
         </div>
@@ -151,10 +152,12 @@ We maximize the potential of virtual reality on Oculus platforms, creating appli
               style={{ border: "0" }}
               onClick={() => handleOpen(4)}
             >
-              Is there a VR development group at Hey Buddy for collaborative projects?
+               Is Hey Buddy a Unity game development company?
+
             </AccordionHeader>
             <AccordionBody>
-            Yes, Hey Buddy has a dedicated VR development group to foster collaboration and enable expertise-sharing for innovative and impactful VR projects.
+            Indeed! Hey Buddy leverages the power of Unity to deliver exceptional gaming products, They use Unity to ensure seamless and high-quality gaming experiences.
+
             </AccordionBody>
           </Accordion>
 
@@ -167,11 +170,11 @@ We maximize the potential of virtual reality on Oculus platforms, creating appli
               style={{ border: "0" }}
               onClick={() => handleOpen(5)}
             >
-               How does Hey Buddy approach VR development in Unity?
+                Can Hey Buddy be considered a game app development company?
 
             </AccordionHeader>
             <AccordionBody>
-            Unity is a cornerstone in Hey Buddy's VR development. We utilize its robust framework for creating immersive experiences across various platforms. Moreover, Hey Buddy’s proficient team in Unity for VR development, delivers tailored solutions that harness the power of Unity's versatile development environment.
+            Of course! Hey Buddy is your go-to game app development company. We bring your app ideas to life with our years of game development experience.
             </AccordionBody>
           </Accordion>
 
@@ -185,12 +188,13 @@ We maximize the potential of virtual reality on Oculus platforms, creating appli
               onClick={() => handleOpen(6)}
             >
               
-              Does Hey Buddy support VR development in Unreal Engine 5?
+              Is Hey Buddy a Unreal game development company?
+
 
 
             </AccordionHeader>
             <AccordionBody>
-            Yes, We offer our adept VR development service using the powerful Unreal Engine 5. Its advanced features help us achieve high-fidelity and feature-packed virtual experiences.
+            Indeed! Hey Buddy leverages the power of Unreal Engine to deliver exceptional gaming products, They use Unreal Engine to ensure seamless and high-quality gaming experiences.
 
 
             </AccordionBody>
