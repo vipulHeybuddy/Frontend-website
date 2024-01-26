@@ -9,7 +9,7 @@ const Nav = () => {
 
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth <= 768); // Adjust the breakpoint as needed
+      setIsMobile(window.innerWidth <= 1024); // Adjust the breakpoint as needed
     };
 
     // Initial check on mount
