@@ -119,13 +119,6 @@ body {
 }
 
 
-
-.title .stroke {
-  display: block;
-  color: transparent;
-  -webkit-text-stroke: 1px var(--pr-color);
-}
-
 .work__right {
   width: 46%;
   height: auto;
