@@ -3,7 +3,7 @@
 import { useLayoutEffect, useState } from "react";
 // import { render } from "react-dom";
 import classnames from "classnames";
-import "../../../styles/slide.css";
+import "../../../../styles/slide.css";
 
 const images = [0, 1, 2, 3, 4 , 5 , 6];
 const texts = [

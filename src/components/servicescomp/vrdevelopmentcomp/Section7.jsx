@@ -1,11 +1,33 @@
 "use client";
 
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useState , useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { motion, useAnimation } from "framer-motion";
 
+
+
+
+
+
+
+
+
+   
+
+    
+
 const Section7 = () => {
+
+
+
+
+  
+
+  
+
+
+
 
     const controls = useAnimation();
   const ref = useRef();
@@ -46,76 +68,83 @@ const Section7 = () => {
     const List = [
         {
           id: "1",
-          heading: "Interactive Mobile Game to Promote eCommerce Deals and Offers",
+          heading: "Innovative Virtual Real Estate Tours with Complete Customisation",
           // imgurl: "",
-          para: "Hey Buddy developed an interactive mobile game for a leading eCommerce brand with in-game challenges related to the brand's offerings. The game featured exclusive discounts and rewards for top players, encouraging users to explore the brand's products while having fun.The mobile game phenomenally exceeded mobile game expectations. It doubled user engagement and led to an increase of 20% increase sales. Players enjoyed the interactive experience, and the brand reinforced its connection with its audience making it more profound.",
+          para: "Hey Buddy developed a cutting-edge virtual real estate tour application that exceeded client expectations. The immersive VR experience helped our client offer high-quality, completely customizable property tours. This not only enhanced their ability to market and sell properties remotely but also enhanced their name in the Real Estate market.",
         },
         {
           id: "2",
-          heading: "Collaboration to Realize Metaverse Vision",
+          heading: "Sophisticated VR Employee Training Solution in Manufacturing",
           // imgurl: "",
-          para: "Hey Buddy extended its expertise as a metaverse game development company to realise the vision of a tech startup. We designed and developed a cutting-edge metaverse game that seamlessly integrated virtual and augmented reality experiences for a unique and completely immersive digital environment.The game received phenomenal reviews for its innovation and attracted an audience from a wide game - tech enthusiasts and mainstream media. As a result, the startup gained industry recognition and attracted potential partnerships and investors. We look forward to more such collaboration.",
+          para: "Staying true to its reputation, Hey Buddy successfully developed a VR training program for a manufacturing client. Our expert VR development team delivered high-quality immersive training solutions while ensuring timely delivery. The result helped the client in multiple ways including efficient onboarding, better employee engagement and learning outcomes, and high productivity.",
         },
         {
           id: "3",
-          heading: "Ai-Integration To Revitalize A Flagship Gaming Title",
+          heading: "Virtual Reality in Healthcare: Medical Training ",
           // imgurl: "",
-          para: "Hey Buddy's unmatched AI expertise helped an established gaming company revitalize its flagship gaming title. We integrated sophisticated AI algorithms into the game, to introduce PCG, adaptive gameplay, and AI-enable intelligent opponents that blew away their audience. The outcome, a 30% increase in active players and a 25% boost to in-game purchases. Players applauded the dynamic experience and our client solidified the game's position as a leading title in the competitive gaming market.",
+          para: "We developed an intricate training solution for a medical institution. It offered a digital environment with a realistic and interactive training experience. Additionally, we supplied them with post-launch support and maintenance services for seamless ongoing functionality. As always, we met the client's expectations by demonstrating our in-depth understanding of the medical industry, for a reliable, industry-specific VR training solution.",
         },
       ];
     
-      // const Text = [
-      //   {
-      //     heading:
-      //       "Digital Joysticks, Real Rewards: Success Stories with Hey Buddy",
-      //     subtext:
-      //       "Hey Buddy offers its services to clients working in different industries and different scales. Here are the success stories that make us the best gaming development company in India. ",
-      //   },
-      // ];
+      const Text = [
+        {
+          heading:
+            "Success Stories with Hey Buddy Custom Virtual Reality Development",
+          subtext:
+            "Hey Buddy is renowned for consistently delivering superior-quality VR solutions well within the stipulated time. Here are some of the many success stories where our custom VR development services worked wonders for the clients.",
+        },
+      ];
   return (
-    <></>
-//     <div>
+    <>
+    
+    <div>
 
-// <motion.div 
-//     ref={ref}
-//     initial="hidden"
-//     animate={controls}
-//     variants={textAnimation1}
-//     className="lg:py-4 text-white">
+<motion.div 
+    ref={ref}
+    initial="hidden"
+    animate={controls}
+    variants={textAnimation1}
+    className="lg:py-4 text-white">
 
-//         <div >
-//         {Text.map((section, index) => (
-//           <div className="py-12" key={index}>
-//             <h1 className="py-4 lg:w-[80%] text-2xl lg:text-4xl">{section.heading}</h1>
-//             <p className="text-xl lg:text-2xl">{section.subtext}</p>
-//           </div>
-//         ))}
-//         </div>
-//       <div  class="p-2 lg:py-4  grid mx-auto  justify-center rounded-xl shadow-sm sm:grid-1 md:mb-12 md:grid-cols-2 lg:grid-cols-3 gap-y-4 gap-x-4">
-//         {List.map((section, index) => (
-//           <figure class="flex flex-col  p-2 lg:p-6  rounded-lg  h-full w-full bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20 hover:bg-yellow-600 hover:bg-opacity-40">
-//             <blockquote class="  text-gray-400">
+        <div >
+        {Text.map((section, index) => (
+          <div className="py-12" key={index}>
+            <h1 className="py-4 lg:w-[80%] text-2xl lg:text-4xl">{section.heading}</h1>
+            <p className="text-xl lg:text-2xl">{section.subtext}</p>
+          </div>
+        ))}
+        </div>
+      <div  class="p-2 lg:py-4  grid mx-auto  justify-center rounded-xl shadow-sm sm:grid-1 md:mb-12 md:grid-cols-2 lg:grid-cols-3 gap-y-4 gap-x-4">
+        {List.map((section, index) => (
+          <figure class="flex flex-col  p-2 lg:p-6  rounded-lg  h-full w-full bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20 hover:bg-yellow-600 hover:bg-opacity-40">
+            <blockquote class="  text-gray-400">
 
               
 
 
-//               <h3
-//                 style={{ color: "white" }}
-//                 class="py-4 text-xl font-semibold  text-gray-500 "
-//               >
-//                 {section.heading}
-//               </h3>
+              <h3
+                style={{ color: "white" }}
+                class="py-4 text-xl font-semibold  text-gray-500 "
+              >
+                {section.heading}
+              </h3>
 
-//               <p style={{ color: "white" }} className="text-left">
-//                 {section.para}
-//               </p>
-//             </blockquote>
-//           </figure>
-//         ))}
-//       </div>
-//     </motion.div>
+              <p style={{ color: "white" }} className="text-left">
+                {section.para}
+              </p>
+            </blockquote>
+          </figure>
+        ))}
+      </div>
+    </motion.div>
 
-//     </div>
+   {/* section1 copy */}
+
+   
+
+    </div>
+   
+  </>
   )
 }
 

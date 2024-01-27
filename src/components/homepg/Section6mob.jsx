@@ -15,7 +15,7 @@ const Pagenationmob = () => {
       heading: "Virtual Property Tour",
       para: "Our client in the Real Estate industry needed an innovative solution to showcase their properties to their prospective buyers. We created an immersive 360° Metaverse for our clients to showcase their properties and impress buyers.           ",
       techused: "3D Max; C#; Unreal Engine 5",
-      urllink: "/Pages/sliderpages",
+      urllink: "/Pages/casestudies/realstate",
     },
     {
       id: "2",
@@ -25,7 +25,7 @@ const Pagenationmob = () => {
       heading: "Safe VR Training Solution",
       para: "Our client wanted to train their employees on complex machine operations but in a safer and controlled environment to prevent any mishaps. We helped them with a VR training solution to deliver exactly that. As a result, they achieved better training outcomes in a safer environment saving a lot of time and resources.",
       techused: "Autodesk 3D; C++; Unity 2023.1.5",
-      urllink: "/Pages/sliderpages",
+      urllink: "/Pages/casestudies/automotive",
     },
     {
       id: "3",
@@ -35,7 +35,7 @@ const Pagenationmob = () => {
       heading: "Youth attracting AR Games",
       para: "Our client approached us after learning about our expertise in Game development. They wanted to reach out to Millennials and Gen Z through an attractive AR gaming experience that established a relationship with their brand. Staying true to our name, we created phenomenal AR games with the new world.",
       techused: "3D MAX; C#; Unreal Engine 5",
-      urllink: "/Pages/casestudies/gamedev",
+      urllink: "/Pages/casestudies/gaming",
     },
     {
       id: "4",
@@ -45,7 +45,7 @@ const Pagenationmob = () => {
       heading: "AR Fashion Solution",
       para: "Our client wanted to enhance the convenience of their existing eCommerce store. They collaborated with us for our renowned AR tryon solution. This allowed users to try 3D models of the wearable without leaving home, be more certain and confident about the product and make faster decisions. More importantly, it reduced returns.",
       techused: "3D MAX; C#; Unity, Three.Js",
-      urllink: "/Pages/sliderpages",
+      urllink: "/Pages/casestudies/fashionlifestyle",
     },
   ];
 
@@ -115,6 +115,7 @@ const Pagenationmob = () => {
                 src={card.imageurl}
                 width={500}
                 height={500}
+                alt="hey b"
                 className="rounded-3xl w-[100%] h-[30vh] "
               />
             </div>

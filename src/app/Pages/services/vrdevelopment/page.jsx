@@ -1,6 +1,7 @@
 "use client";
 import '../../../../styles/Font.css'
 import React, { useEffect, useState , useRef } from "react";
+import { Button } from "@material-tailwind/react";
 import Link from "next/link";
 import Image from "next/image";
 import Gridsection from "@/components/Gridsection";
@@ -16,6 +17,36 @@ import Bottomclient from "@/components/servicescomp/vrdevelopmentcomp/Section9";
 import Section7 from "@/components/servicescomp/vrdevelopmentcomp/Section7";
 
 const Page = () => {
+
+
+  
+  const [isHovered, setIsHovered] = useState(false);
+
+  
+
+
+  const textContainerStyle = {
+    marginBottom: "30%",
+    // position: "sticky",
+    left: "50%",
+    zIndex: 2,
+    color: "#fff",
+    textAlign: "center",
+    top: "30%",
+  };
+
+  const buttonHeader = {
+    border: isHovered ? "0px" : "1px solid white",
+    background: isHovered
+      ? "linear-gradient(180deg, color(display-p3 0.2471 0.5412 0.8863) 0%, color(display-p3 0.137 0.3826 0.6708) 100%)"
+      : "transparent",
+    color: isHovered ? "white" : "white", // Change the text color as needed
+    padding: "10px 20px",
+    fontSize: "16px",
+    transition: "background-color 0.3s, transform 0.3s",
+    cursor: "pointer",
+    transform: isHovered ? "scale(1.1)" : "scale(1)",
+  };
 
 
   const controls = useAnimation();
@@ -92,73 +123,95 @@ const Page = () => {
     };
   }, []);
 
-  // const checklist1 = [
-  //   {
-  //     title: "Tablet/Mobile Game Developments",
-  //   },
-  //   {
-  //     title: "Metaverse Game Development",
-  //   },
-  //   {
-  //     title: "Immersive AR/VR Game Development",
-  //   },
-  //   {
-  //     title: "Unreal and Unity Game Development",
-  //   },
-  // ];
+  const checklist1 = [
+    {
+      title: "VR Application Development",
+    },
+    {
+      title: "VR Game Development",
+    },
+    {
+      title: "Metaverse VR Development",
+    },
+    {
+      title: "360° Video Production for VR",
+    },
+  ];
 
   // --------------------grid section-1----------------------------------
   const List1 = [
     {
       id: "1",
-      heading: "Innovative Virtual Real Estate Tours with Complete Customisation",
+      heading: "Capitalize on Expertise",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid1.png",
-      para: "Hey Buddy developed a cutting-edge virtual real estate tour application that exceeded client expectations. The immersive VR experience helped our client offer high-quality, completely customizable property tours. This not only enhanced their ability to market and sell properties remotely but also enhanced their name in the Real Estate market. ",
+      para: "Leverage our extensive experience in VR development. Get the best solution for your specific business and industry needs as our VR experts use cutting-edge technology.",
     },
     {
       id: "2",
-      heading: "Sophisticated VR Employee Training Solution in Manufacturing",
+      heading: "Achieve Quality in Time ",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid2.png",
-      para: "Staying true to its reputation, Hey Buddy successfully developed a VR training program for a manufacturing client. Our expert VR development team delivered high-quality immersive training solutions while ensuring timely delivery. The result helped the client in multiple ways including efficient onboarding, better employee engagement and learning outcomes, and high productivity.",
+      para: "Count on Hey Buddy’s streamlined VR development process for prompt project completion. Get high-quality VR solutions delivered in your timelines with precision.",
     },
     {
       id: "3",
-      heading: "Virtual Reality in Healthcare: Medical Training",
+      heading: "Take Control",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid3.png",
-      para: "We developed an intricate training solution for a medical institution. It offered a digital environment with a realistic and interactive training experience. Additionally, we supplied them with post-launch support and maintenance services for seamless ongoing functionality. As always, we met the client's expectations by demonstrating our in-depth understanding of the medical industry, for a reliable, industry-specific VR training solution. ",
+      para: "Experience transparent and effective communication with Hey Buddy and command full control. Our dedicated SPOC keeps you informed throughout the development process.",
     },
-    // {
-    //   id: "4",
-    //   heading: "Data-Driven Insights:",
-    //   imgurl:
-    //     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid4.png",
-    //   para: "Games generate a wealth of data and information about player behaviour and preferences. Leverage it to gain deep audience insights, refine your marketing strategies, and make data-driven impactful decisions that get you the best business outcomes.",
-    // },
-    // {
-    //   id: "5",
-    //   heading: "Cross-Platform Reach:",
-    //   imgurl:
-    //     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid5.png",
-    //   para: "Reach your audience across various platforms and devices. From mobile and tablets to PCs, consoles, or VR, be present where your audience is and enjoy a broader reach. Gaming ensures that your message is accessible to a diverse and widespread audience.",
-    // },
-    // {
-    //   id: "6",
-    //   heading: "Innovative Marketing Opportunities:",
-    //   imgurl:
-    //     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid6.png",
-    //   para: "Games offer innovative marketing avenues by integrating your brand seamlessly into gaming storylines and environments. Utilize in-game advertising, or create branded mini-games for hyper-interactive campaigns, to enhance brand visibility and brand recall.",
-    // },
+    {
+      id: "4",
+      heading: "Be the Trendsetter",
+      imgurl:
+        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid4.png",
+      para: "Surpass industry standards with high-quality Virtual Reality software solutions. Our expert team delivers consistently with industry-leading expertise and a streamlined process.",
+    },
+    {
+      id: "5",
+      heading: "Outsmart Competition",
+      imgurl:
+        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid5.png",
+      para: "Capitalize on the power of innovation with Hey Buddy's creative VR solutions. Set your brand apart with a memorable and engaging user experience and high visual quality.",
+    },
+    {
+      id: "6",
+      heading: "Lead Your Domain",
+      imgurl:
+        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid6.png",
+      para: "We offer VR development services with an in-depth understanding of your industry. Get bespoke VR experiences aligned perfectly with your unique requirements.",
+    },
+    {
+      id: "7",
+      heading: "Stay Agile",
+      imgurl:
+        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid6.png",
+      para: "Overcome challenges seamlessly with Hey Buddy's agile methodology. We rapidly adjust strategies to meet evolving project requirements and ensure success.",
+    },
+    {
+      id: "8",
+      heading: "Your Investment Yields",
+      imgurl:
+        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid6.png",
+      para: "Optimize your returns with Hey Buddy's cost-effective VR development services. We offer competitive pricing structures and zero compromise on quality.",
+    },
+    {
+      id: "9",
+      heading: "Stay Confident",
+      imgurl:
+        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid6.png",
+      para: "Sail easy with our strong commitment to post-service support and maintenance. We ensure your VR experience remains functional and up-to-date for sustained success.",
+    },
+
   ];
 
   const Text1 = [
     {
       heading:
-        "Success Stories with Hey Buddy Custom Virtual Reality Development",
-      subtext:
-        "Hey Buddy is renowned for consistently delivering superior-quality VR solutions well within the stipulated time. Here are some of the many success stories where our custom VR development services worked wonders for the clients.",
+        "Benefits of our Custom Virtual Reality Development Services ",
+      // subtext:
+      //   "Hey Buddy is renowned for consistently delivering superior-quality VR solutions well within the stipulated time. Here are some of the many success stories where our custom VR development services worked wonders for the clients.",
     },
   ];
 
@@ -208,14 +261,14 @@ const Page = () => {
     // },
   ];
 
-  const Text2 = [
-    {
-      heading:
-        "Hey Buddy: Power VR Experiences Across Platforms",
-      subtext:
-        "We have a large team dedicated to VR development. This helps us possess talents for diverse platforms powered by powerful development frameworks.",
-    },
-  ];
+  // const Text2 = [
+  //   {
+  //     heading:
+  //       "Hey Buddy: Power VR Experiences Across Platforms",
+  //     subtext:
+  //       "We have a large team dedicated to VR development. This helps us possess talents for diverse platforms powered by powerful development frameworks.",
+  //   },
+  // ];
 
   // ----------------------------------------------------------------
 
@@ -229,7 +282,7 @@ const Page = () => {
          
          <Herosection />
 
-          {/* <div
+          <div
             ref={ref}
             initial="hidden"
             animate={controls}
@@ -253,7 +306,7 @@ const Page = () => {
                 ))}
               </ol>
             </div>
-          </div> */}
+          </div>
 
           {/* -------------------------grid-reuse------------------------------------- */}
 
@@ -279,9 +332,9 @@ const Page = () => {
           </div>
 
           {/* ----------------------------grid-reuse---------------------------------- */}
-          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev6.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
+          {/* <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev6.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
             <Gridsection listData={List2} textData={Text2} />
-          </div>
+          </div> */}
 
           {/* ----------------------------Section7---------------------------------- */}
           <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev7.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
@@ -293,6 +346,25 @@ const Page = () => {
           <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev8.png')] py-8 bg-no-repeat lg:bg-cover ">
             <Pagenation />
           </div>
+
+          {/* uper section of 9 */}
+
+          <div style={textContainerStyle}>
+          <h1 style={{ fontSize: "2rem" }}>
+          CTA:
+    </h1>
+    <h1 style={{ fontSize: "2rem" }}>
+    Creative, Customised, and Cost-effective VR development software services with Hey Budy.
+    </h1>
+    <Button
+      style={buttonHeader}
+      onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => setIsHovered(false)}
+    >
+      Discuss Your Project
+
+    </Button>
+  </div>
 
           {/* -----------------------Section-9--------------------------------------- */}
           <div className="text-white lg:py-16 bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev9.png')] py-8 bg-no-repeat lg:bg-cover">
