@@ -49,6 +49,7 @@ const Pagenation = () => {
     "task2",
     "task3",
     "task4",
+    "task5",
     
   ]);
 
@@ -76,26 +77,32 @@ const Pagenation = () => {
           isActive={selectedTab === "task1"}
           onClick={() => setSelectedTab("task1")}
         >
-          Task 1
+          3D Modeling and Animation
         </TabSelector>
         <TabSelector
           isActive={selectedTab === "task2"}
           onClick={() => setSelectedTab("task2")}
         >
-          Task 2
+          Game Development
         </TabSelector>
         <TabSelector
           isActive={selectedTab === "task3"}
           onClick={() => setSelectedTab("task3")}
         >
-          Task 3
+          Texturing and Painting
         </TabSelector>
         <TabSelector
           isActive={selectedTab === "task4"}
           onClick={() => setSelectedTab("task4")}
         >
-          Task 4
+          Rendering and Visualization
         </TabSelector>
+        {/* <TabSelector
+          isActive={selectedTab === "task5"}
+          onClick={() => setSelectedTab("task5")}
+        >
+          Virtual Reality (VR) and Augmented Reality (AR)
+        </TabSelector> */}
 
 
 
@@ -372,6 +379,82 @@ const Pagenation = () => {
 
           </div>
         </TabPanel>
+
+
+        {/* <TabPanel
+          hidden={selectedTab !== "task5"}
+          className="p-4 bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 rounded-lg h-[20vh] w-full"
+        >
+         <div className="grid sm:grid-1 md:mb-12 md:grid-cols-2 lg:grid-cols-5 gap-y-4 gap-x-2">
+            <div className=" mx-auto text-center"> 
+            <Image 
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3D+Development+Icons/Marmoset+Toolbag.svg"
+                width={450}
+                height={450}
+                // className="h-[90%] w-[90%]"
+                alt="9"
+
+                
+                />
+                
+            </div>
+
+            <div className=" mx-auto text-center" >
+            <Image 
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3D+Development+Icons/KeyShot.svg"
+                width={450}
+                height={450}
+                // className="h-[90%] w-[90%]"
+                alt="9"
+
+                
+                />
+                
+            </div>
+
+            <div className=" mx-auto text-center" >
+            <Image 
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3D+Development+Icons/SolidWorks.svg"
+                width={450}
+                height={450}
+                // className="h-[90%] w-[90%]"
+                alt="9"
+
+                
+                />
+                
+            </div>
+
+            <div className=" mx-auto text-center" >
+            <Image 
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3D+Development+Icons/Modo.svg"
+                width={450}
+                height={450}
+                // className="h-[90%] w-[90%]"
+                alt="9"
+
+                
+                />
+                
+            </div>
+
+            <div className=" mx-auto text-center" >
+            <Image 
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3D+Development+Icons/Daz+3D.svg"
+                width={450}
+                height={450}
+                // className="h-[90%] w-[90%]"
+                alt="9"
+
+                
+                />
+                
+            </div>
+
+            
+
+          </div>
+        </TabPanel> */}
 
 
       </div>

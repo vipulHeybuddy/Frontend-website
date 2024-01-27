@@ -72,39 +72,39 @@ const Sliderclient = () => {
     const List = [
         {
           id: "1",
-          heading: "3D Character Development",
+          heading: "AR/VR Experiences",
           imgurl: "",
-          para: "Our experienced, skilled and creative 3D artists and modellers produce visually impressive 3D characters just for your project, brand and storytelling",
+          para: "Our expert 3D modelers enrich the visual appeal of your AR/VR projects, creating deeply immersive environments and characters for a truly interactive journey.",
         },
         {
           id: "2",
-          heading: "3D Asset Development",
+          heading: "Animation",
           imgurl: "",
-          para: "We develop meticulously detailed, accurate, and high-quality 3D assets that perfectly fulfil your project's visual and functional needs.",
+          para: "Whether for promotional videos, educational content, or entertainment, our skilled 3D artists craft visually impressive animations, breathing life into your narratives.",
         },
         {
           id: "3",
-          heading: "3D Environment Development",
+          heading: "Computer-generated imagery (CGI)",
           imgurl: "",
-          para: "We create deeply immersive environments that captivate your audience with ultra-realistic visuals and perfectly fit your project needs.",
+          para: "Our CGI-specialist 3D modellers bring stunning visuals for your films, advertisements, and various digital media to add gravity to your storytelling and brand communication.",
         },
         {
           id: "4",
-          heading: "3D Hard Surface Modelling",
+          heading: "Product Visualisation",
           imgurl: "",
-          para: "We create detailed 3D models of objects or structures following your specific guidelines and ensure timely delivery for uninterrupted project operations.",
+          para: "Our 3D development team delivers lifelike visualisations for you to showcase products with ultra-realistic visuals and gain an edge in your marketing efforts for unbeatable success.",
         },
         {
           id: "5",
-          heading: "3D Animation Services",
+          heading: "Product Animation",
           imgurl: "",
-          para: "Our client-centric approach ensures our 3D animations and meticulous rigging convey your vision accurately while captivating the audience with high-quality visuals.",
+          para: "Our team synergizes with yours to produce compelling product animations and dynamic product demonstrations that impactfully showcase your product’s functionality and features.",
         },
         {
           id: "6",
-          heading: "3D MetaHuman Creation Services",
+          heading: "Gaming",
           imgurl: "",
-          para: "Get photorealistic digital humans with easy customisation, We create Metahumans for virtual productions, games, or all other applications.",
+          para: "Our game-crazy 3D modellers develop characters, environments, assets and other customised 3D models for Unity, Unreal or your specific game engine.",
         },
       ];
  

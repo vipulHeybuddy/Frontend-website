@@ -46,51 +46,51 @@ const Section7 = () => {
     const List = [
         {
           id: "1",
-          heading: "Consultation",
+          heading: "Real-Estate: Property Visualization for Better Customer Engagement",
           // imgurl: "",
-          para: "We initiate with a thorough consultation, grasping the intricacies of your project, goals, and expectations. This clear communication ensures that our plans and processes align with your vision, and lays a strong foundation for a successful collaboration.",
+          para: "Our client, a real-estate firm, required realistic 3D models for their new residential project. We used Autodesk 3ds Max and VRay to deliver highly detailed interior and exterior renders to aid them in presentations and marketing materials.This enhanced the customer’s engagement and understanding of our client's real-estate project, leading to faster sales and a more effective and streamlined sales process.",
         },
         {
           id: "2",
-          heading: "Conceptualization and Planning",
+          heading: "E-Commerce: Showcase Products in the Best Light",
           // imgurl: "",
-          para: "Our skilled team transforms ideas into a consolidated plan, outlining your project scope, timelines, and key milestones. This sets the roadmap for the project while ensuring transparency and clarity in the development process.",
+          para: "An online furniture retailer wanted high-quality 3D models for their product listings. We used Blender to produce photorealistic 3D models of their furniture collection to enhance the online shopping experience of their customers and reduce the need for physical prototypes.As a result, our client attained increased customer satisfaction, reduced returns, and improved online sales through visually appealing and accurate representations of products.",
         },
         {
           id: "3",
-          heading: "Design and Development",
+          heading: "Gaming: High-quality Character Modeling for Unforgettable Gaming experience",
           // imgurl: "",
-          para: "We utilize advanced tools and technologies in our design and development process. Here, we aim to get you high-quality assets that not only meet your project's visual and functional requirements but also exceed your expectations.",
+          para: "One of our clients, a game development studio, needed diverse 3D character models for their upcoming gaming title. We employed ZBrush and Maya for character design and animation, delivering unique and visually appealing assets that enhanced the game's overall aesthetic. Thus, we proudly contributed to the game's success by providing captivating characters, that garnered positive reviews and commercial success.",
         },
 
-        {
-          id: "4",
-          heading: "Client Feedback and Revisions",
-          // imgurl: "",
-          para: "Staying true to our collaborative approach toward 3D development, we welcome your feedback and suggestions in this step. Accordingly, we make necessary revisions so that your input shapes the final product, guaranteeing satisfaction.",
-        },
+        // {
+        //   id: "4",
+        //   heading: "Client Feedback and Revisions",
+        //   // imgurl: "",
+        //   para: "Staying true to our collaborative approach toward 3D development, we welcome your feedback and suggestions in this step. Accordingly, we make necessary revisions so that your input shapes the final product, guaranteeing satisfaction.",
+        // },
 
-        {
-          id: "5",
-          heading: "Quality Assurance",
-          // imgurl: "",
-          para: "Before we finally deliver, the resulting 3D models undergo rigorous quality checks to ensure that our 3D models meet your project standards. We deliver polished, error-free 3D assets that meet your project's visual and functional needs.",
-        },
+        // {
+        //   id: "5",
+        //   heading: "Quality Assurance",
+        //   // imgurl: "",
+        //   para: "Before we finally deliver, the resulting 3D models undergo rigorous quality checks to ensure that our 3D models meet your project standards. We deliver polished, error-free 3D assets that meet your project's visual and functional needs.",
+        // },
 
-        {
-          id: "6",
-          heading: "Timely Delivery",
-          // imgurl: "",
-          para: "With our unwavering commitment, we deliver your 3D assets with high regard to timelines. We ensure this by utilizing our reliable development process and high professionalism, the two most essential ingredients for your project's success.",
-        },
+        // {
+        //   id: "6",
+        //   heading: "Timely Delivery",
+        //   // imgurl: "",
+        //   para: "With our unwavering commitment, we deliver your 3D assets with high regard to timelines. We ensure this by utilizing our reliable development process and high professionalism, the two most essential ingredients for your project's success.",
+        // },
       ];
     
       const Text = [
         {
           heading:
-            "Our Streamlined 3D Development Process",
-          subtext:
-            "Project after project, we have refined our 3D development process to deliver creativity and innovation to your project. We understand the importance of a transparent and collaborative workflow, which is reflected in our process.",
+            "Success Stories with Hey Buddy 3D Modelling Services",
+          // subtext:
+          //   "Project after project, we have refined our 3D development process to deliver creativity and innovation to your project. We understand the importance of a transparent and collaborative workflow, which is reflected in our process.",
         },
       ];
   return (

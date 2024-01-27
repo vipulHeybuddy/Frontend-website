@@ -8,63 +8,74 @@ import "../../../styles/slide3.css";
 const images = [0, 1, 2, 3, 4 , 5 , 6];
 const texts = [
         {
-          title: "Capitalize on Expertise",
+          title: "Immersive VR Application Development",
           description:
             "Leverage our extensive experience in VR development. Get the best solution for your specific business and industry needs as our VR experts use cutting-edge technology.",
         },
         {
-          title: "Achieve Quality in Time",
+          title: "Immersive VR Application Development",
           description:
-            "Count on Hey Buddy’s streamlined VR development process for prompt project completion. Get high-quality VR solutions delivered in your timelines with precision.",
+            "We craft captivating virtual reality applications across diverse platforms. Be assured of a seamless and immersive user experience that aligns with your specific requirements.",
            
         },
         {
-          title: "Take Control",
+          title: "Engaging VR Game Development",
           description:
-            "Experience transparent and effective communication with Hey Buddy and command full control. Our dedicated SPOC keeps you informed throughout the development process.",
+            "We have a dedicated team of game-crazy expert developers. They deliver complete virtual reality games with innovation, creativity, and cross-platform compatibility.",
          
         },
         {
-          title: "Be the Trendsetter",
+          title: "Metaverse VR Development Services",
           description:
-            "Surpass industry standards with high-quality Virtual Reality software solutions. Our expert team delivers consistently with industry-leading expertise and a streamlined process.",
+            "Discover the metaverse like never before with Hey Buddy's expert touch. Get tailored solutions for Roblox adventures to redefine social connections in Sansar.",
          
         },
         {
-          title: "Outsmart Competition",
+          title: "360° Video Production for VR Experiences",
           description:
-            "Capitalise on the power of innovation with Hey Buddy's creative VR solutions. Set your brand apart with a memorable and engaging user experience and high visual quality.",
+            "We let you immerse your audience in captivating 360-degree videos. Our expertise in capturing and producing high-quality VR environments creates a new reality.",
           
         },
         {
-          title: "Lead Your Domain",
+          title: "Custom VR Simulation Development",
           description:
-            "We offer VR development services with an in-depth understanding of your industry. Get bespoke VR experiences aligned perfectly with your unique requirements.",
+            "We develop realistic VR simulations, with real-world physics and maneuverability. Get custom training, education, and other industry applications for effective outcomes.",
          
         },
         {
-          title: "Stay Agile",
+          title: "VR Content Creation Expertise",
           description:
-            "Overcome challenges seamlessly with Hey Buddy's agile methodology. We rapidly adjust strategies to meet evolving project requirements and ensure success.",
+            "Want to enrich your VR applications? Our team is ready to deliver. Impress your audience with our visually stunning 3D models, animations, and multimedia content.",
           
         },
         {
-          title: "Your Investment Yields",
+          title: "Strategic VR Consulting",
           description:
-            "Optimize your returns with Hey Buddy's cost-effective VR development services. We offer competitive pricing structures and zero compromise on quality.",
+            "Leverage our industry expertise for insightful advice and data-driven strategy on VR technology. We guide you through every step for a seamless integration.",
           
         },
         {
-          title: "Stay Confident",
+          title: "Seamless VR Hardware Integration",
           description:
-            "Sail easy with our strong commitment to post-service support and maintenance. We ensure your VR experience remains functional and up-to-date for sustained success.",
+            "Be assured of optimal performance for every VR headset, controller, and hardware component. We offer a unified and immersive experience with our virtual reality software.",
           
         },
         {
-          title: "Capitalize on Expertise",
+          title: "Dedicated VR Maintenance and Support",
           description:
-            "Leverage our extensive experience in VR development. Get the best solution for your specific business and industry needs as our VR experts use cutting-edge technology.",
+            "Count on Hey Buddy for continuous support, updates, and maintenance. We are known for ensuring the longevity and optimal performance of your VR applications.",
         },
+        {
+          title: "Dedicated VR Maintenance and Support",
+          description:
+            "Count on Hey Buddy for continuous support, updates, and maintenance. We are known for ensuring the longevity and optimal performance of your VR applications.",
+        },
+        {
+          title: "Dedicated VR Maintenance and Support",
+          description:
+            "Count on Hey Buddy for continuous support, updates, and maintenance. We are known for ensuring the longevity and optimal performance of your VR applications.",
+        },
+        
 ];
 
 const Motionslide = () => {
@@ -109,14 +120,10 @@ const Motionslide = () => {
       <div className="py-8 text-white">
         <div className="text-content lg:w-[80%]">
           <h1 className="py-4 text-2xl lg:text-4xl">
-          Benefits of our Custom Virtual Reality Development Services
+          360 Degree Virtual Reality Services With One Click
 
           </h1>
-          {/* <p className="text-xl lg:text-2xl">
-            Hey Buddy is your one-stop shop for end-to-end game development
-            services. With AI on our side, we successfully clear levels of your
-            game development needs.
-          </p> */}
+          Redefine possibilities with Hey Buddy’s comprehensive Virtual Reality development services. Immerse your audience in unparalleled digital experiences that elevate your brand and stay at the forefront of technological innovation.
         </div>
       </div>
       <div className="sticky">
