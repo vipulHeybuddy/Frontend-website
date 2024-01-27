@@ -9,9 +9,6 @@ import Link from 'next/link'
 const Landingpg = () => {
   const [blackScreenVisible, setBlackScreenVisible] = useState(true);
 
-
-
-
   useEffect(() => {
     const timer = setTimeout(() => {
       setBlackScreenVisible(false);

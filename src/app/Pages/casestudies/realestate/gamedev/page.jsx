@@ -1,15 +1,15 @@
 "use client";
-import Section1 from "@/components/casestudiescomp/gamedev/Section1";
-import Section10 from "@/components/casestudiescomp/gamedev/Section10";
-import Section11 from "@/components/casestudiescomp/gamedev/Section11";
-import Section2 from "@/components/casestudiescomp/gamedev/Section2";
-import Section3 from "@/components/casestudiescomp/gamedev/Section3";
-import Section4 from "@/components/casestudiescomp/gamedev/Section4";
-import Section5 from "@/components/casestudiescomp/gamedev/Section5";
-import Section6 from "@/components/casestudiescomp/gamedev/Section6";
-import Section7 from "@/components/casestudiescomp/gamedev/Section7";
-import Section8 from "@/components/casestudiescomp/gamedev/Section8";
-import Section9 from "@/components/casestudiescomp/gamedev/Section9";
+import Section1 from "@/components/casestudiescomp/realstatecomp/gamedev/Section1";
+import Section10 from "@/components/casestudiescomp/realstatecomp/gamedev/Section10";
+import Section11 from "@/components/casestudiescomp/realstatecomp/gamedev/Section11";
+import Section2 from "@/components/casestudiescomp/realstatecomp/gamedev/Section2";
+import Section3 from "@/components/casestudiescomp/realstatecomp/gamedev/Section3";
+import Section4 from "@/components/casestudiescomp/realstatecomp/gamedev/Section4";
+import Section5 from "@/components/casestudiescomp/realstatecomp/gamedev/Section5";
+import Section6 from "@/components/casestudiescomp/realstatecomp/gamedev/Section6";
+import Section7 from "@/components/casestudiescomp/realstatecomp/gamedev/Section7";
+import Section8 from "@/components/casestudiescomp/realstatecomp/gamedev/Section8";
+import Section9 from "@/components/casestudiescomp/realstatecomp/gamedev/Section9";
 import React from "react";
 
 const page = () => {
