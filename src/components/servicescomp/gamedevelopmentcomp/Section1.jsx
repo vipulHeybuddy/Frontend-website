@@ -94,6 +94,7 @@ const Herosection = () => {
           <h1 style={{ fontSize: "3rem" }}>
           Best Game Development Company in India
           </h1>
+          <Link href="/Pages/Contactus">
           <Button
             style={buttonHeader}
             onMouseEnter={() => setIsHovered(true)}
@@ -101,6 +102,7 @@ const Herosection = () => {
           >
             Consult Our Experts
           </Button>
+          </Link>
         </div>
         <div style={imageContainerStyle}>
           {/* Replace 'your-image.jpg' with the actual image source */}
@@ -109,7 +111,7 @@ const Herosection = () => {
             width={450}
             height={450}
             className="h-[24px] w-[24px] bg-white mx-auto mt-4"
-            src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Rectangle+30.png"
+            src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.jpg"
             alt="Background"
           />
         </div>

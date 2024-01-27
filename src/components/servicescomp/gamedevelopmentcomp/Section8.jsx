@@ -73,7 +73,7 @@ const Pagenation = () => {
         </p>
       </div> 
 
-      <nav className="flex border-b border-gray-300 overflow-auto">
+      <nav className="flex border-b border-gray-300 scrollbar-hide overflow-auto">
         <TabSelector
           isActive={selectedTab === "Platforms"}
           onClick={() => setSelectedTab("Platforms")}
