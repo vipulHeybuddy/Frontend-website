@@ -3,7 +3,7 @@
 import React, { useEffect, useRef } from "react";
 import Image from "next/image";
 // import './Timelinecomp.css'
-import "../../../styles/Timelinecomp.css";
+import "../../../../styles/Timelinecomp.css";
 import { motion, useAnimation } from "framer-motion";
 
 const Timelinecomp = () => {
@@ -83,10 +83,12 @@ const Timelinecomp = () => {
     >
       <div className="py-8 text-white">
         <h1 className="py-4 lg:w-[80%] text-2xl lg:text-4xl">
-        Our Streamlined 3D Development Process
+          Customised 3D Model Development for Every Project and Every Business
         </h1>
         <p className="text-xl lg:text-2xl">
-        Project after project, we have refined our 3D development process to deliver creativity and innovation to your project. We understand the importance of a transparent and collaborative workflow, which is reflected in our process.
+          Hey Buddy, offering tailored solutions for your projects. Our
+          versatile 3D development team perfectly adapts outcomes to your
+          domains and brings your vision to life with precision and creativity.
         </p>
       </div>
 
@@ -99,63 +101,65 @@ const Timelinecomp = () => {
                 <div class="container text-white">
                   <ul>
                     <li>
-
-                      <h3 className="font-bold text-2xl heading heading">Consultation</h3>
-
+                      <h3 className="font-bold text-2xl  ">AR/VR Experiences</h3>
                       <p>
-                      We initiate with a thorough consultation, grasping the intricacies of your project, goals, and expectations. This clear communication ensures that our plans and processes align with your vision, and lays a strong foundation for a successful collaboration.
+                        Our expert 3D modellers enrich the visual appeal of your
+                        AR/VR projects, creating deeply immersive environments
+                        and characters for a truly interactive journey.
                       </p>
 
                     </li>
                     <li>
-
-                      <h3 className="font-bold text-2xl heading">Conceptualization and Planning</h3>
-
+                      <h3 className="font-bold text-2xl ">Animation</h3>
                       <p>
-                      Our skilled team transforms ideas into a consolidated plan, outlining your project scope, timelines, and key milestones. This sets the roadmap for the project while ensuring transparency and clarity in the development process.
+                        Whether for promotional videos, educational content, or
+                        entertainment, our skilled 3D artists craft visually
+                        impressive animations, breathing life into your
+                        narratives.
                       </p>
 
                
                     </li>
                     <li>
-
-                      <h3 className="font-bold text-2xl heading">
-                      Design and Development
-
+                      <h3 className="font-bold text-2xl ">
+                        Computer-generated imagery (CGI)
                       </h3>
                       <p>
-                      We utilize advanced tools and technologies in our design and development process. Here, we aim to get you high-quality assets that not only meet your project's visual and functional requirements but also exceed your expectations.
+                        Our CGI-specialist 3D modellers bring stunning visuals
+                        for your films, advertisements, and various digital
+                        media to add gravity to your storytelling and brand
+                        communication.
                       </p>
 
                     </li>
                     <li>
-
-                      <h3 className="font-bold text-2xl heading">Client Feedback and Revisions</h3>
-         <p>
-                      Staying true to our collaborative approach toward 3D development, we welcome your feedback and suggestions in this step. Accordingly, we make necessary revisions so that your input shapes the final product, guaranteeing satisfaction.
-
-                      </p>
-
-                    </li>
-
-                    <li>
-
-                      <h3 className="font-bold text-2xl heading">Quality Assurance</h3>
-
+                      <h3 className="font-bold text-2xl ">Product Visualisation</h3>
                       <p>
-                      Before we finally deliver, the resulting 3D models undergo rigorous quality checks to ensure that our 3D models meet your project standards. We deliver polished, error-free 3D assets that meet your project's visual and functional needs.
+                        Our 3D development team delivers lifelike visualisations
+                        for you to showcase products with ultra-realistic
+                        visuals and gain an edge in your marketing efforts for
+                        unbeatable success.
                       </p>
 
                     </li>
 
                     <li>
-
-                      <h3 className="font-bold text-2xl heading">Timely Delivery</h3>
-
+                      <h3 className="font-bold text-2xl ">Product Animation</h3>
                       <p>
-                      With our unwavering commitment, we deliver your 3D assets with high regard to timelines. 
-We ensure this by utilizing our reliable development process and high professionalism, the two most essential ingredients for your project's success.
+                        Our team synergizes with yours to produce compelling
+                        product animations and dynamic product demonstrations
+                        that impactfully showcase your product’s functionality
+                        and features.
+                      </p>
 
+                    </li>
+
+                    <li>
+                      <h3 className="font-bold text-2xl ">Gaming</h3>
+                      <p>
+                        Our game-crazy 3D modellers develop characters,
+                        environments, assets and other customised 3D models for
+                        Unity, Unreal or your specific game engine.
                       </p>
 
                     </li>
