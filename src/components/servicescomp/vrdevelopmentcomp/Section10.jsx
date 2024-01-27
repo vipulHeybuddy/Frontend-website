@@ -97,13 +97,12 @@ const Faqsection = () => {
               style={{ border: "0" }}
               onClick={() => handleOpen(1)}
             >
-              What is Material Tailwind?
+             What expertise does Hey Buddy offer in VR development for Oculus?
             </AccordionHeader>
             <AccordionBody>
-              We&apos;re not always in the position that we want to be at.
-              We&apos;re constantly growing. We&apos;re constantly making
-              mistakes. We&apos;re constantly trying to express ourselves and
-              actualize our dreams.
+            Hey Buddy specializes in Oculus VR development. We develop immersive experiences tailored for Oculus devices.
+We maximize the potential of virtual reality on Oculus platforms, creating applications that redefine user interactions and elevate immersive experiences.
+
             </AccordionBody>
           </Accordion>
 
@@ -116,13 +115,11 @@ const Faqsection = () => {
               style={{ border: "0" }}
               onClick={() => handleOpen(2)}
             >
-              How to use Material Tailwind?
+             Does Hey Buddy provide VR development services for iOS and Android?
+
             </AccordionHeader>
             <AccordionBody>
-              We&apos;re not always in the position that we want to be at.
-              We&apos;re constantly growing. We&apos;re constantly making
-              mistakes. We&apos;re constantly trying to express ourselves and
-              actualize our dreams.
+            Yes, we offer complete VR development services for both iOS and Android platforms, for maximum reach and ensuring seamless and captivating experiences across mobile devices.
             </AccordionBody>
           </Accordion>
 
@@ -135,13 +132,11 @@ const Faqsection = () => {
               style={{ border: "0" }}
               onClick={() => handleOpen(3)}
             >
-              What can I do with Material Tailwind?
+              Can Hey Buddy assist in VR development for Metaverse?
+
             </AccordionHeader>
             <AccordionBody>
-              We&apos;re not always in the position that we want to be at.
-              We&apos;re constantly growing. We&apos;re constantly making
-              mistakes. We&apos;re constantly trying to express ourselves and
-              actualize our dreams.
+            Hey Buddy excels in Metaverse VR development for all prominent platforms including Roblox, Decentralance, Sansaar, and more. We align our solution with the right creative and social aspects to meet the standard at Metaverse. 
             </AccordionBody>
           </Accordion>
         </div>
@@ -156,13 +151,11 @@ const Faqsection = () => {
               style={{ border: "0" }}
               onClick={() => handleOpen(4)}
             >
-              What is Material Tailwind?
+             Is there a VR development group at Hey Buddy for collaborative projects?
             </AccordionHeader>
             <AccordionBody>
-              We&apos;re not always in the position that we want to be at.
-              We&apos;re constantly growing. We&apos;re constantly making
-              mistakes. We&apos;re constantly trying to express ourselves and
-              actualize our dreams.
+            Yes, Hey Buddy has a dedicated VR development group to foster collaboration and enable expertise-sharing for innovative and impactful VR projects.
+
             </AccordionBody>
           </Accordion>
 
@@ -175,13 +168,11 @@ const Faqsection = () => {
               style={{ border: "0" }}
               onClick={() => handleOpen(5)}
             >
-              How to use Material Tailwind?
+             How does Hey Buddy approach VR development in Unity?
+
             </AccordionHeader>
             <AccordionBody>
-              We&apos;re not always in the position that we want to be at.
-              We&apos;re constantly growing. We&apos;re constantly making
-              mistakes. We&apos;re constantly trying to express ourselves and
-              actualize our dreams.
+            Unity is a cornerstone in Hey Buddy's VR development. We utilize its robust framework for creating immersive experiences across various platforms. Moreover, Hey Buddy’s proficient team in Unity for VR development, delivers tailored solutions that harness the power of Unity's versatile development environment.
             </AccordionBody>
           </Accordion>
 
@@ -194,13 +185,11 @@ const Faqsection = () => {
               style={{ border: "0" }}
               onClick={() => handleOpen(6)}
             >
-              What can I do with Material Tailwind?
+              Does Hey Buddy support VR development in Unreal Engine 5?
+
             </AccordionHeader>
             <AccordionBody>
-              We&apos;re not always in the position that we want to be at.
-              We&apos;re constantly growing. We&apos;re constantly making
-              mistakes. We&apos;re constantly trying to express ourselves and
-              actualize our dreams.
+            Yes, We offer our adept VR development service using the powerful Unreal Engine 5. Its advanced features help us achieve high-fidelity and feature-packed virtual experiences.
             </AccordionBody>
           </Accordion>
         </div>

@@ -70,7 +70,7 @@ const Herosection = () => {
     width: "100%",
     height: "auto",
     transition: "transform 0.3s ease-out",
-    opacity: "0.3",
+    opacity: "1",
   };
 
   const buttonHeader = {
@@ -90,16 +90,16 @@ const Herosection = () => {
     <>
       <div style={containerStyle}>
         <div style={textContainerStyle}>
-          <h1 style={{ fontSize: "3rem" }}>Level up With AI:</h1>
+          <h1 style={{ fontSize: "3rem" }}>Hey Buddy:</h1>
           <h1 style={{ fontSize: "3rem" }}>
-            Best Game Development Company in India
+          Trusted Virtual Reality Development Company In India & USA
           </h1>
           <Button
             style={buttonHeader}
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
           >
-            Consult Our Experts
+            Consult Our VR Experts
           </Button>
         </div>
         <div style={imageContainerStyle}>
@@ -109,7 +109,7 @@ const Herosection = () => {
             width={450}
             height={450}
             className="h-[24px] w-[24px] bg-white mx-auto mt-4"
-            src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Gaming+controller.jpg"
+            src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Rectangle+35.png"
             alt="Background"
           />
         </div>
@@ -124,11 +124,7 @@ const Herosection = () => {
             className="py-8 text-xl "
           >
             <p>
-              Get an AI-powered smart gaming solution that captivates with its
-              hyper-realistic graphics and enthrals with its deeply engaging
-              gameplay. Hey Buddy is India's leading game development company,
-              maintaining a large team of gamer-first developers who know what
-              works.
+            Your search for a globally recognized expert VR development company ends here. We have proven work experience with clients in India, the US, and around the globe. And it is our remarkable results and in-time delivery that places us among the top Virtual Reality companies. 
             </p>
           </div>
     </>

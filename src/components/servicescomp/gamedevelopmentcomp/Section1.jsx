@@ -90,10 +90,11 @@ const Herosection = () => {
     <>
       <div style={containerStyle}>
         <div style={textContainerStyle}>
-          <h1 style={{ fontSize: "3rem" }}>Hey Buddy: </h1>
+          <h1 style={{ fontSize: "3rem" }}>Level up With AI:</h1>
           <h1 style={{ fontSize: "3rem" }}>
-          Trusted Virtual Reality Development Company In India & USA
+          Best Game Development Company in India
           </h1>
+          <Link href="/Pages/Contactus">
           <Button
             style={buttonHeader}
             onMouseEnter={() => setIsHovered(true)}
@@ -101,6 +102,7 @@ const Herosection = () => {
           >
             Consult Our Experts
           </Button>
+          </Link>
         </div>
         <div style={imageContainerStyle}>
           {/* Replace 'your-image.jpg' with the actual image source */}
@@ -109,7 +111,7 @@ const Herosection = () => {
             width={450}
             height={450}
             className="h-[24px] w-[24px] bg-white mx-auto mt-4"
-            src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Rectangle+30.png"
+            src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.jpg"
             alt="Background"
           />
         </div>
@@ -124,10 +126,9 @@ const Herosection = () => {
             className="py-8 text-xl text-white"
           >
             <p>
-            Your search for a globally recognized expert VR development company ends here. We have proven work experience with clients in India, the US, and around the globe. And it is our remarkable results and in-time delivery that places us among the top Virtual Reality companies.
-            <br></br> 
+            Get an AI-powered smart gaming solution that captivates with its hyper-realistic graphics and enthrals with its deeply engaging gameplay. Hey Buddy is India's leading game development company, maintaining a large team of gamer-first developers who know what works.
 
-[Consult with VR Experts]
+           
 
             </p>
           </div>

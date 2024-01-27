@@ -169,7 +169,7 @@ const Sliderclient = () => {
         {List.map((section, index) => (
             <div className="px-2">
 
-          <figure class="flex flex-col p-4 lg:p-6  rounded-lg  h-full w-full bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20">
+          <figure style={{maxHeight: '45vh', overflow: 'auto' , height: '45vh'  }} class="flex flex-col p-4 lg:p-6  rounded-lg  h-full w-full bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20">
             <blockquote class="  text-gray-400">
               <h3
                 style={{ color: "white" }}

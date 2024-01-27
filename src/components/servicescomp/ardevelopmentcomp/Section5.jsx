@@ -104,7 +104,7 @@ const Timelinecomp = () => {
                 <div class="container text-white">
                   <ul>
                     <li>
-                      <h3 className="font-bold text-2xl heading heading"> Discovery and Consultation:</h3>
+                      <h3 className="font-bold text-2xl "> Discovery and Consultation:</h3>
                       <p>
                         We begin by attaining a complete understanding of your
                         business objectives and vision for the AR project. Here,
@@ -113,7 +113,7 @@ const Timelinecomp = () => {
 
                     </li>
                     <li>
-                      <h3 className="font-bold text-2xl heading heading">
+                      <h3 className="font-bold text-2xl  ">
                         {" "}
                         Ideation and Conceptualization:
                       </h3>
@@ -126,7 +126,7 @@ const Timelinecomp = () => {
                  
                     </li>
                     <li>
-                      <h3 className="font-bold text-2xl heading heading">
+                      <h3 className="font-bold text-2xl  ">
                         Technical Feasibility Assessment:
                       </h3>
                       <p>
@@ -139,7 +139,7 @@ const Timelinecomp = () => {
         
                     </li>
                     <li>
-                      <h3 className="font-bold text-2xl heading heading">Development and Coding</h3>
+                      <h3 className="font-bold text-2xl  ">Development and Coding</h3>
                       <p>
                         Once the idea passes feasibility assessment, our
                         seasoned developers leverage AR technologies such as
@@ -149,7 +149,7 @@ const Timelinecomp = () => {
         
                     </li>
                     <li>
-                      <h3 className="font-bold text-2xl heading heading">Iterative Prototyping</h3>
+                      <h3 className="font-bold text-2xl  ">Iterative Prototyping</h3>
                       <p>
                         We provide you with iterative prototypes to solicit your
                         invaluable feedback. This helps us refine the AR
@@ -159,7 +159,7 @@ const Timelinecomp = () => {
 
                     </li>
                     <li>
-                      <h3 className="font-bold text-2xl heading heading"> Comprehensive Testing</h3>
+                      <h3 className="font-bold text-2xl  "> Comprehensive Testing</h3>
                       <p>
                         With rigorous testing, we achieve the desired
                         functionality with security and performance. This also
@@ -169,7 +169,7 @@ const Timelinecomp = () => {
 
                     </li>
                     <li>
-                      <h3 className="font-bold text-2xl heading heading">
+                      <h3 className="font-bold text-2xl  ">
                         {" "}
                         Client Approval and Deployment
                       </h3>
@@ -183,7 +183,7 @@ const Timelinecomp = () => {
                     
                     </li>
                     <li>
-                      <h3 className="font-bold text-2xl heading heading">
+                      <h3 className="font-bold text-2xl  ">
                         {" "}
                         Analytics and Performance Monitoring
                       </h3>
@@ -196,7 +196,7 @@ const Timelinecomp = () => {
                     
                     </li>
                     <li>
-                      <h3 className="font-bold text-2xl heading heading">
+                      <h3 className="font-bold text-2xl  ">
                         {" "}
                         Post-launch support and Optimization
                       </h3>
@@ -209,7 +209,7 @@ const Timelinecomp = () => {
                   
                     </li>
                     <li>
-                      <h3 className="font-bold text-2xl heading heading">
+                      <h3 className="font-bold text-2xl  ">
                         Client Collaboration and Feedback Loop
                       </h3>
                       <p>

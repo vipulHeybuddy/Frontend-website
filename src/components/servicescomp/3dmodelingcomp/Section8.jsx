@@ -76,25 +76,25 @@ const Pagenation = () => {
           isActive={selectedTab === "task1"}
           onClick={() => setSelectedTab("task1")}
         >
-          Task 1
+          Tab 1
         </TabSelector>
         <TabSelector
           isActive={selectedTab === "task2"}
           onClick={() => setSelectedTab("task2")}
         >
-          Task 2
+          Tab 2
         </TabSelector>
         <TabSelector
           isActive={selectedTab === "task3"}
           onClick={() => setSelectedTab("task3")}
         >
-          Task 3
+          Tab 3
         </TabSelector>
         <TabSelector
           isActive={selectedTab === "task4"}
           onClick={() => setSelectedTab("task4")}
         >
-          Task 4
+          Tab 4
         </TabSelector>
 
 
