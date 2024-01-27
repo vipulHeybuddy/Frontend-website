@@ -77,25 +77,33 @@ const Pagenation = () => {
           isActive={selectedTab === "task1"}
           onClick={() => setSelectedTab("task1")}
         >
+
           3D Modeling and Animation
+
         </TabSelector>
         <TabSelector
           isActive={selectedTab === "task2"}
           onClick={() => setSelectedTab("task2")}
         >
+
           Game Development
+
         </TabSelector>
         <TabSelector
           isActive={selectedTab === "task3"}
           onClick={() => setSelectedTab("task3")}
         >
+
           Texturing and Painting
+
         </TabSelector>
         <TabSelector
           isActive={selectedTab === "task4"}
           onClick={() => setSelectedTab("task4")}
         >
+
           Rendering and Visualization
+
         </TabSelector>
         {/* <TabSelector
           isActive={selectedTab === "task5"}

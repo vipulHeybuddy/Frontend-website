@@ -45,7 +45,7 @@ const Section5 = () => {
 
       <div className='grid justify-center rounded-xl shadow-sm sm:grid-1 md:mb-12 md:grid-cols-2 lg:grid-cols-3 gap-y-4 gap-x-4'>
       {List.map((section, index) => (
-            <div className="px-2">
+            <div className="px-2" key={index}>
 
           <figure class="flex flex-col p-4 lg:p-6 hover:bg-yellow-600 hover:bg-opacity-30 rounded-2xl  h-full w-full bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20">
             <blockquote class="  text-gray-400">
