@@ -86,6 +86,10 @@ const Motionslide = () => {
       animation: animation,
       scrub: 1,
     });
+
+    return () => {
+      ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
+    };
   }, []);
 
   // ==========================================================
