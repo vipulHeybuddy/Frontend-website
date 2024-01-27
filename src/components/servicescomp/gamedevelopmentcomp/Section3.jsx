@@ -60,9 +60,7 @@ const texts = [
 ];
 
 const Motionslide = () => {
-  // this is the change that I implemented
-  // ========================================================
-
+  
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
 
