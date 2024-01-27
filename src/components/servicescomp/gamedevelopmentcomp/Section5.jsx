@@ -153,7 +153,7 @@ const Timelinecomp = () => {
                 <div class="container text-white">
                   <ul>
                     <li>
-                      <h3 className="font-bold text-2xl heading">
+                      <h3 className="font-bold text-2xl ">
                         1. Requirement Gathering
                       </h3>
                       <p>
@@ -165,7 +165,7 @@ const Timelinecomp = () => {
                     </li>
 
                     <li>
-                      <h3 className="font-bold text-2xl heading">
+                      <h3 className="font-bold text-2xl ">
                         2. Concept Art
                       </h3>
                       <p>
@@ -176,7 +176,7 @@ const Timelinecomp = () => {
                     </li>
 
                     <li>
-                      <h3 className="font-bold text-2xl heading">
+                      <h3 className="font-bold text-2xl ">
                         3. Assets Creation
                       </h3>
                       <p>
@@ -188,7 +188,7 @@ const Timelinecomp = () => {
                     </li>
 
                     <li>
-                      <h3 className="font-bold text-2xl heading">
+                      <h3 className="font-bold text-2xl ">
                         4. Animation
                       </h3>
                       <p>
@@ -199,7 +199,7 @@ const Timelinecomp = () => {
                     </li>
 
                     <li>
-                      <h3 className="font-bold text-2xl heading">
+                      <h3 className="font-bold text-2xl ">
                         5. Game Level Designing
                       </h3>
                       <p>
@@ -210,7 +210,7 @@ const Timelinecomp = () => {
                     </li>
 
                     <li>
-                      <h3 className="font-bold text-2xl heading">
+                      <h3 className="font-bold text-2xl ">
                         6. Building Mechanics
                       </h3>
                       <p>
@@ -220,7 +220,7 @@ const Timelinecomp = () => {
                       </p>
                     </li>
                     <li>
-                      <h3 className="font-bold text-2xl heading">
+                      <h3 className="font-bold text-2xl ">
                         7. AI Infusion
                       </h3>
                       <p>
@@ -230,7 +230,7 @@ const Timelinecomp = () => {
                       </p>
                     </li>
                     <li>
-                      <h3 className="font-bold text-2xl heading">
+                      <h3 className="font-bold text-2xl ">
                         8. Graphic Optimization
                       </h3>
                       <p>
@@ -241,7 +241,7 @@ const Timelinecomp = () => {
                       </p>
                     </li>
                     <li>
-                      <h3 className="font-bold text-2xl heading">
+                      <h3 className="font-bold text-2xl ">
                         9. Rigorous Testing
                       </h3>
                       <p>
@@ -251,7 +251,7 @@ const Timelinecomp = () => {
                       </p>
                     </li>
                     <li>
-                      <h3 className="font-bold text-2xl heading">10. Launch</h3>
+                      <h3 className="font-bold text-2xl ">10. Launch</h3>
                       <p>
                         Lastly, we collaborate with you to draw your valuable
                         feedback and sustain an open line of communication for

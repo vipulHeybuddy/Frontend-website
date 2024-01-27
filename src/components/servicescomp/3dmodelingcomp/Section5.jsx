@@ -100,7 +100,7 @@ const Timelinecomp = () => {
                   <ul>
                     <li>
 
-                      <h3 className="font-bold text-2xl heading heading">Consultation</h3>
+                      <h3 className="font-bold text-2xl  ">Consultation</h3>
 
                       <p>
                       We initiate with a thorough consultation, grasping the intricacies of your project, goals, and expectations. This clear communication ensures that our plans and processes align with your vision, and lays a strong foundation for a successful collaboration.
@@ -109,7 +109,7 @@ const Timelinecomp = () => {
                     </li>
                     <li>
 
-                      <h3 className="font-bold text-2xl heading">Conceptualization and Planning</h3>
+                      <h3 className="font-bold text-2xl ">Conceptualization and Planning</h3>
 
                       <p>
                       Our skilled team transforms ideas into a consolidated plan, outlining your project scope, timelines, and key milestones. This sets the roadmap for the project while ensuring transparency and clarity in the development process.
@@ -119,7 +119,7 @@ const Timelinecomp = () => {
                     </li>
                     <li>
 
-                      <h3 className="font-bold text-2xl heading">
+                      <h3 className="font-bold text-2xl ">
                       Design and Development
 
                       </h3>
@@ -130,7 +130,7 @@ const Timelinecomp = () => {
                     </li>
                     <li>
 
-                      <h3 className="font-bold text-2xl heading">Client Feedback and Revisions</h3>
+                      <h3 className="font-bold text-2xl ">Client Feedback and Revisions</h3>
          <p>
                       Staying true to our collaborative approach toward 3D development, we welcome your feedback and suggestions in this step. Accordingly, we make necessary revisions so that your input shapes the final product, guaranteeing satisfaction.
 
@@ -140,7 +140,7 @@ const Timelinecomp = () => {
 
                     <li>
 
-                      <h3 className="font-bold text-2xl heading">Quality Assurance</h3>
+                      <h3 className="font-bold text-2xl ">Quality Assurance</h3>
 
                       <p>
                       Before we finally deliver, the resulting 3D models undergo rigorous quality checks to ensure that our 3D models meet your project standards. We deliver polished, error-free 3D assets that meet your project's visual and functional needs.
@@ -150,7 +150,7 @@ const Timelinecomp = () => {
 
                     <li>
 
-                      <h3 className="font-bold text-2xl heading">Timely Delivery</h3>
+                      <h3 className="font-bold text-2xl ">Timely Delivery</h3>
 
                       <p>
                       With our unwavering commitment, we deliver your 3D assets with high regard to timelines. 

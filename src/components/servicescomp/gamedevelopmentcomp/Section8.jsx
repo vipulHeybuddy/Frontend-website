@@ -47,7 +47,7 @@ const Pagenation = () => {
   const [selectedTab, setSelectedTab] = useTabs([
     "Platforms",
     "ARVRPlatforms",
-    "MetaveersePlatforms",
+    "MetaversePlatforms",
     "GameEngines",
     "Languages",
     "ArtificalIntelligence(AI)",
@@ -87,10 +87,10 @@ const Pagenation = () => {
           AR/VR Platforms
         </TabSelector>
         <TabSelector
-          isActive={selectedTab === "MetaveersePlatforms"}
+          isActive={selectedTab === "MetaversePlatforms"}
           onClick={() => setSelectedTab("MetaveersePlatforms")}
         >
-          Metaveerse Platformss
+          Metaverse Platformss
         </TabSelector>
         <TabSelector
           isActive={selectedTab === "GameEngines"}
@@ -250,7 +250,7 @@ const Pagenation = () => {
         </TabPanel>
 
         <TabPanel
-          hidden={selectedTab !== "MetaveersePlatforms"}
+          hidden={selectedTab !== "MetaversePlatforms"}
           className="p-6 bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 rounded-lg h-[20vh] w-full"
         >
           <div className="grid sm:grid-1 md:mb-12 md:grid-cols-2 lg:grid-cols-6 gap-y-4 gap-x-2">
