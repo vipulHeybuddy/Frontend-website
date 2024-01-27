@@ -1,10 +1,18 @@
 "use client";
 
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState  } from "react";
 import { motion, useAnimation } from "framer-motion";
+import { Button } from "@material-tailwind/react";
 
 
 const Bottomclient = () => {
+
+
+
+  // another
+
+ 
+
 
     const controls = useAnimation();
     const ref = useRef();
@@ -88,6 +96,8 @@ const Bottomclient = () => {
 
 
   return (
+    <>
+   
     <motion.div 
     ref={ref}
     initial="hidden"
@@ -126,6 +136,7 @@ const Bottomclient = () => {
               ))}
             </div>
     </motion.div>
+    </>
   )
 }
 

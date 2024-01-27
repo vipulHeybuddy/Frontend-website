@@ -46,20 +46,27 @@ const Mixsection = () => {
       observer.disconnect();
     };
   }, []);
-  // const checklist1 = [
-  //   {
-  //     title: "Tablet/Mobile Game Development s",
-  //   },
-  //   {
-  //     title: "Metaverse Game Development",
-  //   },
-  //   {
-  //     title: "Immersive AR/VR Game Development",
-  //   },
-  //   {
-  //     title: "Unreal and Unity Game Development",
-  //   },
-  // ];
+  const checklist1 = [
+    
+    {
+      title: "Immersive Experiences",
+    },
+    {
+      title: "Animation",
+    },
+    {
+      title: "CGI",
+    },
+    {
+      title: "Product Visualization",
+    },
+    {
+      title: "Product Animation",
+    },
+    {
+      title: "Gaming",
+    },
+  ];
 
 
   const cardData = [
@@ -125,11 +132,10 @@ const Mixsection = () => {
     >
       <div className="py-4 text-white">
         <h1 className="py-4 lg:w-[80%] text-2xl lg:text-4xl">
-        Hey Buddy <br /> One-stop Destination for all 3D Modelling services
+        Customized 3D Model<br /> Development for Every Project and Every Business
         </h1>
         <p className="text-xl lg:text-2xl">
-        No tiring search for different vendors for different services, Hey Buddy’s comprehensive 3D modelling services get all you need. 
-From AR/VR and CGI to product visualisation and animation, we offer complete 3D development services for every business and every project. Just partner and procure.
+        Hey Buddy, offering tailored solutions for your projects. Our versatile 3D development team perfectly adapts outcomes to your domains and brings your vision to life with precision and creativity.
 
         </p>
       </div>
@@ -137,7 +143,7 @@ From AR/VR and CGI to product visualisation and animation, we offer complete 3D 
 
 {/* pink box */}
 
-      {/* <div className=" bg-gradient-to-r from-[#FFA7A7] via-[#A30CB5] to-[#0B0DF4] shadow-xl rounded-3xl py-4 lg:py-4 mt-8 mx-auto">
+      <div className=" bg-gradient-to-r from-[#FFA7A7] via-[#A30CB5] to-[#0B0DF4] shadow-xl rounded-3xl py-4 lg:py-4 mt-8 mx-auto">
         <div className=" lg:mx-auto lg:text-center w-full justify-center py-2 lg:py-2">
           <ol className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 px-2 gap-5 lg:gap-x-16">
             {checklist1.map((section, index) => (
@@ -153,7 +159,7 @@ From AR/VR and CGI to product visualisation and animation, we offer complete 3D 
             ))}
           </ol>
         </div>
-      </div> */}
+      </div>
 
       {/* ------------------slider-------------------------------- */}
    
