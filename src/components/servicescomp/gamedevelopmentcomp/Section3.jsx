@@ -1,11 +1,9 @@
 "use client";
 
 import { useEffect, useLayoutEffect, useState } from "react";
-// import { render } from "react-dom";
-import classnames from "classnames";
 
 import gsap from "gsap";
-import ScrollTrigger from "gsap/ScrollTrigger";
+import {ScrollTrigger} from "gsap/ScrollTrigger";
 
 import "../../../styles/slide.css";
 import WorkItem from "./WorkItem";
@@ -79,8 +77,8 @@ const Motionslide = () => {
       clipPath: function () {
         return "inset(0px 0px 100% 0px)";
       },
-      stagger: 0.5,
-      ease: "none",
+      stagger: 0.3,
+      ease: "power3",
     });
 
     ScrollTrigger.create({
@@ -90,52 +88,10 @@ const Motionslide = () => {
       animation: animation,
       scrub: 1,
     });
-
-    return () => {
-      ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
-    };
   }, []);
 
-  // ==========================================================
-
-  // const [visibleImagesMap, setVisibleImagesMap] = useState(
-  //   images.reduce((map, image) => {
-  //     map[image] = false;
-  //     return map;
-  //   }, {})
-  // );
-
-  // const [currentText, setCurrentText] = useState(null);
-  // const [currentText1, setCurrentText1] = useState(null);
-
-  // useLayoutEffect(() => {
-  //   const handleScroll = () => {
-  //     const scrollTop = document.documentElement.scrollTop;
-  //     const viewportHeight = window.innerHeight;
-
-  //     const newVisibleImagesMap = images.reduce((map, image) => {
-  //       map[image] = scrollTop >= image * viewportHeight;
-  //       return map;
-  //     }, {});
-
-  //     setVisibleImagesMap(newVisibleImagesMap);
-
-  //     // Find the index of the currently visible image
-  //     const currentImageIndex = Math.floor(scrollTop / viewportHeight);
-
-  //     // Update the current text based on the currently visible image
-  //     setCurrentText(texts[currentImageIndex]?.title);
-  //     setCurrentText1(texts[currentImageIndex]?.description);
-  //   };
-
-  //   window.addEventListener("scroll", handleScroll);
-  //   handleScroll();
-
-  //   return () => window.removeEventListener("scroll", handleScroll);
-  // }, []);
-
   return (
-    <div className="app">
+    <div>
       <div className="py-8 text-white">
         <div className="text-content lg:w-[80%]">
           <h1 className="py-4 text-2xl lg:text-4xl">
@@ -214,24 +170,6 @@ const Motionslide = () => {
             />
           ))}
         </section>
-        {/* <div className="frame relative">
-
-           {images.map((image, index) => (
-            <div key={image} className={`image-container ${index % 2 === 0 ? 'image-left' : 'image-right'}`}>
-              {currentText && (
-                <div style={{display: 'flex' ,flexDirection: 'column'}}>
-                <div className="text font-semibold text-2xl text-white">{currentText}</div>
-                <div  className="text-desctiption text-white">{currentText1}</div>
-                </div>
-              )}
-              <div
-                className={classnames("image", `image_${image}`, {
-                  image_visible: visibleImagesMap[image],
-                })}
-              />
-            </div>
-          ))} 
-        </div> */}
       </div>
     </div>
   );
