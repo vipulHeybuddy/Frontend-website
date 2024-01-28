@@ -1,6 +1,9 @@
 "use client";
 
-import { useLayoutEffect, useState } from "react";
+import { useEffect, useLayoutEffect, useState } from "react";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
 // import { render } from "react-dom";
 import classnames from "classnames";
 import "../../../styles/slide.css";
@@ -13,73 +16,78 @@ const texts = [
   {
     title: "Game Development",
     description:
-      "From casual mobile gaming to console adventure, we create all here.",
+      "We develop highly functional mobile game solutions with cross-platform compatibility. So whether it is iOS or Android, smartphone or console, you name it and we, as your trusted Mobile game development company, will do it ",
+    img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.png",
   },
   {
-    title: "3D Character Development",
+    title: "Mobile Game Development",
     description:
-      "Our experienced, skilled and creative 3D artists and modellers produce visually impressive 3D characters just for your project, brand and storytelling",
+      "We develop highly functional mobile game solutions with cross-platform compatibility. So whether it is iOS or Android, smartphone or console, you name it and we, as your trusted Mobile game development company, will do it ",
+    img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg",
   },
   {
-    title: "3D Asset Development",
+    title: "Unreal Game Development",
     description:
-      "We develop meticulously detailed, accurate, and high-quality 3D assets that perfectly fulfil your project's visual and functional needs.",
+      "Unreal engine is known to deliver powerful and dynamic games that stun gamers with its visuals and realism. Our developers love to work on this platform and get you a game with realistic game physics and animation and AI’s smart interactivity.",
+    img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds2.jpg",
   },
   {
-    title: "3D Environment Development",
+    title: "Unity 3D Game Development",
     description:
-      "We create deeply immersive environments that captivate your audience with ultra-realistic visuals and perfectly fit your project needs.",
+      "We use the robust Unity engine to develop immersive, high-performing, and visually stunning games for your target audience. Unity is known for its powerful tools and features and we, as Unity Game development company use it to the fullest for 2D and 3D games.",
+    img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds3.jpg",
   },
   {
-    title: "3D Hard Surface Modelling",
+    title: "Metaverse Game Development",
     description:
-      "We create detailed 3D models of objects or structures following your specific guidelines and ensure timely delivery for uninterrupted project operations.",
+      "Get ready to teleport your gaming audience into a new reality of Metaverse games. We are a renowned Metaverse game development company that knows community-building, utilisation of user-generated content, and capitalise on social connectivity.",
+    img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds4.jpg",
   },
   {
-    title: "3D Animation Services",
+    title: "Web3 Game Development",
     description:
-      "Our client-centric approach ensures our 3D animations and meticulous rigging convey your vision accurately while captivating the audience with high-quality visuals.",
+      "Ready to explore decentralised gaming for untapped business opportunities, we have an offer. Our team develops decentralised and secure Web3 gaming solutions utilising leading technologies like AI, blockchain, smart contracts, NFTs, and much more. ",
+    img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg",
   },
   {
-    title: "3D MetaHuman Creation Services",
+    title: "AR/VR Game Development",
     description:
-      "Get photorealistic digital humans with easy customisation, We create Metahumans for virtual productions, games, or all other applications.",
+      "We create immersive AR and VR games that merge with gamers' real world and alter their gaming experience for good. The high-fidelity games blur the line between the real and the gaming world and create a gaming experience that gamers can never get enough of.",
+    img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.png",
   },
 ];
 
 const Motionslide = () => {
-  const [visibleImagesMap, setVisibleImagesMap] = useState(
-    images.reduce((map, image) => {
-      map[image] = false;
-      return map;
-    }, {})
-  );
+  
+  useEffect(() => {
+    gsap.registerPlugin(ScrollTrigger);
 
-  const [currentText, setCurrentText] = useState(null);
+    let workInfoItems = document.querySelectorAll(".work__photo-item");
+    workInfoItems.forEach(function (item, index) {
+      item.style.zIndex = workInfoItems.length - index;
+    });
 
-  useLayoutEffect(() => {
-    const handleScroll = () => {
-      const scrollTop = document.documentElement.scrollTop;
-      const viewportHeight = window.innerHeight * 2;
+    gsap.set(".work__photo-item", {
+      clipPath: function () {
+        return "inset(0px 0px 0px 0px)";
+      },
+    });
 
-      const newVisibleImagesMap = images.reduce((map, image) => {
-        map[image] = scrollTop >= image * viewportHeight;
-        return map;
-      }, {});
+    const animation = gsap.to(".work__photo-item:not(:last-child)", {
+      clipPath: function () {
+        return "inset(0px 0px 100% 0px)";
+      },
+      stagger: 0.5,
+      ease: "power3",
+    });
 
-      setVisibleImagesMap(newVisibleImagesMap);
-
-      // Find the index of the currently visible image
-      const currentImageIndex = Math.floor(scrollTop / viewportHeight);
-
-      // Update the current text based on the currently visible image
-      setCurrentText(texts[currentImageIndex]?.title);
-    };
-
-    window.addEventListener("scroll", handleScroll);
-    handleScroll();
-
-    return () => window.removeEventListener("scroll", handleScroll);
+    ScrollTrigger.create({
+      trigger: ".work",
+      start: "top top",
+      end: "bottom bottom",
+      animation: animation,
+      scrub: 1,
+    });
   }, []);
 
   return (

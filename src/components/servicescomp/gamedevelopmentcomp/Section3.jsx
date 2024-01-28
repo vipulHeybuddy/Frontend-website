@@ -1,11 +1,9 @@
 "use client";
 
 import { useEffect, useLayoutEffect, useState } from "react";
-// import { render } from "react-dom";
-import classnames from "classnames";
 
 import gsap from "gsap";
-import ScrollTrigger from "gsap/ScrollTrigger";
+import {ScrollTrigger} from "gsap/ScrollTrigger";
 
 import "../../../styles/slide.css";
 import WorkItem from "./WorkItem";
@@ -79,8 +77,8 @@ const Motionslide = () => {
       clipPath: function () {
         return "inset(0px 0px 100% 0px)";
       },
-      stagger: 0.5,
-      ease: "none",
+      stagger: 0.3,
+      ease: "power3",
     });
 
     ScrollTrigger.create({
@@ -90,10 +88,6 @@ const Motionslide = () => {
       animation: animation,
       scrub: 1,
     });
-
-    return () => {
-      ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
-    };
   }, []);
 
   return (
