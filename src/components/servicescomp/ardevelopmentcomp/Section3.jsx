@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import { useEffect, useLayoutEffect, useState } from "react";
 import gsap from "gsap";
@@ -36,7 +36,6 @@ const texts = [
       "Discover the metaverse like never before with Hey Buddy's expert touch. Get tailored solutions for Roblox adventures to redefine social connections in Sansar.",
     img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds3.jpg",
   },
-  
 ];
 
 const Motionslide = () => {
@@ -76,11 +75,14 @@ const Motionslide = () => {
       <div className="py-8 text-white">
         <div className="text-content lg:w-[80%]">
           <h1 className="py-4 text-2xl lg:text-4xl">
-          Success Stories with Hey Buddy AR Software Solutions
+            Success Stories with Hey Buddy AR Software Solutions
           </h1>
           <p className="text-xl lg:text-2xl">
-          Hey Buddy maintains leadership amongst AR development companies. All credit to its team of high-skilled AR professionals, streamlined development process, and client-centric approach. We have delivered various disruptive AR development solutions that helped our clients reach new success levels.
-
+            Hey Buddy maintains leadership amongst AR development companies. All
+            credit to its team of high-skilled AR professionals, streamlined
+            development process, and client-centric approach. We have delivered
+            various disruptive AR development solutions that helped our clients
+            reach new success levels.
           </p>
         </div>
       </div>
@@ -141,7 +143,6 @@ const Motionslide = () => {
       </div>
     </div>
   );
-  
 };
 
 export default Motionslide;
