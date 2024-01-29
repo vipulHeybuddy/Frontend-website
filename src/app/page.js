@@ -13,6 +13,9 @@ import Ourclients from "@/components/homepg/Section8large";
 import Ourclientsmob from "@/components/homepg/Section8mob";
 import Pagenation from "@/components/homepg/Section6large";
 import Pagenationmob from "@/components/homepg/Section6mob";
+import gsap from "gsap";
+import MouseFollower from "mouse-follower";
+import "./globals.scss";
 
 const fadeInAnimation = {
   initial: { opacity: 0 },
@@ -28,6 +31,7 @@ const fadeInAnimation2 = {
 
 export default function Home() {
   const [isMobile, setIsMobile] = useState(false);
+  MouseFollower.registerGSAP(gsap);
 
   useEffect(() => {
     const handleResize = () => {
@@ -43,6 +47,13 @@ export default function Home() {
     // Cleanup on component unmount
     return () => {
       window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
+  useEffect(() => {
+    const cursor = new MouseFollower();
+    return () => {
+      cursor.destroy();
     };
   }, []);
 
@@ -87,7 +98,6 @@ export default function Home() {
       {/*  --------------------section-9 --------------------------------- */}
 
       <Bottomsec />
-
     </main>
   );
 }
