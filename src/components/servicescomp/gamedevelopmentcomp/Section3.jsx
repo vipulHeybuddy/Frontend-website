@@ -77,8 +77,8 @@ const Motionslide = () => {
       clipPath: function () {
         return "inset(0px 0px 100% 0px)";
       },
-      stagger: 0.3,
-      ease: "power3",
+      stagger: 0.5,
+      ease: "none",
     });
 
     ScrollTrigger.create({
@@ -154,6 +154,12 @@ const Motionslide = () => {
                   title="6"
                   imgSrc={
                     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds5.jpg"
+                  }
+                />
+                <PhotoItem
+                  title="7"
+                  imgSrc={
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds3.jpg"
                   }
                 />
               </div>
