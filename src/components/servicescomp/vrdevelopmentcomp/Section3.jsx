@@ -106,8 +106,8 @@ const Motionslide = () => {
       clipPath: function () {
         return "inset(0px 0px 100% 0px)";
       },
-      stagger: 0.7,
-      ease: "power3",
+      stagger: 0.5,
+      ease: "none",
     });
 
     ScrollTrigger.create({
