@@ -77,7 +77,7 @@ const Motionslide = () => {
       clipPath: function () {
         return "inset(0px 0px 100% 0px)";
       },
-      stagger: 0.3,
+      stagger: 0.7,
       ease: "power3",
     });
 
@@ -86,7 +86,7 @@ const Motionslide = () => {
       start: "top top",
       end: "bottom bottom",
       animation: animation,
-      scrub: 1,
+      scrub: 0.1,
     });
   }, []);
 
@@ -121,39 +121,46 @@ const Motionslide = () => {
             <div className="work__right-b1">
               <div className="work__photo">
                 <PhotoItem
-                  title="1"
+                  title="0"
                   imgSrc={
                     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.png"
                   }
                 />
                 <PhotoItem
-                  title="2"
+                  title="1"
                   imgSrc={
                     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg"
                   }
                 />
                 <PhotoItem
-                  title="3"
+                  title="2"
                   imgSrc={
                     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds2.jpg"
                   }
                 />
                 <PhotoItem
-                  title="4"
+                  title="3"
                   imgSrc={
                     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds3.jpg"
                   }
                 />
                 <PhotoItem
-                  title="5"
+                  title="4"
                   imgSrc={
                     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds4.jpg"
                   }
                 />
                 <PhotoItem
-                  title="6"
+                  title="5"
                   imgSrc={
                     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds5.jpg"
+                  }
+                  
+                />
+                <PhotoItem
+                  title="6"
+                  imgSrc={
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.png"
                   }
                 />
               </div>
