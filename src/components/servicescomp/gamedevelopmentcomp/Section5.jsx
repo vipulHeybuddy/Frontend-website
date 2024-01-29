@@ -267,7 +267,7 @@ const Timelinecomp = () => {
           <div className="h-[50vh] w-full  px-16">
             <div
               style={{
-                width: "100%",
+                width: "130%",
                 height: 0,
                 paddingBottom: "100%",
                 position: "relative",
