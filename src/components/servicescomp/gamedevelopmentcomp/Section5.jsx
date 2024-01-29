@@ -267,17 +267,18 @@ const Timelinecomp = () => {
           <div className="h-[50vh] w-full  px-16">
             <div
               style={{
-                width: "130%",
+                width: "100%",
                 height: 0,
                 paddingBottom: "100%",
                 position: "relative",
+                marginTop: '2rem'
               }}
             >
               <Image
                 width={700}
                 height={700}
                 src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/wheel-unscreen.gif"
-                className="lg:mr-6 h-[50vh] w-[52rem] lg:h-[70vh] lg:w-[92rem] "
+                className="lg:mr-6 h-[40vh] w-[52rem] lg:h-[60vh] lg:w-[92rem] "
                 alt="Hey B"
                 loading="lazy"
               />
