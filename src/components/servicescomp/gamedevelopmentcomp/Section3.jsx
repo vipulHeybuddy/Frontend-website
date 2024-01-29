@@ -3,13 +3,12 @@
 import { useEffect, useLayoutEffect, useState } from "react";
 
 import gsap from "gsap";
-import {ScrollTrigger} from "gsap/ScrollTrigger";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 import "../../../styles/slide.css";
 import WorkItem from "./WorkItem";
 import PhotoItem from "./PhotoItem";
 import GamedevCard from "./GamedevCard";
-
 
 const images = [0, 1, 2, 3, 4, 5, 6];
 const texts = [
@@ -58,7 +57,6 @@ const texts = [
 ];
 
 const Motionslide = () => {
-  
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
 
@@ -95,7 +93,7 @@ const Motionslide = () => {
       <div className="py-8 text-white">
         <div className="text-content lg:w-[80%]">
           <h1 className="py-4 text-2xl lg:text-4xl">
-          Hey Buddy, Game On!! - Complete Game Development Services 
+            Hey Buddy, Game On!! - Complete Game Development Services
           </h1>
           <p className="text-sm lg:text-lg">
             Hey Buddy is your one-stop shop for end-to-end game development
