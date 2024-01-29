@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -15,12 +15,21 @@ import {
 } from "swiper/modules";
 import "../../styles/Slider1.css";
 import Link from "next/link";
+import gsap from "gsap";
+import MouseFollower from "mouse-follower";
+import "../../app/globals.scss";
 
 function Slider1() {
   const controls = useAnimation();
   const ref = useRef();
   let swiper = null; // Reference to the Swiper instance
 
+  useEffect(() => {
+    const cursor = new MouseFollower();
+    return () => {
+      cursor.destroy();
+    };
+  }, []);
 
   const variants = {
     hidden: { opacity: 0, y: "20%" },
@@ -86,7 +95,7 @@ function Slider1() {
 
   return (
     <motion.div
-    id="services"
+      id="services"
       ref={ref}
       initial="hidden"
       animate={controls}
@@ -112,8 +121,8 @@ function Slider1() {
       >
         Get All Emerging Tech Solutions Under One Roof
       </h1>
-      <div className="container7">
-      <Swiper
+      <div data-cursor-text="View Service" className="container7">
+        <Swiper
           effect={"coverflow"}
           grabCursor={true}
           centeredSlides={true}
@@ -142,8 +151,8 @@ function Slider1() {
           }}
         >
           <SwiperSlide
-          onMouseEnter={handleMouseEnter}
-          onMouseLeave={handleMouseLeave}
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
           >
             <Link href="/Pages/services/gamedevelopment">
               <div
@@ -152,7 +161,7 @@ function Slider1() {
                   display: "flex",
                   flexDirection: "column",
                   alignItems: "flex-start",
-                  overflow:"hidden",
+                  overflow: "hidden",
                 }}
               >
                 <div style={{ textAlign: "left", margin: "1rem" }}>
@@ -170,8 +179,9 @@ function Slider1() {
           </SwiperSlide>
 
           <SwiperSlide
-              onMouseEnter={handleMouseEnter}
-              onMouseLeave={handleMouseLeave}>
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+          >
             <Link href="/Pages/services/ardevelopment">
               <div
                 className="textdiv"
@@ -179,12 +189,14 @@ function Slider1() {
                   display: "flex",
                   flexDirection: "column",
                   alignItems: "flex-start",
-                  overflow:"hidden",
-
+                  overflow: "hidden",
                 }}
               >
-                <div style={{ textAlign: "left", margin: "1rem" }} >
-                  <h1 style={{ fontSize: "1.7rem", color: "white" }} className="mt-4">
+                <div style={{ textAlign: "left", margin: "1rem" }}>
+                  <h1
+                    style={{ fontSize: "1.7rem", color: "white" }}
+                    className="mt-4"
+                  >
                     AR development
                   </h1>
                   <p className="text-[#cfcece] font-thin">
@@ -199,8 +211,9 @@ function Slider1() {
           </SwiperSlide>
 
           <SwiperSlide
-              onMouseEnter={handleMouseEnter}
-              onMouseLeave={handleMouseLeave}>
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+          >
             <Link href="/Pages/services/3dmodeling">
               <div
                 className="textdiv"
@@ -225,8 +238,9 @@ function Slider1() {
           </SwiperSlide>
 
           <SwiperSlide
-              onMouseEnter={handleMouseEnter}
-              onMouseLeave={handleMouseLeave}>
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+          >
             <Link href="/Pages/services/customsoftware">
               <div
                 className="textdiv"
@@ -236,8 +250,11 @@ function Slider1() {
                   alignItems: "flex-start",
                 }}
               >
-                <div style={{ textAlign: "left", }} className="p-4">
-                  <h1 style={{ fontSize: "1.7rem", color: "white" }} className="mt-3">
+                <div style={{ textAlign: "left" }} className="p-4">
+                  <h1
+                    style={{ fontSize: "1.7rem", color: "white" }}
+                    className="mt-3"
+                  >
                     Custom Software Development
                   </h1>
                   <p className="text-[#cfcece] font-thin">
@@ -252,8 +269,9 @@ function Slider1() {
           </SwiperSlide>
 
           <SwiperSlide
-              onMouseEnter={handleMouseEnter}
-              onMouseLeave={handleMouseLeave}>
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+          >
             <Link href="/Pages/services/vrdevelopment">
               <div
                 className="textdiv"
@@ -278,8 +296,9 @@ function Slider1() {
           </SwiperSlide>
 
           <SwiperSlide
-              onMouseEnter={handleMouseEnter}
-              onMouseLeave={handleMouseLeave}>
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+          >
             <Link href="/Pages/services/">
               <div
                 className="textdiv"
@@ -289,8 +308,11 @@ function Slider1() {
                   alignItems: "flex-start",
                 }}
               >
-                <div style={{ textAlign: "left", }} className="pt-4 px-4">
-                  <h1 style={{ fontSize: "1.7rem", color: "white" }} className="mt-3">
+                <div style={{ textAlign: "left" }} className="pt-4 px-4">
+                  <h1
+                    style={{ fontSize: "1.7rem", color: "white" }}
+                    className="mt-3"
+                  >
                     Web3 Development
                   </h1>
                   <p className="text-[#cfcece] pb-2 font-thin">

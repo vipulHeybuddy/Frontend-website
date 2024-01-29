@@ -89,6 +89,7 @@ const Motionslide = () => {
       },
       stagger: 0.5,
       ease: "none",
+
     });
 
     ScrollTrigger.create({
