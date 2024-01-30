@@ -91,11 +91,12 @@ const Faqsection = () => {
           <Accordion
             open={open === 1}
             icon={<Icon id={1} open={open} />}
-            className="py-2 lg:px-8 my-4  rounded-lg bg-gray-500  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 hover:bg-red-500 hover:bg-opacity-20"
+            className="py-2 px-5 lg:px-8 my-4  rounded-lg bg-gray-500  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 hover:bg-red-500 hover:bg-opacity-20"
           >
             <AccordionHeader
               style={{ border: "0" }}
               onClick={() => handleOpen(1)}
+            className="!text-lg"
             >
               What types of projects can benefit from Hey Buddy's 3D modelling services?
             </AccordionHeader>
@@ -107,11 +108,12 @@ const Faqsection = () => {
           <Accordion
             open={open === 2}
             icon={<Icon id={2} open={open} />}
-            className="py-2 lg:px-8 my-4  rounded-lg bg-gray-500  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 hover:bg-red-500 hover:bg-opacity-20"
+            className="py-2 px-5 lg:px-8 my-4  rounded-lg bg-gray-500  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 hover:bg-red-500 hover:bg-opacity-20"
           >
             <AccordionHeader
               style={{ border: "0" }}
               onClick={() => handleOpen(2)}
+            className="!text-lg"
             >
               How does Hey Buddy ensure the security and confidentiality of client projects?
             </AccordionHeader>
@@ -123,11 +125,12 @@ const Faqsection = () => {
           <Accordion
             open={open === 3}
             icon={<Icon id={3} open={open} />}
-            className="py-2 lg:px-8 my-4  rounded-lg bg-gray-500  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 hover:bg-red-500 hover:bg-opacity-20"
+            className="py-2 px-5 lg:px-8 my-4  rounded-lg bg-gray-500  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 hover:bg-red-500 hover:bg-opacity-20"
           >
             <AccordionHeader
               style={{ border: "0" }}
               onClick={() => handleOpen(3)}
+            className="!text-lg"
             >
               What is the typical turnaround time for 3D modelling projects at Hey Buddy?
             </AccordionHeader>
@@ -139,11 +142,12 @@ const Faqsection = () => {
           <Accordion
             open={open === 8}
             icon={<Icon id={8} open={open} />}
-            className="py-2 lg:px-8 my-4  rounded-lg bg-gray-500  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 hover:bg-red-500 hover:bg-opacity-20"
+            className="py-2 px-5 lg:px-8 my-4  rounded-lg bg-gray-500  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 hover:bg-red-500 hover:bg-opacity-20"
           >
             <AccordionHeader
               style={{ border: "0" }}
               onClick={() => handleOpen(8)}
+            className="!text-lg"
             >
               What is Unity 3D development, and how can it benefit my gaming or interactive project?
             </AccordionHeader>
@@ -157,11 +161,12 @@ const Faqsection = () => {
           <Accordion
             open={open === 4}
             icon={<Icon id={4} open={open} />}
-            className="py-2 lg:px-8 my-4  rounded-lg bg-gray-500  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 hover:bg-red-500 hover:bg-opacity-20"
+            className="py-2 px-5 lg:px-8 my-4  rounded-lg bg-gray-500  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 hover:bg-red-500 hover:bg-opacity-20"
           >
             <AccordionHeader
               style={{ border: "0" }}
               onClick={() => handleOpen(4)}
+            className="!text-lg"
             >
               Can clients provide input during the 3D modelling process, and how is feedback handled?
             </AccordionHeader>
@@ -173,11 +178,12 @@ const Faqsection = () => {
           <Accordion
             open={open === 5}
             icon={<Icon id={5} open={open} />}
-            className="py-2 lg:px-8 my-4  rounded-lg bg-gray-500  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 hover:bg-red-500 hover:bg-opacity-20"
+            className="py-2 px-5 lg:px-8 my-4  rounded-lg bg-gray-500  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 hover:bg-red-500 hover:bg-opacity-20"
           >
             <AccordionHeader
               style={{ border: "0" }}
               onClick={() => handleOpen(5)}
+            className="!text-lg"
             >
               What sets Hey Buddy apart from other 3D modelling service providers?
             </AccordionHeader>
@@ -190,11 +196,12 @@ const Faqsection = () => {
           <Accordion
             open={open === 7}
             icon={<Icon id={7} open={open} />}
-            className="py-2 lg:px-8 my-4  rounded-lg bg-gray-500  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 hover:bg-red-500 hover:bg-opacity-20"
+            className="py-2 px-5 lg:px-8 my-4  rounded-lg bg-gray-500  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 hover:bg-red-500 hover:bg-opacity-20"
           >
             <AccordionHeader
               style={{ border: "0" }}
               onClick={() => handleOpen(7)}
+            className="!text-lg"
             >
               Does Hey Buddy provide Unity 3D development services, and what types of projects can be developed using Unity?
             </AccordionHeader>
@@ -207,11 +214,12 @@ const Faqsection = () => {
           <Accordion
             open={open === 6}
             icon={<Icon id={6} open={open} />}
-            className="py-2 lg:px-8 my-4  rounded-lg bg-gray-500  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 hover:bg-red-500 hover:bg-opacity-20"
+            className="py-2 px-5 lg:px-8 my-4  rounded-lg bg-gray-500  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 hover:bg-red-500 hover:bg-opacity-20"
           >
             <AccordionHeader
               style={{ border: "0" }}
               onClick={() => handleOpen(6)}
+            className="!text-lg"
             >
               What is hard surface modelling, and how does it differ from other 3D modelling techniques?
             </AccordionHeader>
