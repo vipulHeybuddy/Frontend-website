@@ -69,44 +69,44 @@ const Sliderclient = () => {
   }, []);
 
 
-    const List = [
-        {
-          id: "1",
-          heading: "Custom Product Planning and Inventory Management Software",
-          imgurl: "",
-          para: "Our client, a leading manufacturing company, faced inefficiencies in production planning and inventory management. We developed a custom software to optimize production schedules and automate inventory tracking for our client. The results were astonishing.",
-        },
-        {
-          id: "2",
-          heading: "Custom Patient Data Management Software for Leading Healthcare Providers",
-          imgurl: "",
-          para: "One of our healthcare provider clients needed a secure and compliant patient data management system to ensure better confidentiality and security and to streamline their operations. We developed the required software solution with robust security features, ensuring HIPAA compliance.",
-        },
-        {
-          id: "3",
-          heading: "Feature-packed, User-friendly E-commerce Solution",
-          imgurl: "",
-          para: "An e-commerce startup sought a scalable platform to handle rapid growth and a diverse product range. We developed a customized e-commerce solution with advanced features and a user-friendly interface for efficient catalog management and order processing.",
-        },
-        {
-          id: "4",
-          heading: "Visually-High Gaming Demand Met with Innovative Custom Solutions",
-          imgurl: "",
-          para: "Our partners, a renowned gaming studio, faced challenges in creating an immersive multiplayer online game with complex graphics and interactive features. The solution required a special focus on the visuals of the game.",
-        },
-        {
-          id: "5",
-          heading: "Success Stories With Hey Buddy Customer Software Solutions",
-          imgurl: "",
-          para: "Hey Buddy is a leading custom software development company. We have multiple success stories to share. After all, our custom software solutions have helped clients across industries and scales.",
-        },
-        // {
-        //   id: "6",
-        //   heading: "We Understand You",
-        //   imgurl: "",
-        //   para: "At Hey Buddy, We understand and offer exactly what you expect. Thanks to our vast experience of working with hundreds of clients over the years. ",
-        // },
-      ];
+    // const List = [
+    //     {
+    //       id: "1",
+    //       heading: "Custom Product Planning and Inventory Management Software",
+    //       imgurl: "",
+    //       para: "Our client, a leading manufacturing company, faced inefficiencies in production planning and inventory management. We developed a custom software to optimize production schedules and automate inventory tracking for our client. The results were astonishing.",
+    //     },
+    //     {
+    //       id: "2",
+    //       heading: "Custom Patient Data Management Software for Leading Healthcare Providers",
+    //       imgurl: "",
+    //       para: "One of our healthcare provider clients needed a secure and compliant patient data management system to ensure better confidentiality and security and to streamline their operations. We developed the required software solution with robust security features, ensuring HIPAA compliance.",
+    //     },
+    //     {
+    //       id: "3",
+    //       heading: "Feature-packed, User-friendly E-commerce Solution",
+    //       imgurl: "",
+    //       para: "An e-commerce startup sought a scalable platform to handle rapid growth and a diverse product range. We developed a customized e-commerce solution with advanced features and a user-friendly interface for efficient catalog management and order processing.",
+    //     },
+    //     {
+    //       id: "4",
+    //       heading: "Visually-High Gaming Demand Met with Innovative Custom Solutions",
+    //       imgurl: "",
+    //       para: "Our partners, a renowned gaming studio, faced challenges in creating an immersive multiplayer online game with complex graphics and interactive features. The solution required a special focus on the visuals of the game.",
+    //     },
+    //     {
+    //       id: "5",
+    //       heading: "Success Stories With Hey Buddy Customer Software Solutions",
+    //       imgurl: "",
+    //       para: "Hey Buddy is a leading custom software development company. We have multiple success stories to share. After all, our custom software solutions have helped clients across industries and scales.",
+    //     },
+    //     // {
+    //     //   id: "6",
+    //     //   heading: "We Understand You",
+    //     //   imgurl: "",
+    //     //   para: "At Hey Buddy, We understand and offer exactly what you expect. Thanks to our vast experience of working with hundreds of clients over the years. ",
+    //     // },
+    //   ];
  
         const settings = {
 
@@ -153,43 +153,45 @@ const Sliderclient = () => {
         };
 
   return (
-    <motion.div
-    ref={ref}
-    initial="hidden"
-    animate={controls}
-    variants={textAnimation1}
-    >
-         <div className="py-14">
+    <></>
+   
+    // <motion.div
+    // ref={ref}
+    // initial="hidden"
+    // animate={controls}
+    // variants={textAnimation1}
+    // >
+    //      <div className="py-14">
 
 
           
         
-        <Slider {...settings} >
+    //     <Slider {...settings} >
        
-        {List.map((section, index) => (
-            <div className="px-2">
+    //     {List.map((section, index) => (
+    //         <div className="px-2">
 
-          <figure style={{maxHeight: '45vh', overflow: 'auto' , height: '45vh'  }} class="flex flex-col p-4 lg:p-6  rounded-lg  h-full w-full bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20">
-            <blockquote class="  text-gray-400">
-              <h3
-                style={{ color: "white" }}
-                class="py-4 text-xl font-semibold  text-gray-500 "
-                >
-                {section.heading}
-              </h3>
+    //       <figure style={{maxHeight: '45vh', overflow: 'auto' , height: '45vh'  }} class="flex flex-col p-4 lg:p-6  rounded-lg  h-full w-full bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20">
+    //         <blockquote class="  text-gray-400">
+    //           <h3
+    //             style={{ color: "white" }}
+    //             class="py-4 text-xl font-semibold  text-gray-500 "
+    //             >
+    //             {section.heading}
+    //           </h3>
 
-              <p style={{ color: "white" , height:"25vh" }} className="text-left">
-                {section.para}
-              </p>
-            </blockquote>
-          </figure>
-                  </div>
-        ))}
+    //           <p style={{ color: "white" , height:"25vh" }} className="text-left">
+    //             {section.para}
+    //           </p>
+    //         </blockquote>
+    //       </figure>
+    //               </div>
+    //     ))}
          
-        </Slider>
+    //     </Slider>
 
-      </div>
-    </motion.div>
+    //   </div>
+    // </motion.div>
   )
 }
 

@@ -63,14 +63,13 @@ const Timelinecomp = () => {
       <div className="py-8 text-white">
 
         <h1 className="py-4 lg:w-[80%] text-2xl lg:text-4xl">
-        Our Technological Expertise is Reflected in Our Trendsetting Tech Stack
+        Our Refined Custom Software Development Process
+
 
         </h1>
-        {/* <p className="text-xl lg:text-2xl">
-          Over years of experience as a game app development company, we have
-          refined, streamlined and aligned our game development process to serve
-          you better.
-        </p> */}
+        <p className="text-xl lg:text-2xl">
+          Project after project, we've developed a sophisticated and meticulous process for our custom software development. We infuse innovation and precision into your projects while recognizing the significance of transparency and collaboration. our process reflects a commitment to clarity and excellence.
+        </p>
       </div>
 
       <div className="pb-24">
@@ -84,63 +83,44 @@ const Timelinecomp = () => {
             <div class="container text-white">
                 <ul>
                     <li>
-                        <h3 className="font-bold text-2xl heading heading">Technologies</h3>
+                        <h3 className="font-bold text-2xl heading heading">Understanding Requirements</h3>
                         <p>
                     
 
-                              Cloud Computing,
-                              Internet of Things (IoT),
-                              Artificial Intelligence (AI),
-                              Augmented Reality (AR) / Virtual Reality (VR),
-                              Blockchain
+                        We start with deep diving into project goals and your expectations. The practice of clear communication starts right here as align our strategies with your vision
 
                         </p>
                       
                        
                     </li>
                     <li>
-                        <h3 className="font-bold text-2xl heading heading">Tools</h3>
-                        <p>Git,
-                            Jira,
-                            Docker,
-                            Jenkins,
-                            Selenium,
+                        <h3 className="font-bold text-2xl heading heading">Planning and Strategy</h3>
+                        <p>We transform concepts into a detailed plan, delineating project scope, timelines, and milestones. It sets the project’s future roadmap and ensures transparency.
                          </p>
                        
                        
                     </li>
                     <li>
-                        <h3 className=" font-bold text-2xl headingheading">Platforms</h3>
-                        <p>AWS (Amazon Web Services),
-                            Microsoft Azure,
-                            Google Cloud Platform,
-                            Heroku,
-                            IBM Cloud,
+                        <h3 className=" font-bold text-2xl headingheading">Development and Implementation</h3>
+                        <p>We use the latest tools and technologies to deliver high-quality custom software solutions that meet your functional requirements and exceed visual expectations.
                             </p>
                      
                        
                     </li>
                     <li>
-                        <h3 className="font-bold text-2xl heading heading">Programming Languages</h3>
+                        <h3 className="font-bold text-2xl heading heading">Client Collaboration and Iterations</h3>
                         <p>
-                        Java,
-                        Python,
-                        JavaScript,
-                        C#,
-                        Ruby,
+                        We actively and continually seek your insights and feedback to bring about the project's evolution and ensure your satisfaction with the result.
 
                         </p>
                        
                         
                     </li>
                     <li>
-                        <h3 className=" font-bold text-2xl heading heading">Frameworks</h3>
+                        <h3 className=" font-bold text-2xl heading heading">Quality Assurance</h3>
                         <p>
-                        Django,
-                        Ruby on Rails,
-                        Angular,
-                        React,
-                        Laravel,
+                        Our custom software undergoes meticulous quality checks to ensure that the software meets the highest standards and is a polished and error-free solution.
+
 
 
                         </p>
@@ -148,46 +128,16 @@ const Timelinecomp = () => {
                       
                     </li>
                     <li>
-                        <h3 className=" font-bold text-2xl heading heading">Databases</h3>
+                        <h3 className=" font-bold text-2xl heading heading">Timely Delivery</h3>
                         <p>
-                        MySQL,
-                        PostgreSQL,
-                        MongoDB,
-                        Oracle,
-                        Microsoft SQL Server,
+                        Committed to punctuality, we adhere to strict timelines with our reliable development process and professionalism as the cornerstones of your project's success.
 
 
                         </p>
                       
                     </li>
-                    <li>
-                        <h3 className="font-bold text-2xl heading heading">Development Methodologies</h3>
-                        <p>
-                        Agile,
-                        Scrum,
-                        DevOps,
-                        Waterfall,
-                        Kanban,
-
-
-                        </p>
-                       
-             
-                    </li>
-                    <li>
-                        <h3 className=" font-bold text-2xl heading heading">Mobile Development</h3>
-                        <p>
-                        Flutter,
-                        React Native,
-                        Swift,
-                        Kotlin,
-                        Xamarin,
-
-
-                        </p>
-                       
-                      
-                    </li>
+                   
+                    
                 </ul>
             </div>
         </div>

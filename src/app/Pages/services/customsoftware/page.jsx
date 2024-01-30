@@ -14,8 +14,36 @@ import { motion, useAnimation } from "framer-motion";
 import Herosection from "@/components/servicescomp/customsoftwarecomp/Section1";
 import Bottomclient from "@/components/servicescomp/customsoftwarecomp/Section9";
 import Section7 from "@/components/servicescomp/customsoftwarecomp/Section7";
+import { Button } from "@material-tailwind/react";
 
 const page = () => {
+  const [isHovered, setIsHovered] = useState(false);
+
+
+  const textContainerStyle = {
+    marginBottom: "30%",
+    // position: "sticky",
+    left: "50%",
+   
+    // zIndex: 2,
+    color: "#fff",
+    textAlign: "center",
+    top: "30%",
+    paddingTop: '9rem',
+  };
+  const buttonHeader = {
+    border: isHovered ? "0px" : "1px solid white",
+    background: isHovered
+      ? "linear-gradient(180deg, color(display-p3 0.2471 0.5412 0.8863) 0%, color(display-p3 0.137 0.3826 0.6708) 100%)"
+      : "transparent",
+    color: isHovered ? "white" : "white", // Change the text color as needed
+    padding: "10px 20px",
+    fontSize: "16px",
+    transition: "background-color 0.3s, transform 0.3s",
+    cursor: "pointer",
+    transform: isHovered ? "scale(1.1)" : "scale(1)",
+  };
+
 
 
   const controls = useAnimation();
@@ -274,6 +302,20 @@ const page = () => {
           <div> 
             <Motionslide />
           </div>
+
+          {/* between sectin 3 and 4 */}
+
+          <div style={textContainerStyle}>
+          <h1 style={{ fontSize: "2rem" }}>Your Search For the Right Custom Software Solution Ends Here. </h1>
+          
+          <Button
+            style={buttonHeader}
+            onMouseEnter={() => setIsHovered(true)}
+            onMouseLeave={() => setIsHovered(false)}
+          >
+            Let’s Get it Done
+          </Button>
+        </div>
 
        
 

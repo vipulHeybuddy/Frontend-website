@@ -6,8 +6,9 @@ import classnames from "classnames";
 import "../../../styles/slide.css";
 
 const images = [0, 1, 2, 3, 4 , 5 , 6];
-const texts = [
-  {
+const texts = 
+[
+        {
           title: "Game Development",
           description:
             "From casual mobile gaming to console adventure, we create all here.",

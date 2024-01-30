@@ -99,7 +99,7 @@ const Herosection = () => {
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
           >
-            Consult Our Experts
+            Connect With Us
           </Button>
         </div>
         <div style={imageContainerStyle}>
