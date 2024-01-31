@@ -47,7 +47,7 @@ const Pagenation = () => {
   const [selectedTab, setSelectedTab] = useTabs([
     "Platforms",
     "ARVRPlatforms",
-    "MetaveersePlatforms",
+    "MetaversePlatforms",
     "GameEngines",
     "Languages",
     "ArtificalIntelligence(AI)",
