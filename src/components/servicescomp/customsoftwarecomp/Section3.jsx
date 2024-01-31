@@ -41,7 +41,8 @@ const texts = [
     title: "Security and Assurance",
     description:
       "Protecting your systems and data from evolving cyber threats. Get rigorous testing services to ensure the reliability of your software. Moreover, get ongoing assistance, updates, and troubleshooting for uninterrupted operations. Cyber Security Services Quality Testing And Assurance Services Maintenance and Support",
-  },
+    img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.png",
+    },
   {
     title: "Emerging Technologies",
     description:
@@ -105,11 +106,11 @@ const Motionslide = () => {
     <div className="app">
       <div className="py-8 text-white">
         <div className="text-content lg:w-[80%]">
-          <h1 className="py-4 text-2xl lg:text-4xl">
+          <h1 className="py-4 text-2xl lg:text-3xl">
             Our Custom Software Development Services For Every Business
             Challenge
           </h1>
-          <p className="text-xl lg:text-2xl">
+          <p className="text-base md:text-lg">
             Hey Buddy is one of the leading tech solution providers. Our large
             team of talented and experienced software developer develop
             solutions for every business need.
