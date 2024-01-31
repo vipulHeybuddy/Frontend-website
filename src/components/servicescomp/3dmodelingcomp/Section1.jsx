@@ -90,8 +90,8 @@ const Herosection = () => {
     <>
       <div style={containerStyle}>
         <div style={textContainerStyle}>
-          <h1 style={{ fontSize: "3rem" }}>Get Top-notch Renders with Our Leading 3D</h1>
-          <h1 style={{ fontSize: "3rem" }}>
+          <h1 className=" text-3xl md:text-5xl">Get Top-notch Renders with Our Leading 3D</h1>
+          <h1 className=" text-3xl md:text-5xl">
           Modelling Services 
           </h1>
           <Button
@@ -121,7 +121,7 @@ const Herosection = () => {
             initial="hidden"
             animate={controls}
             variants={textAnimation1}
-            className="py-8 text-xl text-white "
+            className="py-8 text-base lg:text-xl text-white "
           >
             <p>
             Hey Buddy, India’s leading 3D modelling services provider offers high-quality 3D models specific to your project needs at the right time, and at a reasonable cost.

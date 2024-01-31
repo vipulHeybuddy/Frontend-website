@@ -85,7 +85,7 @@ const Timelinecomp = () => {
         <h1 className="py-4 lg:w-[80%] text-2xl lg:text-4xl">
         Our Streamlined 3D Development Process
         </h1>
-        <p className="text-xl lg:text-2xl">
+        <p className=" text-base md:text-lg lg:text-2xl">
         Project after project, we have refined our 3D development process to deliver creativity and innovation to your project. We understand the importance of a transparent and collaborative workflow, which is reflected in our process.
         </p>
       </div>

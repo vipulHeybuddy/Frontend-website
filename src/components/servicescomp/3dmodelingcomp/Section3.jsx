@@ -111,7 +111,7 @@ const Motionslide = () => {
       <div className="h-fit relative lg:bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev3.png')] bg-fixed bg-bottom ">
         <section className="work  hidden lg:flex flex-row justify-between">
           <div className="work__left">
-            <div className="work__text">
+            <div className="work__text flex flex-col items-center">
               {texts.map((text, index) => (
                 <WorkItem
                   key={index}
@@ -123,7 +123,7 @@ const Motionslide = () => {
           </div>
           <div className="work__right">
             <div className="work__right-b1">
-              <div className="work__photo">
+              <div className="work__photo flex flex-col items-center">
                 <PhotoItem
                   title="1"
                   imgSrc={

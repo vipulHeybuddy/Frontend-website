@@ -98,14 +98,14 @@ const Bottomclient = () => {
       <h1 className="py-4 lg:w-[80%] text-2xl lg:text-4xl">
         How Clients Rate Our 3D Modeling Services
       </h1>
-      <p className="text-xl lg:text-2xl">
+      <p className=" text-base md:text-lg lg:text-2xl">
         Feature testimonials from satisfied clients who have utilised your game
         development services. Include their feedback on your professionalism,
         creativity, and the quality of your work.
       </p>
-      <div class=" lg:py-12  grid mx-auto text-center justify-center rounded-xl shadow-sm sm:grid-1 md:mb-12 md:grid-cols-2 lg:grid-cols-3 gap-y-4 gap-x-4">
+      <div class=" pt-5 lg:py-12  grid mx-auto text-center justify-center rounded-xl shadow-sm sm:grid-1 md:mb-12 md:grid-cols-2 lg:grid-cols-3 gap-y-4 gap-x-4">
         {clientcardData.map((section, index) => (
-          <figure class="flex flex-col justify-between  p-2 lg:p-6 border-2  border-gray-500 rounded-lg  h-full w-full bg-gray-900  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20 hover:bg-yellow-600 hover:bg-opacity-30">
+          <figure class="flex flex-col justify-between  p-4 lg:p-6 border-2  border-gray-500 rounded-lg  h-full w-full bg-gray-900  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20 hover:bg-yellow-600 hover:bg-opacity-30">
             <blockquote class=" text-gray-400 flex flex-col justify-between h-full">
               <p  className="text-left text-white">
                 {section.content}
