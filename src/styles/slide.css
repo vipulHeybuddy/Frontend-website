@@ -112,19 +112,12 @@ body {
 }
 
 .work__info {
-  height: 100vh;
+  height: 100vh !important;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-
-
-.title .stroke {
-  display: block;
-  color: transparent;
-  -webkit-text-stroke: 1px var(--pr-color);
-}
 
 .work__right {
   width: 46%;

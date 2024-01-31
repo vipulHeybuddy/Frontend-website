@@ -88,7 +88,9 @@ const Pagenation = () => {
         </TabSelector>
         <TabSelector
           isActive={selectedTab === "MetaversePlatforms"}
-          onClick={() => setSelectedTab("MetaveersePlatforms")}
+
+          onClick={() => setSelectedTab("MetaversePlatforms")}
+
         >
           Metaverse Platformss
         </TabSelector>

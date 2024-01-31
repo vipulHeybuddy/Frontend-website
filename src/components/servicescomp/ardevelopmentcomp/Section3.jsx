@@ -1,91 +1,73 @@
-'use client';
+"use client";
 
-import { useLayoutEffect, useState } from "react";
+import { useEffect, useLayoutEffect, useState } from "react";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 // import { render } from "react-dom";
 import classnames from "classnames";
-import "../../../styles/slide2.css";
+import "../../../styles/slide.css";
+import GamedevCard from "../gamedevelopmentcomp/GamedevCard";
+import PhotoItem from "../gamedevelopmentcomp/PhotoItem";
+import WorkItem from "../gamedevelopmentcomp/WorkItem";
 
 const images = [0, 1, 2, 3];
 const texts = [
   {
-          title: "Game Development",
-          description:
-            "From casual mobile gaming to console adventure, we create all here.",
-         
-        },
-        {
-          title: "Immersive Retail Experience with AR Tryon for Fashion Enthusiasts",
-          description:
-            "Our client, a fashion retailers, aimed to enhance the shopping experience of their online shoppers. They knew the power of immersive AR experience. Hence, they wanted to offer their customers AR-based virtual try-on experiences for their clothing collection. So before making a purchase, users get a better idea of the product and make faster purchases. AR tryons are also known to reduce returns by up to 40% and increase customer satisfaction.Hey Buddy designed a custom AR application for the fashion retailer. The application allowed users to visualize how different clothing would look on them in real-time. The AR fitting room enhanced user engagement and increased conversion rates by 20%.",
-         
-        },
-        {
-          title: "Interactive Educational Tools for Faster and Better Learning",
-          description:
-            "Our client, an educational learning solution provider wanted to revolutionize its educational materials by incorporating augmented reality. They wanted to improve the learning experience and achieve better outcomes. Along with that, they sought interactive and engaging tools to make complex subjects more accessible to students. Hey Buddy developed AR-based educational modules that brought textbooks to life. And the results were astonishing. With interactive learning, students could explore 3D models of complex concepts. This led to a 25% increase in engagement and a better understanding of the same. As well, students could conduct virtual experiments, and explore the concepts from different perspectives for a complete understanding",
-         
-        },
-        {
-          title: "AR-Enabled Gamified Marketing Campaign for Cosmetics Products",
-          description:
-            "Nothing can beat gamified software solutions when it comes to marketing. One of our clients wanted to use this potential of AR experiences and run a memorable marketing campaign to promote their latest cosmetic product launch. They collaborated with multiple AR development companies but could not get the desired outcome. Hey Buddy devised an amazing gamified AR-driven marketing campaign. Users can scan product images in print advertisements and instantly access interactive games where they can apply and try different cosmetic products, try different looks, including some inspired by popular fantasies. As expected, the campaign generated huge buzz with a phenomenal 40% increase in traffic and unmatched positive social media engagement.",
-         
-        },
-        // {
-        //   title: "APP Development",
-        //   description:
-        //     "From casual mobile gaming to console adventure, we create all here.",
-          
-        // },
-        // {
-        //   title: "VR Training & Simulation",
-        //   description:
-        //     "From casual mobile gaming to console adventure, we create all here.",
-         
-        // },
-        // {
-        //   title: "Web3 Development",
-        //   description:
-        //     "From casual mobile gaming to console adventure, we create all here.",
-          
-        // },
+    title: "Immersive VR Application Development",
+    description:
+      "Leverage our extensive experience in VR development. Get the best solution for your specific business and industry needs as our VR experts use cutting-edge technology.",
+    img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.png",
+  },
+  {
+    title: "Immersive VR Application Development",
+    description:
+      "We craft captivating virtual reality applications across diverse platforms. Be assured of a seamless and immersive user experience that aligns with your specific requirements.",
+    img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg",
+  },
+  {
+    title: "Engaging VR Game Development",
+    description:
+      "We have a dedicated team of game-crazy expert developers. They deliver complete virtual reality games with innovation, creativity, and cross-platform compatibility.",
+    img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds2.jpg",
+  },
+  {
+    title: "Metaverse VR Development Services",
+    description:
+      "Discover the metaverse like never before with Hey Buddy's expert touch. Get tailored solutions for Roblox adventures to redefine social connections in Sansar.",
+    img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds3.jpg",
+  },
 ];
 
 const Motionslide = () => {
-  const [visibleImagesMap, setVisibleImagesMap] = useState(
-    images.reduce((map, image) => {
-      map[image] = false;
-      return map;
-    }, {})
+  useEffect(() => {
+    gsap.registerPlugin(ScrollTrigger);
 
-  );
+    let workInfoItems = document.querySelectorAll(".work__photo-item");
+    workInfoItems.forEach(function (item, index) {
+      item.style.zIndex = workInfoItems.length - index;
+    });
 
-  const [currentText, setCurrentText] = useState(null);
+    gsap.set(".work__photo-item", {
+      clipPath: function () {
+        return "inset(0px 0px 0px 0px)";
+      },
+    });
 
+    const animation = gsap.to(".work__photo-item:not(:last-child)", {
+      clipPath: function () {
+        return "inset(0px 0px 100% 0px)";
+      },
+      stagger: 0.5,
+      ease: "none",
+    });
 
-  useLayoutEffect(() => {
-    const handleScroll = () => {
-      const scrollTop = document.documentElement.scrollTop;
-      const viewportHeight = window.innerHeight*2;
-
-      const newVisibleImagesMap = images.reduce((map, image) => {
-        map[image] = scrollTop >= image * viewportHeight;
-        return map;
-      }, {});
-
-      setVisibleImagesMap(newVisibleImagesMap);
-
-    // Find the index of the currently visible image
-    const currentImageIndex = Math.floor(scrollTop / viewportHeight);
-
-    // Update the current text based on the currently visible image
-    setCurrentText(texts[currentImageIndex]?.title);
-    };
-
-    window.addEventListener("scroll", handleScroll);
-    handleScroll();
-
-    return () => window.removeEventListener("scroll", handleScroll);
+    ScrollTrigger.create({
+      trigger: ".work",
+      start: "top top",
+      end: "bottom bottom",
+      animation: animation,
+      scrub: 1,
+    });
   }, []);
 
   return (
@@ -93,33 +75,74 @@ const Motionslide = () => {
       <div className="py-8 text-white">
         <div className="text-content lg:w-[80%]">
           <h1 className="py-4 text-2xl lg:text-4xl">
-          Success Stories with Hey Buddy AR Software Solutions
+            Success Stories with Hey Buddy AR Software Solutions
           </h1>
           <p className="text-xl lg:text-2xl">
-          Hey Buddy maintains leadership amongst AR development companies. All credit to its team of high-skilled AR professionals, streamlined development process, and client-centric approach. We have delivered various disruptive AR development solutions that helped our clients reach new success levels.
-
+            Hey Buddy maintains leadership amongst AR development companies. All
+            credit to its team of high-skilled AR professionals, streamlined
+            development process, and client-centric approach. We have delivered
+            various disruptive AR development solutions that helped our clients
+            reach new success levels.
           </p>
         </div>
       </div>
-      <div className="sticky">
-        <div className="frame bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev3.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
-          {images.map((image, index) => (
-            <div key={image} className={`image-container ${index % 2 === 0 ? 'image-left' : 'image-right'}`}>
-              {currentText && (
-                <div className="text">{currentText}</div>
-              )}
-              <div
-                className={classnames("image", `image_${image}`, {
-                  image_visible: visibleImagesMap[image],
-                })}
-              />
+      <div className="h-fit relative bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev3.png')] bg-fixed bg-bottom ">
+        <section className="work  hidden lg:flex flex-row justify-between">
+          <div className="work__left">
+            <div className="work__text">
+              {texts.map((text, index) => (
+                <WorkItem
+                  key={index}
+                  title={text.title}
+                  description={text.description}
+                />
+              ))}
             </div>
+          </div>
+          <div className="work__right">
+            <div className="work__right-b1">
+              <div className="work__photo">
+                <PhotoItem
+                  title="1"
+                  imgSrc={
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.png"
+                  }
+                />
+                <PhotoItem
+                  title="2"
+                  imgSrc={
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg"
+                  }
+                />
+                <PhotoItem
+                  title="3"
+                  imgSrc={
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds2.jpg"
+                  }
+                />
+                <PhotoItem
+                  title="4"
+                  imgSrc={
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds3.jpg"
+                  }
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="flex flex-col gap-10 lg:hidden">
+          {texts.map((text, index) => (
+            <GamedevCard
+              key={index}
+              imageUrl={text.img}
+              description={text.description}
+              title={text.title}
+            />
           ))}
-        </div>
+        </section>
       </div>
     </div>
   );
-  
 };
 
 export default Motionslide;

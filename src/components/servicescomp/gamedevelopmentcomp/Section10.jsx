@@ -91,11 +91,12 @@ const Faqsection = () => {
           <Accordion
             open={open === 1}
             icon={<Icon id={1} open={open} />}
-            className="py-2 lg:px-8 my-4  rounded-lg bg-gray-500  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 hover:bg-red-500 hover:bg-opacity-20"
+            className="py-2 px-5 lg:px-8 my-4  rounded-lg bg-gray-500  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 hover:bg-red-500 hover:bg-opacity-20"
           >
             <AccordionHeader
               style={{ border: "0" }}
               onClick={() => handleOpen(1)}
+              className="!text-lg"
             >
               Is Hey Buddy a game development company in India?
 
@@ -109,11 +110,12 @@ const Faqsection = () => {
           <Accordion
             open={open === 2}
             icon={<Icon id={2} open={open} />}
-            className="py-2 lg:px-8 my-4  rounded-lg bg-gray-500  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 hover:bg-red-500 hover:bg-opacity-20"
+            className="py-2 px-5 lg:px-8 my-4  rounded-lg bg-gray-500  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 hover:bg-red-500 hover:bg-opacity-20"
           >
             <AccordionHeader
               style={{ border: "0" }}
               onClick={() => handleOpen(2)}
+              className="!text-lg"
             >
               Does Hey Buddy specialize in metaverse game development?
 
@@ -127,11 +129,12 @@ const Faqsection = () => {
           <Accordion
             open={open === 3}
             icon={<Icon id={3} open={open} />}
-            className="py-2 lg:px-8 my-4  rounded-lg bg-gray-500  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 hover:bg-red-500 hover:bg-opacity-20"
+            className="py-2 px-5 lg:px-8 my-4  rounded-lg bg-gray-500  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 hover:bg-red-500 hover:bg-opacity-20"
           >
             <AccordionHeader
               style={{ border: "0" }}
               onClick={() => handleOpen(3)}
+              className="!text-lg"
             >
               Is Hey Buddy a mobile game development company?
 
@@ -146,11 +149,12 @@ const Faqsection = () => {
           <Accordion
             open={open === 4}
             icon={<Icon id={4} open={open} />}
-            className="py-2 lg:px-8 my-4  rounded-lg bg-gray-500  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 hover:bg-red-500 hover:bg-opacity-20"
+            className="py-2 px-5 lg:px-8 my-4  rounded-lg bg-gray-500  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 hover:bg-red-500 hover:bg-opacity-20"
           >
             <AccordionHeader
               style={{ border: "0" }}
               onClick={() => handleOpen(4)}
+              className="!text-lg"
             >
                Is Hey Buddy a Unity game development company?
 
@@ -164,11 +168,12 @@ const Faqsection = () => {
           <Accordion
             open={open === 5}
             icon={<Icon id={5} open={open} />}
-            className="py-2 lg:px-8 my-4  rounded-lg bg-gray-500  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 hover:bg-red-500 hover:bg-opacity-20"
+            className="py-2 px-5 lg:px-8 my-4  rounded-lg bg-gray-500  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 hover:bg-red-500 hover:bg-opacity-20"
           >
             <AccordionHeader
               style={{ border: "0" }}
               onClick={() => handleOpen(5)}
+              className="!text-lg"
             >
                 Can Hey Buddy be considered a game app development company?
 
@@ -181,11 +186,12 @@ const Faqsection = () => {
           <Accordion
             open={open === 6}
             icon={<Icon id={6} open={open} />}
-            className="py-2 lg:px-8 my-4  rounded-lg bg-gray-500  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 hover:bg-red-500 hover:bg-opacity-20"
+            className="py-2 px-5 lg:px-8 my-4  rounded-lg bg-gray-500  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 hover:bg-red-500 hover:bg-opacity-20"
           >
             <AccordionHeader
               style={{ border: "0" }}
               onClick={() => handleOpen(6)}
+              className="!text-lg"
             >
               
               Is Hey Buddy a Unreal game development company?
