@@ -77,7 +77,7 @@ const Motionslide = () => {
           <h1 className="py-4 text-2xl lg:text-4xl">
             Success Stories with Hey Buddy AR Software Solutions
           </h1>
-          <p className="text-xl lg:text-2xl">
+          <p className=" text-base md:text-xl lg:text-2xl">
             Hey Buddy maintains leadership amongst AR development companies. All
             credit to its team of high-skilled AR professionals, streamlined
             development process, and client-centric approach. We have delivered

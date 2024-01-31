@@ -40,7 +40,6 @@ const Herosection = () => {
   };
 
   const containerStyle = {
-    padding: "20px",
     position: "sticky",
   };
 
@@ -88,10 +87,10 @@ const Herosection = () => {
 
   return (
     <>
-      <div style={containerStyle}>
+      <div style={containerStyle} className=" md:p-5">
         <div style={textContainerStyle}>
-          <h1 style={{ fontSize: "3rem" }}>Hey Buddy: </h1>
-          <h1 style={{ fontSize: "3rem" }}>
+          <h1 className=" text-3xl md:text-5xl">Hey Buddy: </h1>
+          <h1 className=" text-3xl md:text-5xl">
           Your Trusted Experts for Augmented Reality Services 
           </h1>
           <Button
@@ -121,7 +120,7 @@ const Herosection = () => {
             initial="hidden"
             animate={controls}
             variants={textAnimation1}
-            className="py-8 text-xl, text-white "
+            className="py-8 text-base md:text-lg lg:text-xl text-white "
           >
             <p>
             Hey Buddy is the leading Augmented Reality or AR development company in India and the US. Our dedicated team of AR experts consistently delivers innovative and creative projects within specified timelines.<br/>

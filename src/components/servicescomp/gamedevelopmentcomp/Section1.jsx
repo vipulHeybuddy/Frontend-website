@@ -89,8 +89,8 @@ const Herosection = () => {
     <>
       <div style={containerStyle} className="p-0 md:p-5">
         <div style={textContainerStyle}>
-          <h1  className=" text-4xl md:text-5xl">Level up With AI:</h1>
-          <h1 className=" text-4xl md:text-5xl" >
+          <h1  className=" text-3xl md:text-5xl">Level up With AI:</h1>
+          <h1 className=" text-3xl md:text-5xl" >
           Best Game Development Company in India
           </h1>
           <Link href="/Pages/Contactus">
