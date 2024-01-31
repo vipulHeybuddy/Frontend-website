@@ -12,6 +12,8 @@ const Page = () => {
   const [email, setEmail] = useState('');
   const [phoneNumber, setPhoneNumber] = useState('');
   const [message, setMessage] = useState('');
+  const [isSubmitting, setIsSubmitting] = useState(false); // New state for button disabling
+
 
 
 
@@ -21,6 +23,7 @@ const Page = () => {
     const apiEndpoint = 'https://api.heybuddy.co.in/contact';
 
     try {
+      setIsSubmitting(true); // Disable the submit button
       const response = await fetch(apiEndpoint, {
         method: 'POST',
         headers: {
@@ -61,6 +64,9 @@ const Page = () => {
       console.error('Error during form submission:', error.message);
       // Handle the error as needed
     }
+   finally {
+    setIsSubmitting(false); // Enable the submit button regardless of success or failure
+  }
   };
   return (
     <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Ellipse8.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
@@ -125,8 +131,8 @@ const Page = () => {
           </div>
 
           <div>
-            <button type="submit" className="submit-button">
-              Submit
+          <button type="submit" className="submit-button" disabled={isSubmitting}>
+              {isSubmitting ? 'Submitting...' : 'Submit'}
             </button>
           </div>
         </form>

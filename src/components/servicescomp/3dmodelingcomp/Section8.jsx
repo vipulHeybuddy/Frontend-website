@@ -1,12 +1,28 @@
 "use client";
 
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { TabPanel, useTabs } from "react-headless-tabs";
 import { TabSelector } from "./TabSelector";
 import Image from "next/image";
 import { motion, useAnimation } from "framer-motion";
+import { Button } from "@material-tailwind/react";
 
 const Pagenation = () => {
+  const [isHovered, setIsHovered] = useState(false);
+  const buttonHeader = {
+    border: isHovered ? "0px" : "1px solid white",
+    background: isHovered
+    
+      ? "linear-gradient(180deg, color(display-p3 0.2471 0.5412 0.8863) 0%, color(display-p3 0.137 0.3826 0.6708) 100%)"
+      : "transparent",
+    color: isHovered ? "white" : "white", // Change the text color as needed
+    padding: "10px 20px",
+    fontSize: "16px",
+    transition: "background-color 0.3s, transform 0.3s",
+    cursor: "pointer",
+    transform: isHovered ? "scale(1.1)" : "scale(1)",
+  };
+
  
   const controls = useAnimation();
   const ref = useRef();
@@ -481,7 +497,7 @@ const Pagenation = () => {
     Creative, Customised, and Cost-effective VR development software services with Hey Budy.
     </h1>
     <Button
-      style={buttonHeader}
+      // style={buttonHeader}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
