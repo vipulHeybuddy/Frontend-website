@@ -97,7 +97,7 @@ const Bottomclient = () => {
         <h1 className="py-4 lg:w-[80%] text-2xl lg:text-4xl">
         How Clients Rate Our Game Development Services
             </h1>
-            <p className="text-xl lg:text-2xl">
+            <p className="text-base lg:text-2xl mb-3">
             Hey Buddy boasts of a long list of satisfied customers. Here is what they have to say about us
             </p>
             <div class=" lg:py-12  grid mx-auto rounded-xl shadow-sm sm:grid-1 md:mb-12 md:grid-cols-2 lg:grid-cols-3 gap-y-4 gap-x-4">
