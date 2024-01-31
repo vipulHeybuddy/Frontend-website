@@ -138,7 +138,7 @@ const Timelinecomp = () => {
         <h1 className="py-4 lg:w-[80%] text-2xl lg:text-4xl">
           Our Refined VR Development Process
         </h1>
-        <p className="text-xl lg:text-lg">
+        <p className="text-base lg:text-lg">
           Our VR development process has evolved with every project in favor of
           client-centricity, and user experience. We not only realize your
           vision but ensure your complete satisfaction with transparency,
