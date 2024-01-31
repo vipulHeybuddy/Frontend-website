@@ -83,7 +83,7 @@ const Faqsection = () => {
       variants={textAnimation1}
     >
       <div>
-        <h1 className="py-4 lg:w-[80%] text-2xl lg:text-4xl">FAQs</h1>
+        <h1 style={{color: 'white'}} className="py-4 lg:w-[80%] text-2xl lg:text-4xl">FAQs</h1>
       </div>
 
       <div className="pb-14 grid text-white sm:grid-1 md:mb-12 md:grid-cols-2 lg:grid-cols-2 gap-y-4  gap-x-4">
@@ -91,11 +91,12 @@ const Faqsection = () => {
           <Accordion
             open={open === 1}
             icon={<Icon id={1} open={open} />}
-            className="py-2 lg:px-8 my-4  rounded-lg bg-gray-500  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 hover:bg-red-500 hover:bg-opacity-20"
+            className="py-2 px-5 lg:px-8 my-4  rounded-lg bg-gray-500  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 hover:bg-red-500 hover:bg-opacity-20"
           >
             <AccordionHeader
               style={{ border: "0" }}
               onClick={() => handleOpen(1)}
+            className="!text-lg"
             >
              What are Augmented Reality development services?
 
@@ -109,11 +110,12 @@ const Faqsection = () => {
           <Accordion
             open={open === 2}
             icon={<Icon id={2} open={open} />}
-            className="py-2 lg:px-8 my-4  rounded-lg bg-gray-500  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 hover:bg-red-500 hover:bg-opacity-20"
+            className="py-2 px-5 lg:px-8 my-4  rounded-lg bg-gray-500  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 hover:bg-red-500 hover:bg-opacity-20"
           >
             <AccordionHeader
               style={{ border: "0" }}
               onClick={() => handleOpen(2)}
+            className="!text-lg"
             >
               What kind of Augmented Reality services do you offer?
             </AccordionHeader>
@@ -126,11 +128,12 @@ const Faqsection = () => {
           <Accordion
             open={open === 3}
             icon={<Icon id={3} open={open} />}
-            className="py-2 lg:px-8 my-4  rounded-lg bg-gray-500  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 hover:bg-red-500 hover:bg-opacity-20"
+            className="py-2 px-5 lg:px-8 my-4  rounded-lg bg-gray-500  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 hover:bg-red-500 hover:bg-opacity-20"
           >
             <AccordionHeader
               style={{ border: "0" }}
               onClick={() => handleOpen(3)}
+            className="!text-lg"
             >
              What platforms do you develop AR applications for?
             </AccordionHeader>
@@ -144,11 +147,12 @@ const Faqsection = () => {
           <Accordion
             open={open === 4}
             icon={<Icon id={4} open={open} />}
-            className="py-2 lg:px-8 my-4  rounded-lg bg-gray-500  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 hover:bg-red-500 hover:bg-opacity-20"
+            className="py-2 px-5 lg:px-8 my-4  rounded-lg bg-gray-500  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 hover:bg-red-500 hover:bg-opacity-20"
           >
             <AccordionHeader
               style={{ border: "0" }}
               onClick={() => handleOpen(4)}
+            className="!text-lg"
             >
               Can you help in the entire AR development lifecycle?
 
@@ -161,11 +165,12 @@ const Faqsection = () => {
           <Accordion
             open={open === 5}
             icon={<Icon id={5} open={open} />}
-            className="py-2 lg:px-8 my-4  rounded-lg bg-gray-500  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 hover:bg-red-500 hover:bg-opacity-20"
+            className="py-2 px-5 lg:px-8 my-4  rounded-lg bg-gray-500  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 hover:bg-red-500 hover:bg-opacity-20"
           >
             <AccordionHeader
               style={{ border: "0" }}
               onClick={() => handleOpen(5)}
+            className="!text-lg"
             >
              What are the typical costs associated with AR development?
 
@@ -178,12 +183,13 @@ const Faqsection = () => {
           {/* <Accordion
             open={open === 6}
             icon={<Icon id={6} open={open} />}
-            className="py-2 lg:px-8 my-4  rounded-lg bg-gray-500  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 hover:bg-red-500 hover:bg-opacity-20"
+            className="py-2 px-5 lg:px-8 my-4  rounded-lg bg-gray-500  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 hover:bg-red-500 hover:bg-opacity-20"
           >
             <AccordionHeader
               style={{ border: "0" }}
               onClick={() => handleOpen(6)}
-            >
+            className="!text-lg"
+              >
               What can I do with Material Tailwind?
             </AccordionHeader>
             <AccordionBody>

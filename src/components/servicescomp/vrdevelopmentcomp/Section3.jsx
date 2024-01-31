@@ -106,7 +106,7 @@ const Motionslide = () => {
       clipPath: function () {
         return "inset(0px 0px 100% 0px)";
       },
-      stagger: 0.5,
+      stagger: 0.7,
       ease: "none",
     });
 
@@ -115,12 +115,12 @@ const Motionslide = () => {
       start: "top top",
       end: "bottom bottom",
       animation: animation,
-      scrub: 1,
+      scrub: 0.5,
     });
   }, []);
 
   return (
-    <div className="app">
+    <div style={{backgroundRepeat : 'round'}} className="app h-fit relative bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev3.png')] bg-fixed bg-top">
       <div className="py-8 text-white">
         <div className="text-content lg:w-[80%]">
           <h1 className="py-4 text-2xl lg:text-4xl">
@@ -132,7 +132,7 @@ const Motionslide = () => {
           technological innovation.
         </div>
       </div>
-      <div className="h-fit relative bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev3.png')] bg-fixed bg-bottom ">
+      <div className="h-fit relative ">
         <section className="work  hidden lg:flex flex-row justify-between">
           <div className="work__left">
             <div className="work__text">

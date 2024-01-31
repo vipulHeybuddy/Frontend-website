@@ -122,6 +122,7 @@ const Herosection = () => {
             animate={controls}
             variants={textAnimation1}
             className="py-8 text-xl "
+            style={{color: 'white'}}
           >
             <p>
             Your search for a globally recognized expert VR development company ends here. We have proven work experience with clients in India, the US, and around the globe. And it is our remarkable results and in-time delivery that places us among the top Virtual Reality companies. 

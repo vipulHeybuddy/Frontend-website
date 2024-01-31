@@ -53,6 +53,16 @@ const Pagenation = () => {
     
   ]);
 
+  const textContainerStyle = {
+    marginBottom: "30%",
+    // position: "sticky",
+    left: "50%",
+    zIndex: 2,
+    color: "#fff",
+    textAlign: "center",
+    top: "30%",
+  };
+
   return (
     <motion.div 
     ref={ref}
@@ -464,6 +474,21 @@ const Pagenation = () => {
           </div>
         </TabPanel> */}
 
+
+<div style={textContainerStyle}>
+          
+    <h1 style={{ fontSize: "2rem" }}>
+    Creative, Customised, and Cost-effective VR development software services with Hey Budy.
+    </h1>
+    <Button
+      style={buttonHeader}
+      onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => setIsHovered(false)}
+    >
+      Discuss Your Project
+
+    </Button>
+  </div>
 
       </div>
     </motion.div>
