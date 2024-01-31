@@ -139,7 +139,7 @@ const Timelinecomp = () => {
         Our Perfected Game Development Process - Level by level
 
         </h1>
-        <p className="text-xl lg:text-lg">
+        <p className="text-base md:text-lg">
         Over years of experience as a game app development company, we have refined, streamlined and aligned our game development process to serve you better.
         </p>
       </div>

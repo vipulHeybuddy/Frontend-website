@@ -102,7 +102,7 @@ const Bottomclient = () => {
             </p>
             <div class=" lg:py-12  grid mx-auto rounded-xl shadow-sm sm:grid-1 md:mb-12 md:grid-cols-2 lg:grid-cols-3 gap-y-4 gap-x-4">
               {clientcardData.map((section, index) => (
-                <figure class=" p-2 lg:p-6 border-2 flex  border-gray-500 rounded-lg  h-full w-full bg-gray-900  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20 hover:bg-yellow-600 hover:bg-opacity-30">
+                <figure class=" p-4 lg:p-6 border-2 flex  border-gray-500 rounded-lg  h-full w-full bg-gray-900  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20 hover:bg-yellow-600 hover:bg-opacity-30">
                   <blockquote class="text-gray-400 flex flex-col justify-between">
                     <p style={{ color: "white" }} className="text-left">
                       {section.content}
