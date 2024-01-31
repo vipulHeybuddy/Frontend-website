@@ -47,45 +47,45 @@ const Bottomclient = () => {
     {
       id: 1,
       content:
-        "Here is my opinion based on my experience, I have really enjoyed working with the game development team. The team is amicable, creative and understanding.",
+        "Hey Buddy is a partner that you seek. They took understood our vision with clarity and turned it into a jaw-dropping reality! This is exactly what we were looking for in a partner.  The anamorphic 3D billboard captured our brand essence and left a profound impact on our audience.",
       // position: "Head of VP at Disney Hotstar",
-      name: "Zan Syed",
+      name: "Jessica M.",
     },
     {
       id: 2,
-      name: "Sarah",
+      name: "Alex R.",
       content:
-        "Thank you very much! An amazing job done by buddies what I like to call the team that exceeds all expectations. I am glad that I trusted you guys with the work.",
+        "We had never worked with a partner so collaborative. On top of it they, really know what they do. Working with Hey Buddy was not only a smooth experience but also an inspiring one full of learning how to achieve goals. Their expert guidance and transparent communication made the entire process easy, and productive and provided us with the best 3d billboards.",
       // position: "Head of VP at Disney Hotstar",
     },
     {
       id: 3,
-      name: "Ankit",
+      name: "Emily S.",
       content:
-        "I loved working with Hey Buddy and the way my VR project was handled, I consider this company as one of the best metaverse and game company in India.",
+        "Hey Buddy's commitment to deliver with a client-centric approach is highly appreciated. Moreover, when it comes to 3D billboard development they really outshine others with a deep understanding of the technology and technique required to achieve super-realistic realistic 3d billboards. Choosing Hey Buddy was one of the best decisions for our marketing strategy.",
       // position: "Head of VP at Disney Hotstar",
     },
-    {
-      id: 4,
-      name: "Riyahi",
-      content:
-        "OMG where to start, I have no idea! people are amazing here, very focused and client-oriented. Kudos to the team for delivering the game project on time.",
-      // position: "Head of VP at Disney Hotstar",
-    },
-    {
-      id: 5,
-      name: "Jeremy",
-      content:
-        "Best game development company in India, though I am from the United States but never felt that I had hired this company, it was like this is my in-house team.",
-      // position: "Head of VP at Disney Hotstar",
-    },
-    {
-      id: 6,
-      name: "Bhaskar",
-      content:
-        "If anyone has a futuristic idea in mind and not finding the way to turn the idea into reality, I would recommend to reach out to Hey buddy, they are the best technology partner.",
-      // position: "Head of VP at Disney Hotstar",
-    },
+    // {
+    //   id: 4,
+    //   name: "Riyahi",
+    //   content:
+    //     "OMG where to start, I have no idea! people are amazing here, very focused and client-oriented. Kudos to the team for delivering the game project on time.",
+    //   // position: "Head of VP at Disney Hotstar",
+    // },
+    // {
+    //   id: 5,
+    //   name: "Jeremy",
+    //   content:
+    //     "Best game development company in India, though I am from the United States but never felt that I had hired this company, it was like this is my in-house team.",
+    //   // position: "Head of VP at Disney Hotstar",
+    // },
+    // {
+    //   id: 6,
+    //   name: "Bhaskar",
+    //   content:
+    //     "If anyone has a futuristic idea in mind and not finding the way to turn the idea into reality, I would recommend to reach out to Hey buddy, they are the best technology partner.",
+    //   // position: "Head of VP at Disney Hotstar",
+    // },
   ];
 
   return (
@@ -96,12 +96,10 @@ const Bottomclient = () => {
       variants={textAnimation1}
     >
       <h1 className="py-4 lg:w-[80%] text-2xl lg:text-4xl">
-        How Clients Rate Our 3D Modeling Services
+      What Clients Say About Our Services
       </h1>
       <p className="text-xl lg:text-2xl">
-        Feature testimonials from satisfied clients who have utilised your game
-        development services. Include their feedback on your professionalism,
-        creativity, and the quality of your work.
+      With DOOH 3D Anamorphic Billboard development service, we are aiming to bring the next evolutionary phase of out-of-home advertising. With multiple 3D billboard projects, we have made significant progress towards this end. See what our clients say:
       </p>
       <div class=" lg:py-12  grid mx-auto text-center justify-center rounded-xl shadow-sm sm:grid-1 md:mb-12 md:grid-cols-2 lg:grid-cols-3 gap-y-4 gap-x-4">
         {clientcardData.map((section, index) => (

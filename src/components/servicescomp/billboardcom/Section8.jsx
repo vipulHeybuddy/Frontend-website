@@ -63,13 +63,12 @@ const Pagenation = () => {
     className="lg:py-8 text-white">
       <div className="py-6">
         <h1 className="py-4 lg:w-[80%] text-2xl lg:text-4xl">
-        Hey Buddy Advanced Tech-stack for High-Quality 3D Model Development
+        Hey Buddy 3D Billboard Development Tech Stack
         </h1>
-        {/* <p className="text-xl lg:text-2xl">
-          Hey Buddy claim to the leading spot of a game development company in
-          India emanates from its expert team. Our developers bring in advanced
-          and profound expertise to deliver the best gaming solution for you.
-        </p> */}
+        <p className="text-xl lg:text-2xl">
+          It takes skills and experience to develop traffic-pausing 3D visuals. Here is our tech stack for the same.
+
+        </p>
       </div>
 
       <nav className="flex border-b border-gray-300 overflow-auto">
@@ -86,7 +85,7 @@ const Pagenation = () => {
           onClick={() => setSelectedTab("task2")}
         >
 
-          Game Development
+Graphics Rendering Engines
 
         </TabSelector>
         <TabSelector
@@ -94,7 +93,7 @@ const Pagenation = () => {
           onClick={() => setSelectedTab("task3")}
         >
 
-          Texturing and Painting
+Programming Languages
 
         </TabSelector>
         <TabSelector
@@ -102,15 +101,15 @@ const Pagenation = () => {
           onClick={() => setSelectedTab("task4")}
         >
 
-          Rendering and Visualization
+Interactive Development
 
         </TabSelector>
-        {/* <TabSelector
+        <TabSelector
           isActive={selectedTab === "task5"}
           onClick={() => setSelectedTab("task5")}
         >
-          Virtual Reality (VR) and Augmented Reality (AR)
-        </TabSelector> */}
+  Shader Programming
+        </TabSelector>
 
 
 
@@ -389,7 +388,7 @@ const Pagenation = () => {
         </TabPanel>
 
 
-        {/* <TabPanel
+        <TabPanel
           hidden={selectedTab !== "task5"}
           className="p-4 bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 rounded-lg h-[20vh] w-full"
         >
@@ -462,7 +461,7 @@ const Pagenation = () => {
             
 
           </div>
-        </TabPanel> */}
+        </TabPanel>
 
 
       </div>

@@ -49,23 +49,23 @@ const Mixsection = () => {
   const checklist1 = [
     
     {
-      title: "Immersive Experiences",
+      title: "Eye-catchers - Grab attention in high-traffic areas.",
     },
     {
-      title: "Animation",
+      title: "Memorable Visuals - Power brand recall with striking 3D advertisements.",
     },
     {
-      title: "CGI",
+      title: "Assert Market Leadership - Break free from outdated marketing methods with innovation.",
     },
-    {
-      title: "Product Visualization",
-    },
-    {
-      title: "Product Animation",
-    },
-    {
-      title: "Gaming",
-    },
+    // {
+    //   title: "Product Visualization",
+    // },
+    // {
+    //   title: "Product Animation",
+    // },
+    // {
+    //   title: "Gaming",
+    // },
   ];
 
 
@@ -132,10 +132,15 @@ const Mixsection = () => {
     >
       <div className="py-4 text-white">
         <h1 className="py-4 lg:w-[80%] text-2xl lg:text-4xl">
-        Customized 3D Model<br /> Development for Every Project and Every Business
+        Impossible to Ignore! What are these 3D Billboards? 
         </h1>
-        <p className="text-xl lg:text-2xl">
-        Hey Buddy, offering tailored solutions for your projects. Our versatile 3D development team perfectly adapts outcomes to your domains and brings your vision to life with precision and creativity.
+        <p className="text-xl lg:text-2xl lg:w-[80%]">
+        3D billboards are the future of DOOH advertising, hands down!! They are dynamic, immersive, head-turning, and LARGER THAN LIFE. 
+
+They display three-dimensional elements to the naked eye. No need for 3D glasses or any other aid. This is what makes them stand out and appear as if the 3D content is really a part of the viewer's actual reality, happening right there in real-time.
+
+Result: Your advertisement makes a huge impact, bigger than any other marketing campaign, grabbing attention and engaging users.
+
 
         </p>
       </div>
@@ -144,7 +149,7 @@ const Mixsection = () => {
 {/* pink box */}
 
       <div className=" bg-gradient-to-r from-[#FFA7A7] via-[#A30CB5] to-[#0B0DF4] shadow-xl rounded-3xl py-4 lg:py-4 mt-8 mx-auto">
-        <div className=" lg:mx-auto lg:text-center w-full justify-center py-2 lg:py-2">
+        <div className=" lg:mx-auto lg:text-left w-full justify-center py-2 lg:py-2">
           <ol className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 px-2 gap-5 lg:gap-x-16">
             {checklist1.map((section, index) => (
               <div className="px-2 lg:px-16 flex items-center text-[#FFFFFF]  space-x-2.5 rtl:space-x-reverse">

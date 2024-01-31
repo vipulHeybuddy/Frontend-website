@@ -14,45 +14,51 @@ import GamedevCard from "../gamedevelopmentcomp/GamedevCard";
 const images = [0, 1, 2, 3, 4, 5, 6];
 const texts = [
   {
-    title: "Game Development",
+    title: "3D Design and Rendering",
     description:
-      "We develop highly functional mobile game solutions with cross-platform compatibility. So whether it is iOS or Android, smartphone or console, you name it and we, as your trusted Mobile game development company, will do it ",
+      "We create visually captivating designs on 3D OOH billboards to powerfully convey your intended message.",
     img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.png",
   },
   {
-    title: "Mobile Game Development",
+    title: "Concept Development",
     description:
-      "We develop highly functional mobile game solutions with cross-platform compatibility. So whether it is iOS or Android, smartphone or console, you name it and we, as your trusted Mobile game development company, will do it ",
+      "We nudge you in the right direction by conceptualizing and developing ideas for your billboard campaigns.",
     img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg",
   },
   {
-    title: "Unreal Game Development",
+    title: "Customization",
     description:
-      "Unreal engine is known to deliver powerful and dynamic games that stun gamers with its visuals and realism. Our developers love to work on this platform and get you a game with realistic game physics and animation and AI’s smart interactivity.",
+      "We mold your 3D billboard designs to meet your business and branding needs and achieve your goals.",
     img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds2.jpg",
   },
   {
-    title: "Unity 3D Game Development",
+    title: "Visualization Services",
     description:
-      "We use the robust Unity engine to develop immersive, high-performing, and visually stunning games for your target audience. Unity is known for its powerful tools and features and we, as Unity Game development company use it to the fullest for 2D and 3D games.",
+      "We help you assess the impact of your 3D billboard in a particular environment with our visualization services.",
     img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds3.jpg",
   },
   {
-    title: "Metaverse Game Development",
+    title: "Animation and Motion Graphics",
     description:
-      "Get ready to teleport your gaming audience into a new reality of Metaverse games. We are a renowned Metaverse game development company that knows community-building, utilisation of user-generated content, and capitalise on social connectivity.",
+      "We bring dynamism with live elements to your 3d animated billboards and amplify the impact exponentially.",
     img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds4.jpg",
   },
   {
-    title: "Web3 Game Development",
+    title: "Maintenance and Updates",
     description:
-      "Ready to explore decentralised gaming for untapped business opportunities, we have an offer. Our team develops decentralised and secure Web3 gaming solutions utilising leading technologies like AI, blockchain, smart contracts, NFTs, and much more. ",
+      "For a sustained impact on your 3D billboard advertising, we offer sustained support for maintenance and updates.",
     img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg",
   },
   {
-    title: "AR/VR Game Development",
+    title: "Anamorphic Billboard Consultation",
     description:
-      "We create immersive AR and VR games that merge with gamers' real world and alter their gaming experience for good. The high-fidelity games blur the line between the real and the gaming world and create a gaming experience that gamers can never get enough of.",
+      "We consult you on the best practices and strategies for powerful 3D billboard advertisements.",
+    img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.png",
+  },
+  {
+    title: "Compliance and Regulations",
+    description:
+      "We ensure your 3d commercial billboard complies with local regulations and the latest industry standards.",
     img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.png",
   },
 ];
@@ -95,16 +101,12 @@ const Motionslide = () => {
       <div className="py-8 text-white">
         <div className="text-content lg:w-[80%]">
           <h1 className="py-4 text-2xl lg:text-4xl">
-            Hey Buddy:
-            <br />
-            One-stop Destination for all 3D Modelling serviceses
+          Hey Buddy -
+            
+            leading 3D Billboard Company for Next-Gen Services
           </h1>
           <p className="text-xl lg:text-2xl">
-            No tiring search for different vendors for different services, Hey
-            Buddy’s comprehensive 3D modelling services get all you need. From
-            AR/VR and CGI to product visualisation and animation, we offer
-            complete 3D development services for every business and every
-            project. Just partner and procure.
+          We offer a comprehensive suite of 3D development services to help you grab the opportunity. Engage with your audience like never before and none another. Present your modernized avatar and get an unmatchable competitive edge with our your 3d led billboard today.
           </p>
         </div>
       </div>

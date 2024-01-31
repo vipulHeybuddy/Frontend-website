@@ -92,7 +92,7 @@ const Herosection = () => {
         <div style={textContainerStyle}>
           <h1 style={{ fontSize: "3rem" }}>Captivates attention that stops time with </h1>
           <h1 style={{ fontSize: "3rem" }}>
-          3D Billboard Development 
+          3D Billboard Development
           </h1>
           <Button
             style={buttonHeader}

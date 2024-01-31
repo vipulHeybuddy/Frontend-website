@@ -5,16 +5,16 @@ import React, { useEffect, useState , useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import Gridsection from "@/components/Gridsection";
-import Faqsection from "@/components/servicescomp/3dmodelingcomp/Section10";
-import Pagenation from "@/components/servicescomp/3dmodelingcomp/Section8";
-import Mixsection from "@/components/servicescomp/3dmodelingcomp/Section4";
-import Timelinecomp from "@/components/servicescomp/3dmodelingcomp/Section5";
-import Motionslide from "@/components/servicescomp/3dmodelingcomp/Section3";
+import Faqsection from "@/components/servicescomp/billboardcom/Section10";
+import Pagenation from "@/components/servicescomp/billboardcom/Section8";
+import Mixsection from "@/components/servicescomp/billboardcom/Section4";
+import Timelinecomp from "@/components/servicescomp/billboardcom/Section5";
+import Motionslide from "@/components/servicescomp/billboardcom/Section3";
 import { AiFillCheckCircle } from "react-icons/ai";
 import { motion, useAnimation } from "framer-motion";
-import Herosection from "@/components/servicescomp/3dmodelingcomp/Section1";
-import Bottomclient from "@/components/servicescomp/3dmodelingcomp/Section9";
-import Section7 from "@/components/servicescomp/3dmodelingcomp/Section7";
+import Herosection from "@/components/servicescomp/billboardcom/Section1";
+import Bottomclient from "@/components/servicescomp/billboardcom/Section9";
+import Section7 from "@/components/servicescomp/billboardcom/Section7";
 
 const page = () => {
 
@@ -93,79 +93,79 @@ const page = () => {
     };
   }, []);
 
-  const checklist1 = [
-    {
-      title: "3D Assets",
-    },
-    {
-      title: "3D Characters",
-    },
-    {
-      title: "3D Environments",
-    },
-    {
-      title: "MetaHuman Creations",
-    },
-    {
-      title: "3D Hard Surface ",
-    },
-    {
-      title: "3D Animation",
-    },
-  ];
+  // const checklist1 = [
+  //   {
+  //     title: "3D Asset",
+  //   },
+  //   {
+  //     title: "3D Characters",
+  //   },
+  //   {
+  //     title: "3D Environments",
+  //   },
+  //   {
+  //     title: "MetaHuman Creations",
+  //   },
+  //   {
+  //     title: "3D Hard Surface ",
+  //   },
+  //   {
+  //     title: "3D Animation",
+  //   },
+  // ];
 
   // --------------------grid section-1----------------------------------
   const List1 = [
     {
       id: "1",
-      heading: "High Quality, Faster Turnaround",
+      heading: "Hyper-Engagement",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid1.png",
-      para: "With an experienced team that has worked on various projects, you get high-quality renders at affordable prices and in less time. ",
+      para: "3D corner billboards capture viewer attention like no other advertising. Thus, your message stands out in high-traffic areas and busy intersections.",
     },
     {
       id: "2",
-      heading: "Mitigate Risk with Experience",
+      heading: "Long-lasting Memorability",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid2.png",
-      para: "Let the experienced team share your responsibilities and tackle challenges on your behalf so that you work with complete peace of mind ",
+      para: "By capturing maximum senses, 3D illusion billboards leave a lasting impression on your audiences.",
     },
     {
       id: "3",
-      heading: "Technological Advancements",
+      heading: "Wide Impact",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid3.png",
-      para: "Expand your capability with the most advanced tools and technologies in the industry. Get customised 3D model development for your projects that set standards.",
+      para: "The uniqueness and novelty of Anamorphic 3D billboards develop an emotional connection with your customers.",
     },
     {
       id: "4",
-      heading: "Access to Specialized Talent",
+      heading: "Innovation",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid4.png",
-      para: "On-board the best talents in the industry for 3D modelling services by expanding your search to the global level.",
+      para: "These amazing 3D billboards break the mold, showcasing your brand at the forefront of innovation and unique capabilities.",
     },
-    {
-      id: "5",
-      heading: "Focus on Core Competencies",
-      imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid5.png",
-      para: "When experts are taking care of your 3D modelling requirement, your in-house team concentrates on core and critical tasks.",
-    },
-    {
-      id: "6",
-      heading: "Ease of Scalability",
-      imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid6.png",
-      para: "Scale up or down as per your business requirements with ease. Say goodbye to the hiring and training challenges of additional staff.",
-    },
+    // {
+    //   id: "5",
+    //   heading: "Focus on Core Competencies",
+    //   imgurl:
+    //     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid5.png",
+    //   para: "When experts are taking care of your 3D modelling requirement, your in-house team concentrates on core and critical tasks.",
+    // },
+    // {
+    //   id: "6",
+    //   heading: "Ease of Scalability",
+    //   imgurl:
+    //     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid6.png",
+    //   para: "Scale up or down as per your business requirements with ease. Say goodbye to the hiring and training challenges of additional staff.",
+    // },
   ];
 
   const Text1 = [
     {
       heading:
-        "Get 3D Models Your Project Needs and Your Desire",
+        "Why your next campaign should be 3D Out of Home Advertising?",
       subtext:
-        "With our large team of experienced 3D modellers, we have a skillset to suit every business. Whether you need Toon (Cel-Shaded) or hyper-realistic 3D models, High-poly or low-poly count we can develop anything and everything exactly the way you want for your project.",
+        "If you want to lead the market, stand out from competitors and be the top choice of your competitor, you need to be the first mover. 3D outdoor advertising is making a huge buzz with every single ad run on it. Make sure, you don’t get left out.",
     },
   ];
 
@@ -173,45 +173,45 @@ const page = () => {
   const List2 = [
     {
       id: "1",
-      heading: "Quality by Expert",
+      heading: "Creative Vision Realisation",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid7.png",
-      para: "Our dedicated and experienced team of 3D modellers has 200+ members with a variety of experience delivering the industry-leading quality for your projects.",
+      para: "With our vast experience and expert team we have developed precision realizing your vision and turning it into a visually stunning anamorphic 3D advertisement.",
     },
     {
       id: "2",
-      heading: "Timely Deliveries",
+      heading: "Impactful Branding",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid8.png",
-      para: "At Hey Buddy, we strictly adhere to your project timelines with our streamlined 3D development process that churns out high-quality results in a shorter time.",
+      para: "Having worked with brands across industries, we achieve brand representation with a lasting impact and a clear, resonating message that stands out.",
     },
     {
       id: "3",
-      heading: "Communication Clarity",
+      heading: "Precision in Execution",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid9.png",
-      para: "We understand the criticality of clear communication and keeping you informed. We use the latest project management tool for data-driven and agile decision-making by you.",
+      para: "We assure flawless execution from concept to installation, with utmost precision and attention to detail. Just the way you wanted it.",
     },
     {
       id: "4",
-      heading: "Flexible and Cost-Effective Models",
+      heading: "Expert Guidance",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid10.png",
-      para: "Choose from a variety of outsourcing models that best suit your project needs. Get the best quality 3D development services at the most reasonable prices.",
+      para: "We have a 3D curved screen expert who provides deep insight that leads to a sophisticated outcome needed to catch and hold attention.",
     },
     {
       id: "5",
-      heading: "Adherence to Specifications",
+      heading: "Measurable Impact",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid11.png",
-      para: "We do not just follow your specifications, we integrate them into the process. So that the outcomes automatically align with your specific project needs.",
+      para: "We help you sharpen your campaign and measure success with tangible results. We craft 3D billboard advertisements for your high brand visibility and engagement.",
     },
     {
       id: "6",
       heading: "Transparent Communication",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid12.png",
-      para: "By working with clients across industries and scales, we understood the gravity of transparent communication. Be assured to experience transparent communication, timely updates, and a responsive team to keep you informed and involved.",
+      para: "Right from the start, we keep you informed every step of the way. Our transparent communication keeps you in the loop for a collaborative and smooth process.",
     },
     
   ];
@@ -219,9 +219,9 @@ const page = () => {
   const Text2 = [
     {
       heading:
-        "Why Choose Hey Buddy",
+        "Hey Buddy top 3D billboard company in India, the USA, and UAE ",
       subtext:
-        "Partner with Hey Buddy if you want quality work from experts. We deliver the best outcome while completely adhering to timelines and ensuring that you get the best ROI every time.",
+        "Hey Buddy puts your business objective at the forefront and makes sure that your next OOH 3D Billboard campaign attains its full potential.",
     },
   ];
 
@@ -237,7 +237,7 @@ const page = () => {
          
          <Herosection />
 
-          <div
+          {/* <div
             ref={ref}
             initial="hidden"
             animate={controls}
@@ -249,7 +249,7 @@ const page = () => {
                 {checklist1.map((section, index) => (
                   <div className="px-2 lg:px-16 flex items-center text-[#FFFFFF]  space-x-2.5 rtl:space-x-reverse">
                     <san className="flex items-center justify-center w-8 h-8  rounded-full shrink-0 ">
-                      {/* &#10004; */}
+                      
                       <AiFillCheckCircle className="w-8 h-8 text-[#6FCF97]" />
                     </san>
                     <span>
@@ -261,7 +261,7 @@ const page = () => {
                 ))}
               </ol>
             </div>
-          </div>
+          </div> */}
 
           {/* -------------------------grid-reuse------------------------------------- */}
 

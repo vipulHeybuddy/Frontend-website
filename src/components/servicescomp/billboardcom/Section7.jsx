@@ -46,21 +46,21 @@ const Section7 = () => {
     const List = [
         {
           id: "1",
-          heading: "Real-Estate: Property Visualization for Better Customer Engagement",
+          heading: "Reaching More Eyes 3d Advertising Billboard",
           // imgurl: "",
-          para: "Our client, a real-estate firm, required realistic 3D models for their new residential project. We used Autodesk 3ds Max and VRay to deliver highly detailed interior and exterior renders to aid them in presentations and marketing materials.This enhanced the customer’s engagement and understanding of our client's real-estate project, leading to faster sales and a more effective and streamlined sales process.",
+          para: "One of our clients wanted to enhance their improve their brand awareness. Hey Buddy helped them build a presence and boost brand visibility in a bustling urban area. We designed 3D corner billboards strategically placed at street intersections that maximized exposure and reached more passersby. This resulted in Increased engagement with a noticeable uptick in brand recognition and customer inquiries.",
         },
         {
           id: "2",
-          heading: "E-Commerce: Showcase Products in the Best Light",
+          heading: "Striking Visuals, Lasting Impressions",
           // imgurl: "",
-          para: "An online furniture retailer wanted high-quality 3D models for their product listings. We used Blender to produce photorealistic 3D models of their furniture collection to enhance the online shopping experience of their customers and reduce the need for physical prototypes.As a result, our client attained increased customer satisfaction, reduced returns, and improved online sales through visually appealing and accurate representations of products.",
+          para: "For our client with a presence in the FMCG sector, we developed 3D billboards to make their brand significantly more memorable and be a top-of-the-mind recall when the users are in the aisle. Our team crafted 3D illusion billboards, leveraging the optical tricks of anamorphic advertising for visually stunning and long-lasting effects. The unique visual appeal left an indelible mark on viewers, giving our client significantly high memorability and recall.",
         },
         {
           id: "3",
-          heading: "Gaming: High-quality Character Modeling for Unforgettable Gaming experience",
+          heading: "Revamping Brand Image with Innovating Impressions",
           // imgurl: "",
-          para: "One of our clients, a game development studio, needed diverse 3D character models for their upcoming gaming title. We employed ZBrush and Maya for character design and animation, delivering unique and visually appealing assets that enhanced the game's overall aesthetic. Thus, we proudly contributed to the game's success by providing captivating characters, that garnered positive reviews and commercial success.",
+          para: "One of our clients in the BFSI space wants to improve its image as a technologically advanced brand. We developed an amazing 3d cgi billboard to project the brand’s efforts toward technology integration. The innovative approach not only garnered attention but positioned our client as a trendsetter in their industry for utilizing 3D billboards to reach out to their customer.",
         },
 
         // {
@@ -88,7 +88,7 @@ const Section7 = () => {
       const Text = [
         {
           heading:
-            "Success Stories with Hey Buddy 3D Modelling Services",
+            "Success Stories with Hey Buddy 3D Billboards Development Service",
           // subtext:
           //   "Project after project, we have refined our 3D development process to deliver creativity and innovation to your project. We understand the importance of a transparent and collaborative workflow, which is reflected in our process.",
         },
