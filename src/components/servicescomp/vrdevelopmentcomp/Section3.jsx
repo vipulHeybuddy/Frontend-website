@@ -132,7 +132,7 @@ const Motionslide = () => {
           technological innovation.
         </div>
       </div>
-      <div className="h-fit relative ">
+      <div className="h-fit relative lg:bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev3.png')] bg-fixed bg-bottom ">
         <section className="work  hidden lg:flex flex-row justify-between">
           <div className="work__left">
             <div className="work__text">
