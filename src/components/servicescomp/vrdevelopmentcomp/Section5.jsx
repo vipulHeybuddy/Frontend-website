@@ -156,108 +156,93 @@ const Timelinecomp = () => {
                   <ul>
                     <li>
                       <h3 className="font-bold text-2xl ">
-                        1. Requirement Gathering
+                        1. Discovery and Consultation
                       </h3>
                       <p>
-                        We start with a complete grasp of your business
-                        objectives and your vision. Our team collaborates
-                        closely with yours to ensure a collaborative approach
-                        from day one.{" "}
+                      We start with a complete grasp of your business objectives and your vision. Our team collaborates closely with yours to ensure a collaborative approach from day one.
+{" "}
                       </p>
                     </li>
 
                     <li>
                       <h3 className="font-bold text-2xl ">
-                        2. Concept Art
+                        2.  Ideation and Conceptualization
                       </h3>
                       <p>
-                        We ideat and brainstorm to choose the best solution for
-                        your brand and objectives. Here, we ensure that our
-                        proposed solutions perfectly align with your vision.{" "}
+                      We ideat and brainstorm to choose the best solution for your brand and objectives. Here, we ensure that our proposed solutions perfectly align with your vision.{" "}
                       </p>
                     </li>
 
                     <li>
                       <h3 className="font-bold text-2xl ">
-                        3. Assets Creation
+                        3.  Technical Feasibility Assessment
                       </h3>
                       <p>
-                        That’s not it, on the chosen idea, our VR technical
-                        experts conduct a thorough feasibility assessment. They
-                        evaluate compatibility and viability from different
-                        aspects.{" "}
+                      That’s not it, on the chosen idea, our VR technical experts conduct a thorough feasibility assessment. They evaluate compatibility and viability from different aspects.{" "}
                       </p>
                     </li>
 
                     <li>
                       <h3 className="font-bold text-2xl ">
-                        4. Animation
+                        4. Development and Coding
+
                       </h3>
                       <p>
-                        The approved idea is taken over by our expert VR
-                        developers. Who leverage every state-of-the-art VR
-                        technology so that the outcome matches your vision.{" "}
+                      The approved idea is taken over by our expert VR developers. Who leverage every state-of-the-art VR technology so that the outcome matches your vision. 
+{" "}
                       </p>
                     </li>
 
                     <li>
                       <h3 className="font-bold text-2xl ">
-                        5. Game Level Designing
+                        5. Iterative Prototyping
                       </h3>
                       <p>
-                        Our development team comes up with iterative prototypes
-                        and solicits your feedback on the same. Based on that,
-                        we modify the VR experience to exceed your expectations.{" "}
+                      Our development team comes up with iterative prototypes and solicits your feedback on the same. Based on that, we modify the VR experience to exceed your expectations.{" "}
                       </p>
                     </li>
 
                     <li>
                       <h3 className="font-bold text-2xl ">
-                        6. Building Mechanics
+                        6.  Comprehensive Testing
                       </h3>
                       <p>
-                        Our rigorous testing protocol ensures that your VR
-                        experience possesses the functionality and features that
-                        captivate and engage your audience.{" "}
+                      Our rigorous testing protocol ensures that your VR experience possesses the functionality and features that captivate and engage your audience.
+{" "}
                       </p>
                     </li>
                     <li>
                       <h3 className="font-bold text-2xl ">
-                        7. AI Infusion
+                        7.  Client Approval and Deployment
+
                       </h3>
                       <p>
-                        We send the outcome for your approval and make it
-                        deployment-ready. Here, our streamlined process ensures
-                        that we adhere to the stipulated timeline.{" "}
+                      We send the outcome for your approval and make it deployment-ready. Here, our streamlined process ensures that we adhere to the stipulated timeline.{" "}
                       </p>
                     </li>
                     <li>
                       <h3 className="font-bold text-2xl ">
-                        8. Graphic Optimization
+                        8. Analytics and Performance Monitoring
                       </h3>
                       <p>
-                        Deployment is not enough, tracking is crucial. That’s
-                        why we integrate analytics tools. With this, we monitor
-                        the performance of your VR experience for data-driven
-                        insights.{" "}
+                      Deployment is not enough, tracking is crucial. That’s why we integrate analytics tools. With this, we monitor the performance of your VR experience for data-driven insights.{" "}
                       </p>
                     </li>
                     <li>
                       <h3 className="font-bold text-2xl ">
-                        9. Rigorous Testing
+                        9.Post-launch support and Optimization
+
                       </h3>
                       <p>
-                        On the same line, we keep on offering you post-launch
-                        support, updates, and optimization services for the
-                        assured success of your VR experiences.{" "}
+                      On the same line, we keep on offering you post-launch support, updates, and optimization services for the assured success of your VR experiences.
+{" "}
                       </p>
                     </li>
                     <li>
-                      <h3 className="font-bold text-2xl ">10. Launch</h3>
+                      <h3 className="font-bold text-2xl ">10. Client Collaboration and Feedback Loop
+</h3>
                       <p>
-                        Lastly, we collaborate with you to draw your valuable
-                        feedback and sustain an open line of communication for
-                        long-term partnerships.{" "}
+                      Lastly, we collaborate with you to draw your valuable feedback and sustain an open line of communication for long-term partnerships.{" "}
                       </p>
                     </li>
                   </ul>

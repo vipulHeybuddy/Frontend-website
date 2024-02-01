@@ -13,12 +13,7 @@ import WorkItem from "../gamedevelopmentcomp/WorkItem";
 
 const images = [0, 1, 2, 3, 4, 5, 6];
 const texts = [
-  {
-    title: "Immersive VR Application Development",
-    description:
-      "Leverage our extensive experience in VR development. Get the best solution for your specific business and industry needs as our VR experts use cutting-edge technology.",
-    img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.png",
-  },
+  
   {
     title: "Immersive VR Application Development",
     description:
@@ -55,36 +50,48 @@ const texts = [
       "Want to enrich your VR applications? Our team is ready to deliver. Impress your audience with our visually stunning 3D models, animations, and multimedia content.",
     img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.png",
   },
-  // {
-  //   title: "Strategic VR Consulting",
-  //   description:
-  //     "Leverage our industry expertise for insightful advice and data-driven strategy on VR technology. We guide you through every step for a seamless integration.",
-  //   img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds3.jpg",
-  // },
-  // {
-  //   title: "Seamless VR Hardware Integration",
-  //   description:
-  //     "Be assured of optimal performance for every VR headset, controller, and hardware component. We offer a unified and immersive experience with our virtual reality software.",
-  //   img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.png",
-  // },
-  // {
-  //   title: "Dedicated VR Maintenance and Support",
-  //   description:
-  //     "Count on Hey Buddy for continuous support, updates, and maintenance. We are known for ensuring the longevity and optimal performance of your VR applications.",
-  //   img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg",
-  // },
-  // {
-  //   title: "Dedicated VR Maintenance and Support",
-  //   description:
-  //     "Count on Hey Buddy for continuous support, updates, and maintenance. We are known for ensuring the longevity and optimal performance of your VR applications.",
-  //   img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.png",
-  // },
-  // {
-  //   title: "Dedicated VR Maintenance and Support",
-  //   description:
-  //     "Count on Hey Buddy for continuous support, updates, and maintenance. We are known for ensuring the longevity and optimal performance of your VR applications.",
-  //   img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds3.png",
-  // },
+  {
+    title: "Strategic VR Consulting",
+    description:
+      "Leverage our industry expertise for insightful advice and data-driven strategy on VR technology. We guide you through every step for a seamless integration.",
+    img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds3.jpg",
+  },
+  {
+    title: "Seamless VR Hardware Integration",
+    description:
+      "Be assured of optimal performance for every VR headset, controller, and hardware component. We offer a unified and immersive experience with our virtual reality software.",
+    img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.png",
+  },
+  {
+    title: "Dedicated VR Maintenance and Support",
+    description:
+      "Count on Hey Buddy for continuous support, updates, and maintenance. We are known for ensuring the longevity and optimal performance of your VR applications.",
+    img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg",
+  },
+  {
+    title: "Dedicated VR Maintenance and Support",
+    description:
+      "Count on Hey Buddy for continuous support, updates, and maintenance. We are known for ensuring the longevity and optimal performance of your VR applications.",
+    img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.png",
+  },
+  {
+    title: "Cross-Platform VR Development",
+    description:
+      "We ensure your broad accessibility with services across VR platforms and devices. Get maximized reach and impact of your VR applications with a consistent user experience.      ",
+    img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds3.png",
+  },
+  {
+    title: "Intuitive VR UI/UX Design",
+    description:
+      "We design user interfaces and experiences tailored to virtual reality applications. Here, we prioritize usability and user engagement for a high success rate.      ",
+    img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds3.png",
+  },
+  {
+    title: "Rigorous VR App Testing",
+    description:
+      "Get complete quality assurance with high functionality, performance, and user satisfaction of your VR applications. Avail of our VR app testing services. ",
+    img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds3.png",
+  },
 ];
 
 const Motionslide = () => {
