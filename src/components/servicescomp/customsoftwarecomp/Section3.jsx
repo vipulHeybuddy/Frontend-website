@@ -12,15 +12,15 @@ import PhotoItem from "../gamedevelopmentcomp/PhotoItem";
 import WorkItem from "../gamedevelopmentcomp/WorkItem";
 
 
-const images = [0, 1, 2, 3, 4 , 5 , 6 , 7 , 8];
+const images = [0, 1, 2, 3, 4 , 5 , 6 , 7 ];
 const texts = 
 [
-        {
-          title: "Game Development",
-          description:
-            "From casual mobile gaming to console adventure, we create all here.",
+        // {
+        //   title: "Game Development",
+        //   description:
+        //     "From casual mobile gaming to console adventure, we create all here.",
          
-        },
+        // },
         {
           title: "Custom Software Application Development",
           description:
