@@ -178,7 +178,7 @@ We ensure this by utilizing our reliable development process and high profession
                 width={700}
                 height={700}
                 src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/wheel-unscreen.gif"
-                className="lg:mr-6 h-[50vh] w-[62rem] lg:h-[70vh] lg:w-[102rem] "
+                className="lg:mr-6 h-[40vh] w-[52rem] lg:h-[60vh] lg:w-[92rem] "
                 alt="Hey B"
               />
             </div>
