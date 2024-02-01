@@ -205,13 +205,7 @@ const page = () => {
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid11.png",
       para: "We do not just follow your specifications, we integrate them into the process. So that the outcomes automatically align with your specific project needs.",
     },
-    {
-      id: "6",
-      heading: "Transparent Communication",
-      imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid12.png",
-      para: "By working with clients across industries and scales, we understood the gravity of transparent communication. Be assured to experience transparent communication, timely updates, and a responsive team to keep you informed and involved.",
-    },
+   
     
   ];
 

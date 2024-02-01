@@ -16,41 +16,46 @@ const texts = [
  
 
   {
-    title: " 3D Character Development",
-    description: "Our experienced, skilled and creative 3D artists and modellers produce visually impressive 3D characters just for your project, brand and storytelling",
-        img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.png",
+
+    title: "3D Character Development",
+    description:
+      "Our experienced, skilled and creative 3D artists and modellers produce visually impressive 3D characters just for your project, brand and storytelling      ",
+    img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.png",
+
   },
   {
     title: "3D Asset Development",
     description:
-      "We develop meticulously detailed, accurate, and high-quality 3D assets that perfectly fulfil your project's visual and functional needs.",
+
+      "We develop meticulously detailed, accurate, and high-quality 3D assets that perfectly fulfil your project's visual and functional needs.  ",
     img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg",
+  },
+  {
+    title: "3D Environment Development",
+    description:
+      "We create deeply immersive environments that captivate your audience with ultra-realistic visuals and perfectly fit your project needs.      ",
+    img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds2.jpg",
   },
   {
     title: "3D Hard Surface Modelling",
     description:
       "We create detailed 3D models of objects or structures following your specific guidelines and ensure timely delivery for uninterrupted project operations.",
-    img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds2.jpg",
+    img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds3.jpg",
   },
   {
     title: "3D Animation Services",
     description:
-      " Our client-centric approach ensures our 3D animations and meticulous rigging convey your vision accurately while captivating the audience with high-quality visuals.",
-    img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds3.jpg",
+      "Our client-centric approach ensures our 3D animations and meticulous rigging convey your vision accurately while captivating the audience with high-quality visuals.      ",
+    img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds4.jpg",
   },
   {
     title: "3D MetaHuman Creation Services",
     description:
-      " Get photorealistic digital humans with easy customisation, We create Metahumans for virtual productions, games, or all other applications.",
-    img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds4.jpg",
-  },
-  {
-    title: "3D Environment Development",
-    description:
-      " We create deeply immersive environments that captivate your audience with ultra-realistic visuals and perfectly fit your project needs.",
+      "Get photorealistic digital humans with easy customisation, We create Metahumans for virtual productions, games, or all other applications. ",
     img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg",
   },
-  
+ 
+
 ];
 
 const Motionslide = () => {
