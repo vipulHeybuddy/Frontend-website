@@ -46,20 +46,20 @@ const Mixsection = () => {
       observer.disconnect();
     };
   }, []);
-  // const checklist1 = [
-  //   {
-  //     title: "Tablet/Mobile Game Development",
-  //   },
-  //   {
-  //     title: "Metaverse Game Development",
-  //   },
-  //   {
-  //     title: "Immersive AR/VR Game Development",
-  //   },
-  //   {
-  //     title: "Unreal and Unity Game Development",
-  //   },
-  // ];
+  const checklist1 = [
+    {
+      title: "Custom Software Services",
+    },
+    {
+      title: "Digital Marketplace Development",
+    },
+    {
+      title: "Cloud And Data Management",
+    },
+    {
+      title: "Security and Assurance",
+    },
+  ];
 
 
   const cardData = [
@@ -123,7 +123,8 @@ const Mixsection = () => {
 
     // className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev4.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]"
     >
-      <div className="py-4 text-white">
+      {/* heading or red red box */}
+      {/* <div className="py-4 text-white">
         <h1 className="py-4 lg:w-[80%] text-2xl lg:text-4xl">
         Your Search For the Right Custom Software Solution Ends Here,
         </h1>
@@ -131,9 +132,11 @@ const Mixsection = () => {
         [Let’s Get it Done]
 
         </p>
-      </div>
+      </div> */}
+
+
       {/* --------------------box section ------------------------------------------ */}
-      {/* <div className=" bg-gradient-to-r from-[#FFA7A7] via-[#A30CB5] to-[#0B0DF4] shadow-xl rounded-3xl py-4 lg:py-4 mt-8 mx-auto">
+      <div className=" bg-gradient-to-r from-[#FFA7A7] via-[#A30CB5] to-[#0B0DF4] shadow-xl rounded-3xl py-4 lg:py-4 mt-8 mx-auto">
         <div className=" lg:mx-auto lg:text-center w-full justify-center py-2 lg:py-2">
           <ol className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 px-2 gap-5 lg:gap-x-16">
             {checklist1.map((section, index) => (
@@ -149,7 +152,7 @@ const Mixsection = () => {
             ))}
           </ol>
         </div>
-      </div> */}
+      </div>
 
       {/* ------------------slider-------------------------------- */}
    

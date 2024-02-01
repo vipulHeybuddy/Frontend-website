@@ -46,48 +46,48 @@ const Section7 = () => {
     const List = [
         {
           id: "1",
-          heading: "Understanding Requirements",
+          heading: "Custom Product Planning and Inventory Management Software",
           // imgurl: "",
-          para: "We start with deep diving into project goals and your expectations. The practice of clear communication starts right here as align our strategies with your vision",
+          para: "Our client, a leading manufacturing company, faced inefficiencies in production planning and inventory management. We developed a custom software to optimize production schedules and automate inventory tracking for our client.The results were astonishing. The manufacturing company witnessed a significant 25% reduction in production costs while improving the overall efficiency of the supply chain.",
         },
         {
           id: "2",
-          heading: "Planning and Strategy",
+          heading: "Custom Patient Data Management Software for Leading Healthcare Providers",
           // imgurl: "",
-          para: "We transform concepts into a detailed plan, delineating project scope, timelines, and milestones. It sets the project’s future roadmap and ensures transparency.",
+          para: "One of our healthcare provider clients needed a secure and compliant patient data management system to ensure better confidentiality and security and to streamline their operations. We developed the required software solution with robust security features, ensuring HIPAA compliance. With our solution, we successfully achieved the desired goals of improved data security, streamlined workflows, and consequently enhanced patient care.",
         },
         {
           id: "3",
-          heading: "Development and Implementation",
+          heading: "Feature-packed, User-friendly E-commerce Solution",
           // imgurl: "",
-          para: "We use the latest tools and technologies to deliver high-quality custom software solutions that meet your functional requirements and exceed visual expectations.",
+          para: "An e-commerce startup sought a scalable platform to handle rapid growth and a diverse product range. We developed a customized e-commerce solution with advanced features and a user-friendly interface for efficient catalog management and order processing. The e-commerce startup achieved a 40% increase in sales and successfully expanded its product offerings.",
         },
-        {
-          id: "4",
-          heading: "Client Collaboration and Iterations",
-          // imgurl: "",
-          para: "We actively and continually seek your insights and feedback to bring about the project's evolution and ensure your satisfaction with the result.",
-        },
-        {
-          id: "5",
-          heading: "Quality Assurance",
-          // imgurl: "",
-          para: "Our custom software undergoes meticulous quality checks to ensure that the software meets the highest standards and is a polished and error-free solution.",
-        },
-        {
-          id: "6",
-          heading: "Timely Delivery",
-          // imgurl: "",
-          para: "Committed to punctuality, we adhere to strict timelines with our reliable development process and professionalism as the cornerstones of your project's success.",
-        },
+        // {
+        //   id: "4",
+        //   heading: "Client Collaboration and Iterations",
+        //   // imgurl: "",
+        //   para: "We actively and continually seek your insights and feedback to bring about the project's evolution and ensure your satisfaction with the result.",
+        // },
+        // {
+        //   id: "5",
+        //   heading: "Quality Assurance",
+        //   // imgurl: "",
+        //   para: "Our custom software undergoes meticulous quality checks to ensure that the software meets the highest standards and is a polished and error-free solution.",
+        // },
+        // {
+        //   id: "6",
+        //   heading: "Timely Delivery",
+        //   // imgurl: "",
+        //   para: "Committed to punctuality, we adhere to strict timelines with our reliable development process and professionalism as the cornerstones of your project's success.",
+        // },
       ];
     
       const Text = [
         {
           heading:
-            "Our Refined Custom Software Development Process",
+            "Success Stories With Hey Buddy Customer Software Solutions",
           subtext:
-            "Project after project, we've developed a sophisticated and meticulous process for our custom software development. We infuse innovation and precision into your projects while recognizing the significance of transparency and collaboration. our process reflects a commitment to clarity and excellence.",
+            "Hey Buddy is a leading custom software development company. We have multiple success stories to share. After all, our custom software solutions have helped clients across industries and scales.",
         },
       ];
   return (

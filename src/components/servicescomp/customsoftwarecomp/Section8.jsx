@@ -65,14 +65,15 @@ const Pagenation = () => {
     className="lg:py-8 text-white">
       <div className="py-6">
         <h1 className="py-4 lg:w-[80%] text-2xl lg:text-4xl">
-          Hey Buddy Tech Arsenal for best Game Solutions: <br /> Expertise on
-          all fronts
+        Our Technological Expertise is Reflected in Our Trendsetting Tech Stack
         </h1>
+
         <p className=" text-base md:text-lg lg:text-2xl">
+
           Hey Buddy claim to the leading spot of a game development company in
           India emanates from its expert team. Our developers bring in advanced
           and profound expertise to deliver the best gaming solution for you.
-        </p>
+        </p> */}
       </div>
 
       <nav className="flex border-b border-gray-300 scrollbar-hide overflow-auto">
