@@ -92,20 +92,20 @@ const page = () => {
     };
   }, []);
 
-  // const checklist1 = [
-  //   {
-  //     title: "t/Mobile Game Development",
-  //   },
-  //   {
-  //     title: "Metaverse Game Development",
-  //   },
-  //   {
-  //     title: "Immersive AR/VR Game Development",
-  //   },
-  //   {
-  //     title: "Unreal and Unity Game Development",
-  //   },
-  // ];
+  const checklist1 = [
+    {
+      title: "AR application Development",
+    },
+    {
+      title: "AR Design and Prototypes",
+    },
+    {
+      title: "AR Gaming",
+    },
+    {
+      title: "AR Marketing and Advertising",
+    },
+  ];
 
   // --------------------grid section-1----------------------------------
   const List1 = [
@@ -153,14 +153,14 @@ const page = () => {
     },
   ];
 
-  const Text1 = [
-    {
-      heading:
-        "Immerse Your Audience in Great Visuals with Our AR Software Solutions",
-      subtext:
-        "At Hey Buddy, we pride ourselves on exceeding client expectations. With our comprehensive suite of Augmented Reality (AR) development services, we easily meet your project requirements. Here are the benefits and features of our AR development services, reflecting our commitment to excellence. ",
-    },
-  ];
+  // const Text1 = [
+  //   {
+  //     heading:
+  //       "Immerse Your Audience in Great Visuals with Our AR Software Solutionss",
+  //     subtext:
+  //       "At Hey Buddy, we pride ourselves on exceeding client expectations. With our comprehensive suite of Augmented Reality (AR) development services, we easily meet your project requirements. Here are the benefits and features of our AR development services, reflecting our commitment to excellence. ",
+  //   },
+  // ];
 
   //   ------------------grid section-2----------------------------------
   const List2 = [
@@ -229,7 +229,7 @@ const page = () => {
          
          <Herosection />
 
-          {/* <div
+          <div
             ref={ref}
             initial="hidden"
             animate={controls}
@@ -253,13 +253,13 @@ const page = () => {
                 ))}
               </ol>
             </div>
-          </div> */}
+          </div>
 
           {/* -------------------------grid-reuse------------------------------------- */}
 
-          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev2.png')] py-5 bg-no-repeat bg-cover bg-[center_top_0rem]">
+          {/* <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev2.png')] py-5 bg-no-repeat bg-cover bg-[center_top_0rem]">
             <Gridsection listData={List1} textData={Text1} />
-          </div>
+          </div> */}
 
           {/* ------------------------Section-3-------------------------------------- */}
           <div> 

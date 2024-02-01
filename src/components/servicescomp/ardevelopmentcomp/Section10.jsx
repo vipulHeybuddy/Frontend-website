@@ -125,22 +125,7 @@ const Faqsection = () => {
             </AccordionBody>
           </Accordion>
 
-          <Accordion
-            open={open === 3}
-            icon={<Icon id={3} open={open} />}
-            className="py-2 px-5 lg:px-8 my-4  rounded-lg bg-gray-500  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 hover:bg-red-500 hover:bg-opacity-20"
-          >
-            <AccordionHeader
-              style={{ border: "0" }}
-              onClick={() => handleOpen(3)}
-            className="!text-lg"
-            >
-             What platforms do you develop AR applications for?
-            </AccordionHeader>
-            <AccordionBody>
-            We specialize in developing AR applications for iOS using ARKit, Android using ARCore, and web-based AR. Along with that, we develop cross-platform solutions under our comprehensive Augmented Reality development services that can be run on different platforms such as iOS and Android.  For this, we use the most powerful tools like Unity 3D, Vuforia, or other AR frameworks. 
-            </AccordionBody>
-          </Accordion>
+         
         </div>
 
         <div>

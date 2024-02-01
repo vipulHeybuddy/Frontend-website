@@ -98,7 +98,7 @@ const Herosection = () => {
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
           >
-            Consult Our Experts
+           Experience Innovation
           </Button>
         </div>
         <div style={imageContainerStyle}>
@@ -125,7 +125,7 @@ const Herosection = () => {
             <p>
             Hey Buddy is the leading Augmented Reality or AR development company in India and the US. Our dedicated team of AR experts consistently delivers innovative and creative projects within specified timelines.<br/>
 
-[Experience Innovation]
+
 
             </p>
           </div>

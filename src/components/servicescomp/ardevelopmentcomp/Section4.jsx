@@ -46,20 +46,20 @@ const Mixsection = () => {
       observer.disconnect();
     };
   }, []);
-  // const checklist1 = [
-  //   {
-  //     title: "Tablet/Mobile Game Development",
-  //   },
-  //   {
-  //     title: "Metaverse Game Development",
-  //   },
-  //   {
-  //     title: "Immersive AR/VR Game Development",
-  //   },
-  //   {
-  //     title: "Unreal and Unity Game Development",
-  //   },
-  // ];
+  const checklist1 = [
+    {
+      title: "Expertise in AR Technology",
+    },
+    {
+      title: "Proven Track Record",
+    },
+    {
+      title: "Innovation and Creativity",
+    },
+    {
+      title: "Tailored Solution",
+    },
+  ];
 
 
   const cardData = [
@@ -125,17 +125,16 @@ const Mixsection = () => {
     >
       <div className="py-4 text-white">
         <h1 className="py-4 lg:w-[80%] text-2xl lg:text-4xl">
-        If it's AR, It's Hey Buddy: <br /> Our Comprehensive Augmented Reality Development Services
+        Immerse Your Audience in Great Visuals with Our AR Software Solutions
         </h1>
         <p className=" text-base md:text-xl lg:text-2xl">
-        No need to lose your valuable time and resources on finding different service providers for your every need. Hey Buddy has got it all covered.
+        At Hey Buddy, we pride ourselves on exceeding client expectations. With our comprehensive suite of Augmented Reality (AR) development services, we easily meet your project requirements. Here are the benefits and features of our AR development services, reflecting our commitment to excellence. 
 
-We offer a complete suite of AR services. From AR app development to AR IoT integration to even cross-platform AR development, you name it, we deliver it. 
 
         </p>
       </div>
       {/* --------------------box section ------------------------------------------ */}
-      {/* <div className=" bg-gradient-to-r from-[#FFA7A7] via-[#A30CB5] to-[#0B0DF4] shadow-xl rounded-3xl py-4 lg:py-4 mt-8 mx-auto">
+      <div className=" bg-gradient-to-r from-[#FFA7A7] via-[#A30CB5] to-[#0B0DF4] shadow-xl rounded-3xl py-4 lg:py-4 mt-8 mx-auto">
         <div className=" lg:mx-auto lg:text-center w-full justify-center py-2 lg:py-2">
           <ol className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 px-2 gap-5 lg:gap-x-16">
             {checklist1.map((section, index) => (
@@ -151,7 +150,7 @@ We offer a complete suite of AR services. From AR app development to AR IoT inte
             ))}
           </ol>
         </div>
-      </div> */}
+      </div>
 
       {/* ------------------slider-------------------------------- */}
    
