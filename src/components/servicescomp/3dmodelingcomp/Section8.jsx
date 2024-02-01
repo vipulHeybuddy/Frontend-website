@@ -420,20 +420,7 @@ const Pagenation = () => {
 
           </div>
         </TabPanel> */}
-        <div style={textContainerStyle}>
-          <h1 className="py-4 text-2xl lg:text-3xl">
-            Creative, Customised, and Cost-effective VR development software
-            services with Hey Budy.
-          </h1>
-          <Button
-            style={buttonHeader}
-            onMouseEnter={() => setIsHovered(true)}
-            onMouseLeave={() => setIsHovered(false)}
-            className="text-2xl"
-          >
-            Discuss Your Project
-          </Button>
-        </div>
+        
 
       </div>
     </motion.div>
