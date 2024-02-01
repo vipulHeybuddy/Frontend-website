@@ -41,7 +41,8 @@ const texts = [
     title: "Security and Assurance",
     description:
       "Protecting your systems and data from evolving cyber threats. Get rigorous testing services to ensure the reliability of your software. Moreover, get ongoing assistance, updates, and troubleshooting for uninterrupted operations. Cyber Security Services Quality Testing And Assurance Services Maintenance and Support",
-  },
+    img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.png",
+    },
   {
     title: "Emerging Technologies",
     description:
@@ -105,21 +106,21 @@ const Motionslide = () => {
     <div className="app">
       <div className="py-8 text-white">
         <div className="text-content lg:w-[80%]">
-          <h1 className="py-4 text-2xl lg:text-4xl">
+          <h1 className="py-4 text-2xl lg:text-3xl">
             Our Custom Software Development Services For Every Business
             Challenge
           </h1>
-          <p className="text-xl lg:text-2xl">
+          <p className="text-base md:text-lg">
             Hey Buddy is one of the leading tech solution providers. Our large
             team of talented and experienced software developer develop
             solutions for every business need.
           </p>
         </div>
       </div>
-      <div className="h-fit relative bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev3.png')] bg-fixed bg-bottom ">
+      <div className="h-fit relative lg:bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev3.png')] bg-fixed bg-bottom ">
         <section className="work  hidden lg:flex flex-row justify-between">
           <div className="work__left">
-            <div className="work__text">
+            <div className="work__text flex flex-col items-center">
               {texts.map((text, index) => (
                 <WorkItem
                   key={index}
@@ -131,7 +132,7 @@ const Motionslide = () => {
           </div>
           <div className="work__right">
             <div className="work__right-b1">
-              <div className="work__photo">
+              <div className="work__photo flex flex-col items-center">
                 <PhotoItem
                   title="1"
                   imgSrc={

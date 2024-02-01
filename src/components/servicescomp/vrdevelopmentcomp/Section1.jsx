@@ -90,8 +90,8 @@ const Herosection = () => {
     <>
       <div style={containerStyle}>
         <div style={textContainerStyle}>
-          <h1 style={{ fontSize: "3rem" }}>Hey Buddy:</h1>
-          <h1 style={{ fontSize: "3rem" }}>
+          <h1 className="text-3xl  md:text-5xl">Hey Buddy:</h1>
+          <h1 className="text-3xl  md:text-5xl pb-5">
           Trusted Virtual Reality Development Company In India & USA
           </h1>
           <Button
@@ -121,7 +121,7 @@ const Herosection = () => {
             initial="hidden"
             animate={controls}
             variants={textAnimation1}
-            className="py-8 text-xl "
+            className="py-8 text-base md:text-xl "
             style={{color: 'white'}}
           >
             <p>

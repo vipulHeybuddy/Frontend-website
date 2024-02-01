@@ -127,7 +127,7 @@ const Mixsection = () => {
         <h1 className="py-4 lg:w-[80%] text-2xl lg:text-4xl">
         If it's AR, It's Hey Buddy: <br /> Our Comprehensive Augmented Reality Development Services
         </h1>
-        <p className="text-xl lg:text-2xl">
+        <p className=" text-base md:text-xl lg:text-2xl">
         No need to lose your valuable time and resources on finding different service providers for your every need. Hey Buddy has got it all covered.
 
 We offer a complete suite of AR services. From AR app development to AR IoT integration to even cross-platform AR development, you name it, we deliver it. 

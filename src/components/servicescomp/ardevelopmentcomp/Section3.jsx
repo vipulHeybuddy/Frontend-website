@@ -77,7 +77,7 @@ const Motionslide = () => {
           <h1 className="py-4 text-2xl lg:text-4xl">
             Success Stories with Hey Buddy AR Software Solutions
           </h1>
-          <p className="text-xl lg:text-2xl">
+          <p className=" text-base md:text-xl lg:text-2xl">
             Hey Buddy maintains leadership amongst AR development companies. All
             credit to its team of high-skilled AR professionals, streamlined
             development process, and client-centric approach. We have delivered
@@ -86,10 +86,10 @@ const Motionslide = () => {
           </p>
         </div>
       </div>
-      <div className="h-fit relative bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev3.png')] bg-fixed bg-bottom ">
+      <div className="h-fit relative lg:bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev3.png')] bg-fixed bg-bottom ">
         <section className="work  hidden lg:flex flex-row justify-between">
           <div className="work__left">
-            <div className="work__text">
+            <div className="work__text flex flex-col items-center">
               {texts.map((text, index) => (
                 <WorkItem
                   key={index}
@@ -101,7 +101,7 @@ const Motionslide = () => {
           </div>
           <div className="work__right">
             <div className="work__right-b1">
-              <div className="work__photo">
+              <div className="work__photo flex flex-col items-center">
                 <PhotoItem
                   title="1"
                   imgSrc={

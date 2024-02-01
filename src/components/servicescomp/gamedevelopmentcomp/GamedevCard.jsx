@@ -10,7 +10,7 @@ function GamedevCard({ imageUrl, title ,description }) {
           <h2 className="text-center text-xl md:text-3xl font-semibold text-white py-5">
             {title}
           </h2>
-          <p className=" text-lg md:text-[20px] text-center text-white">{description}</p>
+          <p className=" text-base md:text-[20px] text-center text-white">{description}</p>
       </div>
     </div>
   );

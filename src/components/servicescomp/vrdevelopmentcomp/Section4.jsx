@@ -127,7 +127,7 @@ const Mixsection = () => {
         <h1 className="py-4 lg:w-[80%] text-2xl lg:text-4xl">
         Hey Buddy: Power VR Experiences Across Platforms
         </h1>
-        <p className="text-xl lg:text-2xl">
+        <p className=" text-base md:text-lg lg:text-xl">
         We have a large team dedicated to VR development. This helps us possess talents for diverse platforms powered by powerful development frameworks.
         </p>
       </div>

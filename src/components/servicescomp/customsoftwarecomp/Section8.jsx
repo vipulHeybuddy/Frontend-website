@@ -68,7 +68,7 @@ const Pagenation = () => {
           Hey Buddy Tech Arsenal for best Game Solutions: <br /> Expertise on
           all fronts
         </h1>
-        <p className="text-xl lg:text-2xl">
+        <p className=" text-base md:text-lg lg:text-2xl">
           Hey Buddy claim to the leading spot of a game development company in
           India emanates from its expert team. Our developers bring in advanced
           and profound expertise to deliver the best gaming solution for you.
@@ -138,7 +138,7 @@ const Pagenation = () => {
       <div className="py-6 px-2">
         <TabPanel
           hidden={selectedTab !== "Technologies"}
-          className="p-4 bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 rounded-lg h-[20vh] w-full"
+          className="p-4 bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 rounded-lg h-fit w-full"
         >
           <div className=" grid  md:mb-12 grid-cols-5 gap-y-4 gap-x-2  ">
           <div className=" mx-auto text-center"> 
@@ -212,9 +212,9 @@ const Pagenation = () => {
 
         <TabPanel
           hidden={selectedTab !== "Tools"}
-          className="p-4 bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 rounded-lg h-[20vh] w-full"
+          className="p-4 bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 rounded-lg h-fit w-full"
         >
-          <div className="grid sm:grid-1 md:mb-12 md:grid-cols-2 lg:grid-cols-5 gap-y-4 gap-x-2">
+          <div className=" grid  md:mb-12 grid-cols-5 gap-y-4 gap-x-2 ">
           <div className=" mx-auto text-center"> 
             <Image 
                 src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Custom+Software+Development+Icons/Git.svg"
@@ -276,9 +276,9 @@ const Pagenation = () => {
 
         <TabPanel
           hidden={selectedTab !== "Platforms"}
-          className="p-4 bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 rounded-lg h-[20vh] w-full"
+          className="p-4 bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 rounded-lg h-fit w-full"
         >
-          <div className="grid sm:grid-1 md:mb-12 md:grid-cols-2 lg:grid-cols-5 gap-y-4 gap-x-2">
+          <div className=" grid  md:mb-12 grid-cols-5 gap-y-4 gap-x-2">
             <div className=" mx-auto text-center"> 
             <Image 
                 src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Custom+Software+Development+Icons/AWS+(Amazon+Web+Services).svg"
@@ -342,9 +342,9 @@ const Pagenation = () => {
 
         <TabPanel
           hidden={selectedTab !== "ProgrammingLanguages"}
-          className="p-4 bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 rounded-lg h-[20vh] w-full"
+          className="p-4 bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 rounded-lg h-fit w-full"
         >
-         <div className="grid sm:grid-1 md:mb-12 md:grid-cols-2 lg:grid-cols-5 gap-y-4 gap-x-2">
+         <div className=" grid  md:mb-12 grid-cols-5 gap-y-4 gap-x-2 ">
             <div className=" mx-auto text-center"> 
             <Image 
                 src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Custom+Software+Development+Icons/Java.svg"
@@ -417,9 +417,9 @@ const Pagenation = () => {
 
         <TabPanel
           hidden={selectedTab !== "Frameworks"}
-          className="p-4 bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 rounded-lg h-[20vh] w-full"
+          className="p-4 bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 rounded-lg h-fit w-full"
         >
-         <div className=" grid sm:grid-1 md:mb-12 md:grid-cols-2 lg:grid-cols-5 gap-y-4 gap-x-2">
+         <div className="grid  md:mb-12 grid-cols-5 gap-y-4 gap-x-2 ">
             <div className=" mx-auto text-center"> 
             <Image 
                 src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Custom+Software+Development+Icons/Django.svg"
@@ -490,9 +490,9 @@ const Pagenation = () => {
 
         <TabPanel
           hidden={selectedTab !== "Databases"}
-          className="p-4 bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 rounded-lg h-[20vh] w-full"
+          className="p-4 bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 rounded-lg h-fit w-full"
         >
-          <div className="grid sm:grid-1 md:mb-12 md:grid-cols-2 lg:grid-cols-5 gap-y-4 gap-x-2">
+          <div className="grid  md:mb-12 grid-cols-5 gap-y-4 gap-x-2 ">
             <div className=" mx-auto text-center"> 
             <Image 
                 src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Custom+Software+Development+Icons/MySQL.svg"
@@ -564,9 +564,9 @@ const Pagenation = () => {
 
         <TabPanel
           hidden={selectedTab !== "DevelopmentMethodologies"}
-          className="p-4 bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 rounded-lg h-[20vh] w-full"
+          className="p-4 bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 rounded-lg h-fit w-full"
         >
-          <div className="grid sm:grid-1 md:mb-12 md:grid-cols-2 lg:grid-cols-5 gap-y-4 gap-x-2">
+          <div className="grid  md:mb-12 grid-cols-5 gap-y-4 gap-x-2 ">
             <div className=" mx-auto text-center"> 
             <Image 
                 src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Custom+Software+Development+Icons/Agile.svg"
@@ -638,9 +638,9 @@ const Pagenation = () => {
 
         <TabPanel
           hidden={selectedTab !== "MobileDevelopment"}
-          className="p-4 bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 rounded-lg h-[20vh] w-full"
+          className="p-4 bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 rounded-lg h-fit w-full"
         >
-          <div className="grid sm:grid-1 md:mb-12 md:grid-cols-2 lg:grid-cols-5 gap-y-4 gap-x-2">
+          <div className="grid  md:mb-12 grid-cols-5 gap-y-4 gap-x-2">
             <div className=" mx-auto text-center"> 
             <Image 
                 src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Custom+Software+Development+Icons/Flutter.svg"

@@ -305,8 +305,6 @@ const Page = () => {
           <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev10.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
             <Faqsection />
           </div>
-
-
         </div>
       </div>
     </div>
