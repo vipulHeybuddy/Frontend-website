@@ -13,15 +13,20 @@ import GamedevCard from "../gamedevelopmentcomp/GamedevCard";
 
 const images = [0, 1, 2, 3, 4, 5];
 const texts = [
+ 
+
   {
+
     title: "3D Character Development",
     description:
       "Our experienced, skilled and creative 3D artists and modellers produce visually impressive 3D characters just for your project, brand and storytelling      ",
     img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.png",
+
   },
   {
     title: "3D Asset Development",
     description:
+
       "We develop meticulously detailed, accurate, and high-quality 3D assets that perfectly fulfil your project's visual and functional needs.  ",
     img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg",
   },
@@ -50,6 +55,7 @@ const texts = [
     img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg",
   },
  
+
 ];
 
 const Motionslide = () => {
@@ -72,7 +78,7 @@ const Motionslide = () => {
       clipPath: function () {
         return "inset(0px 0px 100% 0px)";
       },
-      stagger: 0.5,
+      stagger: 0.8,
       ease: "power3",
     });
 
@@ -155,6 +161,7 @@ const Motionslide = () => {
                     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds5.jpg"
                   }
                 />
+               
               </div>
             </div>
           </div>

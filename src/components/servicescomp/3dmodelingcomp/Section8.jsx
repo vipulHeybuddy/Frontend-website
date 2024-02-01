@@ -1,5 +1,5 @@
 "use client";
-
+import Link from "next/link";
 import React, { useEffect, useRef, useState } from "react";
 import { TabPanel, useTabs } from "react-headless-tabs";
 import { TabSelector } from "./TabSelector";
@@ -420,7 +420,23 @@ const Pagenation = () => {
 
           </div>
         </TabPanel> */}
-        
+
+        <div style={textContainerStyle}>
+          <h1 className="py-4 text-2xl lg:text-3xl">
+            Creative, Customised, and Cost-effective VR development software
+            services with Hey Budy.
+          </h1>
+          <Link href="/Pages/Contactus">
+          <Button
+            style={buttonHeader}
+            onMouseEnter={() => setIsHovered(true)}
+            onMouseLeave={() => setIsHovered(false)}
+            className="text-2xl"
+          >
+            Discuss Your Project
+          </Button>
+          </Link>
+        </div>
 
       </div>
     </motion.div>
