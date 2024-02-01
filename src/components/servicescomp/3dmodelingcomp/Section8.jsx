@@ -1,5 +1,5 @@
 "use client";
-
+import Link from "next/link";
 import React, { useEffect, useRef, useState } from "react";
 import { TabPanel, useTabs } from "react-headless-tabs";
 import { TabSelector } from "./TabSelector";
@@ -425,6 +425,7 @@ const Pagenation = () => {
             Creative, Customised, and Cost-effective VR development software
             services with Hey Budy.
           </h1>
+          <Link href="/Pages/Contactus">
           <Button
             style={buttonHeader}
             onMouseEnter={() => setIsHovered(true)}
@@ -433,6 +434,7 @@ const Pagenation = () => {
           >
             Discuss Your Project
           </Button>
+          </Link>
         </div>
 
       </div>

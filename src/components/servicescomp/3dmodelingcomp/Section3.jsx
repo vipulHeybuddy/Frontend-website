@@ -11,50 +11,46 @@ import WorkItem from "../gamedevelopmentcomp/WorkItem";
 import PhotoItem from "../gamedevelopmentcomp/PhotoItem";
 import GamedevCard from "../gamedevelopmentcomp/GamedevCard";
 
-const images = [0, 1, 2, 3, 4, 5, 6];
+const images = [0, 1, 2, 3, 4, 5];
 const texts = [
+ 
+
   {
-    title: "Game Development",
-    description:
-      "We develop highly functional mobile game solutions with cross-platform compatibility. So whether it is iOS or Android, smartphone or console, you name it and we, as your trusted Mobile game development company, will do it ",
-    img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.png",
+    title: " 3D Character Development",
+    description: "Our experienced, skilled and creative 3D artists and modellers produce visually impressive 3D characters just for your project, brand and storytelling",
+        img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.png",
   },
   {
-    title: "Mobile Game Development",
+    title: "3D Asset Development",
     description:
-      "We develop highly functional mobile game solutions with cross-platform compatibility. So whether it is iOS or Android, smartphone or console, you name it and we, as your trusted Mobile game development company, will do it ",
+      "We develop meticulously detailed, accurate, and high-quality 3D assets that perfectly fulfil your project's visual and functional needs.",
     img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg",
   },
   {
-    title: "Unreal Game Development",
+    title: "3D Hard Surface Modelling",
     description:
-      "Unreal engine is known to deliver powerful and dynamic games that stun gamers with its visuals and realism. Our developers love to work on this platform and get you a game with realistic game physics and animation and AI’s smart interactivity.",
+      "We create detailed 3D models of objects or structures following your specific guidelines and ensure timely delivery for uninterrupted project operations.",
     img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds2.jpg",
   },
   {
-    title: "Unity 3D Game Development",
+    title: "3D Animation Services",
     description:
-      "We use the robust Unity engine to develop immersive, high-performing, and visually stunning games for your target audience. Unity is known for its powerful tools and features and we, as Unity Game development company use it to the fullest for 2D and 3D games.",
+      " Our client-centric approach ensures our 3D animations and meticulous rigging convey your vision accurately while captivating the audience with high-quality visuals.",
     img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds3.jpg",
   },
   {
-    title: "Metaverse Game Development",
+    title: "3D MetaHuman Creation Services",
     description:
-      "Get ready to teleport your gaming audience into a new reality of Metaverse games. We are a renowned Metaverse game development company that knows community-building, utilisation of user-generated content, and capitalise on social connectivity.",
+      " Get photorealistic digital humans with easy customisation, We create Metahumans for virtual productions, games, or all other applications.",
     img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds4.jpg",
   },
   {
-    title: "Web3 Game Development",
+    title: "3D Environment Development",
     description:
-      "Ready to explore decentralised gaming for untapped business opportunities, we have an offer. Our team develops decentralised and secure Web3 gaming solutions utilising leading technologies like AI, blockchain, smart contracts, NFTs, and much more. ",
+      " We create deeply immersive environments that captivate your audience with ultra-realistic visuals and perfectly fit your project needs.",
     img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg",
   },
-  {
-    title: "AR/VR Game Development",
-    description:
-      "We create immersive AR and VR games that merge with gamers' real world and alter their gaming experience for good. The high-fidelity games blur the line between the real and the gaming world and create a gaming experience that gamers can never get enough of.",
-    img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.png",
-  },
+  
 ];
 
 const Motionslide = () => {
@@ -77,7 +73,7 @@ const Motionslide = () => {
       clipPath: function () {
         return "inset(0px 0px 100% 0px)";
       },
-      stagger: 0.5,
+      stagger: 0.8,
       ease: "power3",
     });
 
@@ -160,6 +156,7 @@ const Motionslide = () => {
                     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds5.jpg"
                   }
                 />
+               
               </div>
             </div>
           </div>
