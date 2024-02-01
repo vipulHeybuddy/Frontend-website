@@ -101,18 +101,18 @@ body {
 
 .work__left {
   position: relative;
-  width: 54%;
+  width: 50%;
   z-index: 2;
 }
 .work__text {
   position: sticky;
   top: 0;
-  margin: auto;
-  width: 80%;
+  /* margin: auto; */
+  width: 100%;
 }
 
 .work__info {
-  height: 100vh;
+  height: 100vh !important;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -120,7 +120,7 @@ body {
 
 
 .work__right {
-  width: 46%;
+  width: 50%;
   height: auto;
 }
 .work__right-b1 {
@@ -153,4 +153,5 @@ body {
   height: 100%;
   object-fit: cover;
 }
+
 

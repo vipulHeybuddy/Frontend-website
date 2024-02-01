@@ -72,40 +72,40 @@ const Sliderclient = () => {
     // const List = [
     //     {
     //       id: "1",
-    //       heading: "Custom Product Planning and Inventory Management Software",
+    //       heading: "AR/VR Experiences",
     //       imgurl: "",
-    //       para: "Our client, a leading manufacturing company, faced inefficiencies in production planning and inventory management. We developed a custom software to optimize production schedules and automate inventory tracking for our client. The results were astonishing.",
+    //       para: "Our expert 3D modelers enrich the visual appeal of your AR/VR projects, creating deeply immersive environments and characters for a truly interactive journey.",
     //     },
     //     {
     //       id: "2",
-    //       heading: "Custom Patient Data Management Software for Leading Healthcare Providers",
+    //       heading: "Animation",
     //       imgurl: "",
-    //       para: "One of our healthcare provider clients needed a secure and compliant patient data management system to ensure better confidentiality and security and to streamline their operations. We developed the required software solution with robust security features, ensuring HIPAA compliance.",
+    //       para: "Whether for promotional videos, educational content, or entertainment, our skilled 3D artists craft visually impressive animations, breathing life into your narratives.",
     //     },
     //     {
     //       id: "3",
-    //       heading: "Feature-packed, User-friendly E-commerce Solution",
+    //       heading: "Computer-generated imagery (CGI)",
     //       imgurl: "",
-    //       para: "An e-commerce startup sought a scalable platform to handle rapid growth and a diverse product range. We developed a customized e-commerce solution with advanced features and a user-friendly interface for efficient catalog management and order processing.",
+    //       para: "Our CGI-specialist 3D modellers bring stunning visuals for your films, advertisements, and various digital media to add gravity to your storytelling and brand communication.",
     //     },
     //     {
     //       id: "4",
-    //       heading: "Visually-High Gaming Demand Met with Innovative Custom Solutions",
+    //       heading: "Product Visualisation",
     //       imgurl: "",
-    //       para: "Our partners, a renowned gaming studio, faced challenges in creating an immersive multiplayer online game with complex graphics and interactive features. The solution required a special focus on the visuals of the game.",
+    //       para: "Our 3D development team delivers lifelike visualisations for you to showcase products with ultra-realistic visuals and gain an edge in your marketing efforts for unbeatable success.",
     //     },
     //     {
     //       id: "5",
-    //       heading: "Success Stories With Hey Buddy Customer Software Solutions",
+    //       heading: "Product Animation",
     //       imgurl: "",
-    //       para: "Hey Buddy is a leading custom software development company. We have multiple success stories to share. After all, our custom software solutions have helped clients across industries and scales.",
+    //       para: "Our team synergizes with yours to produce compelling product animations and dynamic product demonstrations that impactfully showcase your product’s functionality and features.",
     //     },
-    //     // {
-    //     //   id: "6",
-    //     //   heading: "We Understand You",
-    //     //   imgurl: "",
-    //     //   para: "At Hey Buddy, We understand and offer exactly what you expect. Thanks to our vast experience of working with hundreds of clients over the years. ",
-    //     // },
+    //     {
+    //       id: "6",
+    //       heading: "Gaming",
+    //       imgurl: "",
+    //       para: "Our game-crazy 3D modellers develop characters, environments, assets and other customised 3D models for Unity, Unreal or your specific game engine.",
+    //     },
     //   ];
  
         const settings = {
@@ -154,7 +154,6 @@ const Sliderclient = () => {
 
   return (
     <></>
-   
     // <motion.div
     // ref={ref}
     // initial="hidden"
@@ -168,11 +167,10 @@ const Sliderclient = () => {
         
     //     <Slider {...settings} >
        
-
     //     {List.map((section, index) => (
     //         <div className="px-2">
 
-    //       <figure style={{maxHeight: '45vh', overflow: 'auto' , height: '45vh'  }} class="flex flex-col p-4 lg:p-6  rounded-lg  h-full w-full bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20">
+    //       <figure style={{maxHeight: '36vh' }} class="flex flex-col p-4 lg:p-6  rounded-lg  h-full w-full bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20">
     //         <blockquote class="  text-gray-400">
     //           <h3
     //             style={{ color: "white" }}
@@ -181,14 +179,14 @@ const Sliderclient = () => {
     //             {section.heading}
     //           </h3>
 
-    //           <p style={{ color: "white" , height:"25vh" }} className="text-left">
+    //           <p style={{ color: "white",  height:"25vh" }} className="text-left">
     //             {section.para}
     //           </p>
     //         </blockquote>
     //       </figure>
     //               </div>
     //     ))}
-
+         
     //     </Slider>
 
     //   </div>

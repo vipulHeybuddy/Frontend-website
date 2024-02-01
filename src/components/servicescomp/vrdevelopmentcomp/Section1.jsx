@@ -90,8 +90,8 @@ const Herosection = () => {
     <>
       <div style={containerStyle}>
         <div style={textContainerStyle}>
-          <h1 style={{ fontSize: "3rem" }}>Hey Buddy:</h1>
-          <h1 style={{ fontSize: "3rem" }}>
+          <h1 className="text-3xl  md:text-5xl">Hey Buddy:</h1>
+          <h1 className="text-3xl  md:text-5xl pb-5">
           Trusted Virtual Reality Development Company In India & USA
           </h1>
           <Button
@@ -121,7 +121,8 @@ const Herosection = () => {
             initial="hidden"
             animate={controls}
             variants={textAnimation1}
-            className="py-8 text-xl "
+            className="py-8 text-base md:text-xl "
+            style={{color: 'white'}}
           >
             <p>
             Your search for a globally recognized expert VR development company ends here. We have proven work experience with clients in India, the US, and around the globe. And it is our remarkable results and in-time delivery that places us among the top Virtual Reality companies. 

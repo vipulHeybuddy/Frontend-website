@@ -40,6 +40,7 @@ const Herosection = () => {
   };
 
   const containerStyle = {
+    padding: "20px",
     position: "sticky",
   };
 
@@ -87,21 +88,19 @@ const Herosection = () => {
 
   return (
     <>
-      <div style={containerStyle} className="p-0 md:p-5">
+      <div style={containerStyle}>
         <div style={textContainerStyle}>
-          <h1  className=" text-3xl md:text-5xl">Level up With AI:</h1>
-          <h1 className=" text-3xl md:text-5xl" >
-          Best Game Development Company in India
+          <h1 style={{ fontSize: "3rem" }}>Captivates attention that stops time with </h1>
+          <h1 style={{ fontSize: "3rem" }}>
+          3D Billboard Development
           </h1>
-          <Link href="/Pages/Contactus">
           <Button
             style={buttonHeader}
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
           >
-            Consult Our Experts
+            Let’s Cut the Clutter
           </Button>
-          </Link>
         </div>
         <div style={imageContainerStyle}>
           {/* Replace 'your-image.jpg' with the actual image source */}
@@ -110,7 +109,7 @@ const Herosection = () => {
             width={450}
             height={450}
             className="h-[24px] w-[24px] bg-white mx-auto mt-4"
-            src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.jpg"
+            src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Rectangle+32.png"
             alt="Background"
           />
         </div>
@@ -122,12 +121,10 @@ const Herosection = () => {
             initial="hidden"
             animate={controls}
             variants={textAnimation1}
-            className="py-8 text-xl text-white"
+            className="py-8 text-xl text-white "
           >
             <p>
-            Get an AI-powered smart gaming solution that captivates with its hyper-realistic graphics and enthrals with its deeply engaging gameplay. Hey Buddy is India's leading game development company, maintaining a large team of gamer-first developers who know what works.
-
-           
+            Get brand visibility that surpasses any other marketing methodology. Captivate audiences and communicate with the deep messaging power of three dimensional billboards. The future of advertising has arrived and you need to make a move right now.
 
             </p>
           </div>

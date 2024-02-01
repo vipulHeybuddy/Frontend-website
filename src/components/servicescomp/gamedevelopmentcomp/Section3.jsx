@@ -1,17 +1,14 @@
 "use client";
 
 import { useEffect, useLayoutEffect, useState } from "react";
-// import { render } from "react-dom";
-import classnames from "classnames";
 
 import gsap from "gsap";
-import ScrollTrigger from "gsap/ScrollTrigger";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 import "../../../styles/slide.css";
 import WorkItem from "./WorkItem";
 import PhotoItem from "./PhotoItem";
 import GamedevCard from "./GamedevCard";
-
 
 const images = [0, 1, 2, 3, 4, 5, 6];
 const texts = [
@@ -60,7 +57,6 @@ const texts = [
 ];
 
 const Motionslide = () => {
-  
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
 
@@ -79,7 +75,7 @@ const Motionslide = () => {
       clipPath: function () {
         return "inset(0px 0px 100% 0px)";
       },
-      stagger: 0.5,
+      stagger: 0.7,
       ease: "none",
     });
 
@@ -88,58 +84,16 @@ const Motionslide = () => {
       start: "top top",
       end: "bottom bottom",
       animation: animation,
-      scrub: 1,
+      scrub: 0.1,
     });
-
-    return () => {
-      ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
-    };
   }, []);
 
-  // ==========================================================
-
-  // const [visibleImagesMap, setVisibleImagesMap] = useState(
-  //   images.reduce((map, image) => {
-  //     map[image] = false;
-  //     return map;
-  //   }, {})
-  // );
-
-  // const [currentText, setCurrentText] = useState(null);
-  // const [currentText1, setCurrentText1] = useState(null);
-
-  // useLayoutEffect(() => {
-  //   const handleScroll = () => {
-  //     const scrollTop = document.documentElement.scrollTop;
-  //     const viewportHeight = window.innerHeight;
-
-  //     const newVisibleImagesMap = images.reduce((map, image) => {
-  //       map[image] = scrollTop >= image * viewportHeight;
-  //       return map;
-  //     }, {});
-
-  //     setVisibleImagesMap(newVisibleImagesMap);
-
-  //     // Find the index of the currently visible image
-  //     const currentImageIndex = Math.floor(scrollTop / viewportHeight);
-
-  //     // Update the current text based on the currently visible image
-  //     setCurrentText(texts[currentImageIndex]?.title);
-  //     setCurrentText1(texts[currentImageIndex]?.description);
-  //   };
-
-  //   window.addEventListener("scroll", handleScroll);
-  //   handleScroll();
-
-  //   return () => window.removeEventListener("scroll", handleScroll);
-  // }, []);
-
   return (
-    <div className="app">
+    <div>
       <div className="py-8 text-white">
         <div className="text-content lg:w-[80%]">
           <h1 className="py-4 text-2xl lg:text-4xl">
-          Hey Buddy, Game On!! - Complete Game Development Services 
+            Hey Buddy, Game On!! - Complete Game Development Services
           </h1>
           <p className="text-sm lg:text-lg">
             Hey Buddy is your one-stop shop for end-to-end game development
@@ -148,10 +102,10 @@ const Motionslide = () => {
           </p>
         </div>
       </div>
-      <div className="h-fit relative bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev3.png')] bg-fixed bg-bottom ">
+      <div className="h-fit relative lg:bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev3.png')] bg-fixed bg-bottom ">
         <section className="work  hidden lg:flex flex-row justify-between">
           <div className="work__left">
-            <div className="work__text">
+            <div className="work__text flex flex-col items-center">
               {texts.map((text, index) => (
                 <WorkItem
                   key={index}
@@ -163,43 +117,56 @@ const Motionslide = () => {
           </div>
           <div className="work__right">
             <div className="work__right-b1">
-              <div className="work__photo">
+              <div className="work__photo flex flex-col items-center">
                 <PhotoItem
-                  title="1"
+                  title="0"
                   imgSrc={
                     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.png"
                   }
                 />
                 <PhotoItem
-                  title="2"
+                  title="1"
                   imgSrc={
                     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg"
                   }
                 />
                 <PhotoItem
-                  title="3"
+                  title="2"
                   imgSrc={
                     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds2.jpg"
                   }
                 />
                 <PhotoItem
-                  title="4"
+                  title="3"
                   imgSrc={
                     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds3.jpg"
                   }
                 />
                 <PhotoItem
-                  title="5"
+                  title="4"
                   imgSrc={
                     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds4.jpg"
                   }
                 />
                 <PhotoItem
-                  title="6"
+                  title="5"
                   imgSrc={
                     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds5.jpg"
                   }
+                  
                 />
+                <PhotoItem
+                  title="6"
+                  imgSrc={
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.png"
+                  }
+                />
+                {/* <PhotoItem
+                  title="7"
+                  imgSrc={
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds3.jpg"
+                  }
+                /> */}
               </div>
             </div>
           </div>
@@ -214,24 +181,6 @@ const Motionslide = () => {
             />
           ))}
         </section>
-        {/* <div className="frame relative">
-
-           {images.map((image, index) => (
-            <div key={image} className={`image-container ${index % 2 === 0 ? 'image-left' : 'image-right'}`}>
-              {currentText && (
-                <div style={{display: 'flex' ,flexDirection: 'column'}}>
-                <div className="text font-semibold text-2xl text-white">{currentText}</div>
-                <div  className="text-desctiption text-white">{currentText1}</div>
-                </div>
-              )}
-              <div
-                className={classnames("image", `image_${image}`, {
-                  image_visible: visibleImagesMap[image],
-                })}
-              />
-            </div>
-          ))} 
-        </div> */}
       </div>
     </div>
   );

@@ -90,8 +90,8 @@ const Herosection = () => {
     <>
       <div style={containerStyle}>
         <div style={textContainerStyle}>
-          <h1 style={{ fontSize: "3rem" }}>Hey Buddy: </h1>
-          <h1 style={{ fontSize: "3rem" }}>
+          <h1 className=" text-3xl md:text-5xl">Hey Buddy: </h1>
+          <h1 className=" text-3xl md:text-5xl mb-5">
           Your Trusted Custom Software Development Company
           </h1>
           <Button
@@ -121,7 +121,7 @@ const Herosection = () => {
             initial="hidden"
             animate={controls}
             variants={textAnimation1}
-            className="py-8 text-white text-xl "
+            className="py-8 text-white text-base md:text-xl "
           >
             <p>
             Hey Buddy is the name you really upon. We listen, understand, and meet your specific requirements with our <b>custom software development services</b>. All this while, our sharp focus is on delivering a high-quality solution that meets your timely and budgetary parameters. 

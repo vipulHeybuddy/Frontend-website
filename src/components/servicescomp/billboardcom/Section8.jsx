@@ -1,46 +1,19 @@
 "use client";
 
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef } from "react";
 import { TabPanel, useTabs } from "react-headless-tabs";
 import { TabSelector } from "./TabSelector";
 import Image from "next/image";
 import { motion, useAnimation } from "framer-motion";
-import { Button } from "@material-tailwind/react";
 
 const Pagenation = () => {
  
-  const [isHovered, setIsHovered] = useState(false);
-
   const controls = useAnimation();
   const ref = useRef();
-  const textContainerStyle = {
-    marginBottom: "10%",
-    // position: "sticky",
-    left: "50%",
-    zIndex: 2,
-    color: "#fff",
-    textAlign: "center",
-    top: "30%",
-  };
-
 
   const textAnimation1 = {
     hidden: { opacity: 0, y: "20%" },
     visible: { opacity: 1, y: 0, transition: { duration: 1.5, ease: "easeOut" } },
-  };
-
-
-  const buttonHeader = {
-    border: isHovered ? "0px" : "1px solid white",
-    background: isHovered
-      ? "linear-gradient(180deg, color(display-p3 0.2471 0.5412 0.8863) 0%, color(display-p3 0.137 0.3826 0.6708) 100%)"
-      : "transparent",
-    color: isHovered ? "white" : "white", // Change the text color as needed
-    padding: "10px 20px",
-    fontSize: "16px",
-    transition: "background-color 0.3s, transform 0.3s",
-    cursor: "pointer",
-    transform: isHovered ? "scale(1.1)" : "scale(1)",
   };
 
   const onScreen = async () => {
@@ -76,6 +49,7 @@ const Pagenation = () => {
     "task2",
     "task3",
     "task4",
+    "task5",
     
   ]);
 
@@ -87,49 +61,62 @@ const Pagenation = () => {
     variants={textAnimation1}
     
     className="lg:py-8 text-white">
-      {/* <div className="py-6">
+      <div className="py-6">
         <h1 className="py-4 lg:w-[80%] text-2xl lg:text-4xl">
-        Hey Buddy Advanced Tech-stack for High-Quality 3D Model Development
+        Hey Buddy 3D Billboard Development Tech Stack
         </h1>
         <p className="text-xl lg:text-2xl">
-          Hey Buddy claim to the leading spot of a game development company in
-          India emanates from its expert team. Our developers bring in advanced
-          and profound expertise to deliver the best gaming solution for you.
-        </p>
-      </div> */}
+          It takes skills and experience to develop traffic-pausing 3D visuals. Here is our tech stack for the same.
 
-      {/* <nav className="flex border-b border-gray-300 overflow-auto">
+        </p>
+      </div>
+
+      <nav className="flex border-b border-gray-300 overflow-auto">
         <TabSelector
           isActive={selectedTab === "task1"}
           onClick={() => setSelectedTab("task1")}
         >
-          Task 1
+
+          3D Modeling and Animation
+
         </TabSelector>
         <TabSelector
           isActive={selectedTab === "task2"}
           onClick={() => setSelectedTab("task2")}
         >
-          Task 2
+
+Graphics Rendering Engines
+
         </TabSelector>
         <TabSelector
           isActive={selectedTab === "task3"}
           onClick={() => setSelectedTab("task3")}
         >
-          Task 3
+
+Programming Languages
+
         </TabSelector>
         <TabSelector
           isActive={selectedTab === "task4"}
           onClick={() => setSelectedTab("task4")}
         >
-          Task 4
+
+Interactive Development
+
+        </TabSelector>
+        <TabSelector
+          isActive={selectedTab === "task5"}
+          onClick={() => setSelectedTab("task5")}
+        >
+  Shader Programming
         </TabSelector>
 
 
 
 
-      </nav> */}
+      </nav>
 
-      {/* <div className="py-6 px-2">
+      <div className="py-6 px-2">
         <TabPanel
           hidden={selectedTab !== "task1"}
           className="p-4 bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 rounded-lg h-[20vh] w-full"
@@ -401,22 +388,83 @@ const Pagenation = () => {
         </TabPanel>
 
 
-      </div> */}
+        <TabPanel
+          hidden={selectedTab !== "task5"}
+          className="p-4 bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 rounded-lg h-[20vh] w-full"
+        >
+         <div className="grid sm:grid-1 md:mb-12 md:grid-cols-2 lg:grid-cols-5 gap-y-4 gap-x-2">
+            <div className=" mx-auto text-center"> 
+            <Image 
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3D+Development+Icons/Marmoset+Toolbag.svg"
+                width={450}
+                height={450}
+                // className="h-[90%] w-[90%]"
+                alt="9"
 
-<div style={textContainerStyle}>
-          
-    <h1 style={{ fontSize: "2rem" }}>
-    Creative, Customised, and Cost-effective VR development software services with Hey Budy.
-    </h1>
-    <Button
-      style={buttonHeader}
-      onMouseEnter={() => setIsHovered(true)}
-      onMouseLeave={() => setIsHovered(false)}
-    >
-      Discuss Your Project
+                
+                />
+                
+            </div>
 
-    </Button>
-  </div>
+            <div className=" mx-auto text-center" >
+            <Image 
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3D+Development+Icons/KeyShot.svg"
+                width={450}
+                height={450}
+                // className="h-[90%] w-[90%]"
+                alt="9"
+
+                
+                />
+                
+            </div>
+
+            <div className=" mx-auto text-center" >
+            <Image 
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3D+Development+Icons/SolidWorks.svg"
+                width={450}
+                height={450}
+                // className="h-[90%] w-[90%]"
+                alt="9"
+
+                
+                />
+                
+            </div>
+
+            <div className=" mx-auto text-center" >
+            <Image 
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3D+Development+Icons/Modo.svg"
+                width={450}
+                height={450}
+                // className="h-[90%] w-[90%]"
+                alt="9"
+
+                
+                />
+                
+            </div>
+
+            <div className=" mx-auto text-center" >
+            <Image 
+                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3D+Development+Icons/Daz+3D.svg"
+                width={450}
+                height={450}
+                // className="h-[90%] w-[90%]"
+                alt="9"
+
+                
+                />
+                
+            </div>
+
+            
+
+          </div>
+        </TabPanel>
+
+
+      </div>
     </motion.div>
   );
 };

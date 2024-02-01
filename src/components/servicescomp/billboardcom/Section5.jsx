@@ -83,10 +83,10 @@ const Timelinecomp = () => {
     >
       <div className="py-8 text-white">
         <h1 className="py-4 lg:w-[80%] text-2xl lg:text-4xl">
-        Our Streamlined 3D Development Process
+        3D Billboard Development Process For Creative Vision Realization
         </h1>
-        <p className=" text-base md:text-lg lg:text-2xl">
-        Project after project, we have refined our 3D development process to deliver creativity and innovation to your project. We understand the importance of a transparent and collaborative workflow, which is reflected in our process.
+        <p className="text-xl lg:text-2xl">
+        Our 3D billboard development process is streamlined to realize your vision with all its creative glory intact.
         </p>
       </div>
 
@@ -100,39 +100,39 @@ const Timelinecomp = () => {
                   <ul>
                     <li>
 
-                      <h3 className="font-bold text-2xl  ">Consultation</h3>
+                      <h3 className="font-bold text-2xl heading heading">Conceptualization</h3>
 
                       <p>
-                      We initiate with a thorough consultation, grasping the intricacies of your project, goals, and expectations. This clear communication ensures that our plans and processes align with your vision, and lays a strong foundation for a successful collaboration.
+                      Our team coordinates with yours and the 3d led screen billboard providers to, brainstorm innovative ideas and align outcomes with your brand message.
                       </p>
 
                     </li>
                     <li>
 
-                      <h3 className="font-bold text-2xl ">Conceptualization and Planning</h3>
+                      <h3 className="font-bold text-2xl heading">Design Expertise</h3>
 
                       <p>
-                      Our skilled team transforms ideas into a consolidated plan, outlining your project scope, timelines, and key milestones. This sets the roadmap for the project while ensuring transparency and clarity in the development process.
+                      We utilize advanced design tools, bringing your concepts to life and carefully curating visuals to create mesmerizing anamorphic effects.
                       </p>
 
                
                     </li>
                     <li>
 
-                      <h3 className="font-bold text-2xl ">
-                      Design and Development
+                      <h3 className="font-bold text-2xl heading">
+                      Precision Rendering
 
                       </h3>
                       <p>
-                      We utilize advanced tools and technologies in our design and development process. Here, we aim to get you high-quality assets that not only meet your project's visual and functional requirements but also exceed your expectations.
+                      We employ advanced rendering techniques to capture every detail of your anamorphic 3D design that is crafted with precision by our team.
                       </p>
 
                     </li>
                     <li>
 
-                      <h3 className="font-bold text-2xl ">Client Feedback and Revisions</h3>
+                      <h3 className="font-bold text-2xl heading">Real-world Simulation</h3>
          <p>
-                      Staying true to our collaborative approach toward 3D development, we welcome your feedback and suggestions in this step. Accordingly, we make necessary revisions so that your input shapes the final product, guaranteeing satisfaction.
+         We assess the impact of your upcoming billboard through simulated environments and ensure it brings out the best viewer experience.
 
                       </p>
 
@@ -140,21 +140,20 @@ const Timelinecomp = () => {
 
                     <li>
 
-                      <h3 className="font-bold text-2xl ">Quality Assurance</h3>
+                      <h3 className="font-bold text-2xl heading">Transparency and Collaboration</h3>
 
                       <p>
-                      Before we finally deliver, the resulting 3D models undergo rigorous quality checks to ensure that our 3D models meet your project standards. We deliver polished, error-free 3D assets that meet your project's visual and functional needs.
+                      We share drafts and collaborate with you throughout the process, ensuring that the final anamorphic content perfectly aligns with your marketing objectives.
                       </p>
 
                     </li>
 
                     <li>
 
-                      <h3 className="font-bold text-2xl ">Timely Delivery</h3>
+                      <h3 className="font-bold text-2xl heading">Meticulous Execution</h3>
 
                       <p>
-                      With our unwavering commitment, we deliver your 3D assets with high regard to timelines. 
-We ensure this by utilizing our reliable development process and high professionalism, the two most essential ingredients for your project's success.
+                      We implement the approved outcome with ultimate precision and deliver a flawless anamorphic 3D billboard that is hard to ignore.
 
                       </p>
 

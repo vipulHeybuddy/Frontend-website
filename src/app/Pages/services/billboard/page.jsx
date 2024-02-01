@@ -1,21 +1,22 @@
 "use client";
+
 import '../../../../styles/Font.css'
 import React, { useEffect, useState , useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import Gridsection from "@/components/Gridsection";
-import Faqsection from "@/components/servicescomp/gamedevelopmentcomp/Section10";
-import Pagenation from "@/components/servicescomp/gamedevelopmentcomp/Section8";
-import Mixsection from "@/components/servicescomp/gamedevelopmentcomp/Section4";
-import Timelinecomp from "@/components/servicescomp/gamedevelopmentcomp/Section5";
-import Motionslide from "@/components/servicescomp/gamedevelopmentcomp/Section3";
+import Faqsection from "@/components/servicescomp/billboardcom/Section10";
+import Pagenation from "@/components/servicescomp/billboardcom/Section8";
+import Mixsection from "@/components/servicescomp/billboardcom/Section4";
+import Timelinecomp from "@/components/servicescomp/billboardcom/Section5";
+import Motionslide from "@/components/servicescomp/billboardcom/Section3";
 import { AiFillCheckCircle } from "react-icons/ai";
 import { motion, useAnimation } from "framer-motion";
-import Herosection from "@/components/servicescomp/gamedevelopmentcomp/Section1";
-import Bottomclient from "@/components/servicescomp/gamedevelopmentcomp/Section9";
-import Section7 from "@/components/servicescomp/gamedevelopmentcomp/Section7";
+import Herosection from "@/components/servicescomp/billboardcom/Section1";
+import Bottomclient from "@/components/servicescomp/billboardcom/Section9";
+import Section7 from "@/components/servicescomp/billboardcom/Section7";
 
-const Page = () => {
+const page = () => {
 
 
   const controls = useAnimation();
@@ -92,73 +93,79 @@ const Page = () => {
     };
   }, []);
 
-  const checklist1 = [
-    {
-      title: "Tablet/Mobile Game Development",
-    },
-    {
-      title: "Metaverse Game Development",
-    },
-    {
-      title: "Immersive AR/VR Game Development",
-    },
-    {
-      title: "Unreal and Unity Game Development",
-    },
-  ];
+  // const checklist1 = [
+  //   {
+  //     title: "3D Asset",
+  //   },
+  //   {
+  //     title: "3D Characters",
+  //   },
+  //   {
+  //     title: "3D Environments",
+  //   },
+  //   {
+  //     title: "MetaHuman Creations",
+  //   },
+  //   {
+  //     title: "3D Hard Surface ",
+  //   },
+  //   {
+  //     title: "3D Animation",
+  //   },
+  // ];
 
   // --------------------grid section-1----------------------------------
   const List1 = [
     {
       id: "1",
-      heading: "Enhanced Brand Engagement",
+      heading: "Hyper-Engagement",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid1.png",
-      para: "Gaming offers a unique platform to connect with your audience on a deeper level. Your brand establishes a memorable presence in the mind of the gamer, fostering stronger connections and long-term loyalty.",
+      para: "3D corner billboards capture viewer attention like no other advertising. Thus, your message stands out in high-traffic areas and busy intersections.",
     },
     {
       id: "2",
-      heading: "Increased User Retention:",
+      heading: "Long-lasting Memorability",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid2.png",
-      para: "Games have an inherent ability to keep users hooked and invested. By incorporating addictive gameplay mechanics, your business can boost user retention, ensuring that your audience keeps coming back for more, and strengthening brand loyalty over time.",
+      para: "By capturing maximum senses, 3D illusion billboards leave a lasting impression on your audiences.",
     },
     {
       id: "3",
-      heading: "Best Way for Brand Awareness",
+      heading: "Wide Impact",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid3.png",
-      para: "Gaming is a powerful tool to aware, educate and train your audience on your products. Create immersive experiences that communicate your brand message to your customers and inform them about your products or services. Thus, merging entertainment and marketing for the best possible outcomes. ",
+      para: "The uniqueness and novelty of Anamorphic 3D billboards develop an emotional connection with your customers.",
     },
     {
       id: "4",
-      heading: "Data-Driven Insights:",
+      heading: "Innovation",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid4.png",
-      para: "Games generate a wealth of data and information about player behaviour and preferences. Leverage it to gain deep audience insights, refine your marketing strategies, and make data-driven impactful decisions that get you the best business outcomes.",
+      para: "These amazing 3D billboards break the mold, showcasing your brand at the forefront of innovation and unique capabilities.",
     },
-    {
-      id: "5",
-      heading: "Cross-Platform Reach:",
-      imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid5.png",
-      para: "Reach your audience across various platforms and devices. From mobile and tablets to PCs, consoles, or VR, be present where your audience is and enjoy a broader reach. Gaming ensures that your message is accessible to a diverse and widespread audience.",
-    },
-    {
-      id: "6",
-      heading: "Innovative Marketing Opportunities:",
-      imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid6.png",
-      para: "Games offer innovative marketing avenues by integrating your brand seamlessly into gaming storylines and environments. Utilize in-game advertising, or create branded mini-games for hyper-interactive campaigns, to enhance brand visibility and brand recall.",
-    },
+    // {
+    //   id: "5",
+    //   heading: "Focus on Core Competencies",
+    //   imgurl:
+    //     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid5.png",
+    //   para: "When experts are taking care of your 3D modelling requirement, your in-house team concentrates on core and critical tasks.",
+    // },
+    // {
+    //   id: "6",
+    //   heading: "Ease of Scalability",
+    //   imgurl:
+    //     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid6.png",
+    //   para: "Scale up or down as per your business requirements with ease. Say goodbye to the hiring and training challenges of additional staff.",
+    // },
   ];
 
   const Text1 = [
     {
       heading:
-        "Power up Your Brand and Press Start for Profit with Game Development -  Your Gamified Success Awaits!",
+        "Why your next campaign should be 3D Out of Home Advertising?",
       subtext:
-        "Investing in game development is not just about creating entertainment but a strategic move to brand expansion and market leadership. It is a strategic avenue for investing in innovation and engagement and staying ahead in today's dynamic business landscape.",
+        "If you want to lead the market, stand out from competitors and be the top choice of your competitor, you need to be the first mover. 3D outdoor advertising is making a huge buzz with every single ad run on it. Make sure, you don’t get left out.",
     },
   ];
 
@@ -166,54 +173,55 @@ const Page = () => {
   const List2 = [
     {
       id: "1",
-      heading: "Expertise Across Platform",
+      heading: "Creative Vision Realisation",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid7.png",
-      para: "We offer a comprehensive suite of services across all gaming platforms. We develop games for mobile, offer Unreal and Unity game development, AR/VR game development, and Metaverse game development.",
+      para: "With our vast experience and expert team we have developed precision realizing your vision and turning it into a visually stunning anamorphic 3D advertisement.",
     },
     {
       id: "2",
-      heading: "Cutting-Edge AI Solutions",
+      heading: "Impactful Branding",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid8.png",
-      para: "We elevate your games with AI-powered techniques and algorithms such as PCG, Natural Language Processing (NLP), Machine Learning (ML), etc. Our AI expertise ensures your games are intelligent and outsmart competition.",
+      para: "Having worked with brands across industries, we achieve brand representation with a lasting impact and a clear, resonating message that stands out.",
     },
     {
       id: "3",
-      heading: "Creative Innovation",
+      heading: "Precision in Execution",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid9.png",
-      para: "We don't just build games; we craft experiences as our team of gamer-first developers thrive on creative innovation. Expect unique storylines, dynamically engaging gameplay mechanics, and visually stunning environments to captivate your gaming audience and set your brand apart.",
+      para: "We assure flawless execution from concept to installation, with utmost precision and attention to detail. Just the way you wanted it.",
     },
     {
       id: "4",
-      heading: "Collaborative Partnership",
+      heading: "Expert Guidance",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid10.png",
-      para: "Believing in collaborative partnerships, we work closely with you. We ensure to completely understand your brand, goals, and it’s vision. And move forward with full might to realise the same. This is what differentiates our game development services.",
+      para: "We have a 3D curved screen expert who provides deep insight that leads to a sophisticated outcome needed to catch and hold attention.",
     },
     {
       id: "5",
-      heading: "Commitment to Quality",
+      heading: "Measurable Impact",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid11.png",
-      para: "Quality is non-negotiable at Hey Buddy. Our rigorous and perfected-over-year development process ensures that every aspect of your game meets the highest standards. Be it graphics, gameplay, performance or experience, we prioritise excellence and your satisfaction.",
+      para: "We help you sharpen your campaign and measure success with tangible results. We craft 3D billboard advertisements for your high brand visibility and engagement.",
     },
     {
       id: "6",
       heading: "Transparent Communication",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid12.png",
-      para: "By working with clients across industries and scales, we understood the gravity of transparent communication. Be assured to experience transparent communication, timely updates, and a responsive team to keep you informed and involved.",
+      para: "Right from the start, we keep you informed every step of the way. Our transparent communication keeps you in the loop for a collaborative and smooth process.",
     },
+    
   ];
 
   const Text2 = [
     {
       heading:
-        "Score Big Wins With Hey Buddy: Your Trusted  Game Development Company",
+        "Hey Buddy top 3D billboard company in India, the USA, and UAE ",
       subtext:
-        "Hey Buddy is a renowned name in the game development space. We have an experienced development team who know what works best for your business.",
+        "Hey Buddy puts your business objective at the forefront and makes sure that your next OOH 3D Billboard campaign attains its full potential.",
     },
   ];
 
@@ -229,7 +237,7 @@ const Page = () => {
          
          <Herosection />
 
-          <div
+          {/* <div
             ref={ref}
             initial="hidden"
             animate={controls}
@@ -241,7 +249,7 @@ const Page = () => {
                 {checklist1.map((section, index) => (
                   <div className="px-2 lg:px-16 flex items-center text-[#FFFFFF]  space-x-2.5 rtl:space-x-reverse">
                     <san className="flex items-center justify-center w-8 h-8  rounded-full shrink-0 ">
-                      {/* &#10004; */}
+                      
                       <AiFillCheckCircle className="w-8 h-8 text-[#6FCF97]" />
                     </san>
                     <span>
@@ -253,7 +261,7 @@ const Page = () => {
                 ))}
               </ol>
             </div>
-          </div>
+          </div> */}
 
           {/* -------------------------grid-reuse------------------------------------- */}
 
@@ -266,20 +274,17 @@ const Page = () => {
             <Motionslide />
           </div>
 
-       
-
           {/* ----------------------------Section-4---------------------------------- */}
           <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev4.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
             <Mixsection />
           </div>
 
           {/* ------------------------Section-5------------------------------------- */}
-          <div className=" relative">
-            <img src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev5.png" alt="bg image" className='absolute bottom-0' loading='lazy' />
+          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev5.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
             <Timelinecomp />
           </div>
 
-          {/* --------------------------Section-6--grid-reuse---------------------------------- */}
+          {/* ----------------------------grid-reuse---------------------------------- */}
           <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev6.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
             <Gridsection listData={List2} textData={Text2} />
           </div>
@@ -288,7 +293,6 @@ const Page = () => {
           <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev7.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
             {/* <Gridsection listData={List3} textData={Text3} /> */}
             <Section7/>
-
           </div>
 
           {/* ------------------------section-8-------------------------------------- */}
@@ -305,10 +309,12 @@ const Page = () => {
           <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev10.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
             <Faqsection />
           </div>
+
+
         </div>
       </div>
     </div>
   );
 };
 
-export default Page;
+export default page;

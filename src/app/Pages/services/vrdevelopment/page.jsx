@@ -1,7 +1,7 @@
 "use client";
 import '../../../../styles/Font.css'
 import React, { useEffect, useState , useRef } from "react";
-import { Button } from "@material-tailwind/react";
+
 import Link from "next/link";
 import Image from "next/image";
 import Gridsection from "@/components/Gridsection";
@@ -25,16 +25,7 @@ const Page = () => {
   
 
 
-  const textContainerStyle = {
-    marginBottom: "30%",
-    // position: "sticky",
-    left: "50%",
-    zIndex: 2,
-    color: "#fff",
-    textAlign: "center",
-    top: "30%",
-  };
-
+  
   const buttonHeader = {
     border: isHovered ? "0px" : "1px solid white",
     background: isHovered
@@ -310,7 +301,7 @@ const Page = () => {
 
           {/* -------------------------grid-reuse------------------------------------- */}
 
-          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev2.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
+          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev2.png')] py-4 bg-no-repeat bg-cover bg-[center_top_0rem]">
             <Gridsection listData={List1} textData={Text1} />
           </div>
 
@@ -322,12 +313,12 @@ const Page = () => {
        
 
           {/* ----------------------------Section-4---------------------------------- */}
-          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev4.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
+          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev4.png')] py-4 bg-no-repeat bg-cover bg-[center_top_0rem]">
             <Mixsection />
           </div>
 
           {/* ------------------------Section-5------------------------------------- */}
-          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev5.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
+          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev5.png')] py-4 bg-no-repeat bg-cover bg-[center_top_0rem]">
             <Timelinecomp />
           </div>
 
@@ -337,42 +328,28 @@ const Page = () => {
           </div> */}
 
           {/* ----------------------------Section7---------------------------------- */}
-          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev7.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
+          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev7.png')] py-4 bg-no-repeat bg-cover bg-[center_top_0rem]">
             {/* <Gridsection listData={List3} textData={Text3} /> */}
             <Section7/>
           </div>
 
           {/* ------------------------section-8-------------------------------------- */}
-          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev8.png')] py-8 bg-no-repeat lg:bg-cover ">
+          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev8.png')] py-4 bg-no-repeat bg-cover ">
             <Pagenation />
+           
           </div>
 
           {/* uper section of 9 */}
 
-          <div style={textContainerStyle}>
-          <h1 style={{ fontSize: "2rem" }}>
-          CTA:
-    </h1>
-    <h1 style={{ fontSize: "2rem" }}>
-    Creative, Customised, and Cost-effective VR development software services with Hey Budy.
-    </h1>
-    <Button
-      style={buttonHeader}
-      onMouseEnter={() => setIsHovered(true)}
-      onMouseLeave={() => setIsHovered(false)}
-    >
-      Discuss Your Project
-
-    </Button>
-  </div>
+         
 
           {/* -----------------------Section-9--------------------------------------- */}
-          <div className="text-white lg:py-16 bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev9.png')] py-8 bg-no-repeat lg:bg-cover">
+          <div className="text-white lg:py-16 bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev9.png')] py-4 bg-no-repeat bg-cover">
             <Bottomclient />
           </div>
 
           {/* -----------------------------Section-10----------------------------------- */}
-          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev10.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
+          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev10.png')] bg-no-repeat bg-cover bg-[center_top_0rem]">
             <Faqsection />
           </div>
 
