@@ -308,7 +308,7 @@ const Pagenation = () => {
                 src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Unreal+engine.svg"
                 width={450}
                 height={450}
-                className="h-[90%] w-[90%]"
+
                 alt="Hey B"
               />
             </div>
@@ -318,7 +318,7 @@ const Pagenation = () => {
                 src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Unity.svg"
                 width={450}
                 height={450}
-                className="h-[90%] w-[90%]"
+               
                 alt="Hey B"
               />
             </div>
@@ -335,7 +335,7 @@ const Pagenation = () => {
                 src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/C%23.svg"
                 width={450}
                 height={450}
-                className="h-[90%] w-[90%]"
+                
                 alt="Hey B"
               />
             </div>
@@ -345,7 +345,7 @@ const Pagenation = () => {
                 src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/C%2B%2B.svg"
                 width={450}
                 height={450}
-                className="h-[90%] w-[90%]"
+               
                 alt="Hey B"
               />
             </div>
@@ -355,7 +355,7 @@ const Pagenation = () => {
                 src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Java+script.svg"
                 width={450}
                 height={450}
-                className="h-[90%] w-[90%]"
+                
                 alt="Hey B"
               />
             </div>
@@ -365,7 +365,7 @@ const Pagenation = () => {
                 src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Python.svg"
                 width={450}
                 height={450}
-                className="h-[90%] w-[90%]"
+               
                 alt="Hey B"
               />
             </div>
@@ -383,7 +383,7 @@ const Pagenation = () => {
                 width={450}
                 height={450}
                 alt="Hey B"
-                className="h-[90%] w-[90%]"
+                
               />
             </div>
 
@@ -392,7 +392,7 @@ const Pagenation = () => {
                 src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Natural+language+processing.svg"
                 width={450}
                 height={450}
-                className="h-[90%] w-[90%]"
+               
                 alt="Hey B"
               />
             </div>
@@ -402,7 +402,6 @@ const Pagenation = () => {
                 src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Machine+learning.svg"
                 width={450}
                 height={450}
-                className="h-[90%] w-[90%]"
                 alt="Hey B"
               />
             </div>
@@ -412,7 +411,7 @@ const Pagenation = () => {
                 src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/AGA.svg"
                 width={450}
                 height={450}
-                className="h-[90%] w-[90%]"
+                
                 alt="Hey B"
               />
             </div>
