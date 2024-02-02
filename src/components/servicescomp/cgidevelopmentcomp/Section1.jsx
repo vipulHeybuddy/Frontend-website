@@ -84,26 +84,24 @@ const Herosection = () => {
     transition: "background-color 0.3s, transform 0.3s",
     cursor: "pointer",
     transform: isHovered ? "scale(1.1)" : "scale(1)",
-    marginTop: '1rem',
   };
 
   return (
     <>
       <div style={containerStyle}>
         <div style={textContainerStyle}>
-          <h1 className=" text-3xl md:text-5xl">Get Top-notch Renders with Our Leading 3D</h1>
-          <h1 className=" text-3xl md:text-5xl">
-          Modelling Services 
+          <h1 style={{ fontSize: "3rem" }}>Hyper-realistic Visuals with Leading 3D CGI Company - Hey Buddy</h1>
+          <h1 style={{ fontSize: "3rem" }}>
+          
+ 
           </h1>
-          <Link href="/Pages/Contactus">
           <Button
             style={buttonHeader}
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
           >
-            Consult Our Experts
+           Consult Now
           </Button>
-          </Link>
         </div>
         <div style={imageContainerStyle}>
           {/* Replace 'your-image.jpg' with the actual image source */}
@@ -124,10 +122,10 @@ const Herosection = () => {
             initial="hidden"
             animate={controls}
             variants={textAnimation1}
-            className="py-8 text-base lg:text-xl text-white "
+            className="py-8 text-xl text-white "
           >
             <p>
-            Hey Buddy, India’s leading 3D modelling services provider offers high-quality 3D models specific to your project needs at the right time, and at a reasonable cost.
+            Partner with Hey Buddy for assured, high-quality CGI delivered on time. Our strong CGI team has deployed top-class technical proficiency for creative and innovative CGI effects perfect for your project. 
 
             </p>
           </div>

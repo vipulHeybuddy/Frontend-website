@@ -98,10 +98,11 @@ const Faqsection = () => {
               onClick={() => handleOpen(1)}
             className="!text-lg"
             >
-              What types of projects can benefit from Hey Buddy's 3D modelling services?
+         What is a CGI company?
             </AccordionHeader>
             <AccordionBody>
-            Hey Buddy's 3D modelling services contribute to a wide range of projects, including AR/VR, animations, CGI, product visualizations, product animations, and game development using Unity and Unreal Engine.
+            A CGI company specializes in creating visuals using computer graphics and offers services such as 3D modeling, animation, visual effects, and virtual reality. These services are used by businesses across industries, including entertainment, advertising, and simulation.
+
             </AccordionBody>
           </Accordion>
 
@@ -115,14 +116,17 @@ const Faqsection = () => {
               onClick={() => handleOpen(2)}
             className="!text-lg"
             >
-              How does Hey Buddy ensure the security and confidentiality of client projects?
+              How do CGI production companies contribute to the film and entertainment industry?
+
             </AccordionHeader>
             <AccordionBody>
-            We prioritize client confidentiality and security through robust measures, including signed NDAs, restricted access to project data, and secure file transfer protocols.
+            CGI production companies play a pivotal role in film and entertainment. They produce high-quality visual effects, animations, and computer-generated sequences. This way, they bring imaginative and realistic visuals to the screen to captivate the viewers and deliver an enchanting cinematic experience.
+
+
             </AccordionBody>
           </Accordion>
 
-          <Accordion
+          {/* <Accordion
             open={open === 3}
             icon={<Icon id={3} open={open} />}
             className="py-2 px-5 lg:px-8 my-4  rounded-lg bg-gray-500  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 hover:bg-red-500 hover:bg-opacity-20"
@@ -132,12 +136,15 @@ const Faqsection = () => {
               onClick={() => handleOpen(3)}
             className="!text-lg"
             >
-              What is the typical turnaround time for 3D modelling projects at Hey Buddy?
+             ?
+
             </AccordionHeader>
             <AccordionBody>
-            Turnaround times vary based on project complexity and scope. However, we strive for efficient timelines, ensuring timely deliveries without compromising quality.
+            CGI packaging involves creating ultra-realistic and visually mesmerising 3D digital product representations of an actual product. This involved using computer-generated imagery, which allows companies to showcase products in various scenarios and designs for impactful marketing, flexible prototyping, and captivating visualization for packaging solutions.
+
+
             </AccordionBody>
-          </Accordion>
+          </Accordion> */}
 
           <Accordion
             open={open === 8}
@@ -149,10 +156,11 @@ const Faqsection = () => {
               onClick={() => handleOpen(8)}
             className="!text-lg"
             >
-              What is Unity 3D development, and how can it benefit my gaming or interactive project?
+             What services are offered by GI agencies? 
+
             </AccordionHeader>
             <AccordionBody>
-            Unity 3D development involves creating interactive experiences, primarily in gaming. It offers a versatile platform for developing immersive games and applications across multiple platforms.
+            A CGI agencies specialize in providing computer-generated imagery solutions. This included 3D visualization, animation, and virtual experiences. 
             </AccordionBody>
           </Accordion>
         </div>
@@ -168,10 +176,12 @@ const Faqsection = () => {
               onClick={() => handleOpen(4)}
             className="!text-lg"
             >
-              Can clients provide input during the 3D modelling process, and how is feedback handled?
+              How does a 3D CGI Company differ from traditional creative agencies?
+
             </AccordionHeader>
             <AccordionBody>
-            Yes, client input is encouraged. We have a collaborative approach, with dedicated points for client feedback. Revisions are made based on client suggestions to ensure the final product aligns with their vision.
+            Unlike traditional creative agencies, CGI agencies focus on the technical aspects of visual content creation, thereby delivering realistic and impactful visuals for every business requirement, be it marketing or training.
+
             </AccordionBody>
           </Accordion>
 
@@ -185,10 +195,12 @@ const Faqsection = () => {
               onClick={() => handleOpen(5)}
             className="!text-lg"
             >
-              What sets Hey Buddy apart from other 3D modelling service providers?
+              How does CGI technology work?
+
             </AccordionHeader>
             <AccordionBody>
-              Hey Buddy stands out due to its comprehensive suite of services covering various industries, a transparent and collaborative workflow, a client-centric approach, and a commitment to delivering high-quality, visually impressive 3D assets.
+            CGI technology involves the use of computer software and algorithms to create realistic and appealing images to captivate viewers. This also includes animations, i.e., infusing life into 3D models with movements. Recent advancements in CGI technology include real-time rendering, improved physics simulations, and the integration of artificial intelligence. This enhances the efficiency and quality of CGI production and makes them highly useful for various applications, from movies to virtual experiences.
+
 
             </AccordionBody>
           </Accordion>
@@ -203,15 +215,15 @@ const Faqsection = () => {
               onClick={() => handleOpen(7)}
             className="!text-lg"
             >
-              Does Hey Buddy provide Unity 3D development services, and what types of projects can be developed using Unity?
+             What is CGI packaging? And what benefits does it offer to product presentation?
             </AccordionHeader>
             <AccordionBody>
-            Yes, Hey Buddy offers Unity 3D development services. Projects developed using Unity include games, simulations, virtual tours, training applications, and various interactive experiences across diverse industries.
+            CGI packaging involves creating ultra-realistic and visually mesmerising 3D digital product representations of an actual product. This involved using computer-generated imagery, which allows companies to showcase products in various scenarios and designs for impactful marketing, flexible prototyping, and captivating visualization for packaging solutions.
 
             </AccordionBody>
           </Accordion>
 
-          <Accordion
+          {/* <Accordion
             open={open === 6}
             icon={<Icon id={6} open={open} />}
             className="py-2 px-5 lg:px-8 my-4  rounded-lg bg-gray-500  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 hover:bg-red-500 hover:bg-opacity-20"
@@ -226,7 +238,7 @@ const Faqsection = () => {
             <AccordionBody>
             Hard surface modelling focuses on creating detailed 3D models of inanimate objects or structures, differing from organic modelling that emphasizes natural forms like characters or creatures.
             </AccordionBody>
-          </Accordion>
+          </Accordion> */}
         </div>
       </div>
     </motion.div>

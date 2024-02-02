@@ -46,21 +46,21 @@ const Section7 = () => {
     const List = [
         {
           id: "1",
-          heading: "Real-Estate: Property Visualization for Better Customer Engagement",
+          heading: "Immersive and Realistic Visualization for Expedited Approval          ",
           // imgurl: "",
-          para: "Our client, a real-estate firm, required realistic 3D models for their new residential project. We used Autodesk 3ds Max and VRay to deliver highly detailed interior and exterior renders to aid them in presentations and marketing materials.This enhanced the customer’s engagement and understanding of our client's real-estate project, leading to faster sales and a more effective and streamlined sales process.",
+          para: "One of Hey Buddy's clients, a leading architecture firm, wanted to elevate their project presentations. We developed realistic 3D architectural visualizations aligned with their business needs. The outcomes impressed clients and helped them expedite project approvals. Our refined practices for seamless collaboration helped in bridging gaps and fulfilling clients’ expectations to transform concepts into realities.          ",
         },
         {
           id: "2",
-          heading: "E-Commerce: Showcase Products in the Best Light",
+          heading: "Interactive Product Launch for Technology Start-up          ",
           // imgurl: "",
-          para: "An online furniture retailer wanted high-quality 3D models for their product listings. We used Blender to produce photorealistic 3D models of their furniture collection to enhance the online shopping experience of their customers and reduce the need for physical prototypes.As a result, our client attained increased customer satisfaction, reduced returns, and improved online sales through visually appealing and accurate representations of products.",
+          para: "A tech startup based in the United States partnered with Hey Buddy for their product launch. Our CGI development services brought their product to life. We created interactive and engaging visuals and made sure that the final CGI representation perfectly aligned with the brand's vision.  The launch was successful and it captivated audiences, making the launch memorable and resonating for a long time to come and enhancing the product's market presence.",
         },
         {
           id: "3",
-          heading: "Gaming: High-quality Character Modeling for Unforgettable Gaming experience",
+          heading: "Better Learning Outcome with CGI Animation for Educational Content          ",
           // imgurl: "",
-          para: "One of our clients, a game development studio, needed diverse 3D character models for their upcoming gaming title. We employed ZBrush and Maya for character design and animation, delivering unique and visually appealing assets that enhanced the game's overall aesthetic. Thus, we proudly contributed to the game's success by providing captivating characters, that garnered positive reviews and commercial success.",
+          para: "An educational content provider collaborated with Hey Buddy to enhance their digital learning materials. Our CGI development team crafted dynamic CGI animations that significantly improved engagement in the education content, breaking the monotony.  Our client-centric approach flawlessly integrated the client’s feedback and ensured that the outcome perfectly matched the original plan and achieved educational objectives. The results were very pleasing. Apart from high engagement, we significantly improved the learning outcome, higher retention, users’ confidence, and great overall positive learning experiences.",
         },
 
         // {
@@ -88,9 +88,9 @@ const Section7 = () => {
       const Text = [
         {
           heading:
-            "Success Stories with Hey Buddy 3D Modelling Services",
-          // subtext:
-          //   "Project after project, we have refined our 3D development process to deliver creativity and innovation to your project. We understand the importance of a transparent and collaborative workflow, which is reflected in our process.",
+            "Success Story with Hey Buddy CGI Services",
+          subtext:
+            "Hey Buddy has offered CGI solutions to companies across the board. From flourishing startups to established businesses, we have contributed our bit to the ease of business for everyone.",
         },
       ];
   return (

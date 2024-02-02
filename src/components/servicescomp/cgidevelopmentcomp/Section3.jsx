@@ -17,41 +17,77 @@ const texts = [
 
   {
 
-    title: "3D Character Development",
+    title: "3D Modeling",
     description:
-      "Our experienced, skilled and creative 3D artists and modellers produce visually impressive 3D characters just for your project, brand and storytelling      ",
+      "We create 3D digital representations of objects, environments, or characters. You can use them in various applications, from product design to virtual worlds.      ",
     img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.png",
 
   },
   {
-    title: "3D Asset Development",
+    title: "Animation",
     description:
 
-      "We develop meticulously detailed, accurate, and high-quality 3D assets that perfectly fulfil your project's visual and functional needs.  ",
+      "We bring 3D models to life. We create dynamic and engaging visual sequences for films, advertising, and gaming. ",
     img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg",
   },
   {
-    title: "3D Environment Development",
+    title: "Visual Effects (VFX)    ",
     description:
-      "We create deeply immersive environments that captivate your audience with ultra-realistic visuals and perfectly fit your project needs.      ",
+      "We integrate computer-generated elements with live-action footage. This gives you fantastic visuals to captivate your audience.      ",
     img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds2.jpg",
   },
   {
-    title: "3D Hard Surface Modelling",
+    title: "Virtual Prototyping    ",
     description:
-      "We create detailed 3D models of objects or structures following your specific guidelines and ensure timely delivery for uninterrupted project operations.",
+      "We create digital prototypes of products or structures, allowing you to test, modify, and visualize them before physical production.      ",
     img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds3.jpg",
   },
   {
-    title: "3D Animation Services",
+    title: "Architectural Visualization",
     description:
-      "Our client-centric approach ensures our 3D animations and meticulous rigging convey your vision accurately while captivating the audience with high-quality visuals.      ",
+      "We render realistic 3D visuals of architectural designs to help you showcase properties, interiors, or urban planning projects.      ",
     img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds4.jpg",
   },
   {
-    title: "3D MetaHuman Creation Services",
+    title: "Product Visualization    ",
     description:
-      "Get photorealistic digital humans with easy customisation, We create Metahumans for virtual productions, games, or all other applications. ",
+      "Showcase products with our high-quality 3D renderings, be it marketing campaigns or e-commerce product pages. ",
+    img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg",
+  },
+  {
+    title: "Augmented Reality (AR) Development    ",
+    description:
+      "We add a layer to reality. By integrating CGI elements into real-world environments, we help you offer immersive AR experiences.      ",
+    img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg",
+  },
+  {
+    title: "Virtual Reality (VR) Development    ",
+    description:
+      "We create a new reality with fully immersive virtual reality environments. Use it for gaming, training simulations, and virtual tours.      ",
+    img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg",
+  },
+  {
+    title: "Interactive Experiences ",
+    description:
+      "We develop CGI-driven interactive applications, such as touchscreen exhibits, interactive websites, or digital installations.      ",
+    img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg",
+  },
+  {
+    title: "Simulation and Training    ",
+    description:
+      "We design realistic simulations for high-quality productive training, especially for businesses in aviation, healthcare, and the military.      ",
+    img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg",
+  },
+  {
+    title: "Character Design and Animation    ",
+    description:
+      "We create unique 3D characters, from realistic to stylized, as per your project requirement - animations, games, or storytelling.      ",
+    img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg",
+  },
+  {
+    title: "Environmental Visualization    ",
+    description:
+      "We simulate landscapes, cityscapes, or environmental changes for urban planning or educational purposes.      ",
     img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg",
   },
  
@@ -96,16 +132,11 @@ const Motionslide = () => {
       <div className="py-8 text-white">
         <div className="text-content lg:w-[80%]">
           <h1 className="py-4 text-2xl lg:text-4xl">
-            Hey Buddy:
-            <br />
-            One-stop Destination for all 3D Modelling services
+          Hey Buddy - One Destination for All CGI services
           </h1>
           <p className="text-xl lg:text-2xl">
-            No tiring search for different vendors for different services, Hey
-            Buddy’s comprehensive 3D modelling services get all you need. From
-            AR/VR and CGI to product visualisation and animation, we offer
-            complete 3D development services for every business and every
-            project. Just partner and procure.
+          Hey Buddy is your go-to 3D CGI agency for services of all sorts. Our technical proficiency gets you innovative CGI solutions just for you while infusing eye-catching creativity. We deliver specialized CGI assets just for your project with complete future-proofing. 
+
           </p>
         </div>
       </div>

@@ -5,16 +5,16 @@ import React, { useEffect, useState , useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import Gridsection from "@/components/Gridsection";
-import Faqsection from "@/components/servicescomp/cgidevelopmentcom/Section10";
-import Pagenation from "@/components/servicescomp/cgidevelopmentcom/Section8";
-import Mixsection from "@/components/servicescomp/cgidevelopmentcom/Section4";
-import Timelinecomp from "@/components/servicescomp/cgidevelopmentcom/Section5";
-import Motionslide from "@/components/servicescomp/cgidevelopmentcom/Section3";
+import Faqsection from "@/components/servicescomp/cgidevelopmentcomp/Section10";
+import Pagenation from "@/components/servicescomp/cgidevelopmentcomp/Section8";
+import Mixsection from "@/components/servicescomp/cgidevelopmentcomp/Section4";
+import Timelinecomp from "@/components/servicescomp/cgidevelopmentcomp/Section5";
+import Motionslide from "@/components/servicescomp/cgidevelopmentcomp/Section3";
 import { AiFillCheckCircle } from "react-icons/ai";
 import { motion, useAnimation } from "framer-motion";
-import Herosection from "@/components/servicescomp/cgidevelopmentcom/Section1";
-import Bottomclient from "@/components/servicescomp/cgidevelopmentcom/Section9";
-import Section7 from "@/components/servicescomp/cgidevelopmentcom/Section7";
+import Herosection from "@/components/servicescomp/cgidevelopmentcomp/Section1";
+import Bottomclient from "@/components/servicescomp/cgidevelopmentcomp/Section9";
+import Section7 from "@/components/servicescomp/cgidevelopmentcomp/Section7";
 import { Button } from "@material-tailwind/react";
 
 const page = () => {

@@ -90,13 +90,12 @@ const Pagenation = () => {
     >
       <div className="py-6">
         <h1 className="py-4 lg:w-[80%] text-2xl lg:text-4xl">
-          Hey Buddy Advanced Tech-stack for High-Quality 3D Model Development
+        Our Tech Stack as Your Trusted 3D CGI Partner
         </h1>
-        {/* <p className="text-xl lg:text-2xl">
-          Hey Buddy claim to the leading spot of a game development company in
-          India emanates from its expert team. Our developers bring in advanced
-          and profound expertise to deliver the best gaming solution for you.
-        </p> */}
+       <p className="text-xl lg:text-2xl">
+          Hey Buddy Team works with an advanced tech stack, resulting in a Hyper-realistic 3D CGI development that captivates your audience.
+
+        </p> 
       </div>
 
       <nav className="flex border-b border-gray-300 overflow-auto ">
@@ -110,26 +109,26 @@ const Pagenation = () => {
           isActive={selectedTab === "task2"}
           onClick={() => setSelectedTab("task2")}
         >
-          Game Development
+        Graphics Rendering Engines
         </TabSelector>
         <TabSelector
           isActive={selectedTab === "task3"}
           onClick={() => setSelectedTab("task3")}
         >
-          Texturing and Painting
+      Programming Languages
         </TabSelector>
         <TabSelector
           isActive={selectedTab === "task4"}
           onClick={() => setSelectedTab("task4")}
         >
-          Rendering and Visualization
+          Interactive Development
         </TabSelector>
-        {/* <TabSelector
+        <TabSelector
           isActive={selectedTab === "task5"}
           onClick={() => setSelectedTab("task5")}
         >
-          Virtual Reality (VR) and Augmented Reality (AR)
-        </TabSelector> */}
+          Shader Programming
+        </TabSelector>
       </nav>
 
       <div className="py-6 px-2">
@@ -346,7 +345,7 @@ const Pagenation = () => {
           </div>
         </TabPanel>
 
-        {/* <TabPanel
+      <TabPanel
           hidden={selectedTab !== "task5"}
           className="p-4 bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 rounded-lg h-[20vh] w-full"
         >
@@ -419,25 +418,9 @@ const Pagenation = () => {
             
 
           </div>
-        </TabPanel> */}
+        </TabPanel>
 
-        <div style={textContainerStyle}>
-          <h1 className="py-4 text-2xl lg:text-3xl">
-            Creative, Customised, and Cost-effective VR development software
-            services with Hey Budy.
-          </h1>
-          <Link href="/Pages/Contactus">
-          <Button
-            style={buttonHeader}
-            onMouseEnter={() => setIsHovered(true)}
-            onMouseLeave={() => setIsHovered(false)}
-            className="text-2xl"
-          >
-            Discuss Your Project
-          </Button>
-          </Link>
-        </div>
-
+        
       </div>
     </motion.div>
   );
