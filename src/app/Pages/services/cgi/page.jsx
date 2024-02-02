@@ -1,21 +1,47 @@
 "use client";
+
 import '../../../../styles/Font.css'
 import React, { useEffect, useState , useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import Gridsection from "@/components/Gridsection";
-import Faqsection from "@/components/servicescomp/3dmodelingcomp/Section10";
-import Pagenation from "@/components/servicescomp/3dmodelingcomp/Section8";
-import Mixsection from "@/components/servicescomp/3dmodelingcomp/Section4";
-import Timelinecomp from "@/components/servicescomp/3dmodelingcomp/Section5";
-import Motionslide from "@/components/servicescomp/3dmodelingcomp/Section3";
+import Faqsection from "@/components/servicescomp/cgidevelopmentcom/Section10";
+import Pagenation from "@/components/servicescomp/cgidevelopmentcom/Section8";
+import Mixsection from "@/components/servicescomp/cgidevelopmentcom/Section4";
+import Timelinecomp from "@/components/servicescomp/cgidevelopmentcom/Section5";
+import Motionslide from "@/components/servicescomp/cgidevelopmentcom/Section3";
 import { AiFillCheckCircle } from "react-icons/ai";
 import { motion, useAnimation } from "framer-motion";
-import Herosection from "@/components/servicescomp/3dmodelingcomp/Section1";
-import Bottomclient from "@/components/servicescomp/3dmodelingcomp/Section9";
-import Section7 from "@/components/servicescomp/3dmodelingcomp/Section7";
+import Herosection from "@/components/servicescomp/cgidevelopmentcom/Section1";
+import Bottomclient from "@/components/servicescomp/cgidevelopmentcom/Section9";
+import Section7 from "@/components/servicescomp/cgidevelopmentcom/Section7";
+import { Button } from "@material-tailwind/react";
 
 const page = () => {
+  const [isHovered, setIsHovered] = useState(false);
+
+  const textContainerStyle = {
+    marginBottom: "30%",
+    paddingTop:'7rem',
+    // position: "sticky",
+    left: "50%",
+    // zIndex: 2,
+    color: "#fff",
+    textAlign: "center",
+    top: "30%",
+  };
+  const buttonHeader = {
+    border: isHovered ? "0px" : "1px solid white",
+    background: isHovered
+      ? "linear-gradient(180deg, color(display-p3 0.2471 0.5412 0.8863) 0%, color(display-p3 0.137 0.3826 0.6708) 100%)"
+      : "transparent",
+    color: isHovered ? "white" : "white", // Change the text color as needed
+    padding: "10px 20px",
+    fontSize: "16px",
+    transition: "background-color 0.3s, transform 0.3s",
+    cursor: "pointer",
+    transform: isHovered ? "scale(1.1)" : "scale(1)",
+  };
 
 
   const controls = useAnimation();
@@ -94,77 +120,105 @@ const page = () => {
 
   const checklist1 = [
     {
-      title: "3D Assets",
-    },
-    {
-      title: "3D Characters",
-    },
-    {
-      title: "3D Environments",
-    },
-    {
-      title: "MetaHuman Creations",
-    },
-    {
-      title: "3D Hard Surface ",
+      title: "3D Modeling",
     },
     {
       title: "3D Animation",
     },
+    {
+      title: "Virtual Effects (VFX)",
+    },
+    {
+      title: "Product Visualization",
+    },
+    // {
+    //   title: "3D Hard Surface ",
+    // },
+    // {
+    //   title: "3D Animation",
+    // },
   ];
 
   // --------------------grid section-1----------------------------------
   const List1 = [
     {
       id: "1",
-      heading: "High Quality, Faster Turnaround",
+      heading: "Enhanced Marketing and Advertising",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid1.png",
-      para: "With an experienced team that has worked on various projects, you get high-quality renders at affordable prices and in less time. ",
+      para: "Get compelling and visually striking content for marketing and advertising campaigns. Empower your brand's visibility and customer engagement for assured business success.",
     },
     {
       id: "2",
-      heading: "Mitigate Risk with Experience",
+      heading: "Visual Realism for Presentations",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid2.png",
-      para: "Let the experienced team share your responsibilities and tackle challenges on your behalf so that you work with complete peace of mind ",
+      para: "Your presentations were never so impactful. With realistic CGI visuals, achieve high client satisfaction and higher project approvals. Stand out from the crowd and be remembered.",
     },
     {
       id: "3",
-      heading: "Technological Advancements",
+      heading: "Cost-Effective Prototyping",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid3.png",
-      para: "Expand your capability with the most advanced tools and technologies in the industry. Get customised 3D model development for your projects that set standards.",
+      para: "Save a fortune with CGI virtual prototypes before starting with full-fledged physical production. Get a clear visual idea, test in simulation, and move ahead with certainty. ",
     },
     {
       id: "4",
-      heading: "Access to Specialized Talent",
+      heading: "Efficient Communication of Concepts",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid4.png",
-      para: "On-board the best talents in the industry for 3D modelling services by expanding your search to the global level.",
+      para: "Establish clear and efficient communication, especially for complex concepts. Make sure your teams, clients, and stakeholders share an understanding of your project vision.",
     },
     {
       id: "5",
-      heading: "Focus on Core Competencies",
+      heading: "Iterative Design and Feedback",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid5.png",
-      para: "When experts are taking care of your 3D modelling requirement, your in-house team concentrates on core and critical tasks.",
+      para: "Benefit from the flexibility of CGI for iterative design processes and incorporate client feedback with ease. Refine the final product and meet client expectations without missteps.",
     },
     {
       id: "6",
-      heading: "Ease of Scalability",
+      heading: "Time Savings in Production",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid6.png",
-      para: "Scale up or down as per your business requirements with ease. Say goodbye to the hiring and training challenges of additional staff.",
+      para: "Save time in the production process. Eliminate the need for extensive physical setups or reshoots with CGI's efficiency. Achieve a faster turnaround and meet project timelines. ",
+    },
+    {
+      id: "7",
+      heading: "Versatility in Creativity",
+      imgurl:
+        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid6.png",
+      para: "Differentiate your business with the creative freedom of CGI. Explore different styles, settings, and visual elements to bring uniqueness and appeal to your final product.",
+    },
+    {
+      id: "8",
+      heading: "Adaptability to Changes",
+      imgurl:
+        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid6.png",
+      para: "Be agile. Incorporate ongoing modifications in design during the production process. Experience dynamism with CGI's adaptability and meet evolving project requirements.  ",
+    },
+    {
+      id: "9",
+      heading: "Vast Talent Pool",
+      imgurl:
+        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid6.png",
+      para: "With Hey Buddy’s CGI experts team, you access a diverse talent pool and skillset. We ensure you get the highest quality visuals within a specified timeline and impress your audience. ",
+    },
+    {
+      id: "10",
+      heading: "Future-Proofing Content",
+      imgurl:
+        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid6.png",
+      para: "You can repurpose and reuse CGI assets for future-proofing. We create assets in a format usable for future projects. Therefore, you save resources for future projects.",
     },
   ];
 
   const Text1 = [
     {
       heading:
-        "Get 3D Models Your Project Needs and Your Desire",
+        "Bring Rewarding Business Benefits - Choose CGI technologies and solutions",
       subtext:
-        "With our large team of experienced 3D modellers, we have a skillset to suit every business. Whether you need Toon (Cel-Shaded) or hyper-realistic 3D models, High-poly or low-poly count we can develop anything and everything exactly the way you want for your project.",
+        "With flexible and adaptable CGI solutions, you get the best results for your business while saving your resources.",
     },
   ];
 
@@ -172,49 +226,76 @@ const page = () => {
   const List2 = [
     {
       id: "1",
-      heading: "Quality by Expert",
+      heading: "Delivering Realism",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid7.png",
-      para: "Our dedicated and experienced team of 3D modellers has 200+ members with a variety of experience delivering the industry-leading quality for your projects.",
+      para: "With keen attention to detail, we achieve accurate representation and life-like rendering.",
     },
     {
       id: "2",
-      heading: "Timely Deliveries",
+      heading: "Timely Delivery",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid8.png",
-      para: "At Hey Buddy, we strictly adhere to your project timelines with our streamlined 3D development process that churns out high-quality results in a shorter time.",
+      para: "We strictly adhere to and respect the given timelines and deliver as per the specified schedule.      ",
     },
     {
       id: "3",
-      heading: "Communication Clarity",
+      heading: "Communication and Collaboration",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid9.png",
-      para: "We understand the criticality of clear communication and keeping you informed. We use the latest project management tool for data-driven and agile decision-making by you.",
+      para: "We ensure to understand your vision in its entirety, share regular updates, and are open to your feedback and revisions.",
     },
     {
       id: "4",
-      heading: "Flexible and Cost-Effective Models",
+      heading: "Technical Proficiency",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid10.png",
-      para: "Choose from a variety of outsourcing models that best suit your project needs. Get the best quality 3D development services at the most reasonable prices.",
+      para: "We have a team of CGI experts ready to turn your vision into reality with the latest CGI tools and techniques.",
     },
     {
       id: "5",
-      heading: "Adherence to Specifications",
+      heading: "Creativity and Innovation",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid11.png",
-      para: "We do not just follow your specifications, we integrate them into the process. So that the outcomes automatically align with your specific project needs.",
+      para: "We tirelessly work towards infusing your CGI projects with innovative elements and creativity to make them stand out.      ",
     },
-   
+    {
+      id: "6",
+      heading: "Portfolio and Reputation",
+      imgurl:
+        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid12.png",
+      para: "We have a vast portfolio of experience working with clients in different industries and scales, earning our name in the market.",
+    },
+    {
+      id: "7",
+      heading: "Cost-Effectiveness",
+      imgurl:
+        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid12.png",
+      para: "Utilizing techniques like economy of scale, future-proofing, and more, we make sure you get the best outcome for every penny.      ",
+    },
+    {
+      id: "8",
+      heading: "Flexibility and Adaptability",
+      imgurl:
+        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid12.png",
+      para: "With our agile operation, we quickly adapt to changes in scope or requirements during the project lifecycle.",
+    },
+    {
+      id: "9",
+      heading: "Legal and Ethical Compliance      ",
+      imgurl:
+        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid12.png",
+      para: "We strictly adhere to legal and ethical standards, especially regarding intellectual property rights and confidentiality.      ",
+    },
     
   ];
 
   const Text2 = [
     {
       heading:
-        "Why Choose Hey Buddy",
+        "Why Choose Hey Buddy as Your CGI Development Partner?",
       subtext:
-        "Partner with Hey Buddy if you want quality work from experts. We deliver the best outcome while completely adhering to timelines and ensuring that you get the best ROI every time.",
+        "Hey Buddy is a leading CGI development company for many reasons. We understand we do it your way, we deliver quality, and we deliver on time.        ",
     },
   ];
 
@@ -242,7 +323,7 @@ const page = () => {
                 {checklist1.map((section, index) => (
                   <div className="px-2 lg:px-16 flex items-center text-[#FFFFFF]  space-x-2.5 rtl:space-x-reverse">
                     <san className="flex items-center justify-center w-8 h-8  rounded-full shrink-0 ">
-                      {/* &#10004; */}
+                      
                       <AiFillCheckCircle className="w-8 h-8 text-[#6FCF97]" />
                     </san>
                     <span>
@@ -258,7 +339,7 @@ const page = () => {
 
           {/* -------------------------grid-reuse------------------------------------- */}
 
-          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev2.png')] py-3 bg-no-repeat bg-cover bg-[center_top_0rem]">
+          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev2.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
             <Gridsection listData={List1} textData={Text1} />
           </div>
 
@@ -268,40 +349,77 @@ const page = () => {
           </div>
 
           {/* ----------------------------Section-4---------------------------------- */}
-          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev4.png')] py-3 bg-no-repeat bg-cover bg-[center_top_0rem]">
+          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev4.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
             <Mixsection />
           </div>
 
           {/* ------------------------Section-5------------------------------------- */}
-          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev5.png')] py-3 bg-no-repeat bg-cover bg-[center_top_0rem]">
+          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev5.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
             <Timelinecomp />
           </div>
 
           {/* ----------------------------grid-reuse---------------------------------- */}
-          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev6.png')] py-3 bg-no-repeat bg-cover bg-[center_top_0rem]">
+          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev6.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
             <Gridsection listData={List2} textData={Text2} />
           </div>
 
           {/* ----------------------------Section7---------------------------------- */}
-          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev7.png')] py-3 bg-no-repeat bg-cover bg-[center_top_0rem]">
+          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev7.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
             {/* <Gridsection listData={List3} textData={Text3} /> */}
             <Section7/>
           </div>
 
+
+          {/* cta */}
+
+
+          <div style={textContainerStyle}>
+          <h1 style={{ fontSize: "3rem" }}>Your next eye-catching project needs your click on the below button.
+</h1>
+          <h1 style={{ fontSize: "3rem" }}>
+          
+ 
+          </h1>
+          <Button
+            style={buttonHeader}
+            onMouseEnter={() => setIsHovered(true)}
+            onMouseLeave={() => setIsHovered(false)}
+          >
+          Start Now
+          </Button>
+        </div>
+
           {/* ------------------------section-8-------------------------------------- */}
-          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev8.png')] py-3 bg-no-repeat lg:bg-cover ">
+          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev8.png')] py-8 bg-no-repeat lg:bg-cover ">
             <Pagenation />
           </div>
 
           {/* -----------------------Section-9--------------------------------------- */}
-          <div className="text-white lg:py-16 bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev9.png')] py-3 bg-no-repeat lg:bg-cover">
+          <div className="text-white lg:py-16 bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev9.png')] py-8 bg-no-repeat lg:bg-cover">
             <Bottomclient />
           </div>
 
           {/* -----------------------------Section-10----------------------------------- */}
-          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev10.png')] py-3 bg-no-repeat bg-cover bg-[center_top_0rem]">
+          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev10.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
             <Faqsection />
           </div>
+
+
+          <div style={textContainerStyle}>
+          <h1 style={{ fontSize: "3rem" }}>Create a real impact in a visually-driven world. Experience the power with Hey Buddy CGI services
+</h1>
+          <h1 style={{ fontSize: "3rem" }}>
+          
+ 
+          </h1>
+          <Button
+            style={buttonHeader}
+            onMouseEnter={() => setIsHovered(true)}
+            onMouseLeave={() => setIsHovered(false)}
+          >
+         Connect Now
+          </Button>
+        </div>
 
 
         </div>
