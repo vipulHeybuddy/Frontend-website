@@ -40,7 +40,7 @@ const texts = [
     title: "Marker-Based and Markerless AR",
     description:
       "Whether marker-based or markerless AR solutions, you choose, we deliver. Get versatile AR experiences that function perfectly in every environment and condition.      ",
-    img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds3.jpg",
+    img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.png",
   },
   {
     title: "AR Content Development",
@@ -52,7 +52,7 @@ const texts = [
     title: "AR for Marketing and Advertising",
     description:
       "Be a brand to remember. Standout with our interactive AR solutions for marketing, advertising, and brand promotions. Boost your brand visibility and brand recall.      ",
-    img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds3.jpg",
+    img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds2.jpg",
   },
   {
     title: "AR for Training and Education",
@@ -64,7 +64,7 @@ const texts = [
     title: "AR Integration with IoT",
     description:
       "We make your AR experience seamlessly integrate with the real-world environment. Our AR-IoT integration services enhance connectivity and the overall user experience.      ",
-    img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds3.jpg",
+    img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.png",
   },
   {
     title: "AR for Gaming",
@@ -76,7 +76,7 @@ const texts = [
     title: "Cross-Platform AR Development",
     description:
       "Cater to a wider audience with our cross-platform AR application. We ensure seamless compatibility across devices and prominent platforms including iOS, Android, and others.      ",
-    img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds3.jpg",
+    img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds2.jpg",
   },
   {
     title: "AR Maintenance and Support",
@@ -105,7 +105,7 @@ const Motionslide = () => {
       clipPath: function () {
         return "inset(0px 0px 100% 0px)";
       },
-      stagger: 0.5,
+      stagger: 0.7,
       ease: "none",
     });
 
@@ -114,7 +114,7 @@ const Motionslide = () => {
       start: "top top",
       end: "bottom bottom",
       animation: animation,
-      scrub: 1,
+      scrub: 0.1,
     });
   }, []);
 
@@ -123,13 +123,15 @@ const Motionslide = () => {
       <div className="py-8 text-white">
         <div className="text-content lg:w-[80%]">
           <h1 className="py-4 text-2xl lg:text-4xl">
-          If it's AR, It's Hey Buddy: Our Comprehensive Augmented Reality Development Services
+            If it's AR, It's Hey Buddy: Our Comprehensive Augmented Reality
+            Development Services
           </h1>
           <p className=" text-base md:text-xl lg:text-2xl">
-          No need to lose your valuable time and resources on finding different service providers for your every need. Hey Buddy has got it all covered.
-
-We offer a complete suite of AR services. From AR app development to AR IoT integration to even cross-platform AR development, you name it, we deliver it. 
-
+            No need to lose your valuable time and resources on finding
+            different service providers for your every need. Hey Buddy has got
+            it all covered. We offer a complete suite of AR services. From AR
+            app development to AR IoT integration to even cross-platform AR
+            development, you name it, we deliver it.
           </p>
         </div>
       </div>
@@ -169,6 +171,54 @@ We offer a complete suite of AR services. From AR app development to AR IoT inte
                 />
                 <PhotoItem
                   title="4"
+                  imgSrc={
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds3.jpg"
+                  }
+                />
+                <PhotoItem
+                  title="5"
+                  imgSrc={
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.png"
+                  }
+                />
+                <PhotoItem
+                  title="6"
+                  imgSrc={
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds3.jpg"
+                  }
+                />
+                <PhotoItem
+                  title="7"
+                  imgSrc={
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds2.jpg"
+                  }
+                />
+                <PhotoItem
+                  title="8"
+                  imgSrc={
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds3.jpg"
+                  }
+                />
+                <PhotoItem
+                  title="9"
+                  imgSrc={
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.png"
+                  }
+                />
+                <PhotoItem
+                  title="10"
+                  imgSrc={
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg"
+                  }
+                />
+                <PhotoItem
+                  title="11"
+                  imgSrc={
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds2.jpg"
+                  }
+                />
+                <PhotoItem
+                  title="12"
                   imgSrc={
                     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds3.jpg"
                   }
