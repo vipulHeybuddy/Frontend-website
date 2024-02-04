@@ -11,14 +11,9 @@ import GamedevCard from "../gamedevelopmentcomp/GamedevCard";
 import PhotoItem from "../gamedevelopmentcomp/PhotoItem";
 import WorkItem from "../gamedevelopmentcomp/WorkItem";
 
-const images = [0, 1, 2, 3, 4, 5, 6];
+const images = [0, 1, 2, 3, 4, 5,];
 const texts = [
-  {
-    title: "Immersive VR Application Development",
-    description:
-      "Leverage our extensive experience in VR development. Get the best solution for your specific business and industry needs as our VR experts use cutting-edge technology.",
-    img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.png",
-  },
+  
   {
     title: "Immersive VR Application Development",
     description:
@@ -87,6 +82,7 @@ const texts = [
   // },
 ];
 
+
 const Motionslide = () => {
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
@@ -115,21 +111,22 @@ const Motionslide = () => {
       start: "top top",
       end: "bottom bottom",
       animation: animation,
-      scrub: 0.5,
+      scrub: 0.1,
     });
   }, []);
 
   return (
-    <div style={{backgroundRepeat : 'round'}} className="app h-fit relative bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev3.png')] bg-fixed bg-top">
+    <div>
       <div className="py-8 text-white">
         <div className="text-content lg:w-[80%]">
           <h1 className="py-4 text-2xl lg:text-4xl">
-            360 Degree Virtual Reality Services With One Click
+            Hey Buddy, Game On!! - Complete Game Development Services
           </h1>
-          Redefine possibilities with Hey Buddy’s comprehensive Virtual Reality
-          development services. Immerse your audience in unparalleled digital
-          experiences that elevate your brand and stay at the forefront of
-          technological innovation.
+          <p className="text-sm lg:text-lg">
+            Hey Buddy is your one-stop shop for end-to-end game development
+            services. With AI on our side, we successfully clear levels of your
+            game development needs.
+          </p>
         </div>
       </div>
       <div className="h-fit relative lg:bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev3.png')] bg-fixed bg-bottom ">
@@ -149,47 +146,49 @@ const Motionslide = () => {
             <div className="work__right-b1">
               <div className="work__photo flex flex-col items-center">
                 <PhotoItem
-                  title="1"
+                  title="0"
                   imgSrc={
                     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.png"
                   }
                 />
                 <PhotoItem
-                  title="2"
+                  title="1"
                   imgSrc={
                     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg"
                   }
                 />
                 <PhotoItem
-                  title="3"
+                  title="2"
                   imgSrc={
                     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds2.jpg"
                   }
                 />
                 <PhotoItem
-                  title="4"
+                  title="3"
                   imgSrc={
                     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds3.jpg"
                   }
                 />
                 <PhotoItem
-                  title="5"
+                  title="4"
                   imgSrc={
                     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds4.jpg"
                   }
                 />
                 <PhotoItem
-                  title="6"
+                  title="5"
                   imgSrc={
                     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds5.jpg"
                   }
+                  
                 />
-                <PhotoItem
+                
+                {/* <PhotoItem
                   title="7"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.png"
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds3.jpg"
                   }
-                />
+                /> */}
               </div>
             </div>
           </div>
