@@ -1,15 +1,14 @@
 "use client";
 
-import { useEffect, useLayoutEffect, useState } from "react";
+import { useEffect } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-// import { render } from "react-dom";
-import classnames from "classnames";
 import "../../../styles/slide.css";
-import WorkItem from "../gamedevelopmentcomp/WorkItem";
-import PhotoItem from "../gamedevelopmentcomp/PhotoItem";
-import GamedevCard from "../gamedevelopmentcomp/GamedevCard";
+
+import WorkItem from "./WorkItem";
+import PhotoItem from "./PhotoItem";
+import GamedevCard from "./GamedevCard";
 
 const images = [0, 1, 2, 3, 4, 5, 6];
 const texts = [
@@ -96,7 +95,7 @@ const Motionslide = () => {
   }, []);
 
   return (
-    <div className="app">
+    <div>
       <div className="py-8 text-white">
         <div className="text-content lg:w-[80%]">
           <h1 className="py-4 text-2xl lg:text-4xl">
