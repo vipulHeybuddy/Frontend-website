@@ -49,23 +49,18 @@ const Mixsection = () => {
   const checklist1 = [
     
     {
-      title: "Immersive Experiences",
+      title: "Full-stack Programming",
     },
     {
-      title: "Animation",
+      title: "Smart Contracts",
     },
     {
-      title: "CGI",
+      title: "Payments Wallet",
     },
     {
-      title: "Product Visualization",
+      title: "Decentralized Networks",
     },
-    {
-      title: "Product Animation",
-    },
-    {
-      title: "Gaming",
-    },
+    
   ];
 
 
@@ -132,10 +127,11 @@ const Mixsection = () => {
     >
       <div className="py-4 text-white">
         <h1 className="py-4 lg:w-[80%] text-2xl lg:text-4xl">
-        Customized 3D Model<br /> Development for Every Project and Every Business
+        Highlights of Metaerses Built by Hey Buddy
         </h1>
         <p className=" text-base md:text-lg lg:text-2xl">
-        Hey Buddy, offering tailored solutions for your projects. Our versatile 3D development team perfectly adapts outcomes to your domains and brings your vision to life with precision and creativity.
+        At Hey Buddy, we ensure that your Metaverse has the most powerful futuristic features.
+
 
         </p>
       </div>

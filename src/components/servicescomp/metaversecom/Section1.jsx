@@ -91,9 +91,9 @@ const Herosection = () => {
     <>
       <div style={containerStyle}>
         <div style={textContainerStyle}>
-          <h1 className=" text-3xl md:text-5xl">Get Top-notch Renders with Our Leading 3D</h1>
+          <h1 className=" text-3xl md:text-5xl">Hey Buddy: Best Metaverse Development </h1>
           <h1 className=" text-3xl md:text-5xl">
-          Modelling Services 
+          Company in UAE, US, & India 
           </h1>
           <Link href="/Pages/Contactus">
           <Button
@@ -101,7 +101,7 @@ const Herosection = () => {
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
           >
-            Consult Our Experts
+            Let’s Discuss Project
           </Button>
           </Link>
         </div>
@@ -127,7 +127,9 @@ const Herosection = () => {
             className="py-8 text-base lg:text-xl text-white "
           >
             <p>
-            Hey Buddy, India’s leading 3D modelling services provider offers high-quality 3D models specific to your project needs at the right time, and at a reasonable cost.
+            Hey Buddy is a leading name in the domain of the metaverse. We have a large team of experienced developers ready to collaborate and deliver innovative metaverse solutions to mesmerize your audience. 
+
+With our globally renowned Metaverse development services, get scalable and custom solutions that merge with your existing system to add lucrative new revenue streams.
 
             </p>
           </div>

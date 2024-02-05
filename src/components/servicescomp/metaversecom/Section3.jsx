@@ -17,41 +17,77 @@ const texts = [
 
   {
 
-    title: "3D Character Development",
+    title: "Metaverse Consultation & Analytics",
     description:
-      "Our experienced, skilled and creative 3D artists and modellers produce visually impressive 3D characters just for your project, brand and storytelling      ",
+      "Understand the possibilities specific to your business. Define goals, plan a meticulous strategy, and track performance with our expert consultation and analytics services.      ",
     img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.png",
 
   },
   {
-    title: "3D Asset Development",
+    title: "Metaverse Integration & Optimisation",
     description:
 
-      "We develop meticulously detailed, accurate, and high-quality 3D assets that perfectly fulfil your project's visual and functional needs.  ",
+      "We integrate and optimize metaverse into your existing systems with seamless interoperability and data synchronization, ensuring a cohesive digital user experience.       ",
     img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg",
   },
   {
-    title: "3D Environment Development",
+    title: "Metaverse Training & Simulation",
     description:
-      "We create deeply immersive environments that captivate your audience with ultra-realistic visuals and perfectly fit your project needs.      ",
+      "We offer Metaverse training programs and simulations for industries across the spectrum. With realistic training scenarios for your trained get empowered skills and decisions.      ",
     img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds2.jpg",
   },
   {
-    title: "3D Hard Surface Modelling",
+    title: "Custom Metaverse Development    ",
     description:
-      "We create detailed 3D models of objects or structures following your specific guidelines and ensure timely delivery for uninterrupted project operations.",
+      "For your specific business requirement, we offer custom metaverse development. You successfully meet your business goals with the required unique functionalities or features.      ",
     img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds3.jpg",
   },
   {
-    title: "3D Animation Services",
+    title: "Metaverse 3D Environment Development    ",
     description:
-      "Our client-centric approach ensures our 3D animations and meticulous rigging convey your vision accurately while captivating the audience with high-quality visuals.      ",
+      "We develop 3D environments for your every need. Whether you want a digital replica of the real world or a digital-only infrastructure in Metaverse, our team delivers both.       ",
     img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds4.jpg",
   },
   {
-    title: "3D MetaHuman Creation Services",
+    title: "Metaverse Digital Twin Development    ",
     description:
-      "Get photorealistic digital humans with easy customisation, We create Metahumans for virtual productions, games, or all other applications. ",
+      "We replicate real-world complex entities and their functionalities in the digital environment. Thus, you get a better understanding, of monitoring, collaboration, and optimization.      ",
+    img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg",
+  },
+  {
+    title: "Metaverse Avatar Development   ",
+    description:
+      "For engaging user experiences, we develop 3D avatars with human-like personalized appearances, expressions, and movements on par with real people.      ",
+    img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg",
+  },
+  {
+    title: " Art and Gaming Metaverse Development    ",
+    description:
+      "We design and develop immersive games and entertainment experiences with interactive storylines to attract a huge community of art and adventure enthusiasts to your metaverse.       ",
+    img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg",
+  },
+  {
+    title: "Metaverse Events     ",
+    description:
+      "We help you build business communities. Organize social gatherings like concerts and shows or host virtual business events like conferences and seminars.  ",
+    img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg",
+  },
+  {
+    title: "Metaverse Marketplace Development   ",
+    description:
+      "Attract the global audience with your captivating marketplace marketplace. We build immersive marketplaces for you with complete security and seamless transactions.     ",
+    img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg",
+  },
+  {
+    title: "NFT Metaverse Development    ",
+    description:
+      "We develop NFT Metaverse or integrate NFTs in your existing Metaverse. We help you tokenize and capitalize on digital assets and other collectibles for roof-shattering returns.     ",
+    img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg",
+  },
+  {
+    title: "Customised Rental Metaverse Development    ",
+    description:
+      "Test your Metaverse strategy without spending a fortune. Get custom Metaverse spaces on rent. Organize meetings, NFT exhibitions, product launches, showrooms, and much more.      ",
     img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg",
   },
  
@@ -96,17 +132,9 @@ const Motionslide = () => {
       <div className="py-8 text-white">
         <div className="text-content lg:w-[80%]">
           <h1 className="py-4 text-2xl lg:text-4xl">
-            Hey Buddy:
-            <br />
-            One-stop Destination for all 3D Modelling services
+          Possibilities for You With Our Metaverse Development Services
           </h1>
-          <p className="text-xl lg:text-2xl">
-            No tiring search for different vendors for different services, Hey
-            Buddy’s comprehensive 3D modelling services get all you need. From
-            AR/VR and CGI to product visualisation and animation, we offer
-            complete 3D development services for every business and every
-            project. Just partner and procure.
-          </p>
+         
         </div>
       </div>
       <div className="h-fit relative lg:bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev3.png')] bg-fixed bg-bottom ">

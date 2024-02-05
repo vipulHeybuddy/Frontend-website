@@ -72,39 +72,39 @@ const Sliderclient = () => {
     const List = [
         {
           id: "1",
-          heading: "AR/VR Experiences",
+          heading: "Interoperable Standards",
           imgurl: "",
-          para: "Our expert 3D modelers enrich the visual appeal of your AR/VR projects, creating deeply immersive environments and characters for a truly interactive journey.",
+          para: "We ensure the interoperability of your metaverse by following the industry standards comprising elements.",
         },
         {
           id: "2",
-          heading: "Animation",
+          heading: "Smart Contract",
           imgurl: "",
-          para: "Whether for promotional videos, educational content, or entertainment, our skilled 3D artists craft visually impressive animations, breathing life into your narratives.",
+          para: "We infuse smart contracts for transparent and permissionless transactions introducing automation and efficiency.",
         },
         {
           id: "3",
-          heading: "Computer-generated imagery (CGI)",
+          heading: "Decentralized Network",
           imgurl: "",
-          para: "Our CGI-specialist 3D modellers bring stunning visuals for your films, advertisements, and various digital media to add gravity to your storytelling and brand communication.",
+          para: "We facilitate decentralized data transmission for your Metaverse project on a high-bandwidth, decentralized network.",
         },
         {
           id: "4",
-          heading: "Product Visualisation",
+          heading: "Full-stack Programming",
           imgurl: "",
-          para: "Our 3D development team delivers lifelike visualisations for you to showcase products with ultra-realistic visuals and gain an edge in your marketing efforts for unbeatable success.",
+          para: "We use open programming language standards to offer front-end and back-end development.",
         },
         {
           id: "5",
-          heading: "Product Animation",
+          heading: "Payment Wallets",
           imgurl: "",
-          para: "Our team synergizes with yours to produce compelling product animations and dynamic product demonstrations that impactfully showcase your product’s functionality and features.",
+          para: "We integrate feature-rick crypto wallets and gateways for a globally convenient payment system for your user.",
         },
         {
           id: "6",
-          heading: "Gaming",
+          heading: "Continuous Support Upgrade",
           imgurl: "",
-          para: "Our game-crazy 3D modellers develop characters, environments, assets and other customised 3D models for Unity, Unreal or your specific game engine.",
+          para: "We provide maintenance and upgrade services to ensure that your network, nodes, and smart contracts never face downtime.",
         },
       ];
  

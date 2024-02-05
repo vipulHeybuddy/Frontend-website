@@ -47,45 +47,32 @@ const Bottomclient = () => {
     {
       id: 1,
       content:
-        "Here is my opinion based on my experience, I have really enjoyed working with the game development team. The team is amicable, creative and understanding.",
+        "Hey Buddy surpassed our expectations with their phenomenal metaverse development services company. Working with them felt like a true partnership. They not only understood our vision but brilliantly translated it into an immersive metaverse experience. We earnestly recommend Hey Buddy for their understanding of the requirement and timely delivery of the exact solution.",
       // position: "Head of VP at Disney Hotstar",
-      name: "Zan Syed",
+      name: "Mark T.",
     },
     {
       id: 2,
-      name: "Sarah",
+      name: "Susan A",
       content:
-        "Thank you very much! An amazing job done by buddies what I like to call the team that exceeds all expectations. I am glad that I trusted you guys with the work.",
+        "Choosing Hey Buddy as our metaverse development services company proved to be the right decision for our business. Their team’s expertise in metaverse and dedication to deliver great solutions were apparent from the start. They showcase a high collaborative spirit that matches our working culture. This made the entire process greatly efficient but enjoyable. We really appreciate and recommend Hey Buddy for their innovative and creative solutions and client-centric and reliable approach for metaverse development.",
       // position: "Head of VP at Disney Hotstar",
     },
     {
       id: 3,
-      name: "Ankit",
+      name: " Michael R",
       content:
-        "I loved working with Hey Buddy and the way my VR project was handled, I consider this company as one of the best metaverse and game company in India.",
+        "Hey Buddy is the metaverse development agency we partnered for our recently concluded metaverse project. And all thanks to our partners, as it is because of their expertise and commitment that secured the timely completion of our project while ensuring great quality. Their agility and responsiveness are what we were looking for in our partner and with Hey Budd’s dynamic nature, we got exactly that.",
       // position: "Head of VP at Disney Hotstar",
     },
     {
       id: 4,
-      name: "Riyahi",
+      name: "Emily C",
       content:
-        "OMG where to start, I have no idea! people are amazing here, very focused and client-oriented. Kudos to the team for delivering the game project on time.",
+        "Hey Buddy is the metaverse development agency that understands the pulse of American Metaverse businesses. Their commitment to delivering advanced solutions while fostering a collaborative environment truly sets them apart from other Metaverse agencies. Working with Hey Buddy was a great experience blended with professionalism and creativity..",
       // position: "Head of VP at Disney Hotstar",
     },
-    {
-      id: 5,
-      name: "Jeremy",
-      content:
-        "Best game development company in India, though I am from the United States but never felt that I had hired this company, it was like this is my in-house team.",
-      // position: "Head of VP at Disney Hotstar",
-    },
-    {
-      id: 6,
-      name: "Bhaskar",
-      content:
-        "If anyone has a futuristic idea in mind and not finding the way to turn the idea into reality, I would recommend to reach out to Hey buddy, they are the best technology partner.",
-      // position: "Head of VP at Disney Hotstar",
-    },
+   
   ];
 
   return (
@@ -96,13 +83,9 @@ const Bottomclient = () => {
       variants={textAnimation1}
     >
       <h1 className="py-4 lg:w-[80%] text-2xl lg:text-4xl">
-        How Clients Rate Our 3D Modeling Services
+      How Clients See Us as Metaverse Development Company
       </h1>
-      <p className=" text-base md:text-lg lg:text-2xl">
-        Feature testimonials from satisfied clients who have utilised your game
-        development services. Include their feedback on your professionalism,
-        creativity, and the quality of your work.
-      </p>
+      
       <div class=" pt-5 lg:py-12  grid mx-auto text-center justify-center rounded-xl shadow-sm sm:grid-1 md:mb-12 md:grid-cols-2 lg:grid-cols-3 gap-y-4 gap-x-4">
         {clientcardData.map((section, index) => (
           <figure class="flex flex-col justify-between  p-4 lg:p-6 border-2  border-gray-500 rounded-lg  h-full w-full bg-gray-900  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20 hover:bg-yellow-600 hover:bg-opacity-30">

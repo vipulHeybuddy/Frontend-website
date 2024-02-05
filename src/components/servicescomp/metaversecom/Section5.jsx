@@ -83,10 +83,10 @@ const Timelinecomp = () => {
     >
       <div className="py-8 text-white">
         <h1 className="py-4 lg:w-[80%] text-2xl lg:text-4xl">
-        Our Streamlined 3D Development Process
+        Hey Buddy: Metaverse Development Process
         </h1>
         <p className=" text-base md:text-lg lg:text-2xl">
-        Project after project, we have refined our 3D development process to deliver creativity and innovation to your project. We understand the importance of a transparent and collaborative workflow, which is reflected in our process.
+        Our years of commitment to deliver perfection have resulted in a streamlined and evolved Metaverse Development Process.
         </p>
       </div>
 
@@ -100,19 +100,19 @@ const Timelinecomp = () => {
                   <ul>
                     <li>
 
-                      <h3 className="font-bold text-2xl  ">Consultation</h3>
+                      <h3 className="font-bold text-2xl  ">Ideation Phase</h3>
 
                       <p>
-                      We initiate with a thorough consultation, grasping the intricacies of your project, goals, and expectations. This clear communication ensures that our plans and processes align with your vision, and lays a strong foundation for a successful collaboration.
+                      Our experts collaborate closely with your team to understand your vision, goals, and audience. Then through power-packed brainstorming sessions, we craft a comprehensive blueprint to meet your expectations.
                       </p>
 
                     </li>
                     <li>
 
-                      <h3 className="font-bold text-2xl ">Conceptualization and Planning</h3>
+                      <h3 className="font-bold text-2xl ">Design & Prototyping</h3>
 
                       <p>
-                      Our skilled team transforms ideas into a consolidated plan, outlining your project scope, timelines, and key milestones. This sets the roadmap for the project while ensuring transparency and clarity in the development process.
+                      Our experienced designers create immersive environments and interactive elements, bringing your concept to life. With rapid prototyping, we ensure your Metaverse project meets your standards.
                       </p>
 
                
@@ -120,19 +120,20 @@ const Timelinecomp = () => {
                     <li>
 
                       <h3 className="font-bold text-2xl ">
-                      Design and Development
+                      Development & Implementation 
+
 
                       </h3>
                       <p>
-                      We utilize advanced tools and technologies in our design and development process. Here, we aim to get you high-quality assets that not only meet your project's visual and functional requirements but also exceed your expectations.
+                      Our seasoned developers utilize cutting-edge technologies and build a robust foundation for your Metaverse project. By deploying agile methodologies, we infuse flexibility and adaptability throughout the development process
                       </p>
 
                     </li>
                     <li>
 
-                      <h3 className="font-bold text-2xl ">Client Feedback and Revisions</h3>
+                      <h3 className="font-bold text-2xl ">Testing & Refinement</h3>
          <p>
-                      Staying true to our collaborative approach toward 3D development, we welcome your feedback and suggestions in this step. Accordingly, we make necessary revisions so that your input shapes the final product, guaranteeing satisfaction.
+         We execute rigorous testing to ensure a glitch-free Metaverse experience for your audience. We invite your feedback and fine-tune every aspect to refine the experience for high-class performance and impressive user engagement.
 
                       </p>
 
@@ -140,10 +141,10 @@ const Timelinecomp = () => {
 
                     <li>
 
-                      <h3 className="font-bold text-2xl ">Quality Assurance</h3>
+                      <h3 className="font-bold text-2xl ">Launch & Beyond</h3>
 
                       <p>
-                      Before we finally deliver, the resulting 3D models undergo rigorous quality checks to ensure that our 3D models meet your project standards. We deliver polished, error-free 3D assets that meet your project's visual and functional needs.
+                      Lastly, we guide you through a successful launch and we continue to support you in the post-launch phase. Hence, not only do we ensure seamless integration and scalability but also time-bound troubleshooting.
                       </p>
 
                     </li>

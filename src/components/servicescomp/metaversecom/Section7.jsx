@@ -46,21 +46,21 @@ const Section7 = () => {
     const List = [
         {
           id: "1",
-          heading: "Real-Estate: Property Visualization for Better Customer Engagement",
+          heading: "Innovative Metaverse Solution to Train Healthcare Staff in the US",
           // imgurl: "",
-          para: "Our client, a real-estate firm, required realistic 3D models for their new residential project. We used Autodesk 3ds Max and VRay to deliver highly detailed interior and exterior renders to aid them in presentations and marketing materials.This enhanced the customer’s engagement and understanding of our client's real-estate project, leading to faster sales and a more effective and streamlined sales process.",
+          para: "A major healthcare organization in the US sought Hey Buddy's metaverse services to enhance medical training for its staff. We developed a Metaverse platform that simulated medical procedures and emergency scenarios. The immersive experience allowed healthcare professionals to practice in a risk-free virtual environment, improving their skills and decision-making. The healthcare organization reported a significant improvement in staff readiness and performance. We met the client's expectations for innovative training but also contributed to a more prepared and efficient healthcare workforce.",
         },
         {
           id: "2",
-          heading: "E-Commerce: Showcase Products in the Best Light",
+          heading: "Engaging Expo in Metaverse for users in UAE",
           // imgurl: "",
-          para: "An online furniture retailer wanted high-quality 3D models for their product listings. We used Blender to produce photorealistic 3D models of their furniture collection to enhance the online shopping experience of their customers and reduce the need for physical prototypes.As a result, our client attained increased customer satisfaction, reduced returns, and improved online sales through visually appealing and accurate representations of products.",
+          para: "A technology consortium in the UAE wanted to host an expo in Metaverse to showcase the latest tech innovations and foster collaboration within the region. We developed a Metaverse expo platform with interactive booths, live demonstrations, and networking features. The virtual expo received widespread participation from tech enthusiasts, startups, and established companies across the UAE.  It facilitated seamless engagement among visitors, participants, and our client, building connections for long-term growth and collaboration within the UAE's technology sector.",
         },
         {
           id: "3",
-          heading: "Gaming: High-quality Character Modeling for Unforgettable Gaming experience",
+          heading: "Scalable Indian E-commerce Metaverse Platform with Seamless Integration",
           // imgurl: "",
-          para: "One of our clients, a game development studio, needed diverse 3D character models for their upcoming gaming title. We employed ZBrush and Maya for character design and animation, delivering unique and visually appealing assets that enhanced the game's overall aesthetic. Thus, we proudly contributed to the game's success by providing captivating characters, that garnered positive reviews and commercial success.",
+          para: "A leading e-commerce company in India wanted to explore metaverse integration to enhance its online shopping experience. We extended our expertise to develop a shopping platform in the Metaverse that allowed users to explore products virtually, try on virtual clothing on their avatar, and engage in social shopping experiences.  The platform seamlessly integrated with the existing e-commerce infrastructure and witnessed increased user engagement and boosted online sales. Yet again we served innovative, creative, and scalable metaverse experiences that made our client eclipse the market.",
         },
 
         // {
@@ -88,9 +88,9 @@ const Section7 = () => {
       const Text = [
         {
           heading:
-            "Success Stories with Hey Buddy 3D Modelling Services",
-          // subtext:
-          //   "Project after project, we have refined our 3D development process to deliver creativity and innovation to your project. We understand the importance of a transparent and collaborative workflow, which is reflected in our process.",
+            "Global Success Stories with Hey Buddy Metaverse Development Solutions",
+          subtext:
+            "We have served a range of feature-rich, creative, and engaging metaverse solutions for our clients across industries and countries.",
         },
       ];
   return (
