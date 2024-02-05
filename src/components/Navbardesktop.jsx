@@ -99,6 +99,12 @@ const Navbardesktop = () => {
                       Bill Boards
                     </li>
                   </Link>
+
+                  <Link href="/Pages/services/web3" className="w-full">
+                    <li className="text-sm px-4 text-[white] hover:bg-[#1a1ae669] hover:text-[white]-focus hover:rounded-lg hover:font-bold leading-8">
+                     Web 3Development
+                    </li>
+                  </Link>
                 </ul>
                 {/* Submenu ends */}
               </li>
