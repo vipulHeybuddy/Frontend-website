@@ -64,7 +64,6 @@ const texts = [
 ];
 
 const Motionslide = () => {
-  
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
 
@@ -83,8 +82,8 @@ const Motionslide = () => {
       clipPath: function () {
         return "inset(0px 0px 100% 0px)";
       },
-      stagger: 0.5,
-      ease: "power3",
+      stagger: 0.7,
+      ease: "none",
     });
 
     ScrollTrigger.create({
@@ -92,7 +91,7 @@ const Motionslide = () => {
       start: "top top",
       end: "bottom bottom",
       animation: animation,
-      scrub: 1,
+      scrub: 0.1,
     });
   }, []);
 
@@ -101,19 +100,20 @@ const Motionslide = () => {
       <div className="py-8 text-white">
         <div className="text-content lg:w-[80%]">
           <h1 className="py-4 text-2xl lg:text-4xl">
-          Hey Buddy -
-            
-            leading 3D Billboard Company for Next-Gen Services
+            Hey Buddy - leading 3D Billboard Company for Next-Gen Services
           </h1>
           <p className="text-xl lg:text-2xl">
-          We offer a comprehensive suite of 3D development services to help you grab the opportunity. Engage with your audience like never before and none another. Present your modernized avatar and get an unmatchable competitive edge with our your 3d led billboard today.
+            We offer a comprehensive suite of 3D development services to help
+            you grab the opportunity. Engage with your audience like never
+            before and none another. Present your modernized avatar and get an
+            unmatchable competitive edge with our your 3d led billboard today.
           </p>
         </div>
       </div>
       <div className="h-fit relative bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev3.png')] bg-fixed bg-bottom ">
         <section className="work  hidden lg:flex flex-row justify-between">
           <div className="work__left">
-            <div className="work__text">
+            <div className="work__text flex flex-col items-center">
               {texts.map((text, index) => (
                 <WorkItem
                   key={index}
@@ -125,7 +125,7 @@ const Motionslide = () => {
           </div>
           <div className="work__right">
             <div className="work__right-b1">
-              <div className="work__photo">
+              <div className="work__photo flex flex-col items-center">
                 <PhotoItem
                   title="1"
                   imgSrc={
@@ -158,6 +158,18 @@ const Motionslide = () => {
                 />
                 <PhotoItem
                   title="6"
+                  imgSrc={
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds5.jpg"
+                  }
+                />
+                <PhotoItem
+                  title="7"
+                  imgSrc={
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds4.jpg"
+                  }
+                />
+                <PhotoItem
+                  title="8"
                   imgSrc={
                     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds5.jpg"
                   }
