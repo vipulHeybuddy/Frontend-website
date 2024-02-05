@@ -72,39 +72,39 @@ const Sliderclient = () => {
     const List = [
         {
           id: "1",
-          heading: "AR/VR Experiences",
+          heading: "Multi-chain Solutions",
           imgurl: "",
-          para: "Our expert 3D modelers enrich the visual appeal of your AR/VR projects, creating deeply immersive environments and characters for a truly interactive journey.",
+          para: "Elevate your project – choose multi-chain solutions for a connected blockchain ecosystem. Command multi-chain operations for the highest possible scalability. ",
         },
         {
           id: "2",
-          heading: "Animation",
+          heading: "Native Payment Solutions",
           imgurl: "",
-          para: "Whether for promotional videos, educational content, or entertainment, our skilled 3D artists craft visually impressive animations, breathing life into your narratives.",
+          para: "No intermediaries mean faster and more effective operations. Our native payment solutions easily integrate and offer your users a frictionless payment experience.",
         },
         {
           id: "3",
-          heading: "Computer-generated imagery (CGI)",
+          heading: "Self-sovereign Identity Solution",
           imgurl: "",
-          para: "Our CGI-specialist 3D modellers bring stunning visuals for your films, advertisements, and various digital media to add gravity to your storytelling and brand communication.",
+          para: "Revolutionize how individuals manage their digital identity on your platform. Say goodbye to centralized control and welcome the era of privacy.",
         },
         {
           id: "4",
-          heading: "Product Visualisation",
+          heading: "Interoperability Solutions",
           imgurl: "",
-          para: "Our 3D development team delivers lifelike visualisations for you to showcase products with ultra-realistic visuals and gain an edge in your marketing efforts for unbeatable success.",
+          para: "Connect, collaborate, and conquer with our interoperability solutions. Break down blockchain silos and foster seamless communication.",
         },
         {
           id: "5",
-          heading: "Product Animation",
+          heading: "Web3 Gaming Development",
           imgurl: "",
-          para: "Our team synergizes with yours to produce compelling product animations and dynamic product demonstrations that impactfully showcase your product’s functionality and features.",
+          para: "Capitalise on the future of gaming with Web3 game development. Leverage blockchain Integration for in-game assets' uniqueness and monetization.",
         },
         {
           id: "6",
-          heading: "Gaming",
+          heading: "Cross-Chain Development",
           imgurl: "",
-          para: "Our game-crazy 3D modellers develop characters, environments, assets and other customised 3D models for Unity, Unreal or your specific game engine.",
+          para: "Our cross-chain development solutions let your project span multiple networks with ease. Our solutions help you transcend the limits of a singular blockchain.",
         },
       ];
  

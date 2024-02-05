@@ -91,17 +91,17 @@ const Herosection = () => {
     <>
       <div style={containerStyle}>
         <div style={textContainerStyle}>
-          <h1 className=" text-3xl md:text-5xl">Get Top-notch Renders with Our Leading 3D</h1>
-          <h1 className=" text-3xl md:text-5xl">
+          <h1 className=" text-3xl md:text-5xl">Hey Buddy - Your trusted Web3 Development Company</h1>
+          {/* <h1 className=" text-3xl md:text-5xl">
           Modelling Services 
-          </h1>
+          </h1> */}
           <Link href="/Pages/Contactus">
           <Button
             style={buttonHeader}
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
           >
-            Consult Our Experts
+           Get Web3 Solution
           </Button>
           </Link>
         </div>
@@ -127,7 +127,7 @@ const Herosection = () => {
             className="py-8 text-base lg:text-xl text-white "
           >
             <p>
-            Hey Buddy, India’s leading 3D modelling services provider offers high-quality 3D models specific to your project needs at the right time, and at a reasonable cost.
+            Hey Buddy is a renowned Web3 development company, known for its blockchain development expertise and for delivering secure, innovative, and interactive web 3.0 solutions within specified timelines.
 
             </p>
           </div>

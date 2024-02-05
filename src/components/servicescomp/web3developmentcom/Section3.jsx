@@ -17,41 +17,59 @@ const texts = [
 
   {
 
-    title: "3D Character Development",
+    title: "Blockchain Consulting Service",
     description:
-      "Our experienced, skilled and creative 3D artists and modellers produce visually impressive 3D characters just for your project, brand and storytelling      ",
+      "Our blockchain experts consult you on the blockchain. From understanding blockchain basics to crafting a tailored strategy, your every question is answered.    ",
     img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.png",
 
   },
   {
-    title: "3D Asset Development",
+    title: "Smart Contract Development",
     description:
 
-      "We develop meticulously detailed, accurate, and high-quality 3D assets that perfectly fulfil your project's visual and functional needs.  ",
+      "Full-proof security with efficient self-executing and gas-optimized code, our Smart Contract expertise automates operations with strict Standards compliance.  ",
     img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg",
   },
   {
-    title: "3D Environment Development",
+    title: "Security Audits and Testing",
     description:
-      "We create deeply immersive environments that captivate your audience with ultra-realistic visuals and perfectly fit your project needs.      ",
+      "We safeguard your blockchain solutions with our rigorous security audits and testing. We identify vulnerabilities, fortify defenses, and ensure system resiliency.    ",
     img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds2.jpg",
   },
   {
-    title: "3D Hard Surface Modelling",
+    title: "Decentralized Application (DApp) Development",
     description:
-      "We create detailed 3D models of objects or structures following your specific guidelines and ensure timely delivery for uninterrupted project operations.",
+      "We build decentralized and automated dApps interacting with blockchain networks. The best part, these solutions are meant just for your business.",
     img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds3.jpg",
   },
   {
-    title: "3D Animation Services",
+    title: "Tokenomics and Cryptoeconomics Consulting",
     description:
-      "Our client-centric approach ensures our 3D animations and meticulous rigging convey your vision accurately while captivating the audience with high-quality visuals.      ",
+      "We craft robust tokenomics strategies and token models that drive value and foster community engagement for long-term success in dynamic crypto-economics.      ",
     img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds4.jpg",
   },
   {
-    title: "3D MetaHuman Creation Services",
+    title: "Consensus Mechanism Implementation",
     description:
-      "Get photorealistic digital humans with easy customisation, We create Metahumans for virtual productions, games, or all other applications. ",
+      "We spot the right consensus mechanism for your blockchain network with our implementation expertise be it Proof-of-Work or Proof-of-Stake.  ",
+    img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg",
+  },
+  {
+    title: "DeFi Development",
+    description:
+      "With our powerful Smart Contracts engineering your DeFi dApps, you get high-performing, and scalable tokenomics and cryptonomics.",
+    img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg",
+  },
+  {
+    title: "Metaverse Development",
+    description:
+      "We develop immersive user experiences going across multiple metaverses and catering to a large user base. Plus, Blockchain protection to your virtual economy.  ",
+    img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg",
+  },
+  {
+    title: "NFT Development",
+    description:
+      "Tap into the lucrative NFT market with our attractive, unique, and creative NFTs. Be assured of the latest Smart Contract Standards compliance such as ERC-721.  ",
     img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg",
   },
  
@@ -96,16 +114,10 @@ const Motionslide = () => {
       <div className="py-8 text-white">
         <div className="text-content lg:w-[80%]">
           <h1 className="py-4 text-2xl lg:text-4xl">
-            Hey Buddy:
-            <br />
-            One-stop Destination for all 3D Modelling services
+          Our Web3 Development Services
           </h1>
           <p className="text-xl lg:text-2xl">
-            No tiring search for different vendors for different services, Hey
-            Buddy’s comprehensive 3D modelling services get all you need. From
-            AR/VR and CGI to product visualisation and animation, we offer
-            complete 3D development services for every business and every
-            project. Just partner and procure.
+          Our renowned blockchain expertise provides comprehensive Web 3.0 development services for innovative and powerful solutions.
           </p>
         </div>
       </div>

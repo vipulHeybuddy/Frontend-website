@@ -94,22 +94,22 @@ const page = () => {
 
   const checklist1 = [
     {
-      title: "3D Assets",
+      title: "Blockchain Consulting",
     },
     {
-      title: "3D Characters",
+      title: "Smart Contract Development",
     },
     {
-      title: "3D Environments",
+      title: "Security Audits and Testing",
     },
     {
-      title: "MetaHuman Creations",
+      title: "Decentralized Application (DApp) Development",
     },
     {
-      title: "3D Hard Surface ",
+      title: "Tokenomics and Cryptoeconomics Consulting ",
     },
     {
-      title: "3D Animation",
+      title: "Consensus Mechanism Implementation",
     },
   ];
 
@@ -117,54 +117,54 @@ const page = () => {
   const List1 = [
     {
       id: "1",
-      heading: "High Quality, Faster Turnaround",
+      heading: "Decentralization and Trust",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid1.png",
-      para: "With an experienced team that has worked on various projects, you get high-quality renders at affordable prices and in less time. ",
+      para: "Experience the power of trustless rapid transactions and interactions with zero interference from intermediaries and ensure transparency in your business. ",
     },
     {
       id: "2",
-      heading: "Mitigate Risk with Experience",
+      heading: "New High-paying Revenue Models",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid2.png",
-      para: "Let the experienced team share your responsibilities and tackle challenges on your behalf so that you work with complete peace of mind ",
+      para: "Tap into lucrative revenue streams and opportunities. Explore tokenization, decentralized finance (DeFi), non-fungible tokens (NFTs), and much more.",
     },
     {
       id: "3",
-      heading: "Technological Advancements",
+      heading: "Safeguard Your Records",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid3.png",
-      para: "Expand your capability with the most advanced tools and technologies in the industry. Get customised 3D model development for your projects that set standards.",
+      para: "Establish complete security with blockchain's cryptographic principles and ensure tamper-proof, auditable records and your peace of mind.",
     },
     {
       id: "4",
-      heading: "Access to Specialized Talent",
+      heading: "Build Loyal Community",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid4.png",
-      para: "On-board the best talents in the industry for 3D modelling services by expanding your search to the global level.",
+      para: "Engage your community through decentralized applications (dApp), foster user participation and collaboration, and build a loyal user base.",
     },
     {
       id: "5",
-      heading: "Focus on Core Competencies",
+      heading: "Cost Efficiency",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid5.png",
-      para: "When experts are taking care of your 3D modelling requirement, your in-house team concentrates on core and critical tasks.",
+      para: "Cut down unnecessary costs that come with intermediaries, middlemen, and other vulnerable operational processes by leveraging Web 3.0 technologies.",
     },
     {
       id: "6",
-      heading: "Ease of Scalability",
+      heading: "Experience Seamless Interoperability",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid6.png",
-      para: "Scale up or down as per your business requirements with ease. Say goodbye to the hiring and training challenges of additional staff.",
+      para: "Integrate seamlessly with any blockchain network and traditional systems and let the opportunities come from every direction.",
     },
   ];
 
   const Text1 = [
     {
       heading:
-        "Get 3D Models Your Project Needs and Your Desire",
+        "Choose Web 3 Development For Unique and Powerful Features",
       subtext:
-        "With our large team of experienced 3D modellers, we have a skillset to suit every business. Whether you need Toon (Cel-Shaded) or hyper-realistic 3D models, High-poly or low-poly count we can develop anything and everything exactly the way you want for your project.",
+        "With innovative and powerful Web 3 development solution we help you gain a competitive edge and global accessibility.",
     },
   ];
 
@@ -172,38 +172,45 @@ const page = () => {
   const List2 = [
     {
       id: "1",
-      heading: "Quality by Expert",
+      heading: "Blockchain Expertise",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid7.png",
-      para: "Our dedicated and experienced team of 3D modellers has 200+ members with a variety of experience delivering the industry-leading quality for your projects.",
+      para: "We have a team of expert blockchain developers capable of working on every blockchain component on any platform including Ethereum, Stellar, EOS, Solana, and others.",
     },
     {
       id: "2",
-      heading: "Timely Deliveries",
+      heading: "We Ensure Security",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid8.png",
-      para: "At Hey Buddy, we strictly adhere to your project timelines with our streamlined 3D development process that churns out high-quality results in a shorter time.",
+      para: "We implement robust security measures and follow best practices to ensure the safety of your dApps, blockchain networks, secure smart contract development, and auditing.",
     },
     {
       id: "3",
-      heading: "Communication Clarity",
+      heading: "Project Management",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid9.png",
-      para: "We understand the criticality of clear communication and keeping you informed. We use the latest project management tool for data-driven and agile decision-making by you.",
+      para: "Our efficient project management skills achieve timely delivery of milestones every time. Moreover, our emphasis on collaboration ensures you get the perfect outcome.",
     },
     {
       id: "4",
-      heading: "Flexible and Cost-Effective Models",
+      heading: "Innovation",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid10.png",
-      para: "Choose from a variety of outsourcing models that best suit your project needs. Get the best quality 3D development services at the most reasonable prices.",
+      para: "We stay updated on the latest blockchain developments to incorporate the most innovative solutions into your projects. Thus, we ensure you stand out from your competitors.",
     },
     {
       id: "5",
-      heading: "Adherence to Specifications",
+      heading: "Scalability",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid11.png",
-      para: "We do not just follow your specifications, we integrate them into the process. So that the outcomes automatically align with your specific project needs.",
+      para: "Our solutions grow with your business and serve ever-evolving customer demands. We strategize for blockchain network scalability challenges for efficient and scalable solutions.",
+    },
+    {
+      id: "6",
+      heading: "Proven Track Record",
+      imgurl:
+        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid11.png",
+      para: "With a proven track record, we've demonstrated success in delivering top-notch blockchain solutions with expertise spanning Ethereum, Stellar, EOS, Solana, and more.",
     },
    
     
@@ -212,9 +219,9 @@ const page = () => {
   const Text2 = [
     {
       heading:
-        "Why Choose Hey Buddy",
+        "Why We Are the Right Web3 Development Partner For You",
       subtext:
-        "Partner with Hey Buddy if you want quality work from experts. We deliver the best outcome while completely adhering to timelines and ensuring that you get the best ROI every time.",
+        "Hey Buddy gives you multiple compelling reasons for being the right Web3 development firm for you.",
     },
   ];
 

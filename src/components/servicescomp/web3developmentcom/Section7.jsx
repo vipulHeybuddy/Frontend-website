@@ -46,21 +46,21 @@ const Section7 = () => {
     const List = [
         {
           id: "1",
-          heading: "Real-Estate: Property Visualization for Better Customer Engagement",
+          heading: "Complete Security for Financial Transaction on DeFi application",
           // imgurl: "",
-          para: "Our client, a real-estate firm, required realistic 3D models for their new residential project. We used Autodesk 3ds Max and VRay to deliver highly detailed interior and exterior renders to aid them in presentations and marketing materials.This enhanced the customer’s engagement and understanding of our client's real-estate project, leading to faster sales and a more effective and streamlined sales process.",
+          para: "We launched a decentralized lending platform for one of our clients in the financial space. This way they earned enormous trust of their customers for using the most secure technologies for their DeFi dApps. This led to higher adoption rate with increased transaction number.",
         },
         {
           id: "2",
-          heading: "E-Commerce: Showcase Products in the Best Light",
+          heading: "Interconnected Web 3.0 Gaming Ecosystems",
           // imgurl: "",
-          para: "An online furniture retailer wanted high-quality 3D models for their product listings. We used Blender to produce photorealistic 3D models of their furniture collection to enhance the online shopping experience of their customers and reduce the need for physical prototypes.As a result, our client attained increased customer satisfaction, reduced returns, and improved online sales through visually appealing and accurate representations of products.",
+          para: "We developed a Web 3.0 cross-chain gaming title. As evident the gaming ecosystem integrated multiple blockchain networks this required seamless interoperability among the. This resulted tin users moving across blockchain platform freely and in exponential increase in in-game transactions, hence, greater revenue.",
         },
         {
           id: "3",
-          heading: "Gaming: High-quality Character Modeling for Unforgettable Gaming experience",
+          heading: "For top-class Caregiving With Power Healthcre DApp",
           // imgurl: "",
-          para: "One of our clients, a game development studio, needed diverse 3D character models for their upcoming gaming title. We employed ZBrush and Maya for character design and animation, delivering unique and visually appealing assets that enhanced the game's overall aesthetic. Thus, we proudly contributed to the game's success by providing captivating characters, that garnered positive reviews and commercial success.",
+          para: "For a healthcare tech firm, we offered feature-packed DApp development. It helped caregivers monitor patient medical history, streamline appointment schedules, securely communicate with patients, and seamlessly access to lab results. The improved data integrity and increased patients’ trust in their healthcare services.",
         },
 
         // {
@@ -88,7 +88,7 @@ const Section7 = () => {
       const Text = [
         {
           heading:
-            "Success Stories with Hey Buddy 3D Modelling Services",
+            "Success Stories Make Us One of the Top Web3 Development Companies",
           // subtext:
           //   "Project after project, we have refined our 3D development process to deliver creativity and innovation to your project. We understand the importance of a transparent and collaborative workflow, which is reflected in our process.",
         },

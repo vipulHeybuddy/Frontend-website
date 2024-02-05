@@ -47,45 +47,45 @@ const Bottomclient = () => {
     {
       id: 1,
       content:
-        "Here is my opinion based on my experience, I have really enjoyed working with the game development team. The team is amicable, creative and understanding.",
+        "We needed a team to develop a high performing decentralized application. Hey Buddy’s seamless collaboration methods and capability to deliver innovative solutions in time delivery made them our go-to team for anything Web3. No wonder they are among the top web3 development companies, offering exceptional services in the industry",
       // position: "Head of VP at Disney Hotstar",
-      name: "Zan Syed",
+      name: "John T. (California)",
     },
     {
       id: 2,
-      name: "Sarah",
+      name: "Emily J. (New York)",
       content:
-        "Thank you very much! An amazing job done by buddies what I like to call the team that exceeds all expectations. I am glad that I trusted you guys with the work.",
+        "Hey, Emily here from New York. We partnered Hey Buddy for their expertise in blockchain and decentralized finance and our decision proved right. Their commitment to security and attention to detail made our project a success. We highly recommended Hey Buddy for anyone venturing into Web3 space! Hey Buddy is the right web3 development services company for you.",
       // position: "Head of VP at Disney Hotstar",
     },
     {
       id: 3,
-      name: "Ankit",
+      name: "Michael H. (Texas)",
       content:
-        "I loved working with Hey Buddy and the way my VR project was handled, I consider this company as one of the best metaverse and game company in India.",
+        "Hey Buddy's Web3 development services truly stood out. Their commitment to project management and efficiency ensured our blockchain project's success. They posses in-depth knowledge of different blockchain platforms and deliver custom solution specialized for your business. ",
       // position: "Head of VP at Disney Hotstar",
     },
-    {
-      id: 4,
-      name: "Riyahi",
-      content:
-        "OMG where to start, I have no idea! people are amazing here, very focused and client-oriented. Kudos to the team for delivering the game project on time.",
-      // position: "Head of VP at Disney Hotstar",
-    },
-    {
-      id: 5,
-      name: "Jeremy",
-      content:
-        "Best game development company in India, though I am from the United States but never felt that I had hired this company, it was like this is my in-house team.",
-      // position: "Head of VP at Disney Hotstar",
-    },
-    {
-      id: 6,
-      name: "Bhaskar",
-      content:
-        "If anyone has a futuristic idea in mind and not finding the way to turn the idea into reality, I would recommend to reach out to Hey buddy, they are the best technology partner.",
-      // position: "Head of VP at Disney Hotstar",
-    },
+    // {
+    //   id: 4,
+    //   name: "Riyahi",
+    //   content:
+    //     "OMG where to start, I have no idea! people are amazing here, very focused and client-oriented. Kudos to the team for delivering the game project on time.",
+    //   // position: "Head of VP at Disney Hotstar",
+    // },
+    // {
+    //   id: 5,
+    //   name: "Jeremy",
+    //   content:
+    //     "Best game development company in India, though I am from the United States but never felt that I had hired this company, it was like this is my in-house team.",
+    //   // position: "Head of VP at Disney Hotstar",
+    // },
+    // {
+    //   id: 6,
+    //   name: "Bhaskar",
+    //   content:
+    //     "If anyone has a futuristic idea in mind and not finding the way to turn the idea into reality, I would recommend to reach out to Hey buddy, they are the best technology partner.",
+    //   // position: "Head of VP at Disney Hotstar",
+    // },
   ];
 
   return (
@@ -96,12 +96,10 @@ const Bottomclient = () => {
       variants={textAnimation1}
     >
       <h1 className="py-4 lg:w-[80%] text-2xl lg:text-4xl">
-        How Clients Rate Our 3D Modeling Services
+      Testimonials of Us Being the Top Web3 Development Agency
       </h1>
       <p className=" text-base md:text-lg lg:text-2xl">
-        Feature testimonials from satisfied clients who have utilised your game
-        development services. Include their feedback on your professionalism,
-        creativity, and the quality of your work.
+      Our Web 3.0 development services have catered to busines across industries and scale.
       </p>
       <div class=" pt-5 lg:py-12  grid mx-auto text-center justify-center rounded-xl shadow-sm sm:grid-1 md:mb-12 md:grid-cols-2 lg:grid-cols-3 gap-y-4 gap-x-4">
         {clientcardData.map((section, index) => (

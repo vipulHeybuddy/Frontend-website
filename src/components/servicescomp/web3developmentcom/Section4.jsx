@@ -49,23 +49,23 @@ const Mixsection = () => {
   const checklist1 = [
     
     {
-      title: "Immersive Experiences",
+      title: "Web 3 Gaming Solution",
     },
     {
-      title: "Animation",
+      title: "Multi-chain Solutions",
     },
     {
-      title: "CGI",
+      title: "Interoperability Solution",
     },
     {
-      title: "Product Visualization",
+      title: "Native Payment Solution",
     },
-    {
-      title: "Product Animation",
-    },
-    {
-      title: "Gaming",
-    },
+    // {
+    //   title: "Product Animation",
+    // },
+    // {
+    //   title: "Gaming",
+    // },
   ];
 
 
@@ -132,10 +132,10 @@ const Mixsection = () => {
     >
       <div className="py-4 text-white">
         <h1 className="py-4 lg:w-[80%] text-2xl lg:text-4xl">
-        Customized 3D Model<br /> Development for Every Project and Every Business
+        More Powerful Web 3 Development Solutions
         </h1>
         <p className=" text-base md:text-lg lg:text-2xl">
-        Hey Buddy, offering tailored solutions for your projects. Our versatile 3D development team perfectly adapts outcomes to your domains and brings your vision to life with precision and creativity.
+        Hey Buddy offers unique and complete Web3 development solutions capable of overcoming the most challenging obstacles of your business.
 
         </p>
       </div>

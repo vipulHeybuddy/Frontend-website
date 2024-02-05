@@ -83,10 +83,10 @@ const Timelinecomp = () => {
     >
       <div className="py-8 text-white">
         <h1 className="py-4 lg:w-[80%] text-2xl lg:text-4xl">
-        Our Streamlined 3D Development Process
+        Web3 development Roadmap For Revolutionary Outcome
         </h1>
         <p className=" text-base md:text-lg lg:text-2xl">
-        Project after project, we have refined our 3D development process to deliver creativity and innovation to your project. We understand the importance of a transparent and collaborative workflow, which is reflected in our process.
+        We follow a strategic and time-tested Web3 development process to catapult your project into the decentralized era.
         </p>
       </div>
 
@@ -100,19 +100,19 @@ const Timelinecomp = () => {
                   <ul>
                     <li>
 
-                      <h3 className="font-bold text-2xl  ">Consultation</h3>
+                      <h3 className="font-bold text-2xl  ">1. Strategic Consultation</h3>
 
                       <p>
-                      We initiate with a thorough consultation, grasping the intricacies of your project, goals, and expectations. This clear communication ensures that our plans and processes align with your vision, and lays a strong foundation for a successful collaboration.
+                      Our experts dive deep into your vision and carve out a roadmap, aligning Web 3.0 power to your business’s long and short-term goals and objectives. 
                       </p>
 
                     </li>
                     <li>
 
-                      <h3 className="font-bold text-2xl ">Conceptualization and Planning</h3>
+                      <h3 className="font-bold text-2xl ">2. Decentralized Architecture Design</h3>
 
                       <p>
-                      Our skilled team transforms ideas into a consolidated plan, outlining your project scope, timelines, and key milestones. This sets the roadmap for the project while ensuring transparency and clarity in the development process.
+                      We architect a decentralized framework as per your project's needs. Our designs lay the foundation for a Scalable, secure, and cutting-edge web3 development solutions.
                       </p>
 
                
@@ -120,19 +120,19 @@ const Timelinecomp = () => {
                     <li>
 
                       <h3 className="font-bold text-2xl ">
-                      Design and Development
+                      3. Smart Contract Development
 
                       </h3>
                       <p>
-                      We utilize advanced tools and technologies in our design and development process. Here, we aim to get you high-quality assets that not only meet your project's visual and functional requirements but also exceed your expectations.
+                      Our team develops code for Smart Contracts, automating processes and ensuring a trustless ecosystem for your transactions and operations on the blockchain.
                       </p>
 
                     </li>
                     <li>
 
-                      <h3 className="font-bold text-2xl ">Client Feedback and Revisions</h3>
+                      <h3 className="font-bold text-2xl ">4. Interoperability Integration</h3>
          <p>
-                      Staying true to our collaborative approach toward 3D development, we welcome your feedback and suggestions in this step. Accordingly, we make necessary revisions so that your input shapes the final product, guaranteeing satisfaction.
+         Further, our interoperability solutions connect your project with diverse blockchain networks seamlessly, for higher connectivity and collaboration.
 
                       </p>
 
@@ -140,21 +140,31 @@ const Timelinecomp = () => {
 
                     <li>
 
-                      <h3 className="font-bold text-2xl ">Quality Assurance</h3>
+                      <h3 className="font-bold text-2xl ">5. Security Audits and Testing</h3>
 
                       <p>
-                      Before we finally deliver, the resulting 3D models undergo rigorous quality checks to ensure that our 3D models meet your project standards. We deliver polished, error-free 3D assets that meet your project's visual and functional needs.
+                      Our rigorous security audits and testing ensure resiliency in your project, protecting your platform and user data from threats of every form.
                       </p>
 
                     </li>
 
                     <li>
 
-                      <h3 className="font-bold text-2xl ">Timely Delivery</h3>
+                      <h3 className="font-bold text-2xl ">6. User-Centric DApp Development</h3>
 
                       <p>
-                      With our unwavering commitment, we deliver your 3D assets with high regard to timelines. 
-We ensure this by utilizing our reliable development process and high professionalism, the two most essential ingredients for your project's success.
+                      Consequently, your DApp starts to take its final shape with seamless and intuitive user interaction with blockchain and engaging them in a great digital experience.
+
+                      </p>
+
+                    </li>
+
+                    <li>
+
+                      <h3 className="font-bold text-2xl ">7. Launch and Optimization</h3>
+
+                      <p>
+                      Lastly, your project gets launched after continuous optimization and refinement ingrained in our process for a dynamic and competitive Web3 solution.
 
                       </p>
 
