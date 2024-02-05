@@ -1,15 +1,13 @@
 "use client";
 
-import { useEffect, useLayoutEffect, useState } from "react";
+import { useEffect } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-// import { render } from "react-dom";
-import classnames from "classnames";
-import "../../../styles/slide.css";
-import GamedevCard from "../gamedevelopmentcomp/GamedevCard";
-import PhotoItem from "../gamedevelopmentcomp/PhotoItem";
-import WorkItem from "../gamedevelopmentcomp/WorkItem";
+import "./motionSlider.css"
+import WorkItem from "./WorkItem";
+import PhotoItem from "./PhotoItem";
+import GamedevCard from "./GamedevCard";
 
 const images = [0, 1, 2, 3, 4, 5, 6];
 const texts = [
@@ -126,10 +124,7 @@ const Motionslide = () => {
   }, []);
 
   return (
-    <div
-      style={{ backgroundRepeat: "round" }}
-      className="app h-fit relative bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev3.png')] bg-fixed bg-top"
-    >
+    <div>
       <div className="py-8 text-white">
         <div className="text-content lg:w-[80%]">
           <h1 className="py-4 text-2xl lg:text-4xl">
@@ -158,79 +153,79 @@ const Motionslide = () => {
             <div className="work__right-b1">
               <div className="work__photo flex flex-col items-center">
                 <PhotoItem
-                  title="1"
+                  title="0"
                   imgSrc={
                     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg"
                   }
                 />
                 <PhotoItem
-                  title="2"
+                  title="1"
                   imgSrc={
                     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds2.jpg"
                   }
                 />
                 <PhotoItem
-                  title="3"
+                  title="2"
                   imgSrc={
                     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds3.jpg"
+                  }
+                />
+                <PhotoItem
+                  title="3"
+                  imgSrc={
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds4.jpg"
                   }
                 />
                 <PhotoItem
                   title="4"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds4.jpg"
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg"
                   }
                 />
                 <PhotoItem
                   title="5"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg"
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.jpg"
                   }
                 />
                 <PhotoItem
                   title="6"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.jpg"
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg"
                   }
                 />
                 <PhotoItem
                   title="7"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg"
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.jpg"
                   }
                 />
                 <PhotoItem
                   title="8"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.jpg"
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg"
                   }
                 />
                 <PhotoItem
                   title="9"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg"
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds3.jpg"
                   }
                 />
                 <PhotoItem
                   title="10"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds3.jpg"
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds4.jpg"
                   }
                 />
                 <PhotoItem
                   title="11"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds4.jpg"
-                  }
-                />
-                <PhotoItem
-                  title="12"
-                  imgSrc={
                     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds5.jpg"
                   }
                 />
                 <PhotoItem
-                  title="13"
+                  title="12"
                   imgSrc={
                     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.png"
                   }
