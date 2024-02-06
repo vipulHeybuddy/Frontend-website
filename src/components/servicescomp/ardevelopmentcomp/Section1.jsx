@@ -93,6 +93,8 @@ const Herosection = () => {
           <h1 className=" text-3xl md:text-5xl">
           Your Trusted Experts for Augmented Reality Services 
           </h1>
+          <Link href="/Pages/Contactus">
+
           <Button
             style={buttonHeader}
             onMouseEnter={() => setIsHovered(true)}
@@ -100,6 +102,8 @@ const Herosection = () => {
           >
            Experience Innovation
           </Button>
+          </Link>
+
         </div>
         <div style={imageContainerStyle}>
           {/* Replace 'your-image.jpg' with the actual image source */}
