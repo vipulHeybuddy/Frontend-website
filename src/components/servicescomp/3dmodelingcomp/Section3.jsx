@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-import "./motionSlider.css"
+import "./motionSlider.css";
 import WorkItem from "./WorkItem";
 import PhotoItem from "./PhotoItem";
 import GamedevCard from "./GamedevCard";
@@ -66,8 +66,8 @@ const Motionslide = () => {
       clipPath: function () {
         return "inset(0px 0px 100% 0px)";
       },
-      stagger: 0.7,
-      ease: "none",
+      stagger: 0.8,
+      ease: "power1",
     });
 
     ScrollTrigger.create({
