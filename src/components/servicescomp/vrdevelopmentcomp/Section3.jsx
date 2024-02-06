@@ -4,7 +4,7 @@ import { useEffect } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-import "./motionSlider.css"
+import "./motionSlider.css";
 import WorkItem from "./WorkItem";
 import PhotoItem from "./PhotoItem";
 import GamedevCard from "./GamedevCard";
@@ -65,24 +65,24 @@ const texts = [
       "Count on Hey Buddy for continuous support, updates, and maintenance. We are known for ensuring the longevity and optimal performance of your VR applications.",
     img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg",
   },
-  {
-    title: "Dedicated VR Maintenance and Support",
-    description:
-      "Count on Hey Buddy for continuous support, updates, and maintenance. We are known for ensuring the longevity and optimal performance of your VR applications.",
-    img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds3.png",
-  },
+  // {
+  //   title: "Dedicated VR Maintenance and Support",
+  //   description:
+  //     "Count on Hey Buddy for continuous support, updates, and maintenance. We are known for ensuring the longevity and optimal performance of your VR applications.",
+  //   img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds3.png",
+  // },
   {
     title: "Cross-Platform VR Development",
     description:
       "We ensure your broad accessibility with services across VR platforms and devices. Get maximized reach and impact of your VR applications with a consistent user experience.      ",
     img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds4.png",
   },
-  {
-    title: "Intuitive VR UI/UX Design",
-    description:
-      "We design user interfaces and experiences tailored to virtual reality applications. Here, we prioritize usability and user engagement for a high success rate.      ",
-    img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds5.png",
-  },
+  // {
+  //   title: "Intuitive VR UI/UX Design",
+  //   description:
+  //     "We design user interfaces and experiences tailored to virtual reality applications. Here, we prioritize usability and user engagement for a high success rate.      ",
+  //   img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds5.png",
+  // },
   {
     title: "Rigorous VR App Testing",
     description:
@@ -155,79 +155,83 @@ const Motionslide = () => {
                 <PhotoItem
                   title="0"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg"
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Vr_Development/Immersive+VR+application+dev.jpg"
                   }
                 />
                 <PhotoItem
                   title="1"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds2.jpg"
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Vr_Development/Engaging+vr+game.jpg"
                   }
                 />
                 <PhotoItem
                   title="2"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds3.jpg"
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Vr_Development/Metaverse+vr+development.jpg"
                   }
                 />
                 <PhotoItem
                   title="3"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds4.jpg"
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Vr_Development/360%C2%B0+Video+Production.jpg"
                   }
                 />
                 <PhotoItem
                   title="4"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg"
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Vr_Development/Custom+VR+Simulation.jpg"
                   }
                 />
                 <PhotoItem
                   title="5"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.jpg"
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Vr_Development/VR+Content+Creation.jpg"
                   }
                 />
                 <PhotoItem
                   title="6"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg"
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Vr_Development/Strategic+VR+Consulting.jpg"
                   }
                 />
                 <PhotoItem
                   title="7"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.jpg"
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Vr_Development/Seamless+VR+Hardware.jpg"
                   }
                 />
                 <PhotoItem
                   title="8"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg"
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Vr_Development/Dedicated+VR+Maintenance.jpg"
                   }
                 />
-                <PhotoItem
-                  title="9"
-                  imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds3.jpg"
-                  }
-                />
-                <PhotoItem
+                {/* <PhotoItem
                   title="10"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds4.jpg"
+      
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Vr_Development/Dedicated+VR+Maintenance.jpg"
+
                   }
-                />
+                /> */}
                 <PhotoItem
                   title="11"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds5.jpg"
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Vr_Development/Cross-Platform+VR.jpg"
+
+                    // "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Vr_Development/Rigorous+VR+App+Testing.jpg"
                   }
                 />
+                {/* <PhotoItem
+                  title="12"
+                  imgSrc={
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds5.jpg"
+                  }
+                /> */}
                 <PhotoItem
                   title="12"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.png"
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Vr_Development/Rigorous+VR+App+Testing.jpg"
                   }
                 />
               </div>

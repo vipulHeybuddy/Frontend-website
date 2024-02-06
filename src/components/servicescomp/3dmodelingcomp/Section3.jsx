@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-import "./motionSlider.css"
+import "./motionSlider.css";
 import WorkItem from "./WorkItem";
 import PhotoItem from "./PhotoItem";
 import GamedevCard from "./GamedevCard";
@@ -116,37 +116,37 @@ const Motionslide = () => {
                 <PhotoItem
                   title="0"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.png"
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3D+development/3d+character+development.jpg"
                   }
                 />
                 <PhotoItem
                   title="1"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg"
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3D+development/3d+assets+development.jpg"
                   }
                 />
                 <PhotoItem
                   title="2"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds2.jpg"
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3D+development/3d+envoirnment+development.jpg"
                   }
                 />
                 <PhotoItem
                   title="3"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds3.jpg"
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3D+development/3d+hardsurface+dev.jpg"
                   }
                 />
                 <PhotoItem
                   title="4"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds4.jpg"
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3D+development/3d+animation+dev.jpg"
                   }
                 />
                 <PhotoItem
                   title="5"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds5.jpg"
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3D+development/3d+metahuman+service.jpg"
                   }
                 />
               </div>
