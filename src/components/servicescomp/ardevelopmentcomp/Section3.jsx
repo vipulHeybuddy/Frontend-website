@@ -4,7 +4,7 @@ import { useEffect } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-import "./motionSlider.css"
+import "./motionSlider.css";
 import WorkItem from "./WorkItem";
 import PhotoItem from "./PhotoItem";
 import GamedevCard from "./GamedevCard";
@@ -153,73 +153,73 @@ const Motionslide = () => {
                 <PhotoItem
                   title="0"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.png"
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/AR+development/Ar+App+dev.jpg"
                   }
                 />
                 <PhotoItem
                   title="1"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg"
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/AR+development/ar+software+dev.jpg"
                   }
                 />
                 <PhotoItem
                   title="2"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds2.jpg"
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/AR+development/Ar+consulting.jpg"
                   }
                 />
                 <PhotoItem
                   title="3"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds3.jpg"
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/AR+development/ar+design+and+prototyping.jpg"
                   }
                 />
                 <PhotoItem
                   title="4"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.png"
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/AR+development/markerbased+%26+markerless+ar.jpg"
                   }
                 />
                 <PhotoItem
                   title="5"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds3.jpg"
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/AR+development/AR+content+dev.jpg"
                   }
                 />
                 <PhotoItem
                   title="6"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds2.jpg"
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/AR+development/Ar+marketing.jpg"
                   }
                 />
                 <PhotoItem
                   title="7"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds3.jpg"
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/AR+development/AR+training+%26+education.jpg"
                   }
                 />
                 <PhotoItem
                   title="8"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.png"
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/AR+development/AR+integration+with+IOT.jpg"
                   }
                 />
                 <PhotoItem
                   title="9"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg"
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/AR+development/Ar+for+gaming.jpg"
                   }
                 />
                 <PhotoItem
                   title="11"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds2.jpg"
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/AR+development/Cross-Platform+AR.jpg"
                   }
                 />
                 <PhotoItem
                   title="10"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds3.jpg"
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/AR+development/AR+Maintenance+.jpg"
                   }
                 />
               </div>
