@@ -111,7 +111,7 @@ const Motionslide = () => {
         return "inset(0px 0px 100% 0px)";
       },
       stagger: 0.7,
-      ease: "none",
+      ease: "power1",
     });
 
     ScrollTrigger.create({

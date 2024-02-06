@@ -13,20 +13,15 @@ import GamedevCard from "../gamedevelopmentcomp/GamedevCard";
 
 const images = [0, 1, 2, 3, 4, 5];
 const texts = [
- 
-
   {
-
     title: "Blockchain Consulting Service",
     description:
       "Our blockchain experts consult you on the blockchain. From understanding blockchain basics to crafting a tailored strategy, your every question is answered.    ",
     img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.png",
-
   },
   {
     title: "Smart Contract Development",
     description:
-
       "Full-proof security with efficient self-executing and gas-optimized code, our Smart Contract expertise automates operations with strict Standards compliance.  ",
     img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg",
   },
@@ -72,12 +67,9 @@ const texts = [
       "Tap into the lucrative NFT market with our attractive, unique, and creative NFTs. Be assured of the latest Smart Contract Standards compliance such as ERC-721.  ",
     img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg",
   },
- 
-
 ];
 
 const Motionslide = () => {
-  
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
 
@@ -96,8 +88,8 @@ const Motionslide = () => {
       clipPath: function () {
         return "inset(0px 0px 100% 0px)";
       },
-      stagger: 0.8,
-      ease: "power3",
+      stagger: 0.7,
+      ease: "none",
     });
 
     ScrollTrigger.create({
@@ -105,7 +97,7 @@ const Motionslide = () => {
       start: "top top",
       end: "bottom bottom",
       animation: animation,
-      scrub: 1,
+      scrub: 0.1,
     });
   }, []);
 
@@ -114,10 +106,11 @@ const Motionslide = () => {
       <div className="py-8 text-white">
         <div className="text-content lg:w-[80%]">
           <h1 className="py-4 text-2xl lg:text-4xl">
-          Our Web3 Development Services
+            Our Web3 Development Services
           </h1>
           <p className="text-xl lg:text-2xl">
-          Our renowned blockchain expertise provides comprehensive Web 3.0 development services for innovative and powerful solutions.
+            Our renowned blockchain expertise provides comprehensive Web 3.0
+            development services for innovative and powerful solutions.
           </p>
         </div>
       </div>
@@ -138,42 +131,66 @@ const Motionslide = () => {
             <div className="work__right-b1">
               <div className="work__photo flex flex-col items-center">
                 <PhotoItem
-                  title="1"
+                  title="0"
                   imgSrc={
                     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.png"
                   }
                 />
                 <PhotoItem
-                  title="2"
+                  title="1"
                   imgSrc={
                     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg"
                   }
                 />
                 <PhotoItem
-                  title="3"
+                  title="2"
                   imgSrc={
                     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds2.jpg"
                   }
                 />
                 <PhotoItem
-                  title="4"
+                  title="3"
                   imgSrc={
                     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds3.jpg"
                   }
                 />
                 <PhotoItem
-                  title="5"
+                  title="4"
                   imgSrc={
                     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds4.jpg"
                   }
                 />
                 <PhotoItem
-                  title="6"
+                  title="5"
                   imgSrc={
                     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds5.jpg"
                   }
                 />
-               
+
+                <PhotoItem
+                  title="6"
+                  imgSrc={
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds3.jpg"
+                  }
+                />
+                <PhotoItem
+                  title="7"
+                  imgSrc={
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds4.jpg"
+                  }
+                />
+                <PhotoItem
+                  title="8"
+                  imgSrc={
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds5.jpg"
+                  }
+                />
+                <PhotoItem
+                  title="9"
+                  imgSrc={
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds5.jpg"
+                  }
+                />
               </div>
             </div>
           </div>
