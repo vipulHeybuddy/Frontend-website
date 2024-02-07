@@ -46,48 +46,51 @@ const Section7 = () => {
     const List = [
         {
           id: "1",
-          heading: "Custom Product Planning and Inventory Management Software",
+          heading: "Complete Security for Financial Transaction on DeFi application",
           // imgurl: "",
-          para: "Our client, a leading manufacturing company, faced inefficiencies in production planning and inventory management. We developed a custom software to optimize production schedules and automate inventory tracking for our client.The results were astonishing. The manufacturing company witnessed a significant 25% reduction in production costs while improving the overall efficiency of the supply chain.",
+          para: "We launched a decentralized lending platform for one of our clients in the financial space. This way they earned enormous trust of their customers for using the most secure technologies for their DeFi dApps. This led to higher adoption rate with increased transaction number.",
         },
         {
           id: "2",
-          heading: "Custom Patient Data Management Software for Leading Healthcare Providers",
+          heading: "Interconnected Web 3.0 Gaming Ecosystems",
           // imgurl: "",
-          para: "One of our healthcare provider clients needed a secure and compliant patient data management system to ensure better confidentiality and security and to streamline their operations. We developed the required software solution with robust security features, ensuring HIPAA compliance. With our solution, we successfully achieved the desired goals of improved data security, streamlined workflows, and consequently enhanced patient care.",
+          para: "We developed a Web 3.0 cross-chain gaming title. As evident the gaming ecosystem integrated multiple blockchain networks this required seamless interoperability among the. This resulted tin users moving across blockchain platform freely and in exponential increase in in-game transactions, hence, greater revenue.",
         },
         {
           id: "3",
-          heading: "Feature-packed, User-friendly E-commerce Solution",
+          heading: "For top-class Caregiving With Power Healthcre DApp",
           // imgurl: "",
-          para: "An e-commerce startup sought a scalable platform to handle rapid growth and a diverse product range. We developed a customized e-commerce solution with advanced features and a user-friendly interface for efficient catalog management and order processing. The e-commerce startup achieved a 40% increase in sales and successfully expanded its product offerings.",
+          para: "For a healthcare tech firm, we offered feature-packed DApp development. It helped caregivers monitor patient medical history, streamline appointment schedules, securely communicate with patients, and seamlessly access to lab results. The improved data integrity and increased patients’ trust in their healthcare services.",
         },
+
         // {
         //   id: "4",
-        //   heading: "Client Collaboration and Iterations",
+        //   heading: "Client Feedback and Revisions",
         //   // imgurl: "",
-        //   para: "We actively and continually seek your insights and feedback to bring about the project's evolution and ensure your satisfaction with the result.",
+        //   para: "Staying true to our collaborative approach toward 3D development, we welcome your feedback and suggestions in this step. Accordingly, we make necessary revisions so that your input shapes the final product, guaranteeing satisfaction.",
         // },
+
         // {
         //   id: "5",
         //   heading: "Quality Assurance",
         //   // imgurl: "",
-        //   para: "Our custom software undergoes meticulous quality checks to ensure that the software meets the highest standards and is a polished and error-free solution.",
+        //   para: "Before we finally deliver, the resulting 3D models undergo rigorous quality checks to ensure that our 3D models meet your project standards. We deliver polished, error-free 3D assets that meet your project's visual and functional needs.",
         // },
+
         // {
         //   id: "6",
         //   heading: "Timely Delivery",
         //   // imgurl: "",
-        //   para: "Committed to punctuality, we adhere to strict timelines with our reliable development process and professionalism as the cornerstones of your project's success.",
+        //   para: "With our unwavering commitment, we deliver your 3D assets with high regard to timelines. We ensure this by utilizing our reliable development process and high professionalism, the two most essential ingredients for your project's success.",
         // },
       ];
     
       const Text = [
         {
           heading:
-            "Success Stories With Hey Buddy Customer Software Solutions",
-          subtext:
-            "Hey Buddy is a leading custom software development company. We have multiple success stories to share. After all, our custom software solutions have helped clients across industries and scales.",
+            "Success Stories Make Us One of the Top Web3 Development Companies",
+          // subtext:
+          //   "Project after project, we have refined our 3D development process to deliver creativity and innovation to your project. We understand the importance of a transparent and collaborative workflow, which is reflected in our process.",
         },
       ];
   return (
@@ -104,11 +107,11 @@ const Section7 = () => {
         {Text.map((section, index) => (
           <div className="py-12" key={index}>
             <h1 className="py-4 lg:w-[80%] text-2xl lg:text-4xl">{section.heading}</h1>
-            <p className=" text-base md:text-lg">{section.subtext}</p>
+            <p className="text-xl lg:text-2xl">{section.subtext}</p>
           </div>
         ))}
         </div>
-      <div  class="p-2 lg:py-4  grid mx-auto  justify-center rounded-xl shadow-sm sm:grid-1 md:mb-12 md:grid-cols-2 lg:grid-cols-3 gap-y-4 gap-x-4">
+      <div  class="lg:p-2 lg:py-4  grid mx-auto  justify-center rounded-xl shadow-sm sm:grid-1 md:mb-12 md:grid-cols-2 lg:grid-cols-3 gap-y-4 gap-x-4">
         {List.map((section, index) => (
           <figure class="flex flex-col  p-4 lg:p-6  rounded-lg  h-full w-full bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20 hover:bg-red-600 hover:bg-opacity-40">
             <blockquote class="  text-gray-400">

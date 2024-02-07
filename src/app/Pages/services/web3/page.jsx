@@ -4,47 +4,18 @@ import React, { useEffect, useState , useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import Gridsection from "@/components/Gridsection";
-import Faqsection from "@/components/servicescomp/customsoftwarecomp/Section10";
-import Pagenation from "@/components/servicescomp/customsoftwarecomp/Section8";
-import Mixsection from "@/components/servicescomp/customsoftwarecomp/Section4";
-import Timelinecomp from "@/components/servicescomp/customsoftwarecomp/Section5";
-import Motionslide from "@/components/servicescomp/customsoftwarecomp/Section3";
+import Faqsection from "@/components/servicescomp/web3developmentcom/Section10";
+import Pagenation from "@/components/servicescomp/web3developmentcom/Section8";
+import Mixsection from "@/components/servicescomp/web3developmentcom/Section4";
+import Timelinecomp from "@/components/servicescomp/web3developmentcom/Section5";
+import Motionslide from "@/components/servicescomp/web3developmentcom/Section3";
 import { AiFillCheckCircle } from "react-icons/ai";
 import { motion, useAnimation } from "framer-motion";
-import Herosection from "@/components/servicescomp/customsoftwarecomp/Section1";
-import Bottomclient from "@/components/servicescomp/customsoftwarecomp/Section9";
-import Section7 from "@/components/servicescomp/customsoftwarecomp/Section7";
-import { Button } from "@material-tailwind/react";
+import Herosection from "@/components/servicescomp/web3developmentcom/Section1";
+import Bottomclient from "@/components/servicescomp/web3developmentcom/Section9";
+import Section7 from "@/components/servicescomp/web3developmentcom/Section7";
 
 const page = () => {
-  const [isHovered, setIsHovered] = useState(false);
-
-
-  const textContainerStyle = {
-    
-    // position: "sticky",
-    left: "50%",
-   
-    // zIndex: 2,
-    color: "#fff",
-    textAlign: "center",
-    top: "30%",
-    paddingTop: '9rem',
-  };
-  const buttonHeader = {
-    border: isHovered ? "0px" : "1px solid white",
-    background: isHovered
-      ? "linear-gradient(180deg, color(display-p3 0.2471 0.5412 0.8863) 0%, color(display-p3 0.137 0.3826 0.6708) 100%)"
-      : "transparent",
-    color: isHovered ? "white" : "white", // Change the text color as needed
-    padding: "10px 20px",
-    fontSize: "16px",
-    transition: "background-color 0.3s, transform 0.3s",
-    cursor: "pointer",
-    transform: isHovered ? "scale(1.1)" : "scale(1)",
-    marginTop: '2rem',
-  };
-
 
 
   const controls = useAnimation();
@@ -123,22 +94,22 @@ const page = () => {
 
   const checklist1 = [
     {
-      title: "Healthcare",
+      title: "Blockchain Consulting",
     },
     {
-      title: "Gaming",
+      title: "Smart Contract Development",
     },
     {
-      title: "Finance and Banking",
+      title: "Security Audits and Testing",
     },
     {
-      title: "E-commerce",
+      title: "Decentralized Application (DApp) Development",
     },
     {
-      title: "Manufacturing",
+      title: "Tokenomics and Cryptoeconomics Consulting ",
     },
     {
-      title: "Education",
+      title: "Consensus Mechanism Implementation",
     },
   ];
 
@@ -146,54 +117,54 @@ const page = () => {
   const List1 = [
     {
       id: "1",
-      heading: "Tailored Solutions",
+      heading: "Decentralization and Trust",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid1.png",
-      para: "Custom software development provides tailored solutions specifically designed to meet your unique needs and overcome specific challenges of your business.",
+      para: "Experience the power of trustless rapid transactions and interactions with zero interference from intermediaries and ensure transparency in your business. ",
     },
     {
       id: "2",
-      heading: "Increased Efficiency",
+      heading: "New High-paying Revenue Models",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid2.png",
-      para: "When custom software fills the gaps, and streamlines and automates your business processes, your business operates on maximum efficiency.",
+      para: "Tap into lucrative revenue streams and opportunities. Explore tokenization, decentralized finance (DeFi), non-fungible tokens (NFTs), and much more.",
     },
     {
       id: "3",
-      heading: "Competitive Advantage",
+      heading: "Safeguard Your Records",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid3.png",
-      para: "You gain a formidable competitive edge when custom software implements your distinct and innovative features and functionalities, setting you apart in the market.",
+      para: "Establish complete security with blockchain's cryptographic principles and ensure tamper-proof, auditable records and your peace of mind.",
     },
     {
       id: "4",
-      heading: "Scalability",
+      heading: "Build Loyal Community",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid4.png",
-      para: "Custom software ensures your technology infrastructure expands as your company evolves and accommodates your growing needs.",
+      para: "Engage your community through decentralized applications (dApp), foster user participation and collaboration, and build a loyal user base.",
     },
     {
       id: "5",
-      heading: "Cost Savings",
+      heading: "Cost Efficiency",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid5.png",
-      para: "Customer software reduces your reliance on generic, off-the-shelf solutions that require extensive customization and maintenance, saving a lot of cost and time.",
+      para: "Cut down unnecessary costs that come with intermediaries, middlemen, and other vulnerable operational processes by leveraging Web 3.0 technologies.",
     },
     {
       id: "6",
-      heading: "Enhanced Security",
+      heading: "Experience Seamless Interoperability",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid6.png",
-      para: "Integrate tailored security measures into your custom software, and get a higher level of protection against general as well as business-specific cyber threats.",
+      para: "Integrate seamlessly with any blockchain network and traditional systems and let the opportunities come from every direction.",
     },
   ];
 
   const Text1 = [
     {
       heading:
-        "Get Specialised Software Solutions with Custom Software Development",
+        "Choose Web 3 Development For Unique and Powerful Features",
       subtext:
-        "When you opt for customer software development, you get the exact solution you are looking for. This leads to higher business control, greater efficiency, outsmarting competition, and much more at a better price.",
+        "With innovative and powerful Web 3 development solution we help you gain a competitive edge and global accessibility.",
     },
   ];
 
@@ -201,59 +172,58 @@ const page = () => {
   const List2 = [
     {
       id: "1",
-      heading: "We Understand You",
+      heading: "Blockchain Expertise",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid7.png",
-      para: "At Hey Buddy, We understand and offer exactly what you expect. Thanks to our vast experience of working with hundreds of clients over the years.",
+      para: "We have a team of expert blockchain developers capable of working on every blockchain component on any platform including Ethereum, Stellar, EOS, Solana, and others.",
     },
     {
       id: "2",
-      heading: "We Deliver Quality",
+      heading: "We Ensure Security",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid8.png",
-      para: "As we fully understand your requirements, we deliver the high quality you want. Our custom software fits your business requirements seamlessly.",
+      para: "We implement robust security measures and follow best practices to ensure the safety of your dApps, blockchain networks, secure smart contract development, and auditing.",
     },
     {
       id: "3",
-      heading: "We Communicate Clearly",
+      heading: "Project Management",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid9.png",
-      para: "We use the latest project management tools and employ time-tested techniques to ensure clear communication and keep you aware of every development.",
+      para: "Our efficient project management skills achieve timely delivery of milestones every time. Moreover, our emphasis on collaboration ensures you get the perfect outcome.",
     },
     {
       id: "4",
-      heading: "We Deliver on Time",
+      heading: "Innovation",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid10.png",
-      para: "Our refined and streamlined software development process accelerates project deliveries to deliver well within timelines and without compromising on quality.",
+      para: "We stay updated on the latest blockchain developments to incorporate the most innovative solutions into your projects. Thus, we ensure you stand out from your competitors.",
     },
     {
       id: "5",
-      heading: "We Value Your Money",
+      heading: "Scalability",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid11.png",
-      para: "With Hey Buddy, we have experts readily available to deliver the best customer software solutions at the best price in the market. ",
+      para: "Our solutions grow with your business and serve ever-evolving customer demands. We strategize for blockchain network scalability challenges for efficient and scalable solutions.",
     },
     {
       id: "6",
-      heading: "We Adapt Quick",
+      heading: "Proven Track Record",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid12.png",
-      para: "Our experience makes use very flexible and adaptable to accommodate all your specific business needs and deliver the best custom software solutions.",
+        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid11.png",
+      para: "With a proven track record, we've demonstrated success in delivering top-notch blockchain solutions with expertise spanning Ethereum, Stellar, EOS, Solana, and more.",
     },
+   
+    
   ];
 
   const Text2 = [
     {
       heading:
-        "Choose Hey Buddy:",
+        "Why We Are the Right Web3 Development Partner For You",
       subtext:
-        "We Listen To  Deliver",
+        "Hey Buddy gives you multiple compelling reasons for being the right Web3 development firm for you.",
     },
   ];
-
-
-  //   ------------------grid section-4----------------------------------
 
   // ----------------------------------------------------------------
 
@@ -279,7 +249,7 @@ const page = () => {
                 {checklist1.map((section, index) => (
                   <div className="px-2 lg:px-16 flex items-center text-[#FFFFFF]  space-x-2.5 rtl:space-x-reverse">
                     <san className="flex items-center justify-center w-8 h-8  rounded-full shrink-0 ">
-                     
+                      {/* &#10004; */}
                       <AiFillCheckCircle className="w-8 h-8 text-[#6FCF97]" />
                     </san>
                     <span>
@@ -295,69 +265,48 @@ const page = () => {
 
           {/* -------------------------grid-reuse------------------------------------- */}
 
-          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev2.png')] py-4 bg-no-repeat bg-cover bg-[center_top_0rem]">
+          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev2.png')] py-3 bg-no-repeat bg-cover bg-[center_top_0rem]">
             <Gridsection listData={List1} textData={Text1} />
           </div>
 
           {/* ------------------------Section-3-------------------------------------- */}
           <div> 
             <Motionslide />
-
-            <div style={textContainerStyle}>
-          <h1 style={{ fontSize: "2rem" }}>Your Search For the Right Custom Software Solution Ends Here. </h1>
-          <Link href="/Pages/Contactus">
-          <Button
-            style={buttonHeader}
-            onMouseEnter={() => setIsHovered(true)}
-            onMouseLeave={() => setIsHovered(false)}
-          >
-            Let’s Get it Done
-          </Button>
-          </Link>
-        </div>
-       
-
-       
-  
           </div>
 
-          {/* between sectin 3 and 4 */}
-
-      
-
           {/* ----------------------------Section-4---------------------------------- */}
-          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev4.png')] py-4 bg-no-repeat bg-cover bg-[center_top_0rem]">
+          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev4.png')] py-3 bg-no-repeat bg-cover bg-[center_top_0rem]">
             <Mixsection />
           </div>
 
           {/* ------------------------Section-5------------------------------------- */}
-          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev5.png')] py-4 bg-no-repeat bg-cover bg-[center_top_0rem]">
+          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev5.png')] py-3 bg-no-repeat bg-cover bg-[center_top_0rem]">
             <Timelinecomp />
           </div>
 
           {/* ----------------------------grid-reuse---------------------------------- */}
-          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev6.png')] py-4 bg-no-repeat bg-cover bg-[center_top_0rem]">
+          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev6.png')] py-3 bg-no-repeat bg-cover bg-[center_top_0rem]">
             <Gridsection listData={List2} textData={Text2} />
           </div>
 
           {/* ----------------------------Section7---------------------------------- */}
-          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev7.png')] py-4 bg-no-repeat bg-cover bg-[center_top_0rem]">
+          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev7.png')] py-3 bg-no-repeat bg-cover bg-[center_top_0rem]">
             {/* <Gridsection listData={List3} textData={Text3} /> */}
             <Section7/>
           </div>
 
           {/* ------------------------section-8-------------------------------------- */}
-          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev8.png')] py-4 bg-no-repeat bg-cover ">
+          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev8.png')] py-3 bg-no-repeat lg:bg-cover ">
             <Pagenation />
           </div>
 
           {/* -----------------------Section-9--------------------------------------- */}
-          <div className="text-white lg:py-16 bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev9.png')] py-4 bg-no-repeat bg-cover">
+          <div className="text-white lg:py-16 bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev9.png')] py-3 bg-no-repeat lg:bg-cover">
             <Bottomclient />
           </div>
 
           {/* -----------------------------Section-10----------------------------------- */}
-          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev10.png')] py-4 bg-no-repeat bg-cover bg-[center_top_0rem]">
+          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev10.png')] py-3 bg-no-repeat bg-cover bg-[center_top_0rem]">
             <Faqsection />
           </div>
 

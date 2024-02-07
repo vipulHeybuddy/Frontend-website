@@ -1,64 +1,71 @@
 "use client";
 
-import { useEffect } from "react";
+import { useEffect, useLayoutEffect, useState } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
+// import { render } from "react-dom";
+import classnames from "classnames";
+import "../../../styles/slide.css";
+import WorkItem from "../gamedevelopmentcomp/WorkItem";
+import PhotoItem from "../gamedevelopmentcomp/PhotoItem";
+import GamedevCard from "../gamedevelopmentcomp/GamedevCard";
 
-import "./motionSlider.css"
-import WorkItem from "./WorkItem";
-import PhotoItem from "./PhotoItem";
-import GamedevCard from "./GamedevCard";
-
-const images = [0, 1, 2, 3, 4, 5, 6];
+const images = [0, 1, 2, 3, 4, 5];
 const texts = [
   {
-    title: "3D Design and Rendering",
+    title: "Blockchain Consulting Service",
     description:
-      "We create visually captivating designs on 3D OOH billboards to powerfully convey your intended message.",
+      "Our blockchain experts consult you on the blockchain. From understanding blockchain basics to crafting a tailored strategy, your every question is answered.    ",
     img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.png",
   },
   {
-    title: "Concept Development",
+    title: "Smart Contract Development",
     description:
-      "We nudge you in the right direction by conceptualizing and developing ideas for your billboard campaigns.",
+      "Full-proof security with efficient self-executing and gas-optimized code, our Smart Contract expertise automates operations with strict Standards compliance.  ",
     img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg",
   },
   {
-    title: "Customization",
+    title: "Security Audits and Testing",
     description:
-      "We mold your 3D billboard designs to meet your business and branding needs and achieve your goals.",
+      "We safeguard your blockchain solutions with our rigorous security audits and testing. We identify vulnerabilities, fortify defenses, and ensure system resiliency.    ",
     img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds2.jpg",
   },
   {
-    title: "Visualization Services",
+    title: "Decentralized Application (DApp) Development",
     description:
-      "We help you assess the impact of your 3D billboard in a particular environment with our visualization services.",
+      "We build decentralized and automated dApps interacting with blockchain networks. The best part, these solutions are meant just for your business.",
     img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds3.jpg",
   },
   {
-    title: "Animation and Motion Graphics",
+    title: "Tokenomics and Cryptoeconomics Consulting",
     description:
-      "We bring dynamism with live elements to your 3d animated billboards and amplify the impact exponentially.",
+      "We craft robust tokenomics strategies and token models that drive value and foster community engagement for long-term success in dynamic crypto-economics.      ",
     img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds4.jpg",
   },
   {
-    title: "Maintenance and Updates",
+    title: "Consensus Mechanism Implementation",
     description:
-      "For a sustained impact on your 3D billboard advertising, we offer sustained support for maintenance and updates.",
+      "We spot the right consensus mechanism for your blockchain network with our implementation expertise be it Proof-of-Work or Proof-of-Stake.  ",
     img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg",
   },
   {
-    title: "Anamorphic Billboard Consultation",
+    title: "DeFi Development",
     description:
-      "We consult you on the best practices and strategies for powerful 3D billboard advertisements.",
-    img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.png",
+      "With our powerful Smart Contracts engineering your DeFi dApps, you get high-performing, and scalable tokenomics and cryptonomics.",
+    img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg",
   },
   {
-    title: "Compliance and Regulations",
+    title: "Metaverse Development",
     description:
-      "We ensure your 3d commercial billboard complies with local regulations and the latest industry standards.",
-    img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.png",
+      "We develop immersive user experiences going across multiple metaverses and catering to a large user base. Plus, Blockchain protection to your virtual economy.  ",
+    img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg",
+  },
+  {
+    title: "NFT Development",
+    description:
+      "Tap into the lucrative NFT market with our attractive, unique, and creative NFTs. Be assured of the latest Smart Contract Standards compliance such as ERC-721.  ",
+    img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg",
   },
 ];
 
@@ -82,7 +89,7 @@ const Motionslide = () => {
         return "inset(0px 0px 100% 0px)";
       },
       stagger: 0.7,
-      ease: "power1",
+      ease: "none",
     });
 
     ScrollTrigger.create({
@@ -95,21 +102,19 @@ const Motionslide = () => {
   }, []);
 
   return (
-    <div>
+    <div className="app">
       <div className="py-8 text-white">
         <div className="text-content lg:w-[80%]">
           <h1 className="py-4 text-2xl lg:text-4xl">
-            Hey Buddy - leading 3D Billboard Company for Next-Gen Services
+            Our Web3 Development Services
           </h1>
           <p className="text-xl lg:text-2xl">
-            We offer a comprehensive suite of 3D development services to help
-            you grab the opportunity. Engage with your audience like never
-            before and none another. Present your modernized avatar and get an
-            unmatchable competitive edge with our your 3d led billboard today.
+            Our renowned blockchain expertise provides comprehensive Web 3.0
+            development services for innovative and powerful solutions.
           </p>
         </div>
       </div>
-      <div className="h-fit relative bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev3.png')] bg-fixed bg-bottom ">
+      <div className="h-fit relative lg:bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev3.png')] bg-fixed bg-bottom ">
         <section className="work  hidden lg:flex flex-row justify-between">
           <div className="work__left">
             <div className="work__text flex flex-col items-center">
@@ -161,14 +166,27 @@ const Motionslide = () => {
                     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds5.jpg"
                   }
                 />
+
                 <PhotoItem
                   title="6"
+                  imgSrc={
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds3.jpg"
+                  }
+                />
+                <PhotoItem
+                  title="7"
                   imgSrc={
                     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds4.jpg"
                   }
                 />
                 <PhotoItem
-                  title="7"
+                  title="8"
+                  imgSrc={
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds5.jpg"
+                  }
+                />
+                <PhotoItem
+                  title="9"
                   imgSrc={
                     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds5.jpg"
                   }
