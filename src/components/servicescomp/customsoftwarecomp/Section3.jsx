@@ -137,7 +137,7 @@ const Motionslide = () => {
                   title="1"
                   imgSrc={
 
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/custom+software+development/custome+software+application.jpg"
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/custom+software+development/content+managment+systems.jpg"
    }
                 />
                 <PhotoItem
@@ -180,14 +180,9 @@ const Motionslide = () => {
                   }
                 />
               
+                  
                      <PhotoItem
-                  title="8"
-                  imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/custom+software+development/content+managment+systems.jpg"
-                  }
-                />
-                     <PhotoItem
-                  title="9"
+                  title="7"
 
 
                   imgSrc={
