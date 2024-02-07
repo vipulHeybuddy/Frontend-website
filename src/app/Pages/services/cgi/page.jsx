@@ -140,87 +140,87 @@ const page = () => {
   ];
 
   // --------------------grid section-1----------------------------------
-  const List1 = [
-    {
-      id: "1",
-      heading: "Enhanced Marketing and Advertising",
-      imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid1.png",
-      para: "Get compelling and visually striking content for marketing and advertising campaigns. Empower your brand's visibility and customer engagement for assured business success.",
-    },
-    {
-      id: "2",
-      heading: "Visual Realism for Presentations",
-      imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid2.png",
-      para: "Your presentations were never so impactful. With realistic CGI visuals, achieve high client satisfaction and higher project approvals. Stand out from the crowd and be remembered.",
-    },
-    {
-      id: "3",
-      heading: "Cost-Effective Prototyping",
-      imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid3.png",
-      para: "Save a fortune with CGI virtual prototypes before starting with full-fledged physical production. Get a clear visual idea, test in simulation, and move ahead with certainty. ",
-    },
-    {
-      id: "4",
-      heading: "Efficient Communication of Concepts",
-      imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid4.png",
-      para: "Establish clear and efficient communication, especially for complex concepts. Make sure your teams, clients, and stakeholders share an understanding of your project vision.",
-    },
-    {
-      id: "5",
-      heading: "Iterative Design and Feedback",
-      imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid5.png",
-      para: "Benefit from the flexibility of CGI for iterative design processes and incorporate client feedback with ease. Refine the final product and meet client expectations without missteps.",
-    },
-    {
-      id: "6",
-      heading: "Time Savings in Production",
-      imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid6.png",
-      para: "Save time in the production process. Eliminate the need for extensive physical setups or reshoots with CGI's efficiency. Achieve a faster turnaround and meet project timelines. ",
-    },
-    {
-      id: "7",
-      heading: "Versatility in Creativity",
-      imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid6.png",
-      para: "Differentiate your business with the creative freedom of CGI. Explore different styles, settings, and visual elements to bring uniqueness and appeal to your final product.",
-    },
-    {
-      id: "8",
-      heading: "Adaptability to Changes",
-      imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid6.png",
-      para: "Be agile. Incorporate ongoing modifications in design during the production process. Experience dynamism with CGI's adaptability and meet evolving project requirements.  ",
-    },
-    {
-      id: "9",
-      heading: "Vast Talent Pool",
-      imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid6.png",
-      para: "With Hey Buddy’s CGI experts team, you access a diverse talent pool and skillset. We ensure you get the highest quality visuals within a specified timeline and impress your audience. ",
-    },
-    {
-      id: "10",
-      heading: "Future-Proofing Content",
-      imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid6.png",
-      para: "You can repurpose and reuse CGI assets for future-proofing. We create assets in a format usable for future projects. Therefore, you save resources for future projects.",
-    },
-  ];
+  // const List1 = [
+  //   {
+  //     id: "1",
+  //     heading: "Enhanced Marketing and Advertising",
+  //     imgurl:
+  //       "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid1.png",
+  //     para: "Get compelling and visually striking content for marketing and advertising campaigns. Empower your brand's visibility and customer engagement for assured business success.",
+  //   },
+  //   {
+  //     id: "2",
+  //     heading: "Visual Realism for Presentations",
+  //     imgurl:
+  //       "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid2.png",
+  //     para: "Your presentations were never so impactful. With realistic CGI visuals, achieve high client satisfaction and higher project approvals. Stand out from the crowd and be remembered.",
+  //   },
+  //   {
+  //     id: "3",
+  //     heading: "Cost-Effective Prototyping",
+  //     imgurl:
+  //       "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid3.png",
+  //     para: "Save a fortune with CGI virtual prototypes before starting with full-fledged physical production. Get a clear visual idea, test in simulation, and move ahead with certainty. ",
+  //   },
+  //   {
+  //     id: "4",
+  //     heading: "Efficient Communication of Concepts",
+  //     imgurl:
+  //       "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid4.png",
+  //     para: "Establish clear and efficient communication, especially for complex concepts. Make sure your teams, clients, and stakeholders share an understanding of your project vision.",
+  //   },
+  //   {
+  //     id: "5",
+  //     heading: "Iterative Design and Feedback",
+  //     imgurl:
+  //       "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid5.png",
+  //     para: "Benefit from the flexibility of CGI for iterative design processes and incorporate client feedback with ease. Refine the final product and meet client expectations without missteps.",
+  //   },
+  //   {
+  //     id: "6",
+  //     heading: "Time Savings in Production",
+  //     imgurl:
+  //       "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid6.png",
+  //     para: "Save time in the production process. Eliminate the need for extensive physical setups or reshoots with CGI's efficiency. Achieve a faster turnaround and meet project timelines. ",
+  //   },
+  //   {
+  //     id: "7",
+  //     heading: "Versatility in Creativity",
+  //     imgurl:
+  //       "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid6.png",
+  //     para: "Differentiate your business with the creative freedom of CGI. Explore different styles, settings, and visual elements to bring uniqueness and appeal to your final product.",
+  //   },
+  //   {
+  //     id: "8",
+  //     heading: "Adaptability to Changes",
+  //     imgurl:
+  //       "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid6.png",
+  //     para: "Be agile. Incorporate ongoing modifications in design during the production process. Experience dynamism with CGI's adaptability and meet evolving project requirements.  ",
+  //   },
+  //   {
+  //     id: "9",
+  //     heading: "Vast Talent Pool",
+  //     imgurl:
+  //       "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid6.png",
+  //     para: "With Hey Buddy’s CGI experts team, you access a diverse talent pool and skillset. We ensure you get the highest quality visuals within a specified timeline and impress your audience. ",
+  //   },
+  //   {
+  //     id: "10",
+  //     heading: "Future-Proofing Content",
+  //     imgurl:
+  //       "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid6.png",
+  //     para: "You can repurpose and reuse CGI assets for future-proofing. We create assets in a format usable for future projects. Therefore, you save resources for future projects.",
+  //   },
+  // ];
 
-  const Text1 = [
-    {
-      heading:
-        "Bring Rewarding Business Benefits - Choose CGI technologies and solutions",
-      subtext:
-        "With flexible and adaptable CGI solutions, you get the best results for your business while saving your resources.",
-    },
-  ];
+  // const Text1 = [
+  //   {
+  //     heading:
+  //       "Bring Rewarding Business Benefits - Choose CGI technologies and solutions",
+  //     subtext:
+  //       "With flexible and adaptable CGI solutions, you get the best results for your business while saving your resources.",
+  //   },
+  // ];
 
   //   ------------------grid section-2----------------------------------
   const List2 = [
@@ -339,9 +339,9 @@ const page = () => {
 
           {/* -------------------------grid-reuse------------------------------------- */}
 
-          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev2.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
+          {/* <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev2.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
             <Gridsection listData={List1} textData={Text1} />
-          </div>
+          </div> */}
 
           {/* ------------------------Section-3-------------------------------------- */}
           <div> 
