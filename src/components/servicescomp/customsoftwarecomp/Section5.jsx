@@ -83,7 +83,7 @@ const Timelinecomp = () => {
             <div class="container text-white">
                 <ul>
                     <li>
-                        <h3 className="font-bold text-2xl heading heading">Understanding Requirements</h3>
+                        <h3 className="font-bold text-2xl  ">Understanding Requirements</h3>
                         <p>
                     
 
@@ -94,21 +94,21 @@ const Timelinecomp = () => {
                        
                     </li>
                     <li>
-                        <h3 className="font-bold text-2xl heading heading">Planning and Strategy</h3>
+                        <h3 className="font-bold text-2xl  ">Planning and Strategy</h3>
                         <p>We transform concepts into a detailed plan, delineating project scope, timelines, and milestones. It sets the project’s future roadmap and ensures transparency.
                          </p>
                        
                        
                     </li>
                     <li>
-                        <h3 className=" font-bold text-2xl headingheading">Development and Implementation</h3>
+                        <h3 className=" font-bold text-2xl ">Development and Implementation</h3>
                         <p>We use the latest tools and technologies to deliver high-quality custom software solutions that meet your functional requirements and exceed visual expectations.
                             </p>
                      
                        
                     </li>
                     <li>
-                        <h3 className="font-bold text-2xl heading heading">Client Collaboration and Iterations</h3>
+                        <h3 className="font-bold text-2xl  ">Client Collaboration and Iterations</h3>
                         <p>
                         We actively and continually seek your insights and feedback to bring about the project's evolution and ensure your satisfaction with the result.
 
@@ -117,7 +117,7 @@ const Timelinecomp = () => {
                         
                     </li>
                     <li>
-                        <h3 className=" font-bold text-2xl heading heading">Quality Assurance</h3>
+                        <h3 className=" font-bold text-2xl  ">Quality Assurance</h3>
                         <p>
                         Our custom software undergoes meticulous quality checks to ensure that the software meets the highest standards and is a polished and error-free solution.
 
@@ -128,7 +128,7 @@ const Timelinecomp = () => {
                       
                     </li>
                     <li>
-                        <h3 className=" font-bold text-2xl heading heading">Timely Delivery</h3>
+                        <h3 className=" font-bold text-2xl  ">Timely Delivery</h3>
                         <p>
                         Committed to punctuality, we adhere to strict timelines with our reliable development process and professionalism as the cornerstones of your project's success.
 

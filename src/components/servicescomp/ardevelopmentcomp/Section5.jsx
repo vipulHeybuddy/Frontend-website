@@ -96,7 +96,7 @@ We offer transparency, collaboration, and the timely delivery of your AR project
 
       <div className="pb-24">
         <div className="grid sm:grid-1 md:mb-12 md:grid-cols-2 lg:grid-cols-2 gap-y-4 gap-x-4">
-          <div className="overflow-y-scroll scrollbar-hide md:scrollbar-default h-[60vh] w-full  ">
+          <div style={{marginLeft: '2rem'}} className="overflow-y-scroll scrollbar-hide md:scrollbar-default h-[60vh] w-full  ">
             <div className="">
               <div className="main ">
                 {/* <h3 class="head">Responsive Timeline</h3> */}
@@ -238,7 +238,7 @@ We offer transparency, collaboration, and the timely delivery of your AR project
                 width={700}
                 height={700}
                 src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/wheel-unscreen.gif"
-                className="lg:mr-6 h-[50vh] w-[52rem] lg:h-[70vh] lg:w-[92rem] "
+                className="lg:mr-6 h-[40vh] w-[52rem] lg:h-[60vh] lg:w-[92rem] "
                 alt="Hey B"
               />
             </div>
