@@ -40,6 +40,7 @@ const Herosection = () => {
   };
 
   const containerStyle = {
+    padding: "20px",
     position: "sticky",
   };
 
@@ -83,27 +84,26 @@ const Herosection = () => {
     transition: "background-color 0.3s, transform 0.3s",
     cursor: "pointer",
     transform: isHovered ? "scale(1.1)" : "scale(1)",
+    marginTop: '1rem',
   };
 
   return (
     <>
-      <div style={containerStyle} className=" md:p-5">
+      <div style={containerStyle}>
         <div style={textContainerStyle}>
-          <h1 className=" text-3xl md:text-5xl">Hey Buddy: </h1>
-          <h1 className=" text-3xl md:text-5xl">
-          Your Trusted Experts for Augmented Reality Services 
-          </h1>
+          <h1 className=" text-3xl md:text-5xl">Hey Buddy - Your trusted Web3 Development Company</h1>
+          {/* <h1 className=" text-3xl md:text-5xl">
+          Modelling Services 
+          </h1> */}
           <Link href="/Pages/Contactus">
-
           <Button
             style={buttonHeader}
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
           >
-           Experience Innovation
+           Get Web3 Solution
           </Button>
           </Link>
-
         </div>
         <div style={imageContainerStyle}>
           {/* Replace 'your-image.jpg' with the actual image source */}
@@ -112,7 +112,7 @@ const Herosection = () => {
             width={450}
             height={450}
             className="h-[24px] w-[24px] bg-white mx-auto mt-4"
-            src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Rectangle+33.png"
+            src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Rectangle+32.png"
             alt="Background"
           />
         </div>
@@ -124,12 +124,10 @@ const Herosection = () => {
             initial="hidden"
             animate={controls}
             variants={textAnimation1}
-            className="py-8 text-base md:text-lg lg:text-xl text-white "
+            className="py-8 text-base lg:text-xl text-white "
           >
             <p>
-            Hey Buddy is the leading Augmented Reality or AR development company in India and the US. Our dedicated team of AR experts consistently delivers innovative and creative projects within specified timelines.<br/>
-
-
+            Hey Buddy is a renowned Web3 development company, known for its blockchain development expertise and for delivering secure, innovative, and interactive web 3.0 solutions within specified timelines.
 
             </p>
           </div>

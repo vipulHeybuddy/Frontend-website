@@ -83,7 +83,7 @@ const Faqsection = () => {
       variants={textAnimation1}
     >
       <div>
-        <h1 style={{color: 'white'}} className="py-4 lg:w-[80%] text-2xl lg:text-4xl">FAQs</h1>
+        <h1 className="py-4 lg:w-[80%] text-2xl lg:text-4xl">FAQs</h1>
       </div>
 
       <div className="pb-14 grid text-white sm:grid-1 md:mb-12 md:grid-cols-2 lg:grid-cols-2 gap-y-4  gap-x-4">
@@ -98,12 +98,10 @@ const Faqsection = () => {
               onClick={() => handleOpen(1)}
             className="!text-lg"
             >
-             What are Augmented Reality development services?
-
+              Who is leading Web3 development in USA?
             </AccordionHeader>
             <AccordionBody>
-            AR development services create AR experiences that offer immersion. To explain, these experiences overlay digital 3D information or objects onto the real world. All you need is a smartphone. 
-
+            Hey Buddy has been a trusted name and  recognized as the best Web3 development company in the USA. With a proven track record and innovative solutions, they lead the charge in decentralized technologies.
             </AccordionBody>
           </Accordion>
 
@@ -117,13 +115,14 @@ const Faqsection = () => {
               onClick={() => handleOpen(2)}
             className="!text-lg"
             >
-              What kind of Augmented Reality services do you offer?
+          What does a Web3 developer do?
             </AccordionHeader>
             <AccordionBody>
-            We offer a wide range of AR development services for various industries. This includes concept ideation, design, software development, integration, testing, and deployment. Our Augmented reality applications offer a stable and enriched AR experience across various platforms.
-
+            A Web3 developer excels specialize in implementing advanced Web3 technologies such as smart contract development, blockchain to create decentralized applications (DApps). These app stand out for operating without a central authority, utilising self-executing code for automated processes, record transaction on a blockchain for tamper-proof records, user control and ownership over their data and interoperability.
             </AccordionBody>
           </Accordion>
+
+         
 
          
         </div>
@@ -139,11 +138,10 @@ const Faqsection = () => {
               onClick={() => handleOpen(4)}
             className="!text-lg"
             >
-              Can you help in the entire AR development lifecycle?
-
+              What is a Web3 company?
             </AccordionHeader>
             <AccordionBody>
-            HeyBuddy is one of the few AR development companies that provide end-to-end Augmented Reality services. Starting from initial consultation and concept creation to design, development, testing, deployment, and ongoing support for AR applications.
+            Referring to Hey Buddy, a top Web3 development company in the USA, it offers comprehensive services encompassing blockchain, smart contracts, and decentralized applications. 
             </AccordionBody>
           </Accordion>
 
@@ -157,33 +155,17 @@ const Faqsection = () => {
               onClick={() => handleOpen(5)}
             className="!text-lg"
             >
-             What are the typical costs associated with AR development?
-
+        Is a Web3 developer in demand?
             </AccordionHeader>
             <AccordionBody>
-            Costs can vary based on project complexity, features, platforms, and the scope of work. We offer tailored pricing after understanding your project requirements during the initial consultation phase.
+            Yes! Given the rise of decentralized technologies, the demand for Web3 developers is soaring. Companies, especially those seeking the best Web3 development company in the USA, recognize the crucial role these developers play in creating the next generation of digital solutions. 
+
             </AccordionBody>
           </Accordion>
 
-          {/* <Accordion
-            open={open === 6}
-            icon={<Icon id={6} open={open} />}
-            className="py-2 px-5 lg:px-8 my-4  rounded-lg bg-gray-500  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 hover:bg-red-500 hover:bg-opacity-20"
-          >
-            <AccordionHeader
-              style={{ border: "0" }}
-              onClick={() => handleOpen(6)}
-            className="!text-lg"
-              >
-              What can I do with Material Tailwind?
-            </AccordionHeader>
-            <AccordionBody>
-              We&apos;re not always in the position that we want to be at.
-              We&apos;re constantly growing. We&apos;re constantly making
-              mistakes. We&apos;re constantly trying to express ourselves and
-              actualize our dreams.
-            </AccordionBody>
-          </Accordion> */}
+         
+
+         
         </div>
       </div>
     </motion.div>

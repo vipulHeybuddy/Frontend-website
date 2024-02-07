@@ -72,41 +72,40 @@ const Sliderclient = () => {
     const List = [
         {
           id: "1",
-          heading: "Expertise in Cutting-Edge AR Technologies",
+          heading: "Multi-chain Solutions",
           imgurl: "",
-          para: "Benefit from our seasoned team of AR experts. Their expertise in the latest AR technologies brings your desired high-quality results.",
+          para: "Elevate your project – choose multi-chain solutions for a connected blockchain ecosystem. Command multi-chain operations for the highest possible scalability. ",
         },
         {
           id: "2",
-          heading: "Proven Track Record with Diverse AR Projects          ",
+          heading: "Native Payment Solutions",
           imgurl: "",
-          para: "We have delivered AR projects of varying scales for a variety of clients. This included projects for budding startups to Fortune listers.           ",
+          para: "No intermediaries mean faster and more effective operations. Our native payment solutions easily integrate and offer your users a frictionless payment experience.",
         },
         {
           id: "3",
-          heading: "Innovation and Creativity at the Core          ",
+          heading: "Self-sovereign Identity Solution",
           imgurl: "",
-          para: "With Hey Buddy, expect nothing less than innovation and creativity for your AR project. Our team goes up and beyond to infuse uniqueness into your project.",
+          para: "Revolutionize how individuals manage their digital identity on your platform. Say goodbye to centralized control and welcome the era of privacy.",
         },
         {
           id: "4",
-          heading: "Tailored Solutions Aligned with Your Goals ",
+          heading: "Interoperability Solutions",
           imgurl: "",
-          para: "We understand that your business is unique, and so are your project and its requirements. And that is precisely why our customized AR solutions are here.",
+          para: "Connect, collaborate, and conquer with our interoperability solutions. Break down blockchain silos and foster seamless communication.",
         },
         {
           id: "5",
-          heading: "Seamless Integration with Existing Systems",
+          heading: "Web3 Gaming Development",
           imgurl: "",
-          para: "Want to include AR functionality but hesitant? Experience a smooth transition with our AR applications. We offer seamless integration with full compatibility and interoperability.",
+          para: "Capitalise on the future of gaming with Web3 game development. Leverage blockchain Integration for in-game assets' uniqueness and monetization.",
         },
         {
           id: "6",
-          heading: "Scalability and Future-Proofing",
+          heading: "Cross-Chain Development",
           imgurl: "",
-          para: "Get scalable AR software solutions and future-proof your investments. Our AR applications adapt to your growing business needs for longevity and relevance.          ",
+          para: "Our cross-chain development solutions let your project span multiple networks with ease. Our solutions help you transcend the limits of a singular blockchain.",
         },
-        
       ];
  
         const settings = {
@@ -170,7 +169,7 @@ const Sliderclient = () => {
         {List.map((section, index) => (
             <div className="px-2">
 
-          <figure style={{maxHeight: '36vh'}} class="flex flex-col p-4 lg:p-6  rounded-lg  h-full w-full bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20">
+          <figure style={{maxHeight: '36vh' }} class="flex flex-col p-4 lg:p-6  rounded-lg  h-full w-full bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20">
             <blockquote class="  text-gray-400">
               <h3
                 style={{ color: "white" }}
@@ -179,7 +178,7 @@ const Sliderclient = () => {
                 {section.heading}
               </h3>
 
-              <p style={{ color: "white" , height:"25vh" }} className="text-left">
+              <p style={{ color: "white",  height:"25vh" }} className="text-left">
                 {section.para}
               </p>
             </blockquote>

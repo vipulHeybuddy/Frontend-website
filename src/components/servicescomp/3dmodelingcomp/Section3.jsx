@@ -1,32 +1,24 @@
 "use client";
 
-import { useEffect, useLayoutEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-// import { render } from "react-dom";
-import classnames from "classnames";
-import "../../../styles/slide.css";
-import WorkItem from "../gamedevelopmentcomp/WorkItem";
-import PhotoItem from "../gamedevelopmentcomp/PhotoItem";
-import GamedevCard from "../gamedevelopmentcomp/GamedevCard";
+import "./motionSlider.css";
+import WorkItem from "./WorkItem";
+import PhotoItem from "./PhotoItem";
+import GamedevCard from "./GamedevCard";
 
-const images = [0, 1, 2, 3, 4, 5];
 const texts = [
- 
-
   {
-
     title: "3D Character Development",
     description:
       "Our experienced, skilled and creative 3D artists and modellers produce visually impressive 3D characters just for your project, brand and storytelling      ",
     img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.png",
-
   },
   {
     title: "3D Asset Development",
     description:
-
       "We develop meticulously detailed, accurate, and high-quality 3D assets that perfectly fulfil your project's visual and functional needs.  ",
     img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg",
   },
@@ -54,12 +46,9 @@ const texts = [
       "Get photorealistic digital humans with easy customisation, We create Metahumans for virtual productions, games, or all other applications. ",
     img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg",
   },
- 
-
 ];
 
 const Motionslide = () => {
-  
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
 
@@ -67,7 +56,6 @@ const Motionslide = () => {
     workInfoItems.forEach(function (item, index) {
       item.style.zIndex = workInfoItems.length - index;
     });
-
     gsap.set(".work__photo-item", {
       clipPath: function () {
         return "inset(0px 0px 0px 0px)";
@@ -79,7 +67,7 @@ const Motionslide = () => {
         return "inset(0px 0px 100% 0px)";
       },
       stagger: 0.8,
-      ease: "power3",
+      ease: "power1",
     });
 
     ScrollTrigger.create({
@@ -87,12 +75,12 @@ const Motionslide = () => {
       start: "top top",
       end: "bottom bottom",
       animation: animation,
-      scrub: 1,
+      scrub: 0.1,
     });
   }, []);
 
   return (
-    <div className="app">
+    <div>
       <div className="py-8 text-white">
         <div className="text-content lg:w-[80%]">
           <h1 className="py-4 text-2xl lg:text-4xl">
@@ -126,42 +114,56 @@ const Motionslide = () => {
             <div className="work__right-b1">
               <div className="work__photo flex flex-col items-center">
                 <PhotoItem
-                  title="1"
+                  title="0"
                   imgSrc={
                     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3D+development/3d+character+development.jpg"
                   }
                 />
                 <PhotoItem
+                  title="1"
+                  imgSrc={
+
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3D+development/3d+character+development.jpg"
+
+                  }
+                />
+                <PhotoItem
                   title="2"
                   imgSrc={
+
                     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3D+development/3d+assets+development.jpg"
+
                   }
                 />
                 <PhotoItem
                   title="3"
                   imgSrc={
+
                     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3D+development/3d+envoirnment+development.jpg"
+
                   }
                 />
                 <PhotoItem
                   title="4"
-                  imgSrc={
+
                     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3D+development/3d+hardsurface+dev.jpg"
+
                   }
                 />
                 <PhotoItem
                   title="5"
                   imgSrc={
+
                     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3D+development/3d+animation+dev.jpg"
                   }
                 />
                 <PhotoItem
                   title="6"
                   imgSrc={
+
                     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3D+development/3d+metahuman+service.jpg"
                   }
                 />
-               
               </div>
             </div>
           </div>

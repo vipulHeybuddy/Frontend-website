@@ -2,8 +2,6 @@ body {
   margin: 0;
 }
 
-
-
 .sticky {
   position: sticky;
   top: 0;
@@ -19,16 +17,6 @@ body {
   width: 100%;
 }
 
-/* .text {
-  position: absolute;
-  font-size: 30px;
-  top: 40%;
-  width: 50%;
-  text-align: center;
- background-image: url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev3.png');
- opacity: 1;
- padding-left: 120px;
-} */
 .text-desctiption {
   font-size: 20px;
   position: absolute;
@@ -38,6 +26,7 @@ body {
  opacity: 1;
  padding-left: 120px;
 }
+
 
 /* .text_visible{
   opacity: 1;
@@ -153,5 +142,4 @@ body {
   height: 100%  !important;
   object-fit: cover  !important;
 }
-
 

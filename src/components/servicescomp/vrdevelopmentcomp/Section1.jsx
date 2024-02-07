@@ -94,6 +94,8 @@ const Herosection = () => {
           <h1 className="text-3xl  md:text-5xl pb-5">
           Trusted Virtual Reality Development Company In India & USA
           </h1>
+          <Link href="/Pages/Contactus">
+
           <Button
             style={buttonHeader}
             onMouseEnter={() => setIsHovered(true)}
@@ -101,6 +103,8 @@ const Herosection = () => {
           >
             Consult Our VR Experts
           </Button>
+          </Link>
+
         </div>
         <div style={imageContainerStyle}>
           {/* Replace 'your-image.jpg' with the actual image source */}

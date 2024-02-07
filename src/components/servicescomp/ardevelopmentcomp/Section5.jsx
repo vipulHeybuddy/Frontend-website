@@ -83,15 +83,14 @@ const Timelinecomp = () => {
     >
       <div className="py-8 text-white">
         <h1 className="py-4 lg:w-[80%] text-2xl lg:text-4xl">
-          Our Proven AR Development Process at <br />
-          Hey Buddy
+        Our Proven AR Development Process at Hey Buddy
+         
         </h1>
         <p className=" text-base md:text-xl lg:text-2xl">
-          At Hey Buddy, we improved our AR development process with every
-          project. Now, it has evolved into a meticulous, client-centric AR
-          development process designed to realize your vision. We offer
-          transparency, collaboration, and the timely delivery of your AR
-          projects. Here's an overview of our step-by-step process:
+        At Hey Buddy, we improved our AR development process with every project. Now, it has evolved into a meticulous, client-centric AR development process designed to realize your vision. 
+
+We offer transparency, collaboration, and the timely delivery of your AR projects. Here's an overview of our step-by-step process:
+
         </p>
       </div>
 

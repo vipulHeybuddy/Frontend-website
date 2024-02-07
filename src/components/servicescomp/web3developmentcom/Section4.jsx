@@ -47,18 +47,25 @@ const Mixsection = () => {
     };
   }, []);
   const checklist1 = [
+    
     {
-      title: "Expertise in AR Technology",
+      title: "Web 3 Gaming Solution",
     },
     {
-      title: "Proven Track Record",
+      title: "Multi-chain Solutions",
     },
     {
-      title: "Innovation and Creativity",
+      title: "Interoperability Solution",
     },
     {
-      title: "Tailored Solution",
+      title: "Native Payment Solution",
     },
+    // {
+    //   title: "Product Animation",
+    // },
+    // {
+    //   title: "Gaming",
+    // },
   ];
 
 
@@ -125,15 +132,17 @@ const Mixsection = () => {
     >
       <div className="py-4 text-white">
         <h1 className="py-4 lg:w-[80%] text-2xl lg:text-4xl">
-        Immerse Your Audience in Great Visuals with Our AR Software Solutions
+        More Powerful Web 3 Development Solutions
         </h1>
-        <p className=" text-base md:text-xl lg:text-2xl">
-        At Hey Buddy, we pride ourselves on exceeding client expectations. With our comprehensive suite of Augmented Reality (AR) development services, we easily meet your project requirements. Here are the benefits and features of our AR development services, reflecting our commitment to excellence. 
-
+        <p className=" text-base md:text-lg lg:text-2xl">
+        Hey Buddy offers unique and complete Web3 development solutions capable of overcoming the most challenging obstacles of your business.
 
         </p>
       </div>
       {/* --------------------box section ------------------------------------------ */}
+
+{/* pink box */}
+
       <div className=" bg-gradient-to-r from-[#FFA7A7] via-[#A30CB5] to-[#0B0DF4] shadow-xl rounded-3xl py-4 lg:py-4 mt-8 mx-auto">
         <div className=" lg:mx-auto lg:text-center w-full justify-center py-2 lg:py-2">
           <ol className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 px-2 gap-5 lg:gap-x-16">
