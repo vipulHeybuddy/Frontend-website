@@ -94,6 +94,8 @@ const Herosection = () => {
           <h1 className=" text-3xl md:text-5xl mb-5">
           Your Trusted Custom Software Development Company
           </h1>
+          <Link href="/Pages/Contactus">
+
           <Button
             style={buttonHeader}
             onMouseEnter={() => setIsHovered(true)}
@@ -101,6 +103,8 @@ const Herosection = () => {
           >
             Connect With Us
           </Button>
+          </Link>
+
         </div>
         <div style={imageContainerStyle}>
           {/* Replace 'your-image.jpg' with the actual image source */}

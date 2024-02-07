@@ -1,15 +1,13 @@
 "use client";
 
-import { useEffect, useLayoutEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-// import { render } from "react-dom";
-import classnames from "classnames";
-import "../../../styles/slide.css";
-import WorkItem from "../gamedevelopmentcomp/WorkItem";
-import PhotoItem from "../gamedevelopmentcomp/PhotoItem";
-import GamedevCard from "../gamedevelopmentcomp/GamedevCard";
+import "./motionSlider.css";
+import WorkItem from "./WorkItem";
+import PhotoItem from "./PhotoItem";
+import GamedevCard from "./GamedevCard";
 
 const texts = [
   {
@@ -58,7 +56,6 @@ const Motionslide = () => {
     workInfoItems.forEach(function (item, index) {
       item.style.zIndex = workInfoItems.length - index;
     });
-
     gsap.set(".work__photo-item", {
       clipPath: function () {
         return "inset(0px 0px 0px 0px)";
@@ -69,8 +66,8 @@ const Motionslide = () => {
       clipPath: function () {
         return "inset(0px 0px 100% 0px)";
       },
-      stagger: 0.7,
-      ease: "none",
+      stagger: 0.8,
+      ease: "power1",
     });
 
     ScrollTrigger.create({
@@ -83,7 +80,7 @@ const Motionslide = () => {
   }, []);
 
   return (
-    <div className="app">
+    <div>
       <div className="py-8 text-white">
         <div className="text-content lg:w-[80%]">
           <h1 className="py-4 text-2xl lg:text-4xl">
@@ -117,39 +114,54 @@ const Motionslide = () => {
             <div className="work__right-b1">
               <div className="work__photo flex flex-col items-center">
                 <PhotoItem
+                  title="0"
+                  imgSrc={
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3D+development/3d+character+development.jpg"
+                  }
+                />
+                <PhotoItem
                   title="1"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.png"
+
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3D+development/3d+character+development.jpg"
+
                   }
                 />
                 <PhotoItem
                   title="2"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg"
+
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3D+development/3d+assets+development.jpg"
+
                   }
                 />
                 <PhotoItem
                   title="3"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds2.jpg"
+
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3D+development/3d+envoirnment+development.jpg"
+
                   }
                 />
                 <PhotoItem
                   title="4"
-                  imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds3.jpg"
+
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3D+development/3d+hardsurface+dev.jpg"
+
                   }
                 />
                 <PhotoItem
                   title="5"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds4.jpg"
+
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3D+development/3d+animation+dev.jpg"
                   }
                 />
                 <PhotoItem
                   title="6"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds5.jpg"
+
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3D+development/3d+metahuman+service.jpg"
                   }
                 />
               </div>

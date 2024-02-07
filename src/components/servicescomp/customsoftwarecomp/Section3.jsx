@@ -1,15 +1,13 @@
 "use client";
 
-import { useLayoutEffect, useState, useEffect } from "react";
+import { useEffect } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-// import { render } from "react-dom";
-import classnames from "classnames";
-import "../../../styles/slide.css";
-import GamedevCard from "../gamedevelopmentcomp/GamedevCard";
-import PhotoItem from "../gamedevelopmentcomp/PhotoItem";
-import WorkItem from "../gamedevelopmentcomp/WorkItem";
+import "./motionSlider.css";
+import WorkItem from "./WorkItem";
+import PhotoItem from "./PhotoItem";
+import GamedevCard from "./GamedevCard";
 
 const images = [0, 1, 2, 3, 4, 5, 6, 7];
 const texts = [
@@ -83,8 +81,10 @@ const Motionslide = () => {
       clipPath: function () {
         return "inset(0px 0px 100% 0px)";
       },
+
       stagger: 0.7,
-      ease: "none",
+      ease: "power1",
+
     });
 
     ScrollTrigger.create({
@@ -97,7 +97,7 @@ const Motionslide = () => {
   }, []);
 
   return (
-    <div className="app">
+    <div>
       <div className="py-8 text-white">
         <div className="text-content lg:w-[80%]">
           <h1 className="py-4 text-2xl lg:text-3xl">
@@ -128,51 +128,70 @@ const Motionslide = () => {
             <div className="work__right-b1">
               <div className="work__photo flex flex-col items-center">
                 <PhotoItem
+                  title="0"
+                  imgSrc={
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/custom+software+development/custome+software+application.jpg"
+                  }
+                />
+                <PhotoItem
                   title="1"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.png"
-                  }
+
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/custom+software+development/custome+software+application.jpg"
+   }
                 />
                 <PhotoItem
                   title="2"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg"
+
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/custom+software+development/Digital+marketplace+dev.jpg"
+
                   }
                 />
                 <PhotoItem
                   title="3"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds2.jpg"
+
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/custom+software+development/cloud+%26+data+managment+dev.jpg"
+
                   }
                 />
                 <PhotoItem
                   title="4"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds3.jpg"
+
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/custom+software+development/Security%26+assistance+dev.jpg"
+
                   }
                 />
                 <PhotoItem
                   title="5"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds4.jpg"
+
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/custom+software+development/Emerging+technologies.jpg"
+
                   }
                 />
                 <PhotoItem
                   title="6"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds5.jpg"
+
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/custom+software+development/enterprise+solutions.jpg"
                   }
                 />
-                <PhotoItem
-                  title="7"
-                  imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.png"
-                  }
-                />
-                <PhotoItem
+              
+                     <PhotoItem
                   title="8"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds4.jpg"
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/custom+software+development/content+managment+systems.jpg"
+                  }
+                />
+                     <PhotoItem
+                  title="9"
+
+
+                  imgSrc={
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/custom+software+development/consultation+services.jpg"
                   }
                 />
               </div>
