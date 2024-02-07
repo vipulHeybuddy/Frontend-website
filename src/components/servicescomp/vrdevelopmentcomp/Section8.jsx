@@ -38,6 +38,7 @@ const Pagenation = () => {
     color: isHovered ? "white" : "white", // Change the text color as needed
     padding: "10px 20px",
     fontSize: "16px",
+    marginTop: '1rem',
     transition: "background-color 0.3s, transform 0.3s",
     cursor: "pointer",
     transform: isHovered ? "scale(1.1)" : "scale(1)",

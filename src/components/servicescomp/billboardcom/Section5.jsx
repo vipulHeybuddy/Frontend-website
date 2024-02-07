@@ -100,7 +100,7 @@ const Timelinecomp = () => {
                   <ul>
                     <li>
 
-                      <h3 className="font-bold text-2xl heading heading">Conceptualization</h3>
+                      <h3 className="font-bold text-2xl g g">Conceptualization</h3>
 
                       <p>
                       Our team coordinates with yours and the 3d led screen billboard providers to, brainstorm innovative ideas and align outcomes with your brand message.
@@ -109,7 +109,7 @@ const Timelinecomp = () => {
                     </li>
                     <li>
 
-                      <h3 className="font-bold text-2xl heading">Design Expertise</h3>
+                      <h3 className="font-bold text-2xl g">Design Expertise</h3>
 
                       <p>
                       We utilize advanced design tools, bringing your concepts to life and carefully curating visuals to create mesmerizing anamorphic effects.
@@ -119,7 +119,7 @@ const Timelinecomp = () => {
                     </li>
                     <li>
 
-                      <h3 className="font-bold text-2xl heading">
+                      <h3 className="font-bold text-2xl g">
                       Precision Rendering
 
                       </h3>
@@ -130,7 +130,7 @@ const Timelinecomp = () => {
                     </li>
                     <li>
 
-                      <h3 className="font-bold text-2xl heading">Real-world Simulation</h3>
+                      <h3 className="font-bold text-2xl g">Real-world Simulation</h3>
          <p>
          We assess the impact of your upcoming billboard through simulated environments and ensure it brings out the best viewer experience.
 
@@ -140,7 +140,7 @@ const Timelinecomp = () => {
 
                     <li>
 
-                      <h3 className="font-bold text-2xl heading">Transparency and Collaboration</h3>
+                      <h3 className="font-bold text-2xl g">Transparency and Collaboration</h3>
 
                       <p>
                       We share drafts and collaborate with you throughout the process, ensuring that the final anamorphic content perfectly aligns with your marketing objectives.
@@ -150,7 +150,7 @@ const Timelinecomp = () => {
 
                     <li>
 
-                      <h3 className="font-bold text-2xl heading">Meticulous Execution</h3>
+                      <h3 className="font-bold text-2xl g">Meticulous Execution</h3>
 
                       <p>
                       We implement the approved outcome with ultimate precision and deliver a flawless anamorphic 3D billboard that is hard to ignore.
@@ -177,7 +177,7 @@ const Timelinecomp = () => {
                 width={700}
                 height={700}
                 src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/wheel-unscreen.gif"
-                className="lg:mr-6 h-[50vh] w-[62rem] lg:h-[70vh] lg:w-[102rem] "
+                className="lg:mr-6 h-[40vh] w-[52rem] lg:h-[60vh] lg:w-[92rem] "
                 alt="Hey B"
               />
             </div>
