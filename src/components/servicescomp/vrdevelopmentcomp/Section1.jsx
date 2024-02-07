@@ -113,7 +113,7 @@ const Herosection = () => {
             width={450}
             height={450}
             className="h-[24px] w-[24px] bg-white mx-auto mt-4"
-            src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Rectangle+35.png"
+            src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/metaverse.jpg"
             alt="Background"
           />
         </div>

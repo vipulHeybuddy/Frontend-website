@@ -21,7 +21,7 @@ const page = () => {
 
 
   const textContainerStyle = {
-    marginBottom: "30%",
+    
     // position: "sticky",
     left: "50%",
    
@@ -42,6 +42,7 @@ const page = () => {
     transition: "background-color 0.3s, transform 0.3s",
     cursor: "pointer",
     transform: isHovered ? "scale(1.1)" : "scale(1)",
+    marginTop: '2rem',
   };
 
 
@@ -301,13 +302,10 @@ const page = () => {
           {/* ------------------------Section-3-------------------------------------- */}
           <div> 
             <Motionslide />
-          </div>
 
-          {/* between sectin 3 and 4 */}
-
-          <div style={textContainerStyle}>
+            <div style={textContainerStyle}>
           <h1 style={{ fontSize: "2rem" }}>Your Search For the Right Custom Software Solution Ends Here. </h1>
-          
+          <Link href="/Pages/Contactus">
           <Button
             style={buttonHeader}
             onMouseEnter={() => setIsHovered(true)}
@@ -315,9 +313,17 @@ const page = () => {
           >
             Let’s Get it Done
           </Button>
+          </Link>
         </div>
+       
 
        
+  
+          </div>
+
+          {/* between sectin 3 and 4 */}
+
+      
 
           {/* ----------------------------Section-4---------------------------------- */}
           <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev4.png')] py-4 bg-no-repeat bg-cover bg-[center_top_0rem]">

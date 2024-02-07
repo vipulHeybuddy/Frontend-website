@@ -81,8 +81,10 @@ const Motionslide = () => {
       clipPath: function () {
         return "inset(0px 0px 100% 0px)";
       },
+
       stagger: 0.7,
       ease: "power1",
+
     });
 
     ScrollTrigger.create({
@@ -134,41 +136,60 @@ const Motionslide = () => {
                 <PhotoItem
                   title="1"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/custom+software+development/Digital+marketplace+dev.jpg"
-                  }
+
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/custom+software+development/custome+software+application.jpg"
+   }
                 />
                 <PhotoItem
                   title="2"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/custom+software+development/cloud+%26+data+managment+dev.jpg"
+
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/custom+software+development/Digital+marketplace+dev.jpg"
+
                   }
                 />
                 <PhotoItem
                   title="3"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/custom+software+development/Security%26+assistance+dev.jpg"
+
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/custom+software+development/cloud+%26+data+managment+dev.jpg"
+
                   }
                 />
                 <PhotoItem
                   title="4"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/custom+software+development/Emerging+technologies.jpg"
+
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/custom+software+development/Security%26+assistance+dev.jpg"
+
                   }
                 />
                 <PhotoItem
                   title="5"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/custom+software+development/enterprise+solutions.jpg"
+
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/custom+software+development/Emerging+technologies.jpg"
+
                   }
                 />
                 <PhotoItem
                   title="6"
                   imgSrc={
+
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/custom+software+development/enterprise+solutions.jpg"
+                  }
+                />
+              
+                     <PhotoItem
+                  title="8"
+                  imgSrc={
                     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/custom+software+development/content+managment+systems.jpg"
                   }
                 />
-                <PhotoItem
-                  title="7"
+                     <PhotoItem
+                  title="9"
+
+
                   imgSrc={
                     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/custom+software+development/consultation+services.jpg"
                   }

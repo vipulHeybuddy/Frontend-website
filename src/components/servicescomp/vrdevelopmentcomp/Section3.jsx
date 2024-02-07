@@ -9,8 +9,9 @@ import WorkItem from "./WorkItem";
 import PhotoItem from "./PhotoItem";
 import GamedevCard from "./GamedevCard";
 
-const images = [0, 1, 2, 3, 4, 5, 6];
+const images = [0, 1, 2, 3, 4, 5,];
 const texts = [
+
   {
     title: "Immersive VR Application Development",
     description:
@@ -91,6 +92,7 @@ const texts = [
   },
 ];
 
+
 const Motionslide = () => {
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
@@ -128,12 +130,13 @@ const Motionslide = () => {
       <div className="py-8 text-white">
         <div className="text-content lg:w-[80%]">
           <h1 className="py-4 text-2xl lg:text-4xl">
-            360 Degree Virtual Reality Services With One Click
+            Hey Buddy, Game On!! - Complete Game Development Services
           </h1>
-          Redefine possibilities with Hey Buddy’s comprehensive Virtual Reality
-          development services. Immerse your audience in unparalleled digital
-          experiences that elevate your brand and stay at the forefront of
-          technological innovation.
+          <p className="text-sm lg:text-lg">
+            Hey Buddy is your one-stop shop for end-to-end game development
+            services. With AI on our side, we successfully clear levels of your
+            game development needs.
+          </p>
         </div>
       </div>
       <div className="h-fit relative lg:bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev3.png')] bg-fixed bg-bottom ">
@@ -154,49 +157,54 @@ const Motionslide = () => {
               <div className="work__photo flex flex-col items-center">
                 <PhotoItem
                   title="0"
+
                   imgSrc={
                     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Vr_Development/Immersive+VR+application+dev.jpg"
                   }
                 />
                 <PhotoItem
                   title="1"
+
                   imgSrc={
                     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Vr_Development/Engaging+vr+game.jpg"
                   }
                 />
                 <PhotoItem
-                  title="2"
+                  title="1"
                   imgSrc={
                     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Vr_Development/Metaverse+vr+development.jpg"
                   }
                 />
                 <PhotoItem
-                  title="3"
+                  title="2"
                   imgSrc={
                     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Vr_Development/360%C2%B0+Video+Production.jpg"
                   }
                 />
                 <PhotoItem
-                  title="4"
+                  title="3"
                   imgSrc={
                     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Vr_Development/Custom+VR+Simulation.jpg"
                   }
                 />
                 <PhotoItem
-                  title="5"
+                  title="4"
                   imgSrc={
                     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Vr_Development/VR+Content+Creation.jpg"
                   }
                 />
                 <PhotoItem
-                  title="6"
+                  title="5"
                   imgSrc={
                     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Vr_Development/Strategic+VR+Consulting.jpg"
                   }
+                  
                 />
-                <PhotoItem
+                
+                {/* <PhotoItem
                   title="7"
                   imgSrc={
+
                     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Vr_Development/Seamless+VR+Hardware.jpg"
                   }
                 />
@@ -232,8 +240,9 @@ const Motionslide = () => {
                   title="12"
                   imgSrc={
                     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Vr_Development/Rigorous+VR+App+Testing.jpg"
+
                   }
-                />
+                /> */}
               </div>
             </div>
           </div>
