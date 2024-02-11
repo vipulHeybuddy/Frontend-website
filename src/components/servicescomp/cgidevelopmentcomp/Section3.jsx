@@ -4,29 +4,22 @@ import { useEffect, useLayoutEffect, useState } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-// import { render } from "react-dom";
-import classnames from "classnames";
-import "../../../styles/slide.css";
-import WorkItem from "../gamedevelopmentcomp/WorkItem";
-import PhotoItem from "../gamedevelopmentcomp/PhotoItem";
-import GamedevCard from "../gamedevelopmentcomp/GamedevCard";
+import "./motionSlider.css";
+import WorkItem from "./WorkItem";
+import PhotoItem from "./PhotoItem";
+import GamedevCard from "./GamedevCard";
 
 const images = [0, 1, 2, 3, 4, 5];
 const texts = [
- 
-
   {
-
     title: "3D Modeling",
     description:
       "We create 3D digital representations of objects, environments, or characters. You can use them in various applications, from product design to virtual worlds.      ",
     img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.png",
-
   },
   {
     title: "Animation",
     description:
-
       "We bring 3D models to life. We create dynamic and engaging visual sequences for films, advertising, and gaming. ",
     img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg",
   },
@@ -90,12 +83,9 @@ const texts = [
       "We simulate landscapes, cityscapes, or environmental changes for urban planning or educational purposes.      ",
     img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg",
   },
- 
-
 ];
 
 const Motionslide = () => {
-  
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
 
@@ -114,8 +104,8 @@ const Motionslide = () => {
       clipPath: function () {
         return "inset(0px 0px 100% 0px)";
       },
-      stagger: 0.8,
-      ease: "power3",
+      stagger: 0.5,
+      ease: "back",
     });
 
     ScrollTrigger.create({
@@ -123,7 +113,7 @@ const Motionslide = () => {
       start: "top top",
       end: "bottom bottom",
       animation: animation,
-      scrub: 1,
+      scrub: 0.1,
     });
   }, []);
 
@@ -132,11 +122,13 @@ const Motionslide = () => {
       <div className="py-8 text-white">
         <div className="text-content lg:w-[80%]">
           <h1 className="py-4 text-2xl lg:text-4xl">
-          Hey Buddy - One Destination for All CGI services
+            Hey Buddy - One Destination for All CGI services
           </h1>
           <p className="text-xl lg:text-2xl">
-          Hey Buddy is your go-to 3D CGI agency for services of all sorts. Our technical proficiency gets you innovative CGI solutions just for you while infusing eye-catching creativity. We deliver specialized CGI assets just for your project with complete future-proofing. 
-
+            Hey Buddy is your go-to 3D CGI agency for services of all sorts. Our
+            technical proficiency gets you innovative CGI solutions just for you
+            while infusing eye-catching creativity. We deliver specialized CGI
+            assets just for your project with complete future-proofing.
           </p>
         </div>
       </div>
@@ -192,7 +184,42 @@ const Motionslide = () => {
                     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds5.jpg"
                   }
                 />
-               
+                <PhotoItem
+                  title="7"
+                  imgSrc={
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.png"
+                  }
+                />
+                <PhotoItem
+                  title="8"
+                  imgSrc={
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg"
+                  }
+                />
+                <PhotoItem
+                  title="9"
+                  imgSrc={
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds2.jpg"
+                  }
+                />
+                <PhotoItem
+                  title="10"
+                  imgSrc={
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds3.jpg"
+                  }
+                />
+                <PhotoItem
+                  title="11"
+                  imgSrc={
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg"
+                  }
+                />
+                <PhotoItem
+                  title="12"
+                  imgSrc={
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg"
+                  }
+                />
               </div>
             </div>
           </div>
