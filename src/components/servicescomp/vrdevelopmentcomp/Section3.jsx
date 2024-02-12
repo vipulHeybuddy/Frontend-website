@@ -9,7 +9,7 @@ import WorkItem from "./WorkItem";
 import PhotoItem from "./PhotoItem";
 import GamedevCard from "./GamedevCard";
 
-const images = [0, 1, 2, 3, 4, 5, 6, 8 , 9 , 10];
+const images = [0, 1, 2, 3, 4, 5, 6, 8, 9, 10];
 const texts = [
   {
     title: "Immersive VR Application Development",
@@ -110,8 +110,8 @@ const Motionslide = () => {
       clipPath: function () {
         return "inset(0px 0px 100% 0px)";
       },
-      stagger: 0.7,
-      ease: "power1",
+      stagger: 0.5,
+      ease: "back",
     });
 
     ScrollTrigger.create({
@@ -206,30 +206,14 @@ const Motionslide = () => {
                     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Vr_Development/Dedicated+VR+Maintenance.jpg"
                   }
                 />
-                {/* <PhotoItem
-                  title="10"
-                  imgSrc={
-      
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Vr_Development/Dedicated+VR+Maintenance.jpg"
-
-                  }
-                /> */}
                 <PhotoItem
-                  title="11"
+                  title="9"
                   imgSrc={
                     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Vr_Development/Cross-Platform+VR.jpg"
-
-                    // "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Vr_Development/Rigorous+VR+App+Testing.jpg"
                   }
                 />
-                {/* <PhotoItem
-                  title="12"
-                  imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds5.jpg"
-                  }
-                /> */}
                 <PhotoItem
-                  title="12"
+                  title="10"
                   imgSrc={
                     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Vr_Development/Rigorous+VR+App+Testing.jpg"
                   }
