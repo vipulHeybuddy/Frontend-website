@@ -18,7 +18,14 @@ import Section7 from "@/components/servicescomp/vrdevelopmentcomp/Section7";
 
 const Page = () => {
 
+  const [contactusModal, setcontactusModal] = useState(false);
 
+  const handlecontactusModal = () => {
+    setcontactusModal(true);
+  };
+  const handleClose = () => {
+    setcontactusModal(false);
+  };
   
   const [isHovered, setIsHovered] = useState(false);
 
@@ -265,7 +272,25 @@ const Page = () => {
 
 
   return (
-    <div className="lg:w-[80%] mx-auto">
+    <div className="lg:w-[80%] mx-auto relative">
+      {/* contact us modal */}
+      <div
+        id="sidebar"
+        // onClick={handleClose}
+        className={` ${
+          contactusModal
+            ? "flex items-center justify-center overflow-x-hidden"
+            : "hidden"
+        } fixed inset-0 h-[100vh] backdrop-blur-sm z-50 px-5 md:px-0`}
+      >
+        <div className="p-10 bg-[#252525] opacity-100 rounded-lg">
+          <div onClick={handleClose} className=" p-2 rounded-full hover:bg-black w-fit">
+            <FaXmark color="white" />
+          </div>
+          <ContactUs />
+        </div>
+      </div>
+
       <div>
 
           {/* --------------------Section-1 ------------------------------------------ */}
