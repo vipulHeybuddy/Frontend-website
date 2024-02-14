@@ -1,15 +1,14 @@
 "use client";
 
-import { useEffect, useLayoutEffect, useState } from "react";
+import { useEffect } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-// import { render } from "react-dom";
-import classnames from "classnames";
-import "../../../styles/slide.css";
-import WorkItem from "../gamedevelopmentcomp/WorkItem";
-import PhotoItem from "../gamedevelopmentcomp/PhotoItem";
-import GamedevCard from "../gamedevelopmentcomp/GamedevCard";
+
+import "./motionSlider.css"
+import WorkItem from "./WorkItem";
+import PhotoItem from "./PhotoItem";
+import GamedevCard from "./GamedevCard";
 
 const images = [0, 1, 2, 3, 4, 5, 6];
 const texts = [
@@ -64,7 +63,6 @@ const texts = [
 ];
 
 const Motionslide = () => {
-  
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
 
@@ -84,7 +82,7 @@ const Motionslide = () => {
         return "inset(0px 0px 100% 0px)";
       },
       stagger: 0.5,
-      ease: "power3",
+      ease: "back",
     });
 
     ScrollTrigger.create({
@@ -92,28 +90,29 @@ const Motionslide = () => {
       start: "top top",
       end: "bottom bottom",
       animation: animation,
-      scrub: 1,
+      scrub: 0.1,
     });
   }, []);
 
   return (
-    <div className="app">
+    <div>
       <div className="py-8 text-white">
         <div className="text-content lg:w-[80%]">
           <h1 className="py-4 text-2xl lg:text-4xl">
-          Hey Buddy -
-            
-            leading 3D Billboard Company for Next-Gen Services
+            Hey Buddy - leading 3D Billboard Company for Next-Gen Services
           </h1>
-          <p className="text-xl lg:text-2xl">
-          We offer a comprehensive suite of 3D development services to help you grab the opportunity. Engage with your audience like never before and none another. Present your modernized avatar and get an unmatchable competitive edge with our your 3d led billboard today.
+          <p className="text-l lg:text-xl">
+            We offer a comprehensive suite of 3D development services to help
+            you grab the opportunity. Engage with your audience like never
+            before and none another. Present your modernized avatar and get an
+            unmatchable competitive edge with our your 3d led billboard today.
           </p>
         </div>
       </div>
       <div className="h-fit relative bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev3.png')] bg-fixed bg-bottom ">
         <section className="work  hidden lg:flex flex-row justify-between">
           <div className="work__left">
-            <div className="work__text">
+            <div className="work__text flex flex-col items-center">
               {texts.map((text, index) => (
                 <WorkItem
                   key={index}
@@ -125,39 +124,51 @@ const Motionslide = () => {
           </div>
           <div className="work__right">
             <div className="work__right-b1">
-              <div className="work__photo">
+              <div className="work__photo flex flex-col items-center">
                 <PhotoItem
-                  title="1"
+                  title="0"
                   imgSrc={
                     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.png"
                   }
                 />
                 <PhotoItem
-                  title="2"
+                  title="1"
                   imgSrc={
                     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg"
                   }
                 />
                 <PhotoItem
-                  title="3"
+                  title="2"
                   imgSrc={
                     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds2.jpg"
                   }
                 />
                 <PhotoItem
-                  title="4"
+                  title="3"
                   imgSrc={
                     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds3.jpg"
                   }
                 />
                 <PhotoItem
-                  title="5"
+                  title="4"
                   imgSrc={
                     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds4.jpg"
                   }
                 />
                 <PhotoItem
+                  title="5"
+                  imgSrc={
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds5.jpg"
+                  }
+                />
+                <PhotoItem
                   title="6"
+                  imgSrc={
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds4.jpg"
+                  }
+                />
+                <PhotoItem
+                  title="7"
                   imgSrc={
                     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds5.jpg"
                   }

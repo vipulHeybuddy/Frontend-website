@@ -134,7 +134,7 @@ const Mixsection = () => {
         <h1 className="py-4 lg:w-[80%] text-2xl lg:text-4xl">
         Impossible to Ignore! What are these 3D Billboards? 
         </h1>
-        <p className="text-xl lg:text-2xl lg:w-[80%]">
+        <p className="text-m lg:text-l lg:w-[80%]">
         3D billboards are the future of DOOH advertising, hands down!! They are dynamic, immersive, head-turning, and LARGER THAN LIFE. 
 
 They display three-dimensional elements to the naked eye. No need for 3D glasses or any other aid. This is what makes them stand out and appear as if the 3D content is really a part of the viewer's actual reality, happening right there in real-time.

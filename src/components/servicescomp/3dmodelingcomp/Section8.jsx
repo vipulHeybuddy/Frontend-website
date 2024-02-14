@@ -99,7 +99,7 @@ const Pagenation = () => {
         </p> */}
       </div>
 
-      <nav className="flex border-b border-gray-300 overflow-auto ">
+      <nav className="flex border-b border-gray-300 scrollbar-hide overflow-auto">
         <TabSelector
           isActive={selectedTab === "task1"}
           onClick={() => setSelectedTab("task1")}
@@ -421,7 +421,7 @@ const Pagenation = () => {
           </div>
         </TabPanel> */}
 
-        <div style={textContainerStyle}>
+        {/* <div style={textContainerStyle}>
           <h1 className="py-4 text-2xl lg:text-3xl">
             Creative, Customised, and Cost-effective VR development software
             services with Hey Budy.
@@ -436,7 +436,7 @@ const Pagenation = () => {
             Discuss Your Project
           </Button>
           </Link>
-        </div>
+        </div> */}
 
       </div>
     </motion.div>

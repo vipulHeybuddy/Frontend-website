@@ -144,20 +144,20 @@ const page = () => {
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid4.png",
       para: "These amazing 3D billboards break the mold, showcasing your brand at the forefront of innovation and unique capabilities.",
     },
-    // {
-    //   id: "5",
-    //   heading: "Focus on Core Competencies",
-    //   imgurl:
-    //     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid5.png",
-    //   para: "When experts are taking care of your 3D modelling requirement, your in-house team concentrates on core and critical tasks.",
-    // },
-    // {
-    //   id: "6",
-    //   heading: "Ease of Scalability",
-    //   imgurl:
-    //     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid6.png",
-    //   para: "Scale up or down as per your business requirements with ease. Say goodbye to the hiring and training challenges of additional staff.",
-    // },
+    {
+      id: "5",
+      heading: "Clear Communication",
+      imgurl:
+        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid5.png",
+      para: "The dynamic and eye-catching three-dimensional visuals not only catch eyeballs but also communicate your brand message loud and clear.",
+    },
+    {
+      id: "6",
+      heading: "Higher Conversions",
+      imgurl:
+        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid6.png",
+      para: "The powerful 3D billboard qualities lead to developer connection on a deeper cognitive level with the audience. Result: higher conversions.",
+    },
   ];
 
   const Text1 = [

@@ -83,10 +83,10 @@ const Faqsection = () => {
       variants={textAnimation1}
     >
       <div>
-        <h1 className="py-4 lg:w-[80%] text-2xl lg:text-4xl">FAQs</h1>
+        <h1 className=" text-white py-4 lg:w-[80%] text-2xl lg:text-4xl">FAQs</h1>
       </div>
 
-      <div className="pb-14 grid text-white sm:grid-1 md:mb-12 md:grid-cols-2 lg:grid-cols-2 gap-y-4  gap-x-4">
+      <div className="text-white ">
         <div>
           <Accordion
             open={open === 1}

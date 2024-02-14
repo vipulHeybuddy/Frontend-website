@@ -127,7 +127,7 @@ const Mixsection = () => {
         <h1 className="py-4 lg:w-[80%] text-2xl lg:text-4xl">
         Immerse Your Audience in Great Visuals with Our AR Software Solutions
         </h1>
-        <p className=" text-base md:text-xl lg:text-2xl">
+        <p className=" text-base md:text-l lg:text-xl">
         At Hey Buddy, we pride ourselves on exceeding client expectations. With our comprehensive suite of Augmented Reality (AR) development services, we easily meet your project requirements. Here are the benefits and features of our AR development services, reflecting our commitment to excellence. 
 
 
