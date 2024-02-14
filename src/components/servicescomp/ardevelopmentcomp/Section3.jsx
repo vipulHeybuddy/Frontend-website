@@ -125,7 +125,7 @@ const Motionslide = () => {
             If it's AR, It's Hey Buddy: Our Comprehensive Augmented Reality
             Development Services
           </h1>
-          <p className=" text-base md:text-xl lg:text-2xl">
+          <p className=" text-base md:text-l lg:text-xl">
             No need to lose your valuable time and resources on finding
             different service providers for your every need. Hey Buddy has got
             it all covered. We offer a complete suite of AR services. From AR

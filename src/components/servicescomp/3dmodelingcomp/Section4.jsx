@@ -134,7 +134,7 @@ const Mixsection = () => {
         <h1 className="py-4 lg:w-[80%] text-2xl lg:text-4xl">
         Customized 3D Model<br /> Development for Every Project and Every Business
         </h1>
-        <p className=" text-base md:text-lg lg:text-2xl">
+        <p className=" text-base md:text-m lg:text-xl">
         Hey Buddy, offering tailored solutions for your projects. Our versatile 3D development team perfectly adapts outcomes to your domains and brings your vision to life with precision and creativity.
 
         </p>
