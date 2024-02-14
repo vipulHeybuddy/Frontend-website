@@ -88,7 +88,7 @@ const Motionslide = () => {
             <br />
             One-stop Destination for all 3D Modelling services
           </h1>
-          <p className="text-xl lg:text-2xl">
+          <p className="text-m lg:text-m">
             No tiring search for different vendors for different services, Hey
             Buddy’s comprehensive 3D modelling services get all you need. From
             AR/VR and CGI to product visualisation and animation, we offer

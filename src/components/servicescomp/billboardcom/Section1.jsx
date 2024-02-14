@@ -70,7 +70,7 @@ const Herosection = () => {
     width: "100%",
     height: "auto",
     transition: "transform 0.3s ease-out",
-    opacity: "1",
+    opacity: "0.7",
   };
 
   const buttonHeader = {
@@ -84,6 +84,7 @@ const Herosection = () => {
     transition: "background-color 0.3s, transform 0.3s",
     cursor: "pointer",
     transform: isHovered ? "scale(1.1)" : "scale(1)",
+    marginTop: '3rem',
   };
 
   return (
@@ -113,7 +114,7 @@ const Herosection = () => {
             width={450}
             height={450}
             className="h-[24px] w-[24px] bg-white mx-auto mt-4"
-            src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Rectangle+32.png"
+            src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/6.3d+billboard.png"
             alt="Background"
           />
         </div>

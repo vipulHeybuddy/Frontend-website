@@ -85,7 +85,7 @@ const Timelinecomp = () => {
         <h1 className="py-4 lg:w-[80%] text-2xl lg:text-4xl">
         Our Refined 3D CGI Development Process
         </h1>
-        <p className=" text-base md:text-lg lg:text-2xl">
+        <p className=" text-base md:text-m lg:text-xl">
         At Hey Buddy, we have streamlined our CGI development process to deliver high-quality results that match your expectations and project needs. We operate with full transparency and ensure seamless collaboration and communication with your team. 
 
         </p>

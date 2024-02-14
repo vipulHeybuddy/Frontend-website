@@ -124,7 +124,7 @@ const Motionslide = () => {
           <h1 className="py-4 text-2xl lg:text-4xl">
             Hey Buddy - One Destination for All CGI services
           </h1>
-          <p className="text-xl lg:text-2xl">
+          <p className="text-l lg:text-xl">
             Hey Buddy is your go-to 3D CGI agency for services of all sorts. Our
             technical proficiency gets you innovative CGI solutions just for you
             while infusing eye-catching creativity. We deliver specialized CGI
@@ -151,73 +151,73 @@ const Motionslide = () => {
                 <PhotoItem
                   title="1"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.png"
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/CGI+Development+/3d+modeling.jpg"
                   }
                 />
                 <PhotoItem
                   title="2"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg"
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/CGI+Development+/Animation.jpg"
                   }
                 />
                 <PhotoItem
                   title="3"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds2.jpg"
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/CGI+Development+/visual+effects.jpg"
                   }
                 />
                 <PhotoItem
                   title="4"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds3.jpg"
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/CGI+Development+/visual+prototype.jpg"
                   }
                 />
                 <PhotoItem
                   title="5"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds4.jpg"
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/CGI+Development+/Architectural+Visualization.jpg"
                   }
                 />
                 <PhotoItem
                   title="6"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds5.jpg"
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/CGI+Development+/Product+Visualization.jpg"
                   }
                 />
                 <PhotoItem
                   title="7"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.png"
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/CGI+Development+/Augmented+Reality+(AR)+Development.jpg"
                   }
                 />
                 <PhotoItem
                   title="8"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg"
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/CGI+Development+/Virtual+Reality+(VR)+Development.jpg"
                   }
                 />
                 <PhotoItem
                   title="9"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds2.jpg"
+                   "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/CGI+Development+/Interactive+Experiences.jpg"
                   }
                 />
                 <PhotoItem
                   title="10"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds3.jpg"
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/CGI+Development+/Simulation+and+training.jpg"
                   }
                 />
                 <PhotoItem
                   title="11"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg"
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/CGI+Development+/Character+Design+and+Animation.jpg"
                   }
                 />
                 <PhotoItem
                   title="12"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg"
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/CGI+Development+/Environmental+Visualization.jpg"
                   }
                 />
               </div>

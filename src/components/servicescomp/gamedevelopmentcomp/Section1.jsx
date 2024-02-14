@@ -83,13 +83,14 @@ const Herosection = () => {
     transition: "background-color 0.3s, transform 0.3s",
     cursor: "pointer",
     transform: isHovered ? "scale(1.1)" : "scale(1)",
+    marginTop: '3rem',
   };
 
   return (
     <>
       <div style={containerStyle} className="p-0 md:p-5">
         <div style={textContainerStyle}>
-          <h1  className=" text-3xl md:text-5xl">Level up With AI:</h1>
+      
           <h1 className=" text-3xl md:text-5xl" >
           Best Game Development Company in India
           </h1>

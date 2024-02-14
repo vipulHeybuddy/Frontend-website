@@ -21,7 +21,7 @@ const page = () => {
   const [isHovered, setIsHovered] = useState(false);
 
   const textContainerStyle = {
-    marginBottom: "30%",
+    marginBottom: "10%",
     paddingTop:'7rem',
     // position: "sticky",
     left: "50%",
@@ -41,6 +41,7 @@ const page = () => {
     transition: "background-color 0.3s, transform 0.3s",
     cursor: "pointer",
     transform: isHovered ? "scale(1.1)" : "scale(1)",
+    marginTop: '2rem',
   };
 
 
