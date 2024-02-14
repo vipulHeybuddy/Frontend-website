@@ -86,7 +86,7 @@ const Timelinecomp = () => {
         Our Proven AR Development Process at Hey Buddy
          
         </h1>
-        <p className=" text-base md:text-xl lg:text-2xl">
+        <p className=" text-base md:text-l lg:text-xl">
         At Hey Buddy, we improved our AR development process with every project. Now, it has evolved into a meticulous, client-centric AR development process designed to realize your vision. 
 
 We offer transparency, collaboration, and the timely delivery of your AR projects. Here's an overview of our step-by-step process:

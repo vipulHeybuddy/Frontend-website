@@ -215,6 +215,14 @@ const page = () => {
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid11.png",
       para: "We do not just follow your specifications, we integrate them into the process. So that the outcomes automatically align with your specific project needs.",
     },
+
+    {
+      id: "6",
+      heading: "Portfolio",
+      imgurl:
+        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid11.png",
+      para: "We have a strong portfolio packed with diverse and successful 3D projects that helped our clients fare well in there industry and achieve their business goals.",
+    },
   ];
 
   const Text2 = [

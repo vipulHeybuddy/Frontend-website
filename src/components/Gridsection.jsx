@@ -99,8 +99,8 @@ const Gridsection = ({listData,textData}) => {
         <div >
         {textData.map((section, index) => (
           <div className="py-12" key={index}>
-            <h1 className="py-4 lg:w-[80%] text-2xl lg:text-4xl">{section.heading}</h1>
-            <p className="text-sm lg:text-lg">{section.subtext}</p>
+            <h1 className="py-4 lg:w-[80%] text-2xl lg:text-3xl">{section.heading}</h1>
+            <p className="text-m lg:text-l">{section.subtext}</p>
           </div>
         ))}
         </div>

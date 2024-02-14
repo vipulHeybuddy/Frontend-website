@@ -38,6 +38,7 @@ const Herosection = ({ handlecontactusModal }) => {
 
   const containerStyle = {
     position: "sticky",
+    marginTop: '2rem'
   };
 
   const textContainerStyle = {
@@ -66,7 +67,7 @@ const Herosection = ({ handlecontactusModal }) => {
     width: "100%",
     height: "auto",
     transition: "transform 0.3s ease-out",
-    opacity: "1",
+    opacity: "0.5",
   };
 
   const buttonHeader = {
@@ -79,7 +80,7 @@ const Herosection = ({ handlecontactusModal }) => {
     fontSize: "16px",
     transition: "background-color 0.3s, transform 0.3s",
     cursor: "pointer",
-    marginTop: "1rem",
+    marginTop: '3rem',
     transform: isHovered ? "scale(1.1)" : "scale(1)",
   };
 
@@ -87,7 +88,7 @@ const Herosection = ({ handlecontactusModal }) => {
     <>
       <div style={containerStyle} className=" md:p-5">
         <div style={textContainerStyle}>
-          <h1 className=" text-3xl md:text-5xl">Hey Buddy: </h1>
+          
           <h1 className=" text-3xl md:text-5xl">
             Your Trusted Experts for Augmented Reality Services
           </h1>
@@ -107,7 +108,7 @@ const Herosection = ({ handlecontactusModal }) => {
             width={450}
             height={450}
             className="h-[24px] w-[24px] bg-white mx-auto mt-4"
-            src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/immersive.jpg"
+            src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/5.AR+development.png"
             alt="Background"
           />
         </div>

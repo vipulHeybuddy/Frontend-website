@@ -421,7 +421,7 @@ const Pagenation = ({ handlecontactusModal }) => {
           </div>
         </TabPanel> */}
 
-        <div style={textContainerStyle}>
+        {/* <div style={textContainerStyle}>
           <h1 className="py-4 text-2xl lg:text-3xl">
             Creative, Customised, and Cost-effective VR development software
             services with Hey Budy.
@@ -435,7 +435,8 @@ const Pagenation = ({ handlecontactusModal }) => {
           >
             Discuss Your Project
           </Button>
-        </div>
+          </Link>
+        </div> */}
       </div>
     </motion.div>
   );

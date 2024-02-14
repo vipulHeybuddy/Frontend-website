@@ -137,30 +137,31 @@ const Motionslide = () => {
                   title="1"
                   imgSrc={
 
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/custom+software+development/content+managment+systems.jpg"
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/custom+software+development/Digital+marketplace+dev.jpg"
    }
                 />
                 <PhotoItem
                   title="2"
                   imgSrc={
 
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/custom+software+development/Digital+marketplace+dev.jpg"
+                    
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/custom+software+development/cloud+%26+data+managment+dev.jpg"
 
                   }
                 />
                 <PhotoItem
                   title="3"
                   imgSrc={
-
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/custom+software+development/cloud+%26+data+managment+dev.jpg"
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/custom+software+development/Security%26+assistance+dev.jpg"
+                   
 
                   }
                 />
                 <PhotoItem
                   title="4"
                   imgSrc={
-
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/custom+software+development/Security%26+assistance+dev.jpg"
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/custom+software+development/Emerging+technologies.jpg"
+                    
 
                   }
                 />
@@ -168,7 +169,8 @@ const Motionslide = () => {
                   title="5"
                   imgSrc={
 
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/custom+software+development/Emerging+technologies.jpg"
+                    
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/custom+software+development/enterprise+solutions.jpg"
 
                   }
                 />
@@ -176,7 +178,8 @@ const Motionslide = () => {
                   title="6"
                   imgSrc={
 
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/custom+software+development/enterprise+solutions.jpg"
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/custom+software+development/content+managment+systems.jpg"
+                    
                   }
                 />
               

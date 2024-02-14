@@ -1,36 +1,22 @@
 "use client";
-
-import "../../../../styles/Font.css";
-import React, { useEffect, useState, useRef } from "react";
+import '../../../../styles/Font.css'
+import React, { useEffect, useState , useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import Gridsection from "@/components/Gridsection";
-import Faqsection from "@/components/servicescomp/billboardcom/Section10";
-import Pagenation from "@/components/servicescomp/billboardcom/Section8";
-import Mixsection from "@/components/servicescomp/billboardcom/Section4";
-import Timelinecomp from "@/components/servicescomp/billboardcom/Section5";
-import Motionslide from "@/components/servicescomp/billboardcom/Section3";
+import Faqsection from "@/components/servicescomp/metaversecom/Section10";
+import Pagenation from "@/components/servicescomp/metaversecom/Section8";
+import Mixsection from "@/components/servicescomp/metaversecom/Section4";
+import Timelinecomp from "@/components/servicescomp/metaversecom/Section5";
+import Motionslide from "@/components/servicescomp/metaversecom/Section3";
 import { AiFillCheckCircle } from "react-icons/ai";
 import { motion, useAnimation } from "framer-motion";
-import Herosection from "@/components/servicescomp/billboardcom/Section1";
-import Bottomclient from "@/components/servicescomp/billboardcom/Section9";
-import Section7 from "@/components/servicescomp/billboardcom/Section7";
-import ContactUs from "@/components/ContactUs";
-import { FaXmark } from "react-icons/fa6";
-import ContactModal from "@/components/ContactModal/ContactModal";
+import Herosection from "@/components/servicescomp/metaversecom/Section1";
+import Bottomclient from "@/components/servicescomp/metaversecom/Section9";
+import Section7 from "@/components/servicescomp/metaversecom/Section7";
 
-const page = () => {
-  const [contactusModal, setcontactusModal] = useState(false);
+const Page = () => {
 
-  const handlecontactusModal = () => {
-    setcontactusModal(true);
-  };
-  const handleClose = (e) => {
-    if (e.target.id === "sidebar") setcontactusModal(false);
-  };
-  const handleModalClose = () => {
-    setcontactusModal(false);
-  };
 
   const controls = useAnimation();
   const ref = useRef();
@@ -39,7 +25,7 @@ const page = () => {
 
   const handleScroll = () => {
     // Check if the container is in the viewport
-    const container = document.getElementById("fade-in-container");
+    const container = document.getElementById('fade-in-container');
     if (container) {
       const rect = container.getBoundingClientRect();
       const isInViewport = rect.top >= 0 && rect.bottom <= window.innerHeight;
@@ -49,13 +35,15 @@ const page = () => {
     }
   };
 
+ 
+
   useEffect(() => {
     // Add scroll event listener when component mounts
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener('scroll', handleScroll);
 
     // Clean up the event listener when component unmounts
     return () => {
-      window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener('scroll', handleScroll);
     };
   }, []);
   const textAnimation = {
@@ -104,78 +92,115 @@ const page = () => {
     };
   }, []);
 
-  // const checklist1 = [
-  //   {
-  //     title: "3D Asset",
-  //   },
-  //   {
-  //     title: "3D Characters",
-  //   },
-  //   {
-  //     title: "3D Environments",
-  //   },
-  //   {
-  //     title: "MetaHuman Creations",
-  //   },
-  //   {
-  //     title: "3D Hard Surface ",
-  //   },
-  //   {
-  //     title: "3D Animation",
-  //   },
-  // ];
+  const checklist1 = [
+    {
+      title: "Metaverse/NFT Marketplace",
+    },
+    {
+      title: "Metaverse Games",
+    },
+    {
+      title: "Digital Twin",
+    },
+    {
+      title: "Metaverse Avatar",
+    },
+  ];
 
   // --------------------grid section-1----------------------------------
   const List1 = [
     {
       id: "1",
-      heading: "Hyper-Engagement",
+      heading: "Reach Audience Worldwide",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid1.png",
-      para: "3D corner billboards capture viewer attention like no other advertising. Thus, your message stands out in high-traffic areas and busy intersections.",
+      para: "Have a borderless presence. Engage a huge audience around the world.       ",
     },
     {
       id: "2",
-      heading: "Long-lasting Memorability",
+      heading: "Build Strong Brand Connections",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid2.png",
-      para: "By capturing maximum senses, 3D illusion billboards leave a lasting impression on your audiences.",
+      para: "Get higher engagement with immersive and interactive experiences.      ",
     },
     {
       id: "3",
-      heading: "Wide Impact",
+      heading: "Innovative Marketing Opportunities",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid3.png",
-      para: "The uniqueness and novelty of Anamorphic 3D billboards develop an emotional connection with your customers.",
+      para: "Add a unique flavor to your brand promotion with Metaverse ",
     },
     {
       id: "4",
-      heading: "Innovation",
+      heading: "Facilitates Seamless Collaboration",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid4.png",
-      para: "These amazing 3D billboards break the mold, showcasing your brand at the forefront of innovation and unique capabilities.",
+      para: "Ensure better collaboration amongst your teams in virtual environments      ",
     },
     {
       id: "5",
-      heading: "Clear Communication",
+      heading: "New Revenue Streams",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid5.png",
-      para: "The dynamic and eye-catching three-dimensional visuals not only catch eyeballs but also communicate your brand message loud and clear.",
+      para: "Offer novel virtual offerings that attract users and build new markets.",
     },
     {
       id: "6",
-      heading: "Higher Conversions",
+      heading: "Make Targeted Decision",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid6.png",
-      para: "The powerful 3D billboard qualities lead to developer connection on a deeper cognitive level with the audience. Result: higher conversions.",
+      para: "Gather detailed data on user interactions and draw deep insights.      ",
+    },
+    {
+      id: "7",
+      heading: "Achieve High Productivity",
+      imgurl:
+        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid6.png",
+      para: "Offer immersive hands-on training experience for better outcomes      ",
+    },
+    {
+      id: "8",
+      heading: "Save to Invest      ",
+      imgurl:
+        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid6.png",
+      para: "Save costs in travel, physical infrastructure, event hosting, and more.      ",
+    },
+    {
+      id: "9",
+      heading: "Limitless Innovation      ",
+      imgurl:
+        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid6.png",
+      para: "Utilise Metaverse possibilities for a competitive edge and market leadership.      ",
+    },
+    {
+      id: "10",
+      heading: "Extended Brand Presence",
+      imgurl:
+        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid6.png",
+      para: "Go beyond existing platforms with a futuristic Metaverse touchpoint.      ",
+    },
+    {
+      id: "11",
+      heading: "Build Your Community",
+      imgurl:
+        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid6.png",
+      para: "Create a sense of belonging and loyalty among your audience.      ",
+    },
+    {
+      id: "12",
+      heading: "Future-Proof your Business      ",
+      imgurl:
+        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid6.png",
+      para: "Stay relevant in a rapidly evolving digital landscape.     ",
     },
   ];
 
   const Text1 = [
     {
-      heading: "Why your next campaign should be 3D Out of Home Advertising?",
+      heading:
+        "Why your next project should be in the Metaverse?",
       subtext:
-        "If you want to lead the market, stand out from competitors and be the top choice of your competitor, you need to be the first mover. 3D outdoor advertising is making a huge buzz with every single ad run on it. Make sure, you don’t get left out.",
+        "Entering into the metaverse will bring your business unprecedented possibilities.",
     },
   ];
 
@@ -183,73 +208,70 @@ const page = () => {
   const List2 = [
     {
       id: "1",
-      heading: "Creative Vision Realisation",
+      heading: "Contact Us",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid7.png",
-      para: "With our vast experience and expert team we have developed precision realizing your vision and turning it into a visually stunning anamorphic 3D advertisement.",
+      para: "Fill out the NDA-protected contact form. Book a calendar and schedule a meeting.",
     },
     {
       id: "2",
-      heading: "Impactful Branding",
+      heading: "Consult",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid8.png",
-      para: "Having worked with brands across industries, we achieve brand representation with a lasting impact and a clear, resonating message that stands out.",
+      para: "Get a dedicated session with our Metaverse expert to get clarity on any Metaverse aspect.",
     },
     {
       id: "3",
-      heading: "Precision in Execution",
+      heading: "Get a Cost Estimate",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid9.png",
-      para: "We assure flawless execution from concept to installation, with utmost precision and attention to detail. Just the way you wanted it.",
+      para: "Our experts will then share a project proposal with a stipulated budget and timeline.",
     },
     {
       id: "4",
-      heading: "Expert Guidance",
+      heading: "Project Onboarded",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid10.png",
-      para: "We have a 3D curved screen expert who provides deep insight that leads to a sophisticated outcome needed to catch and hold attention.",
+      para: "Hey Buddy experts take over your project",
     },
-    {
-      id: "5",
-      heading: "Measurable Impact",
-      imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid11.png",
-      para: "We help you sharpen your campaign and measure success with tangible results. We craft 3D billboard advertisements for your high brand visibility and engagement.",
-    },
-    {
-      id: "6",
-      heading: "Transparent Communication",
-      imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid12.png",
-      para: "Right from the start, we keep you informed every step of the way. Our transparent communication keeps you in the loop for a collaborative and smooth process.",
-    },
+    // {
+    //   id: "5",
+    //   heading: "Commitment to Quality",
+    //   imgurl:
+    //     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid11.png",
+    //   para: "Quality is non-negotiable at Hey Buddy. Our rigorous and perfected-over-year development process ensures that every aspect of your game meets the highest standards. Be it graphics, gameplay, performance or experience, we prioritise excellence and your satisfaction.",
+    // },
+    // {
+    //   id: "6",
+    //   heading: "Transparent Communication",
+    //   imgurl:
+    //     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid12.png",
+    //   para: "By working with clients across industries and scales, we understood the gravity of transparent communication. Be assured to experience transparent communication, timely updates, and a responsive team to keep you informed and involved.",
+    // },
   ];
 
   const Text2 = [
     {
-      heading: "Hey Buddy top 3D billboard company in India, the USA, and UAE ",
-      subtext:
-        "Hey Buddy puts your business objective at the forefront and makes sure that your next OOH 3D Billboard campaign attains its full potential.",
+      heading:
+        "Get Started Today: Our Metaverse Project Onboarding Process",
+      // subtext:
+      //   "Hey Buddy is a renowned name in the game development space. We have an experienced development team who know what works best for your business.",
     },
   ];
 
   // ----------------------------------------------------------------
 
+
   return (
-    <div className="lg:w-[80%] mx-auto relative">
-      {/* contact us modal */}
-      <ContactModal
-        handleClose={handleClose}
-        contactusModal={contactusModal}
-        handleModalClose={handleModalClose}
-      />
-
+    <div className="lg:w-[80%] mx-auto">
       <div>
-        {/* --------------------Section-1 ------------------------------------------ */}
-        <div className="relative isolate px-6  pt-20 lg:px-8 ">
-          <Herosection handlecontactusModal={handlecontactusModal} />
 
-          {/* <div
+          {/* --------------------Section-1 ------------------------------------------ */}
+        <div className="relative isolate px-6  pt-20 lg:px-8 ">
+         
+         <Herosection />
+
+          <div
             ref={ref}
             initial="hidden"
             animate={controls}
@@ -261,7 +283,7 @@ const page = () => {
                 {checklist1.map((section, index) => (
                   <div className="px-2 lg:px-16 flex items-center text-[#FFFFFF]  space-x-2.5 rtl:space-x-reverse">
                     <san className="flex items-center justify-center w-8 h-8  rounded-full shrink-0 ">
-                      
+                      {/* &#10004; */}
                       <AiFillCheckCircle className="w-8 h-8 text-[#6FCF97]" />
                     </san>
                     <span>
@@ -273,7 +295,7 @@ const page = () => {
                 ))}
               </ol>
             </div>
-          </div> */}
+          </div>
 
           {/* -------------------------grid-reuse------------------------------------- */}
 
@@ -282,9 +304,11 @@ const page = () => {
           </div>
 
           {/* ------------------------Section-3-------------------------------------- */}
-          <div>
+          <div> 
             <Motionslide />
           </div>
+
+       
 
           {/* ----------------------------Section-4---------------------------------- */}
           <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev4.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
@@ -292,11 +316,12 @@ const page = () => {
           </div>
 
           {/* ------------------------Section-5------------------------------------- */}
-          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev5.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
+          <div className=" relative">
+            <img src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev5.png" alt="bg image" className='absolute bottom-0' loading='lazy' />
             <Timelinecomp />
           </div>
 
-          {/* ----------------------------grid-reuse---------------------------------- */}
+          {/* --------------------------Section-6--grid-reuse---------------------------------- */}
           <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev6.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
             <Gridsection listData={List2} textData={Text2} />
           </div>
@@ -304,7 +329,8 @@ const page = () => {
           {/* ----------------------------Section7---------------------------------- */}
           <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev7.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
             {/* <Gridsection listData={List3} textData={Text3} /> */}
-            <Section7 />
+            <Section7/>
+
           </div>
 
           {/* ------------------------section-8-------------------------------------- */}
@@ -327,4 +353,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from "react";
+import React, { useEffect, useState , useRef } from "react";
 
 import Link from "next/link";
 import Image from "next/image";
@@ -6,7 +6,7 @@ import Image from "next/image";
 import { Button } from "@material-tailwind/react";
 import { motion, useAnimation } from "framer-motion";
 
-const Herosection = ({ handlecontactusModal }) => {
+const Herosection = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
   const [isHovered, setIsHovered] = useState(false);
 
@@ -18,6 +18,8 @@ const Herosection = ({ handlecontactusModal }) => {
       setScrollPosition(window.scrollY);
     };
 
+   
+
     // Add scroll event listener
     window.addEventListener("scroll", handleScroll);
 
@@ -26,6 +28,7 @@ const Herosection = ({ handlecontactusModal }) => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
 
   const textAnimation1 = {
     hidden: { opacity: 0, y: "0%" },
@@ -37,6 +40,7 @@ const Herosection = ({ handlecontactusModal }) => {
   };
 
   const containerStyle = {
+    padding: "20px",
     position: "sticky",
   };
 
@@ -80,25 +84,26 @@ const Herosection = ({ handlecontactusModal }) => {
     transition: "background-color 0.3s, transform 0.3s",
     cursor: "pointer",
     transform: isHovered ? "scale(1.1)" : "scale(1)",
-    marginTop: '3rem',
+    marginTop: '1rem',
   };
 
   return (
     <>
-      <div style={containerStyle} className="p-0 md:p-5">
+      <div style={containerStyle}>
         <div style={textContainerStyle}>
-          <h1 className=" text-3xl md:text-5xl">Level up With AI:</h1>
+          <h1 className=" text-3xl md:text-5xl">Hey Buddy: Best Metaverse Development </h1>
           <h1 className=" text-3xl md:text-5xl">
-            Best Game Development Company in India
+          Company in UAE, US, & India 
           </h1>
+          <Link href="/Pages/Contactus">
           <Button
-            onClick={handlecontactusModal}
             style={buttonHeader}
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
           >
-            Consult Our Experts
+            Let’s Discuss Project
           </Button>
+          </Link>
         </div>
         <div style={imageContainerStyle}>
           {/* Replace 'your-image.jpg' with the actual image source */}
@@ -107,27 +112,27 @@ const Herosection = ({ handlecontactusModal }) => {
             width={450}
             height={450}
             className="h-[24px] w-[24px] bg-white mx-auto mt-4"
-            src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.jpg"
+            src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Rectangle+32.png"
             alt="Background"
           />
         </div>
       </div>
 
+
       <div
-        ref={ref}
-        initial="hidden"
-        animate={controls}
-        variants={textAnimation1}
-        className="py-8 text-xl text-white"
-      >
-        <p>
-          Get an AI-powered smart gaming solution that captivates with its
-          hyper-realistic graphics and enthrals with its deeply engaging
-          gameplay. Hey Buddy is India's leading game development company,
-          maintaining a large team of gamer-first developers who know what
-          works.
-        </p>
-      </div>
+            ref={ref}
+            initial="hidden"
+            animate={controls}
+            variants={textAnimation1}
+            className="py-8 text-base lg:text-xl text-white "
+          >
+            <p>
+            Hey Buddy is a leading name in the domain of the metaverse. We have a large team of experienced developers ready to collaborate and deliver innovative metaverse solutions to mesmerize your audience. 
+
+With our globally renowned Metaverse development services, get scalable and custom solutions that merge with your existing system to add lucrative new revenue streams.
+
+            </p>
+          </div>
     </>
   );
 };

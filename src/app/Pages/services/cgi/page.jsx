@@ -35,8 +35,8 @@ const page = () => {
     setcontactusModal(false);
   };
   const textContainerStyle = {
-    marginBottom: "30%",
-    paddingTop: "7rem",
+    marginBottom: "10%",
+    paddingTop:'7rem',
     // position: "sticky",
     left: "50%",
     // zIndex: 2,
@@ -55,6 +55,7 @@ const page = () => {
     transition: "background-color 0.3s, transform 0.3s",
     cursor: "pointer",
     transform: isHovered ? "scale(1.1)" : "scale(1)",
+    marginTop: '3rem',
   };
 
   const controls = useAnimation();

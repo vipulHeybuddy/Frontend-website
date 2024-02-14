@@ -90,44 +90,44 @@ const Pagenation = () => {
     >
       <div className="py-6">
         <h1 className="py-4 lg:w-[80%] text-2xl lg:text-4xl">
-        Our Tech Stack as Your Trusted 3D CGI Partner
+        Metaverse Tech Stack - Platforms, Technology and Tools
         </h1>
-       <p className="text-xl lg:text-2xl">
-          Hey Buddy Team works with an advanced tech stack, resulting in a Hyper-realistic 3D CGI development that captivates your audience.
+        <p className="text-xl lg:text-2xl">
+        Hey Buddy‘s always learning teams possess expertise on the state-of-the-art technology and tools required for futuristic Metaverse development
 
-        </p> 
+        </p>
       </div>
 
-      <nav className="flex border-b border-gray-300 scrollbar-hide overflow-auto ">
+      <nav className="flex border-b border-gray-300 overflow-auto ">
         <TabSelector
           isActive={selectedTab === "task1"}
           onClick={() => setSelectedTab("task1")}
         >
-          3D Modeling and Animation
+          Experience Development
         </TabSelector>
         <TabSelector
           isActive={selectedTab === "task2"}
           onClick={() => setSelectedTab("task2")}
         >
-        Graphics Rendering Engines
+        Platforms
         </TabSelector>
         <TabSelector
           isActive={selectedTab === "task3"}
           onClick={() => setSelectedTab("task3")}
         >
-      Programming Languages
+          Designing
         </TabSelector>
         <TabSelector
           isActive={selectedTab === "task4"}
           onClick={() => setSelectedTab("task4")}
         >
-          Interactive Development
+          3D Modeling
         </TabSelector>
         <TabSelector
           isActive={selectedTab === "task5"}
           onClick={() => setSelectedTab("task5")}
         >
-          Shader Programming
+      Analytics
         </TabSelector>
       </nav>
 
@@ -345,7 +345,7 @@ const Pagenation = () => {
           </div>
         </TabPanel>
 
-      <TabPanel
+         <TabPanel
           hidden={selectedTab !== "task5"}
           className="p-4 bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 rounded-lg h-[20vh] w-full"
         >
@@ -418,9 +418,10 @@ const Pagenation = () => {
             
 
           </div>
-        </TabPanel>
+        </TabPanel> 
 
         
+
       </div>
     </motion.div>
   );

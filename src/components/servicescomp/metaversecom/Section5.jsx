@@ -83,11 +83,10 @@ const Timelinecomp = () => {
     >
       <div className="py-8 text-white">
         <h1 className="py-4 lg:w-[80%] text-2xl lg:text-4xl">
-        Our Refined 3D CGI Development Process
+        Hey Buddy: Metaverse Development Process
         </h1>
-        <p className=" text-base md:text-m lg:text-xl">
-        At Hey Buddy, we have streamlined our CGI development process to deliver high-quality results that match your expectations and project needs. We operate with full transparency and ensure seamless collaboration and communication with your team. 
-
+        <p className=" text-base md:text-lg lg:text-2xl">
+        Our years of commitment to deliver perfection have resulted in a streamlined and evolved Metaverse Development Process.
         </p>
       </div>
 
@@ -101,21 +100,19 @@ const Timelinecomp = () => {
                   <ul>
                     <li>
 
-                      <h3 className="font-bold text-2xl  ">Requirement Gathering</h3>
+                      <h3 className="font-bold text-2xl  ">Ideation Phase</h3>
 
                       <p>
-                      We start by thoroughly understanding your project requirements and your vision. Our team collaborates with yours to start on the right foot.
-
+                      Our experts collaborate closely with your team to understand your vision, goals, and audience. Then through power-packed brainstorming sessions, we craft a comprehensive blueprint to meet your expectations.
                       </p>
 
                     </li>
                     <li>
 
-                      <h3 className="font-bold text-2xl ">Ideation and Conceptualization</h3>
+                      <h3 className="font-bold text-2xl ">Design & Prototyping</h3>
 
                       <p>
-                      We brainstorm to identify the possible solutions for your project objectives and do a deep dive to check for their viability to zero in on the best one.
-.
+                      Our experienced designers create immersive environments and interactive elements, bringing your concept to life. With rapid prototyping, we ensure your Metaverse project meets your standards.
                       </p>
 
                
@@ -123,52 +120,20 @@ const Timelinecomp = () => {
                     <li>
 
                       <h3 className="font-bold text-2xl ">
-                      Feasibility Assessment
+                      Development & Implementation 
+
 
                       </h3>
                       <p>
-                      On the chosen idea, our CGI technical experts further conduct thorough feasibility assessments to evaluate it from different aspects.
-
+                      Our seasoned developers utilize cutting-edge technologies and build a robust foundation for your Metaverse project. By deploying agile methodologies, we infuse flexibility and adaptability throughout the development process
                       </p>
 
                     </li>
                     <li>
 
-                      <h3 className="font-bold text-2xl ">Development and Coding</h3>
+                      <h3 className="font-bold text-2xl ">Testing & Refinement</h3>
          <p>
-         Then the best idea that gets the nod from every stakeholder is sent to expert CGI developers that utilize state-of-the-art technology to materialize it. 
-
-
-                      </p>
-
-                    </li>
-
-                    <li>
-
-                      <h3 className="font-bold text-2xl ">Iterative Prototyping</h3>
-
-                      <p>
-                      Our CGI development team comes up with iterative prototypes. We assess it to see if it matches the requirements shared by you.
-                      </p>
-
-                    </li>
-
-                    <li>
-
-                      <h3 className="font-bold text-2xl ">Comprehensive Testing</h3>
-
-                      <p>
-                      Then the outcome undergoes rigorous testing protocols to ensure that your CGI experience possesses the required functionality and features. 
-                      </p>
-
-                    </li>
-
-                    <li>
-
-                      <h3 className="font-bold text-2xl ">Client Approval and Deployment</h3>
-
-                      <p>
-                      Then,  we send the outcome for your approval and make it deployment-ready. Our streamlined process ensures timely delivery.
+         We execute rigorous testing to ensure a glitch-free Metaverse experience for your audience. We invite your feedback and fine-tune every aspect to refine the experience for high-class performance and impressive user engagement.
 
                       </p>
 
@@ -176,31 +141,21 @@ const Timelinecomp = () => {
 
                     <li>
 
-                      <h3 className="font-bold text-2xl ">Performance Analysis</h3>
+                      <h3 className="font-bold text-2xl ">Launch & Beyond</h3>
 
                       <p>
-                      We ran analyses whenever possible to assess the performance of the CGI and find ways to improve our process.
+                      Lastly, we guide you through a successful launch and we continue to support you in the post-launch phase. Hence, not only do we ensure seamless integration and scalability but also time-bound troubleshooting.
                       </p>
 
                     </li>
 
                     <li>
 
-                      <h3 className="font-bold text-2xl ">Post-launch Support and Optimization</h3>
+                      <h3 className="font-bold text-2xl ">Timely Delivery</h3>
 
                       <p>
-                      We keep on offering you post-launch support, updates, and optimization services for the assured success of your CGI experiences.
-
-                      </p>
-
-                    </li>
-
-                    <li>
-
-                      <h3 className="font-bold text-2xl ">Client Feedback Loop</h3>
-
-                      <p>
-                      We time and again draw on your valuable feedback and maintain an open line of communication for long-term partnerships.
+                      With our unwavering commitment, we deliver your 3D assets with high regard to timelines. 
+We ensure this by utilizing our reliable development process and high professionalism, the two most essential ingredients for your project's success.
 
                       </p>
 

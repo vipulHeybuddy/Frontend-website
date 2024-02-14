@@ -101,7 +101,7 @@ const Motionslide = () => {
           <h1 className="py-4 text-2xl lg:text-4xl">
             Hey Buddy - leading 3D Billboard Company for Next-Gen Services
           </h1>
-          <p className="text-xl lg:text-2xl">
+          <p className="text-l lg:text-xl">
             We offer a comprehensive suite of 3D development services to help
             you grab the opportunity. Engage with your audience like never
             before and none another. Present your modernized avatar and get an
