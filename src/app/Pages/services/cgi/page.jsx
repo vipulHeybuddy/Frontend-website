@@ -1,7 +1,7 @@
 "use client";
 
-import '../../../../styles/Font.css'
-import React, { useEffect, useState , useRef } from "react";
+import "../../../../styles/Font.css";
+import React, { useEffect, useState, useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import Gridsection from "@/components/Gridsection";
@@ -16,10 +16,24 @@ import Herosection from "@/components/servicescomp/cgidevelopmentcomp/Section1";
 import Bottomclient from "@/components/servicescomp/cgidevelopmentcomp/Section9";
 import Section7 from "@/components/servicescomp/cgidevelopmentcomp/Section7";
 import { Button } from "@material-tailwind/react";
+import ContactUs from "@/components/ContactUs";
+import { FaXmark } from "react-icons/fa6";
+import ContactModal from "@/components/ContactModal/ContactModal";
 
 const page = () => {
   const [isHovered, setIsHovered] = useState(false);
 
+  const [contactusModal, setcontactusModal] = useState(false);
+
+  const handlecontactusModal = () => {
+    setcontactusModal(true);
+  };
+  const handleClose = (e) => {
+    if (e.target.id === "sidebar") setcontactusModal(false);
+  };
+  const handleModalClose = () => {
+    setcontactusModal(false);
+  };
   const textContainerStyle = {
     marginBottom: "10%",
     paddingTop:'7rem',
@@ -41,9 +55,8 @@ const page = () => {
     transition: "background-color 0.3s, transform 0.3s",
     cursor: "pointer",
     transform: isHovered ? "scale(1.1)" : "scale(1)",
-    marginTop: '2rem',
+    marginTop: '3rem',
   };
-
 
   const controls = useAnimation();
   const ref = useRef();
@@ -52,7 +65,7 @@ const page = () => {
 
   const handleScroll = () => {
     // Check if the container is in the viewport
-    const container = document.getElementById('fade-in-container');
+    const container = document.getElementById("fade-in-container");
     if (container) {
       const rect = container.getBoundingClientRect();
       const isInViewport = rect.top >= 0 && rect.bottom <= window.innerHeight;
@@ -62,15 +75,13 @@ const page = () => {
     }
   };
 
- 
-
   useEffect(() => {
     // Add scroll event listener when component mounts
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
     // Clean up the event listener when component unmounts
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
   const textAnimation = {
@@ -288,13 +299,11 @@ const page = () => {
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid12.png",
       para: "We strictly adhere to legal and ethical standards, especially regarding intellectual property rights and confidentiality.      ",
     },
-    
   ];
 
   const Text2 = [
     {
-      heading:
-        "Why Choose Hey Buddy as Your CGI Development Partner?",
+      heading: "Why Choose Hey Buddy as Your CGI Development Partner?",
       subtext:
         "Hey Buddy is a leading CGI development company for many reasons. We understand we do it your way, we deliver quality, and we deliver on time.        ",
     },
@@ -302,15 +311,19 @@ const page = () => {
 
   // ----------------------------------------------------------------
 
-
   return (
-    <div className="lg:w-[80%] mx-auto">
-      <div>
+    <div className="lg:w-[80%] mx-auto relative">
+      {/* contact us modal */}
+      <ContactModal
+        handleClose={handleClose}
+        contactusModal={contactusModal}
+        handleModalClose={handleModalClose}
+      />
 
-          {/* --------------------Section-1 ------------------------------------------ */}
+      <div>
+        {/* --------------------Section-1 ------------------------------------------ */}
         <div className="relative isolate px-6  pt-20 lg:px-8 ">
-         
-         <Herosection />
+          <Herosection handlecontactusModal={handlecontactusModal} />
 
           <div
             ref={ref}
@@ -324,7 +337,6 @@ const page = () => {
                 {checklist1.map((section, index) => (
                   <div className="px-2 lg:px-16 flex items-center text-[#FFFFFF]  space-x-2.5 rtl:space-x-reverse">
                     <san className="flex items-center justify-center w-8 h-8  rounded-full shrink-0 ">
-                      
                       <AiFillCheckCircle className="w-8 h-8 text-[#6FCF97]" />
                     </san>
                     <span>
@@ -345,7 +357,7 @@ const page = () => {
           </div> */}
 
           {/* ------------------------Section-3-------------------------------------- */}
-          <div> 
+          <div>
             <Motionslide />
           </div>
 
@@ -367,28 +379,25 @@ const page = () => {
           {/* ----------------------------Section7---------------------------------- */}
           <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev7.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
             {/* <Gridsection listData={List3} textData={Text3} /> */}
-            <Section7/>
+            <Section7 />
           </div>
-
 
           {/* cta */}
 
-
           <div style={textContainerStyle}>
-          <h1 style={{ fontSize: "3rem" }}>Your next eye-catching project needs your click on the below button.
-</h1>
-          <h1 style={{ fontSize: "3rem" }}>
-          
- 
-          </h1>
-          <Button
-            style={buttonHeader}
-            onMouseEnter={() => setIsHovered(true)}
-            onMouseLeave={() => setIsHovered(false)}
-          >
-          Start Now
-          </Button>
-        </div>
+            <h1 style={{ fontSize: "3rem" }}>
+              Your next eye-catching project needs your click on the below
+              button.
+            </h1>
+            <h1 style={{ fontSize: "3rem" }}></h1>
+            <Button
+              style={buttonHeader}
+              onMouseEnter={() => setIsHovered(true)}
+              onMouseLeave={() => setIsHovered(false)}
+            >
+              Start Now
+            </Button>
+          </div>
 
           {/* ------------------------section-8-------------------------------------- */}
           <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev8.png')] py-8 bg-no-repeat lg:bg-cover ">
@@ -405,24 +414,21 @@ const page = () => {
             <Faqsection />
           </div>
 
-
           <div style={textContainerStyle}>
-          <h1 style={{ fontSize: "3rem" }}>Create a real impact in a visually-driven world. Experience the power with Hey Buddy CGI services
-</h1>
-          <h1 style={{ fontSize: "3rem" }}>
-          
- 
-          </h1>
-          <Button
-            style={buttonHeader}
-            onMouseEnter={() => setIsHovered(true)}
-            onMouseLeave={() => setIsHovered(false)}
-          >
-         Connect Now
-          </Button>
-        </div>
-
-
+            <h1 style={{ fontSize: "3rem" }}>
+              Create a real impact in a visually-driven world. Experience the
+              power with Hey Buddy CGI services
+            </h1>
+            <h1 style={{ fontSize: "3rem" }}></h1>
+            <Button
+              onClick={handlecontactusModal}
+              style={buttonHeader}
+              onMouseEnter={() => setIsHovered(true)}
+              onMouseLeave={() => setIsHovered(false)}
+            >
+              Connect Now
+            </Button>
+          </div>
         </div>
       </div>
     </div>

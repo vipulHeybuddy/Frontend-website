@@ -1,6 +1,6 @@
 "use client";
-import '../../../../styles/Font.css'
-import React, { useEffect, useState , useRef } from "react";
+import "../../../../styles/Font.css";
+import React, { useEffect, useState, useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import Gridsection from "@/components/Gridsection";
@@ -14,9 +14,22 @@ import { motion, useAnimation } from "framer-motion";
 import Herosection from "@/components/servicescomp/ardevelopmentcomp/Section1";
 import Bottomclient from "@/components/servicescomp/ardevelopmentcomp/Section9";
 import Section7 from "@/components/servicescomp/ardevelopmentcomp/Section7";
+import ContactUs from "@/components/ContactUs";
+import { FaXmark } from "react-icons/fa6";
+import ContactModal from "@/components/ContactModal/ContactModal";
 
 const page = () => {
+  const [contactusModal, setcontactusModal] = useState(false);
 
+  const handlecontactusModal = () => {
+    setcontactusModal(true);
+  };
+  const handleClose = (e) => {
+    if (e.target.id === "sidebar") setcontactusModal(false);
+  };
+  const handleModalClose = () => {
+    setcontactusModal(false);
+  };
 
   const controls = useAnimation();
   const ref = useRef();
@@ -25,7 +38,7 @@ const page = () => {
 
   const handleScroll = () => {
     // Check if the container is in the viewport
-    const container = document.getElementById('fade-in-container');
+    const container = document.getElementById("fade-in-container");
     if (container) {
       const rect = container.getBoundingClientRect();
       const isInViewport = rect.top >= 0 && rect.bottom <= window.innerHeight;
@@ -35,15 +48,13 @@ const page = () => {
     }
   };
 
- 
-
   useEffect(() => {
     // Add scroll event listener when component mounts
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
     // Clean up the event listener when component unmounts
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
   const textAnimation = {
@@ -219,15 +230,19 @@ const page = () => {
 
   // ----------------------------------------------------------------
 
-
   return (
-    <div className="lg:w-[80%] mx-auto">
-      <div>
+    <div className="lg:w-[80%] mx-auto relative">
+      {/* contact us modal */}
+      <ContactModal
+        handleClose={handleClose}
+        contactusModal={contactusModal}
+        handleModalClose={handleModalClose}
+      />
 
-          {/* --------------------Section-1 ------------------------------------------ */}
+      <div>
+        {/* --------------------Section-1 ------------------------------------------ */}
         <div className="relative isolate px-6  pt-20 lg:px-8 ">
-         
-         <Herosection />
+          <Herosection handlecontactusModal={handlecontactusModal} />
 
           <div
             ref={ref}
@@ -241,7 +256,6 @@ const page = () => {
                 {checklist1.map((section, index) => (
                   <div className="px-2 lg:px-16 flex items-center text-[#FFFFFF]  space-x-2.5 rtl:space-x-reverse">
                     <san className="flex items-center justify-center w-8 h-8  rounded-full shrink-0 ">
-                      
                       <AiFillCheckCircle className="w-8 h-8 text-[#6FCF97]" />
                     </san>
                     <span>
@@ -262,11 +276,9 @@ const page = () => {
           </div> */}
 
           {/* ------------------------Section-3-------------------------------------- */}
-          <div> 
+          <div>
             <Motionslide />
           </div>
-
-       
 
           {/* ----------------------------Section-4---------------------------------- */}
           <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev4.png')] py-5 bg-no-repeat bg-cover bg-[center_top_0rem]">
@@ -286,7 +298,7 @@ const page = () => {
           {/* ----------------------------section7---------------------------------- */}
           <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev7.png')] py-4 bg-no-repeat bg-cover bg-[center_top_0rem]">
             {/* <Gridsection listData={List3} textData={Text3} /> */}
-            <Section7/>
+            <Section7 />
           </div>
 
           {/* ------------------------section-8-------------------------------------- */}
@@ -303,8 +315,6 @@ const page = () => {
           <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev10.png')] py-5 bg-no-repeat bg-cover bg-[center_top_0rem]">
             <Faqsection />
           </div>
-
-
         </div>
       </div>
     </div>

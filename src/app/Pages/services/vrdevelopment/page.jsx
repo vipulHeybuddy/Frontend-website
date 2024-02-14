@@ -1,6 +1,6 @@
 "use client";
-import '../../../../styles/Font.css'
-import React, { useEffect, useState , useRef } from "react";
+import "../../../../styles/Font.css";
+import React, { useEffect, useState, useRef } from "react";
 
 import Link from "next/link";
 import Image from "next/image";
@@ -15,17 +15,24 @@ import { motion, useAnimation } from "framer-motion";
 import Herosection from "@/components/servicescomp/vrdevelopmentcomp/Section1";
 import Bottomclient from "@/components/servicescomp/vrdevelopmentcomp/Section9";
 import Section7 from "@/components/servicescomp/vrdevelopmentcomp/Section7";
+import { FaXmark } from "react-icons/fa6";
+import ContactUs from "@/components/ContactUs";
+import ContactModal from "@/components/ContactModal/ContactModal";
 
 const Page = () => {
+  const [contactusModal, setcontactusModal] = useState(false);
 
-
-  
+  const handlecontactusModal = () => {
+    setcontactusModal(true);
+  };
+  const handleClose = (e) => {
+    if (e.target.id === "sidebar") setcontactusModal(false);
+  };
+  const handleModalClose = () => {
+    setcontactusModal(false);
+  };
   const [isHovered, setIsHovered] = useState(false);
 
-  
-
-
-  
   const buttonHeader = {
     border: isHovered ? "0px" : "1px solid white",
     background: isHovered
@@ -39,7 +46,6 @@ const Page = () => {
     transform: isHovered ? "scale(1.1)" : "scale(1)",
   };
 
-
   const controls = useAnimation();
   const ref = useRef();
 
@@ -47,7 +53,7 @@ const Page = () => {
 
   const handleScroll = () => {
     // Check if the container is in the viewport
-    const container = document.getElementById('fade-in-container');
+    const container = document.getElementById("fade-in-container");
     if (container) {
       const rect = container.getBoundingClientRect();
       const isInViewport = rect.top >= 0 && rect.bottom <= window.innerHeight;
@@ -57,15 +63,13 @@ const Page = () => {
     }
   };
 
- 
-
   useEffect(() => {
     // Add scroll event listener when component mounts
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
     // Clean up the event listener when component unmounts
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
   const textAnimation = {
@@ -194,13 +198,11 @@ const Page = () => {
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid6.png",
       para: "Sail easy with our strong commitment to post-service support and maintenance. We ensure your VR experience remains functional and up-to-date for sustained success.",
     },
-
   ];
 
   const Text1 = [
     {
-      heading:
-        "Benefits of our Custom Virtual Reality Development Services ",
+      heading: "Benefits of our Custom Virtual Reality Development Services ",
       // subtext:
       //   "Hey Buddy is renowned for consistently delivering superior-quality VR solutions well within the stipulated time. Here are some of the many success stories where our custom VR development services worked wonders for the clients.",
     },
@@ -263,15 +265,19 @@ const Page = () => {
 
   // ----------------------------------------------------------------
 
-
   return (
-    <div className="lg:w-[80%] mx-auto">
-      <div>
+    <div className="lg:w-[80%] mx-auto relative">
+      {/* contact us modal */}
+      <ContactModal
+        handleClose={handleClose}
+        contactusModal={contactusModal}
+        handleModalClose={handleModalClose}
+      />
 
-          {/* --------------------Section-1 ------------------------------------------ */}
+      <div>
+        {/* --------------------Section-1 ------------------------------------------ */}
         <div className="relative isolate px-6  pt-20 lg:px-8 ">
-         
-         <Herosection />
+          <Herosection handlecontactusModal={handlecontactusModal} />
 
           <div
             ref={ref}
@@ -285,7 +291,6 @@ const Page = () => {
                 {checklist1.map((section, index) => (
                   <div className="px-2 lg:px-16 flex items-center text-[#FFFFFF]  space-x-2.5 rtl:space-x-reverse">
                     <san className="flex items-center justify-center w-8 h-8  rounded-full shrink-0 ">
-                     
                       <AiFillCheckCircle className="w-8 h-8 text-[#6FCF97]" />
                     </san>
                     <span>
@@ -306,11 +311,9 @@ const Page = () => {
           </div>
 
           {/* ------------------------Section-3-------------------------------------- */}
-          <div> 
+          <div>
             <Motionslide />
           </div>
-
-       
 
           {/* ----------------------------Section-4---------------------------------- */}
           <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev4.png')] py-4 bg-no-repeat bg-cover bg-[center_top_0rem]">
@@ -330,18 +333,15 @@ const Page = () => {
           {/* ----------------------------Section7---------------------------------- */}
           <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev7.png')] py-4 bg-no-repeat bg-cover bg-[center_top_0rem]">
             {/* <Gridsection listData={List3} textData={Text3} /> */}
-            <Section7/>
+            <Section7 />
           </div>
 
           {/* ------------------------section-8-------------------------------------- */}
           <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev8.png')] py-4 bg-no-repeat bg-cover ">
-            <Pagenation />
-           
+            <Pagenation handlecontactusModal={handlecontactusModal} />
           </div>
 
           {/* uper section of 9 */}
-
-         
 
           {/* -----------------------Section-9--------------------------------------- */}
           <div className="text-white lg:py-16 bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev9.png')] py-4 bg-no-repeat bg-cover">
@@ -352,8 +352,6 @@ const Page = () => {
           <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev10.png')] bg-no-repeat bg-cover bg-[center_top_0rem]">
             <Faqsection />
           </div>
-
-
         </div>
       </div>
     </div>

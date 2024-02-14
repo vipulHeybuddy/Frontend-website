@@ -1,4 +1,4 @@
-import React, { useEffect, useState , useRef } from "react";
+import React, { useEffect, useState, useRef } from "react";
 
 import Link from "next/link";
 import Image from "next/image";
@@ -6,7 +6,7 @@ import Image from "next/image";
 import { Button } from "@material-tailwind/react";
 import { motion, useAnimation } from "framer-motion";
 
-const Herosection = () => {
+const Herosection = ({ handlecontactusModal }) => {
   const [scrollPosition, setScrollPosition] = useState(0);
   const [isHovered, setIsHovered] = useState(false);
 
@@ -18,8 +18,6 @@ const Herosection = () => {
       setScrollPosition(window.scrollY);
     };
 
-   
-
     // Add scroll event listener
     window.addEventListener("scroll", handleScroll);
 
@@ -28,7 +26,6 @@ const Herosection = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-
 
   const textAnimation1 = {
     hidden: { opacity: 0, y: "0%" },
@@ -84,7 +81,6 @@ const Herosection = () => {
     transition: "background-color 0.3s, transform 0.3s",
     cursor: "pointer",
     marginTop: '3rem',
-   
     transform: isHovered ? "scale(1.1)" : "scale(1)",
   };
 
@@ -94,19 +90,16 @@ const Herosection = () => {
         <div style={textContainerStyle}>
           
           <h1 className=" text-3xl md:text-5xl">
-          Your Trusted Experts for Augmented Reality Services 
+            Your Trusted Experts for Augmented Reality Services
           </h1>
-          <Link href="/Pages/Contactus">
-
           <Button
+            onClick={handlecontactusModal}
             style={buttonHeader}
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
           >
-           Experience Innovation
+            Experience Innovation
           </Button>
-          </Link>
-
         </div>
         <div style={imageContainerStyle}>
           {/* Replace 'your-image.jpg' with the actual image source */}
@@ -121,21 +114,20 @@ const Herosection = () => {
         </div>
       </div>
 
-
       <div
-            ref={ref}
-            initial="hidden"
-            animate={controls}
-            variants={textAnimation1}
-            className="py-8 text-base md:text-lg lg:text-xl text-white "
-          >
-            <p>
-            Hey Buddy is the leading Augmented Reality or AR development company in India and the US. Our dedicated team of AR experts consistently delivers innovative and creative projects within specified timelines.<br/>
-
-
-
-            </p>
-          </div>
+        ref={ref}
+        initial="hidden"
+        animate={controls}
+        variants={textAnimation1}
+        className="py-8 text-base md:text-lg lg:text-xl text-white "
+      >
+        <p>
+          Hey Buddy is the leading Augmented Reality or AR development company
+          in India and the US. Our dedicated team of AR experts consistently
+          delivers innovative and creative projects within specified timelines.
+          <br />
+        </p>
+      </div>
     </>
   );
 };

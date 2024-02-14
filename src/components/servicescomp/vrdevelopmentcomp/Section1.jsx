@@ -1,4 +1,4 @@
-import React, { useEffect, useState , useRef } from "react";
+import React, { useEffect, useState, useRef } from "react";
 
 import Link from "next/link";
 import Image from "next/image";
@@ -6,7 +6,7 @@ import Image from "next/image";
 import { Button } from "@material-tailwind/react";
 import { motion, useAnimation } from "framer-motion";
 
-const Herosection = () => {
+const Herosection = ({ handlecontactusModal }) => {
   const [scrollPosition, setScrollPosition] = useState(0);
   const [isHovered, setIsHovered] = useState(false);
 
@@ -18,8 +18,6 @@ const Herosection = () => {
       setScrollPosition(window.scrollY);
     };
 
-   
-
     // Add scroll event listener
     window.addEventListener("scroll", handleScroll);
 
@@ -28,7 +26,6 @@ const Herosection = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-
 
   const textAnimation1 = {
     hidden: { opacity: 0, y: "0%" },
@@ -93,19 +90,17 @@ const Herosection = () => {
         <div style={textContainerStyle}>
          
           <h1 className="text-3xl  md:text-5xl pb-5">
-          Trusted Virtual Reality Development Company In India & USA
+            Trusted Virtual Reality Development Company In India & USA
           </h1>
-          <Link href="/Pages/Contactus">
 
           <Button
+            onClick={handlecontactusModal}
             style={buttonHeader}
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
           >
             Consult Our VR Experts
           </Button>
-          </Link>
-
         </div>
         <div style={imageContainerStyle}>
           {/* Replace 'your-image.jpg' with the actual image source */}
@@ -120,19 +115,21 @@ const Herosection = () => {
         </div>
       </div>
 
-
       <div
-            ref={ref}
-            initial="hidden"
-            animate={controls}
-            variants={textAnimation1}
-            className="py-8 text-base md:text-xl "
-            style={{color: 'white'}}
-          >
-            <p>
-            Your search for a globally recognized expert VR development company ends here. We have proven work experience with clients in India, the US, and around the globe. And it is our remarkable results and in-time delivery that places us among the top Virtual Reality companies. 
-            </p>
-          </div>
+        ref={ref}
+        initial="hidden"
+        animate={controls}
+        variants={textAnimation1}
+        className="py-8 text-base md:text-xl "
+        style={{ color: "white" }}
+      >
+        <p>
+          Your search for a globally recognized expert VR development company
+          ends here. We have proven work experience with clients in India, the
+          US, and around the globe. And it is our remarkable results and in-time
+          delivery that places us among the top Virtual Reality companies.
+        </p>
+      </div>
     </>
   );
 };

@@ -1,6 +1,6 @@
 "use client";
-import '../../../../styles/Font.css'
-import React, { useEffect, useState , useRef } from "react";
+import "../../../../styles/Font.css";
+import React, { useEffect, useState, useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import Gridsection from "@/components/Gridsection";
@@ -14,10 +14,23 @@ import { motion, useAnimation } from "framer-motion";
 import Herosection from "@/components/servicescomp/web3developmentcom/Section1";
 import Bottomclient from "@/components/servicescomp/web3developmentcom/Section9";
 import Section7 from "@/components/servicescomp/web3developmentcom/Section7";
+import { FaXmark } from "react-icons/fa6";
+import ContactUs from "@/components/ContactUs";
+import ContactModal from "@/components/ContactModal/ContactModal";
 
 const page = () => {
+  const [contactusModal, setcontactusModal] = useState(false);
 
+  const handlecontactusModal = () => {
+    setcontactusModal(true);
+  };
+  const handleClose = (e) => {
+    if (e.target.id === "sidebar") setcontactusModal(false);
+  };
 
+  const handleModalClose = () => {
+    setcontactusModal(false);
+  };
   const controls = useAnimation();
   const ref = useRef();
 
@@ -25,7 +38,7 @@ const page = () => {
 
   const handleScroll = () => {
     // Check if the container is in the viewport
-    const container = document.getElementById('fade-in-container');
+    const container = document.getElementById("fade-in-container");
     if (container) {
       const rect = container.getBoundingClientRect();
       const isInViewport = rect.top >= 0 && rect.bottom <= window.innerHeight;
@@ -35,15 +48,13 @@ const page = () => {
     }
   };
 
- 
-
   useEffect(() => {
     // Add scroll event listener when component mounts
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
     // Clean up the event listener when component unmounts
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
   const textAnimation = {
@@ -161,8 +172,7 @@ const page = () => {
 
   const Text1 = [
     {
-      heading:
-        "Choose Web 3 Development For Unique and Powerful Features",
+      heading: "Choose Web 3 Development For Unique and Powerful Features",
       subtext:
         "With innovative and powerful Web 3 development solution we help you gain a competitive edge and global accessibility.",
     },
@@ -212,14 +222,11 @@ const page = () => {
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid11.png",
       para: "With a proven track record, we've demonstrated success in delivering top-notch blockchain solutions with expertise spanning Ethereum, Stellar, EOS, Solana, and more.",
     },
-   
-    
   ];
 
   const Text2 = [
     {
-      heading:
-        "Why We Are the Right Web3 Development Partner For You",
+      heading: "Why We Are the Right Web3 Development Partner For You",
       subtext:
         "Hey Buddy gives you multiple compelling reasons for being the right Web3 development firm for you.",
     },
@@ -227,15 +234,19 @@ const page = () => {
 
   // ----------------------------------------------------------------
 
-
   return (
-    <div className="lg:w-[80%] mx-auto">
-      <div>
+    <div className="lg:w-[80%] mx-auto relative">
+      {/* contact us modal */}
+      <ContactModal
+        handleClose={handleClose}
+        contactusModal={contactusModal}
+        handleModalClose={handleModalClose}
+      />
 
-          {/* --------------------Section-1 ------------------------------------------ */}
+      <div>
+        {/* --------------------Section-1 ------------------------------------------ */}
         <div className="relative isolate px-6  pt-20 lg:px-8 ">
-         
-         <Herosection />
+          <Herosection handlecontactusModal={handlecontactusModal} />
 
           <div
             ref={ref}
@@ -270,7 +281,7 @@ const page = () => {
           </div>
 
           {/* ------------------------Section-3-------------------------------------- */}
-          <div> 
+          <div>
             <Motionslide />
           </div>
 
@@ -292,7 +303,7 @@ const page = () => {
           {/* ----------------------------Section7---------------------------------- */}
           <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev7.png')] py-3 bg-no-repeat bg-cover bg-[center_top_0rem]">
             {/* <Gridsection listData={List3} textData={Text3} /> */}
-            <Section7/>
+            <Section7 />
           </div>
 
           {/* ------------------------section-8-------------------------------------- */}
@@ -309,8 +320,6 @@ const page = () => {
           <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev10.png')] py-3 bg-no-repeat bg-cover bg-[center_top_0rem]">
             <Faqsection />
           </div>
-
-
         </div>
       </div>
     </div>

@@ -1,4 +1,4 @@
-import React, { useEffect, useState , useRef } from "react";
+import React, { useEffect, useState, useRef } from "react";
 
 import Link from "next/link";
 import Image from "next/image";
@@ -6,7 +6,7 @@ import Image from "next/image";
 import { Button } from "@material-tailwind/react";
 import { motion, useAnimation } from "framer-motion";
 
-const Herosection = () => {
+const Herosection = ({ handlecontactusModal }) => {
   const [scrollPosition, setScrollPosition] = useState(0);
   const [isHovered, setIsHovered] = useState(false);
 
@@ -18,8 +18,6 @@ const Herosection = () => {
       setScrollPosition(window.scrollY);
     };
 
-   
-
     // Add scroll event listener
     window.addEventListener("scroll", handleScroll);
 
@@ -28,7 +26,6 @@ const Herosection = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-
 
   const textAnimation1 = {
     hidden: { opacity: 0, y: "0%" },
@@ -93,19 +90,17 @@ const Herosection = () => {
         <div style={textContainerStyle}>
           
           <h1 className=" text-3xl md:text-5xl mb-5">
-          Your Trusted Custom Software Development Company
+            Your Trusted Custom Software Development Company
           </h1>
-          <Link href="/Pages/Contactus">
 
           <Button
+            onClick={handlecontactusModal}
             style={buttonHeader}
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
           >
             Connect With Us
           </Button>
-          </Link>
-
         </div>
         <div style={imageContainerStyle}>
           {/* Replace 'your-image.jpg' with the actual image source */}
@@ -120,21 +115,25 @@ const Herosection = () => {
         </div>
       </div>
 
-
       <div
-            ref={ref}
-            initial="hidden"
-            animate={controls}
-            variants={textAnimation1}
-            className="py-8 text-white text-base md:text-xl "
-          >
-            <p>
-            Hey Buddy is the name you really upon. We listen, understand, and meet your specific requirements with our <b>custom software development services</b>. All this while, our sharp focus is on delivering a high-quality solution that meets your timely and budgetary parameters. 
-
-Our commitment towards delivering quality has helped develop a vast clientele of 150 organizations, having wired in 400+ projects with a team of 250+ exert.  No wonder we have a client retention rate of 97.68%. Once you join Hey Buddy as a partner, you stay.
-
-            </p>
-          </div>
+        ref={ref}
+        initial="hidden"
+        animate={controls}
+        variants={textAnimation1}
+        className="py-8 text-white text-base md:text-xl "
+      >
+        <p>
+          Hey Buddy is the name you really upon. We listen, understand, and meet
+          your specific requirements with our{" "}
+          <b>custom software development services</b>. All this while, our sharp
+          focus is on delivering a high-quality solution that meets your timely
+          and budgetary parameters. Our commitment towards delivering quality
+          has helped develop a vast clientele of 150 organizations, having wired
+          in 400+ projects with a team of 250+ exert. No wonder we have a client
+          retention rate of 97.68%. Once you join Hey Buddy as a partner, you
+          stay.
+        </p>
+      </div>
     </>
   );
 };

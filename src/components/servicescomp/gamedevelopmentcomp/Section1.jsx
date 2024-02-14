@@ -1,4 +1,4 @@
-import React, { useEffect, useState , useRef } from "react";
+import React, { useEffect, useState, useRef } from "react";
 
 import Link from "next/link";
 import Image from "next/image";
@@ -6,7 +6,7 @@ import Image from "next/image";
 import { Button } from "@material-tailwind/react";
 import { motion, useAnimation } from "framer-motion";
 
-const Herosection = () => {
+const Herosection = ({ handlecontactusModal }) => {
   const [scrollPosition, setScrollPosition] = useState(0);
   const [isHovered, setIsHovered] = useState(false);
 
@@ -18,8 +18,6 @@ const Herosection = () => {
       setScrollPosition(window.scrollY);
     };
 
-   
-
     // Add scroll event listener
     window.addEventListener("scroll", handleScroll);
 
@@ -28,7 +26,6 @@ const Herosection = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-
 
   const textAnimation1 = {
     hidden: { opacity: 0, y: "0%" },
@@ -90,19 +87,18 @@ const Herosection = () => {
     <>
       <div style={containerStyle} className="p-0 md:p-5">
         <div style={textContainerStyle}>
-      
-          <h1 className=" text-3xl md:text-5xl" >
-          Best Game Development Company in India
+          <h1 className=" text-3xl md:text-5xl">Level up With AI:</h1>
+          <h1 className=" text-3xl md:text-5xl">
+            Best Game Development Company in India
           </h1>
-          <Link href="/Pages/Contactus">
           <Button
+            onClick={handlecontactusModal}
             style={buttonHeader}
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
           >
             Consult Our Experts
           </Button>
-          </Link>
         </div>
         <div style={imageContainerStyle}>
           {/* Replace 'your-image.jpg' with the actual image source */}
@@ -117,21 +113,21 @@ const Herosection = () => {
         </div>
       </div>
 
-
       <div
-            ref={ref}
-            initial="hidden"
-            animate={controls}
-            variants={textAnimation1}
-            className="py-8 text-xl text-white"
-          >
-            <p>
-            Get an AI-powered smart gaming solution that captivates with its hyper-realistic graphics and enthrals with its deeply engaging gameplay. Hey Buddy is India's leading game development company, maintaining a large team of gamer-first developers who know what works.
-
-           
-
-            </p>
-          </div>
+        ref={ref}
+        initial="hidden"
+        animate={controls}
+        variants={textAnimation1}
+        className="py-8 text-xl text-white"
+      >
+        <p>
+          Get an AI-powered smart gaming solution that captivates with its
+          hyper-realistic graphics and enthrals with its deeply engaging
+          gameplay. Hey Buddy is India's leading game development company,
+          maintaining a large team of gamer-first developers who know what
+          works.
+        </p>
+      </div>
     </>
   );
 };

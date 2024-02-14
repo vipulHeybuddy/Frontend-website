@@ -7,7 +7,7 @@ import Image from "next/image";
 import { motion, useAnimation } from "framer-motion";
 import { Button } from "@material-tailwind/react";
 
-const Pagenation = () => {
+const Pagenation = ({ handlecontactusModal }) => {
   const [isHovered, setIsHovered] = useState(false);
   const controls = useAnimation();
   const ref = useRef();
@@ -426,18 +426,17 @@ const Pagenation = () => {
             Creative, Customised, and Cost-effective VR development software
             services with Hey Budy.
           </h1>
-          <Link href="/Pages/Contactus">
           <Button
             style={buttonHeader}
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
             className="text-2xl"
+            onClick={handlecontactusModal}
           >
             Discuss Your Project
           </Button>
           </Link>
         </div> */}
-
       </div>
     </motion.div>
   );
