@@ -7,8 +7,7 @@ import Image from "next/image";
 import { motion, useAnimation } from "framer-motion";
 import { Button } from "@material-tailwind/react";
 
-const Pagenation = () => {
- 
+const Pagenation = ({ handlecontactusModal }) => {
   const [isHovered, setIsHovered] = useState(false);
 
   const controls = useAnimation();
@@ -23,12 +22,14 @@ const Pagenation = () => {
     top: "30%",
   };
 
-
   const textAnimation1 = {
     hidden: { opacity: 0, y: "20%" },
-    visible: { opacity: 1, y: 0, transition: { duration: 1.5, ease: "easeOut" } },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: { duration: 1.5, ease: "easeOut" },
+    },
   };
-
 
   const buttonHeader = {
     border: isHovered ? "0px" : "1px solid white",
@@ -38,7 +39,7 @@ const Pagenation = () => {
     color: isHovered ? "white" : "white", // Change the text color as needed
     padding: "10px 20px",
     fontSize: "16px",
-    marginTop: '1rem',
+    marginTop: "1rem",
     transition: "background-color 0.3s, transform 0.3s",
     cursor: "pointer",
     transform: isHovered ? "scale(1.1)" : "scale(1)",
@@ -77,17 +78,16 @@ const Pagenation = () => {
     "task2",
     "task3",
     "task4",
-    
   ]);
 
   return (
-    <motion.div 
-    ref={ref}
-    initial="hidden"
-    animate={controls}
-    variants={textAnimation1}
-    
-    className="lg:py-8 text-white">
+    <motion.div
+      ref={ref}
+      initial="hidden"
+      animate={controls}
+      variants={textAnimation1}
+      className="lg:py-8 text-white"
+    >
       {/* <div className="py-6">
         <h1 className="py-4 lg:w-[80%] text-2xl lg:text-4xl">
         Hey Buddy Advanced Tech-stack for High-Quality 3D Model Development
@@ -404,20 +404,20 @@ const Pagenation = () => {
 
       </div> */}
 
-<div style={textContainerStyle}>
-          
-    <h1 style={{ fontSize: "2rem" }}>
-    Creative, Customised, and Cost-effective VR development software services with Hey Budy.
-    </h1>
-    <Button
-      style={buttonHeader}
-      onMouseEnter={() => setIsHovered(true)}
-      onMouseLeave={() => setIsHovered(false)}
-    >
-      Discuss Your Project
-
-    </Button>
-  </div>
+      <div style={textContainerStyle}>
+        <h1 style={{ fontSize: "2rem" }}>
+          Creative, Customised, and Cost-effective VR development software
+          services with Hey Budy.
+        </h1>
+        <Button
+          onClick={handlecontactusModal}
+          style={buttonHeader}
+          onMouseEnter={() => setIsHovered(true)}
+          onMouseLeave={() => setIsHovered(false)}
+        >
+          Discuss Your Project
+        </Button>
+      </div>
     </motion.div>
   );
 };

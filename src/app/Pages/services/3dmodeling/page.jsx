@@ -16,6 +16,7 @@ import Bottomclient from "@/components/servicescomp/3dmodelingcomp/Section9";
 import Section7 from "@/components/servicescomp/3dmodelingcomp/Section7";
 import ContactUs from "@/components/ContactUs";
 import { FaXmark } from "react-icons/fa6";
+import ContactModal from "@/components/ContactModal/ContactModal";
 
 const page = () => {
   const [contactusModal, setcontactusModal] = useState(false);
@@ -23,7 +24,10 @@ const page = () => {
   const handlecontactusModal = () => {
     setcontactusModal(true);
   };
-  const handleClose = () => {
+  const handleClose = (e) => {
+    if (e.target.id === "sidebar") setcontactusModal(false);
+  };
+  const handleModalClose = () => {
     setcontactusModal(false);
   };
 
@@ -226,23 +230,7 @@ const page = () => {
   return (
     <div className="lg:w-[80%] mx-auto relative">
       {/* contact us modal */}
-      <div
-        id="sidebar"
-        // onClick={handleClose}
-        className={` ${
-          contactusModal
-            ? "flex items-center justify-center overflow-x-hidden"
-            : "hidden"
-        } fixed inset-0 h-[100vh] backdrop-blur-sm z-50 px-5 md:px-0`}
-      >
-        <div className="p-10 bg-[#252525] opacity-100 rounded-lg">
-          <div onClick={handleClose} className=" p-2 rounded-full hover:bg-black w-fit">
-            <FaXmark color="white" />
-          </div>
-          <ContactUs />
-        </div>
-      </div>
-
+      <ContactModal handleClose={handleClose} contactusModal={contactusModal} handleModalClose={handleModalClose}/>
       <div>
         {/* --------------------Section-1 ------------------------------------------ */}
         <div className="relative isolate px-6  pt-20 lg:px-8 ">
@@ -308,7 +296,7 @@ const page = () => {
 
           {/* ------------------------section-8-------------------------------------- */}
           <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev8.png')] py-3 bg-no-repeat lg:bg-cover ">
-            <Pagenation handlecontactusModal={handlecontactusModal}/>
+            <Pagenation handlecontactusModal={handlecontactusModal} />
           </div>
 
           {/* -----------------------Section-9--------------------------------------- */}

@@ -1,4 +1,4 @@
-import React, { useEffect, useState , useRef } from "react";
+import React, { useEffect, useState, useRef } from "react";
 
 import Link from "next/link";
 import Image from "next/image";
@@ -6,7 +6,7 @@ import Image from "next/image";
 import { Button } from "@material-tailwind/react";
 import { motion, useAnimation } from "framer-motion";
 
-const Herosection = () => {
+const Herosection = ({ handlecontactusModal }) => {
   const [scrollPosition, setScrollPosition] = useState(0);
   const [isHovered, setIsHovered] = useState(false);
 
@@ -18,8 +18,6 @@ const Herosection = () => {
       setScrollPosition(window.scrollY);
     };
 
-   
-
     // Add scroll event listener
     window.addEventListener("scroll", handleScroll);
 
@@ -28,7 +26,6 @@ const Herosection = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-
 
   const textAnimation1 = {
     hidden: { opacity: 0, y: "0%" },
@@ -90,17 +87,17 @@ const Herosection = () => {
     <>
       <div style={containerStyle}>
         <div style={textContainerStyle}>
-          <h1 style={{ fontSize: "3rem" }}>Hyper-realistic Visuals with Leading 3D CGI Company - Hey Buddy</h1>
           <h1 style={{ fontSize: "3rem" }}>
-          
- 
+            Hyper-realistic Visuals with Leading 3D CGI Company - Hey Buddy
           </h1>
+          <h1 style={{ fontSize: "3rem" }}></h1>
           <Button
+            onClick={handlecontactusModal}
             style={buttonHeader}
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
           >
-           Consult Now
+            Consult Now
           </Button>
         </div>
         <div style={imageContainerStyle}>
@@ -116,19 +113,19 @@ const Herosection = () => {
         </div>
       </div>
 
-
       <div
-            ref={ref}
-            initial="hidden"
-            animate={controls}
-            variants={textAnimation1}
-            className="py-8 text-xl text-white "
-          >
-            <p>
-            Partner with Hey Buddy for assured, high-quality CGI delivered on time. Our strong CGI team has deployed top-class technical proficiency for creative and innovative CGI effects perfect for your project. 
-
-            </p>
-          </div>
+        ref={ref}
+        initial="hidden"
+        animate={controls}
+        variants={textAnimation1}
+        className="py-8 text-xl text-white "
+      >
+        <p>
+          Partner with Hey Buddy for assured, high-quality CGI delivered on
+          time. Our strong CGI team has deployed top-class technical proficiency
+          for creative and innovative CGI effects perfect for your project.
+        </p>
+      </div>
     </>
   );
 };

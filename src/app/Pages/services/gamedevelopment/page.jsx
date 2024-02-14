@@ -1,6 +1,6 @@
 "use client";
-import '../../../../styles/Font.css'
-import React, { useEffect, useState , useRef } from "react";
+import "../../../../styles/Font.css";
+import React, { useEffect, useState, useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import Gridsection from "@/components/Gridsection";
@@ -14,15 +14,21 @@ import { motion, useAnimation } from "framer-motion";
 import Herosection from "@/components/servicescomp/gamedevelopmentcomp/Section1";
 import Bottomclient from "@/components/servicescomp/gamedevelopmentcomp/Section9";
 import Section7 from "@/components/servicescomp/gamedevelopmentcomp/Section7";
+import { FaXmark } from "react-icons/fa6";
+import ContactUs from "@/components/ContactUs";
+import ContactModal from "@/components/ContactModal/ContactModal";
 
 const Page = () => {
-
   const [contactusModal, setcontactusModal] = useState(false);
 
   const handlecontactusModal = () => {
     setcontactusModal(true);
   };
-  const handleClose = () => {
+  const handleClose = (e) => {
+    if (e.target.id === "sidebar") setcontactusModal(false);
+  };
+
+  const handleModalClose = () => {
     setcontactusModal(false);
   };
 
@@ -33,7 +39,7 @@ const Page = () => {
 
   const handleScroll = () => {
     // Check if the container is in the viewport
-    const container = document.getElementById('fade-in-container');
+    const container = document.getElementById("fade-in-container");
     if (container) {
       const rect = container.getBoundingClientRect();
       const isInViewport = rect.top >= 0 && rect.bottom <= window.innerHeight;
@@ -43,15 +49,13 @@ const Page = () => {
     }
   };
 
- 
-
   useEffect(() => {
     // Add scroll event listener when component mounts
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
     // Clean up the event listener when component unmounts
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
   const textAnimation = {
@@ -227,33 +231,19 @@ const Page = () => {
 
   // ----------------------------------------------------------------
 
-
   return (
     <div className="lg:w-[80%] mx-auto relative">
       {/* contact us modal */}
-      <div
-        id="sidebar"
-        // onClick={handleClose}
-        className={` ${
-          contactusModal
-            ? "flex items-center justify-center overflow-x-hidden"
-            : "hidden"
-        } fixed inset-0 h-[100vh] backdrop-blur-sm z-50 px-5 md:px-0`}
-      >
-        <div className="p-10 bg-[#252525] opacity-100 rounded-lg">
-          <div onClick={handleClose} className=" p-2 rounded-full hover:bg-black w-fit">
-            <FaXmark color="white" />
-          </div>
-          <ContactUs />
-        </div>
-      </div>
+      <ContactModal
+        handleClose={handleClose}
+        contactusModal={contactusModal}
+        handleModalClose={handleModalClose}
+      />
 
       <div>
-
-          {/* --------------------Section-1 ------------------------------------------ */}
+        {/* --------------------Section-1 ------------------------------------------ */}
         <div className="relative isolate px-6  pt-20 lg:px-8 ">
-         
-         <Herosection />
+          <Herosection handlecontactusModal={handlecontactusModal} />
 
           <div
             ref={ref}
@@ -288,11 +278,9 @@ const Page = () => {
           </div>
 
           {/* ------------------------Section-3-------------------------------------- */}
-          <div> 
+          <div>
             <Motionslide />
           </div>
-
-       
 
           {/* ----------------------------Section-4---------------------------------- */}
           <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev4.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
@@ -301,7 +289,12 @@ const Page = () => {
 
           {/* ------------------------Section-5------------------------------------- */}
           <div className=" relative">
-            <img src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev5.png" alt="bg image" className='absolute bottom-0' loading='lazy' />
+            <img
+              src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev5.png"
+              alt="bg image"
+              className="absolute bottom-0"
+              loading="lazy"
+            />
             <Timelinecomp />
           </div>
 
@@ -313,13 +306,12 @@ const Page = () => {
           {/* ----------------------------Section7---------------------------------- */}
           <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev7.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
             {/* <Gridsection listData={List3} textData={Text3} /> */}
-            <Section7/>
-
+            <Section7 />
           </div>
 
           {/* ------------------------section-8-------------------------------------- */}
           <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev8.png')] py-8 bg-no-repeat lg:bg-cover ">
-            <Pagenation />
+            <Pagenation handlecontactusModal={handlecontactusModal} />
           </div>
 
           {/* -----------------------Section-9--------------------------------------- */}

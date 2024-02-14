@@ -1,8 +1,8 @@
-'use client';
+"use client";
 import React, { useState } from "react";
 import PhoneInput from "react-phone-number-input";
 import "react-phone-number-input/style.css";
-import './page.css';
+import "./page.css";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
@@ -89,7 +89,7 @@ function ContactUs() {
         <div className="phone-input-container">
           <PhoneInput
             placeholder="Your Phone Number"
-            className="input-field black-bg"
+            className="input-field"
             value={phoneNumber}
             style={{ backgroundColor: "black" }}
             onChange={setPhoneNumber}

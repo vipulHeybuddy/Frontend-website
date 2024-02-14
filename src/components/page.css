@@ -24,12 +24,15 @@ body {
 }
 .PhoneInputInput {
   background-color: black !important;
+  outline: none !important;
 }
 
 .input-field {
   width: 100%;
   margin: 10px 0;
   padding: 10px;
+  border-radius: 10px;
+  outline: none !important;
   box-sizing: border-box;
   background-color: black !important;
 }

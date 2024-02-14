@@ -1,4 +1,4 @@
-import React, { useEffect, useState , useRef } from "react";
+import React, { useEffect, useState, useRef } from "react";
 
 import Link from "next/link";
 import Image from "next/image";
@@ -6,7 +6,7 @@ import Image from "next/image";
 import { Button } from "@material-tailwind/react";
 import { motion, useAnimation } from "framer-motion";
 
-const Herosection = () => {
+const Herosection = ({ handlecontactusModal }) => {
   const [scrollPosition, setScrollPosition] = useState(0);
   const [isHovered, setIsHovered] = useState(false);
 
@@ -18,8 +18,6 @@ const Herosection = () => {
       setScrollPosition(window.scrollY);
     };
 
-   
-
     // Add scroll event listener
     window.addEventListener("scroll", handleScroll);
 
@@ -28,7 +26,6 @@ const Herosection = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-
 
   const textAnimation1 = {
     hidden: { opacity: 0, y: "0%" },
@@ -84,26 +81,27 @@ const Herosection = () => {
     transition: "background-color 0.3s, transform 0.3s",
     cursor: "pointer",
     transform: isHovered ? "scale(1.1)" : "scale(1)",
-    marginTop: '1rem',
+    marginTop: "1rem",
   };
 
   return (
     <>
       <div style={containerStyle}>
         <div style={textContainerStyle}>
-          <h1 className=" text-3xl md:text-5xl">Hey Buddy - Your trusted Web3 Development Company</h1>
+          <h1 className=" text-3xl md:text-5xl">
+            Hey Buddy - Your trusted Web3 Development Company
+          </h1>
           {/* <h1 className=" text-3xl md:text-5xl">
           Modelling Services 
           </h1> */}
-          <Link href="/Pages/Contactus">
           <Button
+            onClick={handlecontactusModal}
             style={buttonHeader}
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
           >
-           Get Web3 Solution
+            Get Web3 Solution
           </Button>
-          </Link>
         </div>
         <div style={imageContainerStyle}>
           {/* Replace 'your-image.jpg' with the actual image source */}
@@ -118,19 +116,20 @@ const Herosection = () => {
         </div>
       </div>
 
-
       <div
-            ref={ref}
-            initial="hidden"
-            animate={controls}
-            variants={textAnimation1}
-            className="py-8 text-base lg:text-xl text-white "
-          >
-            <p>
-            Hey Buddy is a renowned Web3 development company, known for its blockchain development expertise and for delivering secure, innovative, and interactive web 3.0 solutions within specified timelines.
-
-            </p>
-          </div>
+        ref={ref}
+        initial="hidden"
+        animate={controls}
+        variants={textAnimation1}
+        className="py-8 text-base lg:text-xl text-white "
+      >
+        <p>
+          Hey Buddy is a renowned Web3 development company, known for its
+          blockchain development expertise and for delivering secure,
+          innovative, and interactive web 3.0 solutions within specified
+          timelines.
+        </p>
+      </div>
     </>
   );
 };
