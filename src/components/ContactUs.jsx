@@ -5,7 +5,7 @@ import "react-phone-number-input/style.css";
 import "./page.css";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { useRouter } from 'next/navigation';
+import { useRouter } from "next/navigation";
 
 function ContactUs() {
   const [name, setName] = useState("");
@@ -39,7 +39,7 @@ function ContactUs() {
         console.log("Form submitted successfully!");
         toast.success("Form submitted successfully!", {
           position: "top-center",
-          autoClose: 5000,
+          autoClose: 2000,
           hideProgressBar: false,
           closeOnClick: true,
           pauseOnHover: true,
@@ -52,7 +52,10 @@ function ContactUs() {
         setEmail("");
         setPhoneNumber("");
         setMessage("");
-        router.push("/");
+
+        setTimeout(() => {
+          router.push("/");
+        }, 2000);
       } else {
         console.error("Failed to submit form:", response.statusText);
         // Handle the error as needed
@@ -66,6 +69,18 @@ function ContactUs() {
   };
   return (
     <div className="contact-form-container">
+      <ToastContainer
+        position="top-center"
+        autoClose={2000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="dark"
+      />
       <form className="contact-form" onSubmit={handleSubmit}>
         <div>
           <input

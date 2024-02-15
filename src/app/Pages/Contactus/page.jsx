@@ -1,33 +1,30 @@
 // page.js
-'use client';
-import React, { useState } from 'react';
-import PhoneInput from 'react-phone-number-input';
-import 'react-phone-number-input/style.css';
-import './page.css';
-import { ToastContainer, toast } from 'react-toastify';
-  import 'react-toastify/dist/ReactToastify.css';
+"use client";
+import React, { useState } from "react";
+import PhoneInput from "react-phone-number-input";
+import "react-phone-number-input/style.css";
+import "./page.css";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Page = () => {
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [phoneNumber, setPhoneNumber] = useState('');
-  const [message, setMessage] = useState('');
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [phoneNumber, setPhoneNumber] = useState("");
+  const [message, setMessage] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false); // New state for button disabling
-
-
-
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    
-    const apiEndpoint = 'https://api.heybuddy.co.in/contact';
+
+    const apiEndpoint = "https://api.heybuddy.co.in/contact";
 
     try {
       setIsSubmitting(true); // Disable the submit button
       const response = await fetch(apiEndpoint, {
-        method: 'POST',
+        method: "POST",
         headers: {
-          'Content-Type': 'application/json',
+          "Content-Type": "application/json",
         },
         body: JSON.stringify({
           name,
@@ -38,8 +35,8 @@ const Page = () => {
       });
 
       if (response.ok) {
-        console.log('Form submitted successfully!');
-        toast.success('Form submitted successfully!', {
+        console.log("Form submitted successfully!");
+        toast.success("Form submitted successfully!", {
           position: "top-center",
           autoClose: 5000,
           hideProgressBar: false,
@@ -48,44 +45,43 @@ const Page = () => {
           draggable: true,
           progress: undefined,
           theme: "dark",
-          
-          });
+        });
 
-          setName('');
-          setEmail('');
-          setPhoneNumber('');
-          setMessage('');
-     
+        setName("");
+        setEmail("");
+        setPhoneNumber("");
+        setMessage("");
       } else {
-        console.error('Failed to submit form:', response.statusText);
+        console.error("Failed to submit form:", response.statusText);
         // Handle the error as needed
       }
     } catch (error) {
-      console.error('Error during form submission:', error.message);
+      console.error("Error during form submission:", error.message);
       // Handle the error as needed
+    } finally {
+      setIsSubmitting(false); // Enable the submit button regardless of success or failure
     }
-   finally {
-    setIsSubmitting(false); // Enable the submit button regardless of success or failure
-  }
   };
   return (
     <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Ellipse8.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
-        <ToastContainer
-          position="top-center"
-          autoClose={5000}
-          hideProgressBar={false}
-          newestOnTop={false}
-          closeOnClick
-          rtl={false}
-          pauseOnFocusLoss
-          draggable
-          pauseOnHover
-          theme="dark"
-/>
+      <ToastContainer
+        position="top-center"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="dark"
+      />
       <div className="contact-form-container">
         <form className="contact-form" onSubmit={handleSubmit}>
-          <h1 style={{ fontSize: '3rem' }}>Have a great idea, let’s connect to make it reality</h1>
-          
+          <h1 style={{ fontSize: "3rem" }}>
+            Have a great idea, let’s connect to make it reality
+          </h1>
+
           <div>
             <input
               type="text"
@@ -113,7 +109,7 @@ const Page = () => {
               placeholder="Your Phone Number"
               className="input-field black-bg"
               value={phoneNumber}
-              style={{ backgroundColor: 'black'}}
+              style={{ backgroundColor: "black" }}
               onChange={setPhoneNumber}
               defaultCountry="US" // Set your default country code here
               required
@@ -131,8 +127,12 @@ const Page = () => {
           </div>
 
           <div>
-          <button type="submit" className="submit-button" disabled={isSubmitting}>
-              {isSubmitting ? 'Submitting...' : 'Submit'}
+            <button
+              type="submit"
+              className="submit-button"
+              disabled={isSubmitting}
+            >
+              {isSubmitting ? "Submitting..." : "Submit"}
             </button>
           </div>
         </form>
