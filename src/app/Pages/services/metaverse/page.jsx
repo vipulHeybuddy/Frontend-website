@@ -1,6 +1,6 @@
 "use client";
-import '../../../../styles/Font.css'
-import React, { useEffect, useState , useRef } from "react";
+import "../../../../styles/Font.css";
+import React, { useEffect, useState, useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import Gridsection from "@/components/Gridsection";
@@ -14,9 +14,20 @@ import { motion, useAnimation } from "framer-motion";
 import Herosection from "@/components/servicescomp/metaversecom/Section1";
 import Bottomclient from "@/components/servicescomp/metaversecom/Section9";
 import Section7 from "@/components/servicescomp/metaversecom/Section7";
+import ContactModal from "@/components/ContactModal/ContactModal";
 
 const Page = () => {
+  const [contactusModal, setcontactusModal] = useState(false);
 
+  const handlecontactusModal = () => {
+    setcontactusModal(true);
+  };
+  const handleClose = (e) => {
+    if (e.target.id === "sidebar") setcontactusModal(false);
+  };
+  const handleModalClose = () => {
+    setcontactusModal(false);
+  };
 
   const controls = useAnimation();
   const ref = useRef();
@@ -25,7 +36,7 @@ const Page = () => {
 
   const handleScroll = () => {
     // Check if the container is in the viewport
-    const container = document.getElementById('fade-in-container');
+    const container = document.getElementById("fade-in-container");
     if (container) {
       const rect = container.getBoundingClientRect();
       const isInViewport = rect.top >= 0 && rect.bottom <= window.innerHeight;
@@ -35,15 +46,13 @@ const Page = () => {
     }
   };
 
- 
-
   useEffect(() => {
     // Add scroll event listener when component mounts
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
     // Clean up the event listener when component unmounts
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
   const textAnimation = {
@@ -197,8 +206,7 @@ const Page = () => {
 
   const Text1 = [
     {
-      heading:
-        "Why your next project should be in the Metaverse?",
+      heading: "Why your next project should be in the Metaverse?",
       subtext:
         "Entering into the metaverse will bring your business unprecedented possibilities.",
     },
@@ -252,8 +260,7 @@ const Page = () => {
 
   const Text2 = [
     {
-      heading:
-        "Get Started Today: Our Metaverse Project Onboarding Process",
+      heading: "Get Started Today: Our Metaverse Project Onboarding Process",
       // subtext:
       //   "Hey Buddy is a renowned name in the game development space. We have an experienced development team who know what works best for your business.",
     },
@@ -261,15 +268,18 @@ const Page = () => {
 
   // ----------------------------------------------------------------
 
-
   return (
-    <div className="lg:w-[80%] mx-auto">
+    <div className="lg:w-[80%] mx-auto relative">
+      {/* contact us modal */}
+      <ContactModal
+        handleClose={handleClose}
+        contactusModal={contactusModal}
+        handleModalClose={handleModalClose}
+      />
       <div>
-
-          {/* --------------------Section-1 ------------------------------------------ */}
+        {/* --------------------Section-1 ------------------------------------------ */}
         <div className="relative isolate px-6  pt-20 lg:px-8 ">
-         
-         <Herosection />
+          <Herosection handlecontactusModal={handlecontactusModal}/>
 
           <div
             ref={ref}
@@ -304,11 +314,9 @@ const Page = () => {
           </div>
 
           {/* ------------------------Section-3-------------------------------------- */}
-          <div> 
+          <div>
             <Motionslide />
           </div>
-
-       
 
           {/* ----------------------------Section-4---------------------------------- */}
           <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev4.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
@@ -317,7 +325,12 @@ const Page = () => {
 
           {/* ------------------------Section-5------------------------------------- */}
           <div className=" relative">
-            <img src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev5.png" alt="bg image" className='absolute bottom-0' loading='lazy' />
+            <img
+              src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev5.png"
+              alt="bg image"
+              className="absolute bottom-0"
+              loading="lazy"
+            />
             <Timelinecomp />
           </div>
 
@@ -329,8 +342,7 @@ const Page = () => {
           {/* ----------------------------Section7---------------------------------- */}
           <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev7.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
             {/* <Gridsection listData={List3} textData={Text3} /> */}
-            <Section7/>
-
+            <Section7 />
           </div>
 
           {/* ------------------------section-8-------------------------------------- */}

@@ -1,8 +1,6 @@
 "use client";
 import "../../../../styles/Font.css";
 import React, { useEffect, useState, useRef } from "react";
-import Link from "next/link";
-import Image from "next/image";
 import Gridsection from "@/components/Gridsection";
 import Faqsection from "@/components/servicescomp/3dmodelingcomp/Section10";
 import Pagenation from "@/components/servicescomp/3dmodelingcomp/Section8";
@@ -10,12 +8,10 @@ import Mixsection from "@/components/servicescomp/3dmodelingcomp/Section4";
 import Timelinecomp from "@/components/servicescomp/3dmodelingcomp/Section5";
 import Motionslide from "@/components/servicescomp/3dmodelingcomp/Section3";
 import { AiFillCheckCircle } from "react-icons/ai";
-import { motion, useAnimation } from "framer-motion";
+import { useAnimation } from "framer-motion";
 import Herosection from "@/components/servicescomp/3dmodelingcomp/Section1";
 import Bottomclient from "@/components/servicescomp/3dmodelingcomp/Section9";
 import Section7 from "@/components/servicescomp/3dmodelingcomp/Section7";
-import ContactUs from "@/components/ContactUs";
-import { FaXmark } from "react-icons/fa6";
 import ContactModal from "@/components/ContactModal/ContactModal";
 
 const page = () => {
