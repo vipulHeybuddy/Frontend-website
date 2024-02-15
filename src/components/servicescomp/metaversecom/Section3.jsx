@@ -4,29 +4,22 @@ import { useEffect, useLayoutEffect, useState } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-// import { render } from "react-dom";
-import classnames from "classnames";
-import "../../../styles/slide.css";
-import WorkItem from "../gamedevelopmentcomp/WorkItem";
-import PhotoItem from "../gamedevelopmentcomp/PhotoItem";
-import GamedevCard from "../gamedevelopmentcomp/GamedevCard";
+import "./motionSlider.css";
+import WorkItem from "./WorkItem";
+import PhotoItem from "./PhotoItem";
+import GamedevCard from "./GamedevCard";
 
 const images = [0, 1, 2, 3, 4, 5];
 const texts = [
- 
-
   {
-
     title: "Metaverse Consultation & Analytics",
     description:
       "Understand the possibilities specific to your business. Define goals, plan a meticulous strategy, and track performance with our expert consultation and analytics services.      ",
     img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.png",
-
   },
   {
     title: "Metaverse Integration & Optimisation",
     description:
-
       "We integrate and optimize metaverse into your existing systems with seamless interoperability and data synchronization, ensuring a cohesive digital user experience.       ",
     img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg",
   },
@@ -90,12 +83,9 @@ const texts = [
       "Test your Metaverse strategy without spending a fortune. Get custom Metaverse spaces on rent. Organize meetings, NFT exhibitions, product launches, showrooms, and much more.      ",
     img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg",
   },
- 
-
 ];
 
 const Motionslide = () => {
-  
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
 
@@ -114,8 +104,8 @@ const Motionslide = () => {
       clipPath: function () {
         return "inset(0px 0px 100% 0px)";
       },
-      stagger: 0.8,
-      ease: "power3",
+      stagger: 0.5,
+      ease: "back",
     });
 
     ScrollTrigger.create({
@@ -123,7 +113,7 @@ const Motionslide = () => {
       start: "top top",
       end: "bottom bottom",
       animation: animation,
-      scrub: 1,
+      scrub: 0.1,
     });
   }, []);
 
@@ -132,9 +122,8 @@ const Motionslide = () => {
       <div className="py-8 text-white">
         <div className="text-content lg:w-[80%]">
           <h1 className="py-4 text-2xl lg:text-4xl">
-          Possibilities for You With Our Metaverse Development Services
+            Possibilities for You With Our Metaverse Development Services
           </h1>
-         
         </div>
       </div>
       <div className="h-fit relative lg:bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev3.png')] bg-fixed bg-bottom ">
@@ -189,7 +178,42 @@ const Motionslide = () => {
                     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds5.jpg"
                   }
                 />
-               
+                <PhotoItem
+                  title="7"
+                  imgSrc={
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.png"
+                  }
+                />
+                <PhotoItem
+                  title="8"
+                  imgSrc={
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg"
+                  }
+                />
+                <PhotoItem
+                  title="9"
+                  imgSrc={
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds2.jpg"
+                  }
+                />
+                <PhotoItem
+                  title="10"
+                  imgSrc={
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds3.jpg"
+                  }
+                />
+                <PhotoItem
+                  title="11"
+                  imgSrc={
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds4.jpg"
+                  }
+                />
+                <PhotoItem
+                  title="12"
+                  imgSrc={
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds5.jpg"
+                  }
+                />
               </div>
             </div>
           </div>
