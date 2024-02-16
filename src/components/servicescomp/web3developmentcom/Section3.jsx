@@ -4,14 +4,11 @@ import { useEffect, useLayoutEffect, useState } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-// import { render } from "react-dom";
-import classnames from "classnames";
-import "../../../styles/slide.css";
-import WorkItem from "../gamedevelopmentcomp/WorkItem";
-import PhotoItem from "../gamedevelopmentcomp/PhotoItem";
-import GamedevCard from "../gamedevelopmentcomp/GamedevCard";
+import "./motionSlider.css";
+import WorkItem from "./WorkItem";
+import PhotoItem from "./PhotoItem";
+import GamedevCard from "./GamedevCard";
 
-const images = [0, 1, 2, 3, 4, 5];
 const texts = [
   {
     title: "Blockchain Consulting Service",
@@ -163,7 +160,7 @@ const Motionslide = () => {
                 <PhotoItem
                   title="5"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds5.jpg"
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg"
                   }
                 />
 
@@ -182,13 +179,7 @@ const Motionslide = () => {
                 <PhotoItem
                   title="8"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds5.jpg"
-                  }
-                />
-                <PhotoItem
-                  title="9"
-                  imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds5.jpg"
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.png"
                   }
                 />
               </div>

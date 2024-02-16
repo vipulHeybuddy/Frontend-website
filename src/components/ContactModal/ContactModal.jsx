@@ -1,6 +1,7 @@
 import React from "react";
 import { FaXmark } from "react-icons/fa6";
 import ContactUs from "../ContactUs";
+import { ToastContainer } from "react-toastify";
 
 function ContactModal({ contactusModal, handleClose, handleModalClose }) {
   return (
@@ -14,7 +15,7 @@ function ContactModal({ contactusModal, handleClose, handleModalClose }) {
       } fixed inset-0 h-[100vh] backdrop-blur-sm z-50 px-5 md:px-0 transform transition duration-150 ease-in-out origin-center`}
     >
       <div
-        className={`p-10 bg-[#252525] opacity-100 rounded-lg ${
+        className={`p-10 bg-black bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Ellipse8.png')] bg-no-repeat bg-cover bg-bottom opacity-100 rounded-lg h-fit ${
           contactusModal ? "block" : "hidden"
         }`}
       >
