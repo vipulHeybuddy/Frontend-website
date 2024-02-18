@@ -84,7 +84,6 @@ const Motionslide = () => {
 
       stagger: 0.5,
       ease: "back",
-
     });
 
     ScrollTrigger.create({
@@ -136,58 +135,42 @@ const Motionslide = () => {
                 <PhotoItem
                   title="1"
                   imgSrc={
-
                     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/custom+software+development/Digital+marketplace+dev.jpg"
-   }
+                  }
                 />
                 <PhotoItem
                   title="2"
                   imgSrc={
-
-                    
                     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/custom+software+development/cloud+%26+data+managment+dev.jpg"
-
                   }
                 />
                 <PhotoItem
                   title="3"
                   imgSrc={
                     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/custom+software+development/Security%26+assistance+dev.jpg"
-                   
-
                   }
                 />
                 <PhotoItem
                   title="4"
                   imgSrc={
                     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/custom+software+development/Emerging+technologies.jpg"
-                    
-
                   }
                 />
                 <PhotoItem
                   title="5"
                   imgSrc={
-
-                    
                     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/custom+software+development/enterprise+solutions.jpg"
-
                   }
                 />
                 <PhotoItem
                   title="6"
                   imgSrc={
-
                     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/custom+software+development/content+managment+systems.jpg"
-                    
                   }
                 />
-              
-                  
-                     <PhotoItem
+
+                <PhotoItem
                   title="7"
-
-
                   imgSrc={
                     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/custom+software+development/consultation+services.jpg"
                   }

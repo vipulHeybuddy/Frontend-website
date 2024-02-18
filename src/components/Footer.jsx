@@ -116,7 +116,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div class="grid grid-cols-1 pt-8 gap-4 sm:grid-cols-2 lg:grid-cols-2 lg:pt-16 lg:w-[39%]">
+          <div class="grid grid-cols-1 pt-8 gap-4 sm:grid-cols-2 lg:grid-cols-4 lg:pt-16 lg:w-[90%]">
             <div className="py-4">
               <p class="font-bold text-white text-xl">Company</p>
 
@@ -160,6 +160,73 @@ const Footer = () => {
                 <li>
                   <a href="#" class="text-white transition hover:opacity-75">
                     Live Chat
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div className="py-4">
+              <p class="font-bold text-white text-xl">Services</p>
+
+              <ul class="mt-6 space-y-2 text-sm">
+                <li>
+                  <a href="/Pages/services/3dmodeling" class="text-white transition hover:opacity-75">
+                    3D Modeling
+                  </a>
+                </li>
+
+                <li>
+                  <a href="/Pages/services/ardevelopment" class="text-white transition hover:opacity-75">
+                    AR Development
+                  </a>
+                </li>
+
+                <li>
+                  <a href="/Pages/services/customsoftware" class="text-white transition hover:opacity-75">
+                    Custom Software
+                  </a>
+                </li>
+
+                
+                <li>
+                  <a href="/Pages/services/gamedevelopment" class="text-white transition hover:opacity-75">
+                    Game Development
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div className="py-4">
+              <p class="font-bold text-white text-xl">Services</p>
+
+              <ul class="mt-6 space-y-2 text-sm">
+                <li>
+                  <a href="/Pages/services/vrdevelopment" class="text-white transition hover:opacity-75">
+                    VR Development
+                  </a>
+                </li>
+
+                <li>
+                  <a href="/Pages/services/billboard" class="text-white transition hover:opacity-75">
+                    3D BillBoards
+                  </a>
+                </li>
+
+                <li>
+                  <a href="/Pages/services/cgi" class="text-white transition hover:opacity-75">
+                    CGI Development
+                  </a>
+                </li>
+
+                <li>
+                  <a href="/Pages/services/web3" class="text-white transition hover:opacity-75">
+                    Web3 Development
+                  </a>
+                </li>
+
+                <li>
+                  <a href="/Pages/services/metaverse" class="text-white transition hover:opacity-75">
+                    Metaverse Development
                   </a>
                 </li>
               </ul>
