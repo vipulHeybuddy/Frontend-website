@@ -95,13 +95,13 @@ const page = () => {
 
             <div className='blogsWithCategories'>
                 <div className='blogCategories '>
-                    <p className='text-white font-bold text-[2vw]'>Blog Posts</p>
-                    <div className=' flex justify-between  w-[60%] items-center text-white text-[1vw] font-semibold'>
-                        <button onClick={()=> toggleCategory("")} className={category === "" ? "active-tab": "tab"}>All</button>
-                        <button onClick={()=> toggleCategory("development")} className={category === "development" ? "active-tab": "tab"}>Development</button>
-                        <button onClick={()=> toggleCategory("design")} className={category === "design" ? "active-tab": "tab"}>Design</button>
-                        <button onClick={()=> toggleCategory("3d")} className={category === "3d" ? "active-tab": "tab"}>3D</button>
-                        <button onClick={()=> toggleCategory("games")} className={category === "games" ? "active-tab": "tab"}>Games</button>
+                    <p className='text-white font-bold md:text-[2vw]  '>Blog Posts</p>
+                    <div className=' flex justify-between  w-[60%] items-center text-white md:text-[1em] font-semibold'>
+                        <button onClick={()=> toggleCategory("")} className={category === "" ? "tab active-tab": "tab"}>All</button>
+                        <button onClick={()=> toggleCategory("development")} className={category === "development" ? "tab active-tab": "tab"}>Development</button>
+                        <button onClick={()=> toggleCategory("design")} className={category === "design" ? "tab active-tab": "tab"}>Design</button>
+                        <button onClick={()=> toggleCategory("3d")} className={category === "3d" ? "tab active-tab": "tab"}>3D</button>
+                        <button onClick={()=> toggleCategory("games")} className={category === "games" ? "tab active-tab": "tab"}>Games</button>
                     </div>
                 </div>
 
