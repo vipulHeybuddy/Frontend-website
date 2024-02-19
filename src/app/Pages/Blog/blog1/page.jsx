@@ -33,7 +33,7 @@ function page() {
       <section className="pt-28 flex flex-col-reverse lg:flex-row lg:w-[90%] xl:w-[80%] mx-auto gap-8 relative">
         {/* main section */}
         <section className="lg:w-[60%] flex flex-col gap-5">
-          <div className="flex gap-2 items-center py-1 px-5 bg-white/10 w-fit rounded-[10px] text-white">
+          <div className=" hidden lg:flex gap-2 items-center py-1 px-5 bg-white/10 w-fit rounded-[10px] text-white">
             <span>Blog</span>
             <span>
               <FaChevronRight />
@@ -50,15 +50,17 @@ function page() {
                   className="h-full w-full"
                 />
               </div>
-              <div className="absolute bottom-0 w-full py-[25px] px-10 backdrop-blur-lg flex flex-col gap-[21px]">
+              <div className="absolute bottom-0 w-full py-3 md:py-[25px] px-3 md:px-10 backdrop-blur-lg flex flex-col gap-2 md:gap-[21px]">
                 <div className="flex items-center py-[5px] px-4 gap-[6px] w-fit bg-[#ff5c001c] rounded-full">
                   <span className="h-4 w-4 rounded-full bg-[#FF5C00]"></span>
                   <span className="text-[#FF5C00] font-bold">Gaming</span>
                 </div>
-                <h1 className="text-3xl font-semibold text-white">
+                <h1 className=" text-lg md:text-3xl font-semibold text-white">
                   Top Game Development Companies - Choose the Best One
                 </h1>
-                <h1 className="text-white">OCT 20 .2 weeks ago</h1>
+                <h1 className="text-white text-sm md:text-base">
+                  OCT 20 .2 weeks ago
+                </h1>
               </div>
             </div>
             {/* verbose information */}
@@ -230,15 +232,24 @@ function page() {
         {/* sticky section */}
         <section className=" flex-1 flex flex-col gap-14 pt-12">
           <div className="flex flex-col gap-7">
+            <div className="flex text-sm md:text-base lg:hidden gap-2 items-center py-1 px-5 bg-white/10 w-fit rounded-[10px] text-white">
+              <span>Blog</span>
+              <span>
+                <FaChevronRight />
+              </span>
+              <span>Top Game Development Companies - Choose the Best One</span>
+            </div>
             {/* profile div */}
-            <div className="flex flex-col gap-5 p-5 bg-[#ff5c0024] border-2 border-[#FF5C00] rounded-[30px]">
+            <div className="flex flex-col gap-2 lg:gap-5 p-5 bg-[#ff5c0024] border-2 border-[#FF5C00] rounded-[30px]">
               <div className="flex items-end gap-3">
                 <div className="rounded-[20px] overflow-hidden">
                   <img src="/Images/user.png" alt="profile" />
                 </div>
                 <FaLinkedin color="#FF5C00" className="w-[30px] h-[30px]" />
               </div>
-              <h1 className="text-4xl font-semibold text-white">John Doe</h1>
+              <h1 className=" md:text-4xl font-semibold text-white">
+                John Doe
+              </h1>
               <p className="text-sm text-white">
                 Founder of SAAS First - the Best AI and Data-Driven Customer
                 Engagement Tool
@@ -246,24 +257,24 @@ function page() {
             </div>
             {/* community */}
             <div className="bg-[#ff5c0024] border-2 border-[#FF5C00] rounded-[30px] p-5">
-              <h1 className="text-xl font-normal text-white">
+              <h1 className=" text-base md:text-xl font-normal text-white">
                 Share with your community!
               </h1>
               <div className="flex items-center gap-3 mt-3">
                 <div>
-                  <FaGithub className="h-6 w-6 text-white" />
+                  <FaGithub className=" h-4 md:h-6 w-4 md:w-6 text-white" />
                 </div>
                 <div>
-                  <FaXTwitter className="h-6 w-6 text-white" />
+                  <FaXTwitter className=" h-4 md:h-6 w-4 md:w-6 text-white" />
                 </div>
                 <div>
-                  <FaLinkedin className="h-6 w-6 text-white" />
+                  <FaLinkedin className=" h-4 md:h-6 w-4 md:w-6 text-white" />
                 </div>
                 <div>
-                  <FaInstagram className="h-6 w-6 text-white" />
+                  <FaInstagram className=" h-4 md:h-6 w-4 md:w-6 text-white" />
                 </div>
                 <div>
-                  <FaFacebook className="h-6 w-6 text-white" />
+                  <FaFacebook className="h-4 md:h-6 w-4 md:w-6 text-white" />
                 </div>
               </div>
             </div>
