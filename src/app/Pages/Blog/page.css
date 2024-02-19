@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.blogsContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   width: 100vw;
+}
+
+
+
+.readOurBlog{
+    background: url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Ellipse8.png') no-repeat fixed top;
+    background-size: cover;
+    height: 25em;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.readOurBlog p{
+    color: white;
+    text-align: center;
+}
+
+.blogsContainer .read-blog-svg{
+    width: 80%;
+    border: 1px solid #0066FF;
+    border-radius: 1.2em;
+    z-index: 30;
+    /* margin-top: -10px; */
+}
+
+.blogsContainer .blogsWithCategories{
+    
+    width: 80%;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.blogsContainer .blogsWithCategories .blogCategories{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3em;    
+}
+
+
+
+.blogsContainer .blogsWithCategories .allBlogs{
+    background-image: url('/Ellipse.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.blog{
+    width: 30%;
+    min-height: 22.5em;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: .7em;
+    background-color: rgba(255,255,255,.1);
+    color: white;
+    border-radius: 1.2em;
+    margin-top: 1em;
+    cursor: pointer;
+}
