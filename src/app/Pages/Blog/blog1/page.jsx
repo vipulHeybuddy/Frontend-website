@@ -1,5 +1,6 @@
 "use client";
-import React from "react";
+import React, { useEffect, useState } from "react";
+import Scrollspy from "react-scrollspy";
 import "../../../../styles/Font.css";
 import {
   FaChevronRight,
@@ -14,12 +15,24 @@ import {
 import "./page.css";
 
 function page() {
+  const navbarHeight = 70;
+  const handleNavClick = (id) => {
+    const section = document.getElementById(id);
+    if (section) {
+      const top = section.offsetTop - navbarHeight;
+      window.scrollTo({
+        top,
+        behavior: "smooth",
+      });
+    }
+  };
+
   return (
-    <div className="mx-auto bg-[url('/Images/Ellipse.svg')] bg-no-repeat bg-fixed bg-top">
+    <div className="mx-auto px-5 lg:px-0 bg-[url('/Images/Ellipse.svg')] bg-no-repeat bg-fixed bg-top">
       {/* intro section */}
-      <section className="pt-28 flex lg:w-[80%] mx-auto gap-8 relative">
+      <section className="pt-28 flex flex-col-reverse lg:flex-row lg:w-[90%] xl:w-[80%] mx-auto gap-8 relative">
         {/* main section */}
-        <section className="w-[60%] flex flex-col gap-5">
+        <section className="lg:w-[60%] flex flex-col gap-5">
           <div className="flex gap-2 items-center py-1 px-5 bg-white/10 w-fit rounded-[10px] text-white">
             <span>Blog</span>
             <span>
@@ -29,9 +42,13 @@ function page() {
           </div>
           <div className=" flex flex-col gap-14">
             {/* intro image */}
-            <div className="rounded-xl relative overflow-hidden border-2 border-[#FF5C00]">
-              <div className="w-full">
-                <img src="/Images/Blog.png" alt="Image" />
+            <div className="rounded-xl relative overflow-hidden border-2 border-[#FF5C00] h-[60vh] xl:h-auto min-h-[60vh]">
+              <div className="w-full h-full xl:h-auto">
+                <img
+                  src="/Images/Blog.png"
+                  alt="Image"
+                  className="h-full w-full"
+                />
               </div>
               <div className="absolute bottom-0 w-full py-[25px] px-10 backdrop-blur-lg flex flex-col gap-[21px]">
                 <div className="flex items-center py-[5px] px-4 gap-[6px] w-fit bg-[#ff5c001c] rounded-full">
@@ -211,10 +228,10 @@ function page() {
           </div>
         </section>
         {/* sticky section */}
-        <section className=" flex-1 flex flex-col gap-14 pt-14">
+        <section className=" flex-1 flex flex-col gap-14 pt-12">
           <div className="flex flex-col gap-7">
             {/* profile div */}
-            <div className="flex flex-col gap-7 p-5 bg-[#ff5c0024] border-2 border-[#FF5C00] rounded-[30px]">
+            <div className="flex flex-col gap-5 p-5 bg-[#ff5c0024] border-2 border-[#FF5C00] rounded-[30px]">
               <div className="flex items-end gap-3">
                 <div className="rounded-[20px] overflow-hidden">
                   <img src="/Images/user.png" alt="profile" />
@@ -228,7 +245,7 @@ function page() {
               </p>
             </div>
             {/* community */}
-            <div className="bg-[#ff5c0024] border-2 border-[#FF5C00] rounded-[30px] py-6 px-5">
+            <div className="bg-[#ff5c0024] border-2 border-[#FF5C00] rounded-[30px] p-5">
               <h1 className="text-xl font-normal text-white">
                 Share with your community!
               </h1>
@@ -251,40 +268,55 @@ function page() {
               </div>
             </div>
           </div>
-          <div className="flex flex-col gap-5 sticky top-20">
+          <div className=" hidden lg:flex flex-col gap-5 sticky top-20">
             <h1 className="text-base text-white">In this article</h1>
-            <div className="flex flex-col gap-[10px] text-white">
-              <h1>
-                <a href="#section1">
-                  Exploring Generative AI in Content Creation
-                </a>
-              </h1>
-              <h1>
-                <a href="#section2">
-                  Steering Clear of Common AI Writing Pitfalls
-                </a>
-              </h1>
-              <h1>
-                <a href="#section3">
-                  Understanding ChatGPT Capabilities - Define Your Style
-                </a>
-              </h1>
-              <h1>
-                <a href="#section4">Understand Your Readers</a>
-              </h1>
-              <h1>
-                <a href="#section5">
-                  Creating Quality AI-powered Blogs that Stand Out
-                </a>
-              </h1>
-              <h1>
-                <a href="#section6">
-                  Conclusion: Embracing AI in Blog Creation
-                </a>
-              </h1>
-              <h1>
-                <a href="#section7">Afterword: The AI Behind This Article</a>
-              </h1>{" "}
+            <div className=" text-white">
+              <Scrollspy
+                className="flex flex-col gap-[10px]"
+                items={[
+                  "section1",
+                  "section2",
+                  "section3",
+                  "section4",
+                  "section5",
+                ]}
+                currentClassName=" border-l-4 border-[#FF5C00] text-[#FF5C00]"
+                offset={-window.innerHeight * 0.5}
+              >
+                <h1
+                  className={`cursor-pointer pl-2`}
+                  onClick={() => handleNavClick("section1")}
+                >
+                  <a>Exploring Generative AI in Content Creation</a>
+                </h1>
+                <h1
+                  className="cursor-pointer pl-2"
+                  onClick={() => handleNavClick("section2")}
+                >
+                  <a>Steering Clear of Common AI Writing Pitfalls</a>
+                </h1>
+                <h1
+                  className="cursor-pointer pl-2"
+                  onClick={() => handleNavClick("section3")}
+                >
+                  <a>Understanding ChatGPT Capabilities - Define Your Style</a>
+                </h1>
+                <h1
+                  className="cursor-pointer pl-2"
+                  onClick={() => handleNavClick("section4")}
+                >
+                  <a>Understand Your Readers</a>
+                </h1>
+                <h1
+                  className="cursor-pointer pl-2"
+                  onClick={() => handleNavClick("section5")}
+                >
+                  <a>
+                    Understand Your ReaCreating Quality AI-powered Blogs that
+                    Stand Outders
+                  </a>
+                </h1>
+              </Scrollspy>
             </div>
           </div>
         </section>
