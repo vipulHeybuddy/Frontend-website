@@ -1,3 +1,4 @@
+
 "use client"
 import "../../../styles/Font.css";
 import BlogCard from '@/components/blogComponents/BlogCard'
