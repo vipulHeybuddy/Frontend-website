@@ -27,17 +27,17 @@ const Navbardesktop = () => {
 
   return (
     <div className="fixed top-0 transition-all duration-800   w-full  z-50">
-      <nav className="relative  px-2 py-0">
+      <nav className="relativepx-2  py-0">
         <div
           className={classNames(
-            "fixed justify-center mx-auto items-center max-container w-full border-white transition-all duration-800 py-4 z-50 ",
+            "fixed justify-center mx-auto items-center max-container w-full border-white transition-all duration-800 py-4 z-50",
             {
-              "   bg-clip-padding backdrop-filter backdrop-blur-2xl bg-opacity-70 z-50":
+              "bg-clip-padding backdrop-filter backdrop-blur-2xl bg-opacity-70 z-50":
                 backgroundwhite,
             }
           )}
         >
-          <div className=" w-[80%] m-auto">
+          <div className="w-[80%] m-auto">
             <Link href="/">
               <Image
                 width={300}
@@ -140,6 +140,8 @@ const Navbardesktop = () => {
               <Link href="/Pages/Contactus">
                 <li>Contact Us</li>
               </Link>
+
+              <Link href= "/Pages/Blog">Blog</Link>
             </ul>
           </div>
         </div>
