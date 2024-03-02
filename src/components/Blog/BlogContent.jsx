@@ -1,7 +1,7 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Scrollspy from "react-scrollspy";
-import "../../../../styles/Font.css";
+import "../../styles/Font.css";
 import {
   FaChevronRight,
   FaFacebook,
@@ -14,7 +14,7 @@ import {
 } from "react-icons/fa6";
 import "./page.css";
 
-function page() {
+function BlogContent({ SelectedBlog }) {
   const navbarHeight = 70;
   const handleNavClick = (id) => {
     const section = document.getElementById(id);
@@ -27,8 +27,19 @@ function page() {
     }
   };
 
+  // getting the attributes of the blog
+  const {
+    blogType,
+    title,
+    author,
+    authorRole,
+    authorImage,
+    blogImage,
+    pubDate,
+  } = SelectedBlog;
+
   return (
-    <div className="mx-auto px-5 lg:px-0 bg-[url('/Images/Ellipse.svg')] bg-no-repeat bg-fixed bg-top">
+    <div className={`mx-auto px-5 lg:px-0 bg-no-repeat bg-fixed bg-top`}>
       {/* intro section */}
       <section className="pt-28 flex flex-col-reverse lg:flex-row lg:w-[90%] xl:w-[80%] mx-auto gap-8 relative">
         {/* main section */}
@@ -38,29 +49,65 @@ function page() {
             <span>
               <FaChevronRight />
             </span>
-            <span>Top Game Development Companies - Choose the Best One</span>
+            <span>{title}</span>
           </div>
           <div className=" flex flex-col gap-14">
             {/* intro image */}
-            <div className="rounded-xl relative overflow-hidden border-2 border-[#FF5C00] h-[60vh] xl:h-auto min-h-[60vh]">
+            <div
+              className={`rounded-xl relative overflow-hidden border-2 h-[60vh] xl:h-auto min-h-[60vh] ${
+                blogType === "gaming"
+                  ? "border-[#FF5C00]"
+                  : blogType === "Development"
+                  ? "border-[#26B403]"
+                  : blogType === "3D"
+                  ? "border-[#FF001F]"
+                  : "border-[#00FFE0]"
+              }`}
+            >
               <div className="w-full h-full xl:h-auto">
-                <img
-                  src="/Images/Blog.png"
-                  alt="Image"
-                  className="h-full w-full"
-                />
+                <img src={blogImage} alt="Image" className="h-full w-full" />
               </div>
               <div className="absolute bottom-0 w-full py-3 md:py-[25px] px-3 md:px-10 backdrop-blur-lg flex flex-col gap-2 md:gap-[21px]">
-                <div className="flex items-center py-[5px] px-4 gap-[6px] w-fit bg-[#ff5c001c] rounded-full">
-                  <span className="h-4 w-4 rounded-full bg-[#FF5C00]"></span>
-                  <span className="text-[#FF5C00] font-bold">Gaming</span>
+                <div
+                  className={`flex items-center py-[5px] px-4 gap-[6px] w-fit rounded-full ${
+                    blogType === "gaming"
+                      ? "bg-[#ff5c0024]"
+                      : blogType === "Development"
+                      ? "bg-[#26b40324]"
+                      : blogType === "3D"
+                      ? "bg-[#ff001f24]"
+                      : "bg-[#00ffe024]"
+                  }`}
+                >
+                  <span
+                    className={`h-4 w-4 rounded-full ${
+                      blogType === "gaming"
+                        ? "bg-[#FF5C00]"
+                        : blogType === "Development"
+                        ? "bg-[#26B403]"
+                        : blogType === "3D"
+                        ? "bg-[#FF001F]"
+                        : "bg-[#00FFE0]"
+                    }`}
+                  ></span>
+                  <span
+                    className={`text-[#FF5C00] font-bold ${
+                      blogType === "gaming"
+                        ? "text-[#FF5C00]"
+                        : blogType === "Development"
+                        ? "text-[#26B403]"
+                        : blogType === "3D"
+                        ? "text-[#FF001F]"
+                        : "text-[#00FFE0]"
+                    }`}
+                  >
+                    {blogType}
+                  </span>
                 </div>
                 <h1 className=" text-lg md:text-3xl font-semibold text-white">
-                  Top Game Development Companies - Choose the Best One
+                  {title}
                 </h1>
-                <h1 className="text-white text-sm md:text-base">
-                  OCT 20 .2 weeks ago
-                </h1>
+                <h1 className="text-white text-sm md:text-base">{pubDate}</h1>
               </div>
             </div>
             {/* verbose information */}
@@ -228,6 +275,55 @@ function page() {
               </div>
             </section>
           </div>
+
+          {/* bottom community section */}
+          <div>
+            <div
+              className={` border-2  rounded-[30px] flex items-center justify-between py-[40px] px-5 ${
+                blogType === "gaming"
+                  ? "border-[#FF5C00] bg-[#ff5c0024]"
+                  : blogType === "Development"
+                  ? "border-[#26B403] bg-[#26b40324]"
+                  : blogType === "3D"
+                  ? "border-[#FF001F] bg-[#ff001f24]"
+                  : "border-[#00FFE0] bg-[#00ffe024]"
+              }`}
+            >
+              <h1 className=" text-base md:text-xl font-normal text-white">
+                Share with your community!
+              </h1>
+              <div className="flex items-center gap-3">
+                <div>
+                  <FaGithub className=" h-4 md:h-6 w-4 md:w-6 text-white" />
+                </div>
+                <div>
+                  <FaXTwitter className=" h-4 md:h-6 w-4 md:w-6 text-white" />
+                </div>
+                <div>
+                  <FaLinkedin className=" h-4 md:h-6 w-4 md:w-6 text-white" />
+                </div>
+                <div>
+                  <FaInstagram className=" h-4 md:h-6 w-4 md:w-6 text-white" />
+                </div>
+                <div>
+                  <FaFacebook className="h-4 md:h-6 w-4 md:w-6 text-white" />
+                </div>
+              </div>
+            </div>
+            <div className="py-10">
+              <div
+                className={` ${
+                  blogType === "gaming"
+                    ? "border-[#FF5C00] bg-[#ff5c0024]"
+                    : blogType === "Development"
+                    ? "border-[#26B403] bg-[#26b40324]"
+                    : blogType === "3D"
+                    ? "border-[#FF001F] bg-[#ff001f24]"
+                    : "border-[#00FFE0] bg-[#00ffe024]"
+                } h-[2px]`}
+              ></div>
+            </div>
+          </div>
         </section>
         {/* sticky section */}
         <section className=" flex-1 flex flex-col gap-14 pt-12">
@@ -237,26 +333,54 @@ function page() {
               <span>
                 <FaChevronRight />
               </span>
-              <span>Top Game Development Companies - Choose the Best One</span>
+              <span>{title}</span>
             </div>
             {/* profile div */}
-            <div className="flex flex-col gap-2 lg:gap-5 p-5 bg-[#ff5c0024] border-2 border-[#FF5C00] rounded-[30px]">
+            <div
+              className={`flex flex-col gap-2 lg:gap-5 p-5 bg-[#ff5c0024] border-2 rounded-[30px] ${
+                blogType === "gaming"
+                  ? "border-[#FF5C00] bg-[#ff5c0024]"
+                  : blogType === "Development"
+                  ? "border-[#26B403] bg-[#26b40324]"
+                  : blogType === "3D"
+                  ? "border-[#FF001F] bg-[#ff001f24]"
+                  : "border-[#00FFE0] bg-[#00ffe024]"
+              }`}
+            >
               <div className="flex items-end gap-3">
                 <div className="rounded-[20px] overflow-hidden">
-                  <img src="/Images/user.png" alt="profile" />
+                  <img src={authorImage} alt="profile" />
                 </div>
-                <FaLinkedin color="#FF5C00" className="w-[30px] h-[30px]" />
+                <FaLinkedin
+                  color={
+                    blogType === "gaming"
+                      ? "#FF5C00"
+                      : blogType === "Development"
+                      ? "#26B403"
+                      : blogType === "3D"
+                      ? "#FF001F"
+                      : "#00FFE0"
+                  }
+                  className="w-[30px] h-[30px]"
+                />
               </div>
               <h1 className=" md:text-4xl font-semibold text-white">
-                John Doe
+                {author}
               </h1>
-              <p className="text-sm text-white">
-                Founder of SAAS First - the Best AI and Data-Driven Customer
-                Engagement Tool
-              </p>
+              <p className="text-sm text-white">{authorRole}</p>
             </div>
             {/* community */}
-            <div className="bg-[#ff5c0024] border-2 border-[#FF5C00] rounded-[30px] p-5">
+            <div
+              className={` border-2  rounded-[30px] p-5 ${
+                blogType === "gaming"
+                  ? "border-[#FF5C00] bg-[#ff5c0024]"
+                  : blogType === "Development"
+                  ? "border-[#26B403] bg-[#26b40324]"
+                  : blogType === "3D"
+                  ? "border-[#FF001F] bg-[#ff001f24]"
+                  : "border-[#00FFE0] bg-[#00ffe024]"
+              }`}
+            >
               <h1 className=" text-base md:text-xl font-normal text-white">
                 Share with your community!
               </h1>
@@ -291,8 +415,16 @@ function page() {
                   "section4",
                   "section5",
                 ]}
-                currentClassName=" border-l-4 border-[#FF5C00] text-[#FF5C00]"
-                offset={-window.innerHeight * 0.5}
+                currentClassName={`border-l-4 ${
+                  blogType === "gaming"
+                    ? "border-[#FF5C00] text-[#FF5C00]"
+                    : blogType === "Development"
+                    ? "border-[#26B403] text-[#26B403]"
+                    : blogType === "3D"
+                    ? "border-[#FF001F] text-[#FF001F]"
+                    : "border-[#00FFE0] text-[#00FFE0]"
+                }`}
+                offset={-window.innerHeight * 0.4}
               >
                 <h1
                   className={`cursor-pointer pl-2`}
@@ -336,4 +468,4 @@ function page() {
   );
 }
 
-export default page;
+export default BlogContent;
