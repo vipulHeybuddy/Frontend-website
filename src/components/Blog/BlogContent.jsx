@@ -27,7 +27,7 @@ function BlogContent({ SelectedBlog }) {
     }
   };
 
-  // getting the type of the blog
+  // getting the attributes of the blog
   const {
     blogType,
     title,
@@ -39,17 +39,7 @@ function BlogContent({ SelectedBlog }) {
   } = SelectedBlog;
 
   return (
-    <div
-      className={`mx-auto px-5 lg:px-0 bg-no-repeat bg-fixed bg-top ${
-        blogType === "gaming"
-          ? "bg-[url('/Images/EllipseGame.svg')]"
-          : blogType === "Development"
-          ? "bg-[url('/Images/EllipseDev.svg')]"
-          : blogType === "3D"
-          ? "bg-[url('/Images/Ellipse3D.svg')]"
-          : "bg-[url('/Images/EllipseDesign.svg')]"
-      }`}
-    >
+    <div className={`mx-auto px-5 lg:px-0 bg-no-repeat bg-fixed bg-top`}>
       {/* intro section */}
       <section className="pt-28 flex flex-col-reverse lg:flex-row lg:w-[90%] xl:w-[80%] mx-auto gap-8 relative">
         {/* main section */}
@@ -284,6 +274,55 @@ function BlogContent({ SelectedBlog }) {
                 </p>
               </div>
             </section>
+          </div>
+
+          {/* bottom community section */}
+          <div>
+            <div
+              className={` border-2  rounded-[30px] flex items-center justify-between py-[40px] px-5 ${
+                blogType === "gaming"
+                  ? "border-[#FF5C00] bg-[#ff5c0024]"
+                  : blogType === "Development"
+                  ? "border-[#26B403] bg-[#26b40324]"
+                  : blogType === "3D"
+                  ? "border-[#FF001F] bg-[#ff001f24]"
+                  : "border-[#00FFE0] bg-[#00ffe024]"
+              }`}
+            >
+              <h1 className=" text-base md:text-xl font-normal text-white">
+                Share with your community!
+              </h1>
+              <div className="flex items-center gap-3">
+                <div>
+                  <FaGithub className=" h-4 md:h-6 w-4 md:w-6 text-white" />
+                </div>
+                <div>
+                  <FaXTwitter className=" h-4 md:h-6 w-4 md:w-6 text-white" />
+                </div>
+                <div>
+                  <FaLinkedin className=" h-4 md:h-6 w-4 md:w-6 text-white" />
+                </div>
+                <div>
+                  <FaInstagram className=" h-4 md:h-6 w-4 md:w-6 text-white" />
+                </div>
+                <div>
+                  <FaFacebook className="h-4 md:h-6 w-4 md:w-6 text-white" />
+                </div>
+              </div>
+            </div>
+            <div className="py-10">
+              <div
+                className={` ${
+                  blogType === "gaming"
+                    ? "border-[#FF5C00] bg-[#ff5c0024]"
+                    : blogType === "Development"
+                    ? "border-[#26B403] bg-[#26b40324]"
+                    : blogType === "3D"
+                    ? "border-[#FF001F] bg-[#ff001f24]"
+                    : "border-[#00FFE0] bg-[#00ffe024]"
+                } h-[2px]`}
+              ></div>
+            </div>
           </div>
         </section>
         {/* sticky section */}
