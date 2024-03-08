@@ -91,9 +91,9 @@ const Section1 = () => {
     <>
       <div style={containerStyle}>
         <div style={textContainerStyle}>
-          <h1 style={{ fontSize: "3rem" }}>How we created the best  </h1>
+          <h1 style={{ fontSize: "3rem" }}>Hyper-realistic Animated Video showcasing innovative  </h1>
           <h1 style={{ fontSize: "3rem" }}>
-          multiplayer game for our Tencent          
+          3D CT Scanner to Augment Airport Security          
           </h1>
           {/* <Button
             style={buttonHeader}
