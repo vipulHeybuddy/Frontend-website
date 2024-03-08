@@ -6,23 +6,23 @@ const Section5 = () => {
     {
       id: "1",
       serialno:"01",
-      heading: "Enhanced Brand Engagement1",
+      heading: "Project Requirements      ",
       imgurl: "",
-      para: "Gaming offers a unique platform to connect with your audience on a deeper level. Your brand establishes a memorable presence in the mind of the gamer, fostering stronger connections and long-term loyalty.",
+      para: "We understood the client’s requirement and, to meet that, it was vital for our team to create a visually striking and functionally accurate 3D CT scanner model. The CT scanner was filled with unique features such as highly accurate scanning and high-quality visuals to help security personnel easily identify and differentiate objects. ",
     },
     {
       id: "2",
       serialno:"01",
-      heading: "Enhanced Brand Engagement2",
+      heading: "Project Execution      ",
       imgurl: "",
-      para: "Gaming offers a unique platform to connect with your audience on a deeper level. Your brand establishes a memorable presence in the mind of the gamer, fostering stronger connections and long-term loyalty.",
+      para: "Our expert 3D modelers worked hard using the latest development tools and techniques to develop the required 3D model. Moreover, they incessantly collaborated with the client for their continuous feedback and its incorporation. This project highlights our perfect fusion of creativity, technological expertise, and effective communication. Lastly, we used a render farm to achieve the highest standards in resolution and detail in a short time.       ",
     },
     {
       id: "3",
       serialno:"01",
-      heading: "Enhanced Brand Engagement3",
+      heading: "Project Delivery      ",
       imgurl: "",
-      para: "Gaming offers a unique platform to connect with your audience on a deeper level. Your brand establishes a memorable presence in the mind of the gamer, fostering stronger connections and long-term loyalty.",
+      para: "This dedication to quality allowed us to showcase our extra professionalism to the project. In the end, the video perfectly demonstrated everything from baggage entering the scanner to generating accurate 3D images.       ",
     },
   
   ];
@@ -36,11 +36,12 @@ const Section5 = () => {
       
       <div className="py-8 lg:w-[90%] text-white mx-auto text-center">
         <h1 className="py-4 font-bold text-2xl lg:text-4xl">
-        Outcome
+        The Transformative Process of Using Captivating Visuals and Narrative for the Animated Video
+
         </h1>
-        <p className="text-xl lg:text-2xl">
+        {/* <p className="text-xl lg:text-2xl">
         Investing in game development is not just about creating entertainment but a strategic move to brand expansion and market leadership. It is a strategic avenue for investing in innovation and engagement and staying ahead in today's dynamic business landscape.
-        </p>
+        </p> */}
       </div>
 
       <div className='grid justify-center rounded-xl shadow-sm sm:grid-1 md:mb-12 md:grid-cols-2 lg:grid-cols-3 gap-y-4 gap-x-4'>

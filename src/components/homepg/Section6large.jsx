@@ -240,7 +240,7 @@ const Pagenation = () => {
                         Autodesk 3D; C++; Unity 2023.1.5
                       </span>
                     </p> */}
-                    <Link href="/Pages/casestudies/automotive">
+                    <Link href="/">
                       <button style={{marginTop: '2rem'}} className="rounded-3xl bg-[#3F8AE2] px-6 py-4 text-sm font-semibold text-white shadow-sm">
                         Read Case Study <span aria-hidden="true">→</span>{" "}
                       </button>
@@ -276,7 +276,7 @@ const Pagenation = () => {
                         3D MAX; C#; Unreal Engine 5
                       </span>
                     </p> */}
-                    <Link href="/Pages/casestudies/gaming">
+                    <Link href="/">
                       <button style={{marginTop: '2rem'}} className="rounded-3xl bg-[#3F8AE2] px-6 py-4 text-sm font-semibold text-white shadow-sm">
                         Read Case Study <span aria-hidden="true">→</span>{" "}
                       </button>
@@ -310,7 +310,7 @@ const Pagenation = () => {
                         3D MAX; C#; Unity, Three.Js
                       </span>
                     </p> */}
-                    <Link href="/Pages/casestudies/fashionlifestyle">
+                    <Link href="/">
                       <button style={{marginTop: '2rem'}} className="rounded-3xl bg-[#3F8AE2] px-6 py-4 text-sm font-semibold text-white shadow-sm">
                         Read Case Study <span aria-hidden="true">→</span>{" "}
                       </button>
