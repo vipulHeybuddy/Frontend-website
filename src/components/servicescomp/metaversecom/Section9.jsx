@@ -65,13 +65,13 @@ const Bottomclient = () => {
         "Hey Buddy is the metaverse development agency we partnered for our recently concluded metaverse project. And all thanks to our partners, as it is because of their expertise and commitment that secured the timely completion of our project while ensuring great quality. Their agility and responsiveness are what we were looking for in our partner and with Hey Budd’s dynamic nature, we got exactly that.",
       // position: "Head of VP at Disney Hotstar",
     },
-    {
-      id: 4,
-      name: "Emily C",
-      content:
-        "Hey Buddy is the metaverse development agency that understands the pulse of American Metaverse businesses. Their commitment to delivering advanced solutions while fostering a collaborative environment truly sets them apart from other Metaverse agencies. Working with Hey Buddy was a great experience blended with professionalism and creativity..",
-      // position: "Head of VP at Disney Hotstar",
-    },
+    // {
+    //   id: 4,
+    //   name: "Emily C",
+    //   content:
+    //     "Hey Buddy is the metaverse development agency that understands the pulse of American Metaverse businesses. Their commitment to delivering advanced solutions while fostering a collaborative environment truly sets them apart from other Metaverse agencies. Working with Hey Buddy was a great experience blended with professionalism and creativity..",
+    //   // position: "Head of VP at Disney Hotstar",
+    // },
    
   ];
 

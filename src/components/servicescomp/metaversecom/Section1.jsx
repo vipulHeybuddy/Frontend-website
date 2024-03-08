@@ -81,7 +81,8 @@ const Herosection = ({ handlecontactusModal }) => {
     transition: "background-color 0.3s, transform 0.3s",
     cursor: "pointer",
     transform: isHovered ? "scale(1.1)" : "scale(1)",
-    marginTop: "1rem",
+    marginTop: "2rem",
+
   };
 
   return (
@@ -108,7 +109,7 @@ const Herosection = ({ handlecontactusModal }) => {
             width={450}
             height={450}
             className="h-[24px] w-[24px] bg-white mx-auto mt-4"
-            src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Rectangle+32.png"
+            src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/8395c882402345f5068d6ffe744b3aeb.png"
             alt="Background"
           />
         </div>

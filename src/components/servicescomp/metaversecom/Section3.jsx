@@ -9,7 +9,7 @@ import WorkItem from "./WorkItem";
 import PhotoItem from "./PhotoItem";
 import GamedevCard from "./GamedevCard";
 
-const images = [0, 1, 2, 3, 4, 5];
+const images = [0, 1, 2, 3, 4, 5,6,7,8,9,10,11];
 const texts = [
   {
     title: "Metaverse Consultation & Analytics",

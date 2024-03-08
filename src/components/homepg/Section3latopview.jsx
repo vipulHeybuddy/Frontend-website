@@ -267,7 +267,7 @@ function Slider1() {
                     through Metaverse platforms.
                   </p>
                 </div>
-                <img src={arDev_IMG} alt="slide_image" />
+                <img src={slide_image_2} alt="slide_image" />
               </div>
             </Link>
           </SwiperSlide>
@@ -276,28 +276,35 @@ function Slider1() {
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
           >
-            <Link href="/Pages/services/3dmodeling">
+            <Link href="/Pages/services/ardevelopment">
               <div
                 className="textdiv"
                 style={{
                   display: "flex",
                   flexDirection: "column",
                   alignItems: "flex-start",
+                  overflow: "hidden",
                 }}
               >
                 <div style={{ textAlign: "left", margin: "1rem" }}>
-                  <h1 style={{ fontSize: "1.7rem", color: "white" }}>
-                    3D modeling
+                  <h1
+                    style={{ fontSize: "1.7rem", color: "white" }}
+                    className="mt-4"
+                  >
+                    Metaverse Development
                   </h1>
                   <p className="text-[#cfcece] font-thin">
-                    We develop responsive, meticulous, and true-to-life 3D
-                    models and use them for eye-catching 3D animations.
+                    We create realistic immersive solutions that create a
+                    convincing new reality to impress your user with AR, VR or
+                    through Metaverse platforms.
                   </p>
                 </div>
-                <img src={slide_image_3} alt="slide_image" />
+                <img src={arDev_IMG} alt="slide_image" />
               </div>
             </Link>
           </SwiperSlide>
+
+          
 
           <SwiperSlide
             onMouseEnter={handleMouseEnter}

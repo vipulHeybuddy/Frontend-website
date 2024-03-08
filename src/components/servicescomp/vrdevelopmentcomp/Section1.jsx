@@ -109,7 +109,7 @@ const Herosection = ({ handlecontactusModal }) => {
             width={450}
             height={450}
             className="h-[24px] w-[24px] bg-white mx-auto mt-4"
-            src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3.VR+development.png"
+            src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/a5a0e947a01622c735016d9ce3f93e55.png"
             alt="Background"
           />
         </div>

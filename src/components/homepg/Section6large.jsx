@@ -110,7 +110,7 @@ const Pagenation = () => {
               href="#link1"
               role="tablist"
             >
-              Real Estate
+             3D Development
             </a>
           </div>
 
@@ -130,7 +130,7 @@ const Pagenation = () => {
               href="#link2"
               role="tablist"
             >
-              Automotive
+             Game Development 
             </a>
           </div>
 
@@ -150,7 +150,7 @@ const Pagenation = () => {
               href="#link3"
               role="tablist"
             >
-              Gaming
+              AR Development
             </a>
           </div>
 
@@ -170,7 +170,8 @@ const Pagenation = () => {
               href="#link3"
               role="tablist"
             >
-              Fashion & Lifestyle
+             VR Development
+
             </a>
           </div>
         </div>
@@ -182,7 +183,7 @@ const Pagenation = () => {
                 <div className="grid sm:grid-1 gap-y-4 gap-x-16  md:mb-12 md:grid-cols-2 lg:grid-cols-2">
                   <div className="border-2 rounded-3xl ">
                     <Image
-                      src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/img1.webp"
+                      src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/A+cubic+shaped+yellow+duck+in+a+Euclidean+world.jpg"
                       width={700}
                       height={700}
                       alt="hey b"
@@ -191,23 +192,20 @@ const Pagenation = () => {
                   </div>
                   <div className="lg:pt-20">
                     <h1 className="py-4 font-semibold text-3xl">
-                      Virtual Property Tour
+                      3D Development
                     </h1>
                     <p>
-                      Our client in the Real Estate industry needed an
-                      innovative solution to showcase their properties to their
-                      prospective buyers. We created an immersive 360° Metaverse
-                      for our clients to showcase their properties and impress
-                      buyers.
+                    See how our innovation, creativity, and the right expertise rendered the best results for our clients.
+
                     </p>
-                    <p className="py-4">
+                    {/* <p className="py-4">
                       Used Technology :{" "}
                       <span className="font-bold">
                         3D Max; C#; Unreal Engine 5
                       </span>
-                    </p>
+                    </p> */}
                     <Link href="/Pages/casestudies/realestate">
-                      <button className="rounded-3xl bg-[#3F8AE2] px-6 py-4 text-sm font-semibold text-white shadow-sm">
+                      <button style={{marginTop: '2rem' }} className="rounded-3xl bg-[#3F8AE2] px-6 py-4 text-sm font-semibold text-white shadow-sm">
                         Read Case Study <span aria-hidden="true">→</span>{" "}
                       </button>
                     </Link>
@@ -219,7 +217,7 @@ const Pagenation = () => {
                 <div className="grid sm:grid-1 gap-y-4 gap-x-16  md:mb-12 md:grid-cols-2 lg:grid-cols-2">
                   <div className="border-2 rounded-3xl ">
                     <Image
-                      src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/img1.webp"
+                      src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/homepage+banner.jpg"
                       width={700}
                       height={700}
                       alt="hey b"
@@ -229,25 +227,21 @@ const Pagenation = () => {
 
                   <div className="lg:pt-20">
                     <h1 className="py-4 font-semibold text-3xl">
-                      Safe VR Training Solution
+                    Game Development 
                     </h1>
                     <p>
-                      Our client wanted to train their employees on complex
-                      machine operations but in a safer and controlled
-                      environment to prevent any mishaps. We helped them with a
-                      VR training solution to deliver exactly that. As a result,
-                      they achieved better training outcomes in a safer
-                      environment saving a lot of time and resources.
+                    We helped our clients build a strong and loyal gaming community for long-term success.
+
                     </p>
-                    <p className="py-4">
+                    {/* <p className="py-4">
                       Used Technology :{" "}
                       <span className="font-bold">
                         {" "}
                         Autodesk 3D; C++; Unity 2023.1.5
                       </span>
-                    </p>
+                    </p> */}
                     <Link href="/Pages/casestudies/automotive">
-                      <button className="rounded-3xl bg-[#3F8AE2] px-6 py-4 text-sm font-semibold text-white shadow-sm">
+                      <button style={{marginTop: '2rem'}} className="rounded-3xl bg-[#3F8AE2] px-6 py-4 text-sm font-semibold text-white shadow-sm">
                         Read Case Study <span aria-hidden="true">→</span>{" "}
                       </button>
                     </Link>
@@ -259,7 +253,7 @@ const Pagenation = () => {
                 <div className="grid sm:grid-1 gap-y-4 gap-x-16  md:mb-12 md:grid-cols-2 lg:grid-cols-2">
                   <div className="border-2 rounded-3xl ">
                     <Image
-                      src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/img1.webp"
+                      src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/home+page+banner.jpg"
                       width={700}
                       height={700}
                       alt="hey b"
@@ -268,24 +262,22 @@ const Pagenation = () => {
                   </div>
                   <div className="lg:pt-20">
                     <h1 className="py-4 font-semibold text-3xl">
-                      Youth attracting AR Games
+                    AR Development
+
                     </h1>
                     <p>
-                      Our client approached us after learning about our
-                      expertise in Game development. They wanted to reach out to
-                      Millennials and Gen Z through an attractive AR gaming
-                      experience that established a relationship with their
-                      brand. Staying true to our name, we created phenomenal AR
-                      games with the new world.
+                    Experience the amazing blend of real and virtual worlds that creates an unforgettable user experience.
+
+
                     </p>
-                    <p className="py-4">
+                    {/* <p className="py-4">
                       Used Technology :{" "}
                       <span className="font-bold">
                         3D MAX; C#; Unreal Engine 5
                       </span>
-                    </p>
+                    </p> */}
                     <Link href="/Pages/casestudies/gaming">
-                      <button className="rounded-3xl bg-[#3F8AE2] px-6 py-4 text-sm font-semibold text-white shadow-sm">
+                      <button style={{marginTop: '2rem'}} className="rounded-3xl bg-[#3F8AE2] px-6 py-4 text-sm font-semibold text-white shadow-sm">
                         Read Case Study <span aria-hidden="true">→</span>{" "}
                       </button>
                     </Link>
@@ -297,7 +289,7 @@ const Pagenation = () => {
                 <div className="grid sm:grid-1 gap-y-4 gap-x-16  md:mb-12 md:grid-cols-2 lg:grid-cols-2">
                   <div className="border-2 rounded-3xl ">
                     <Image
-                      src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/img1.webp"
+                      src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/meta+vr+glasses.jpg"
                       width={700}
                       height={700}
                       alt="hey b"
@@ -306,24 +298,20 @@ const Pagenation = () => {
                   </div>
                   <div className="lg:pt-20">
                     <h1 className="py-4 font-semibold text-3xl">
-                      AR Fashion Solution
+                    VR Development
+
                     </h1>
                     <p>
-                      Our client wanted to enhance the convenience of their
-                      existing eCommerce store. They collaborated with us for
-                      our renowned AR tryon solution. This allowed users to try
-                      3D models of the wearable without leaving home, be more
-                      certain and confident about the product and make faster
-                      decisions. More importantly, it reduced returns.
+                    Our ultra-realistic VR experience helped clients enhance their market share with innovative customer experience.
                     </p>
-                    <p className="py-4">
+                    {/* <p className="py-4">
                       Used Technology :{" "}
                       <span className="font-bold">
                         3D MAX; C#; Unity, Three.Js
                       </span>
-                    </p>
+                    </p> */}
                     <Link href="/Pages/casestudies/fashionlifestyle">
-                      <button className="rounded-3xl bg-[#3F8AE2] px-6 py-4 text-sm font-semibold text-white shadow-sm">
+                      <button style={{marginTop: '2rem'}} className="rounded-3xl bg-[#3F8AE2] px-6 py-4 text-sm font-semibold text-white shadow-sm">
                         Read Case Study <span aria-hidden="true">→</span>{" "}
                       </button>
                     </Link>

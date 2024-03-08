@@ -235,13 +235,13 @@ const Page = () => {
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid9.png",
       para: "Our experts will then share a project proposal with a stipulated budget and timeline.",
     },
-    {
-      id: "4",
-      heading: "Project Onboarded",
-      imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid10.png",
-      para: "Hey Buddy experts take over your project",
-    },
+    // {
+    //   id: "4",
+    //   heading: "Project Onboarded",
+    //   imgurl:
+    //     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid10.png",
+    //   para: "Hey Buddy experts take over your project",
+    // },
     // {
     //   id: "5",
     //   heading: "Commitment to Quality",
