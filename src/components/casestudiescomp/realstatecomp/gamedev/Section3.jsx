@@ -6,22 +6,15 @@ const Section3 = () => {
       <div className="py-6 lg:w-[90%] mx-auto grid grid-cols-2 md:grid-cols-2">
         <div>
           <h1 className="font-bold text-2xl lg:text-4xl px-6 py-6">
-            Problem Statement: dolor sit amet consectetur. Bibendum
+          Hyper-realistic Animated Video showcasing innovative 3D CT Scanner to Augment Airport Security
+
           </h1>
         </div>
         <div>
           <p className="text-gray-400 px-6 py-6">
-            Lorem ipsum dolor sit amet consectetur. Proin augue est lorem massa.
-            Pellentesque enim consectetur sagittis vestibulum. Tempor enim
-            tristique adipiscing sagittis quis vitae pulvinar at nisl. Cursus a
-            in nunc velit suscipit. Malesuada ultricies lacus egestas pretium
-            volutpat viverra urna. Rhoncus dui diam aenean quam cras quis
-            mauris. Massa iaculis at ultrices vulputate feugiat.Morbi blandit volutpat mi eu sagittis ultrices in est mi. Aliquam
-            lorem dolor sed amet condimentum diam odio viverra ullamcorper. Amet
-            nibh.Morbi blandit volutpat mi eu sagittis ultrices in est mi. Aliquam
-            lorem dolor sed amet condimentum diam odio viverra ullamcorper. Amet
-            nibh.
+          Our client is a leading CT scanner manufacturer in the UAE. They wanted a hyper-realistic explanatory video to showcase the innovative functionality of their latest state-of-the-art CT scan machine developed for airports. They needed a creative partner with a team that must possess skills to showcase their revolutionary but complex vision accurately. The video was going to be ultra-realistic animations requiring not just software skills but also hardware resources. 
           </p>
+          <p className="text-gray-400 px-6 py-6">Hey Buddy fits their criteria of the right partner with the right resources. To realize their project, we took the responsibility of designing a high-quality 3D animation video demonstrating the intricate details of the scanner using advanced technology. </p>
         </div>
       </div>
 
