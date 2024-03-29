@@ -3,44 +3,28 @@ export const Blogs = [
     id: 1,
     blogType: "gaming",
     title: "Top Game Development Companies - Choose the Best One",
-    author: "John Doe",
-    authorRole:
-      "Founder of SAAS First - the Best AI and Data-Driven Customer Engagement Tool",
-    authorImage: "/Images/user.png",
-    blogImage:"/Images/Blog.png",
-    pubDate:"OCT 20 .2 weeks ago"
+
+    blogImage: "/Images/Blog.png",
   },
   {
     id: 2,
-    blogType: "Development",
-    title: "Top Game Development Companies - Choose the Best One",
-    author: "John Doe",
-    authorRole:
-      "Founder of SAAS First - the Best AI and Data-Driven Customer Engagement Tool",
-    authorImage: "/Images/user.png",
-    blogImage:"/Images/Blog.png",
-    pubDate:"OCT 20 .2 weeks ago"
+    blogType: "gaming",
+    title: "Why should I invest in game app development? Complete Guide",
+
+    blogImage: "/Images/Blog.png",
   },
   {
     id: 3,
-    blogType: "3D",
-    title: "Top Game Development Companies - Choose the Best One",
-    author: "John Doe",
-    authorRole:
-      "Founder of SAAS First - the Best AI and Data-Driven Customer Engagement Tool",
-    authorImage: "/Images/user.png",
-    blogImage:"/Images/Blog.png",
-    pubDate:"OCT 20 .2 weeks ago"
+    blogType: "gaming",
+    title: "AI in Gaming: Refining the Way Games Developed & Play",
+
+    blogImage: "/Images/Blog.png",
   },
   {
     id: 4,
-    blogType: "design",
-    title: "Top Game Development Companies - Choose the Best One",
-    author: "John Doe",
-    authorRole:
-      "Founder of SAAS First - the Best AI and Data-Driven Customer Engagement Tool",
-    authorImage: "/Images/user.png",
-    blogImage:"/Images/Blog.png",
-    pubDate:"OCT 20 .2 weeks ago"
+    blogType: "gaming",
+    title: "What is CGI: Definition, Development & Common Examples",
+
+    blogImage: "/Images/Blog.png",
   },
 ];
