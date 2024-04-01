@@ -8,21 +8,21 @@ export const Blogs = [
   },
   {
     id: 2,
-    blogType: "gaming",
+    blogType: "Development",
     title: "Why should I invest in game app development? Complete Guide",
 
     blogImage: "/Images/Blog.png",
   },
   {
     id: 3,
-    blogType: "gaming",
+    blogType: "3D",
     title: "AI in Gaming: Refining the Way Games Developed & Play",
 
     blogImage: "/Images/Blog.png",
   },
   {
     id: 4,
-    blogType: "gaming",
+    blogType: "Design",
     title: "What is CGI: Definition, Development & Common Examples",
 
     blogImage: "/Images/Blog.png",
