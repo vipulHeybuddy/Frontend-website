@@ -110,7 +110,7 @@ const Pagenation = () => {
               href="#link1"
               role="tablist"
             >
-             3D Development
+              3D Development
             </a>
           </div>
 
@@ -130,7 +130,7 @@ const Pagenation = () => {
               href="#link2"
               role="tablist"
             >
-             Game Development 
+              Game Development
             </a>
           </div>
 
@@ -170,8 +170,7 @@ const Pagenation = () => {
               href="#link3"
               role="tablist"
             >
-             VR Development
-
+              VR Development
             </a>
           </div>
         </div>
@@ -195,8 +194,8 @@ const Pagenation = () => {
                       3D Development
                     </h1>
                     <p>
-                    See how our innovation, creativity, and the right expertise rendered the best results for our clients.
-
+                      See how our innovation, creativity, and the right
+                      expertise rendered the best results for our clients.
                     </p>
                     {/* <p className="py-4">
                       Used Technology :{" "}
@@ -205,7 +204,10 @@ const Pagenation = () => {
                       </span>
                     </p> */}
                     <Link href="/Pages/casestudies/realestate">
-                      <button style={{marginTop: '2rem' }} className="rounded-3xl bg-[#3F8AE2] px-6 py-4 text-sm font-semibold text-white shadow-sm">
+                      <button
+                        style={{ marginTop: "2rem" }}
+                        className="rounded-3xl bg-[#3F8AE2] px-6 py-4 text-sm font-semibold text-white shadow-sm"
+                      >
                         Read Case Study <span aria-hidden="true">→</span>{" "}
                       </button>
                     </Link>
@@ -227,11 +229,11 @@ const Pagenation = () => {
 
                   <div className="lg:pt-20">
                     <h1 className="py-4 font-semibold text-3xl">
-                    Game Development 
+                      Game Development
                     </h1>
                     <p>
-                    We helped our clients build a strong and loyal gaming community for long-term success.
-
+                      We helped our clients build a strong and loyal gaming
+                      community for long-term success.
                     </p>
                     {/* <p className="py-4">
                       Used Technology :{" "}
@@ -241,7 +243,10 @@ const Pagenation = () => {
                       </span>
                     </p> */}
                     <Link href="/">
-                      <button style={{marginTop: '2rem'}} className="rounded-3xl bg-[#3F8AE2] px-6 py-4 text-sm font-semibold text-white shadow-sm">
+                      <button
+                        style={{ marginTop: "2rem" }}
+                        className="rounded-3xl bg-[#3F8AE2] px-6 py-4 text-sm font-semibold text-white shadow-sm"
+                      >
                         Read Case Study <span aria-hidden="true">→</span>{" "}
                       </button>
                     </Link>
@@ -262,13 +267,11 @@ const Pagenation = () => {
                   </div>
                   <div className="lg:pt-20">
                     <h1 className="py-4 font-semibold text-3xl">
-                    AR Development
-
+                      AR Development
                     </h1>
                     <p>
-                    Experience the amazing blend of real and virtual worlds that creates an unforgettable user experience.
-
-
+                      Experience the amazing blend of real and virtual worlds
+                      that creates an unforgettable user experience.
                     </p>
                     {/* <p className="py-4">
                       Used Technology :{" "}
@@ -277,7 +280,10 @@ const Pagenation = () => {
                       </span>
                     </p> */}
                     <Link href="/">
-                      <button style={{marginTop: '2rem'}} className="rounded-3xl bg-[#3F8AE2] px-6 py-4 text-sm font-semibold text-white shadow-sm">
+                      <button
+                        style={{ marginTop: "2rem" }}
+                        className="rounded-3xl bg-[#3F8AE2] px-6 py-4 text-sm font-semibold text-white shadow-sm"
+                      >
                         Read Case Study <span aria-hidden="true">→</span>{" "}
                       </button>
                     </Link>
@@ -298,11 +304,11 @@ const Pagenation = () => {
                   </div>
                   <div className="lg:pt-20">
                     <h1 className="py-4 font-semibold text-3xl">
-                    VR Development
-
+                      VR Development
                     </h1>
                     <p>
-                    Our ultra-realistic VR experience helped clients enhance their market share with innovative customer experience.
+                      Our ultra-realistic VR experience helped clients enhance
+                      their market share with innovative customer experience.
                     </p>
                     {/* <p className="py-4">
                       Used Technology :{" "}
@@ -311,7 +317,10 @@ const Pagenation = () => {
                       </span>
                     </p> */}
                     <Link href="/">
-                      <button style={{marginTop: '2rem'}} className="rounded-3xl bg-[#3F8AE2] px-6 py-4 text-sm font-semibold text-white shadow-sm">
+                      <button
+                        style={{ marginTop: "2rem" }}
+                        className="rounded-3xl bg-[#3F8AE2] px-6 py-4 text-sm font-semibold text-white shadow-sm"
+                      >
                         Read Case Study <span aria-hidden="true">→</span>{" "}
                       </button>
                     </Link>

@@ -727,7 +727,6 @@ function BlogContent({ SelectedBlog }) {
                   "section6",
                   "section7",
                   "section8",
-                  "section9",
                 ]}
                 currentClassName={`border-l-4 ${
                   blogType === "gaming"
