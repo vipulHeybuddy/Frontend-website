@@ -126,7 +126,7 @@ const Page = () => {
       heading: "Enhanced Brand Engagement",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid1.png",
-      para: "Gaming offers a unique platform to connect with your audience on a deeper level. Your brand establishes a memorable presence in the mind of the gamer, fostering stronger connections and long-term loyalty.",
+      para: "Games offers a unique platform to connect with your audience on a deeper level. Your brand establishes a memorable presence in the mind of the gamer, fostering stronger connections and long-term loyalty.",
     },
     {
       id: "2",
@@ -140,7 +140,7 @@ const Page = () => {
       heading: "Best Way for Brand Awareness",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid3.png",
-      para: "Gaming is a powerful tool to aware, educate and train your audience on your products. Create immersive experiences that communicate your brand message to your customers and inform them about your products or services. Thus, merging entertainment and marketing for the best possible outcomes. ",
+      para: "Games is a powerful tool to aware, educate and train your audience on your products. Create immersive experiences that communicate your brand message to your customers and inform them about your products or services. Thus, merging entertainment and marketing for the best possible outcomes. ",
     },
     {
       id: "4",
@@ -154,14 +154,14 @@ const Page = () => {
       heading: "Cross-Platform Reach:",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid5.png",
-      para: "Reach your audience across various platforms and devices. From mobile and tablets to PCs, consoles, or VR, be present where your audience is and enjoy a broader reach. Gaming ensures that your message is accessible to a diverse and widespread audience.",
+      para: "Reach your audience across various platforms and devices. From mobile and tablets to PCs, consoles, or VR, be present where your audience is and enjoy a broader reach. Games ensures that your message is accessible to a diverse and widespread audience.",
     },
     {
       id: "6",
       heading: "Innovative Marketing Opportunities:",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid6.png",
-      para: "Games offer innovative marketing avenues by integrating your brand seamlessly into gaming storylines and environments. Utilize in-game advertising, or create branded mini-games for hyper-interactive campaigns, to enhance brand visibility and brand recall.",
+      para: "Games offer innovative marketing avenues by integrating your brand seamlessly into Games storylines and environments. Utilize in-game advertising, or create branded mini-games for hyper-interactive campaigns, to enhance brand visibility and brand recall.",
     },
   ];
 
@@ -181,7 +181,7 @@ const Page = () => {
       heading: "Expertise Across Platform",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid7.png",
-      para: "We offer a comprehensive suite of services across all gaming platforms. We develop games for mobile, offer Unreal and Unity game development, AR/VR game development, and Metaverse game development.",
+      para: "We offer a comprehensive suite of services across all Games platforms. We develop games for mobile, offer Unreal and Unity game development, AR/VR game development, and Metaverse game development.",
     },
     {
       id: "2",
@@ -195,7 +195,7 @@ const Page = () => {
       heading: "Creative Innovation",
       imgurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid9.png",
-      para: "We don't just build games; we craft experiences as our team of gamer-first developers thrive on creative innovation. Expect unique storylines, dynamically engaging gameplay mechanics, and visually stunning environments to captivate your gaming audience and set your brand apart.",
+      para: "We don't just build games; we craft experiences as our team of gamer-first developers thrive on creative innovation. Expect unique storylines, dynamically engaging gameplay mechanics, and visually stunning environments to captivate your Games audience and set your brand apart.",
     },
     {
       id: "4",

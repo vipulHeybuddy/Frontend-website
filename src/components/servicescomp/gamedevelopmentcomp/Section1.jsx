@@ -121,7 +121,7 @@ const Herosection = ({ handlecontactusModal }) => {
         className="py-8 text-xl text-white"
       >
         <p>
-          Get an AI-powered smart gaming solution that captivates with its
+          Get an AI-powered smart Games solution that captivates with its
           hyper-realistic graphics and enthrals with its deeply engaging
           gameplay. Hey Buddy is India's leading game development company,
           maintaining a large team of gamer-first developers who know what

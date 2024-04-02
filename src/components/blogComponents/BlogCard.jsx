@@ -16,7 +16,7 @@ const BlogCard = ({ category, id, img, title, summary }) => {
              */}
             <span
               className={`h-4 w-4 rounded-full ${
-                category === "gaming"
+                category === "Games"
                   ? "bg-[#FF5C00]"
                   : category === "Development"
                   ? "bg-[#26B403]"

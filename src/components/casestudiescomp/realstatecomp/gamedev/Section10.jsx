@@ -1,16 +1,13 @@
-
 import React, { useState } from "react";
 import SwipeableViews from "react-swipeable-views";
 
-const Section10 = () => {
-
+const Section10 = ({testimonal}) => {
   const cardData = [
     {
       id: 1,
-      content:
-        "We had the privilege of collaborating with the talented team of Hey Buddy. They made the animation almost life-like by bringing realism and accuracy to the final video. Now we can explain the complex features of our CT scanners to our customers and revolutionize airport security. I would give full marks to the design and execution team behind the project. The video perfectly balances complexity and accessibility.",
+      content:testimonal,
       number: "01",
-      name: "Zan Syed",
+      // name: "Zan Syed",
     },
     // {
     //   id: 2,
@@ -65,12 +62,9 @@ const Section10 = () => {
         alignItems: "center",
       }}
     >
-      <div
-        className="pt-16  "
-        id="testimonials"
-      >
+      <div className="pt-16  " id="testimonials">
         <div className="py-2 lg:py-4  mx-auto text-center justify-center  text-2xl lg:text-4xl font-bold text-white mb-6">
-          <h3>Client Feedback</h3>
+          <h3>Client Testimonal</h3>
         </div>
 
         <SwipeableViews
@@ -85,7 +79,6 @@ const Section10 = () => {
             <div style={{ display: "flex", justifyContent: "center" }}>
               <div
                 key={card.id}
-                
                 // style={{
                 //   flex: "0 0 70%", // Set width to 100%
                 //   boxSizing: "border-box",
@@ -102,7 +95,7 @@ const Section10 = () => {
                 <p>{card.content}</p>
 
                 <p style={{ textAlign: "right" }}>{card.number}</p>
-                <p style={{ textAlign: "right" }}>{card.name}</p>
+                {/* <p style={{ textAlign: "right" }}>{card.name}</p> */}
               </div>
             </div>
           ))}

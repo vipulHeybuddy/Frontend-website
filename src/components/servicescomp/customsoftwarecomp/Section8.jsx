@@ -72,7 +72,7 @@ const Pagenation = () => {
 
           Hey Buddy claim to the leading spot of a game development company in
           India emanates from its expert team. Our developers bring in advanced
-          and profound expertise to deliver the best gaming solution for you.
+          and profound expertise to deliver the best Games solution for you.
         </p> 
       </div>
 

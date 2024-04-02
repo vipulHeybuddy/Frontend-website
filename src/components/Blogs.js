@@ -1,7 +1,7 @@
 export const Blogs = [
   {
     id: 1,
-    blogType: "gaming",
+    blogType: "Games",
     title: "Top Game Development Companies - Choose the Best One",
 
     blogImage: "/Images/Blog.png",
@@ -16,7 +16,7 @@ export const Blogs = [
   {
     id: 3,
     blogType: "3D",
-    title: "AI in Gaming: Refining the Way Games Developed & Play",
+    title: "AI in Games: Refining the Way Games Developed & Play",
 
     blogImage: "/Images/Blog.png",
   },

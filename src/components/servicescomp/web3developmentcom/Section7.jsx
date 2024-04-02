@@ -52,9 +52,9 @@ const Section7 = () => {
         },
         {
           id: "2",
-          heading: "Interconnected Web 3.0 Gaming Ecosystems",
+          heading: "Interconnected Web 3.0 Games Ecosystems",
           // imgurl: "",
-          para: "We developed a Web 3.0 cross-chain gaming title. As evident the gaming ecosystem integrated multiple blockchain networks this required seamless interoperability among the. This resulted tin users moving across blockchain platform freely and in exponential increase in in-game transactions, hence, greater revenue.",
+          para: "We developed a Web 3.0 cross-chain Games title. As evident the Games ecosystem integrated multiple blockchain networks this required seamless interoperability among the. This resulted tin users moving across blockchain platform freely and in exponential increase in in-game transactions, hence, greater revenue.",
         },
         {
           id: "3",

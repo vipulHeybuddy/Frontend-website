@@ -39,19 +39,19 @@ const texts = [
   {
     title: "Metaverse Game Development",
     description:
-      "Get ready to teleport your gaming audience into a new reality of Metaverse games. We are a renowned Metaverse game development company that knows community-building, utilisation of user-generated content, and capitalise on social connectivity.",
+      "Get ready to teleport your Games audience into a new reality of Metaverse games. We are a renowned Metaverse game development company that knows community-building, utilisation of user-generated content, and capitalise on social connectivity.",
     img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds4.jpg",
   },
   {
     title: "Web3 Game Development",
     description:
-      "Ready to explore decentralised gaming for untapped business opportunities, we have an offer. Our team develops decentralised and secure Web3 gaming solutions utilising leading technologies like AI, blockchain, smart contracts, NFTs, and much more. ",
+      "Ready to explore decentralised Games for untapped business opportunities, we have an offer. Our team develops decentralised and secure Web3 Games solutions utilising leading technologies like AI, blockchain, smart contracts, NFTs, and much more. ",
     img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg",
   },
   {
     title: "AR/VR Game Development",
     description:
-      "We create immersive AR and VR games that merge with gamers' real world and alter their gaming experience for good. The high-fidelity games blur the line between the real and the gaming world and create a gaming experience that gamers can never get enough of.",
+      "We create immersive AR and VR games that merge with gamers' real world and alter their Games experience for good. The high-fidelity games blur the line between the real and the Games world and create a Games experience that gamers can never get enough of.",
     img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.png",
   },
 ];

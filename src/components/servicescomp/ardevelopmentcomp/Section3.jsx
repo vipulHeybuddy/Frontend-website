@@ -66,9 +66,9 @@ const texts = [
     img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.png",
   },
   {
-    title: "AR for Gaming",
+    title: "AR for Games",
     description:
-      "Add a layer of immersion and make your gamers enter the fantasy world. We design and develop augmented reality games for more enjoyable gaming than ever.      ",
+      "Add a layer of immersion and make your gamers enter the fantasy world. We design and develop augmented reality games for more enjoyable Games than ever.      ",
     img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds3.jpg",
   },
   {
@@ -207,7 +207,7 @@ const Motionslide = () => {
                 <PhotoItem
                   title="9"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/AR+development/Ar+for+gaming.jpg"
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/AR+development/Ar+for+Games.jpg"
                   }
                 />
                 <PhotoItem

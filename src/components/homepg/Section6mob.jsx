@@ -23,7 +23,7 @@ const Pagenationmob = () => {
       imageurl:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/img1.webp",
       heading: "Safe VR Training Solution",
-      para: "We helped our clients build a strong and loyal gaming community for long-term success.",
+      para: "We helped our clients build a strong and loyal Games community for long-term success.",
       techused: "Autodesk 3D; C++; Unity 2023.1.5",
       urllink: "/Pages/casestudies/gamedevelopment",
     },
@@ -35,7 +35,7 @@ const Pagenationmob = () => {
       heading: "Youth attracting AR Games",
       para: "Experience the amazing blend of real and virtual worlds that creates an unforgettable user experience.",
       techused: "3D MAX; C#; Unreal Engine 5",
-      urllink: "/Pages/casestudies/gaming",
+      urllink: "/Pages/casestudies/Games",
     },
     {
       id: "4",

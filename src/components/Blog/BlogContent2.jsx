@@ -55,7 +55,7 @@ function BlogContent({ SelectedBlog }) {
             {/* intro image */}
             <div
               className={`rounded-xl relative overflow-hidden border-2 h-[60vh] xl:h-auto min-h-[60vh] ${
-                blogType === "gaming"
+                blogType === "Games"
                   ? "border-[#FF5C00]"
                   : blogType === "Development"
                   ? "border-[#26B403]"
@@ -70,7 +70,7 @@ function BlogContent({ SelectedBlog }) {
               <div className="absolute bottom-0 w-full py-3 md:py-[25px] px-3 md:px-10 backdrop-blur-lg flex flex-col gap-2 md:gap-[21px]">
                 <div
                   className={`flex items-center py-[5px] px-4 gap-[6px] w-fit rounded-full ${
-                    blogType === "gaming"
+                    blogType === "Games"
                       ? "bg-[#ff5c0024]"
                       : blogType === "Development"
                       ? "bg-[#26b40324]"
@@ -81,7 +81,7 @@ function BlogContent({ SelectedBlog }) {
                 >
                   <span
                     className={`h-4 w-4 rounded-full ${
-                      blogType === "gaming"
+                      blogType === "Games"
                         ? "bg-[#FF5C00]"
                         : blogType === "Development"
                         ? "bg-[#26B403]"
@@ -92,7 +92,7 @@ function BlogContent({ SelectedBlog }) {
                   ></span>
                   <span
                     className={`text-[#FF5C00] font-bold ${
-                      blogType === "gaming"
+                      blogType === "Games"
                         ? "text-[#FF5C00]"
                         : blogType === "Development"
                         ? "text-[#26B403]"
@@ -121,7 +121,7 @@ function BlogContent({ SelectedBlog }) {
                 </h1>
                 <p className>
                   The answer to the above question is pretty straightforward --
-                  the gaming market is booming and you should not miss this
+                  the Games market is booming and you should not miss this
                   opportunity.
                 </p>
                 <p>
@@ -138,7 +138,7 @@ function BlogContent({ SelectedBlog }) {
                   <li>increased smartphone penetration,</li>
                   <li>availability of high-bandwidth networks,</li>
                   <li>
-                    the advent of novel, intelligent, and immersive gaming
+                    the advent of novel, intelligent, and immersive Games
                     experiences with AI, AR, and VR games
                   </li>
                   <li>
@@ -147,7 +147,7 @@ function BlogContent({ SelectedBlog }) {
                   </li>
                 </ul>
                 <p>
-                  So, if you want to invest in gaming, your time starts right
+                  So, if you want to invest in Games, your time starts right
                   now with this blog. Read this complete guide.
                 </p>
               </div>
@@ -208,7 +208,7 @@ function BlogContent({ SelectedBlog }) {
                   </li>
                   <li>What are the potential themes, genres, or narratives?</li>
                   <li>
-                    How can we create a unique and engaging gaming experience?
+                    How can we create a unique and engaging Games experience?
                   </li>
                   <li>What target audience are we aiming for?</li>
                   <li>
@@ -290,7 +290,7 @@ function BlogContent({ SelectedBlog }) {
                   In the polishing phase, game developers fine-tune the
                   gameplay, graphics, and overall user experience so that the
                   final product meets the highest quality standards as well as
-                  the expectations of the gaming audience, delivering an
+                  the expectations of the Games audience, delivering an
                   exceptional player experience.
                 </p>
                 <p>
@@ -316,7 +316,7 @@ function BlogContent({ SelectedBlog }) {
                 <p>
                   Yes, the community of gamers you build, who will stay true to
                   you in the toughest of times. All you need to do is work
-                  wholeheartedly to bring the best gaming experience to them. In
+                  wholeheartedly to bring the best Games experience to them. In
                   this section, we will discuss the advantages of investing in
                   game development. Starting with, of course, community
                   building.
@@ -343,7 +343,7 @@ function BlogContent({ SelectedBlog }) {
                 <p className="font-semibold">Lucrative Industry Growth:</p>
                 <p>
                   We already shared a stat at the beginning of this blog on the
-                  phenomenal growth that the gaming industry will witness --
+                  phenomenal growth that the Games industry will witness --
                   $583.69 billion by 2030.
                 </p>
                 <p>
@@ -352,7 +352,7 @@ function BlogContent({ SelectedBlog }) {
                   community that sticks for a longer term.
                 </p>
                 <p>
-                  The gaming industry has witnessed a significant increase in
+                  The Games industry has witnessed a significant increase in
                   revenue year over year, driven by both community and the
                   increasing global market for video games across various
                   platforms.
@@ -378,7 +378,7 @@ function BlogContent({ SelectedBlog }) {
                 <p className="font-semibold">Global Market Reach</p>
                 <p>
                   Games have a universal language anyone, anywhere can be part
-                  of the gaming community. This makes the industry more
+                  of the Games community. This makes the industry more
                   accessible and more appealing to diverse audiences worldwide.
                 </p>
                 <p>
@@ -414,13 +414,13 @@ function BlogContent({ SelectedBlog }) {
                   that otherwise could never have been imagined.
                 </p>
                 <p>
-                  For example, on the one hand, AI has made gaming more adapted
+                  For example, on the one hand, AI has made Games more adapted
                   and personalized to individual gamer preferences, and VR and
                   AR have merged the realities of the digital and real world.
                 </p>
                 <p>
                   These constant advancements have brought improved graphics
-                  capabilities and of course the enhanced gaming experience.
+                  capabilities and of course the enhanced Games experience.
                 </p>
                 <p>
                   So, while investing in the games is the right idea, investing
@@ -448,9 +448,9 @@ function BlogContent({ SelectedBlog }) {
                 <h1 className="text-xl font-extrabold ">Conclusion</h1>
                 <p>
                   Game development is all about passion, to reach the deepest
-                  parts of your gaming audience's brain, you should really think
+                  parts of your Games audience's brain, you should really think
                   like a gamer. This is something you either learn or higher
-                  gaming experts for the same.
+                  Games experts for the same.
                 </p>
                 <p>
                   Game development is a great investment avenue. It helps you
@@ -493,10 +493,10 @@ function BlogContent({ SelectedBlog }) {
                 </p>
                 <p>
                   Hey, Buddy is a trusted game development partner with a range
-                  of gaming titles in its portfolio.
+                  of Games titles in its portfolio.
                 </p>
                 <p className="font-semibold">
-                  Which is the No 1 gaming company in India?
+                  Which is the No 1 Games company in India?
                 </p>
                 <p>
                   Headquartered in Delhi NCR, Hey Buddy is one of the best game
@@ -506,8 +506,8 @@ function BlogContent({ SelectedBlog }) {
                   What are game development services?
                 </p>
                 <p>
-                  Gaming services range from full-cycle game development to
-                  revamping existing gaming projects for better results, as well
+                  Games services range from full-cycle game development to
+                  revamping existing Games projects for better results, as well
                   as game designing and development.
                 </p>
               </div>
@@ -518,7 +518,7 @@ function BlogContent({ SelectedBlog }) {
           <div>
             <div
               className={` border-2  rounded-[30px] flex items-center justify-between py-[40px] px-5 ${
-                blogType === "gaming"
+                blogType === "Games"
                   ? "border-[#FF5C00] bg-[#ff5c0024]"
                   : blogType === "Development"
                   ? "border-[#26B403] bg-[#26b40324]"
@@ -551,7 +551,7 @@ function BlogContent({ SelectedBlog }) {
             <div className="py-10">
               <div
                 className={` ${
-                  blogType === "gaming"
+                  blogType === "Games"
                     ? "border-[#FF5C00] bg-[#ff5c0024]"
                     : blogType === "Development"
                     ? "border-[#26B403] bg-[#26b40324]"
@@ -587,7 +587,7 @@ function BlogContent({ SelectedBlog }) {
                   "section5",
                 ]}
                 currentClassName={`border-l-4 ${
-                  blogType === "gaming"
+                  blogType === "Games"
                     ? "border-[#FF5C00] text-[#FF5C00]"
                     : blogType === "Development"
                     ? "border-[#26B403] text-[#26B403]"

@@ -20,7 +20,7 @@ const texts = [
   {
     title: "Animation",
     description:
-      "We bring 3D models to life. We create dynamic and engaging visual sequences for films, advertising, and gaming. ",
+      "We bring 3D models to life. We create dynamic and engaging visual sequences for films, advertising, and Games. ",
     img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg",
   },
   {
@@ -56,7 +56,7 @@ const texts = [
   {
     title: "Virtual Reality (VR) Development    ",
     description:
-      "We create a new reality with fully immersive virtual reality environments. Use it for gaming, training simulations, and virtual tours.      ",
+      "We create a new reality with fully immersive virtual reality environments. Use it for Games, training simulations, and virtual tours.      ",
     img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg",
   },
   {

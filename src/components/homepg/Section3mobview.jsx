@@ -7,49 +7,49 @@ function Mobslider() {
     {
       title: "Game Development",
       description:
-        "From casual mobile gaming to console adventure, we create all here.",
+        "From casual mobile Games to console adventure, we create all here.",
       image:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.png",
     },
     {
       title: "Immersive Development",
       description:
-        "From casual mobile gaming to console adventure, we create all here.",
+        "From casual mobile Games to console adventure, we create all here.",
       image:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Immersive.png",
     },
     {
       title: "3D Development",
       description:
-        "From casual mobile gaming to console adventure, we create all here.",
+        "From casual mobile Games to console adventure, we create all here.",
       image:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Cube.jpg",
     },
     {
       title: "AI Services",
       description:
-        "From casual mobile gaming to console adventure, we create all here.",
+        "From casual mobile Games to console adventure, we create all here.",
       image:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/ai.jpg",
     },
     {
       title: "APP Development",
       description:
-        "From casual mobile gaming to console adventure, we create all here.",
+        "From casual mobile Games to console adventure, we create all here.",
       image:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/appdev.jpg",
     },
     {
       title: "VR Training & Simulation",
       description:
-        "From casual mobile gaming to console adventure, we create all here.",
+        "From casual mobile Games to console adventure, we create all here.",
       image:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/metaverse.jpg",
     },
     {
       title: "Web3 Development",
       description:
-        "From casual mobile gaming to console adventure, we create all here.",
+        "From casual mobile Games to console adventure, we create all here.",
       image:
         "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/blockchain.jpg",
     },

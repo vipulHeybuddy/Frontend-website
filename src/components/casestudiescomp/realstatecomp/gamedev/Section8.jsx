@@ -6,7 +6,14 @@ import Image from "next/image";
 import "../../../../styles/Timelinecomp.css";
 import { motion, useAnimation } from "framer-motion";
 
-const Timelinecomp = () => {
+const Timelinecomp = ({
+  heading,
+  requirement,
+  ideation,
+  designing,
+  development,
+  deployment,
+}) => {
   const controls = useAnimation();
   const ref = useRef();
 
@@ -81,15 +88,11 @@ const Timelinecomp = () => {
       animate={controls}
       variants={textAnimation1}
     >
-      <div className="py-8 text-white">
+      <div className="py-8 mx-4 text-white">
         <h1 className="py-4 lg:w-[80%] text-2xl lg:text-4xl">
-          Customised 3D Model Development for Every Project and Every Business
+          How Did We Do It?
         </h1>
-        <p className="text-xl lg:text-2xl">
-          Hey Buddy, offering tailored solutions for your projects. Our
-          versatile 3D development team perfectly adapts outcomes to your
-          domains and brings your vision to life with precision and creativity.
-        </p>
+        <p className="text-xl lg:text-2xl">{heading}</p>
       </div>
 
       <div className="pb-24">
@@ -101,67 +104,27 @@ const Timelinecomp = () => {
                 <div class="container text-white">
                   <ul>
                     <li>
-                      <h3 className="font-bold text-2xl  ">AR/VR Experiences</h3>
-                      <p>
-                        Our expert 3D modellers enrich the visual appeal of your
-                        AR/VR projects, creating deeply immersive environments
-                        and characters for a truly interactive journey.
-                      </p>
-
-                    </li>
-                    <li>
-                      <h3 className="font-bold text-2xl ">Animation</h3>
-                      <p>
-                        Whether for promotional videos, educational content, or
-                        entertainment, our skilled 3D artists craft visually
-                        impressive animations, breathing life into your
-                        narratives.
-                      </p>
-
-               
-                    </li>
-                    <li>
-                      <h3 className="font-bold text-2xl ">
-                        Computer-generated imagery (CGI)
+                      <h3 className="font-bold text-2xl  ">
+                        Requirement Gathering
                       </h3>
-                      <p>
-                        Our CGI-specialist 3D modellers bring stunning visuals
-                        for your films, advertisements, and various digital
-                        media to add gravity to your storytelling and brand
-                        communication.
-                      </p>
-
+                      <p>{requirement}</p>
                     </li>
                     <li>
-                      <h3 className="font-bold text-2xl ">Product Visualisation</h3>
-                      <p>
-                        Our 3D development team delivers lifelike visualisations
-                        for you to showcase products with ultra-realistic
-                        visuals and gain an edge in your marketing efforts for
-                        unbeatable success.
-                      </p>
-
+                      <h3 className="font-bold text-2xl ">Ideation</h3>
+                      <p>{ideation}</p>
+                    </li>
+                    <li>
+                      <h3 className="font-bold text-2xl ">Designing</h3>
+                      <p>{designing}</p>
+                    </li>
+                    <li>
+                      <h3 className="font-bold text-2xl ">Development </h3>
+                      <p>{development}</p>
                     </li>
 
                     <li>
-                      <h3 className="font-bold text-2xl ">Product Animation</h3>
-                      <p>
-                        Our team synergizes with yours to produce compelling
-                        product animations and dynamic product demonstrations
-                        that impactfully showcase your product’s functionality
-                        and features.
-                      </p>
-
-                    </li>
-
-                    <li>
-                      <h3 className="font-bold text-2xl ">Gaming</h3>
-                      <p>
-                        Our game-crazy 3D modellers develop characters,
-                        environments, assets and other customised 3D models for
-                        Unity, Unreal or your specific game engine.
-                      </p>
-
+                      <h3 className="font-bold text-2xl ">Deployment</h3>
+                      <p>{deployment}</p>
                     </li>
                   </ul>
                 </div>

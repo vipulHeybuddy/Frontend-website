@@ -54,7 +54,7 @@ function BlogContent({ SelectedBlog }) {
             {/* intro image */}
             <div
               className={`rounded-xl relative overflow-hidden border-2 h-[60vh] xl:h-auto min-h-[60vh] ${
-                blogType === "gaming"
+                blogType === "Games"
                   ? "border-[#FF5C00]"
                   : blogType === "Development"
                   ? "border-[#26B403]"
@@ -69,7 +69,7 @@ function BlogContent({ SelectedBlog }) {
               <div className="absolute bottom-0 w-full py-3 md:py-[25px] px-3 md:px-10 backdrop-blur-lg flex flex-col gap-2 md:gap-[21px]">
                 <div
                   className={`flex items-center py-[5px] px-4 gap-[6px] w-fit rounded-full ${
-                    blogType === "gaming"
+                    blogType === "Games"
                       ? "bg-[#ff5c0024]"
                       : blogType === "Development"
                       ? "bg-[#26b40324]"
@@ -80,7 +80,7 @@ function BlogContent({ SelectedBlog }) {
                 >
                   <span
                     className={`h-4 w-4 rounded-full ${
-                      blogType === "gaming"
+                      blogType === "Games"
                         ? "bg-[#FF5C00]"
                         : blogType === "Development"
                         ? "bg-[#26B403]"
@@ -91,7 +91,7 @@ function BlogContent({ SelectedBlog }) {
                   ></span>
                   <span
                     className={`text-[#FF5C00] font-bold ${
-                      blogType === "gaming"
+                      blogType === "Games"
                         ? "text-[#FF5C00]"
                         : blogType === "Development"
                         ? "text-[#26B403]"
@@ -124,7 +124,7 @@ function BlogContent({ SelectedBlog }) {
                 </p>
                 <p>
                   The reasons are many such as diverse monetization models, and
-                  a loyal global gaming community, a higher engagement rate
+                  a loyal global Games community, a higher engagement rate
                   among others.
                 </p>
                 <p>
@@ -167,26 +167,26 @@ function BlogContent({ SelectedBlog }) {
                 </p>
                 <p>
                   From there, they have come a long way delivering some of the
-                  most unforgettable gaming experiences such as Super Mario, The
+                  most unforgettable Games experiences such as Super Mario, The
                   Legend of Zelda, and Pokémon. With an annual revenue of around
                   $11.852 Billion in 2023, Nintendo is one of the world’s
                   biggest video game developers.{" "}
                 </p>
                 <p class="font-semibold">Market Segment: </p>
                 <p>
-                  Broad, with a focus on family-friendly and innovative gaming
+                  Broad, with a focus on family-friendly and innovative Games
                   experiences.{" "}
                 </p>
                 <p class="font-semibold">Audience: </p>
                 <p>All age groups, particularly families and casual gamers.</p>
-                <p class="font-semibold">Gaming Genre: </p>
+                <p class="font-semibold">Games Genre: </p>
                 <p>
                   Diverse, spanning platformers, adventure, and simulation
                   games.
                 </p>
                 <p class="font-semibold">USP/Expertise: </p>
                 <p>
-                  Innovation in gaming hardware (e.g., motion controls, portable
+                  Innovation in Games hardware (e.g., motion controls, portable
                   consoles like the Nintendo Switch).
                 </p>
                 <p class="font-semibold">Expertise Platforms: </p>
@@ -200,16 +200,16 @@ function BlogContent({ SelectedBlog }) {
                 </p>
                 <p>
                   Not only this, Ubisoft is striding firmly in innovative
-                  gaming, expanding its footprint into spaces such as AI gaming.
+                  Games, expanding its footprint into spaces such as AI Games.
                   Their goal, here, is simple, to transform gameplay experiences
                   with powerful AI capabilities.{" "}
                 </p>
                 <p>
-                  To give you a glimpse, AI gaming is an amazing possibility in
-                  the gaming world. It will open the doors to novel gaming
+                  To give you a glimpse, AI Games is an amazing possibility in
+                  the Games world. It will open the doors to novel Games
                   experiences such as adaptive gameplay, procedural content
                   generation, intelligent NPC interaction, and much more for
-                  never-seen-before gaming experiences. (Read it in our next
+                  never-seen-before Games experiences. (Read it in our next
                   blog){" "}
                 </p>
                 <p>Ubisoft's revenue stands at $1.97 Billion in 2022. </p>
@@ -220,9 +220,9 @@ function BlogContent({ SelectedBlog }) {
                 </p>
                 <p class="font-semibold">Audience: </p>
                 <p>
-                  Fans of open-world exploration and diverse gaming experiences.
+                  Fans of open-world exploration and diverse Games experiences.
                 </p>
-                <p class="font-semibold">Gaming Genre: </p>
+                <p class="font-semibold">Games Genre: </p>
                 <p>
                   Notable for open-world action-adventure and stealth games.
                 </p>
@@ -254,19 +254,19 @@ function BlogContent({ SelectedBlog }) {
                   Activision Blizzard is best known for creating the first
                   successful esports league with the Overwatch League. This is
                   contributing to the growing popularity and professionalization
-                  of competitive gaming.
+                  of competitive Games.
                 </p>
                 <p>
-                  The American gaming company is based in Santa Monica,
+                  The American Games company is based in Santa Monica,
                   California, USA, and has a revenue of around $7.53 billion.{" "}
                 </p>
                 <p class="font-semibold">Market Segment: </p>
                 <p>
-                  Broad, with a strong presence in online multiplayer gaming.{" "}
+                  Broad, with a strong presence in online multiplayer Games.{" "}
                 </p>
                 <p class="font-semibold">Audience: </p>
-                <p>Multiplayer and competitive gaming communities.</p>
-                <p class="font-semibold">Gaming Genre: </p>
+                <p>Multiplayer and competitive Games communities.</p>
+                <p class="font-semibold">Games Genre: </p>
                 <p>
                   <ul className="list-disc">
                     <li> First-person shooters</li>
@@ -275,7 +275,7 @@ function BlogContent({ SelectedBlog }) {
                 </p>
                 <p class="font-semibold">USP/Expertise: </p>
                 <p>
-                  Dominating the online multiplayer gaming space with franchises
+                  Dominating the online multiplayer Games space with franchises
                   like Call of Duty and many other successful forays into
                   eSports.
                 </p>
@@ -295,15 +295,15 @@ function BlogContent({ SelectedBlog }) {
                 <p>
                   They are best known for sports simulations, and popular
                   franchises like FIFA and Madden are two of them. These two
-                  series have a hardcore following in the gaming community and
+                  series have a hardcore following in the Games community and
                   Gamers actually wait for these two to hit the market. and
-                  diverse gaming experiences.{" "}
+                  diverse Games experiences.{" "}
                 </p>
                 <p>
-                  But that’s not it. EA is really giving back to the gaming
+                  But that’s not it. EA is really giving back to the Games
                   community through their EA Originals program. This program
                   supports and publishes indie games that bring unique concepts
-                  and artistic visions to the gaming space. Top-of-the-mind
+                  and artistic visions to the Games space. Top-of-the-mind
                   works are Unravel and A Way Out.
                 </p>
                 <p>Their yearly revenue is around US $3.5 billion in 2022. </p>
@@ -317,14 +317,14 @@ function BlogContent({ SelectedBlog }) {
                   Sports enthusiasts, simulation gamers, and fans of popular
                   franchises.
                 </p>
-                <p class="font-semibold">Gaming Genre: </p>
+                <p class="font-semibold">Games Genre: </p>
                 <p>
                   Sports, simulation, and a variety of genres through diverse
                   subsidiaries.
                 </p>
                 <p class="font-semibold">USP/Expertise: </p>
                 <p>
-                  Strong sports gaming portfolio, popular franchises like FIFA,
+                  Strong sports Games portfolio, popular franchises like FIFA,
                   The Sims series, and Madden, and a focus on realistic
                   simulation experiences.
                 </p>
@@ -347,7 +347,7 @@ function BlogContent({ SelectedBlog }) {
                 </p>
                 <p>
                   The tool is getting stronger with each passing version and is
-                  powering the evolution of the gaming industry.
+                  powering the evolution of the Games industry.
                 </p>
                 <p>
                   Another of its products Fortnite is simply a global phenomenon
@@ -362,8 +362,8 @@ function BlogContent({ SelectedBlog }) {
                 </p>
                 <p class="font-semibold">Audience: </p>
                 <p>Diverse, including developers and Fortnite players.</p>
-                <p class="font-semibold">Gaming Genre: </p>
-                <p>Battle Royale gaming.</p>
+                <p class="font-semibold">Games Genre: </p>
+                <p>Battle Royale Games.</p>
                 <p class="font-semibold">USP/Expertise: </p>
                 <p>
                   Development of the widely-used Unreal Engine, powering
@@ -382,13 +382,13 @@ function BlogContent({ SelectedBlog }) {
                   Theft Auto series. Rockstar Games is known for creating super
                   cool games with lifelike virtual worlds. What really makes
                   them stand apart as a top-notch game developer is their
-                  ability to draw gamers into the gaming world with realistic
+                  ability to draw gamers into the Games world with realistic
                   storytelling.
                 </p>
                 <p>
                   Established in 1998, Rockstar Games is a subsidiary of
                   Take-Two Interactive. Since then, they have been pushing the
-                  boundaries of open-world gaming with titles like Grand Theft
+                  boundaries of open-world Games with titles like Grand Theft
                   Auto (mentioned above) and Red Dead Redemption.
                 </p>
                 <p>
@@ -403,8 +403,8 @@ function BlogContent({ SelectedBlog }) {
                   Appeals to diverse gamers seeking cinematic, open-world
                   experiences.
                 </p>
-                <p class="font-semibold">Gaming Genre: </p>
-                <p>Dominates open-world action-adventure gaming.</p>
+                <p class="font-semibold">Games Genre: </p>
+                <p>Dominates open-world action-adventure Games.</p>
                 <p class="font-semibold">USP/Expertise: </p>
                 <p>
                   Unparalleled expertise in open-world games, realistic
@@ -428,27 +428,27 @@ function BlogContent({ SelectedBlog }) {
                 <p>
                   They are consistently pushing the boundaries of what is
                   possible on mobile devices, contributing some of the most
-                  high-quality and unbelievable mobile gaming experiences.
+                  high-quality and unbelievable mobile Games experiences.
                 </p>
                 <p>
                   Gameloft's mobile game "Asphalt 9: Legends" achieved over 4
                   million downloads within just four days of its launch. This
                   shows Gameloft’s ability to capture a massive audience for
-                  high-quality gaming experiences on mobile devices.
+                  high-quality Games experiences on mobile devices.
                 </p>
 
                 <p class="font-semibold">Market Segment: </p>
-                <p>Global, at the forefront of mobile gaming innovation.</p>
+                <p>Global, at the forefront of mobile Games innovation.</p>
                 <p class="font-semibold">Audience: </p>
                 <p>A diverse audience of mobile gamers, </p>
-                <p class="font-semibold">Gaming Genre: </p>
+                <p class="font-semibold">Games Genre: </p>
                 <p>
                   A diverse portfolio, delivering engaging content on portable
                   devices.
                 </p>
                 <p class="font-semibold">USP/Expertise: </p>
                 <p>
-                  Delivers high-quality and accessible mobile gaming
+                  Delivers high-quality and accessible mobile Games
                   experiences.
                 </p>
                 <p class="font-semibold">Expertise Platforms: </p>
@@ -458,10 +458,10 @@ function BlogContent({ SelectedBlog }) {
 
                 <p>
                   Needing no introduction, Microsoft is a major force in the
-                  gaming industry, prominently represented by its Xbox brand. It
-                  has also contributed to PC gaming through the Windows
-                  operating system and its cloud gaming venture, Xbox Cloud
-                  Gaming, positions Microsoft in the emerging game streaming
+                  Games industry, prominently represented by its Xbox brand. It
+                  has also contributed to PC Games through the Windows
+                  operating system and its cloud Games venture, Xbox Cloud
+                  Games, positions Microsoft in the emerging game streaming
                   space.
                 </p>
                 <p>
@@ -472,24 +472,24 @@ function BlogContent({ SelectedBlog }) {
                 <p>
                   And with the initiatives like Xbox Game Pass and Xbox Play
                   Anywhere, Microsoft has only solidified its commitment to
-                  gaming.
+                  Games.
                 </p>
                 <p>
                   Microsoft has been a key player in promoting cross-platform
-                  gaming through initiatives like allowing players to seamlessly
-                  switch between Xbox and PC gaming with shared progress.
+                  Games through initiatives like allowing players to seamlessly
+                  switch between Xbox and PC Games with shared progress.
                 </p>
                 <p>
-                  The gaming revenue of Microsoft in 2022 stood at US$10.3
+                  The Games revenue of Microsoft in 2022 stood at US$10.3
                   billion.
                 </p>
 
                 <p className=" font-semibold">Sony</p>
 
                 <p>
-                  If home-based gaming has a face, then it is PlayStation,
+                  If home-based Games has a face, then it is PlayStation,
                   especially PlayStation 2. Japanese company Sony is behind the
-                  very popular PlayStation video gaming brand. That’s not it,
+                  very popular PlayStation video Games brand. That’s not it,
                   Sony is also known for exclusive titles like God of War and
                   The Last of Us.
                 </p>
@@ -500,21 +500,21 @@ function BlogContent({ SelectedBlog }) {
                 </p>
                 <p>
                   The company was founded in 1946 and their PlayStation Now
-                  service stands out as a pioneer in cloud gaming. This allows
+                  service stands out as a pioneer in cloud Games. This allows
                   users to stream a vast library of games, showcasing their
-                  commitment to innovative gaming technologies.
+                  commitment to innovative Games technologies.
                 </p>
 
                 <p class="font-semibold">Market Segment: </p>
-                <p>High-end console gaming.</p>
+                <p>High-end console Games.</p>
                 <p class="font-semibold">Audience: </p>
-                <p>Hardcore gamers and fans of cinematic gaming experiences.</p>
-                <p class="font-semibold">Gaming Genre: </p>
+                <p>Hardcore gamers and fans of cinematic Games experiences.</p>
+                <p class="font-semibold">Games Genre: </p>
                 <p>Narrative-driven action-adventure games.</p>
                 <p class="font-semibold">USP/Expertise: </p>
                 <p>
                   High-quality exclusive titles, emphasis on cinematic
-                  storytelling, and powerful gaming hardware (PlayStation
+                  storytelling, and powerful Games hardware (PlayStation
                   consoles).
                 </p>
                 <p class="font-semibold">Expertise Platforms: </p>
@@ -532,7 +532,7 @@ function BlogContent({ SelectedBlog }) {
                   {" "}
                   Being the second most populated country with one the cheapest
                   internet rates and considerable internet penetration, India is
-                  a lucrative market for media and entertainment, and gaming is
+                  a lucrative market for media and entertainment, and Games is
                   no different.
                 </p>
                 <p>
@@ -545,12 +545,12 @@ function BlogContent({ SelectedBlog }) {
                   In the past few years, India has witnessed significant growth
                   in the game development industry. We saw the emergence of
                   several top game development companies that not only fuelled
-                  the local market by also contributed to the global gaming
+                  the local market by also contributed to the global Games
                   ecosystem.
                 </p>
                 <p>
                   So, why is that happening? The reason resides in the fact that
-                  Indian gaming companies possess some rare qualities that make
+                  Indian Games companies possess some rare qualities that make
                   them stand out from their competitors.
                 </p>
               </div>
@@ -576,16 +576,16 @@ function BlogContent({ SelectedBlog }) {
                 <p className="font-semibold">Growing Esports Popularity </p>
                 <p>
                   The country is also witnessing a surge in esports popularity.
-                  Organizations such as Nodwin Gaming and ESL India are playing
+                  Organizations such as Nodwin Games and ESL India are playing
                   key roles in organizing esports events and fostering a
-                  competitive gaming culture.
+                  competitive Games culture.
                 </p>
                 <p className="font-semibold">Good Quality at the Right Price</p>
                 <p>
-                  Indian gaming industry offers investors one of the least
+                  Indian Games industry offers investors one of the least
                   expensive workforces. The skilled talent, tagged with diverse
                   game development, and a cost-effective environment, the Indian
-                  gaming industry presents an enticing proposition for both
+                  Games industry presents an enticing proposition for both
                   local and international investors.
                 </p>
                 <p className="mt-4">
@@ -611,7 +611,7 @@ function BlogContent({ SelectedBlog }) {
                   partner in India.{" "}
                 </p>
                 <p>
-                  Their wide range of services also includes emerging gaming
+                  Their wide range of services also includes emerging Games
                   genres such as AR/VR game development
                 </p>
                 <p className="font-semibold">Juego Studios </p>
@@ -638,11 +638,11 @@ function BlogContent({ SelectedBlog }) {
                 </p>
                 <p>
                   They are continuously on the way to innovating and expanding
-                  to the energy gaming genre and AI-based gaming is one of their
+                  to the energy Games genre and AI-based Games is one of their
                   strongest suites.
                 </p>
                 <p>
-                  They offer end-to-end game development services from gaming
+                  They offer end-to-end game development services from Games
                   consultation to game launch.
                 </p>
                 <p className="font-semibold">Hashbyte Studio</p>
@@ -658,7 +658,7 @@ function BlogContent({ SelectedBlog }) {
                 </p>
                 <p className="font-semibold">99Games</p>
                 <p>
-                  99 Games is another of the top mobile gaming companies from
+                  99 Games is another of the top mobile Games companies from
                   India that is doing amazing. The company was established in
                   2008 with a commitment to deliver customer-centric games with
                   the best users.
@@ -666,12 +666,12 @@ function BlogContent({ SelectedBlog }) {
                 <p>
                   Founded in 2009, 99Games maintained a talented team of
                   writers, artists, designers, and coders capable of crafting a
-                  marketing-leading gaming experience.
+                  marketing-leading Games experience.
                 </p>
                 <p className="font-semibold">Tech Mahindra</p>
                 <p>
                   Tech Mahindra is one of the leading IT companies in India with
-                  a significant presence in the gaming market. It has
+                  a significant presence in the Games market. It has
                   established itself as a leading game development company with
                   its world-renowned expertise in multiplayer and online games.
                 </p>
@@ -681,7 +681,7 @@ function BlogContent({ SelectedBlog }) {
                 </p>
                 <p>
                   Notably, they have also expanded their footprints in cloud
-                  gaming solutions that bring quality and innovation together.
+                  Games solutions that bring quality and innovation together.
                 </p>
                 <p className="font-semibold">Infosys</p>
                 <p>
@@ -692,7 +692,7 @@ function BlogContent({ SelectedBlog }) {
                 </p>
                 <p>
                   They offer wide-ranging services including emerging markets of
-                  blockchain, IoT, and cloud gaming solutions, etc.
+                  blockchain, IoT, and cloud Games solutions, etc.
                 </p>
                 <p className="font-semibold">HCL Technologies</p>
                 <p>
@@ -723,7 +723,7 @@ function BlogContent({ SelectedBlog }) {
                   visually stunning graphics.
                 </p>
                 <p>
-                  They specialize in social gaming, providing an engrossing and
+                  They specialize in social Games, providing an engrossing and
                   engaging gameplay experience. They have developed a varied
                   portfolio of popular casino games with a special focus on
                   multiplayer experiences.
@@ -743,7 +743,7 @@ function BlogContent({ SelectedBlog }) {
 
                 <p>
                   <ul className=" list-disc">
-                    <li>Gaming genre</li>
+                    <li>Games genre</li>
                     <li>Platform</li>
                     <li>Target audience</li>
                     <li>Core gameplay mechanics</li>
@@ -918,7 +918,7 @@ function BlogContent({ SelectedBlog }) {
                   This not only ensures success but also stretches it to a
                   longer period. Moreover, with the advent of emerging
                   technologies such as AI, AR/VR, Metaverse, and Blockchain, the
-                  gaming space is undergoing an overhaul.
+                  Games space is undergoing an overhaul.
                 </p>
 
                 <p>For those who want to make it big, your time starts now!</p>
@@ -961,7 +961,7 @@ function BlogContent({ SelectedBlog }) {
           <div>
             <div
               className={` border-2  rounded-[30px] flex items-center justify-between py-[40px] px-5 ${
-                blogType === "gaming"
+                blogType === "Games"
                   ? "border-[#FF5C00] bg-[#ff5c0024]"
                   : blogType === "Development"
                   ? "border-[#26B403] bg-[#26b40324]"
@@ -994,7 +994,7 @@ function BlogContent({ SelectedBlog }) {
             <div className="py-10">
               <div
                 className={` ${
-                  blogType === "gaming"
+                  blogType === "Games"
                     ? "border-[#FF5C00] bg-[#ff5c0024]"
                     : blogType === "Development"
                     ? "border-[#26B403] bg-[#26b40324]"
@@ -1033,7 +1033,7 @@ function BlogContent({ SelectedBlog }) {
                   "section8",
                 ]}
                 currentClassName={`border-l-4 ${
-                  blogType === "gaming"
+                  blogType === "Games"
                     ? "border-[#FF5C00] text-[#FF5C00]"
                     : blogType === "Development"
                     ? "border-[#26B403] text-[#26B403]"

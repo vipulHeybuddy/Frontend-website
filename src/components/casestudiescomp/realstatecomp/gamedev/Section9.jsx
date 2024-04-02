@@ -28,7 +28,14 @@ function SamplePrevArrow(props) {
   );
 }
 
-const Sliderclient = () => {
+const Sliderclient = ({
+  heading1,
+  heading2,
+  heading3,
+  para1,
+  para2,
+  para3,
+}) => {
   const controls = useAnimation();
   const ref = useRef();
 
@@ -73,44 +80,44 @@ const Sliderclient = () => {
     {
       id: "1",
       serialno: "01",
-      heading: "Immense Technical Complexity",
+      heading: heading1,
       imgurl: "",
-      para: "Achieving a high level of realism was necessary to animate the 3D CT scanner. It was only possible by using multiple tools and accurate representation of physical components. Our design team also had to learn the scanner’s specifications and functionalities. ",
+      para: para1,
     },
     {
       id: "2",
-      serialno: "01",
-      heading: "Educational Content Balance",
+      serialno: "02",
+      heading: heading2,
       imgurl: "",
-      para: "Our team had to create the perfect balance between visually engaging content and educational value through project development. Careful consideration was necessary to avoid overwhelming viewers with excessive technical information. We couldn’t sacrifice accuracy for the sake of complex operational details.",
+      para: para2,
     },
     {
       id: "3",
-      serialno: "01",
-      heading: "Render Resource Management",
+      serialno: "03",
+      heading: heading3,
       imgurl: "",
-      para: "It wasn’t possible to render such a complex animated video in a short time. We relied on a Render Farm to meet project deadlines and deliver an exceptional final product. Our team had to balance the need for quality work with time and cost constraints. The data storage and transfer between the modeling and rendering stages were also challenging for Hey Buddy.       ",
+      para: para3,
     },
     // {
     //   id: "4",
     //   serialno: "01",
     //   heading: "Enhanced Brand Engagement4",
     //   imgurl: "",
-    //   para: "Gaming offers a unique platform to connect with your audience on a deeper level. Your brand establishes a memorable presence in the mind of the gamer, fostering stronger connections and long-term loyalty.",
+    //   para: "Games offers a unique platform to connect with your audience on a deeper level. Your brand establishes a memorable presence in the mind of the gamer, fostering stronger connections and long-term loyalty.",
     // },
     // {
     //   id: "5",
     //   serialno: "01",
     //   heading: "Enhanced Brand Engagement5",
     //   imgurl: "",
-    //   para: "Gaming offers a unique platform to connect with your audience on a deeper level. Your brand establishes a memorable presence in the mind of the gamer, fostering stronger connections and long-term loyalty.",
+    //   para: "Games offers a unique platform to connect with your audience on a deeper level. Your brand establishes a memorable presence in the mind of the gamer, fostering stronger connections and long-term loyalty.",
     // },
     // {
     //   id: "6",
     //   serialno: "01",
     //   heading: "Enhanced Brand Engagement6",
     //   imgurl: "",
-    //   para: "Gaming offers a unique platform to connect with your audience on a deeper level. Your brand establishes a memorable presence in the mind of the gamer, fostering stronger connections and long-term loyalty.",
+    //   para: "Games offers a unique platform to connect with your audience on a deeper level. Your brand establishes a memorable presence in the mind of the gamer, fostering stronger connections and long-term loyalty.",
     // },
   ];
 
@@ -175,7 +182,7 @@ const Sliderclient = () => {
 
         <Slider {...settings}>
           {List.map((section, index) => (
-            <div className="px-2 h-[49vh] ">
+            <div className="px-2 h-96 ">
               <figure class="flex flex-col p-4 lg:p-6  rounded-lg  h-full w-full bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20">
                 <blockquote class="  text-gray-400">
                   <span className="text-left text-4xl lg:text-6xl font-semibold text-gray-400">
@@ -189,7 +196,7 @@ const Sliderclient = () => {
                     {section.heading}
                   </h3>
 
-                  <p style={{ color: "white" }} className="text-left">
+                  <p style={{ color: "white" }} className="text-left mb-8">
                     {section.para}
                   </p>
                 </blockquote>

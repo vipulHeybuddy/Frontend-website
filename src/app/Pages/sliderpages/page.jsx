@@ -8,7 +8,7 @@ const page = () => {
     <div className="px-2 pt-32">
       <div className="card lg:w-[80%] mx-auto ">
         <h1 className="text-white  text-4xl px-4 lg:px-0 py-6 font-bold">
-          Gaming App for kids
+          Games App for kids
         </h1>
 
         <div className=" grid mb-8 mx-auto justify-center rounded-3xl border-2 shadow-sm md:mb-12 grid-cols- md:grid-cols-2 ">
@@ -76,7 +76,7 @@ const page = () => {
       {/* ------------------------------------------------- */}
       <div className="card lg:w-[80%] mx-auto ">
         <h1 className="text-white  text-4xl px-4 lg:px-0 py-6 font-bold">
-          Gaming App for kids
+          Games App for kids
         </h1>
 
         <div className="grid mb-8 mx-auto justify-center rounded-3xl border-2 shadow-sm  md:mb-12 grid-cols- md:grid-cols-2 ">
@@ -143,7 +143,7 @@ const page = () => {
 
       <div className=" card lg:w-[80%] mx-auto ">
         <h1 className="text-white  text-4xl px-4 lg:px-0 py-6 font-bold">
-          Gaming App for kids
+          Games App for kids
         </h1>
 
         <div className=" grid mb-8 mx-auto justify-center rounded-3xl border-2 shadow-sm  md:mb-12 grid-cols- md:grid-cols-2 ">
@@ -211,7 +211,7 @@ const page = () => {
 
       <div className="card lg:w-[80%] mx-auto ">
         <h1 className="text-white  text-4xl px-4 lg:px-0 py-6 font-bold">
-          Gaming App for kids
+          Games App for kids
         </h1>
 
         <div className=" grid mb-8 mx-auto justify-center rounded-3xl border-2 shadow-sm  md:mb-12 grid-cols- md:grid-cols-2 ">

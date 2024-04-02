@@ -58,9 +58,9 @@ const Section7 = () => {
         },
         {
           id: "3",
-          heading: "Ai-Integration To Revitalize A Flagship Gaming Title",
+          heading: "Ai-Integration To Revitalize A Flagship Games Title",
           // imgurl: "",
-          para: "Hey Buddy's unmatched AI expertise helped an established gaming company revitalize its flagship gaming title. We integrated sophisticated AI algorithms into the game, to introduce PCG, adaptive gameplay, and AI-enable intelligent opponents that blew away their audience. The outcome, a 30% increase in active players and a 25% boost to in-game purchases. Players applauded the dynamic experience and our client solidified the game's position as a leading title in the competitive gaming market.",
+          para: "Hey Buddy's unmatched AI expertise helped an established Games company revitalize its flagship Games title. We integrated sophisticated AI algorithms into the game, to introduce PCG, adaptive gameplay, and AI-enable intelligent opponents that blew away their audience. The outcome, a 30% increase in active players and a 25% boost to in-game purchases. Players applauded the dynamic experience and our client solidified the game's position as a leading title in the competitive Games market.",
         },
       ];
     
@@ -69,7 +69,7 @@ const Section7 = () => {
           heading:
             "Digital Joysticks, Real Rewards: Success Stories with Hey Buddy",
           subtext:
-            "Hey Buddy offers its services to clients working in different industries and different scales. Here are the success stories that make us the best gaming development company in India. ",
+            "Hey Buddy offers its services to clients working in different industries and different scales. Here are the success stories that make us the best Games development company in India. ",
         },
       ];
   return (

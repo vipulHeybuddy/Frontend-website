@@ -96,9 +96,9 @@ const Sliderclient = () => {
         },
         {
           id: "5",
-          heading: "Web3 Gaming Development",
+          heading: "Web3 Games Development",
           imgurl: "",
-          para: "Capitalise on the future of gaming with Web3 game development. Leverage blockchain Integration for in-game assets' uniqueness and monetization.",
+          para: "Capitalise on the future of Games with Web3 game development. Leverage blockchain Integration for in-game assets' uniqueness and monetization.",
         },
         {
           id: "6",

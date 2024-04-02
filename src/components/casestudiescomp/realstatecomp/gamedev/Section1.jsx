@@ -1,5 +1,5 @@
-"use client"
-import React, { useEffect, useState , useRef } from "react";
+"use client";
+import React, { useEffect, useState, useRef } from "react";
 
 import Link from "next/link";
 import Image from "next/image";
@@ -7,7 +7,7 @@ import Image from "next/image";
 import { Button } from "@material-tailwind/react";
 import { motion, useAnimation } from "framer-motion";
 
-const Section1 = () => {
+const Section1 = ({ heading1, heading2 }) => {
   const [scrollPosition, setScrollPosition] = useState(0);
   const [isHovered, setIsHovered] = useState(false);
 
@@ -19,8 +19,6 @@ const Section1 = () => {
       setScrollPosition(window.scrollY);
     };
 
-   
-
     // Add scroll event listener
     window.addEventListener("scroll", handleScroll);
 
@@ -29,7 +27,6 @@ const Section1 = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-
 
   const textAnimation1 = {
     hidden: { opacity: 0, y: "0%" },
@@ -91,10 +88,8 @@ const Section1 = () => {
     <>
       <div style={containerStyle}>
         <div style={textContainerStyle}>
-          <h1 style={{ fontSize: "3rem" }}>Hyper-realistic Animated Video showcasing innovative  </h1>
-          <h1 style={{ fontSize: "3rem" }}>
-          3D CT Scanner to Augment Airport Security          
-          </h1>
+          <h1 style={{ fontSize: "3rem" }}>{heading1}</h1>
+          <h1 style={{ fontSize: "3rem" }}>{heading2}</h1>
           {/* <Button
             style={buttonHeader}
             onMouseEnter={() => setIsHovered(true)}
@@ -116,7 +111,7 @@ const Section1 = () => {
         </div>
       </div>
 
-{/* 
+      {/* 
       <div
             ref={ref}
             initial="hidden"
@@ -125,14 +120,13 @@ const Section1 = () => {
             className="py-8 text-xl "
           >
             <p>
-              Get an AI-powered smart gaming solution that captivates with its
+              Get an AI-powered smart Games solution that captivates with its
               hyper-realistic graphics and enthrals with its deeply engaging
               gameplay. Hey Buddy is India's leading game development company,
               maintaining a large team of gamer-first developers who know what
               works.
             </p>
           </div> */}
-          
     </>
   );
 };

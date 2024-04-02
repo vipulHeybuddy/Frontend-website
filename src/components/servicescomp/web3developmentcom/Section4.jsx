@@ -49,7 +49,7 @@ const Mixsection = () => {
   const checklist1 = [
     
     {
-      title: "Web 3 Gaming Solution",
+      title: "Web 3 Games Solution",
     },
     {
       title: "Multi-chain Solutions",
@@ -64,7 +64,7 @@ const Mixsection = () => {
     //   title: "Product Animation",
     // },
     // {
-    //   title: "Gaming",
+    //   title: "Games",
     // },
   ];
 

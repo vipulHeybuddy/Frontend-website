@@ -58,9 +58,9 @@ const Section7 = () => {
         },
         {
           id: "3",
-          heading: "Gaming: High-quality Character Modeling for Unforgettable Gaming experience",
+          heading: "Games: High-quality Character Modeling for Unforgettable Games experience",
           // imgurl: "",
-          para: "One of our clients, a game development studio, needed diverse 3D character models for their upcoming gaming title. We employed ZBrush and Maya for character design and animation, delivering unique and visually appealing assets that enhanced the game's overall aesthetic. Thus, we proudly contributed to the game's success by providing captivating characters, that garnered positive reviews and commercial success.",
+          para: "One of our clients, a game development studio, needed diverse 3D character models for their upcoming Games title. We employed ZBrush and Maya for character design and animation, delivering unique and visually appealing assets that enhanced the game's overall aesthetic. Thus, we proudly contributed to the game's success by providing captivating characters, that garnered positive reviews and commercial success.",
         },
 
         // {

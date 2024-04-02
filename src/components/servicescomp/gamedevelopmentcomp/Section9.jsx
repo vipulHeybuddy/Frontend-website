@@ -53,7 +53,7 @@ const Bottomclient = () => {
           id: 2,
           name: "Sarah L.",
           content:
-            "We assure you that no one can beat Hey Buddy in AI gaming. Their AI gaming solutions took our game to a whole new level. Our game became more dynamic and engaging throwing perfect challenges to the players. The team's dedication to offering the best solution sets them apart in the AI gaming space.",
+            "We assure you that no one can beat Hey Buddy in AI Games. Their AI Games solutions took our game to a whole new level. Our game became more dynamic and engaging throwing perfect challenges to the players. The team's dedication to offering the best solution sets them apart in the AI Games space.",
           // position: "Head of VP at Disney Hotstar",
         },
         {
@@ -67,7 +67,7 @@ const Bottomclient = () => {
           id: 4,
           name: "Emily C",
           content:
-            "Our metaverse game wouldn't have been possible without Hey Buddy's expertise in the immersive gaming domain. They skillfully integrated VR and AR elements into our project. We highly recommend them as a trusted metaverse game development company.",
+            "Our metaverse game wouldn't have been possible without Hey Buddy's expertise in the immersive Games domain. They skillfully integrated VR and AR elements into our project. We highly recommend them as a trusted metaverse game development company.",
           // position: "Head of VP at Disney Hotstar",
         },
         {

@@ -6,12 +6,12 @@ import "./page.css";
 
 const blogsArray = [
   {
-    category: "gaming",
+    category: "Games",
     id: 1,
     img: "/Images/blog/blogImg1.png",
     title: "Top Game Development Companies - Choose the Best One",
     summary:
-      "Made up your mind to invest in game development? A great decision indeed. The reasons are many such as diverse monetization models, a loyal global gaming community, a higher engagement rate among ot...",
+      "Made up your mind to invest in game development? A great decision indeed. The reasons are many such as diverse monetization models, a loyal global Games community, a higher engagement rate among ot...",
   },
 
   {
@@ -20,16 +20,16 @@ const blogsArray = [
     img: "/Images/blog/blogImg1.png",
     title: "Why should I invest in game app development? Complete Guide",
     summary:
-      " The answer to the above question is pretty straightforward the gaming market is booming and you should not miss this opportunity. It is growing in every dimension, geographically, technologicall...",
+      " The answer to the above question is pretty straightforward the Games market is booming and you should not miss this opportunity. It is growing in every dimension, geographically, technologicall...",
   },
 
   {
     category: "3D",
     id: 3,
     img: "/Images/blog/blogImg1.png",
-    title: "AI in Gaming: Refining the Way Games Developed & Play",
+    title: "AI in Games: Refining the Way Games Developed & Play",
     summary:
-      "AI in gaming is no longer a new phenomenon. It's trending, extensively adapted, and rapidly evolving. Just like Artificial Intelligence (AI) has disrupted all major industries like Healthcare, Hospitality, Banking...",
+      "AI in Games is no longer a new phenomenon. It's trending, extensively adapted, and rapidly evolving. Just like Artificial Intelligence (AI) has disrupted all major industries like Healthcare, Hospitality, Banking...",
   },
 
   {
@@ -41,59 +41,59 @@ const blogsArray = [
       "Ever wondered what made the Avatar movie a hit, or why there is such a huge and crazy fan community for the Harry Potter franchise? Well, that’s pretty straightforward, this is because they take us in...",
   },
 
-  {
-    category: "Development",
-    id: 5,
-    img: "/Images/blog/blogImg1.png",
-    title: "Top Game Development Companies - Choose the Best One",
-    summary:
-      "Made up your mind to invest in game development? A great decision indeed. The reasons are many such as diverse monetization models, a loyal global gaming community, a higher engagement rate among ot...",
-  },
+  // {
+  //   category: "Development",
+  //   id: 5,
+  //   img: "/Images/blog/blogImg1.png",
+  //   title: "Top Game Development Companies - Choose the Best One",
+  //   summary:
+  //     "Made up your mind to invest in game development? A great decision indeed. The reasons are many such as diverse monetization models, a loyal global Games community, a higher engagement rate among ot...",
+  // },
 
-  {
-    category: "3D",
-    id: 6,
-    img: "/Images/blog/blogImg3.png",
-    title: "Top Game Development Companies - Choose the Best One",
-    summary:
-      "Made up your mind to invest in game development? A great decision indeed. The reasons are many such as diverse monetization models, a loyal global gaming community, a higher engagement rate among ot...",
-  },
+  // {
+  //   category: "3D",
+  //   id: 6,
+  //   img: "/Images/blog/blogImg3.png",
+  //   title: "Top Game Development Companies - Choose the Best One",
+  //   summary:
+  //     "Made up your mind to invest in game development? A great decision indeed. The reasons are many such as diverse monetization models, a loyal global Games community, a higher engagement rate among ot...",
+  // },
 
-  {
-    category: "3D",
-    id: 7,
-    img: "/Images/blog/blogImg3.png",
-    title: "Top Game Development Companies - Choose the Best One",
-    summary:
-      "Made up your mind to invest in game development? A great decision indeed. The reasons are many such as diverse monetization models, a loyal global gaming community, a higher engagement rate among ot...",
-  },
+  // {
+  //   category: "3D",
+  //   id: 7,
+  //   img: "/Images/blog/blogImg3.png",
+  //   title: "Top Game Development Companies - Choose the Best One",
+  //   summary:
+  //     "Made up your mind to invest in game development? A great decision indeed. The reasons are many such as diverse monetization models, a loyal global Games community, a higher engagement rate among ot...",
+  // },
 
-  {
-    category: "gaming",
-    id: 8,
-    img: "/Images/blog/blogImg2.png",
-    title: "Top Game Development Companies - Choose the Best One",
-    summary:
-      "Made up your mind to invest in game development? A great decision indeed. The reasons are many such as diverse monetization models, a loyal global gaming community, a higher engagement rate among ot...",
-  },
+  // {
+  //   category: "Games",
+  //   id: 8,
+  //   img: "/Images/blog/blogImg2.png",
+  //   title: "Top Game Development Companies - Choose the Best One",
+  //   summary:
+  //     "Made up your mind to invest in game development? A great decision indeed. The reasons are many such as diverse monetization models, a loyal global Games community, a higher engagement rate among ot...",
+  // },
 
-  {
-    category: "gaming",
-    id: 9,
-    img: "/Images/blog/blogImg2.png",
-    title: "Top Game Development Companies - Choose the Best One",
-    summary:
-      "Made up your mind to invest in game development? A great decision indeed. The reasons are many such as diverse monetization models, a loyal global gaming community, a higher engagement rate among ot...",
-  },
+  // {
+  //   category: "Games",
+  //   id: 9,
+  //   img: "/Images/blog/blogImg2.png",
+  //   title: "Top Game Development Companies - Choose the Best One",
+  //   summary:
+  //     "Made up your mind to invest in game development? A great decision indeed. The reasons are many such as diverse monetization models, a loyal global Games community, a higher engagement rate among ot...",
+  // },
 
-  {
-    category: "gaming",
-    id: 10,
-    img: "/Images/blog/blogImg2.png",
-    title: "Top Game Development Companies - Choose the Best One",
-    summary:
-      "Made up your mind to invest in game development? A great decision indeed. The reasons are many such as diverse monetization models, a loyal global gaming community, a higher engagement rate among ot...",
-  },
+  // {
+  //   category: "Games",
+  //   id: 10,
+  //   img: "/Images/blog/blogImg2.png",
+  //   title: "Top Game Development Companies - Choose the Best One",
+  //   summary:
+  //     "Made up your mind to invest in game development? A great decision indeed. The reasons are many such as diverse monetization models, a loyal global Games community, a higher engagement rate among ot...",
+  // },
 ];
 
 const page = () => {
@@ -124,26 +124,26 @@ const page = () => {
               All
             </button>
             <button
-              onClick={() => toggleCategory("development")}
-              className={category === "development" ? "tab active-tab" : "tab"}
+              onClick={() => toggleCategory("Development")}
+              className={category === "Development" ? "tab active-tab" : "tab"}
             >
               Development
             </button>
             <button
-              onClick={() => toggleCategory("design")}
-              className={category === "design" ? "tab active-tab" : "tab"}
+              onClick={() => toggleCategory("Design")}
+              className={category === "Design" ? "tab active-tab" : "tab"}
             >
               Design
             </button>
             <button
-              onClick={() => toggleCategory("3d")}
-              className={category === "3d" ? "tab active-tab" : "tab"}
+              onClick={() => toggleCategory("3D")}
+              className={category === "3D" ? "tab active-tab" : "tab"}
             >
               3D
             </button>
             <button
-              onClick={() => toggleCategory("games")}
-              className={category === "games" ? "tab active-tab" : "tab"}
+              onClick={() => toggleCategory("Games")}
+              className={category === "Games" ? "tab active-tab" : "tab"}
             >
               Games
             </button>
@@ -151,21 +151,21 @@ const page = () => {
         </div>
 
         <div className="allBlogs">
-          {category === "development"
+          {category === "Development"
             ? blogsArray
-                .filter((blog) => blog.category === "development")
+                .filter((blog) => blog.category === "Development")
                 .map((blog, index) => <BlogCard key={index} {...blog} />)
-            : category === "design"
+            : category === "Design"
             ? blogsArray
-                .filter((blog) => blog.category === "design")
+                .filter((blog) => blog.category === "Design")
                 .map((blog, index) => <BlogCard key={index} {...blog} />)
-            : category === "games"
+            : category === "Games"
             ? blogsArray
-                .filter((blog) => blog.category === "games")
+                .filter((blog) => blog.category === "Games")
                 .map((blog, index) => <BlogCard key={index} {...blog} />)
-            : category === "3d"
+            : category === "3D"
             ? blogsArray
-                .filter((blog) => blog.category === "3d")
+                .filter((blog) => blog.category === "3D")
                 .map((blog, index) => <BlogCard key={index} {...blog} />)
             : category === ""
             ? blogsArray.map((blog, index) => (
