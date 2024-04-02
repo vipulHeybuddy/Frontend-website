@@ -7,7 +7,7 @@ import Image from "next/image";
 import { Button } from "@material-tailwind/react";
 import { motion, useAnimation } from "framer-motion";
 
-const Section1 = ({ heading1, heading2 }) => {
+const Section1 = ({ heading1, heading2,url1 }) => {
   const [scrollPosition, setScrollPosition] = useState(0);
   const [isHovered, setIsHovered] = useState(false);
 
@@ -105,8 +105,7 @@ const Section1 = ({ heading1, heading2 }) => {
             width={450}
             height={450}
             className="h-[24px] w-[24px] bg-white mx-auto mt-4"
-            src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/csgame1.png"
-            alt="Background"
+            src={url1}       alt="Background"
           />
         </div>
       </div>

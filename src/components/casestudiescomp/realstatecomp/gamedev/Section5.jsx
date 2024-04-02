@@ -1,27 +1,27 @@
 import React from "react";
 
-const Section5 = ({ heading, requirement, execution, delivery }) => {
+const Section5 = ({ heading, requirement, execution, delivery, urlimg }) => {
   const List = [
     {
       id: "1",
       serialno: "01",
-      heading: "Project Requirements      ",
+      heading: "Project Requirements",
       imgurl: "",
-      para:  requirement ,
+      para: requirement,
     },
     {
       id: "2",
       serialno: "02",
-      heading: "Project Execution      ",
+      heading: "Project Execution",
       imgurl: "",
-      para:  execution ,
+      para: execution,
     },
     {
       id: "3",
       serialno: "03",
       heading: "Project Delivery      ",
       imgurl: "",
-      para:  delivery ,
+      para: delivery,
     },
   ];
 
@@ -29,9 +29,7 @@ const Section5 = ({ heading, requirement, execution, delivery }) => {
     <div>
       <div className="py-8 lg:w-[80%] mx-auto">
         <div className="py-8 lg:w-[90%] text-white mx-auto text-center">
-          <h1 className="py-4 font-bold text-2xl lg:text-4xl">
-            {heading}
-          </h1>
+          <h1 className="py-4 font-bold text-2xl lg:text-4xl">{heading}</h1>
           {/* <p className="text-xl lg:text-2xl">
         Investing in game development is not just about creating entertainment but a strategic move to brand expansion and market leadership. It is a strategic avenue for investing in innovation and engagement and staying ahead in today's dynamic business landscape.
         </p> */}
@@ -63,7 +61,10 @@ const Section5 = ({ heading, requirement, execution, delivery }) => {
         </div>
       </div>
 
-      <div className=" h-[442px] bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/csgame6.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]"></div>
+      <div
+        className={` h-[1024px] w-full  bg-contain bg-center bg-no-repeat`}
+        style={{ backgroundImage: `url(${urlimg})` }}
+      ></div>
     </div>
   );
 };

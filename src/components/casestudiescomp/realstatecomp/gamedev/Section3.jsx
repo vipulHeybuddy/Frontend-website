@@ -1,8 +1,8 @@
 import React from "react";
-
-const Section3 = ({ heading1, heading2, para1, para2 }) => {
+import Image from "next/image";
+const Section3 = ({ heading1, heading2, para1, para2, url3 }) => {
   return (
-    <div className="px-8 py-4 sm:py-16 text-white">
+    <div className=" py-4 sm:py-16 text-white">
       <div className="py-6 lg:w-[90%] mx-auto grid grid-cols-2 md:grid-cols-2">
         <div>
           <h1 className="font-bold  sm:text-2xl lg:text-4xl px-2 sm:px-6 py-4 sm:py-6">
@@ -15,7 +15,22 @@ const Section3 = ({ heading1, heading2, para1, para2 }) => {
         </div>
       </div>
 
-      <div className=" h-[442px] bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/csgame3.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]"></div>
+      <div
+        className={` h-[1024px] w-full  bg-contain bg-center bg-no-repeat`}
+        style={{ backgroundImage: `url(${url3})` }}
+      ></div>
+
+      {/* <div className=" ">
+        <div className="w-[100%] h-[100%]">
+          <Image
+            width={800}
+            height={800}
+            className="h-[30%] w-[100%] bg-white mt-4"
+            src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/ct-scanner/2.png"
+            alt="Background"
+          />
+        </div>
+      </div> */}
     </div>
   );
 };

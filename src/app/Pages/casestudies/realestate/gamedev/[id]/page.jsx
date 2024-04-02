@@ -23,20 +23,27 @@ const page = ({ params }) => {
       id: "1",
       heading1: "Hyper-realistic Animated Video showcasing innovative",
       heading2: "3D CT Scanner to Augment Airport Security",
+      url1: "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/ct-scanner/1.png",
       para1:
         "Our client, a leading CT scanner manufacturer in the UAE, wanted a hyper-realistic explanatory video to showcase the innovative functionality of their latest CT scan machine developed for airport security.",
       para2:
         "Hey Buddy's 3D modelling team developed an ultra-realistic 3D video to showcase scanners’ capability to create an impact.",
+      url3: "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/ct-scanner/6.png",
+
       about:
         "Our client is a leading CT scanner manufacturer in the UAE. They wanted a hyper-realistic explanatory video to showcase the innovative functionality of their latest state-of-the-art CT scan machine developed for airports. They needed a creative partner with a team that must possess skills to showcase their revolutionary but complex vision accurately. The video was going to be ultra-realistic animations requiring not just software skills but also hardware resources. Hey Buddy fits their criteria of the right partner with the right resources. To realize their project, we took the responsibility of designing a high-quality 3D animation video demonstrating the intricate details of the scanner using advanced technology.",
-      sec5heading:
-        "The Transformative Process of Using Captivating Visuals and Narrative for the Animated Video",
-      requirement:
-        "We understood the client’s requirement and, to meet that, it was vital for our team to create a visually striking and functionally accurate 3D CT scanner model. The CT scanner was filled with unique features such as highly accurate scanning and high-quality visuals to help security personnel easily identify and differentiate objects.",
-      execution:
-        "Our expert 3D modelers worked hard using the latest development tools and techniques to develop the required 3D model. Moreover, they incessantly collaborated with the client for their continuous feedback and its incorporation. This project highlights our perfect fusion of creativity, technological expertise, and effective communication. Lastly, we used a render farm to achieve the highest standards in resolution and detail in a short time.",
-      delivery:
-        "This dedication to quality allowed us to showcase our extra professionalism to the project. In the end, the video perfectly demonstrated everything from baggage entering the scanner to generating accurate 3D images.",
+      section5: {
+        heading:
+          "The Transformative Process of Using Captivating Visuals and Narrative for the Animated Video",
+        requirement:
+          "We understood the client’s requirement and, to meet that, it was vital for our team to create a visually striking and functionally accurate 3D CT scanner model. The CT scanner was filled with unique features such as highly accurate scanning and high-quality visuals to help security personnel easily identify and differentiate objects.",
+        execution:
+          "Our expert 3D modelers worked hard using the latest development tools and techniques to develop the required 3D model. Moreover, they incessantly collaborated with the client for their continuous feedback and its incorporation. This project highlights our perfect fusion of creativity, technological expertise, and effective communication. Lastly, we used a render farm to achieve the highest standards in resolution and detail in a short time.",
+        delivery:
+          "This dedication to quality allowed us to showcase our extra professionalism to the project. In the end, the video perfectly demonstrated everything from baggage entering the scanner to generating accurate 3D images.",
+        urlimg:
+          "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/ct-scanner/2.png",
+      },
       section6: {
         heading:
           "The Client’s Mission of Revolutionizing Airport Security Transformed into a 3D Animated Video",
@@ -100,6 +107,9 @@ const page = ({ params }) => {
       id: "2",
       heading1: "How Hey Buddy Designed AAA Artistic Characters for a",
       heading2: "Korean Film Studio?",
+      url1: "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/korean-studio/korean AAA game 2.png",
+      url3: "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/korean-studio/korean%20AAA%20character.jpg",
+
       para1:
         "Our client, a well-known Korean film studio, known for its animated and drama films, required dynamic characters with AAA quality. They wanted them as per the decided theme of their upcoming short film.",
       para2:
@@ -110,14 +120,18 @@ const page = ({ params }) => {
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aliquid repellendus similique nisi molestias nostrum sequi itaque mollitia minus quisquam animi, optio quaerat deleniti dignissimos officiis quis possimus non natus?",
       about:
         "Our client, a well-known Korean film studio, is famous for its multiple animated and drama films. They required dynamic characters with AAA quality. They wanted them to be realistic and as per the decided theme for their upcoming short film. The potential partner must value their priority of storytelling and cutting-edge animation of their films. After an in-depth-market research, Hey Buddy emerged as the right choice. We took the creative task of designing and rigging 42 legendary warriors. Our designers prioritized texturing, clothing, rigging, and animation to make the characters appear ultra-realistic.",
-      sec5heading:
-        "Joining Hands for Designing, Rigging, and Innovating Life-Like 3D Characters",
-      requirement:
-        "Combining realistic detail and the thematic requirements was the primary challenge of this project. We started the project with a collaborative kickoff to understand the vision of our client for its upcoming short film. The client asked us to put heavy emphasis on quality and and time adjustment, if required.",
-      execution:
-        "We had to deploy various rendering techniques to produce high-quality visual outputs with 3D artistry and a village environment. Effective communication was necessary to meet the artistic vision of the film studio.      We used industry-standard software, including ZBrush, Blender, Marvelous Designer, Substance Painter, and 3ds Max to create these animated characters.",
-      delivery:
-        "It was challenging to ensure the animation aligned with the narrative and emotional setting of the film. However, our team made the job possible with the help of their experience and cutting-edge skills.",
+      section5: {
+        heading:
+          "Joining Hands for Designing, Rigging, and Innovating Life-Like 3D Characters",
+        requirement:
+          "Combining realistic detail and the thematic requirements was the primary challenge of this project. We started the project with a collaborative kickoff to understand the vision of our client for its upcoming short film. The client asked us to put heavy emphasis on quality and and time adjustment, if required.",
+        execution:
+          "We had to deploy various rendering techniques to produce high-quality visual outputs with 3D artistry and a village environment. Effective communication was necessary to meet the artistic vision of the film studio.      We used industry-standard software, including ZBrush, Blender, Marvelous Designer, Substance Painter, and 3ds Max to create these animated characters.",
+        delivery:
+          "It was challenging to ensure the animation aligned with the narrative and emotional setting of the film. However, our team made the job possible with the help of their experience and cutting-edge skills.",
+        urlimg:
+          "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/korean-studio/korean%20AAA%20game%201.png",
+      },
       section6: {
         heading: "The Client’s Requirements Were Transformed into 3D Realities",
         para: "The collaborative effort between Hey Buddy and the Korean film studio resulted in the realization of 42 unique, realistic, and dynamic warrior legends. We perfectly demonstrated the swords, attire, environments, and other assets with detail to reflect the historical and cultural context.",
@@ -181,6 +195,8 @@ const page = ({ params }) => {
       id: "3",
       heading1: "Hollywood Styled Semi-Realistic",
       heading2: "3D Gaming Characters",
+      url1:"https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/hollywood/Hollywood Style 1.png",
+      url3:"https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/hollywood/Hollywood%20Style%202.png",
       para1:
         "Our client, a popular gaming publisher with multiple AAA and indie games needed a creative game development partner to design characters. They needed Hollywood-styled characters with meticulous detail for 4K resolution.",
       para2:
@@ -191,7 +207,7 @@ const page = ({ params }) => {
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aliquid repellendus similique nisi molestias nostrum sequi itaque mollitia minus quisquam animi, optio quaerat deleniti dignissimos officiis quis possimus non natus?",
       about:
         "Our client, a gaming publisher, is popular for multiple AAA and indie games. They needed a creative game development partner to design characters for their latest Hollywood-styled game. 8 characters were needed with hair particles and 4K resolution. The potential partner must have a competent team that can meticulously sculpt each singer’s facial features with the highest accuracy. After a one-to-one meeting, Hey Buddy was selected as the creative partner to bring these characters into 3D life. We extensively used Blender and ZBrush to capture the signature looks of each singer and design them individually.",
-      sec5heading:
+      section5:{heading:
         "The Tale of Conceptualization, Sculpting, and Recreation of Singer Models",
       requirement:
         "Designing eight digital starts in 4K regulation and accuracy was a major challenge for our team. We dedicated our time and precision to capturing every facial detail of each character. Blender was heavily used to define iconic hairstyles with complex hair particles.",
@@ -199,6 +215,8 @@ const page = ({ params }) => {
         "Our team understood the client's unique requirements and struck the perfect balance between artistic expression and technical proficiency. We brought iconic hairstyles to life with complex hair creation in Blender. Each strand was individually placed and stylized for authenticity. ",
       delivery:
         "The perfect blend of artistic expression and technical proficiency led to the creation of eight digital stars in full 4K glory. Our development process demonstrates the perfect integration of hair modeling, advanced sculpting, and clothing design techniques to provide a highly detailed gaming experience.",
+      urlimg:"https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/hollywood/Hollywood%20Style%203.png",
+      },
       section6: {
         heading:
           "The Client’s Unique Creative Vision in Achieving High-Quality 4K Characters",
@@ -261,6 +279,8 @@ const page = ({ params }) => {
       id: "4",
       heading1: "AAA 3D Characters for a",
       heading2: "Gaming Project",
+      url1:"https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/onlyhand-1/3.png",
+      url3:"https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/onlyhand-1/2.png",
       para1:
         "Our client, a gaming powerhouse, sought a dependable partner with the requisite expertise for their next 3D game development project. The potential partner should possess a sizeable team with skills matching their in-house team.",
       para2:
@@ -271,7 +291,7 @@ const page = ({ params }) => {
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aliquid repellendus similique nisi molestias nostrum sequi itaque mollitia minus quisquam animi, optio quaerat deleniti dignissimos officiis quis possimus non natus?",
       about:
         "Our client, a gaming powerhouse, is known for multiple in-demand games. They sought a dependable partner with the requisite expertise for their next 3D game development project. The potential partner should possess a sizeable team with skills matching their in-house team. Additionally, the potential partners should follow best collaborative practices for smooth project execution. After multiple rounds of discussions, Hey Buddy emerged as the right choice. We took up the task of developing 3D characters using Unreal Engine. We developed a game with a unique stylized environment, consistent design, and smooth performance across all devices.",
-      sec5heading:
+      section5:{heading:
         "The Journey of Problem Identification, Coordination, and Innovative 3D Solutions",
       requirement:
         "Creating a cohesive stylized look in their game was challenging for the client. They wanted to achieve a smooth consistency across all their gaming elements, environments, and animations. Balancing performance and visual quality was also the top priority of the client.",
@@ -279,6 +299,8 @@ const page = ({ params }) => {
         "Our metaverse and game development firm understands the importance of building strong relationships with our clients. We give huge emphasis on our communication skills, technical expertise, adaptability, creative vision, quality assurance, post-deployment support, and collaborative approach.",
       delivery:
         "We used cutting-edge 3D software for the rigging and modeling work. Using Unreal Engine 5 helped us ensure a vibrant, stylized painting aesthetic, and intense arena combat in the game. Characters also looked distinctive with unique visual aspects and oversized hands.",
+        urlimg:"https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/onlyhand-1/1.png",
+      },
       section6: {
         heading: "The Client’s Unique Vision is Realised with Our Creativity",
         para: "We developed a fully interactive 3D fighting game based on a unique concept of characters having unusually large hands. Our developers infused the maximum potential of Unreal Engine 5 to ensure a balance between performance and visual quality.",
@@ -344,13 +366,12 @@ const page = ({ params }) => {
   const {
     heading1,
     heading2,
+    url1,
+    url3,
     para1,
     para2,
     about,
-    sec5heading,
-    requirement,
-    execution,
-    delivery,
+    section5,
     section9,
     section8,
     section6,
@@ -361,7 +382,7 @@ const page = ({ params }) => {
 
   return (
     <div className=" mx-auto">
-      <Section1 heading1={heading1} heading2={heading2} />
+      <Section1 heading1={heading1} heading2={heading2} url1={url1} />
 
       <div className="lg:w-[90%] mx-auto bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/csgame2.png')] bg-no-repeat  bg-[center_top_0rem]">
         <Section2 about={about} />
@@ -373,6 +394,7 @@ const page = ({ params }) => {
           heading2={heading2}
           para1={para1}
           para2={para2}
+          url3={url3}
         />
       </div>
 
@@ -381,12 +403,7 @@ const page = ({ params }) => {
       </div> */}
 
       <div className=" mx-auto bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/csgame5.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
-        <Section5
-          heading={sec5heading}
-          requirement={requirement}
-          execution={execution}
-          delivery={delivery}
-        />
+        <Section5 {...section5} />
       </div>
       <div className="lg:w-[80%] mx-auto bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/csgame8.png')] bg-no-repeat  bg-[center_top_0rem]">
         <Section6 {...section6} />
