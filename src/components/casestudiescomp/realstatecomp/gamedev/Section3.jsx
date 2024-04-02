@@ -1,6 +1,12 @@
 import React from "react";
 import Image from "next/image";
 const Section3 = ({ heading1, heading2, para1, para2, url3 }) => {
+  const imageStyle = {
+    width: "90%",
+    height: "auto",
+    transition: "transform 0.3s ease-out",   
+  };
+  
   return (
     <div className=" py-4 sm:py-16 text-white">
       <div className="py-6 lg:w-[90%] mx-auto grid grid-cols-2 md:grid-cols-2">
@@ -15,23 +21,23 @@ const Section3 = ({ heading1, heading2, para1, para2, url3 }) => {
         </div>
       </div>
 
-      <div
+      {/* <div
         className={` h-[1024px] w-full  bg-contain bg-center bg-no-repeat`}
         style={{ backgroundImage: `url(${url3})` }}
-      ></div>
+      ></div> */}
 
-      {/* <div className=" ">
-        <div className="w-[100%] h-[100%]">
+<div classname="w-[100%] h-[100%]">
+          {/* Replace 'your-image.jpg' with the actual image source */}
           <Image
-            width={800}
-            height={800}
-            className="h-[30%] w-[100%] bg-white mt-4"
-            src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/ct-scanner/2.png"
-            alt="Background"
+            style={imageStyle}
+            width={450}
+            height={450}
+            className="h-[24px] w-[24px] bg-white mx-auto mt-4"
+            src={url3}       alt="Background"
           />
         </div>
-      </div> */}
-    </div>
+      </div>
+    
   );
 };
 

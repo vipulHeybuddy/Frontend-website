@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const Section5 = ({ heading, requirement, execution, delivery, urlimg }) => {
   const List = [
@@ -24,6 +25,11 @@ const Section5 = ({ heading, requirement, execution, delivery, urlimg }) => {
       para: delivery,
     },
   ];
+  const imageStyle = {
+    width: "90%",
+    height: "auto",
+    transition: "transform 0.3s ease-out",   
+  };
 
   return (
     <div>
@@ -61,10 +67,20 @@ const Section5 = ({ heading, requirement, execution, delivery, urlimg }) => {
         </div>
       </div>
 
-      <div
+      {/* <div
         className={` h-[1024px] w-full  bg-contain bg-center bg-no-repeat`}
         style={{ backgroundImage: `url(${urlimg})` }}
-      ></div>
+      ></div> */}
+      <div classname="w-[100%] h-[100%]">
+          {/* Replace 'your-image.jpg' with the actual image source */}
+          <Image
+            style={imageStyle}
+            width={450}
+            height={450}
+            className="h-[24px] w-[24px] bg-white mx-auto mt-4"
+            src={urlimg}       alt="Background"
+          />
+        </div>
     </div>
   );
 };
