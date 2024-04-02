@@ -54,7 +54,7 @@ const texts = [
     img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg",
   },
   {
-    title: " Art and Gaming Metaverse Development    ",
+    title: " Art and Games Metaverse Development    ",
     description:
       "We design and develop immersive games and entertainment experiences with interactive storylines to attract a huge community of art and adventure enthusiasts to your metaverse.       ",
     img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg",
@@ -187,7 +187,7 @@ const Motionslide = () => {
                 <PhotoItem
                   title="8"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Metaverse_develpoment/Art+and+Gaming+Metaverse.jpg"
+                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Metaverse_develpoment/Art+and+Games+Metaverse.jpg"
                   }
                 />
                 <PhotoItem

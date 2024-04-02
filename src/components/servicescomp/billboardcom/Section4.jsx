@@ -64,7 +64,7 @@ const Mixsection = () => {
     //   title: "Product Animation",
     // },
     // {
-    //   title: "Gaming",
+    //   title: "Games",
     // },
   ];
 

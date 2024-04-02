@@ -19,7 +19,7 @@ function page({ params }) {
   return (
     <section
       className={` mx-auto px-5 lg:px-0 bg-no-repeat bg-fixed bg-top ${
-        blogType === "gaming"
+        blogType === "Games"
           ? "bg-[url('/Images/EllipseGame.svg')]"
           : blogType === "Development"
           ? "bg-[url('/Images/EllipseDev.svg')]"

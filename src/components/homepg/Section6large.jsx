@@ -232,7 +232,7 @@ const Pagenation = () => {
                       Game Development
                     </h1>
                     <p>
-                      We helped our clients build a strong and loyal gaming
+                      We helped our clients build a strong and loyal Games
                       community for long-term success.
                     </p>
                     {/* <p className="py-4">

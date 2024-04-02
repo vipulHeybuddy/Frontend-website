@@ -1,20 +1,17 @@
 import React from "react";
 
-const Section3 = () => {
+const Section3 = ({ heading1, heading2, para1, para2 }) => {
   return (
-    <div className="px-8 py-16 text-white">
+    <div className="px-8 py-4 sm:py-16 text-white">
       <div className="py-6 lg:w-[90%] mx-auto grid grid-cols-2 md:grid-cols-2">
         <div>
-          <h1 className="font-bold text-2xl lg:text-4xl px-6 py-6">
-          Hyper-realistic Animated Video showcasing innovative 3D CT Scanner to Augment Airport Security
-
+          <h1 className="font-bold  sm:text-2xl lg:text-4xl px-2 sm:px-6 py-4 sm:py-6">
+            {heading1 + " " + heading2}
           </h1>
         </div>
-        <div>
-          <p className="text-gray-400 px-6 py-6">
-          Our client is a leading CT scanner manufacturer in the UAE. They wanted a hyper-realistic explanatory video to showcase the innovative functionality of their latest state-of-the-art CT scan machine developed for airports. They needed a creative partner with a team that must possess skills to showcase their revolutionary but complex vision accurately. The video was going to be ultra-realistic animations requiring not just software skills but also hardware resources. 
-          </p>
-          <p className="text-gray-400 px-6 py-6">Hey Buddy fits their criteria of the right partner with the right resources. To realize their project, we took the responsibility of designing a high-quality 3D animation video demonstrating the intricate details of the scanner using advanced technology. </p>
+        <div className="h-36 sm:h-full overflow-auto scrollbar-hide">
+          <p className="text-gray-400 px-2 sm:px-6 py-4 sm:py-6">{para1}</p>
+          <p className="text-gray-400 px-2 sm:px-6 py-4 sm:py-6">{para2} </p>
         </div>
       </div>
 

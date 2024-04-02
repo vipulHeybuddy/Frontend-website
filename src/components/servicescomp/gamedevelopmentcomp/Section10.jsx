@@ -102,7 +102,7 @@ const Faqsection = () => {
 
             </AccordionHeader>
             <AccordionBody>
-            Yes, Hey Buddy is a leading game development company based in India. They are known for offering innovative gaming solutions and top AI-integration services. cutting-edge game development expertise.
+            Yes, Hey Buddy is a leading game development company based in India. They are known for offering innovative Games solutions and top AI-integration services. cutting-edge game development expertise.
 
             </AccordionBody>
           </Accordion>
@@ -160,7 +160,7 @@ const Faqsection = () => {
 
             </AccordionHeader>
             <AccordionBody>
-            Indeed! Hey Buddy leverages the power of Unity to deliver exceptional gaming products, They use Unity to ensure seamless and high-quality gaming experiences.
+            Indeed! Hey Buddy leverages the power of Unity to deliver exceptional Games products, They use Unity to ensure seamless and high-quality Games experiences.
 
             </AccordionBody>
           </Accordion>
@@ -200,7 +200,7 @@ const Faqsection = () => {
 
             </AccordionHeader>
             <AccordionBody>
-            Indeed! Hey Buddy leverages the power of Unreal Engine to deliver exceptional gaming products, They use Unreal Engine to ensure seamless and high-quality gaming experiences.
+            Indeed! Hey Buddy leverages the power of Unreal Engine to deliver exceptional Games products, They use Unreal Engine to ensure seamless and high-quality Games experiences.
 
 
             </AccordionBody>

@@ -47,37 +47,37 @@ const Gridsection = ({listData,textData}) => {
 //       id: "1",
 //       heading: "Enhanced Brand Engagement",
 //       imgurl: "",
-//       para: "Gaming offers a unique platform to connect with your audience on a deeper level. Your brand establishes a memorable presence in the mind of the gamer, fostering stronger connections and long-term loyalty.",
+//       para: "Games offers a unique platform to connect with your audience on a deeper level. Your brand establishes a memorable presence in the mind of the gamer, fostering stronger connections and long-term loyalty.",
 //     },
 //     {
 //       id: "2",
 //       heading: "Enhanced Brand Engagement",
 //       imgurl: "",
-//       para: "Gaming offers a unique platform to connect with your audience on a deeper level. Your brand establishes a memorable presence in the mind of the gamer, fostering stronger connections and long-term loyalty.",
+//       para: "Games offers a unique platform to connect with your audience on a deeper level. Your brand establishes a memorable presence in the mind of the gamer, fostering stronger connections and long-term loyalty.",
 //     },
 //     {
 //       id: "3",
 //       heading: "Enhanced Brand Engagement",
 //       imgurl: "",
-//       para: "Gaming offers a unique platform to connect with your audience on a deeper level. Your brand establishes a memorable presence in the mind of the gamer, fostering stronger connections and long-term loyalty.",
+//       para: "Games offers a unique platform to connect with your audience on a deeper level. Your brand establishes a memorable presence in the mind of the gamer, fostering stronger connections and long-term loyalty.",
 //     },
 //     {
 //       id: "4",
 //       heading: "Enhanced Brand Engagement",
 //       imgurl: "",
-//       para: "Gaming offers a unique platform to connect with your audience on a deeper level. Your brand establishes a memorable presence in the mind of the gamer, fostering stronger connections and long-term loyalty.",
+//       para: "Games offers a unique platform to connect with your audience on a deeper level. Your brand establishes a memorable presence in the mind of the gamer, fostering stronger connections and long-term loyalty.",
 //     },
 //     {
 //       id: "5",
 //       heading: "Enhanced Brand Engagement",
 //       imgurl: "",
-//       para: "Gaming offers a unique platform to connect with your audience on a deeper level. Your brand establishes a memorable presence in the mind of the gamer, fostering stronger connections and long-term loyalty.",
+//       para: "Games offers a unique platform to connect with your audience on a deeper level. Your brand establishes a memorable presence in the mind of the gamer, fostering stronger connections and long-term loyalty.",
 //     },
 //     {
 //       id: "6",
 //       heading: "Enhanced Brand Engagement",
 //       imgurl: "",
-//       para: "Gaming offers a unique platform to connect with your audience on a deeper level. Your brand establishes a memorable presence in the mind of the gamer, fostering stronger connections and long-term loyalty.",
+//       para: "Games offers a unique platform to connect with your audience on a deeper level. Your brand establishes a memorable presence in the mind of the gamer, fostering stronger connections and long-term loyalty.",
 //     },
 //   ];
 

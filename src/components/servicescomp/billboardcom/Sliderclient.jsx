@@ -102,7 +102,7 @@ const Sliderclient = () => {
     //     },
     //     {
     //       id: "6",
-    //       heading: "Gaming",
+    //       heading: "Games",
     //       imgurl: "",
     //       para: "Our game-crazy 3D modellers develop characters, environments, assets and other customised 3D models for Unity, Unreal or your specific game engine.",
     //     },

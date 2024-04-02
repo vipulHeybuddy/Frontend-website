@@ -53,7 +53,7 @@ function BlogContent({ SelectedBlog }) {
             {/* intro image */}
             <div
               className={`rounded-xl relative overflow-hidden border-2 h-[60vh] xl:h-auto min-h-[60vh] ${
-                blogType === "gaming"
+                blogType === "Games"
                   ? "border-[#FF5C00]"
                   : blogType === "Development"
                   ? "border-[#26B403]"
@@ -68,7 +68,7 @@ function BlogContent({ SelectedBlog }) {
               <div className="absolute bottom-0 w-full py-3 md:py-[25px] px-3 md:px-10 backdrop-blur-lg flex flex-col gap-2 md:gap-[21px]">
                 <div
                   className={`flex items-center py-[5px] px-4 gap-[6px] w-fit rounded-full ${
-                    blogType === "gaming"
+                    blogType === "Games"
                       ? "bg-[#ff5c0024]"
                       : blogType === "Development"
                       ? "bg-[#26b40324]"
@@ -79,7 +79,7 @@ function BlogContent({ SelectedBlog }) {
                 >
                   <span
                     className={`h-4 w-4 rounded-full ${
-                      blogType === "gaming"
+                      blogType === "Games"
                         ? "bg-[#FF5C00]"
                         : blogType === "Development"
                         ? "bg-[#26B403]"
@@ -90,7 +90,7 @@ function BlogContent({ SelectedBlog }) {
                   ></span>
                   <span
                     className={`text-[#FF5C00] font-bold ${
-                      blogType === "gaming"
+                      blogType === "Games"
                         ? "text-[#FF5C00]"
                         : blogType === "Development"
                         ? "text-[#26B403]"
@@ -281,13 +281,13 @@ function BlogContent({ SelectedBlog }) {
                 </h1>
                 <p className="font-semibold">CGI in Video Games</p>
                 <p>
-                  Another industry that makes the most out of CGI is gaming. The
+                  Another industry that makes the most out of CGI is Games. The
                   technology forms the backbone of the industry. It provides,
                   literally, every element of the game - from lifelike
                   characters to intricate virtual landscapes.
                 </p>
                 <p>
-                  Good CGI development leads to realistic and immersive gaming
+                  Good CGI development leads to realistic and immersive Games
                   experiences with an amazing overall quality of modern video
                   games.
                 </p>
@@ -309,14 +309,14 @@ function BlogContent({ SelectedBlog }) {
                     CGI is the reason gamers get engrossing experience in the
                     form of realistic animations, dynamic lighting, and
                     meticulously rendered details. It elevates the overall
-                    gaming experience and helps in building a loyal gaming
+                    Games experience and helps in building a loyal Games
                     community.
                   </li>
                   <li>
                     Interactive Storytelling:
                     <br />
                     CGI blurs the lines between reality and fiction. It adds to
-                    the impact of the gaming narratives through interactive
+                    the impact of the Games narratives through interactive
                     elements and great visual effects complementing the
                     narrative.
                   </li>
@@ -657,7 +657,7 @@ function BlogContent({ SelectedBlog }) {
           <div>
             <div
               className={` border-2  rounded-[30px] flex items-center justify-between py-[40px] px-5 ${
-                blogType === "gaming"
+                blogType === "Games"
                   ? "border-[#FF5C00] bg-[#ff5c0024]"
                   : blogType === "Development"
                   ? "border-[#26B403] bg-[#26b40324]"
@@ -690,7 +690,7 @@ function BlogContent({ SelectedBlog }) {
             <div className="py-10">
               <div
                 className={` ${
-                  blogType === "gaming"
+                  blogType === "Games"
                     ? "border-[#FF5C00] bg-[#ff5c0024]"
                     : blogType === "Development"
                     ? "border-[#26B403] bg-[#26b40324]"
@@ -729,7 +729,7 @@ function BlogContent({ SelectedBlog }) {
                   "section8",
                 ]}
                 currentClassName={`border-l-4 ${
-                  blogType === "gaming"
+                  blogType === "Games"
                     ? "border-[#FF5C00] text-[#FF5C00]"
                     : blogType === "Development"
                     ? "border-[#26B403] text-[#26B403]"

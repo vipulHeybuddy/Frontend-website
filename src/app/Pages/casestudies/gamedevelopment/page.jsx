@@ -7,7 +7,7 @@ import "../../../../styles/button.css";
 const data = [
   {
     id: "1",
-    heading:"Gaming App for kids",
+    heading:"Games App for kids",
     para1:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aliquid repellendus similique nisi molestias nostrum sequi itaque mollitia minus quisquam animi, optio quaerat deleniti dignissimos officiis quis possimus non natus?",
     para2:
@@ -22,7 +22,7 @@ const data = [
   },
   {
     id: "1",
-    heading:"Gaming App for kids",
+    heading:"Games App for kids",
     para1:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aliquid repellendus similique nisi molestias nostrum sequi itaque mollitia minus quisquam animi, optio quaerat deleniti dignissimos officiis quis possimus non natus?",
     para2:
@@ -37,7 +37,7 @@ const data = [
   },
   {
     id: "1",
-    heading:"Gaming App for kids",
+    heading:"Games App for kids",
     para1:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aliquid repellendus similique nisi molestias nostrum sequi itaque mollitia minus quisquam animi, optio quaerat deleniti dignissimos officiis quis possimus non natus?",
     para2:
@@ -52,7 +52,7 @@ const data = [
   },
   {
     id: "1",
-    heading:"Gaming App for kids",
+    heading:"Games App for kids",
     para1:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aliquid repellendus similique nisi molestias nostrum sequi itaque mollitia minus quisquam animi, optio quaerat deleniti dignissimos officiis quis possimus non natus?",
     para2:
@@ -76,7 +76,7 @@ const page = () => {
           className="bg-black sticky  top-[6rem] lg:w-[80%] mx-auto "
         >
           {/* <h1 className="text-white  text-4xl px-4 lg:px-0 py-6 font-bold">
-            Gaming App for kids
+            Games App for kids
           </h1> */}
 
           <div className=" grid mb-8 mx-auto justify-center rounded-3xl border-2 shadow-sm md:mb-12 grid-cols- md:grid-cols-2 ">

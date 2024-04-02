@@ -90,9 +90,9 @@ const Sliderclient = () => {
     //     },
     //     {
     //       id: "4",
-    //       heading: "Visually-High Gaming Demand Met with Innovative Custom Solutions",
+    //       heading: "Visually-High Games Demand Met with Innovative Custom Solutions",
     //       imgurl: "",
-    //       para: "Our partners, a renowned gaming studio, faced challenges in creating an immersive multiplayer online game with complex graphics and interactive features. The solution required a special focus on the visuals of the game.",
+    //       para: "Our partners, a renowned Games studio, faced challenges in creating an immersive multiplayer online game with complex graphics and interactive features. The solution required a special focus on the visuals of the game.",
     //     },
     //     {
     //       id: "5",

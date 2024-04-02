@@ -135,7 +135,7 @@ const page = () => {
       title: "Healthcare",
     },
     {
-      title: "Gaming",
+      title: "Games",
     },
     {
       title: "Finance and Banking",

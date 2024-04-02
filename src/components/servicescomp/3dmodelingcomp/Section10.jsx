@@ -149,10 +149,10 @@ const Faqsection = () => {
               onClick={() => handleOpen(8)}
             className="!text-lg"
             >
-              What is Unity 3D development, and how can it benefit my gaming or interactive project?
+              What is Unity 3D development, and how can it benefit my Games or interactive project?
             </AccordionHeader>
             <AccordionBody>
-            Unity 3D development involves creating interactive experiences, primarily in gaming. It offers a versatile platform for developing immersive games and applications across multiple platforms.
+            Unity 3D development involves creating interactive experiences, primarily in Games. It offers a versatile platform for developing immersive games and applications across multiple platforms.
             </AccordionBody>
           </Accordion>
         </div>

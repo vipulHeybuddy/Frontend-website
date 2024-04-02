@@ -98,12 +98,12 @@ const Timelinecomp = () => {
     {
       id: "5",
       head: "5. Game Level Designing",
-      para: "Now that the characters and assets are ready, it's time to put them on the battlefield. Hence, we design game levels, player abilities, obstacles, and all other elements required for a perfect game. Our main focus - is a great gaming experience by all means.     ",
+      para: "Now that the characters and assets are ready, it's time to put them on the battlefield. Hence, we design game levels, player abilities, obstacles, and all other elements required for a perfect game. Our main focus - is a great Games experience by all means.     ",
     },
     {
       id: "6",
       head: "6. Building Mechanics ",
-      para: "Now, onto some serious tasks, we program the game mechanics that govern how players progress, interact, and experience the game. We ensure intuitive, balanced, and adaptive game mechanics for a meaningful gaming experience.",
+      para: "Now, onto some serious tasks, we program the game mechanics that govern how players progress, interact, and experience the game. We ensure intuitive, balanced, and adaptive game mechanics for a meaningful Games experience.",
     },
     {
       id: "7",
@@ -118,7 +118,7 @@ const Timelinecomp = () => {
     {
       id: "9",
       head: "9. Rigorous Testing",
-      para: "We rigorously test your game on every aspect of the process to identify bugs and issues in the game actively. We make your game market-ready and ensure that you gamers get a smooth and enjoyable gaming experience without hiccups.",
+      para: "We rigorously test your game on every aspect of the process to identify bugs and issues in the game actively. We make your game market-ready and ensure that you gamers get a smooth and enjoyable Games experience without hiccups.",
     },
     {
       id: "10",

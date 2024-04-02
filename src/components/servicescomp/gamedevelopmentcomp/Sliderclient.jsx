@@ -74,7 +74,7 @@ const Sliderclient = () => {
       id: "1",
       heading: "Dynamic Storytelling and Gameplay",
       imgurl: "",
-      para: "Using the PCG technique, we deploy AI creativity for on-the-go gaming content. The technique adapts the storyline and gameplay to players’ preferences. ",
+      para: "Using the PCG technique, we deploy AI creativity for on-the-go Games content. The technique adapts the storyline and gameplay to players’ preferences. ",
     },
     {
       id: "2",
@@ -104,19 +104,19 @@ const Sliderclient = () => {
       id: "6",
       heading: "Accurate Spatial Computing for Deep Immersion",
       imgurl: "",
-      para: "We use AI-powered spatial computing to seamlessly merge the AR/VR gaming experience with gamers’ reality. It facilitates accurate object and gesture recognition, precise tracking, and real-time rendering. ",
+      para: "We use AI-powered spatial computing to seamlessly merge the AR/VR Games experience with gamers’ reality. It facilitates accurate object and gesture recognition, precise tracking, and real-time rendering. ",
     },
     {
       id: "7",
-      heading: "Anti-Cheat Solutions To Protect Your Gaming Brand",
+      heading: "Anti-Cheat Solutions To Protect Your Games Brand",
       imgurl: "",
-      para: "We safeguard the integrity of your games with AI-based robust anti-cheat systems, ensuring fair gaming, reducing frustration among legitimate players, and preserving your brand and game's reputation. ",
+      para: "We safeguard the integrity of your games with AI-based robust anti-cheat systems, ensuring fair Games, reducing frustration among legitimate players, and preserving your brand and game's reputation. ",
     },
     {
       id: "8",
       heading: "Attracting Tech-savvy Gamers with AI-driven Competitive Edge",
       imgurl: "",
-      para: "Gaming businesses that leverage AI gain a competitive edge in the industry. Players are often drawn to titles with advanced technologies and features, making AI an essential tool for staying relevant in the competitive gaming market. ",
+      para: "Games businesses that leverage AI gain a competitive edge in the industry. Players are often drawn to titles with advanced technologies and features, making AI an essential tool for staying relevant in the competitive Games market. ",
     },
     // {
     //   id: "9",

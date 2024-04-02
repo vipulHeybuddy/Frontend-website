@@ -53,7 +53,7 @@ function BlogContent({ SelectedBlog }) {
             {/* intro image */}
             <div
               className={`rounded-xl relative overflow-hidden border-2 h-[60vh] xl:h-auto min-h-[60vh] ${
-                blogType === "gaming"
+                blogType === "Games"
                   ? "border-[#FF5C00]"
                   : blogType === "Development"
                   ? "border-[#26B403]"
@@ -68,7 +68,7 @@ function BlogContent({ SelectedBlog }) {
               <div className="absolute bottom-0 w-full py-3 md:py-[25px] px-3 md:px-10 backdrop-blur-lg flex flex-col gap-2 md:gap-[21px]">
                 <div
                   className={`flex items-center py-[5px] px-4 gap-[6px] w-fit rounded-full ${
-                    blogType === "gaming"
+                    blogType === "Games"
                       ? "bg-[#ff5c0024]"
                       : blogType === "Development"
                       ? "bg-[#26b40324]"
@@ -79,7 +79,7 @@ function BlogContent({ SelectedBlog }) {
                 >
                   <span
                     className={`h-4 w-4 rounded-full ${
-                      blogType === "gaming"
+                      blogType === "Games"
                         ? "bg-[#FF5C00]"
                         : blogType === "Development"
                         ? "bg-[#26B403]"
@@ -90,7 +90,7 @@ function BlogContent({ SelectedBlog }) {
                   ></span>
                   <span
                     className={`text-[#FF5C00] font-bold ${
-                      blogType === "gaming"
+                      blogType === "Games"
                         ? "text-[#FF5C00]"
                         : blogType === "Development"
                         ? "text-[#26B403]"
@@ -115,14 +115,14 @@ function BlogContent({ SelectedBlog }) {
                 className="flex flex-col gap-5 text-white text-base font-light"
               >
                 <h1 className="text-xl font-extrabold">
-                  AI in Gaming: Refining the Way Games Developed & Play
+                  AI in Games: Refining the Way Games Developed & Play
                 </h1>
                 <p>
-                  AI in gaming is no longer a new phenomenon. It's trending,
+                  AI in Games is no longer a new phenomenon. It's trending,
                   extensively adapted, and rapidly evolving. Just like
                   Artificial Intelligence (AI) has disrupted all major
                   industries like Healthcare, Hospitality, Banking,
-                  Entertainment, and more. And, so, the gaming industry is not
+                  Entertainment, and more. And, so, the Games industry is not
                   left behind with the profitable and result-oriented virtues of
                   Artificial Intelligence.
                 </p>
@@ -131,12 +131,12 @@ function BlogContent({ SelectedBlog }) {
                   In a broad sense, AI in game development has revolutionized
                   the way animated characters are created, dynamic environment
                   is set, more detailing is added, and storytelling gets
-                  improved. But that's not all about AI gaming solutions and the
+                  improved. But that's not all about AI Games solutions and the
                   industry is deeply disrupted well beyond the imagination.
                 </p>
                 <p>
                   So, here in this blog, we will look into the impressive role
-                  of AI in the gaming industry and how this technology is
+                  of AI in the Games industry and how this technology is
                   pushing the artistic insights of game developers to an optimum
                   extent. Of course, successful implementation of AI will help
                   companies offer better AI game development services to
@@ -144,16 +144,16 @@ function BlogContent({ SelectedBlog }) {
                 </p>
                 <p>Key Topics to Discuss</p>
                 <ul className="list-disc ml-6">
-                  <li>Understanding the role of AI in gaming.</li>
+                  <li>Understanding the role of AI in Games.</li>
                   <li>
-                    How Artificial Intelligence (AI) is helping the gaming
+                    How Artificial Intelligence (AI) is helping the Games
                     industry.
                   </li>
                   <li>
                     Must-see AI game features that have improved the playing
                     experience.
                   </li>
-                  <li>Key benefits of implementing AI in gaming.</li>
+                  <li>Key benefits of implementing AI in Games.</li>
                   <li>Have a look at some real-time examples of AI games.</li>
                 </ul>
                 <p>Let's get started on the same.</p>
@@ -163,10 +163,10 @@ function BlogContent({ SelectedBlog }) {
                 className="flex flex-col gap-5 text-white text-base font-light"
               >
                 <h1 className="text-xl font-extrabold">
-                  What is AI in Gaming?
+                  What is AI in Games?
                 </h1>
                 <p>
-                  AI in gaming revolves around the aspect of creating a dynamic
+                  AI in Games revolves around the aspect of creating a dynamic
                   environment. The intelligent integration of algorithms allows
                   game developers to create a better ecosystem from basic to
                   real-looking with better authenticity. In a way, AI games
@@ -205,7 +205,7 @@ function BlogContent({ SelectedBlog }) {
                 </ul>
                 <p>
                   Certainly, industry experts have this opinion about the
-                  growing adoption of AI in the gaming industry. This led to
+                  growing adoption of AI in the Games industry. This led to
                   extensive Canada AI game development services and extensive
                   adoption among clients.
                 </p>
@@ -220,7 +220,7 @@ function BlogContent({ SelectedBlog }) {
                 </h1>
                 <p>
                   Till now, we've covered, what role AI has to play in the
-                  gaming industry. Next to know is the actual role of AI in game
+                  Games industry. Next to know is the actual role of AI in game
                   development. Undoubtedly, artificial intelligence technology
                   brings value and real factor to games. It happens with the
                   following set of tasks.
@@ -279,7 +279,7 @@ function BlogContent({ SelectedBlog }) {
                   development is programming the games, based on the right
                   codes, and that too created in a short span of time. Unlike
                   the manual game coding work, which is time-consuming and
-                  human-error-oriented, AI in gaming creates real-time code with
+                  human-error-oriented, AI in Games creates real-time code with
                   auto-correct suggestions. With that means, there are fewer
                   chances of finding issues and bugs in codes. Thus, programming
                   the complete game with the least dependency and redundancy.
@@ -349,11 +349,11 @@ function BlogContent({ SelectedBlog }) {
                     the development process.
                   </li>
                   <li>
-                    There will be an extensive rise of AI mobile gaming,
+                    There will be an extensive rise of AI mobile Games,
                     allowing players to run anywhere and at any point in time.
                   </li>
                   <li>
-                    AI in gaming will certainly reduce development time, effort,
+                    AI in Games will certainly reduce development time, effort,
                     and cost.
                   </li>
                   <li>
@@ -363,7 +363,7 @@ function BlogContent({ SelectedBlog }) {
                 </ul>
 
                 <p className="font-semibold">
-                  Real-world Applications of AI in Gaming
+                  Real-world Applications of AI in Games
                 </p>
                 <ul className="list-disc ml-6">
                   <li>StarCraft II</li>
@@ -390,9 +390,9 @@ function BlogContent({ SelectedBlog }) {
                 <h1 className="text-xl font-extrabold">Conclusion</h1>
 
                 <p>
-                  Artificial Intelligence is positively impacting the gaming
+                  Artificial Intelligence is positively impacting the Games
                   industry while bringing new evolutions, better playing
-                  experiences, & increased engagement levels. AI in gaming not
+                  experiences, & increased engagement levels. AI in Games not
                   only helps create diverse scenarios, and interactive
                   storytelling, even brings advancement of games continuously
                   evolving as it is played.{" "}
@@ -400,7 +400,7 @@ function BlogContent({ SelectedBlog }) {
                 <p>
                   With the help of AI tools, game developers can push their
                   boundaries to create virtually impressive games and shape the
-                  future of new gaming companies. Therefore, it's time for you
+                  future of new Games companies. Therefore, it's time for you
                   to embrace the change and avail yourself of result-oriented AI
                   game development services from a reliable partner.
                 </p>
@@ -411,10 +411,10 @@ function BlogContent({ SelectedBlog }) {
                 className="flex flex-col gap-5 text-white text-base font-light"
               >
                 <h1 className="text-xl font-extrabold">FAQs</h1>
-                <p className="font-semibold">What is the AI in gaming?</p>
+                <p className="font-semibold">What is the AI in Games?</p>
                 <p>
-                  AI in gaming is the generation of responsive and adaptive
-                  gaming experiences. AI makes gamers much more personalized to
+                  AI in Games is the generation of responsive and adaptive
+                  Games experiences. AI makes gamers much more personalized to
                   the individual gamers, learning their style, likes/dislikes,
                   and capabilities to generate gameplay that is the most
                   enjoyable for them. AI makes non-player characters, or NPCs,
@@ -423,11 +423,11 @@ function BlogContent({ SelectedBlog }) {
                 </p>
 
                 <p className="font-semibold">
-                  What do AI gaming solutions have differently?
+                  What do AI Games solutions have differently?
                 </p>
                 <p>
-                  AI gaming solutions bring a more personalized, interactive,
-                  and dynamic gaming experience for an edge-of-the-seat gaming
+                  AI Games solutions bring a more personalized, interactive,
+                  and dynamic Games experience for an edge-of-the-seat Games
                   experience each time and every time.
                 </p>
 
@@ -460,7 +460,7 @@ function BlogContent({ SelectedBlog }) {
           <div>
             <div
               className={` border-2  rounded-[30px] flex items-center justify-between py-[40px] px-5 ${
-                blogType === "gaming"
+                blogType === "Games"
                   ? "border-[#FF5C00] bg-[#ff5c0024]"
                   : blogType === "Development"
                   ? "border-[#26B403] bg-[#26b40324]"
@@ -493,7 +493,7 @@ function BlogContent({ SelectedBlog }) {
             <div className="py-10">
               <div
                 className={` ${
-                  blogType === "gaming"
+                  blogType === "Games"
                     ? "border-[#FF5C00] bg-[#ff5c0024]"
                     : blogType === "Development"
                     ? "border-[#26B403] bg-[#26b40324]"
@@ -530,7 +530,7 @@ function BlogContent({ SelectedBlog }) {
                   "section6",
                 ]}
                 currentClassName={`border-l-4 ${
-                  blogType === "gaming"
+                  blogType === "Games"
                     ? "border-[#FF5C00] text-[#FF5C00]"
                     : blogType === "Development"
                     ? "border-[#26B403] text-[#26B403]"
@@ -544,13 +544,13 @@ function BlogContent({ SelectedBlog }) {
                   className={`cursor-pointer pl-2`}
                   onClick={() => handleNavClick("section1")}
                 >
-                  <a>AI in Gaming: Refining the Way Games Developed & Play</a>
+                  <a>AI in Games: Refining the Way Games Developed & Play</a>
                 </h1>
                 <h1
                   className="cursor-pointer pl-2"
                   onClick={() => handleNavClick("section2")}
                 >
-                  <a>What is AI in Gaming?</a>
+                  <a>What is AI in Games?</a>
                 </h1>
                 <h1
                   className="cursor-pointer pl-2"
