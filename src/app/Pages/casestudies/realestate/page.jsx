@@ -13,7 +13,7 @@ const data = [
       "Our client, a leading CT scanner manufacturer in the UAE, wanted a hyper-realistic explanatory video to showcase the innovative functionality of their latest CT scan machine developed for airport security. Hey Buddy's 3D modelling team developed an ultra-realistic 3D video to showcase scanners’ capability to create an impact.",
     link: "/Pages/casestudies/realestate/gamedev/[id]",
     imgurl:
-      "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/img1.webp",
+      "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/ct-scanner/1.png",
   },
   {
     id: "2",
@@ -28,7 +28,7 @@ const data = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aliquid repellendus similique nisi molestias nostrum sequi itaque mollitia minus quisquam animi, optio quaerat deleniti dignissimos officiis quis possimus non natus?",
     link: "/Pages/casestudies/realestate/gamedev/[id]",
     imgurl:
-      "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/img1.webp",
+      "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/korean-studio/korean AAA game 2.png",
   },
   {
     id: "3",
@@ -43,7 +43,7 @@ const data = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aliquid repellendus similique nisi molestias nostrum sequi itaque mollitia minus quisquam animi, optio quaerat deleniti dignissimos officiis quis possimus non natus?",
     link: "/Pages/casestudies/realestate/gamedev/[id]",
     imgurl:
-      "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/img1.webp",
+      "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/hollywood/Hollywood Style 1.png",
   },
   {
     id: "4",
@@ -58,7 +58,7 @@ const data = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aliquid repellendus similique nisi molestias nostrum sequi itaque mollitia minus quisquam animi, optio quaerat deleniti dignissimos officiis quis possimus non natus?",
     link: "/Pages/casestudies/realestate/gamedev/[id]",
     imgurl:
-      "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/img1.webp",
+      "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/onlyhand-1/3.png",
   },
 ];
 
@@ -115,7 +115,7 @@ const page = () => {
                 <Image
                   width={700}
                   height={700}
-                  src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/img1.webp"
+                  src={sec.imgurl}
                   className=" lg:mr-6 h-[20vh] w-[45rem] md:h-[50vh] md:w-[52rem] lg:h-[70vh] lg:w-[52rem] "
                   alt="Hey Buddy"
                 />
