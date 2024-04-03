@@ -88,11 +88,11 @@ const Timelinecomp = ({
       animate={controls}
       variants={textAnimation1}
     >
-      <div className="py-8 mx-4 text-white">
-        <h1 className="py-4 lg:w-[80%] text-2xl lg:text-4xl">
+      <div className="py-8 mx-4 text-white ">
+        <h1 className="py-4 lg:w-[80%] text-2xl lg:text-4xl text-center mx-auto">
           How Did We Do It?
         </h1>
-        <p className="text-xl lg:text-2xl">{heading}</p>
+        <p className="text-xl lg:text-2xl text-center mx-auto ">{heading}</p>
       </div>
 
       <div className="pb-24">

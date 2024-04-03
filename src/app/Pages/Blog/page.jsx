@@ -8,6 +8,7 @@ const blogsArray = [
   {
     category: "Games",
     id: 1,
+    name: "blog1",
     img: "/Images/blog/blogImg1.png",
     title: "Top Game Development Companies - Choose the Best One",
     summary:
@@ -17,6 +18,7 @@ const blogsArray = [
   {
     category: "Development",
     id: 2,
+    name: "blog2",
     img: "/Images/blog/blogImg1.png",
     title: "Why should I invest in game app development? Complete Guide",
     summary:
@@ -26,6 +28,7 @@ const blogsArray = [
   {
     category: "3D",
     id: 3,
+    name: "blog3",
     img: "/Images/blog/blogImg1.png",
     title: "AI in Games: Refining the Way Games Developed & Play",
     summary:
@@ -35,6 +38,7 @@ const blogsArray = [
   {
     category: "Design",
     id: 4,
+    name: "blog4",
     img: "/Images/blog/blogImg1.png",
     title: "What is CGI: Definition, Development & Common Examples",
     summary:
