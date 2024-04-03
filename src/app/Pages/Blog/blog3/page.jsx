@@ -1,20 +1,19 @@
 import React from "react";
 
-import "../../../../styles/Font.css";
+// import "../../../../styles/Font.css";
 import "./page.css";
 import BlogContent1 from "@/components/Blog/BlogContent1";
-import BlogContent2 from "@/components/Blog/BlogContent2";
-import BlogContent3 from "@/components/Blog/BlogContent3";
-import BlogContent4 from "@/components/Blog/BlogContent4";
 import { Blogs } from "@/components/Blogs";
+// import { useRouter } from "next/router";
 
-export function generateStaticParams() {
-  return [{ id: "1" }, { id: "2" }, { id: "3" }, { id: "4" }];
-}
+// export function generateStaticParams() {
+//   return [{ id: "1" }, { id: "2" }, { id: "3" }, { id: "4" }];
+// }
 
-function page({ params }) {
-  const { id } = params;
-  const SelectedBlog = Blogs.filter((blog) => blog.id === parseInt(id));
+function page() {
+  // const { query } = useRouter();
+  //   const { id } = params;
+  const SelectedBlog = Blogs.filter((blog) => blog.name === "blog3");
   const { blogType } = SelectedBlog[0];
   return (
     <section
@@ -28,18 +27,7 @@ function page({ params }) {
           : "bg-[url('/Images/EllipseDesign.svg')]"
       }`}
     >
-      {parseInt(id) === 1 && (
-        <BlogContent1 blogId={id} SelectedBlog={SelectedBlog[0]} />
-      )}
-      {parseInt(id) === 2 && (
-        <BlogContent2 blogId={id} SelectedBlog={SelectedBlog[0]} />
-      )}
-      {parseInt(id) === 3 && (
-        <BlogContent3 blogId={id} SelectedBlog={SelectedBlog[0]} />
-      )}
-      {parseInt(id) === 4 && (
-        <BlogContent4 blogId={id} SelectedBlog={SelectedBlog[0]} />
-      )}
+      <BlogContent1 SelectedBlog={SelectedBlog[0]} />
 
       {/* related blogs */}
       <section className="lg:w-[90%] xl:w-[80%] mx-auto px-5 lg:px-0">

@@ -1,6 +1,7 @@
 export const Blogs = [
   {
     id: 1,
+    name: "blog1",
     blogType: "Games",
     title: "Top Game Development Companies - Choose the Best One",
 
@@ -8,6 +9,7 @@ export const Blogs = [
   },
   {
     id: 2,
+    name: "blog2",
     blogType: "Development",
     title: "Why should I invest in game app development? Complete Guide",
 
@@ -15,6 +17,7 @@ export const Blogs = [
   },
   {
     id: 3,
+    name: "blog3",
     blogType: "3D",
     title: "AI in Games: Refining the Way Games Developed & Play",
 
@@ -22,6 +25,7 @@ export const Blogs = [
   },
   {
     id: 4,
+    name: "blog4",
     blogType: "Design",
     title: "What is CGI: Definition, Development & Common Examples",
 

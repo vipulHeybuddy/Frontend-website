@@ -2,13 +2,14 @@ import React from "react";
 import Image from "next/image";
 const Section3 = ({ heading1, heading2, para1, para2, url3 }) => {
   const imageStyle = {
-    width: "90%",
+    width: "100%",
     height: "auto",
     transition: "transform 0.3s ease-out",   
   };
   
   return (
-    <div className=" py-4 sm:py-16 text-white">
+    <div className=" pt-2  text-white">
+      <hr className="w-[90%] mx-auto"></hr>    
       <div className="py-6 lg:w-[90%] mx-auto grid grid-cols-2 md:grid-cols-2">
         <div>
           <h1 className="font-bold  sm:text-2xl lg:text-4xl px-2 sm:px-6 py-4 sm:py-6">
@@ -26,7 +27,7 @@ const Section3 = ({ heading1, heading2, para1, para2, url3 }) => {
         style={{ backgroundImage: `url(${url3})` }}
       ></div> */}
 
-<div classname="w-[100%] h-[100%]">
+      <div className="w-[100%] h-[100%]">
           {/* Replace 'your-image.jpg' with the actual image source */}
           <Image
             style={imageStyle}

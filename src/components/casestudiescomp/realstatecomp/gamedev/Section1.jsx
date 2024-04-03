@@ -7,7 +7,7 @@ import Image from "next/image";
 import { Button } from "@material-tailwind/react";
 import { motion, useAnimation } from "framer-motion";
 
-const Section1 = ({ heading1, heading2,url1 }) => {
+const Section1 = ({ heading1, heading2, url1 }) => {
   const [scrollPosition, setScrollPosition] = useState(0);
   const [isHovered, setIsHovered] = useState(false);
 
@@ -38,7 +38,7 @@ const Section1 = ({ heading1, heading2,url1 }) => {
   };
 
   const containerStyle = {
-    padding: "20px",
+    // padding: "20px",
     position: "sticky",
   };
 
@@ -104,8 +104,9 @@ const Section1 = ({ heading1, heading2,url1 }) => {
             style={imageStyle}
             width={450}
             height={450}
-            className="h-[24px] w-[24px] bg-white mx-auto mt-4"
-            src={url1}       alt="Background"
+            className="h-[24px] w-[24px] bg-white mx-auto "
+            src={url1}
+            alt="Background"
           />
         </div>
       </div>

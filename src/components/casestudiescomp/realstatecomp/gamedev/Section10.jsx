@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import SwipeableViews from "react-swipeable-views";
 
-const Section10 = ({testimonal}) => {
+const Section10 = ({ testimonal }) => {
   const cardData = [
     {
       id: 1,
-      content:testimonal,
+      content: testimonal,
       number: "01",
       // name: "Zan Syed",
     },
@@ -71,9 +71,10 @@ const Section10 = ({testimonal}) => {
           index={currentCard}
           onChangeIndex={handleChangeIndex}
           style={{
-            width: "60%", // Set initial width to 60%
+             // Set initial width to 60%
             margin: "auto", // Center the container
           }}
+          className="w-[90%] md:w-[60%]"
         >
           {cardData.map((card) => (
             <div style={{ display: "flex", justifyContent: "center" }}>
@@ -94,14 +95,14 @@ const Section10 = ({testimonal}) => {
               >
                 <p>{card.content}</p>
 
-                <p style={{ textAlign: "right" }}>{card.number}</p>
+                {/* <p style={{ textAlign: "right" }}>{card.number}</p> */}
                 {/* <p style={{ textAlign: "right" }}>{card.name}</p> */}
               </div>
             </div>
           ))}
         </SwipeableViews>
 
-        <div style={{ textAlign: "center", marginTop: "16px" }}>
+        {/* <div style={{ textAlign: "center", marginTop: "16px" }}>
           <button
             style={{
               padding: "8px 16px",
@@ -134,7 +135,7 @@ const Section10 = ({testimonal}) => {
           >
             Next
           </button>
-        </div>
+        </div> */}
       </div>
     </div>
   );

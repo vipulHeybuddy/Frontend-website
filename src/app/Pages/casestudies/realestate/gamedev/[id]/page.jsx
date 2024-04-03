@@ -195,8 +195,8 @@ const page = ({ params }) => {
       id: "3",
       heading1: "Hollywood Styled Semi-Realistic",
       heading2: "3D Gaming Characters",
-      url1:"https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/hollywood/Hollywood Style 1.png",
-      url3:"https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/hollywood/Hollywood%20Style%202.png",
+      url1: "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/hollywood/Hollywood Style 1.png",
+      url3: "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/hollywood/Hollywood%20Style%202.png",
       para1:
         "Our client, a popular gaming publisher with multiple AAA and indie games needed a creative game development partner to design characters. They needed Hollywood-styled characters with meticulous detail for 4K resolution.",
       para2:
@@ -207,15 +207,17 @@ const page = ({ params }) => {
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aliquid repellendus similique nisi molestias nostrum sequi itaque mollitia minus quisquam animi, optio quaerat deleniti dignissimos officiis quis possimus non natus?",
       about:
         "Our client, a gaming publisher, is popular for multiple AAA and indie games. They needed a creative game development partner to design characters for their latest Hollywood-styled game. 8 characters were needed with hair particles and 4K resolution. The potential partner must have a competent team that can meticulously sculpt each singer’s facial features with the highest accuracy. After a one-to-one meeting, Hey Buddy was selected as the creative partner to bring these characters into 3D life. We extensively used Blender and ZBrush to capture the signature looks of each singer and design them individually.",
-      section5:{heading:
-        "The Tale of Conceptualization, Sculpting, and Recreation of Singer Models",
-      requirement:
-        "Designing eight digital starts in 4K regulation and accuracy was a major challenge for our team. We dedicated our time and precision to capturing every facial detail of each character. Blender was heavily used to define iconic hairstyles with complex hair particles.",
-      execution:
-        "Our team understood the client's unique requirements and struck the perfect balance between artistic expression and technical proficiency. We brought iconic hairstyles to life with complex hair creation in Blender. Each strand was individually placed and stylized for authenticity. ",
-      delivery:
-        "The perfect blend of artistic expression and technical proficiency led to the creation of eight digital stars in full 4K glory. Our development process demonstrates the perfect integration of hair modeling, advanced sculpting, and clothing design techniques to provide a highly detailed gaming experience.",
-      urlimg:"https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/hollywood/Hollywood%20Style%203.png",
+      section5: {
+        heading:
+          "The Tale of Conceptualization, Sculpting, and Recreation of Singer Models",
+        requirement:
+          "Designing eight digital starts in 4K regulation and accuracy was a major challenge for our team. We dedicated our time and precision to capturing every facial detail of each character. Blender was heavily used to define iconic hairstyles with complex hair particles.",
+        execution:
+          "Our team understood the client's unique requirements and struck the perfect balance between artistic expression and technical proficiency. We brought iconic hairstyles to life with complex hair creation in Blender. Each strand was individually placed and stylized for authenticity. ",
+        delivery:
+          "The perfect blend of artistic expression and technical proficiency led to the creation of eight digital stars in full 4K glory. Our development process demonstrates the perfect integration of hair modeling, advanced sculpting, and clothing design techniques to provide a highly detailed gaming experience.",
+        urlimg:
+          "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/hollywood/Hollywood%20Style%203.png",
       },
       section6: {
         heading:
@@ -279,8 +281,8 @@ const page = ({ params }) => {
       id: "4",
       heading1: "AAA 3D Characters for a",
       heading2: "Gaming Project",
-      url1:"https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/onlyhand-1/3.png",
-      url3:"https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/onlyhand-1/2.png",
+      url1: "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/onlyhand-1/3.png",
+      url3: "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/onlyhand-1/2.png",
       para1:
         "Our client, a gaming powerhouse, sought a dependable partner with the requisite expertise for their next 3D game development project. The potential partner should possess a sizeable team with skills matching their in-house team.",
       para2:
@@ -291,15 +293,17 @@ const page = ({ params }) => {
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aliquid repellendus similique nisi molestias nostrum sequi itaque mollitia minus quisquam animi, optio quaerat deleniti dignissimos officiis quis possimus non natus?",
       about:
         "Our client, a gaming powerhouse, is known for multiple in-demand games. They sought a dependable partner with the requisite expertise for their next 3D game development project. The potential partner should possess a sizeable team with skills matching their in-house team. Additionally, the potential partners should follow best collaborative practices for smooth project execution. After multiple rounds of discussions, Hey Buddy emerged as the right choice. We took up the task of developing 3D characters using Unreal Engine. We developed a game with a unique stylized environment, consistent design, and smooth performance across all devices.",
-      section5:{heading:
-        "The Journey of Problem Identification, Coordination, and Innovative 3D Solutions",
-      requirement:
-        "Creating a cohesive stylized look in their game was challenging for the client. They wanted to achieve a smooth consistency across all their gaming elements, environments, and animations. Balancing performance and visual quality was also the top priority of the client.",
-      execution:
-        "Our metaverse and game development firm understands the importance of building strong relationships with our clients. We give huge emphasis on our communication skills, technical expertise, adaptability, creative vision, quality assurance, post-deployment support, and collaborative approach.",
-      delivery:
-        "We used cutting-edge 3D software for the rigging and modeling work. Using Unreal Engine 5 helped us ensure a vibrant, stylized painting aesthetic, and intense arena combat in the game. Characters also looked distinctive with unique visual aspects and oversized hands.",
-        urlimg:"https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/onlyhand-1/1.png",
+      section5: {
+        heading:
+          "The Journey of Problem Identification, Coordination, and Innovative 3D Solutions",
+        requirement:
+          "Creating a cohesive stylized look in their game was challenging for the client. They wanted to achieve a smooth consistency across all their gaming elements, environments, and animations. Balancing performance and visual quality was also the top priority of the client.",
+        execution:
+          "Our metaverse and game development firm understands the importance of building strong relationships with our clients. We give huge emphasis on our communication skills, technical expertise, adaptability, creative vision, quality assurance, post-deployment support, and collaborative approach.",
+        delivery:
+          "We used cutting-edge 3D software for the rigging and modeling work. Using Unreal Engine 5 helped us ensure a vibrant, stylized painting aesthetic, and intense arena combat in the game. Characters also looked distinctive with unique visual aspects and oversized hands.",
+        urlimg:
+          "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/onlyhand-1/1.png",
       },
       section6: {
         heading: "The Client’s Unique Vision is Realised with Our Creativity",
@@ -384,7 +388,7 @@ const page = ({ params }) => {
     <div className=" mx-auto">
       <Section1 heading1={heading1} heading2={heading2} url1={url1} />
 
-      <div className="lg:w-[90%] mx-auto bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/csgame2.png')] bg-no-repeat  bg-[center_top_0rem]">
+      <div className="lg:w-[100%] mx-auto bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/csgame2.png')] bg-no-repeat  bg-[center_top_0rem]">
         <Section2 about={about} />
       </div>
 

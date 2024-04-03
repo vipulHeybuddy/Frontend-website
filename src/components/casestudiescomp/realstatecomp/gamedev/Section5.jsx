@@ -26,9 +26,9 @@ const Section5 = ({ heading, requirement, execution, delivery, urlimg }) => {
     },
   ];
   const imageStyle = {
-    width: "90%",
+    width: "100%",
     height: "auto",
-    transition: "transform 0.3s ease-out",   
+    transition: "transform 0.3s ease-out",
   };
 
   return (
@@ -71,16 +71,17 @@ const Section5 = ({ heading, requirement, execution, delivery, urlimg }) => {
         className={` h-[1024px] w-full  bg-contain bg-center bg-no-repeat`}
         style={{ backgroundImage: `url(${urlimg})` }}
       ></div> */}
-      <div classname="w-[100%] h-[100%]">
-          {/* Replace 'your-image.jpg' with the actual image source */}
-          <Image
-            style={imageStyle}
-            width={450}
-            height={450}
-            className="h-[24px] w-[24px] bg-white mx-auto mt-4"
-            src={urlimg}       alt="Background"
-          />
-        </div>
+      <div className="w-[100%] h-[100%]">
+        {/* Replace 'your-image.jpg' with the actual image source */}
+        <Image
+          style={imageStyle}
+          width={450}
+          height={450}
+          className="h-[24px] w-[24px] bg-white mx-auto mt-4"
+          src={urlimg}
+          alt="Background"
+        />
+      </div>
     </div>
   );
 };

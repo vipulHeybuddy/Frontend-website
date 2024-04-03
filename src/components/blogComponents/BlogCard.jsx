@@ -2,10 +2,10 @@ import React from "react";
 import Link from "next/link";
 // import 'src/app/Pages/Blog/page.css'
 
-const BlogCard = ({ category, id, img, title, summary }) => {
+const BlogCard = ({ category, id, name, img, title, summary }) => {
   return (
     <div className="blog">
-      <Link href="/Pages/Blog/[id]" as={`/Pages/Blog/${id}`}>
+      <Link href={`/Pages/Blog/${name}`}>
         <img src={img} alt="" />
         <p className="font-bold">{title}</p>
         <p className="md:text-[1em]  text-[1.8vw]">{summary}</p>
