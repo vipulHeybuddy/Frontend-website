@@ -42,7 +42,7 @@ const page = ({ params }) => {
         delivery:
           "This dedication to quality allowed us to showcase our extra professionalism to the project. In the end, the video perfectly demonstrated everything from baggage entering the scanner to generating accurate 3D images.",
         urlimg:
-          "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/ct-scanner/2.png",
+          "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/ct-scanner/airport2.png",
       },
       section6: {
         heading:
@@ -282,7 +282,7 @@ const page = ({ params }) => {
       heading1: "AAA 3D Characters for a",
       heading2: "Gaming Project",
       url1: "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/onlyhand-1/3.png",
-      url3: "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/onlyhand-1/2.png",
+      url3: "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/onlyhand-1/AAA4.png",
       para1:
         "Our client, a gaming powerhouse, sought a dependable partner with the requisite expertise for their next 3D game development project. The potential partner should possess a sizeable team with skills matching their in-house team.",
       para2:
@@ -303,7 +303,7 @@ const page = ({ params }) => {
         delivery:
           "We used cutting-edge 3D software for the rigging and modeling work. Using Unreal Engine 5 helped us ensure a vibrant, stylized painting aesthetic, and intense arena combat in the game. Characters also looked distinctive with unique visual aspects and oversized hands.",
         urlimg:
-          "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/onlyhand-1/1.png",
+          "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/onlyhand-1/4.png",
       },
       section6: {
         heading: "The Client’s Unique Vision is Realised with Our Creativity",
@@ -388,7 +388,7 @@ const page = ({ params }) => {
     <div className=" mx-auto">
       <Section1 heading1={heading1} heading2={heading2} url1={url1} />
 
-      <div className="lg:w-[100%] mx-auto bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/csgame2.png')] bg-no-repeat  bg-[center_top_0rem]">
+      <div className=" mx-auto bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/csgame9.png')]  bg-no-repeat bg-contain lg:bg-cover  bg-[center_top_0rem]">
         <Section2 about={about} />
       </div>
 
@@ -406,28 +406,28 @@ const page = ({ params }) => {
         <Section4 />
       </div> */}
 
-      <div className=" mx-auto bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/csgame5.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
+      <div className=" mx-auto ">
         <Section5 {...section5} />
       </div>
-      <div className="lg:w-[80%] mx-auto bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/csgame8.png')] bg-no-repeat  bg-[center_top_0rem]">
+      <div className=" mx-auto ">
         <Section6 {...section6} />
       </div>
 
-      <div className="lg:w-[80%] mx-auto bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev4.png')] bg-no-repeat  bg-[center_top_0rem]">
+      <div className=" mx-auto ">
         <Section7 {...section7} />
       </div>
 
-      <div className="lg:w-[80%] mx-auto bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/csgame9.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
+      <div className=" mx-auto">
         <Section8 {...section8} />
       </div>
-      <div className="lg:w-[80%] mx-auto bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/csgame10.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
+      <div className=" mx-auto ">
         <Section9 {...section9} />
       </div>
 
-      <div className="lg:w-[80%] pb-12 mx-auto bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/csgame11.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
+      <div className=" pb-12 mx-auto ">
         <Temp testimonal={testimonal} />
       </div>
-      <div className="lg:w-[80%] mx-auto bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/csgame12.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
+      <div className=" mx-auto ">
         <Section11 {...section11} />
       </div>
     </div>

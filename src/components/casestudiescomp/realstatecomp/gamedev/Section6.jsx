@@ -12,7 +12,7 @@ const Section6 = ({ heading, para, list1, list2, list3, grid }) => {
   };
 
   return (
-    <div className="bg-[url('')] bg-no-repeat bg-auto bg-[center_top_1rem]">
+    <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/csgame12.png')] bg-no-repeat bg-contain lg:bg-auto bg-[center_top_0rem]">
       {/* <div
         className=" absolute inset-x-0 top-90 -z-10 transform-gpu overflow-hidden blur-3xl sm:top-90"
         aria-hidden="true"
@@ -20,7 +20,7 @@ const Section6 = ({ heading, para, list1, list2, list3, grid }) => {
         
       </div> */}
 
-      <div className="pt-[44px] lg:pt-[44px] " id="aboutus">
+      <div className=" lg:w-[80%] mx-auto pt-[44px] lg:pt-[44px] " id="aboutus">
         <div className="mx-auto text-center justify-center ">
           <div className="p-4 lg:p-4  h-full ">
             <div className="lg:px-8 lg:pt-16">
@@ -31,13 +31,13 @@ const Section6 = ({ heading, para, list1, list2, list3, grid }) => {
                 {heading}
               </motion.h1>
               <motion.p
-                className="text-white text-xs sm:text-sm lg:w-[60%]  mx-auto text-center justify-center"
+                className="text-gray-300  lg:w-[80%]  mx-auto text-center justify-center"
                 {...textAnimation1}
               >
                 {para}{" "}
               </motion.p>
               <motion.ul
-                className="text-white text-xs sm:text-sm lg:w-[60%]  mx-auto text-center justify-center"
+                className="text-gray-300   lg:w-[80%]  mx-auto text-center justify-center"
                 {...textAnimation1}
               >
                 <ul classname="list-disc">

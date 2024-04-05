@@ -3,8 +3,8 @@ import Link from "next/link";
 
 const Section11 = ({ para }) => {
   return (
-    <div className="">
-      <div className=" mx-auto lg:w-[50%] py-24 ">
+    <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/csgame12.png')] bg-no-repeat bg-cover lg:bg-auto bg-[center_top_0rem]">
+      <div className=" mx-auto lg:w-[50%] py-8 md:py-24 ">
         <div className="text-center">
           <p className=" px-4 lg:px-0 text-center mx-auto text-2xl lg:text-4xl font-bold sm:leading-8 text-white ">
             Give Us a Call!

@@ -6,11 +6,11 @@ const BlogCard = ({ category, id, name, img, title, summary }) => {
   return (
     <div className="blog">
       <Link href={`/Pages/Blog/${name}`}>
-        <img src={img} alt="" />
-        <p className="font-bold">{title}</p>
+        <img src={img} alt="" className="h-[13rem] w-full rounded-lg" />
+        <p className="font-extrabold my-4">{title}</p>
         <p className="md:text-[1em]  text-[1.8vw]">{summary}</p>
 
-        <div className="flex items-center justify-between">
+        <div className="flex items-center justify-between my-2">
           <span className="flex items-center gap-2">
             {/* <img className='w-[1.7em] h-[1.7em]' src={'/Images/blog/blogUser.png'} alt="No-img" />
              */}
