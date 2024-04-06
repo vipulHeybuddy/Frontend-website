@@ -53,56 +53,58 @@ const Section10 = ({ testimonal }) => {
   };
 
   return (
-    <div
-      style={{
-        overflow: "hidden",
-        width: "100%",
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <div className="pt-16  " id="testimonials">
-        <div className="py-2 lg:py-4  mx-auto text-center justify-center  text-2xl lg:text-4xl font-bold text-white mb-6">
-          <h3>Client Testimonal</h3>
-        </div>
+    <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/csgame11.png')] bg-no-repeat bg-contain lg:bg-cover bg-[center_top_0rem]">
+      <div
+        style={{
+          overflow: "hidden",
+          width: "100%",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+        className="mx-auto"
+      >
+        <div className="py-16  " id="testimonials">
+          <div className="py-2 lg:py-4  mx-auto text-center justify-center  text-2xl lg:text-4xl font-bold text-white mb-6">
+            <h3>Client Testimonal</h3>
+          </div>
 
-        <SwipeableViews
-          index={currentCard}
-          onChangeIndex={handleChangeIndex}
-          style={{
-             // Set initial width to 60%
-            margin: "auto", // Center the container
-          }}
-          className="w-[90%] md:w-[60%]"
-        >
-          {cardData.map((card) => (
-            <div style={{ display: "flex", justifyContent: "center" }}>
-              <div
-                key={card.id}
-                // style={{
-                //   flex: "0 0 70%", // Set width to 100%
-                //   boxSizing: "border-box",
-                //   padding: "46px 56px",
-                //   borderRadius: "12px",
-                //   backgroundColor: "#fff",
-                //   boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
-                //   color: "white",
-                //   backgroundColor: "#0000004a",
-                //   width: "90%",
-                // }}
-                className="border-2 border-gray-500 rounded-lg px-6 py-6 text-2xl"
-              >
-                <p>{card.content}</p>
+          <SwipeableViews
+            index={currentCard}
+            onChangeIndex={handleChangeIndex}
+            style={{
+              // Set initial width to 60%
+              margin: "auto", // Center the container
+            }}
+            className="w-[90%] md:w-[60%]"
+          >
+            {cardData.map((card) => (
+              <div style={{ display: "flex", justifyContent: "center" }}>
+                <div
+                  key={card.id}
+                  // style={{
+                  //   flex: "0 0 70%", // Set width to 100%
+                  //   boxSizing: "border-box",
+                  //   padding: "46px 56px",
+                  //   borderRadius: "12px",
+                  //   backgroundColor: "#fff",
+                  //   boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
+                  //   color: "white",
+                  //   backgroundColor: "#0000004a",
+                  //   width: "90%",
+                  // }}
+                  className="border-2 border-gray-500 rounded-lg px-6 py-6 text-2xl"
+                >
+                  <p className="text-gray-300">{card.content}</p>
 
-                {/* <p style={{ textAlign: "right" }}>{card.number}</p> */}
-                {/* <p style={{ textAlign: "right" }}>{card.name}</p> */}
+                  {/* <p style={{ textAlign: "right" }}>{card.number}</p> */}
+                  {/* <p style={{ textAlign: "right" }}>{card.name}</p> */}
+                </div>
               </div>
-            </div>
-          ))}
-        </SwipeableViews>
+            ))}
+          </SwipeableViews>
 
-        {/* <div style={{ textAlign: "center", marginTop: "16px" }}>
+          {/* <div style={{ textAlign: "center", marginTop: "16px" }}>
           <button
             style={{
               padding: "8px 16px",
@@ -136,6 +138,7 @@ const Section10 = ({ testimonal }) => {
             Next
           </button>
         </div> */}
+        </div>
       </div>
     </div>
   );

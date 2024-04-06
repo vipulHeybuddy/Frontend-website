@@ -37,87 +37,87 @@ function BlogContent({ SelectedBlog }) {
   } = SelectedBlog;
 
   return (
-    <div className={`mx-auto px-5 lg:px-0 bg-no-repeat bg-fixed bg-top`}>
-      {/* intro section */}
-      <section className="pt-28 flex flex-col-reverse lg:flex-row lg:w-[90%] xl:w-[80%] mx-auto gap-8 relative">
-        {/* main section */}
-        <section className="lg:w-[60%] flex flex-col gap-5">
-          <div className=" hidden lg:flex gap-2 items-center py-1 px-5 bg-white/10 w-fit rounded-[10px] text-white">
-            <span>Blog</span>
-            <span>
-              <FaChevronRight />
-            </span>
-            <span>{title}</span>
-          </div>
-          <div className=" flex flex-col gap-14">
-            {/* intro image */}
-            <div
-              className={`rounded-xl relative overflow-hidden border-2 h-[60vh] xl:h-auto min-h-[60vh] ${
+    <div className={`mx-auto px-5 lg:px-0 bg-no-repeat bg-fixed bg-top pt-28`}>
+      <div className=" hidden lg:flex gap-2 items-center py-1 px-5 bg-white/10 w-fit rounded-[10px] text-white ml-[4.1rem]">
+        <span>Blog</span>
+        <span>
+          <FaChevronRight />
+        </span>
+        <span>{title}</span>
+      </div>
+      <div
+        className={`rounded-xl relative overflow-hidden border-2 h-[72vh] w-[90%] mx-auto mt-4 ${
+          blogType === "Games"
+            ? "border-[#FF5C00]"
+            : blogType === "Development"
+            ? "border-[#26B403]"
+            : blogType === "3D"
+            ? "border-[#FF001F]"
+            : "border-[#00FFE0]"
+        }`}
+      >
+        <div className="w-full h-full ">
+          <img src={blogImage} alt="Image" className="h-full w-full" />
+        </div>
+        <div className="absolute bottom-0 w-full py-3 md:py-[25px] px-3 md:px-10 backdrop-blur-sm flex flex-col gap-2 md:gap-[21px]">
+          <div
+            className={`flex items-center py-[5px] px-4 gap-[6px] w-fit rounded-full ${
+              blogType === "Games"
+                ? "bg-[#ff5c0024]"
+                : blogType === "Development"
+                ? "bg-[#26b40324]"
+                : blogType === "3D"
+                ? "bg-[#ff001f24]"
+                : "bg-[#00ffe024]"
+            }`}
+          >
+            <span
+              className={`h-4 w-4 rounded-full ${
                 blogType === "Games"
-                  ? "border-[#FF5C00]"
+                  ? "bg-[#FF5C00]"
                   : blogType === "Development"
-                  ? "border-[#26B403]"
+                  ? "bg-[#26B403]"
                   : blogType === "3D"
-                  ? "border-[#FF001F]"
-                  : "border-[#00FFE0]"
+                  ? "bg-[#FF001F]"
+                  : "bg-[#00FFE0]"
+              }`}
+            ></span>
+            <span
+              className={`text-[#FF5C00] font-bold ${
+                blogType === "Games"
+                  ? "text-[#FF5C00]"
+                  : blogType === "Development"
+                  ? "text-[#26B403]"
+                  : blogType === "3D"
+                  ? "text-[#FF001F]"
+                  : "text-[#00FFE0]"
               }`}
             >
-              <div className="w-full h-full xl:h-auto">
-                <img src={blogImage} alt="Image" className="h-full w-full" />
-              </div>
-              <div className="absolute bottom-0 w-full py-3 md:py-[25px] px-3 md:px-10 backdrop-blur-lg flex flex-col gap-2 md:gap-[21px]">
-                <div
-                  className={`flex items-center py-[5px] px-4 gap-[6px] w-fit rounded-full ${
-                    blogType === "Games"
-                      ? "bg-[#ff5c0024]"
-                      : blogType === "Development"
-                      ? "bg-[#26b40324]"
-                      : blogType === "3D"
-                      ? "bg-[#ff001f24]"
-                      : "bg-[#00ffe024]"
-                  }`}
-                >
-                  <span
-                    className={`h-4 w-4 rounded-full ${
-                      blogType === "Games"
-                        ? "bg-[#FF5C00]"
-                        : blogType === "Development"
-                        ? "bg-[#26B403]"
-                        : blogType === "3D"
-                        ? "bg-[#FF001F]"
-                        : "bg-[#00FFE0]"
-                    }`}
-                  ></span>
-                  <span
-                    className={`text-[#FF5C00] font-bold ${
-                      blogType === "Games"
-                        ? "text-[#FF5C00]"
-                        : blogType === "Development"
-                        ? "text-[#26B403]"
-                        : blogType === "3D"
-                        ? "text-[#FF001F]"
-                        : "text-[#00FFE0]"
-                    }`}
-                  >
-                    {blogType}
-                  </span>
-                </div>
-                <h1 className=" text-lg md:text-3xl font-semibold text-white">
-                  {title}
-                </h1>
-                <h1 className="text-white text-sm md:text-base">{pubDate}</h1>
-              </div>
-            </div>
+              {blogType}
+            </span>
+          </div>
+          <h1 className=" text-lg md:text-3xl font-semibold text-white">
+            {title}
+          </h1>
+          <h1 className="text-white text-sm md:text-base">{pubDate}</h1>
+        </div>
+      </div>
+      {/* intro section */}
+      <section className="pt-10 flex flex-col-reverse lg:flex-row lg:w-[90%] xl:w-[90%] mx-auto gap-10 relative">
+        {/* main section */}
+        <section className="lg:w-[60%] flex flex-col gap-5">
+          <div className=" flex flex-col gap-14">
+            {/* intro image */}
             {/* verbose information */}
             <section className="flex flex-col gap-[30px] pb-[40px]">
               <div
                 id="section1"
                 className="flex flex-col gap-5 text-white text-base font-light"
               >
-                <h1 className="text-xl font-extrabold">
+                <h1 className="text-2xl font-extrabold">
                   AI in Games: Refining the Way Games Developed & Play
                 </h1>
-                <p>
+                <p className="text-sm font-thin">
                   AI in Games is no longer a new phenomenon. It's trending,
                   extensively adapted, and rapidly evolving. Just like
                   Artificial Intelligence (AI) has disrupted all major
@@ -126,7 +126,7 @@ function BlogContent({ SelectedBlog }) {
                   left behind with the profitable and result-oriented virtues of
                   Artificial Intelligence.
                 </p>
-                <p>
+                <p className="text-sm font-thin">
                   {" "}
                   In a broad sense, AI in game development has revolutionized
                   the way animated characters are created, dynamic environment
@@ -134,38 +134,46 @@ function BlogContent({ SelectedBlog }) {
                   improved. But that's not all about AI Games solutions and the
                   industry is deeply disrupted well beyond the imagination.
                 </p>
-                <p>
+                <p className="text-sm font-thin">
                   So, here in this blog, we will look into the impressive role
-                  of AI in the Games industry and how this technology is
-                  pushing the artistic insights of game developers to an optimum
-                  extent. Of course, successful implementation of AI will help
-                  companies offer better AI game development services to
-                  numerous clients and let them stay ahead of the competition.
+                  of AI in the Games industry and how this technology is pushing
+                  the artistic insights of game developers to an optimum extent.
+                  Of course, successful implementation of AI will help companies
+                  offer better AI game development services to numerous clients
+                  and let them stay ahead of the competition.
                 </p>
-                <p>Key Topics to Discuss</p>
+                <p className="text-sm font-thin">Key Topics to Discuss</p>
                 <ul className="list-disc ml-6">
-                  <li>Understanding the role of AI in Games.</li>
-                  <li>
+                  <li className="text-sm font-thin">
+                    Understanding the role of AI in Games.
+                  </li>
+                  <li className="text-sm font-thin">
                     How Artificial Intelligence (AI) is helping the Games
                     industry.
                   </li>
-                  <li>
+                  <li className="text-sm font-thin">
                     Must-see AI game features that have improved the playing
                     experience.
                   </li>
-                  <li>Key benefits of implementing AI in Games.</li>
-                  <li>Have a look at some real-time examples of AI games.</li>
+                  <li className="text-sm font-thin">
+                    Key benefits of implementing AI in Games.
+                  </li>
+                  <li className="text-sm font-thin">
+                    Have a look at some real-time examples of AI games.
+                  </li>
                 </ul>
-                <p>Let's get started on the same.</p>
+                <p className="text-sm font-thin">
+                  Let's get started on the same.
+                </p>
               </div>
               <div
                 id="section2"
                 className="flex flex-col gap-5 text-white text-base font-light"
               >
-                <h1 className="text-xl font-extrabold">
+                <h1 className="text-2xl font-extrabold">
                   What is AI in Games?
                 </h1>
-                <p>
+                <p className="text-sm font-thin">
                   AI in Games revolves around the aspect of creating a dynamic
                   environment. The intelligent integration of algorithms allows
                   game developers to create a better ecosystem from basic to
@@ -173,37 +181,45 @@ function BlogContent({ SelectedBlog }) {
                   appear to have an immersive virtual environment that actually
                   mimics the real world."
                 </p>
-                <p>
+                <p className="text-sm font-thin">
                   Now, when it comes to understanding how AI works in game
                   development, then this is what you should read.
                 </p>
                 <ul className="list-disc ml-6">
-                  <li>
+                  <li className="text-sm font-thin">
                     AI learns from players' actions, adapts their strategies,
                     and creates a dynamic environment.
                   </li>
-                  <li>
+                  <li className="text-sm font-thin">
                     With the help of AI, game developers can create more
                     challenging, real-looking, and realistic storylines for
                     gamers to experience a complete set of pleasures.
                   </li>
-                  <li>
+                  <li className="text-sm font-thin">
                     Another integral capacity of AI games is enriching the
                     player's experience and engaging the attention to an optimum
                     extent.
                   </li>
                 </ul>
-                <p>Additional game aspects enhanced by AI are as follows:</p>
+                <p className="text-sm font-thin">
+                  Additional game aspects enhanced by AI are as follows:
+                </p>
                 <ul className="list-disc ml-6">
-                  <li>Creating an intelligent working game environment.</li>
-                  <li>
+                  <li className="text-sm font-thin">
+                    Creating an intelligent working game environment.
+                  </li>
+                  <li className="text-sm font-thin">
                     Allow Non-playable characters (NPCs) to make intelligent
                     decisions.
                   </li>
-                  <li>Bringing realism to the game.</li>
-                  <li>Enriching games graphics and visual effects.</li>
+                  <li className="text-sm font-thin">
+                    Bringing realism to the game.
+                  </li>
+                  <li className="text-sm font-thin">
+                    Enriching games graphics and visual effects.
+                  </li>
                 </ul>
-                <p>
+                <p className="text-sm font-thin">
                   Certainly, industry experts have this opinion about the
                   growing adoption of AI in the Games industry. This led to
                   extensive Canada AI game development services and extensive
@@ -214,25 +230,25 @@ function BlogContent({ SelectedBlog }) {
                 id="section3"
                 className="flex flex-col gap-5 text-white text-base font-light"
               >
-                <h1 className="text-xl font-extrabold">
+                <h1 className="text-2xl font-extrabold">
                   Role of AI in Game Development - AI Game Development
                   Techniques
                 </h1>
-                <p>
-                  Till now, we've covered, what role AI has to play in the
-                  Games industry. Next to know is the actual role of AI in game
+                <p className="text-sm font-thin">
+                  Till now, we've covered, what role AI has to play in the Games
+                  industry. Next to know is the actual role of AI in game
                   development. Undoubtedly, artificial intelligence technology
                   brings value and real factor to games. It happens with the
                   following set of tasks.
                 </p>
                 <p className="font-semibold">1. Intelligence NPCs</p>
-                <p>
+                <p className="text-sm font-thin">
                   Imagine a game where your Non-playable Characters or NPCs
                   opposite to you are so smart that they can analyze your
                   fighting style and come up with tactics that force you to
                   think innovatively.
                 </p>
-                <p>
+                <p className="text-sm font-thin">
                   Wouldn't it make the game way more engaging? You can compare
                   it with instances of using a single cliched way of killing NPC
                   opponents that follow single software algorithms from start to
@@ -245,7 +261,7 @@ function BlogContent({ SelectedBlog }) {
                 <p className="font-semibold">
                   2. Procedural Content Generation:
                 </p>
-                <p>
+                <p className="text-sm font-thin">
                   Now think of a game that gives you different levels,
                   environments, and challenges every time you play it. Will you
                   get bored of it? No way. Because every time you play it you
@@ -261,7 +277,7 @@ function BlogContent({ SelectedBlog }) {
                 </p>
 
                 <p className="font-semibold">3. Adaptive Difficulty:</p>
-                <p>
+                <p className="text-sm font-thin">
                   There are instances when in order to make it challenging and
                   engaging game developers end up overdoing themselves. AI will
                   make sure that this does not happen and that the game is able
@@ -274,7 +290,7 @@ function BlogContent({ SelectedBlog }) {
                 </p>
 
                 <p className="font-semibold">4. Programming the Games</p>
-                <p>
+                <p className="text-sm font-thin">
                   One of the most integral aspects of Generative AI game
                   development is programming the games, based on the right
                   codes, and that too created in a short span of time. Unlike
@@ -288,7 +304,7 @@ function BlogContent({ SelectedBlog }) {
                 </p>
 
                 <p className="font-semibold">5. Game Artwork</p>
-                <p>
+                <p className="text-sm font-thin">
                   Games visuals have to be engaging, interactive, and crystal
                   clear to capture the attention of players and allow them to
                   play more. Different elements like background color, logo, and
@@ -305,25 +321,27 @@ function BlogContent({ SelectedBlog }) {
                 id="section4"
                 className="flex flex-col gap-5 text-white text-base font-light"
               >
-                <h1 className="text-xl font-extrabold">
+                <h1 className="text-2xl font-extrabold">
                   Unique AI Game Features
                 </h1>
 
                 <ul className="list-disc ml-6">
-                  <li>
+                  <li className="text-sm font-thin">
                     Showcasing clear and 3D-rendered graphics to capture
                     attention.
                   </li>
-                  <li>
+                  <li className="text-sm font-thin">
                     Creating different game levels to increase difficulty &
                     engagement.
                   </li>
-                  <li>
+                  <li className="text-sm font-thin">
                     Generating interactive stories & scenarios to retain players
                     for a long.
                   </li>
-                  <li>Balancing the game's complexity to an optimum extent.</li>
-                  <li>
+                  <li className="text-sm font-thin">
+                    Balancing the game's complexity to an optimum extent.
+                  </li>
+                  <li className="text-sm font-thin">
                     Adding smart intelligence to performing and non-performing
                     game players.
                   </li>
@@ -331,32 +349,32 @@ function BlogContent({ SelectedBlog }) {
 
                 <p className="font-semibold">Advantages of AI Games</p>
                 <ul className="list-disc ml-6">
-                  <li>
+                  <li className="text-sm font-thin">
                     Making games and players smarter to run effectively and
                     accordingly.
                   </li>
-                  <li>
+                  <li className="text-sm font-thin">
                     With the help of 3D visualization techniques, AI games
                     appear more real, attention-grabbing, and visually
                     interactive.
                   </li>
-                  <li>
+                  <li className="text-sm font-thin">
                     In-depth AI game detailing provides the benefit of
                     increasing player retention rate.
                   </li>
-                  <li>
+                  <li className="text-sm font-thin">
                     Game developers will learn a lot from AI integration into
                     the development process.
                   </li>
-                  <li>
-                    There will be an extensive rise of AI mobile Games,
-                    allowing players to run anywhere and at any point in time.
+                  <li className="text-sm font-thin">
+                    There will be an extensive rise of AI mobile Games, allowing
+                    players to run anywhere and at any point in time.
                   </li>
-                  <li>
+                  <li className="text-sm font-thin">
                     AI in Games will certainly reduce development time, effort,
                     and cost.
                   </li>
-                  <li>
+                  <li className="text-sm font-thin">
                     AI assists the developers in facing fewer errors and reduces
                     overall delays in deploying games for the actual players.
                   </li>
@@ -366,30 +384,56 @@ function BlogContent({ SelectedBlog }) {
                   Real-world Applications of AI in Games
                 </p>
                 <ul className="list-disc ml-6">
-                  <li>StarCraft II</li>
-                  <li>Alien: Isolation</li>
-                  <li>PUBG</li>
-                  <li>WAR Frame</li>
-                  <li>Path of Exile</li>
-                  <li>Paladins</li>
-                  <li>Pokerth</li>
-                  <li>HeartStone</li>
-                  <li>Forza Horizon Series</li>
-                  <li>F.E.A.R.</li>
-                  <li>Freeciv</li>
-                  <li>FIFA</li>
-                  <li>Google Quick Draw</li>
-                  <li>Stockfish</li>
-                  <li>Minecraft</li>
+                  <li className="text-sm font-thin">
+                    StarCraft II
+                  </li>
+                  <li className="text-sm font-thin">
+                    Alien: Isolation
+                  </li>
+                  <li className="text-sm font-thin">PUBG</li>
+                  <li className="text-sm font-thin">
+                    WAR Frame
+                  </li>
+                  <li className="text-sm font-thin">
+                    Path of Exile
+                  </li>
+                  <li className="text-sm font-thin">
+                    Paladins
+                  </li>
+                  <li className="text-sm font-thin">
+                    Pokerth
+                  </li>
+                  <li className="text-sm font-thin">
+                    HeartStone
+                  </li>
+                  <li className="text-sm font-thin">
+                    Forza Horizon Series
+                  </li>
+                  <li className="text-sm font-thin">
+                    F.E.A.R.
+                  </li>
+                  <li className="text-sm font-thin">
+                    Freeciv
+                  </li>
+                  <li className="text-sm font-thin">FIFA</li>
+                  <li className="text-sm font-thin">
+                    Google Quick Draw
+                  </li>
+                  <li className="text-sm font-thin">
+                    Stockfish
+                  </li>
+                  <li className="text-sm font-thin">
+                    Minecraft
+                  </li>
                 </ul>
               </div>
               <div
                 id="section5"
                 className="flex flex-col gap-5 text-white text-base font-light"
               >
-                <h1 className="text-xl font-extrabold">Conclusion</h1>
+                <h1 className="text-2xl font-extrabold">Conclusion</h1>
 
-                <p>
+                <p className="text-sm font-thin">
                   Artificial Intelligence is positively impacting the Games
                   industry while bringing new evolutions, better playing
                   experiences, & increased engagement levels. AI in Games not
@@ -397,11 +441,11 @@ function BlogContent({ SelectedBlog }) {
                   storytelling, even brings advancement of games continuously
                   evolving as it is played.{" "}
                 </p>
-                <p>
+                <p className="text-sm font-thin">
                   With the help of AI tools, game developers can push their
                   boundaries to create virtually impressive games and shape the
-                  future of new Games companies. Therefore, it's time for you
-                  to embrace the change and avail yourself of result-oriented AI
+                  future of new Games companies. Therefore, it's time for you to
+                  embrace the change and avail yourself of result-oriented AI
                   game development services from a reliable partner.
                 </p>
               </div>
@@ -410,24 +454,24 @@ function BlogContent({ SelectedBlog }) {
                 id="section6"
                 className="flex flex-col gap-5 text-white text-base font-light"
               >
-                <h1 className="text-xl font-extrabold">FAQs</h1>
+                <h1 className="text-2xl font-extrabold">FAQs</h1>
                 <p className="font-semibold">What is the AI in Games?</p>
-                <p>
-                  AI in Games is the generation of responsive and adaptive
-                  Games experiences. AI makes gamers much more personalized to
-                  the individual gamers, learning their style, likes/dislikes,
-                  and capabilities to generate gameplay that is the most
-                  enjoyable for them. AI makes non-player characters, or NPCs,
-                  more adaptive, intelligent, and interactive as if a real human
-                  is controlling and speaking from behind them.
+                <p className="text-sm font-thin">
+                  AI in Games is the generation of responsive and adaptive Games
+                  experiences. AI makes gamers much more personalized to the
+                  individual gamers, learning their style, likes/dislikes, and
+                  capabilities to generate gameplay that is the most enjoyable
+                  for them. AI makes non-player characters, or NPCs, more
+                  adaptive, intelligent, and interactive as if a real human is
+                  controlling and speaking from behind them.
                 </p>
 
                 <p className="font-semibold">
                   What do AI Games solutions have differently?
                 </p>
-                <p>
-                  AI Games solutions bring a more personalized, interactive,
-                  and dynamic Games experience for an edge-of-the-seat Games
+                <p className="text-sm font-thin">
+                  AI Games solutions bring a more personalized, interactive, and
+                  dynamic Games experience for an edge-of-the-seat Games
                   experience each time and every time.
                 </p>
 
@@ -436,16 +480,16 @@ function BlogContent({ SelectedBlog }) {
                   development?
                 </p>
                 <ul className="list-disc ml-6">
-                  <li>
+                  <li className="text-sm font-thin">
                     Unity ML-Agents: It is developed by Unity Technologies. It
                     allows developers to train agents using machine learning
                     algorithms and incorporate AI into their games.
                   </li>
-                  <li>
+                  <li className="text-sm font-thin">
                     Unreal Engine AI: It provides built-in AI tools for behavior
                     trees, navigation meshes, and environmental queries.
                   </li>
-                  <li>
+                  <li className="text-sm font-thin">
                     TensorFlow and PyTorch: These are used for creating and
                     training neural networks to develop AI models for
                     game-related tasks such as image recognition, natural
@@ -544,19 +588,23 @@ function BlogContent({ SelectedBlog }) {
                   className={`cursor-pointer pl-2`}
                   onClick={() => handleNavClick("section1")}
                 >
-                  <a>AI in Games: Refining the Way Games Developed & Play</a>
+                  <a className="text-sm font-thin">
+                    AI in Games: Refining the Way Games Developed & Play
+                  </a>
                 </h1>
                 <h1
                   className="cursor-pointer pl-2"
                   onClick={() => handleNavClick("section2")}
                 >
-                  <a>What is AI in Games?</a>
+                  <a className="text-sm font-thin">
+                    What is AI in Games?
+                  </a>
                 </h1>
                 <h1
                   className="cursor-pointer pl-2"
                   onClick={() => handleNavClick("section3")}
                 >
-                  <a>
+                  <a className="text-sm font-thin">
                     Role of AI in Game Development - AI Game Development
                     Techniques
                   </a>
@@ -565,19 +613,23 @@ function BlogContent({ SelectedBlog }) {
                   className="cursor-pointer pl-2"
                   onClick={() => handleNavClick("section4")}
                 >
-                  <a>Unique AI Game Features</a>
+                  <a className="text-sm font-thin">
+                    Unique AI Game Features
+                  </a>
                 </h1>
                 <h1
                   className="cursor-pointer pl-2"
                   onClick={() => handleNavClick("section5")}
                 >
-                  <a>Conclusion</a>
+                  <a className="text-sm font-thin">
+                    Conclusion
+                  </a>
                 </h1>
                 <h1
                   className="cursor-pointer pl-2"
                   onClick={() => handleNavClick("section6")}
                 >
-                  <a>FAQs</a>
+                  <a className="text-sm font-thin">FAQs</a>
                 </h1>
               </Scrollspy>
             </div>

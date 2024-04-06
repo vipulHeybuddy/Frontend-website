@@ -164,48 +164,50 @@ const Sliderclient = ({
   };
 
   return (
-    <motion.div
-      ref={ref}
-      initial="hidden"
-      animate={controls}
-      variants={textAnimation1}
-    >
-      <div className="py-14">
-        <div className="py-8 lg:w-[90%] text-white mx-auto text-center">
-          <h1 className="py-4 font-bold text-2xl lg:text-4xl">
-            Project Challenges
-          </h1>
-          {/* <p className="text-xl lg:text-2xl">
+    <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/csgame10.png')] bg-no-repeat bg-contain lg:bg-cover bg-[center_top_0rem]">
+      <motion.div
+        ref={ref}
+        initial="hidden"
+        animate={controls}
+        variants={textAnimation1}
+      >
+        <div className="py-14 w-[90%] mx-auto">
+          <div className="py-8  text-white mx-auto text-center">
+            <h1 className="py-4 font-bold text-2xl lg:text-4xl">
+              Project Challenges
+            </h1>
+            {/* <p className="text-xl lg:text-2xl">
         Investing in game development is not just about creating entertainment but a strategic move to brand expansion and market leadership. It is a strategic avenue for investing in innovation and engagement and staying ahead in today's dynamic business landscape.
         </p> */}
+          </div>
+
+          <Slider {...settings}>
+            {List.map((section, index) => (
+              <div className="px-2 h-[26rem] ">
+                <figure class="flex flex-col p-4 lg:p-6  rounded-lg  h-full w-full bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20">
+                  <blockquote class="  text-gray-400">
+                    <span className="text-left text-4xl lg:text-6xl font-semibold text-gray-400">
+                      {section.serialno}
+                    </span>
+
+                    <h3
+                      style={{ color: "white" }}
+                      class="py-4 text-xl font-semibold  text-gray-500 "
+                    >
+                      {section.heading}
+                    </h3>
+
+                    <p  className="text-gray-300 text-left mb-8">
+                      {section.para}
+                    </p>
+                  </blockquote>
+                </figure>
+              </div>
+            ))}
+          </Slider>
         </div>
-
-        <Slider {...settings}>
-          {List.map((section, index) => (
-            <div className="px-2 h-96 ">
-              <figure class="flex flex-col p-4 lg:p-6  rounded-lg  h-full w-full bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20">
-                <blockquote class="  text-gray-400">
-                  <span className="text-left text-4xl lg:text-6xl font-semibold text-gray-400">
-                    {section.serialno}
-                  </span>
-
-                  <h3
-                    style={{ color: "white" }}
-                    class="py-4 text-xl font-semibold  text-gray-500 "
-                  >
-                    {section.heading}
-                  </h3>
-
-                  <p style={{ color: "white" }} className="text-left mb-8">
-                    {section.para}
-                  </p>
-                </blockquote>
-              </figure>
-            </div>
-          ))}
-        </Slider>
-      </div>
-    </motion.div>
+      </motion.div>
+    </div>
   );
 };
 

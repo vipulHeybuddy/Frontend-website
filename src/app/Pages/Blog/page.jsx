@@ -9,7 +9,7 @@ const blogsArray = [
     category: "Games",
     id: 1,
     name: "blog1",
-    img: "/Images/blog/blogImg1.png",
+    img: "https://s3-alpha-sig.figma.com/img/bd77/1937/efb5e2c99e80153e295ba038aad0ee9a?Expires=1713139200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=TZ8~KVwbLsG-SLfmifsvYrOo6LKhHGX55jok5K4bEAGIDDXCSmIEF~x0pH8-tX8MTP1~mxYf90VWz0hFm02lDCXr7A8cVxTaAOdGL7cw6gnmQSpIWtuVi5sF0t~bFlvNhp5WsOgP4iPyuDQLAwvDzzXYlPeyokoJoGly~WIT5O6Pe4v2LWiKgNQlePm6PMFaXmTDGIuBkLbmfF4rpepEDZ4JFQAb3G-MWVCvdhw0K7rj3HbvDCKwlzZV5q6-LuD6sfd3eAxQRky1hwptecMS-LDA9mJyOjCo~cC~aMhq1b-ZVFMhZMfjpKqQqelSgQjrD4zs886Lk1Nxs0hSXw3ZYg__",
     title: "Top Game Development Companies - Choose the Best One",
     summary:
       "Made up your mind to invest in game development? A great decision indeed. The reasons are many such as diverse monetization models, a loyal global Games community, a higher engagement rate among ot...",
@@ -19,7 +19,7 @@ const blogsArray = [
     category: "Development",
     id: 2,
     name: "blog2",
-    img: "/Images/blog/blogImg1.png",
+    img: "https://s3-alpha-sig.figma.com/img/7ecd/aed3/939ab6a459edf1b1dbce99687a3eefa0?Expires=1713139200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=BoY8pzOJSJOMq5ExIMHtykgnAN1NuVEGt12IDKb5WdMQvESms-ae24D0oJP5og77UvdEvFbEiArWQpy0t9~rqGEKj5Ym8Fzed3ZrCK5Xr1sVw0JGY37BzLOYL0MEmRMGNw7iP485KhcPxckxENajgYx30qTRpHRVxwCmTMce7LlzF1esY47py-eEM20ZtpcDto0pE7SyDuSEpakmrtBy7JP~OYsfBFGjbpuZrgRNvuZ-eFWCtbBZw4B~UhqbhFm4er-IlhBX~sjV8fmxjJqfup03~Kc0z46kz0mghdZbU4nvYDTs8yofV1yydKrOSPxn3aaCzihLo3DwL00TDVukQA__",
     title: "Why should I invest in game app development? Complete Guide",
     summary:
       " The answer to the above question is pretty straightforward the Games market is booming and you should not miss this opportunity. It is growing in every dimension, geographically, technologicall...",
@@ -29,7 +29,7 @@ const blogsArray = [
     category: "3D",
     id: 3,
     name: "blog3",
-    img: "/Images/blog/blogImg1.png",
+    img: "https://s3-alpha-sig.figma.com/img/f373/32ef/39d15fba4c38417e833c8483481a5103?Expires=1713139200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Dw0Ph0JQ2IKEA0TzQ28RpcOM3~5Q4Bj0pgniJtoBDKbDX3Hkp4WDhjIvU7Sa2J1Z8rGLewdstbSq13lHbUz8A8AoFoR0nNj4abmFs5tCY~oV8PXcTb4psPAlHlbW~-9d4E0pj6tIFBSuaD1klMhAwvdQeZ6D1uB3mQGyIhMzf5pCj-0FNoONf3Pb7Axb19HilQs04C7iZ2gMoYn-QMK7YQZpjWhcOih-mL9mPxn8Gw7l-LZwH2AIlTi1yUJkI1-MT3U~OLXHRkoGPDHWavPSiE1O2FiLTzZq8YtCDBZjqWeu3FkXsLhTQJ5lOvscjtfbFde2k7Q29sO42igjPvhkuQ__",
     title: "AI in Games: Refining the Way Games Developed & Play",
     summary:
       "AI in Games is no longer a new phenomenon. It's trending, extensively adapted, and rapidly evolving. Just like Artificial Intelligence (AI) has disrupted all major industries like Healthcare, Hospitality, Banking...",
@@ -39,7 +39,7 @@ const blogsArray = [
     category: "Design",
     id: 4,
     name: "blog4",
-    img: "/Images/blog/blogImg1.png",
+    img: "https://s3-alpha-sig.figma.com/img/230f/d45d/9be5dd0d735331c8467ed92adcaaa6a0?Expires=1713139200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=gdNs-duObWO5bUjRBZMHBqKj8klt3n-OpZ2P2BDn3aENDtoKr7snrVDd4cy4BSvyxn5z3FDetgYQQgA7Xn-tBYosjVutT-f7G0B9mC7XNDKzBIlc8GY8XLyF5rYgl58xEki~GbhfdS1Ip9jfNO4cfMfw7hCsnH8o~QW5xWUC51xL9d6GAQlC2lIBKICUXeVf~6P~cQXbPVmv7ZHABxGUT4QJzNsW1QUrJbEkh1~MnKXxhb-R58UMvm~CgQX5m0diXvWoDUg~DNv6V3rL1gYnbHYqlCCwqcORcRFMDQ-l8MNwffgcQsFomY8T1fi7D68sr7mXfLHbZBI0hGhjy00XuQ__",
     title: "What is CGI: Definition, Development & Common Examples",
     summary:
       "Ever wondered what made the Avatar movie a hit, or why there is such a huge and crazy fan community for the Harry Potter franchise? Well, that’s pretty straightforward, this is because they take us in...",

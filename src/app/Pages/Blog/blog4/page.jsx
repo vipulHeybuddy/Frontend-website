@@ -2,7 +2,7 @@ import React from "react";
 
 // import "../../../../styles/Font.css";
 import "./page.css";
-import BlogContent1 from "@/components/Blog/BlogContent1";
+import BlogContent4 from "@/components/Blog/BlogContent4";
 import { Blogs } from "@/components/Blogs";
 // import { useRouter } from "next/router";
 
@@ -17,7 +17,7 @@ function page() {
   const { blogType } = SelectedBlog[0];
   return (
     <section
-      className={` mx-auto px-5 lg:px-0 bg-no-repeat bg-fixed bg-top ${
+      className={` mx-auto px-5 lg:px-0 bg-no-repeat bg-contain bg-top ${
         blogType === "Games"
           ? "bg-[url('/Images/EllipseGame.svg')]"
           : blogType === "Development"
@@ -27,7 +27,7 @@ function page() {
           : "bg-[url('/Images/EllipseDesign.svg')]"
       }`}
     >
-      <BlogContent1 SelectedBlog={SelectedBlog[0]} />
+      <BlogContent4 SelectedBlog={SelectedBlog[0]} />
 
       {/* related blogs */}
       <section className="lg:w-[90%] xl:w-[80%] mx-auto px-5 lg:px-0">
