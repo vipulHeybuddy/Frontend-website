@@ -91,17 +91,17 @@ function Slider1() {
   const slide_image_6 =
     "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/metaverse.jpg";
   const web3dev =
-    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/home+page+service+card/4.Web3.png";
+    "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/home%20page%20service%20card/4.Web3.png";
 
   const cgi_IMG =
-    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/home+page+service+card/1.balloon+in+shape.png";
+    "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/home%20page%20service%20card/1.balloon%20in%20shape.png";
   const arDev_IMG =
-    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/home+page+service+card/7.AR+development.png";
+    "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/home%20page%20service%20card/7.AR%20development.png";
   const customSoftware_IMG =
-    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/home+page+service+card/2.Custom+software+development.png";
+    "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/home%20page%20service%20card/2.Custom%20software%20development.png";
 
   const billBord =
-    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/home+page+service+card/6.3D+Billboard.png";
+    "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/home%20page%20service%20card/6.3D%20Billboard.png";
 
   return (
     <motion.div
