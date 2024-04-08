@@ -83,10 +83,11 @@ const Timelinecomp = () => {
     >
       <div className="py-8 text-white">
         <h1 className="py-4 lg:w-[80%] text-2xl lg:text-4xl">
-        Hey Buddy: Metaverse Development Process
+          Hey Buddy: Metaverse Development Process
         </h1>
         <p className=" text-base md:text-lg lg:text-2xl">
-        Our years of commitment to deliver perfection have resulted in a streamlined and evolved Metaverse Development Process.
+          Our years of commitment to deliver perfection have resulted in a
+          streamlined and evolved Metaverse Development Process.
         </p>
       </div>
 
@@ -99,66 +100,73 @@ const Timelinecomp = () => {
                 <div class="container text-white">
                   <ul>
                     <li>
-
                       <h3 className="font-bold text-2xl  ">Ideation Phase</h3>
 
                       <p>
-                      Our experts collaborate closely with your team to understand your vision, goals, and audience. Then through power-packed brainstorming sessions, we craft a comprehensive blueprint to meet your expectations.
+                        Our experts collaborate closely with your team to
+                        understand your vision, goals, and audience. Then
+                        through power-packed brainstorming sessions, we craft a
+                        comprehensive blueprint to meet your expectations.
                       </p>
-
                     </li>
                     <li>
-
-                      <h3 className="font-bold text-2xl ">Design & Prototyping</h3>
+                      <h3 className="font-bold text-2xl ">
+                        Design & Prototyping
+                      </h3>
 
                       <p>
-                      Our experienced designers create immersive environments and interactive elements, bringing your concept to life. With rapid prototyping, we ensure your Metaverse project meets your standards.
+                        Our experienced designers create immersive environments
+                        and interactive elements, bringing your concept to life.
+                        With rapid prototyping, we ensure your Metaverse project
+                        meets your standards.
                       </p>
-
-               
                     </li>
                     <li>
-
                       <h3 className="font-bold text-2xl ">
-                      Development & Implementation 
-
-
+                        Development & Implementation
                       </h3>
                       <p>
-                      Our seasoned developers utilize cutting-edge technologies and build a robust foundation for your Metaverse project. By deploying agile methodologies, we infuse flexibility and adaptability throughout the development process
+                        Our seasoned developers utilize cutting-edge
+                        technologies and build a robust foundation for your
+                        Metaverse project. By deploying agile methodologies, we
+                        infuse flexibility and adaptability throughout the
+                        development process
                       </p>
-
                     </li>
                     <li>
-
-                      <h3 className="font-bold text-2xl ">Testing & Refinement</h3>
-         <p>
-         We execute rigorous testing to ensure a glitch-free Metaverse experience for your audience. We invite your feedback and fine-tune every aspect to refine the experience for high-class performance and impressive user engagement.
-
+                      <h3 className="font-bold text-2xl ">
+                        Testing & Refinement
+                      </h3>
+                      <p>
+                        We execute rigorous testing to ensure a glitch-free
+                        Metaverse experience for your audience. We invite your
+                        feedback and fine-tune every aspect to refine the
+                        experience for high-class performance and impressive
+                        user engagement.
                       </p>
-
                     </li>
 
                     <li>
-
                       <h3 className="font-bold text-2xl ">Launch & Beyond</h3>
 
                       <p>
-                      Lastly, we guide you through a successful launch and we continue to support you in the post-launch phase. Hence, not only do we ensure seamless integration and scalability but also time-bound troubleshooting.
+                        Lastly, we guide you through a successful launch and we
+                        continue to support you in the post-launch phase. Hence,
+                        not only do we ensure seamless integration and
+                        scalability but also time-bound troubleshooting.
                       </p>
-
                     </li>
 
                     <li>
-
                       <h3 className="font-bold text-2xl ">Timely Delivery</h3>
 
                       <p>
-                      With our unwavering commitment, we deliver your 3D assets with high regard to timelines. 
-We ensure this by utilizing our reliable development process and high professionalism, the two most essential ingredients for your project's success.
-
+                        With our unwavering commitment, we deliver your 3D
+                        assets with high regard to timelines. We ensure this by
+                        utilizing our reliable development process and high
+                        professionalism, the two most essential ingredients for
+                        your project's success.
                       </p>
-
                     </li>
                   </ul>
                 </div>
@@ -178,7 +186,7 @@ We ensure this by utilizing our reliable development process and high profession
               <Image
                 width={700}
                 height={700}
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/wheel-unscreen.gif"
+                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/wheel-unscreen.gif"
                 className="lg:mr-6 h-[40vh] w-[52rem] lg:h-[60vh] lg:w-[92rem] "
                 alt="Hey B"
               />

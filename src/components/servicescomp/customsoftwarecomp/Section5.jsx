@@ -179,7 +179,7 @@ const Timelinecomp = () => {
               <Image
                 width={700}
                 height={700}
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/wheel-unscreen.gif"
+                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/wheel-unscreen.gif"
                 className="lg:mr-6 h-[40vh] w-[52rem] lg:h-[60vh] lg:w-[92rem] "
                 alt="Hey B"
               />

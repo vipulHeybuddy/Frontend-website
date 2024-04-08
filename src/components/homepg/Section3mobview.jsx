@@ -9,49 +9,49 @@ function Mobslider() {
       description:
         "From casual mobile Games to console adventure, we create all here.",
       image:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/game.png",
     },
     {
       title: "Immersive Development",
       description:
         "From casual mobile Games to console adventure, we create all here.",
       image:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Immersive.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Immersive.png",
     },
     {
       title: "3D Development",
       description:
         "From casual mobile Games to console adventure, we create all here.",
       image:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Cube.jpg",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Cube.jpg",
     },
     {
       title: "AI Services",
       description:
         "From casual mobile Games to console adventure, we create all here.",
       image:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/ai.jpg",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/ai.jpg",
     },
     {
       title: "APP Development",
       description:
         "From casual mobile Games to console adventure, we create all here.",
       image:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/appdev.jpg",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/appdev.jpg",
     },
     {
       title: "VR Training & Simulation",
       description:
         "From casual mobile Games to console adventure, we create all here.",
       image:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/metaverse.jpg",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/metaverse.jpg",
     },
     {
       title: "Web3 Development",
       description:
         "From casual mobile Games to console adventure, we create all here.",
       image:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/blockchain.jpg",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/blockchain.jpg",
     },
   ];
 
@@ -65,7 +65,7 @@ function Mobslider() {
         flexDirection: "column",
         fontWeight: "bold",
       }}
-      // className=" bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Ellipse8.png')] bg-no-repeat bg-contain "
+      // className=" bg-[url('https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Ellipse8.png')] bg-no-repeat bg-contain "
     >
       <h1
         style={{
@@ -80,7 +80,7 @@ function Mobslider() {
           position: "sticky",
           top: "5rem",
         }}
-        className=" bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Ellipse8.png')] bg-no-repeat bg-cover "
+        className=" bg-[url('https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Ellipse8.png')] bg-no-repeat bg-cover "
       >
         Get All Emerging Tech Solutions Under One Roof
       </h1>

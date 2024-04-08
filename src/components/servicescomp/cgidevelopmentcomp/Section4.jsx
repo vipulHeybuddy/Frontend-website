@@ -3,20 +3,22 @@
 import React, { useState, useEffect, useRef } from "react";
 import Slider from "react-slick";
 import Image from "next/image";
-import SwipeableViews from 'react-swipeable-views';
+import SwipeableViews from "react-swipeable-views";
 import Sliderclient from "./Sliderclient";
 import { AiFillCheckCircle } from "react-icons/ai";
 import { motion, useAnimation } from "framer-motion";
 
-
 const Mixsection = () => {
-
   const controls = useAnimation();
   const ref = useRef();
 
   const textAnimation1 = {
     hidden: { opacity: 0, y: "20%" },
-    visible: { opacity: 1, y: 0, transition: { duration: 1.5, ease: "easeOut" } },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: { duration: 1.5, ease: "easeOut" },
+    },
   };
 
   const onScreen = async () => {
@@ -47,7 +49,7 @@ const Mixsection = () => {
     };
   }, []);
   // const checklist1 = [
-    
+
   //   {
   //     title: "Immersive Experiences",
   //   },
@@ -68,17 +70,50 @@ const Mixsection = () => {
   //   },
   // ];
 
-
   const cardData = [
-    { id: 1,                content: 'Here is my opinion based on my experience, I have really enjoyed working with the game development team. The team is amicable, creative and understanding.' , number: '01' , name: 'Zan Syed' },
-    { id: 2, name: 'Sarah', content: 'Thank you very much! An amazing job done by buddies what I like to call the team that exceeds all expectations. I am glad that I trusted you guys with the work.', number: '02', },
-    { id: 3, name: 'Ankit', content: 'I loved working with Hey Buddy and the way my VR project was handled, I consider this company as one of the best metaverse and game company in India.', number: '03', },
-    { id: 4, name: 'Riyahi', content: 'OMG where to start, I have no idea! people are amazing here, very focused and client-oriented. Kudos to the team for delivering the game project on time.', number: '04', },
-    { id: 5, name: 'Jeremy', content: 'Best game development company in India, though I am from the United States but never felt that I had hired this company, it was like this is my in-house team.' ,number: '05', },
-    { id: 6, name: 'Bhaskar', content: 'If anyone has a futuristic idea in mind and not finding the way to turn the idea into reality, I would recommend to reach out to Hey buddy, they are the best technology partner.'  , number: '06',},
+    {
+      id: 1,
+      content:
+        "Here is my opinion based on my experience, I have really enjoyed working with the game development team. The team is amicable, creative and understanding.",
+      number: "01",
+      name: "Zan Syed",
+    },
+    {
+      id: 2,
+      name: "Sarah",
+      content:
+        "Thank you very much! An amazing job done by buddies what I like to call the team that exceeds all expectations. I am glad that I trusted you guys with the work.",
+      number: "02",
+    },
+    {
+      id: 3,
+      name: "Ankit",
+      content:
+        "I loved working with Hey Buddy and the way my VR project was handled, I consider this company as one of the best metaverse and game company in India.",
+      number: "03",
+    },
+    {
+      id: 4,
+      name: "Riyahi",
+      content:
+        "OMG where to start, I have no idea! people are amazing here, very focused and client-oriented. Kudos to the team for delivering the game project on time.",
+      number: "04",
+    },
+    {
+      id: 5,
+      name: "Jeremy",
+      content:
+        "Best game development company in India, though I am from the United States but never felt that I had hired this company, it was like this is my in-house team.",
+      number: "05",
+    },
+    {
+      id: 6,
+      name: "Bhaskar",
+      content:
+        "If anyone has a futuristic idea in mind and not finding the way to turn the idea into reality, I would recommend to reach out to Hey buddy, they are the best technology partner.",
+      number: "06",
+    },
   ];
-
-
 
   const [currentCard, setCurrentCard] = useState(0);
 
@@ -122,26 +157,27 @@ const Mixsection = () => {
   };
 
   return (
-    <motion.div 
-    ref={ref}
+    <motion.div
+      ref={ref}
       initial="hidden"
       animate={controls}
       variants={textAnimation1}
 
-    // className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev4.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]"
+      // className="bg-[url('https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/gamedev4.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]"
     >
       <div className="py-4 text-white">
         <h1 className="py-4 lg:w-[80%] text-2xl lg:text-4xl">
-        Bring Rewarding Business Benefits - Choose CGI technologies and solutions 
+          Bring Rewarding Business Benefits - Choose CGI technologies and
+          solutions
         </h1>
         <p className=" text-base md:text-lg lg:text-2xl">
-        With flexible and adaptable CGI solutions, you get the best results for your business while saving your resources.
-
+          With flexible and adaptable CGI solutions, you get the best results
+          for your business while saving your resources.
         </p>
       </div>
       {/* --------------------box section ------------------------------------------ */}
 
-{/* pink box */}
+      {/* pink box */}
 
       {/* <div className=" bg-gradient-to-r from-[#FFA7A7] via-[#A30CB5] to-[#0B0DF4] shadow-xl rounded-3xl py-4 lg:py-4 mt-8 mx-auto">
         <div className=" lg:mx-auto lg:text-center w-full justify-center py-2 lg:py-2">
@@ -162,14 +198,8 @@ const Mixsection = () => {
       </div> */}
 
       {/* ------------------slider-------------------------------- */}
-   
-        <Sliderclient/>
 
-
-
-      
-
-
+      <Sliderclient />
     </motion.div>
   );
 };

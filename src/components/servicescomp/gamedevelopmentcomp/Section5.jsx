@@ -136,11 +136,12 @@ const Timelinecomp = () => {
     >
       <div className="py-8 text-white">
         <h1 className="py-4 lg:w-[80%] text-2xl lg:text-4xl">
-        Our Perfected Game Development Process - Level by level
-
+          Our Perfected Game Development Process - Level by level
         </h1>
         <p className="text-base md:text-lg">
-        Over years of experience as a game app development company, we have refined, streamlined and aligned our game development process to serve you better.
+          Over years of experience as a game app development company, we have
+          refined, streamlined and aligned our game development process to serve
+          you better.
         </p>
       </div>
 
@@ -153,9 +154,7 @@ const Timelinecomp = () => {
                 <div class="container text-white">
                   <ul>
                     <li>
-
                       <h3 className="font-bold text-2xl text-[27px] text-start">
-
                         1. Requirement Gathering
                       </h3>
                       <p>
@@ -167,9 +166,7 @@ const Timelinecomp = () => {
                     </li>
 
                     <li>
-
                       <h3 className="font-bold text-2xl text-[27px] text-start">
-
                         2. Concept Art
                       </h3>
                       <p>
@@ -180,9 +177,7 @@ const Timelinecomp = () => {
                     </li>
 
                     <li>
-
                       <h3 className="font-bold text-2xl text-[27px] text-start">
-
                         3. Assets Creation
                       </h3>
                       <p>
@@ -194,9 +189,7 @@ const Timelinecomp = () => {
                     </li>
 
                     <li>
-
                       <h3 className="font-bold text-2xl text-[27px] text-start">
-
                         4. Animation
                       </h3>
                       <p>
@@ -207,9 +200,7 @@ const Timelinecomp = () => {
                     </li>
 
                     <li>
-
                       <h3 className="font-bold text-2xl text-[27px] text-start">
-
                         5. Game Level Designing
                       </h3>
                       <p>
@@ -220,9 +211,7 @@ const Timelinecomp = () => {
                     </li>
 
                     <li>
-
                       <h3 className="font-bold text-2xl text-[27px] text-start">
-
                         6. Building Mechanics
                       </h3>
                       <p>
@@ -232,9 +221,7 @@ const Timelinecomp = () => {
                       </p>
                     </li>
                     <li>
-
                       <h3 className="font-bold text-2xl text-[27px] text-start">
-
                         7. AI Infusion
                       </h3>
                       <p>
@@ -244,9 +231,7 @@ const Timelinecomp = () => {
                       </p>
                     </li>
                     <li>
-
                       <h3 className="font-bold text-2xl text-[27px] text-start">
-
                         8. Graphic Optimization
                       </h3>
                       <p>
@@ -257,9 +242,7 @@ const Timelinecomp = () => {
                       </p>
                     </li>
                     <li>
-
                       <h3 className="font-bold text-2xl text-[27px] text-start">
-
                         9. Rigorous Testing
                       </h3>
                       <p>
@@ -269,8 +252,9 @@ const Timelinecomp = () => {
                       </p>
                     </li>
                     <li>
-
-                      <h3 className="font-bold text-2xl text-[27px] text-start">10. Launch</h3>
+                      <h3 className="font-bold text-2xl text-[27px] text-start">
+                        10. Launch
+                      </h3>
 
                       <p>
                         Lastly, we collaborate with you to draw your valuable
@@ -291,13 +275,13 @@ const Timelinecomp = () => {
                 height: 0,
                 paddingBottom: "100%",
                 position: "relative",
-                marginTop: '2rem'
+                marginTop: "2rem",
               }}
             >
               <Image
                 width={700}
                 height={700}
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/wheel-unscreen.gif"
+                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/wheel-unscreen.gif"
                 className="lg:mr-6 h-[40vh] w-[52rem] lg:h-[60vh] lg:w-[92rem] "
                 alt="Hey B"
                 loading="lazy"

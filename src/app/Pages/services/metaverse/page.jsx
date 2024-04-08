@@ -122,84 +122,84 @@ const Page = () => {
       id: "1",
       heading: "Reach Audience Worldwide",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid1.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid1.png",
       para: "Have a borderless presence. Engage a huge audience around the world.       ",
     },
     {
       id: "2",
       heading: "Build Strong Brand Connections",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid2.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid2.png",
       para: "Get higher engagement with immersive and interactive experiences.      ",
     },
     {
       id: "3",
       heading: "Innovative Marketing Opportunities",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid3.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid3.png",
       para: "Add a unique flavor to your brand promotion with Metaverse ",
     },
     {
       id: "4",
       heading: "Facilitates Seamless Collaboration",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid4.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid4.png",
       para: "Ensure better collaboration amongst your teams in virtual environments      ",
     },
     {
       id: "5",
       heading: "New Revenue Streams",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid5.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid5.png",
       para: "Offer novel virtual offerings that attract users and build new markets.",
     },
     {
       id: "6",
       heading: "Make Targeted Decision",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid6.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid6.png",
       para: "Gather detailed data on user interactions and draw deep insights.      ",
     },
     {
       id: "7",
       heading: "Achieve High Productivity",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid6.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid6.png",
       para: "Offer immersive hands-on training experience for better outcomes      ",
     },
     {
       id: "8",
       heading: "Save to Invest      ",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid6.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid6.png",
       para: "Save costs in travel, physical infrastructure, event hosting, and more.      ",
     },
     {
       id: "9",
       heading: "Limitless Innovation      ",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid6.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid6.png",
       para: "Utilise Metaverse possibilities for a competitive edge and market leadership.      ",
     },
     {
       id: "10",
       heading: "Extended Brand Presence",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid6.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid6.png",
       para: "Go beyond existing platforms with a futuristic Metaverse touchpoint.      ",
     },
     {
       id: "11",
       heading: "Build Your Community",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid6.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid6.png",
       para: "Create a sense of belonging and loyalty among your audience.      ",
     },
     {
       id: "12",
       heading: "Future-Proof your Business      ",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid6.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid6.png",
       para: "Stay relevant in a rapidly evolving digital landscape.     ",
     },
   ];
@@ -218,42 +218,42 @@ const Page = () => {
       id: "1",
       heading: "Contact Us",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid7.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid7.png",
       para: "Fill out the NDA-protected contact form. Book a calendar and schedule a meeting.",
     },
     {
       id: "2",
       heading: "Consult",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid8.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid8.png",
       para: "Get a dedicated session with our Metaverse expert to get clarity on any Metaverse aspect.",
     },
     {
       id: "3",
       heading: "Get a Cost Estimate",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid9.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid9.png",
       para: "Our experts will then share a project proposal with a stipulated budget and timeline.",
     },
     // {
     //   id: "4",
     //   heading: "Project Onboarded",
     //   imgurl:
-    //     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid10.png",
+    //     "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid10.png",
     //   para: "Hey Buddy experts take over your project",
     // },
     // {
     //   id: "5",
     //   heading: "Commitment to Quality",
     //   imgurl:
-    //     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid11.png",
+    //     "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid11.png",
     //   para: "Quality is non-negotiable at Hey Buddy. Our rigorous and perfected-over-year development process ensures that every aspect of your game meets the highest standards. Be it graphics, gameplay, performance or experience, we prioritise excellence and your satisfaction.",
     // },
     // {
     //   id: "6",
     //   heading: "Transparent Communication",
     //   imgurl:
-    //     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid12.png",
+    //     "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid12.png",
     //   para: "By working with clients across industries and scales, we understood the gravity of transparent communication. Be assured to experience transparent communication, timely updates, and a responsive team to keep you informed and involved.",
     // },
   ];
@@ -279,7 +279,7 @@ const Page = () => {
       <div>
         {/* --------------------Section-1 ------------------------------------------ */}
         <div className="relative isolate px-6  pt-20 lg:px-8 ">
-          <Herosection handlecontactusModal={handlecontactusModal}/>
+          <Herosection handlecontactusModal={handlecontactusModal} />
 
           <div
             ref={ref}
@@ -309,7 +309,7 @@ const Page = () => {
 
           {/* -------------------------grid-reuse------------------------------------- */}
 
-          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev2.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
+          <div className="bg-[url('https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/gamedev2.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
             <Gridsection listData={List1} textData={Text1} />
           </div>
 
@@ -319,14 +319,14 @@ const Page = () => {
           </div>
 
           {/* ----------------------------Section-4---------------------------------- */}
-          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev4.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
+          <div className="bg-[url('https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/gamedev4.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
             <Mixsection />
           </div>
 
           {/* ------------------------Section-5------------------------------------- */}
           <div className=" relative">
             <img
-              src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev5.png"
+              src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/gamedev5.png"
               alt="bg image"
               className="absolute bottom-0"
               loading="lazy"
@@ -335,28 +335,28 @@ const Page = () => {
           </div>
 
           {/* --------------------------Section-6--grid-reuse---------------------------------- */}
-          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev6.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
+          <div className="bg-[url('https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/gamedev6.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
             <Gridsection listData={List2} textData={Text2} />
           </div>
 
           {/* ----------------------------Section7---------------------------------- */}
-          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev7.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
+          <div className="bg-[url('https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/gamedev7.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
             {/* <Gridsection listData={List3} textData={Text3} /> */}
             <Section7 />
           </div>
 
           {/* ------------------------section-8-------------------------------------- */}
-          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev8.png')] py-8 bg-no-repeat lg:bg-cover ">
+          <div className="bg-[url('https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/gamedev8.png')] py-8 bg-no-repeat lg:bg-cover ">
             <Pagenation />
           </div>
 
           {/* -----------------------Section-9--------------------------------------- */}
-          <div className="text-white lg:py-16 bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev9.png')] py-8 bg-no-repeat lg:bg-cover">
+          <div className="text-white lg:py-16 bg-[url('https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/gamedev9.png')] py-8 bg-no-repeat lg:bg-cover">
             <Bottomclient />
           </div>
 
           {/* -----------------------------Section-10----------------------------------- */}
-          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev10.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
+          <div className="bg-[url('https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/gamedev10.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
             <Faqsection />
           </div>
         </div>

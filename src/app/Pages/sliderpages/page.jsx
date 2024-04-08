@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Img1 from "../../../../public/Images/img1.webp";
-import './page.css'
+import "./page.css";
 
 const page = () => {
   return (
@@ -12,7 +12,6 @@ const page = () => {
         </h1>
 
         <div className=" grid mb-8 mx-auto justify-center rounded-3xl border-2 shadow-sm md:mb-12 grid-cols- md:grid-cols-2 ">
-
           <div className=" rounded-3xl h-[80vh] p-4 lg:p-24 overflow-auto scrollbar-hide">
             <div className=" text-white">
               <h1 className="font-bold text-3xl float-left py-4 ">
@@ -65,7 +64,7 @@ const page = () => {
             <Image
               width={700}
               height={700}
-              src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/img1.webp"
+              src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/img1.webp"
               className="lg:mr-6 h-[50vh] w-[52rem] lg:h-[70vh] lg:w-[52rem] "
               alt="Hey Buddy"
             />
@@ -131,7 +130,7 @@ const page = () => {
             <Image
               width={700}
               height={700}
-              src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/img1.webp"
+              src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/img1.webp"
               className="lg:mr-6 h-[50vh] w-[52rem] lg:h-[70vh] lg:w-[52rem] "
               alt="Hey Buddy"
             />
@@ -199,7 +198,7 @@ const page = () => {
             <Image
               width={700}
               height={700}
-              src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/img1.webp"
+              src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/img1.webp"
               className="lg:mr-6 h-[50vh] w-[52rem] lg:h-[70vh] lg:w-[52rem] "
               alt="Hey Buddy"
             />
@@ -267,7 +266,7 @@ const page = () => {
             <Image
               width={700}
               height={700}
-              src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/img1.webp"
+              src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/img1.webp"
               className="lg:mr-6 h-[50vh] w-[52rem] lg:h-[70vh] lg:w-[52rem] "
               alt="Hey Buddy"
             />

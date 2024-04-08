@@ -79,17 +79,17 @@ function Slider1() {
   };
 
   const slide_image_1 =
-    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.png";
+    "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/game.png";
   const slide_image_2 =
-    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Immersive.png";
+    "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Immersive.png";
   const slide_image_3 =
-    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Cube.jpg";
+    "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Cube.jpg";
   const slide_image_4 =
-    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/ai.jpg";
+    "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/ai.jpg";
   const slide_image_5 =
-    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/appdev.jpg";
+    "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/appdev.jpg";
   const slide_image_6 =
-    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/metaverse.jpg";
+    "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/metaverse.jpg";
   const web3dev =
     "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/home+page+service+card/4.Web3.png";
 
@@ -118,7 +118,7 @@ function Slider1() {
         flexDirection: "column",
         fontWeight: "bold",
       }}
-      className=" bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Ellipse8.png')] bg-no-repeat bg-contain "
+      className=" bg-[url('https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Ellipse8.png')] bg-no-repeat bg-contain "
     >
       <h1
         style={{
@@ -303,8 +303,6 @@ function Slider1() {
               </div>
             </Link>
           </SwiperSlide>
-
-          
 
           <SwiperSlide
             onMouseEnter={handleMouseEnter}

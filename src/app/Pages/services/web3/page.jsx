@@ -130,42 +130,42 @@ const page = () => {
       id: "1",
       heading: "Decentralization and Trust",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid1.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid1.png",
       para: "Experience the power of trustless rapid transactions and interactions with zero interference from intermediaries and ensure transparency in your business. ",
     },
     {
       id: "2",
       heading: "New High-paying Revenue Models",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid2.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid2.png",
       para: "Tap into lucrative revenue streams and opportunities. Explore tokenization, decentralized finance (DeFi), non-fungible tokens (NFTs), and much more.",
     },
     {
       id: "3",
       heading: "Safeguard Your Records",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid3.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid3.png",
       para: "Establish complete security with blockchain's cryptographic principles and ensure tamper-proof, auditable records and your peace of mind.",
     },
     {
       id: "4",
       heading: "Build Loyal Community",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid4.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid4.png",
       para: "Engage your community through decentralized applications (dApp), foster user participation and collaboration, and build a loyal user base.",
     },
     {
       id: "5",
       heading: "Cost Efficiency",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid5.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid5.png",
       para: "Cut down unnecessary costs that come with intermediaries, middlemen, and other vulnerable operational processes by leveraging Web 3.0 technologies.",
     },
     {
       id: "6",
       heading: "Experience Seamless Interoperability",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid6.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid6.png",
       para: "Integrate seamlessly with any blockchain network and traditional systems and let the opportunities come from every direction.",
     },
   ];
@@ -184,42 +184,42 @@ const page = () => {
       id: "1",
       heading: "Blockchain Expertise",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid7.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid7.png",
       para: "We have a team of expert blockchain developers capable of working on every blockchain component on any platform including Ethereum, Stellar, EOS, Solana, and others.",
     },
     {
       id: "2",
       heading: "We Ensure Security",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid8.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid8.png",
       para: "We implement robust security measures and follow best practices to ensure the safety of your dApps, blockchain networks, secure smart contract development, and auditing.",
     },
     {
       id: "3",
       heading: "Project Management",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid9.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid9.png",
       para: "Our efficient project management skills achieve timely delivery of milestones every time. Moreover, our emphasis on collaboration ensures you get the perfect outcome.",
     },
     {
       id: "4",
       heading: "Innovation",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid10.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid10.png",
       para: "We stay updated on the latest blockchain developments to incorporate the most innovative solutions into your projects. Thus, we ensure you stand out from your competitors.",
     },
     {
       id: "5",
       heading: "Scalability",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid11.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid11.png",
       para: "Our solutions grow with your business and serve ever-evolving customer demands. We strategize for blockchain network scalability challenges for efficient and scalable solutions.",
     },
     {
       id: "6",
       heading: "Proven Track Record",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid11.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid11.png",
       para: "With a proven track record, we've demonstrated success in delivering top-notch blockchain solutions with expertise spanning Ethereum, Stellar, EOS, Solana, and more.",
     },
   ];
@@ -276,7 +276,7 @@ const page = () => {
 
           {/* -------------------------grid-reuse------------------------------------- */}
 
-          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev2.png')] py-3 bg-no-repeat bg-cover bg-[center_top_0rem]">
+          <div className="bg-[url('https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/gamedev2.png')] py-3 bg-no-repeat bg-cover bg-[center_top_0rem]">
             <Gridsection listData={List1} textData={Text1} />
           </div>
 
@@ -286,38 +286,38 @@ const page = () => {
           </div>
 
           {/* ----------------------------Section-4---------------------------------- */}
-          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev4.png')] py-3 bg-no-repeat bg-cover bg-[center_top_0rem]">
+          <div className="bg-[url('https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/gamedev4.png')] py-3 bg-no-repeat bg-cover bg-[center_top_0rem]">
             <Mixsection />
           </div>
 
           {/* ------------------------Section-5------------------------------------- */}
-          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev5.png')] py-3 bg-no-repeat bg-cover bg-[center_top_0rem]">
+          <div className="bg-[url('https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/gamedev5.png')] py-3 bg-no-repeat bg-cover bg-[center_top_0rem]">
             <Timelinecomp />
           </div>
 
           {/* ----------------------------grid-reuse---------------------------------- */}
-          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev6.png')] py-3 bg-no-repeat bg-cover bg-[center_top_0rem]">
+          <div className="bg-[url('https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/gamedev6.png')] py-3 bg-no-repeat bg-cover bg-[center_top_0rem]">
             <Gridsection listData={List2} textData={Text2} />
           </div>
 
           {/* ----------------------------Section7---------------------------------- */}
-          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev7.png')] py-3 bg-no-repeat bg-cover bg-[center_top_0rem]">
+          <div className="bg-[url('https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/gamedev7.png')] py-3 bg-no-repeat bg-cover bg-[center_top_0rem]">
             {/* <Gridsection listData={List3} textData={Text3} /> */}
             <Section7 />
           </div>
 
           {/* ------------------------section-8-------------------------------------- */}
-          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev8.png')] py-3 bg-no-repeat lg:bg-cover ">
+          <div className="bg-[url('https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/gamedev8.png')] py-3 bg-no-repeat lg:bg-cover ">
             <Pagenation />
           </div>
 
           {/* -----------------------Section-9--------------------------------------- */}
-          <div className="text-white lg:py-16 bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev9.png')] py-3 bg-no-repeat lg:bg-cover">
+          <div className="text-white lg:py-16 bg-[url('https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/gamedev9.png')] py-3 bg-no-repeat lg:bg-cover">
             <Bottomclient />
           </div>
 
           {/* -----------------------------Section-10----------------------------------- */}
-          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev10.png')] py-3 bg-no-repeat bg-cover bg-[center_top_0rem]">
+          <div className="bg-[url('https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/gamedev10.png')] py-3 bg-no-repeat bg-cover bg-[center_top_0rem]">
             <Faqsection />
           </div>
         </div>

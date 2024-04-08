@@ -81,14 +81,13 @@ const Herosection = ({ handlecontactusModal }) => {
     transition: "background-color 0.3s, transform 0.3s",
     cursor: "pointer",
     transform: isHovered ? "scale(1.1)" : "scale(1)",
-    marginTop: '3rem',
+    marginTop: "3rem",
   };
 
   return (
     <>
       <div style={containerStyle}>
         <div style={textContainerStyle}>
-         
           <h1 className="text-3xl  md:text-5xl pb-5">
             Trusted Virtual Reality Development Company In India & USA
           </h1>
@@ -109,7 +108,7 @@ const Herosection = ({ handlecontactusModal }) => {
             width={450}
             height={450}
             className="h-[24px] w-[24px] bg-white mx-auto mt-4"
-            src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/a5a0e947a01622c735016d9ce3f93e55.png"
+            src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/a5a0e947a01622c735016d9ce3f93e55.png"
             alt="Background"
           />
         </div>

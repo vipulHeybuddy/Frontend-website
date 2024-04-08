@@ -90,12 +90,12 @@ const Pagenation = () => {
     >
       <div className="py-6">
         <h1 className="py-4 lg:w-[80%] text-2xl lg:text-4xl">
-        Our Tech Stack as Your Trusted 3D CGI Partner
+          Our Tech Stack as Your Trusted 3D CGI Partner
         </h1>
-       <p className="text-xl lg:text-2xl">
-          Hey Buddy Team works with an advanced tech stack, resulting in a Hyper-realistic 3D CGI development that captivates your audience.
-
-        </p> 
+        <p className="text-xl lg:text-2xl">
+          Hey Buddy Team works with an advanced tech stack, resulting in a
+          Hyper-realistic 3D CGI development that captivates your audience.
+        </p>
       </div>
 
       <nav className="flex border-b border-gray-300 scrollbar-hide overflow-auto ">
@@ -109,13 +109,13 @@ const Pagenation = () => {
           isActive={selectedTab === "task2"}
           onClick={() => setSelectedTab("task2")}
         >
-        Graphics Rendering Engines
+          Graphics Rendering Engines
         </TabSelector>
         <TabSelector
           isActive={selectedTab === "task3"}
           onClick={() => setSelectedTab("task3")}
         >
-      Programming Languages
+          Programming Languages
         </TabSelector>
         <TabSelector
           isActive={selectedTab === "task4"}
@@ -139,7 +139,7 @@ const Pagenation = () => {
           <div className="grid  md:mb-12 grid-cols-5 gap-y-4 gap-x-2  ">
             <div className=" mx-auto text-center">
               <Image
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3D+Development+Icons/blender.svg"
+                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/3D%20Development%20Icons/blender.svg"
                 width={450}
                 height={450}
                 alt="9"
@@ -148,7 +148,7 @@ const Pagenation = () => {
 
             <div className=" mx-auto text-center">
               <Image
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3D+Development+Icons/Autodesk+Maya.svg"
+                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/3D%20Development%20Icons/Autodesk%20Maya.svg"
                 width={450}
                 height={450}
                 alt="9"
@@ -157,7 +157,7 @@ const Pagenation = () => {
 
             <div className=" mx-auto text-center">
               <Image
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3D+Development+Icons/3ds+max.svg"
+                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/3D%20Development%20Icons/3ds%20max.svg"
                 width={450}
                 height={450}
                 alt="9"
@@ -166,7 +166,7 @@ const Pagenation = () => {
 
             <div className=" mx-auto text-center">
               <Image
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3D+Development+Icons/Z+brush.svg"
+                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/3D%20Development%20Icons/Z%20brush.svg"
                 width={450}
                 height={450}
                 alt="9"
@@ -175,7 +175,7 @@ const Pagenation = () => {
 
             <div className=" mx-auto text-center">
               <Image
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3D+Development+Icons/Cinema+4D.svg"
+                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/3D%20Development%20Icons/Cinema%204D.svg"
                 width={450}
                 height={450}
                 alt="9"
@@ -191,7 +191,7 @@ const Pagenation = () => {
           <div className="grid  md:mb-12 grid-cols-5 gap-y-4 gap-x-2">
             <div className=" mx-auto text-center">
               <Image
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3D+Development+Icons/Houdini.svg"
+                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/3D%20Development%20Icons/Houdini.svg"
                 width={450}
                 height={450}
                 alt="9"
@@ -200,7 +200,7 @@ const Pagenation = () => {
 
             <div className=" mx-auto text-center">
               <Image
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3D+Development+Icons/Substance+Painter.svg"
+                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/3D%20Development%20Icons/Substance%20Painter.svg"
                 width={450}
                 height={450}
                 alt="9"
@@ -209,7 +209,7 @@ const Pagenation = () => {
 
             <div className=" mx-auto text-center">
               <Image
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3D+Development+Icons/Mudbox.svg"
+                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/3D%20Development%20Icons/Mudbox.svg"
                 width={450}
                 height={450}
                 alt="9"
@@ -218,7 +218,7 @@ const Pagenation = () => {
 
             <div className=" mx-auto text-center">
               <Image
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3D+Development+Icons/SketchUp.svg"
+                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/3D%20Development%20Icons/SketchUp.svg"
                 width={450}
                 height={450}
                 alt="9"
@@ -227,7 +227,7 @@ const Pagenation = () => {
 
             <div className=" mx-auto text-center">
               <Image
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3D+Development+Icons/Rhinoceros+3D.svg"
+                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/3D%20Development%20Icons/Rhinoceros%203D.svg"
                 width={450}
                 height={450}
                 alt="9"
@@ -243,7 +243,7 @@ const Pagenation = () => {
           <div className="grid  md:mb-12 grid-cols-5 gap-y-4 gap-x-2">
             <div className=" mx-auto text-center">
               <Image
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3D+Development+Icons/Unity3D.svg"
+                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/3D%20Development%20Icons/Unity3D.svg"
                 width={450}
                 height={450}
                 alt="9"
@@ -252,7 +252,7 @@ const Pagenation = () => {
 
             <div className="  mx-auto text-center">
               <Image
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3D+Development+Icons/Unreal+Engine.svg"
+                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/3D%20Development%20Icons/Unreal%20Engine.svg"
                 width={450}
                 height={450}
                 alt="9"
@@ -261,7 +261,7 @@ const Pagenation = () => {
 
             <div className="  mx-auto text-center">
               <Image
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3D+Development+Icons/Photoshop.svg"
+                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/3D%20Development%20Icons/Photoshop.svg"
                 width={450}
                 height={450}
                 alt="9"
@@ -270,7 +270,7 @@ const Pagenation = () => {
 
             <div className=" mx-auto text-center">
               <Image
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3D+Development+Icons/Marvelous+Designer.svg"
+                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/3D%20Development%20Icons/Marvelous%20Designer.svg"
                 width={450}
                 height={450}
                 alt="9"
@@ -279,7 +279,7 @@ const Pagenation = () => {
 
             <div className=" mx-auto text-center">
               <Image
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3D+Development+Icons/3D+coat.svg"
+                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/3D%20Development%20Icons/3D%20coat.svg"
                 width={450}
                 height={450}
                 alt="9"
@@ -295,7 +295,7 @@ const Pagenation = () => {
           <div className="grid  md:mb-12 grid-cols-5 gap-y-4 gap-x-2">
             <div className=" mx-auto text-center">
               <Image
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3D+Development+Icons/Marmoset+Toolbag.svg"
+                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/3D%20Development%20Icons/Marmoset%20Toolbag.svg"
                 width={450}
                 height={450}
                 // className="h-[90%] w-[90%]"
@@ -305,7 +305,7 @@ const Pagenation = () => {
 
             <div className=" mx-auto text-center">
               <Image
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3D+Development+Icons/KeyShot.svg"
+                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/3D%20Development%20Icons/KeyShot.svg"
                 width={450}
                 height={450}
                 // className="h-[90%] w-[90%]"
@@ -315,7 +315,7 @@ const Pagenation = () => {
 
             <div className=" mx-auto text-center">
               <Image
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3D+Development+Icons/SolidWorks.svg"
+                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/3D%20Development%20Icons/SolidWorks.svg"
                 width={450}
                 height={450}
                 // className="h-[90%] w-[90%]"
@@ -325,7 +325,7 @@ const Pagenation = () => {
 
             <div className=" mx-auto text-center">
               <Image
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3D+Development+Icons/Modo.svg"
+                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/3D%20Development%20Icons/Modo.svg"
                 width={450}
                 height={450}
                 // className="h-[90%] w-[90%]"
@@ -335,7 +335,7 @@ const Pagenation = () => {
 
             <div className=" mx-auto text-center">
               <Image
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3D+Development+Icons/Daz+3D.svg"
+                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/3D%20Development%20Icons/Daz%203D.svg"
                 width={450}
                 height={450}
                 // className="h-[90%] w-[90%]"
@@ -345,82 +345,62 @@ const Pagenation = () => {
           </div>
         </TabPanel>
 
-      <TabPanel
+        <TabPanel
           hidden={selectedTab !== "task5"}
           className="p-4 bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 rounded-lg h-[20vh] w-full"
         >
-         <div className="grid sm:grid-1 md:mb-12 md:grid-cols-2 lg:grid-cols-5 gap-y-4 gap-x-2">
-            <div className=" mx-auto text-center"> 
-            <Image 
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3D+Development+Icons/Marmoset+Toolbag.svg"
+          <div className="grid sm:grid-1 md:mb-12 md:grid-cols-2 lg:grid-cols-5 gap-y-4 gap-x-2">
+            <div className=" mx-auto text-center">
+              <Image
+                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/3D%20Development%20Icons/Marmoset%20Toolbag.svg"
                 width={450}
                 height={450}
                 // className="h-[90%] w-[90%]"
                 alt="9"
-
-                
-                />
-                
+              />
             </div>
 
-            <div className=" mx-auto text-center" >
-            <Image 
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3D+Development+Icons/KeyShot.svg"
+            <div className=" mx-auto text-center">
+              <Image
+                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/3D%20Development%20Icons/KeyShot.svg"
                 width={450}
                 height={450}
                 // className="h-[90%] w-[90%]"
                 alt="9"
-
-                
-                />
-                
+              />
             </div>
 
-            <div className=" mx-auto text-center" >
-            <Image 
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3D+Development+Icons/SolidWorks.svg"
+            <div className=" mx-auto text-center">
+              <Image
+                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/3D%20Development%20Icons/SolidWorks.svg"
                 width={450}
                 height={450}
                 // className="h-[90%] w-[90%]"
                 alt="9"
-
-                
-                />
-                
+              />
             </div>
 
-            <div className=" mx-auto text-center" >
-            <Image 
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3D+Development+Icons/Modo.svg"
+            <div className=" mx-auto text-center">
+              <Image
+                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/3D%20Development%20Icons/Modo.svg"
                 width={450}
                 height={450}
                 // className="h-[90%] w-[90%]"
                 alt="9"
-
-                
-                />
-                
+              />
             </div>
 
-            <div className=" mx-auto text-center" >
-            <Image 
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3D+Development+Icons/Daz+3D.svg"
+            <div className=" mx-auto text-center">
+              <Image
+                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/3D%20Development%20Icons/Daz%203D.svg"
                 width={450}
                 height={450}
                 // className="h-[90%] w-[90%]"
                 alt="9"
-
-                
-                />
-                
+              />
             </div>
-
-            
-
           </div>
         </TabPanel>
-
-        
       </div>
     </motion.div>
   );

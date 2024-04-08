@@ -9,9 +9,9 @@ const Pagenationmob = () => {
   const cards = [
     {
       id: "1",
-      cardheading:"3D Development",
+      cardheading: "3D Development",
       imageurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/img1.webp",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/img1.webp",
       heading: "Virtual Property Tour",
       para: "See how our innovation, creativity, and the right expertise rendered the best results for our clients.           ",
       techused: "3D Max; C#; Unreal Engine 5",
@@ -19,9 +19,9 @@ const Pagenationmob = () => {
     },
     {
       id: "2",
-      cardheading:"Game Development",
+      cardheading: "Game Development",
       imageurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/img1.webp",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/img1.webp",
       heading: "Safe VR Training Solution",
       para: "We helped our clients build a strong and loyal Games community for long-term success.",
       techused: "Autodesk 3D; C++; Unity 2023.1.5",
@@ -29,9 +29,9 @@ const Pagenationmob = () => {
     },
     {
       id: "3",
-      cardheading:"AR Development",
+      cardheading: "AR Development",
       imageurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/img1.webp",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/img1.webp",
       heading: "Youth attracting AR Games",
       para: "Experience the amazing blend of real and virtual worlds that creates an unforgettable user experience.",
       techused: "3D MAX; C#; Unreal Engine 5",
@@ -39,9 +39,9 @@ const Pagenationmob = () => {
     },
     {
       id: "4",
-      cardheading:"Fashion & Lifestyle",
+      cardheading: "Fashion & Lifestyle",
       imageurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/img1.webp",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/img1.webp",
       heading: "AR Fashion Solution",
       para: "Our client wanted to enhance the convenience of their existing eCommerce store. They collaborated with us for our renowned AR tryon solution. This allowed users to try 3D models of the wearable without leaving home, be more certain and confident about the product and make faster decisions. More importantly, it reduced returns.",
       techused: "3D MAX; C#; Unity, Three.Js",
@@ -92,7 +92,10 @@ const Pagenationmob = () => {
   };
 
   return (
-    <div className="w-[100%] bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Ellipse8.png')] bg-no-repeat bg-auto bg-[center_top_1rem]" id="testimonials" >
+    <div
+      className="w-[100%] bg-[url('https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Ellipse8.png')] bg-no-repeat bg-auto bg-[center_top_1rem]"
+      id="testimonials"
+    >
       <div
         id="projects"
         className="pt-20 pb-4  mx-auto text-center justify-center  text-2xl lg:text-4xl font-bold text-white mb-6"
@@ -102,14 +105,15 @@ const Pagenationmob = () => {
         </motion.h3>
       </div>
 
-      <SwipeableViews
-      index={currentCard}
-      onChangeIndex={handleChangeIndex}
-      >
+      <SwipeableViews index={currentCard} onChangeIndex={handleChangeIndex}>
         {cards.map((card) => (
-          <div  key={card.id} className="px-2 grid sm:grid-1 gap-y-4 gap-x-16  ">
-
-            <h1 style={{fontSize: '2rem'}} className="  text-center text-white rounded-lg block  ">{card.cardheading}</h1>
+          <div key={card.id} className="px-2 grid sm:grid-1 gap-y-4 gap-x-16  ">
+            <h1
+              style={{ fontSize: "2rem" }}
+              className="  text-center text-white rounded-lg block  "
+            >
+              {card.cardheading}
+            </h1>
             <div className="border-2 rounded-3xl ">
               <Image
                 src={card.imageurl}
@@ -150,9 +154,7 @@ const Pagenationmob = () => {
             cursor: "pointer",
           }}
           onClick={() =>
-            handleChangeIndex(
-              (currentCard - 1 + cards.length) % cards.length
-            )
+            handleChangeIndex((currentCard - 1 + cards.length) % cards.length)
           }
         >
           Previous

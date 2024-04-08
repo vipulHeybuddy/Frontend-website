@@ -131,42 +131,42 @@ const page = () => {
       id: "1",
       heading: "Hyper-Engagement",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid1.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid1.png",
       para: "3D corner billboards capture viewer attention like no other advertising. Thus, your message stands out in high-traffic areas and busy intersections.",
     },
     {
       id: "2",
       heading: "Long-lasting Memorability",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid2.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid2.png",
       para: "By capturing maximum senses, 3D illusion billboards leave a lasting impression on your audiences.",
     },
     {
       id: "3",
       heading: "Wide Impact",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid3.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid3.png",
       para: "The uniqueness and novelty of Anamorphic 3D billboards develop an emotional connection with your customers.",
     },
     {
       id: "4",
       heading: "Innovation",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid4.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid4.png",
       para: "These amazing 3D billboards break the mold, showcasing your brand at the forefront of innovation and unique capabilities.",
     },
     {
       id: "5",
       heading: "Clear Communication",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid5.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid5.png",
       para: "The dynamic and eye-catching three-dimensional visuals not only catch eyeballs but also communicate your brand message loud and clear.",
     },
     {
       id: "6",
       heading: "Higher Conversions",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid6.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid6.png",
       para: "The powerful 3D billboard qualities lead to developer connection on a deeper cognitive level with the audience. Result: higher conversions.",
     },
   ];
@@ -185,42 +185,42 @@ const page = () => {
       id: "1",
       heading: "Creative Vision Realisation",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid7.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid7.png",
       para: "With our vast experience and expert team we have developed precision realizing your vision and turning it into a visually stunning anamorphic 3D advertisement.",
     },
     {
       id: "2",
       heading: "Impactful Branding",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid8.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid8.png",
       para: "Having worked with brands across industries, we achieve brand representation with a lasting impact and a clear, resonating message that stands out.",
     },
     {
       id: "3",
       heading: "Precision in Execution",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid9.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid9.png",
       para: "We assure flawless execution from concept to installation, with utmost precision and attention to detail. Just the way you wanted it.",
     },
     {
       id: "4",
       heading: "Expert Guidance",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid10.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid10.png",
       para: "We have a 3D curved screen expert who provides deep insight that leads to a sophisticated outcome needed to catch and hold attention.",
     },
     {
       id: "5",
       heading: "Measurable Impact",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid11.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid11.png",
       para: "We help you sharpen your campaign and measure success with tangible results. We craft 3D billboard advertisements for your high brand visibility and engagement.",
     },
     {
       id: "6",
       heading: "Transparent Communication",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid12.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid12.png",
       para: "Right from the start, we keep you informed every step of the way. Our transparent communication keeps you in the loop for a collaborative and smooth process.",
     },
   ];
@@ -277,7 +277,7 @@ const page = () => {
 
           {/* -------------------------grid-reuse------------------------------------- */}
 
-          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev2.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
+          <div className="bg-[url('https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/gamedev2.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
             <Gridsection listData={List1} textData={Text1} />
           </div>
 
@@ -287,38 +287,38 @@ const page = () => {
           </div>
 
           {/* ----------------------------Section-4---------------------------------- */}
-          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev4.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
+          <div className="bg-[url('https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/gamedev4.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
             <Mixsection />
           </div>
 
           {/* ------------------------Section-5------------------------------------- */}
-          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev5.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
+          <div className="bg-[url('https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/gamedev5.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
             <Timelinecomp />
           </div>
 
           {/* ----------------------------grid-reuse---------------------------------- */}
-          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev6.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
+          <div className="bg-[url('https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/gamedev6.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
             <Gridsection listData={List2} textData={Text2} />
           </div>
 
           {/* ----------------------------Section7---------------------------------- */}
-          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev7.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
+          <div className="bg-[url('https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/gamedev7.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
             {/* <Gridsection listData={List3} textData={Text3} /> */}
             <Section7 />
           </div>
 
           {/* ------------------------section-8-------------------------------------- */}
-          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev8.png')] py-8 bg-no-repeat lg:bg-cover ">
+          <div className="bg-[url('https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/gamedev8.png')] py-8 bg-no-repeat lg:bg-cover ">
             <Pagenation />
           </div>
 
           {/* -----------------------Section-9--------------------------------------- */}
-          <div className="text-white lg:py-16 bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev9.png')] py-8 bg-no-repeat lg:bg-cover">
+          <div className="text-white lg:py-16 bg-[url('https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/gamedev9.png')] py-8 bg-no-repeat lg:bg-cover">
             <Bottomclient />
           </div>
 
           {/* -----------------------------Section-10----------------------------------- */}
-          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev10.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
+          <div className="bg-[url('https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/gamedev10.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
             <Faqsection />
           </div>
         </div>
