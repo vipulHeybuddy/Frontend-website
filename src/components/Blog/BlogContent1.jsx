@@ -47,7 +47,7 @@ function BlogContent({ SelectedBlog }) {
         <span>{title}</span>
       </div>
       <div
-        className={`rounded-xl relative overflow-hidden border-2 h-[72vh] w-[90%] mx-auto mt-4 ${
+        className={`rounded-xl relative overflow-hidden border-2 h-[50vh] w-[100%] lg:h-[72vh] lg:w-[90%] mx-auto mt-4 ${
           blogType === "Games"
             ? "border-[#FF5C00]"
             : blogType === "Development"

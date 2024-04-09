@@ -11,7 +11,7 @@ const Pagenationmob = () => {
       id: "1",
       cardheading: "3D Development",
       imageurl:
-        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/img1.webp",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/A%20cubic%20shaped%20yellow%20duck%20in%20a%20Euclidean%20world.jpg",
       heading: "Virtual Property Tour",
       para: "See how our innovation, creativity, and the right expertise rendered the best results for our clients.           ",
       techused: "3D Max; C#; Unreal Engine 5",
@@ -21,7 +21,7 @@ const Pagenationmob = () => {
       id: "2",
       cardheading: "Game Development",
       imageurl:
-        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/img1.webp",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/homepage%20banner.jpg",
       heading: "Safe VR Training Solution",
       para: "We helped our clients build a strong and loyal Games community for long-term success.",
       techused: "Autodesk 3D; C++; Unity 2023.1.5",
@@ -31,7 +31,7 @@ const Pagenationmob = () => {
       id: "3",
       cardheading: "AR Development",
       imageurl:
-        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/img1.webp",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/home%20page%20banner.jpg",
       heading: "Youth attracting AR Games",
       para: "Experience the amazing blend of real and virtual worlds that creates an unforgettable user experience.",
       techused: "3D MAX; C#; Unreal Engine 5",
@@ -41,7 +41,7 @@ const Pagenationmob = () => {
       id: "4",
       cardheading: "Fashion & Lifestyle",
       imageurl:
-        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/img1.webp",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/meta%20vr%20glasses.jpg",
       heading: "AR Fashion Solution",
       para: "Our client wanted to enhance the convenience of their existing eCommerce store. They collaborated with us for our renowned AR tryon solution. This allowed users to try 3D models of the wearable without leaving home, be more certain and confident about the product and make faster decisions. More importantly, it reduced returns.",
       techused: "3D MAX; C#; Unity, Three.Js",
