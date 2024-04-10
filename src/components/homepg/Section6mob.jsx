@@ -3,7 +3,7 @@ import React, { useEffect, useState, useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { motion, useAnimation } from "framer-motion";
-import SwipeableViews from "react-swipeable-views";
+import SwipeableViews from 'react-swipeable-views-react-18-fix';;
 
 const Pagenationmob = () => {
   const cards = [

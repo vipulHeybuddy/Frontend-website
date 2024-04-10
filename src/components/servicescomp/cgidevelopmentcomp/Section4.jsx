@@ -3,7 +3,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import Slider from "react-slick";
 import Image from "next/image";
-import SwipeableViews from "react-swipeable-views";
+import SwipeableViews from "react-swipeable-views-react-18-fix";
 import Sliderclient from "./Sliderclient";
 import { AiFillCheckCircle } from "react-icons/ai";
 import { motion, useAnimation } from "framer-motion";

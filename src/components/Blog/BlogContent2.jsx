@@ -2,6 +2,7 @@
 import React from "react";
 import Scrollspy from "react-scrollspy";
 import "../../styles/Font.css";
+import { useMediaQuery } from "react-responsive";
 import {
   FaChevronRight,
   FaFacebook,
@@ -38,6 +39,8 @@ function BlogContent({ SelectedBlog }) {
     pubDate,
   } = SelectedBlog;
 
+  const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
+
   return (
     <div className={`mx-auto px-5 lg:px-0 bg-no-repeat bg-fixed bg-top pt-28`}>
       <div className=" hidden lg:flex gap-2 items-center py-1 px-5 bg-white/10 w-fit rounded-[10px] text-white ml-[4.1rem]">
@@ -59,7 +62,16 @@ function BlogContent({ SelectedBlog }) {
         }`}
       >
         <div className="w-full h-full ">
-          <img src={blogImage} alt="Image" className="h-full w-full" />
+          {isMobile ? (
+            <img
+              src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Blogmob/blogmob2.png"
+              alt="Image"
+              className="h-full w-full"
+            />
+          ) : (
+            <img src={blogImage} alt="Image" className="h-full w-full object-auto" />
+          )}
+          {/*<img src={blogImage} alt="Image" className="h-full w-full" /> */}
         </div>
         <div className="absolute bottom-0 w-full py-3 md:py-[25px] px-3 md:px-10 backdrop-blur-sm flex flex-col gap-2 md:gap-[21px]">
           <div

@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 // import Ourclients from "./Section8large";
-import SwipeableViews from "react-swipeable-views";
+import SwipeableViews from "react-swipeable-views-react-18-fix";
 
 const Ourclientsmob = () => {
   const cardData = [
