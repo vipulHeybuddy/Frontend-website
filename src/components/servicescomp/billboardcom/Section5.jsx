@@ -83,10 +83,11 @@ const Timelinecomp = () => {
     >
       <div className="py-8 text-white">
         <h1 className="py-4 lg:w-[80%] text-2xl lg:text-4xl">
-        3D Billboard Development Process For Creative Vision Realization
+          3D Billboard Development Process For Creative Vision Realization
         </h1>
         <p className="text-xl lg:text-2xl">
-        Our 3D billboard development process is streamlined to realize your vision with all its creative glory intact.
+          Our 3D billboard development process is streamlined to realize your
+          vision with all its creative glory intact.
         </p>
       </div>
 
@@ -99,64 +100,68 @@ const Timelinecomp = () => {
                 <div class="container text-white">
                   <ul>
                     <li>
-
-                      <h3 className="font-bold text-2xl g g">Conceptualization</h3>
+                      <h3 className="font-bold text-2xl g g">
+                        Conceptualization
+                      </h3>
 
                       <p>
-                      Our team coordinates with yours and the 3d led screen billboard providers to, brainstorm innovative ideas and align outcomes with your brand message.
+                        Our team coordinates with yours and the 3d led screen
+                        billboard providers to, brainstorm innovative ideas and
+                        align outcomes with your brand message.
                       </p>
-
                     </li>
                     <li>
-
                       <h3 className="font-bold text-2xl g">Design Expertise</h3>
 
                       <p>
-                      We utilize advanced design tools, bringing your concepts to life and carefully curating visuals to create mesmerizing anamorphic effects.
+                        We utilize advanced design tools, bringing your concepts
+                        to life and carefully curating visuals to create
+                        mesmerizing anamorphic effects.
                       </p>
-
-               
                     </li>
                     <li>
-
                       <h3 className="font-bold text-2xl g">
-                      Precision Rendering
-
+                        Precision Rendering
                       </h3>
                       <p>
-                      We employ advanced rendering techniques to capture every detail of your anamorphic 3D design that is crafted with precision by our team.
+                        We employ advanced rendering techniques to capture every
+                        detail of your anamorphic 3D design that is crafted with
+                        precision by our team.
                       </p>
-
                     </li>
                     <li>
-
-                      <h3 className="font-bold text-2xl g">Real-world Simulation</h3>
-         <p>
-         We assess the impact of your upcoming billboard through simulated environments and ensure it brings out the best viewer experience.
-
+                      <h3 className="font-bold text-2xl g">
+                        Real-world Simulation
+                      </h3>
+                      <p>
+                        We assess the impact of your upcoming billboard through
+                        simulated environments and ensure it brings out the best
+                        viewer experience.
                       </p>
-
                     </li>
 
                     <li>
-
-                      <h3 className="font-bold text-2xl g">Transparency and Collaboration</h3>
+                      <h3 className="font-bold text-2xl g">
+                        Transparency and Collaboration
+                      </h3>
 
                       <p>
-                      We share drafts and collaborate with you throughout the process, ensuring that the final anamorphic content perfectly aligns with your marketing objectives.
+                        We share drafts and collaborate with you throughout the
+                        process, ensuring that the final anamorphic content
+                        perfectly aligns with your marketing objectives.
                       </p>
-
                     </li>
 
                     <li>
-
-                      <h3 className="font-bold text-2xl g">Meticulous Execution</h3>
+                      <h3 className="font-bold text-2xl g">
+                        Meticulous Execution
+                      </h3>
 
                       <p>
-                      We implement the approved outcome with ultimate precision and deliver a flawless anamorphic 3D billboard that is hard to ignore.
-
+                        We implement the approved outcome with ultimate
+                        precision and deliver a flawless anamorphic 3D billboard
+                        that is hard to ignore.
                       </p>
-
                     </li>
                   </ul>
                 </div>
@@ -176,7 +181,7 @@ const Timelinecomp = () => {
               <Image
                 width={700}
                 height={700}
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/wheel-unscreen.gif"
+                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/wheel-unscreen.gif"
                 className="lg:mr-6 h-[40vh] w-[52rem] lg:h-[60vh] lg:w-[92rem] "
                 alt="Hey B"
               />

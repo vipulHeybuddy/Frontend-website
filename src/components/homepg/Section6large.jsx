@@ -73,7 +73,7 @@ const Pagenation = () => {
         initial="hidden"
         animate={controls}
         variants={variants}
-        className="flex flex-wrap lg:w-[80%] p-4 bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Ellipse8.png')] bg-no-repeat bg-auto bg-[center_top_1rem] "
+        className="flex flex-wrap lg:w-[80%] p-4 bg-[url('https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Ellipse8.png')] bg-no-repeat bg-auto bg-[center_top_1rem] "
       >
         <div
           id="projects"
@@ -182,7 +182,7 @@ const Pagenation = () => {
                 <div className="grid sm:grid-1 gap-y-4 gap-x-16  md:mb-12 md:grid-cols-2 lg:grid-cols-2">
                   <div className="border-2 rounded-3xl ">
                     <Image
-                      src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/A+cubic+shaped+yellow+duck+in+a+Euclidean+world.jpg"
+                      src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/A%20cubic%20shaped%20yellow%20duck%20in%20a%20Euclidean%20world.jpg"
                       width={700}
                       height={700}
                       alt="hey b"
@@ -219,7 +219,7 @@ const Pagenation = () => {
                 <div className="grid sm:grid-1 gap-y-4 gap-x-16  md:mb-12 md:grid-cols-2 lg:grid-cols-2">
                   <div className="border-2 rounded-3xl ">
                     <Image
-                      src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/homepage+banner.jpg"
+                      src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/homepage%20banner.jpg"
                       width={700}
                       height={700}
                       alt="hey b"
@@ -258,7 +258,7 @@ const Pagenation = () => {
                 <div className="grid sm:grid-1 gap-y-4 gap-x-16  md:mb-12 md:grid-cols-2 lg:grid-cols-2">
                   <div className="border-2 rounded-3xl ">
                     <Image
-                      src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/home+page+banner.jpg"
+                      src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/home%20page%20banner.jpg"
                       width={700}
                       height={700}
                       alt="hey b"
@@ -295,7 +295,7 @@ const Pagenation = () => {
                 <div className="grid sm:grid-1 gap-y-4 gap-x-16  md:mb-12 md:grid-cols-2 lg:grid-cols-2">
                   <div className="border-2 rounded-3xl ">
                     <Image
-                      src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/meta+vr+glasses.jpg"
+                      src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/meta%20vr%20glasses.jpg"
                       width={700}
                       height={700}
                       alt="hey b"

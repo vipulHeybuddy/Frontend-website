@@ -83,33 +83,38 @@ const Timelinecomp = () => {
     >
       <div className="py-8 text-white">
         <h1 className="py-4 lg:w-[80%] text-2xl lg:text-4xl">
-        Our Proven AR Development Process at Hey Buddy
-         
+          Our Proven AR Development Process at Hey Buddy
         </h1>
         <p className=" text-base md:text-l lg:text-xl">
-        At Hey Buddy, we improved our AR development process with every project. Now, it has evolved into a meticulous, client-centric AR development process designed to realize your vision. 
-
-We offer transparency, collaboration, and the timely delivery of your AR projects. Here's an overview of our step-by-step process:
-
+          At Hey Buddy, we improved our AR development process with every
+          project. Now, it has evolved into a meticulous, client-centric AR
+          development process designed to realize your vision. We offer
+          transparency, collaboration, and the timely delivery of your AR
+          projects. Here's an overview of our step-by-step process:
         </p>
       </div>
 
       <div className="pb-24">
         <div className="grid sm:grid-1 md:mb-12 md:grid-cols-2 lg:grid-cols-2 gap-y-4 gap-x-4">
-          <div style={{marginLeft: '2rem'}} className="overflow-y-scroll scrollbar-hide md:scrollbar-default h-[60vh] w-full  ">
+          <div
+            style={{ marginLeft: "2rem" }}
+            className="overflow-y-scroll scrollbar-hide md:scrollbar-default h-[60vh] w-full  "
+          >
             <div className="">
               <div className="main ">
                 {/* <h3 class="head">Responsive Timeline</h3> */}
                 <div class="container text-white">
                   <ul>
                     <li>
-                      <h3 className="font-bold text-2xl "> Discovery and Consultation:</h3>
+                      <h3 className="font-bold text-2xl ">
+                        {" "}
+                        Discovery and Consultation:
+                      </h3>
                       <p>
                         We begin by attaining a complete understanding of your
                         business objectives and vision for the AR project. Here,
                         our team collaborates closely with yours.
                       </p>
-
                     </li>
                     <li>
                       <h3 className="font-bold text-2xl  ">
@@ -121,8 +126,6 @@ We offer transparency, collaboration, and the timely delivery of your AR project
                         your brand and objectives. This phase ensures that our
                         proposed solutions resonate with your vision.
                       </p>
-
-                 
                     </li>
                     <li>
                       <h3 className="font-bold text-2xl  ">
@@ -134,38 +137,39 @@ We offer transparency, collaboration, and the timely delivery of your AR project
                         compatibility of proposed AR functionalities with your
                         existing systems.
                       </p>
-
-        
                     </li>
                     <li>
-                      <h3 className="font-bold text-2xl  ">Development and Coding</h3>
+                      <h3 className="font-bold text-2xl  ">
+                        Development and Coding
+                      </h3>
                       <p>
                         Once the idea passes feasibility assessment, our
                         seasoned developers leverage AR technologies such as
                         ARKit and ARCore to bring your vision to life.{" "}
                       </p>
-
-        
                     </li>
                     <li>
-                      <h3 className="font-bold text-2xl  ">Iterative Prototyping</h3>
+                      <h3 className="font-bold text-2xl  ">
+                        Iterative Prototyping
+                      </h3>
                       <p>
                         We provide you with iterative prototypes to solicit your
                         invaluable feedback. This helps us refine the AR
                         application and ensure it meets and exceeds your
                         expectations.{" "}
                       </p>
-
                     </li>
                     <li>
-                      <h3 className="font-bold text-2xl  "> Comprehensive Testing</h3>
+                      <h3 className="font-bold text-2xl  ">
+                        {" "}
+                        Comprehensive Testing
+                      </h3>
                       <p>
                         With rigorous testing, we achieve the desired
                         functionality with security and performance. This also
                         ensures that your AR application is a seamless and
                         robust final product.
                       </p>
-
                     </li>
                     <li>
                       <h3 className="font-bold text-2xl  ">
@@ -178,8 +182,6 @@ We offer transparency, collaboration, and the timely delivery of your AR project
                         ensures your AR solution is launched within specified
                         timelines.
                       </p>
-
-                    
                     </li>
                     <li>
                       <h3 className="font-bold text-2xl  ">
@@ -191,8 +193,6 @@ We offer transparency, collaboration, and the timely delivery of your AR project
                         of your AR application. Insights gained lead to
                         data-driven decisions that make an industry-wide impact.{" "}
                       </p>
-
-                    
                     </li>
                     <li>
                       <h3 className="font-bold text-2xl  ">
@@ -204,8 +204,6 @@ We offer transparency, collaboration, and the timely delivery of your AR project
                         offers post-launch support, updates, and optimization
                         services for your unhindered success.
                       </p>
-
-                  
                     </li>
                     <li>
                       <h3 className="font-bold text-2xl  ">
@@ -216,8 +214,6 @@ We offer transparency, collaboration, and the timely delivery of your AR project
                         completion. We value your feedback and maintain an open
                         line of communication, fostering long-term partnerships.
                       </p>
-
-                      
                     </li>
                   </ul>
                 </div>
@@ -237,7 +233,7 @@ We offer transparency, collaboration, and the timely delivery of your AR project
               <Image
                 width={700}
                 height={700}
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/wheel-unscreen.gif"
+                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/wheel-unscreen.gif"
                 className="lg:mr-6 h-[40vh] w-[52rem] lg:h-[60vh] lg:w-[92rem] "
                 alt="Hey B"
               />

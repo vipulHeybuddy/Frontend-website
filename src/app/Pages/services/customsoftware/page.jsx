@@ -157,42 +157,42 @@ const page = () => {
       id: "1",
       heading: "Tailored Solutions",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid1.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid1.png",
       para: "Custom software development provides tailored solutions specifically designed to meet your unique needs and overcome specific challenges of your business.",
     },
     {
       id: "2",
       heading: "Increased Efficiency",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid2.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid2.png",
       para: "When custom software fills the gaps, and streamlines and automates your business processes, your business operates on maximum efficiency.",
     },
     {
       id: "3",
       heading: "Competitive Advantage",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid3.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid3.png",
       para: "You gain a formidable competitive edge when custom software implements your distinct and innovative features and functionalities, setting you apart in the market.",
     },
     {
       id: "4",
       heading: "Scalability",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid4.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid4.png",
       para: "Custom software ensures your technology infrastructure expands as your company evolves and accommodates your growing needs.",
     },
     {
       id: "5",
       heading: "Cost Savings",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid5.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid5.png",
       para: "Customer software reduces your reliance on generic, off-the-shelf solutions that require extensive customization and maintenance, saving a lot of cost and time.",
     },
     {
       id: "6",
       heading: "Enhanced Security",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid6.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid6.png",
       para: "Integrate tailored security measures into your custom software, and get a higher level of protection against general as well as business-specific cyber threats.",
     },
   ];
@@ -212,42 +212,42 @@ const page = () => {
       id: "1",
       heading: "We Understand You",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid7.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid7.png",
       para: "At Hey Buddy, We understand and offer exactly what you expect. Thanks to our vast experience of working with hundreds of clients over the years.",
     },
     {
       id: "2",
       heading: "We Deliver Quality",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid8.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid8.png",
       para: "As we fully understand your requirements, we deliver the high quality you want. Our custom software fits your business requirements seamlessly.",
     },
     {
       id: "3",
       heading: "We Communicate Clearly",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid9.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid9.png",
       para: "We use the latest project management tools and employ time-tested techniques to ensure clear communication and keep you aware of every development.",
     },
     {
       id: "4",
       heading: "We Deliver on Time",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid10.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid10.png",
       para: "Our refined and streamlined software development process accelerates project deliveries to deliver well within timelines and without compromising on quality.",
     },
     {
       id: "5",
       heading: "We Value Your Money",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid11.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid11.png",
       para: "With Hey Buddy, we have experts readily available to deliver the best customer software solutions at the best price in the market. ",
     },
     {
       id: "6",
       heading: "We Adapt Quick",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid12.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid12.png",
       para: "Our experience makes use very flexible and adaptable to accommodate all your specific business needs and deliver the best custom software solutions.",
     },
   ];
@@ -303,7 +303,7 @@ const page = () => {
 
           {/* -------------------------grid-reuse------------------------------------- */}
 
-          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev2.png')] py-4 bg-no-repeat bg-cover bg-[center_top_0rem]">
+          <div className="bg-[url('https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/gamedev2.png')] py-4 bg-no-repeat bg-cover bg-[center_top_0rem]">
             <Gridsection listData={List1} textData={Text1} />
           </div>
 
@@ -330,38 +330,38 @@ const page = () => {
           {/* between sectin 3 and 4 */}
 
           {/* ----------------------------Section-4---------------------------------- */}
-          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev4.png')] py-4 bg-no-repeat bg-cover bg-[center_top_0rem]">
+          <div className="bg-[url('https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/gamedev4.png')] py-4 bg-no-repeat bg-cover bg-[center_top_0rem]">
             <Mixsection />
           </div>
 
           {/* ------------------------Section-5------------------------------------- */}
-          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev5.png')] py-4 bg-no-repeat bg-cover bg-[center_top_0rem]">
+          <div className="bg-[url('https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/gamedev5.png')] py-4 bg-no-repeat bg-cover bg-[center_top_0rem]">
             <Timelinecomp />
           </div>
 
           {/* ----------------------------grid-reuse---------------------------------- */}
-          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev6.png')] py-4 bg-no-repeat bg-cover bg-[center_top_0rem]">
+          <div className="bg-[url('https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/gamedev6.png')] py-4 bg-no-repeat bg-cover bg-[center_top_0rem]">
             <Gridsection listData={List2} textData={Text2} />
           </div>
 
           {/* ----------------------------Section7---------------------------------- */}
-          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev7.png')] py-4 bg-no-repeat bg-cover bg-[center_top_0rem]">
+          <div className="bg-[url('https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/gamedev7.png')] py-4 bg-no-repeat bg-cover bg-[center_top_0rem]">
             {/* <Gridsection listData={List3} textData={Text3} /> */}
             <Section7 />
           </div>
 
           {/* ------------------------section-8-------------------------------------- */}
-          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev8.png')] py-4 bg-no-repeat bg-cover ">
+          <div className="bg-[url('https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/gamedev8.png')] py-4 bg-no-repeat bg-cover ">
             <Pagenation />
           </div>
 
           {/* -----------------------Section-9--------------------------------------- */}
-          <div className="text-white lg:py-16 bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev9.png')] py-4 bg-no-repeat bg-cover">
+          <div className="text-white lg:py-16 bg-[url('https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/gamedev9.png')] py-4 bg-no-repeat bg-cover">
             <Bottomclient />
           </div>
 
           {/* -----------------------------Section-10----------------------------------- */}
-          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev10.png')] py-4 bg-no-repeat bg-cover bg-[center_top_0rem]">
+          <div className="bg-[url('https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/gamedev10.png')] py-4 bg-no-repeat bg-cover bg-[center_top_0rem]">
             <Faqsection />
           </div>
         </div>

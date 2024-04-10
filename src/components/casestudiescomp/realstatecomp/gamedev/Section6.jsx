@@ -12,7 +12,7 @@ const Section6 = ({ heading, para, list1, list2, list3, grid }) => {
   };
 
   return (
-    <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/csgame12.png')] bg-no-repeat bg-contain lg:bg-auto bg-[center_top_0rem]">
+    <div className="bg-[url('https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/csgame12.png')] bg-no-repeat bg-auto lg:bg-auto bg-[center_top_0rem]">
       {/* <div
         className=" absolute inset-x-0 top-90 -z-10 transform-gpu overflow-hidden blur-3xl sm:top-90"
         aria-hidden="true"

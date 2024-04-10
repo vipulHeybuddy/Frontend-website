@@ -82,7 +82,7 @@ const Timelinecomp = ({
   ];
 
   return (
-    <div className=" bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/csgame9.png')] bg-no-repeat bg-contain lg:bg-cover bg-[center_top_0rem]">
+    <div className=" bg-[url('https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/csgame9.png')] bg-no-repeat bg-auto lg:bg-cover bg-[center_top_0rem]">
       <motion.div
         ref={ref}
         initial="hidden"
@@ -147,12 +147,12 @@ const Timelinecomp = ({
                 <Image
                   width={700}
                   height={700}
-                  src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/wheel-unscreen.gif"
+                  src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/wheel-unscreen.gif"
                   className="lg:mr-6 h-[50vh] w-[62rem] lg:h-auto lg:w-auto "
                   alt="Hey B"
                 />
                 {/* <Image
-  src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/wheel-unscreen.gif"
+  src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/wheel-unscreen.gif"
   width={400} // Original width
   height={400} // Original height
   // layout="intrinsic"

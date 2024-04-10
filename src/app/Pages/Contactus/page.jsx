@@ -63,7 +63,7 @@ const Page = () => {
     }
   };
   return (
-    <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/Ellipse8.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
+    <div className="bg-[url('https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Ellipse8.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
       <ToastContainer
         position="top-center"
         autoClose={5000}

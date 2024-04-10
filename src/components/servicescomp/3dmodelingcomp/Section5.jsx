@@ -83,10 +83,13 @@ const Timelinecomp = () => {
     >
       <div className="py-8 text-white">
         <h1 className="py-4 lg:w-[80%] text-2xl lg:text-4xl">
-        Our Streamlined 3D Development Process
+          Our Streamlined 3D Development Process
         </h1>
         <p className=" text-base md:text-lg lg:text-2xl">
-        Project after project, we have refined our 3D development process to deliver creativity and innovation to your project. We understand the importance of a transparent and collaborative workflow, which is reflected in our process.
+          Project after project, we have refined our 3D development process to
+          deliver creativity and innovation to your project. We understand the
+          importance of a transparent and collaborative workflow, which is
+          reflected in our process.
         </p>
       </div>
 
@@ -99,65 +102,76 @@ const Timelinecomp = () => {
                 <div class="container text-white">
                   <ul>
                     <li>
-
                       <h3 className="font-bold text-2xl  ">Consultation</h3>
 
                       <p>
-                      We initiate with a thorough consultation, grasping the intricacies of your project, goals, and expectations. This clear communication ensures that our plans and processes align with your vision, and lays a strong foundation for a successful collaboration.
+                        We initiate with a thorough consultation, grasping the
+                        intricacies of your project, goals, and expectations.
+                        This clear communication ensures that our plans and
+                        processes align with your vision, and lays a strong
+                        foundation for a successful collaboration.
                       </p>
-
                     </li>
                     <li>
-
-                      <h3 className="font-bold text-2xl ">Conceptualization and Planning</h3>
+                      <h3 className="font-bold text-2xl ">
+                        Conceptualization and Planning
+                      </h3>
 
                       <p>
-                      Our skilled team transforms ideas into a consolidated plan, outlining your project scope, timelines, and key milestones. This sets the roadmap for the project while ensuring transparency and clarity in the development process.
+                        Our skilled team transforms ideas into a consolidated
+                        plan, outlining your project scope, timelines, and key
+                        milestones. This sets the roadmap for the project while
+                        ensuring transparency and clarity in the development
+                        process.
                       </p>
-
-               
                     </li>
                     <li>
-
                       <h3 className="font-bold text-2xl ">
-                      Design and Development
-
+                        Design and Development
                       </h3>
                       <p>
-                      We utilize advanced tools and technologies in our design and development process. Here, we aim to get you high-quality assets that not only meet your project's visual and functional requirements but also exceed your expectations.
+                        We utilize advanced tools and technologies in our design
+                        and development process. Here, we aim to get you
+                        high-quality assets that not only meet your project's
+                        visual and functional requirements but also exceed your
+                        expectations.
                       </p>
-
                     </li>
                     <li>
-
-                      <h3 className="font-bold text-2xl ">Client Feedback and Revisions</h3>
-         <p>
-                      Staying true to our collaborative approach toward 3D development, we welcome your feedback and suggestions in this step. Accordingly, we make necessary revisions so that your input shapes the final product, guaranteeing satisfaction.
-
+                      <h3 className="font-bold text-2xl ">
+                        Client Feedback and Revisions
+                      </h3>
+                      <p>
+                        Staying true to our collaborative approach toward 3D
+                        development, we welcome your feedback and suggestions in
+                        this step. Accordingly, we make necessary revisions so
+                        that your input shapes the final product, guaranteeing
+                        satisfaction.
                       </p>
-
                     </li>
 
                     <li>
-
                       <h3 className="font-bold text-2xl ">Quality Assurance</h3>
 
                       <p>
-                      Before we finally deliver, the resulting 3D models undergo rigorous quality checks to ensure that our 3D models meet your project standards. We deliver polished, error-free 3D assets that meet your project's visual and functional needs.
+                        Before we finally deliver, the resulting 3D models
+                        undergo rigorous quality checks to ensure that our 3D
+                        models meet your project standards. We deliver polished,
+                        error-free 3D assets that meet your project's visual and
+                        functional needs.
                       </p>
-
                     </li>
 
                     <li>
-
                       <h3 className="font-bold text-2xl ">Timely Delivery</h3>
 
                       <p>
-                      With our unwavering commitment, we deliver your 3D assets with high regard to timelines. 
-We ensure this by utilizing our reliable development process and high professionalism, the two most essential ingredients for your project's success.
-
+                        With our unwavering commitment, we deliver your 3D
+                        assets with high regard to timelines. We ensure this by
+                        utilizing our reliable development process and high
+                        professionalism, the two most essential ingredients for
+                        your project's success.
                       </p>
-
                     </li>
                   </ul>
                 </div>
@@ -177,7 +191,7 @@ We ensure this by utilizing our reliable development process and high profession
               <Image
                 width={700}
                 height={700}
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/wheel-unscreen.gif"
+                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/wheel-unscreen.gif"
                 className="lg:mr-6 h-[40vh] w-[52rem] lg:h-[60vh] lg:w-[92rem] "
                 alt="Hey B"
               />

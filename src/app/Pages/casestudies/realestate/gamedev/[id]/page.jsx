@@ -101,7 +101,7 @@ const page = ({ params }) => {
       },
       link: "/Pages/casestudies/realestate/gamedev/[id]",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/img1.webp",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/img1.webp",
     },
     {
       id: "2",
@@ -189,7 +189,7 @@ const page = ({ params }) => {
       },
       link: "/Pages/casestudies/realestate/gamedev/[id]",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/img1.webp",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/img1.webp",
     },
     {
       id: "3",
@@ -275,7 +275,7 @@ const page = ({ params }) => {
       },
       link: "/Pages/casestudies/realestate/gamedev/[id]",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/img1.webp",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/img1.webp",
     },
     {
       id: "4",
@@ -361,7 +361,7 @@ const page = ({ params }) => {
       },
       link: "/Pages/casestudies/realestate/gamedev/[id]",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/img1.webp",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/img1.webp",
     },
   ];
 
@@ -388,7 +388,7 @@ const page = ({ params }) => {
     <div className=" mx-auto">
       <Section1 heading1={heading1} heading2={heading2} url1={url1} />
 
-      <div className=" mx-auto bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/csgame9.png')]  bg-no-repeat bg-contain lg:bg-cover  bg-[center_top_0rem]">
+      <div className=" mx-auto ">
         <Section2 about={about} />
       </div>
 

@@ -164,7 +164,7 @@ const Sliderclient = ({
   };
 
   return (
-    <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/csgame10.png')] bg-no-repeat bg-contain lg:bg-cover bg-[center_top_0rem]">
+    <div className="bg-[url('https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/csgame10.png')] bg-no-repeat bg-auto lg:bg-cover bg-[center_top_0rem]">
       <motion.div
         ref={ref}
         initial="hidden"
@@ -183,8 +183,8 @@ const Sliderclient = ({
 
           <Slider {...settings}>
             {List.map((section, index) => (
-              <div className="px-2 h-[26rem] ">
-                <figure class="flex flex-col p-4 lg:p-6  rounded-lg  h-full w-full bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20">
+              <div className="px-2 h-[28rem] ">
+                <figure class="flex flex-col p-4 lg:p-6 hover:bg-yellow-600 hover:bg-opacity-30 rounded-2xl  h-full w-full bg-gray-700  bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-10 border-2 border-gray-700">
                   <blockquote class="  text-gray-400">
                     <span className="text-left text-4xl lg:text-6xl font-semibold text-gray-400">
                       {section.serialno}
@@ -197,7 +197,7 @@ const Sliderclient = ({
                       {section.heading}
                     </h3>
 
-                    <p  className="text-gray-300 text-left mb-8">
+                    <p className="text-gray-300 text-left mb-8 overflow-auto scrollbar-hide">
                       {section.para}
                     </p>
                   </blockquote>

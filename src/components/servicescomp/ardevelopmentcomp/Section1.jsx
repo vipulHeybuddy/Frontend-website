@@ -38,7 +38,7 @@ const Herosection = ({ handlecontactusModal }) => {
 
   const containerStyle = {
     position: "sticky",
-    marginTop: '2rem'
+    marginTop: "2rem",
   };
 
   const textContainerStyle = {
@@ -80,7 +80,7 @@ const Herosection = ({ handlecontactusModal }) => {
     fontSize: "16px",
     transition: "background-color 0.3s, transform 0.3s",
     cursor: "pointer",
-    marginTop: '3rem',
+    marginTop: "3rem",
     transform: isHovered ? "scale(1.1)" : "scale(1)",
   };
 
@@ -88,7 +88,6 @@ const Herosection = ({ handlecontactusModal }) => {
     <>
       <div style={containerStyle} className=" md:p-5">
         <div style={textContainerStyle}>
-          
           <h1 className=" text-3xl md:text-5xl">
             Your Trusted Experts for Augmented Reality Services
           </h1>
@@ -108,7 +107,7 @@ const Herosection = ({ handlecontactusModal }) => {
             width={450}
             height={450}
             className="h-[24px] w-[24px] bg-white mx-auto mt-4"
-            src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/e8d0c0b5eb64f41a96e83cab24970036.png"
+            src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/e8d0c0b5eb64f41a96e83cab24970036.png"
             alt="Background"
           />
         </div>

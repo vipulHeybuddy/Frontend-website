@@ -53,7 +53,7 @@ const Section10 = ({ testimonal }) => {
   };
 
   return (
-    <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/csgame11.png')] bg-no-repeat bg-contain lg:bg-cover bg-[center_top_0rem]">
+    <div className="bg-[url('https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/csgame11.png')] bg-no-repeat bg-auto lg:bg-cover bg-[center_top_0rem]">
       <div
         style={{
           overflow: "hidden",

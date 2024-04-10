@@ -125,42 +125,42 @@ const Page = () => {
       id: "1",
       heading: "Enhanced Brand Engagement",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid1.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid1.png",
       para: "Games offers a unique platform to connect with your audience on a deeper level. Your brand establishes a memorable presence in the mind of the gamer, fostering stronger connections and long-term loyalty.",
     },
     {
       id: "2",
       heading: "Increased User Retention:",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid2.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid2.png",
       para: "Games have an inherent ability to keep users hooked and invested. By incorporating addictive gameplay mechanics, your business can boost user retention, ensuring that your audience keeps coming back for more, and strengthening brand loyalty over time.",
     },
     {
       id: "3",
       heading: "Best Way for Brand Awareness",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid3.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid3.png",
       para: "Games is a powerful tool to aware, educate and train your audience on your products. Create immersive experiences that communicate your brand message to your customers and inform them about your products or services. Thus, merging entertainment and marketing for the best possible outcomes. ",
     },
     {
       id: "4",
       heading: "Data-Driven Insights:",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid4.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid4.png",
       para: "Games generate a wealth of data and information about player behaviour and preferences. Leverage it to gain deep audience insights, refine your marketing strategies, and make data-driven impactful decisions that get you the best business outcomes.",
     },
     {
       id: "5",
       heading: "Cross-Platform Reach:",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid5.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid5.png",
       para: "Reach your audience across various platforms and devices. From mobile and tablets to PCs, consoles, or VR, be present where your audience is and enjoy a broader reach. Games ensures that your message is accessible to a diverse and widespread audience.",
     },
     {
       id: "6",
       heading: "Innovative Marketing Opportunities:",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid6.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid6.png",
       para: "Games offer innovative marketing avenues by integrating your brand seamlessly into Games storylines and environments. Utilize in-game advertising, or create branded mini-games for hyper-interactive campaigns, to enhance brand visibility and brand recall.",
     },
   ];
@@ -180,42 +180,42 @@ const Page = () => {
       id: "1",
       heading: "Expertise Across Platform",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid7.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid7.png",
       para: "We offer a comprehensive suite of services across all Games platforms. We develop games for mobile, offer Unreal and Unity game development, AR/VR game development, and Metaverse game development.",
     },
     {
       id: "2",
       heading: "Cutting-Edge AI Solutions",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid8.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid8.png",
       para: "We elevate your games with AI-powered techniques and algorithms such as PCG, Natural Language Processing (NLP), Machine Learning (ML), etc. Our AI expertise ensures your games are intelligent and outsmart competition.",
     },
     {
       id: "3",
       heading: "Creative Innovation",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid9.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid9.png",
       para: "We don't just build games; we craft experiences as our team of gamer-first developers thrive on creative innovation. Expect unique storylines, dynamically engaging gameplay mechanics, and visually stunning environments to captivate your Games audience and set your brand apart.",
     },
     {
       id: "4",
       heading: "Collaborative Partnership",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid10.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid10.png",
       para: "Believing in collaborative partnerships, we work closely with you. We ensure to completely understand your brand, goals, and it’s vision. And move forward with full might to realise the same. This is what differentiates our game development services.",
     },
     {
       id: "5",
       heading: "Commitment to Quality",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid11.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid11.png",
       para: "Quality is non-negotiable at Hey Buddy. Our rigorous and perfected-over-year development process ensures that every aspect of your game meets the highest standards. Be it graphics, gameplay, performance or experience, we prioritise excellence and your satisfaction.",
     },
     {
       id: "6",
       heading: "Transparent Communication",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid12.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid12.png",
       para: "By working with clients across industries and scales, we understood the gravity of transparent communication. Be assured to experience transparent communication, timely updates, and a responsive team to keep you informed and involved.",
     },
   ];
@@ -273,7 +273,7 @@ const Page = () => {
 
           {/* -------------------------grid-reuse------------------------------------- */}
 
-          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev2.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
+          <div className="bg-[url('https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/gamedev2.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
             <Gridsection listData={List1} textData={Text1} />
           </div>
 
@@ -283,14 +283,14 @@ const Page = () => {
           </div>
 
           {/* ----------------------------Section-4---------------------------------- */}
-          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev4.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
+          <div className="bg-[url('https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/gamedev4.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
             <Mixsection />
           </div>
 
           {/* ------------------------Section-5------------------------------------- */}
           <div className=" relative">
             <img
-              src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev5.png"
+              src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/gamedev5.png"
               alt="bg image"
               className="absolute bottom-0"
               loading="lazy"
@@ -299,28 +299,28 @@ const Page = () => {
           </div>
 
           {/* --------------------------Section-6--grid-reuse---------------------------------- */}
-          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev6.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
+          <div className="bg-[url('https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/gamedev6.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
             <Gridsection listData={List2} textData={Text2} />
           </div>
 
           {/* ----------------------------Section7---------------------------------- */}
-          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev7.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
+          <div className="bg-[url('https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/gamedev7.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
             {/* <Gridsection listData={List3} textData={Text3} /> */}
             <Section7 />
           </div>
 
           {/* ------------------------section-8-------------------------------------- */}
-          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev8.png')] py-8 bg-no-repeat lg:bg-cover ">
+          <div className="bg-[url('https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/gamedev8.png')] py-8 bg-no-repeat lg:bg-cover ">
             <Pagenation handlecontactusModal={handlecontactusModal} />
           </div>
 
           {/* -----------------------Section-9--------------------------------------- */}
-          <div className="text-white lg:py-16 bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev9.png')] py-8 bg-no-repeat lg:bg-cover">
+          <div className="text-white lg:py-16 bg-[url('https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/gamedev9.png')] py-8 bg-no-repeat lg:bg-cover">
             <Bottomclient />
           </div>
 
           {/* -----------------------------Section-10----------------------------------- */}
-          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev10.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
+          <div className="bg-[url('https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/gamedev10.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
             <Faqsection />
           </div>
         </div>

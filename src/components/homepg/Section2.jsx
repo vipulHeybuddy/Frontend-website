@@ -1,58 +1,58 @@
-"use client"
+"use client";
 
 import React from "react";
 import styled, { keyframes, css } from "styled-components";
-import '../../styles/Section2Home.css';
+import "../../styles/Section2Home.css";
 
 function Company() {
   const row1 = [
     "https://assets.algoexpert.io/spas/main/prod/g523bdeb478-prod/dist/images/7ae42bac3b34999c0db3.png",
-    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/dotpe.png",
+    "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/dotpe.png",
     "https://assets.algoexpert.io/spas/main/prod/g523bdeb478-prod/dist/images/6591cdc0702b32310306.png",
-    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/bloomberg-logo-white.png",
+    "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/bloomberg-logo-white.png",
     "https://assets.algoexpert.io/spas/main/prod/g523bdeb478-prod/dist/images/3cd767dea94a85078ca4.png",
     "https://assets.algoexpert.io/spas/main/prod/g523bdeb478-prod/dist/images/a2b3c3709ffedce2a22a.png",
   ];
 
-//   const row2 = [
-//     "https://assets.algoexpert.io/spas/main/prod/g523bdeb478-prod/dist/images/6c585c33ca6c71c79bb7.png",
-//     "https://assets.algoexpert.io/spas/main/prod/g523bdeb478-prod/dist/images/9dd55e54b5a28658bf4e.png",
-//     "https://assets.algoexpert.io/spas/main/prod/g523bdeb478-prod/dist/images/0384060dcbf73b6a707c.png",
-//     "https://assets.algoexpert.io/spas/main/prod/g523bdeb478-prod/dist/images/35e044b3354aaa0caed5.png",
-//     "https://assets.algoexpert.io/spas/main/prod/g523bdeb478-prod/dist/images/f50ae7cbf6cc805bdadc.png",
-//     "https://assets.algoexpert.io/spas/main/prod/g523bdeb478-prod/dist/images/6c585c33ca6c71c79bb7.png",
-//   ];
+  //   const row2 = [
+  //     "https://assets.algoexpert.io/spas/main/prod/g523bdeb478-prod/dist/images/6c585c33ca6c71c79bb7.png",
+  //     "https://assets.algoexpert.io/spas/main/prod/g523bdeb478-prod/dist/images/9dd55e54b5a28658bf4e.png",
+  //     "https://assets.algoexpert.io/spas/main/prod/g523bdeb478-prod/dist/images/0384060dcbf73b6a707c.png",
+  //     "https://assets.algoexpert.io/spas/main/prod/g523bdeb478-prod/dist/images/35e044b3354aaa0caed5.png",
+  //     "https://assets.algoexpert.io/spas/main/prod/g523bdeb478-prod/dist/images/f50ae7cbf6cc805bdadc.png",
+  //     "https://assets.algoexpert.io/spas/main/prod/g523bdeb478-prod/dist/images/6c585c33ca6c71c79bb7.png",
+  //   ];
 
   return (
-
     <>
-    <div className="text-center mx-auto justify-center py-16">
-      <h1 className="btn-shine text-white text-2xl lg:text-4xl font-bold">Brands that trust us </h1>
-      <p className="text-white text-sm">Driving technology for leading brands</p>
+      <div className="text-center mx-auto justify-center py-16">
+        <h1 className="btn-shine text-white text-2xl lg:text-4xl font-bold">
+          Brands that trust us{" "}
+        </h1>
+        <p className="text-white text-sm">
+          Driving technology for leading brands
+        </p>
+      </div>
+      <AppContainer className="w-[90%] overflow-hidden lg:w-[80%]">
+        <Wrapper>
+          <Marquee>
+            <MarqueeGroup>
+              {row1.map((el) => (
+                <ImageGroup>
+                  <Image src={el} />
+                </ImageGroup>
+              ))}
+            </MarqueeGroup>
+            <MarqueeGroup>
+              {row1.map((el) => (
+                <ImageGroup>
+                  <Image src={el} />
+                </ImageGroup>
+              ))}
+            </MarqueeGroup>
+          </Marquee>
 
-    </div>
-    <AppContainer className="w-[90%] overflow-hidden lg:w-[80%]">
-
-      <Wrapper>
-    
-        <Marquee>
-          <MarqueeGroup>
-            {row1.map((el) => (
-              <ImageGroup>
-                <Image src={el} />
-              </ImageGroup>
-            ))}
-          </MarqueeGroup>
-          <MarqueeGroup>
-            {row1.map((el) => (
-              <ImageGroup>
-                <Image src={el} />
-              </ImageGroup>
-            ))}
-          </MarqueeGroup>
-        </Marquee>
-
-        {/* <Marquee>
+          {/* <Marquee>
           <MarqueeGroup2>
             {row2.map((el) => (
               <ImageGroup>
@@ -68,9 +68,8 @@ function Company() {
             ))}
           </MarqueeGroup2>
         </Marquee> */}
-      </Wrapper>
-    </AppContainer>
-
+        </Wrapper>
+      </AppContainer>
     </>
   );
 }
@@ -79,7 +78,7 @@ export default Company;
 
 const AppContainer = styled.div`
   // width: 80vw;
-//   height: 100vh;
+  //   height: 100vh;
   // color: #000000;
 
   position: relative;
@@ -170,5 +169,4 @@ const Image = styled.img`
   border-radius: 0.5rem;
   aspect-ratio: 16/9;
   padding: 5px 20px;
-  
 `;

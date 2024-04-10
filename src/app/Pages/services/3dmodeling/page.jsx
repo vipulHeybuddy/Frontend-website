@@ -126,42 +126,42 @@ const page = () => {
       id: "1",
       heading: "High Quality, Faster Turnaround",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid1.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid1.png",
       para: "With an experienced team that has worked on various projects, you get high-quality renders at affordable prices and in less time. ",
     },
     {
       id: "2",
       heading: "Mitigate Risk with Experience",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid2.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid2.png",
       para: "Let the experienced team share your responsibilities and tackle challenges on your behalf so that you work with complete peace of mind ",
     },
     {
       id: "3",
       heading: "Technological Advancements",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid3.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid3.png",
       para: "Expand your capability with the most advanced tools and technologies in the industry. Get customised 3D model development for your projects that set standards.",
     },
     {
       id: "4",
       heading: "Access to Specialized Talent",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid4.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid4.png",
       para: "On-board the best talents in the industry for 3D modelling services by expanding your search to the global level.",
     },
     {
       id: "5",
       heading: "Focus on Core Competencies",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid5.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid5.png",
       para: "When experts are taking care of your 3D modelling requirement, your in-house team concentrates on core and critical tasks.",
     },
     {
       id: "6",
       heading: "Ease of Scalability",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid6.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid6.png",
       para: "Scale up or down as per your business requirements with ease. Say goodbye to the hiring and training challenges of additional staff.",
     },
   ];
@@ -180,35 +180,35 @@ const page = () => {
       id: "1",
       heading: "Quality by Expert",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid7.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid7.png",
       para: "Our dedicated and experienced team of 3D modellers has 200+ members with a variety of experience delivering the industry-leading quality for your projects.",
     },
     {
       id: "2",
       heading: "Timely Deliveries",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid8.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid8.png",
       para: "At Hey Buddy, we strictly adhere to your project timelines with our streamlined 3D development process that churns out high-quality results in a shorter time.",
     },
     {
       id: "3",
       heading: "Communication Clarity",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid9.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid9.png",
       para: "We understand the criticality of clear communication and keeping you informed. We use the latest project management tool for data-driven and agile decision-making by you.",
     },
     {
       id: "4",
       heading: "Flexible and Cost-Effective Models",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid10.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid10.png",
       para: "Choose from a variety of outsourcing models that best suit your project needs. Get the best quality 3D development services at the most reasonable prices.",
     },
     {
       id: "5",
       heading: "Adherence to Specifications",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid11.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid11.png",
       para: "We do not just follow your specifications, we integrate them into the process. So that the outcomes automatically align with your specific project needs.",
     },
 
@@ -216,7 +216,7 @@ const page = () => {
       id: "6",
       heading: "Portfolio",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid11.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid11.png",
       para: "We have a strong portfolio packed with diverse and successful 3D projects that helped our clients fare well in there industry and achieve their business goals.",
     },
   ];
@@ -234,7 +234,11 @@ const page = () => {
   return (
     <div className="lg:w-[80%] mx-auto relative">
       {/* contact us modal */}
-      <ContactModal handleClose={handleClose} contactusModal={contactusModal} handleModalClose={handleModalClose}/>
+      <ContactModal
+        handleClose={handleClose}
+        contactusModal={contactusModal}
+        handleModalClose={handleModalClose}
+      />
       <div>
         {/* --------------------Section-1 ------------------------------------------ */}
         <div className="relative isolate px-6  pt-20 lg:px-8 ">
@@ -268,7 +272,7 @@ const page = () => {
 
           {/* -------------------------grid-reuse------------------------------------- */}
 
-          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev2.png')] py-3 bg-no-repeat bg-cover bg-[center_top_0rem]">
+          <div className="bg-[url('https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/gamedev2.png')] py-3 bg-no-repeat bg-cover bg-[center_top_0rem]">
             <Gridsection listData={List1} textData={Text1} />
           </div>
 
@@ -278,38 +282,38 @@ const page = () => {
           </div>
 
           {/* ----------------------------Section-4---------------------------------- */}
-          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev4.png')] py-3 bg-no-repeat bg-cover bg-[center_top_0rem]">
+          <div className="bg-[url('https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/gamedev4.png')] py-3 bg-no-repeat bg-cover bg-[center_top_0rem]">
             <Mixsection />
           </div>
 
           {/* ------------------------Section-5------------------------------------- */}
-          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev5.png')] py-3 bg-no-repeat bg-cover bg-[center_top_0rem]">
+          <div className="bg-[url('https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/gamedev5.png')] py-3 bg-no-repeat bg-cover bg-[center_top_0rem]">
             <Timelinecomp />
           </div>
 
           {/* ----------------------------grid-reuse---------------------------------- */}
-          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev6.png')] py-3 bg-no-repeat bg-cover bg-[center_top_0rem]">
+          <div className="bg-[url('https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/gamedev6.png')] py-3 bg-no-repeat bg-cover bg-[center_top_0rem]">
             <Gridsection listData={List2} textData={Text2} />
           </div>
 
           {/* ----------------------------Section7---------------------------------- */}
-          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev7.png')] py-3 bg-no-repeat bg-cover bg-[center_top_0rem]">
+          <div className="bg-[url('https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/gamedev7.png')] py-3 bg-no-repeat bg-cover bg-[center_top_0rem]">
             {/* <Gridsection listData={List3} textData={Text3} /> */}
             <Section7 />
           </div>
 
           {/* ------------------------section-8-------------------------------------- */}
-          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev8.png')] py-3 bg-no-repeat lg:bg-cover ">
+          <div className="bg-[url('https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/gamedev8.png')] py-3 bg-no-repeat lg:bg-cover ">
             <Pagenation handlecontactusModal={handlecontactusModal} />
           </div>
 
           {/* -----------------------Section-9--------------------------------------- */}
-          <div className="text-white lg:py-16 bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev9.png')] py-3 bg-no-repeat lg:bg-cover">
+          <div className="text-white lg:py-16 bg-[url('https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/gamedev9.png')] py-3 bg-no-repeat lg:bg-cover">
             <Bottomclient />
           </div>
 
           {/* -----------------------------Section-10----------------------------------- */}
-          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev10.png')] py-3 bg-no-repeat bg-cover bg-[center_top_0rem]">
+          <div className="bg-[url('https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/gamedev10.png')] py-3 bg-no-repeat bg-cover bg-[center_top_0rem]">
             <Faqsection />
           </div>
         </div>

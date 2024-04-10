@@ -36,7 +36,7 @@ const page = () => {
   };
   const textContainerStyle = {
     marginBottom: "10%",
-    paddingTop:'7rem',
+    paddingTop: "7rem",
     // position: "sticky",
     left: "50%",
     // zIndex: 2,
@@ -55,7 +55,7 @@ const page = () => {
     transition: "background-color 0.3s, transform 0.3s",
     cursor: "pointer",
     transform: isHovered ? "scale(1.1)" : "scale(1)",
-    marginTop: '3rem',
+    marginTop: "3rem",
   };
 
   const controls = useAnimation();
@@ -157,70 +157,70 @@ const page = () => {
   //     id: "1",
   //     heading: "Enhanced Marketing and Advertising",
   //     imgurl:
-  //       "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid1.png",
+  //       "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid1.png",
   //     para: "Get compelling and visually striking content for marketing and advertising campaigns. Empower your brand's visibility and customer engagement for assured business success.",
   //   },
   //   {
   //     id: "2",
   //     heading: "Visual Realism for Presentations",
   //     imgurl:
-  //       "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid2.png",
+  //       "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid2.png",
   //     para: "Your presentations were never so impactful. With realistic CGI visuals, achieve high client satisfaction and higher project approvals. Stand out from the crowd and be remembered.",
   //   },
   //   {
   //     id: "3",
   //     heading: "Cost-Effective Prototyping",
   //     imgurl:
-  //       "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid3.png",
+  //       "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid3.png",
   //     para: "Save a fortune with CGI virtual prototypes before starting with full-fledged physical production. Get a clear visual idea, test in simulation, and move ahead with certainty. ",
   //   },
   //   {
   //     id: "4",
   //     heading: "Efficient Communication of Concepts",
   //     imgurl:
-  //       "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid4.png",
+  //       "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid4.png",
   //     para: "Establish clear and efficient communication, especially for complex concepts. Make sure your teams, clients, and stakeholders share an understanding of your project vision.",
   //   },
   //   {
   //     id: "5",
   //     heading: "Iterative Design and Feedback",
   //     imgurl:
-  //       "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid5.png",
+  //       "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid5.png",
   //     para: "Benefit from the flexibility of CGI for iterative design processes and incorporate client feedback with ease. Refine the final product and meet client expectations without missteps.",
   //   },
   //   {
   //     id: "6",
   //     heading: "Time Savings in Production",
   //     imgurl:
-  //       "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid6.png",
+  //       "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid6.png",
   //     para: "Save time in the production process. Eliminate the need for extensive physical setups or reshoots with CGI's efficiency. Achieve a faster turnaround and meet project timelines. ",
   //   },
   //   {
   //     id: "7",
   //     heading: "Versatility in Creativity",
   //     imgurl:
-  //       "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid6.png",
+  //       "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid6.png",
   //     para: "Differentiate your business with the creative freedom of CGI. Explore different styles, settings, and visual elements to bring uniqueness and appeal to your final product.",
   //   },
   //   {
   //     id: "8",
   //     heading: "Adaptability to Changes",
   //     imgurl:
-  //       "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid6.png",
+  //       "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid6.png",
   //     para: "Be agile. Incorporate ongoing modifications in design during the production process. Experience dynamism with CGI's adaptability and meet evolving project requirements.  ",
   //   },
   //   {
   //     id: "9",
   //     heading: "Vast Talent Pool",
   //     imgurl:
-  //       "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid6.png",
+  //       "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid6.png",
   //     para: "With Hey Buddy’s CGI experts team, you access a diverse talent pool and skillset. We ensure you get the highest quality visuals within a specified timeline and impress your audience. ",
   //   },
   //   {
   //     id: "10",
   //     heading: "Future-Proofing Content",
   //     imgurl:
-  //       "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid6.png",
+  //       "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid6.png",
   //     para: "You can repurpose and reuse CGI assets for future-proofing. We create assets in a format usable for future projects. Therefore, you save resources for future projects.",
   //   },
   // ];
@@ -240,63 +240,63 @@ const page = () => {
       id: "1",
       heading: "Delivering Realism",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid7.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid7.png",
       para: "With keen attention to detail, we achieve accurate representation and life-like rendering.",
     },
     {
       id: "2",
       heading: "Timely Delivery",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid8.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid8.png",
       para: "We strictly adhere to and respect the given timelines and deliver as per the specified schedule.      ",
     },
     {
       id: "3",
       heading: "Communication and Collaboration",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid9.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid9.png",
       para: "We ensure to understand your vision in its entirety, share regular updates, and are open to your feedback and revisions.",
     },
     {
       id: "4",
       heading: "Technical Proficiency",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid10.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid10.png",
       para: "We have a team of CGI experts ready to turn your vision into reality with the latest CGI tools and techniques.",
     },
     {
       id: "5",
       heading: "Creativity and Innovation",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid11.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid11.png",
       para: "We tirelessly work towards infusing your CGI projects with innovative elements and creativity to make them stand out.      ",
     },
     {
       id: "6",
       heading: "Portfolio and Reputation",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid12.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid12.png",
       para: "We have a vast portfolio of experience working with clients in different industries and scales, earning our name in the market.",
     },
     {
       id: "7",
       heading: "Cost-Effectiveness",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid12.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid12.png",
       para: "Utilizing techniques like economy of scale, future-proofing, and more, we make sure you get the best outcome for every penny.      ",
     },
     {
       id: "8",
       heading: "Flexibility and Adaptability",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid12.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid12.png",
       para: "With our agile operation, we quickly adapt to changes in scope or requirements during the project lifecycle.",
     },
     {
       id: "9",
       heading: "Legal and Ethical Compliance      ",
       imgurl:
-        "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/grid12.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/grid12.png",
       para: "We strictly adhere to legal and ethical standards, especially regarding intellectual property rights and confidentiality.      ",
     },
   ];
@@ -352,7 +352,7 @@ const page = () => {
 
           {/* -------------------------grid-reuse------------------------------------- */}
 
-          {/* <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev2.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
+          {/* <div className="bg-[url('https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/gamedev2.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
             <Gridsection listData={List1} textData={Text1} />
           </div> */}
 
@@ -362,22 +362,22 @@ const page = () => {
           </div>
 
           {/* ----------------------------Section-4---------------------------------- */}
-          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev4.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
+          <div className="bg-[url('https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/gamedev4.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
             <Mixsection />
           </div>
 
           {/* ------------------------Section-5------------------------------------- */}
-          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev5.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
+          <div className="bg-[url('https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/gamedev5.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
             <Timelinecomp />
           </div>
 
           {/* ----------------------------grid-reuse---------------------------------- */}
-          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev6.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
+          <div className="bg-[url('https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/gamedev6.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
             <Gridsection listData={List2} textData={Text2} />
           </div>
 
           {/* ----------------------------Section7---------------------------------- */}
-          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev7.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
+          <div className="bg-[url('https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/gamedev7.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
             {/* <Gridsection listData={List3} textData={Text3} /> */}
             <Section7 />
           </div>
@@ -400,17 +400,17 @@ const page = () => {
           </div>
 
           {/* ------------------------section-8-------------------------------------- */}
-          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev8.png')] py-8 bg-no-repeat lg:bg-cover ">
+          <div className="bg-[url('https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/gamedev8.png')] py-8 bg-no-repeat lg:bg-cover ">
             <Pagenation />
           </div>
 
           {/* -----------------------Section-9--------------------------------------- */}
-          <div className="text-white lg:py-16 bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev9.png')] py-8 bg-no-repeat lg:bg-cover">
+          <div className="text-white lg:py-16 bg-[url('https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/gamedev9.png')] py-8 bg-no-repeat lg:bg-cover">
             <Bottomclient />
           </div>
 
           {/* -----------------------------Section-10----------------------------------- */}
-          <div className="bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev10.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
+          <div className="bg-[url('https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/gamedev10.png')] bg-no-repeat lg:bg-cover bg-[center_top_0rem]">
             <Faqsection />
           </div>
 

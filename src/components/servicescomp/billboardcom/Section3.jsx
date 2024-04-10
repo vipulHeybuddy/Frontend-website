@@ -4,8 +4,7 @@ import { useEffect } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-
-import "./motionSlider.css"
+import "./motionSlider.css";
 import WorkItem from "./WorkItem";
 import PhotoItem from "./PhotoItem";
 import GamedevCard from "./GamedevCard";
@@ -16,49 +15,49 @@ const texts = [
     title: "3D Design and Rendering",
     description:
       "We create visually captivating designs on 3D OOH billboards to powerfully convey your intended message.",
-    img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.png",
+    img: "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/game.png",
   },
   {
     title: "Concept Development",
     description:
       "We nudge you in the right direction by conceptualizing and developing ideas for your billboard campaigns.",
-    img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg",
+    img: "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/gds1.jpg",
   },
   {
     title: "Customization",
     description:
       "We mold your 3D billboard designs to meet your business and branding needs and achieve your goals.",
-    img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds2.jpg",
+    img: "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/gds2.jpg",
   },
   {
     title: "Visualization Services",
     description:
       "We help you assess the impact of your 3D billboard in a particular environment with our visualization services.",
-    img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds3.jpg",
+    img: "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/gds3.jpg",
   },
   {
     title: "Animation and Motion Graphics",
     description:
       "We bring dynamism with live elements to your 3d animated billboards and amplify the impact exponentially.",
-    img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds4.jpg",
+    img: "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/gds4.jpg",
   },
   {
     title: "Maintenance and Updates",
     description:
       "For a sustained impact on your 3D billboard advertising, we offer sustained support for maintenance and updates.",
-    img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gds1.jpg",
+    img: "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/gds1.jpg",
   },
   {
     title: "Anamorphic Billboard Consultation",
     description:
       "We consult you on the best practices and strategies for powerful 3D billboard advertisements.",
-    img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.png",
+    img: "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/game.png",
   },
   {
     title: "Compliance and Regulations",
     description:
       "We ensure your 3d commercial billboard complies with local regulations and the latest industry standards.",
-    img: "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/game.png",
+    img: "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/game.png",
   },
 ];
 
@@ -109,7 +108,7 @@ const Motionslide = () => {
           </p>
         </div>
       </div>
-      <div className="h-fit relative bg-[url('https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/gamedev3.png')] bg-fixed bg-bottom ">
+      <div className="h-fit relative bg-[url('https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/gamedev3.png')] bg-fixed bg-bottom ">
         <section className="work  hidden lg:flex flex-row justify-between">
           <div className="work__left">
             <div className="work__text flex flex-col items-center">
@@ -128,49 +127,49 @@ const Motionslide = () => {
                 <PhotoItem
                   title="0"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3d_billboard/3D+Design+and+Rendering.jpg"
+                    "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/3d_billboard/3D%20Design%20and%20Rendering.jpg"
                   }
                 />
                 <PhotoItem
                   title="1"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3d_billboard/concept+dev.jpg"
+                    "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/3d_billboard/concept%20dev.jpg"
                   }
                 />
                 <PhotoItem
                   title="2"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3d_billboard/customization.jpg"
+                    "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/3d_billboard/customization.jpg"
                   }
                 />
                 <PhotoItem
                   title="3"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3d_billboard/visulaization.jpg"
+                    "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/3d_billboard/visulaization.jpg"
                   }
                 />
                 <PhotoItem
                   title="4"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3d_billboard/Motion+Graphics.jpg"
+                    "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/3d_billboard/Motion%20Graphics.jpg"
                   }
                 />
                 <PhotoItem
                   title="5"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3d_billboard/Maintenance+and+Updates.jpg"
+                    "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/3d_billboard/Maintenance%20and%20Updates.jpg"
                   }
                 />
                 <PhotoItem
                   title="6"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3d_billboard/Anamorphic+Billboard+consultaion.jpg"
+                    "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/3d_billboard/Anamorphic%20Billboard%20consultaion.jpg"
                   }
                 />
                 <PhotoItem
                   title="7"
                   imgSrc={
-                    "https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/3d_billboard/Compliance+and+Regulations.jpg"
+                    "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/3d_billboard/Compliance%20and%20Regulations.jpg"
                   }
                 />
               </div>

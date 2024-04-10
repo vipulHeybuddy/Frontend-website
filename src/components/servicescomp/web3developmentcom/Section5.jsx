@@ -83,10 +83,11 @@ const Timelinecomp = () => {
     >
       <div className="py-8 text-white">
         <h1 className="py-4 lg:w-[80%] text-2xl lg:text-4xl">
-        Web3 development Roadmap For Revolutionary Outcome
+          Web3 development Roadmap For Revolutionary Outcome
         </h1>
         <p className=" text-base md:text-lg lg:text-2xl">
-        We follow a strategic and time-tested Web3 development process to catapult your project into the decentralized era.
+          We follow a strategic and time-tested Web3 development process to
+          catapult your project into the decentralized era.
         </p>
       </div>
 
@@ -99,75 +100,84 @@ const Timelinecomp = () => {
                 <div class="container text-white">
                   <ul>
                     <li>
-
-                      <h3 className="font-bold text-2xl  ">1. Strategic Consultation</h3>
-
-                      <p>
-                      Our experts dive deep into your vision and carve out a roadmap, aligning Web 3.0 power to your business’s long and short-term goals and objectives. 
-                      </p>
-
-                    </li>
-                    <li>
-
-                      <h3 className="font-bold text-2xl ">2. Decentralized Architecture Design</h3>
+                      <h3 className="font-bold text-2xl  ">
+                        1. Strategic Consultation
+                      </h3>
 
                       <p>
-                      We architect a decentralized framework as per your project's needs. Our designs lay the foundation for a Scalable, secure, and cutting-edge web3 development solutions.
+                        Our experts dive deep into your vision and carve out a
+                        roadmap, aligning Web 3.0 power to your business’s long
+                        and short-term goals and objectives.
                       </p>
-
-               
                     </li>
                     <li>
-
                       <h3 className="font-bold text-2xl ">
-                      3. Smart Contract Development
+                        2. Decentralized Architecture Design
+                      </h3>
 
+                      <p>
+                        We architect a decentralized framework as per your
+                        project's needs. Our designs lay the foundation for a
+                        Scalable, secure, and cutting-edge web3 development
+                        solutions.
+                      </p>
+                    </li>
+                    <li>
+                      <h3 className="font-bold text-2xl ">
+                        3. Smart Contract Development
                       </h3>
                       <p>
-                      Our team develops code for Smart Contracts, automating processes and ensuring a trustless ecosystem for your transactions and operations on the blockchain.
+                        Our team develops code for Smart Contracts, automating
+                        processes and ensuring a trustless ecosystem for your
+                        transactions and operations on the blockchain.
                       </p>
-
                     </li>
                     <li>
-
-                      <h3 className="font-bold text-2xl ">4. Interoperability Integration</h3>
-         <p>
-         Further, our interoperability solutions connect your project with diverse blockchain networks seamlessly, for higher connectivity and collaboration.
-
+                      <h3 className="font-bold text-2xl ">
+                        4. Interoperability Integration
+                      </h3>
+                      <p>
+                        Further, our interoperability solutions connect your
+                        project with diverse blockchain networks seamlessly, for
+                        higher connectivity and collaboration.
                       </p>
-
                     </li>
 
                     <li>
-
-                      <h3 className="font-bold text-2xl ">5. Security Audits and Testing</h3>
+                      <h3 className="font-bold text-2xl ">
+                        5. Security Audits and Testing
+                      </h3>
 
                       <p>
-                      Our rigorous security audits and testing ensure resiliency in your project, protecting your platform and user data from threats of every form.
+                        Our rigorous security audits and testing ensure
+                        resiliency in your project, protecting your platform and
+                        user data from threats of every form.
                       </p>
-
                     </li>
 
                     <li>
-
-                      <h3 className="font-bold text-2xl ">6. User-Centric DApp Development</h3>
+                      <h3 className="font-bold text-2xl ">
+                        6. User-Centric DApp Development
+                      </h3>
 
                       <p>
-                      Consequently, your DApp starts to take its final shape with seamless and intuitive user interaction with blockchain and engaging them in a great digital experience.
-
+                        Consequently, your DApp starts to take its final shape
+                        with seamless and intuitive user interaction with
+                        blockchain and engaging them in a great digital
+                        experience.
                       </p>
-
                     </li>
 
                     <li>
-
-                      <h3 className="font-bold text-2xl ">7. Launch and Optimization</h3>
+                      <h3 className="font-bold text-2xl ">
+                        7. Launch and Optimization
+                      </h3>
 
                       <p>
-                      Lastly, your project gets launched after continuous optimization and refinement ingrained in our process for a dynamic and competitive Web3 solution.
-
+                        Lastly, your project gets launched after continuous
+                        optimization and refinement ingrained in our process for
+                        a dynamic and competitive Web3 solution.
                       </p>
-
                     </li>
                   </ul>
                 </div>
@@ -187,7 +197,7 @@ const Timelinecomp = () => {
               <Image
                 width={700}
                 height={700}
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/wheel-unscreen.gif"
+                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/wheel-unscreen.gif"
                 className="lg:mr-6 h-[40vh] w-[52rem] lg:h-[60vh] lg:w-[92rem] "
                 alt="Hey B"
               />

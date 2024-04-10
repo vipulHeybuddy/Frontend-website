@@ -42,7 +42,7 @@ const Navbardesktop = () => {
               <Image
                 width={300}
                 height={300}
-                src="https://heybuddywebsite.s3.ap-south-1.amazonaws.com/Images/logo.png"
+                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/logo.png"
                 className=" lg:ml-0 h-6 w-[6rem] lg:h-10 lg:w-[12rem] cursor-pointer float-left"
                 alt="Hey Buddy"
               />
@@ -100,16 +100,14 @@ const Navbardesktop = () => {
                     </li>
                   </Link>
 
-
                   <Link href="/Pages/services/cgi" className="w-full">
                     <li className="text-sm px-4 text-[white] hover:bg-[#1a1ae669] hover:text-[white]-focus hover:rounded-lg hover:font-bold leading-8">
-                     CGI Development
+                      CGI Development
                     </li>
-                    </Link> 
-                 <Link href="/Pages/services/web3" className="w-full">
+                  </Link>
+                  <Link href="/Pages/services/web3" className="w-full">
                     <li className="text-sm px-4 text-[white] hover:bg-[#1a1ae669] hover:text-[white]-focus hover:rounded-lg hover:font-bold leading-8">
-                     Web3 Development
-
+                      Web3 Development
                     </li>
                   </Link>
                   <Link href="/Pages/services/metaverse" className="w-full">
@@ -141,7 +139,7 @@ const Navbardesktop = () => {
                 <li>Contact Us</li>
               </Link>
 
-              <Link href= "/Pages/Blog">Blog</Link>
+              <Link href="/Pages/Blog">Blog</Link>
             </ul>
           </div>
         </div>
