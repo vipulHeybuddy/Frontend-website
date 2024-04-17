@@ -3,6 +3,7 @@ import "../../../styles/Font.css";
 import BlogCard from "@/components/blogComponents/BlogCard";
 import React, { useState } from "react";
 import "./page.css";
+import Image from "next/image";
 
 const blogsArray = [
   {
@@ -115,7 +116,14 @@ const page = () => {
           Be ready to be immersed with this Tech World
         </p>
       </div>
-      <img className="read-blog-svg" alt="No-img" src="/read-blog.svg" />
+      <Image
+        loading="lazy"
+        width={10}
+        height={450}
+        className="read-blog-svg"
+        alt="No-img"
+        src="/read-blog.svg"
+      />
 
       <div className="blogsWithCategories">
         <div className="blogCategories ">

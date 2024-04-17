@@ -145,13 +145,14 @@ const Timelinecomp = ({
                 }}
               >
                 <Image
+                  loading="lazy"
                   width={700}
                   height={700}
                   src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/wheel-unscreen.gif"
                   className="lg:mr-6 h-[50vh] w-[62rem] lg:h-auto lg:w-auto "
                   alt="Hey B"
                 />
-                {/* <Image
+                {/* <Image loading="lazy"
   src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/wheel-unscreen.gif"
   width={400} // Original width
   height={400} // Original height

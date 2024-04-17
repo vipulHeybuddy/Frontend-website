@@ -5,7 +5,6 @@ import { AiOutlineClose } from "react-icons/ai";
 import Link from "next/link";
 import Image from "next/image";
 import classNames from "classnames";
-import { useMediaQuery } from "react-responsive";
 
 const Navbartest = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -27,7 +26,7 @@ const Navbartest = () => {
     { href: "/#projects", label: "Projects" },
     { href: "/#whyus", label: "Why Us" },
     { href: "/#testimonials", label: "Testimonials" },
-    { href: "/#aboutus", label: "About Us" },
+    { href: "/Pages/Aboutus", label: "About Us" },
     { href: "/Pages/Contactus", label: "Contact Us" },
     { href: "/Pages/Blog", label: "Blog" },
   ];
@@ -66,6 +65,7 @@ const Navbartest = () => {
           <div className=" px-4 pt-2">
             <Link href="/">
               <Image
+                loading="lazy"
                 width={300}
                 height={300}
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/logo.png"

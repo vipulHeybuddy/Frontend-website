@@ -122,6 +122,7 @@ const Pagenation = () => {
           <div className="grid  md:mb-12 grid-cols-6 gap-y-4 gap-x-2  ">
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Game%20Development%20Service/Apple%20vision.svg"
                 width={450}
                 height={450}
@@ -131,6 +132,7 @@ const Pagenation = () => {
 
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Game%20Development%20Service/Appstore.svg"
                 width={450}
                 height={450}
@@ -140,6 +142,7 @@ const Pagenation = () => {
 
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Game%20Development%20Service/PC.svg"
                 width={450}
                 height={450}
@@ -149,6 +152,7 @@ const Pagenation = () => {
 
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Game%20Development%20Service/Playstation.svg"
                 width={450}
                 height={450}
@@ -158,6 +162,7 @@ const Pagenation = () => {
 
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Game%20Development%20Service/Xbox.svg"
                 width={450}
                 height={450}
@@ -168,6 +173,7 @@ const Pagenation = () => {
 
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Game%20Development%20Service/Nintendo.svg"
                 width={450}
                 height={450}
@@ -184,6 +190,7 @@ const Pagenation = () => {
           <div className="grid  md:mb-12 grid-cols-6 gap-y-4 gap-x-2">
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Game%20Development%20Service/Apple%20vision.svg"
                 width={450}
                 height={450}
@@ -193,6 +200,7 @@ const Pagenation = () => {
 
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Game%20Development%20Service/Oculus.svg"
                 width={450}
                 height={450}
@@ -202,6 +210,7 @@ const Pagenation = () => {
 
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Game%20Development%20Service/HTC%20vive.svg"
                 width={450}
                 height={450}
@@ -211,6 +220,7 @@ const Pagenation = () => {
 
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Game%20Development%20Service/Google%20daydream.svg"
                 width={450}
                 height={450}
@@ -220,6 +230,7 @@ const Pagenation = () => {
 
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Game%20Development%20Service/Meta%20quest.svg"
                 width={450}
                 height={450}
@@ -228,6 +239,7 @@ const Pagenation = () => {
             </div>
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Game%20Development%20Service/Microsoft%20Hololens.svg"
                 width={450}
                 height={450}
@@ -244,6 +256,7 @@ const Pagenation = () => {
           <div className="grid  md:mb-12 grid-cols-6 gap-y-4 gap-x-2">
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Decentraland.svg"
                 width={450}
                 height={450}
@@ -253,6 +266,7 @@ const Pagenation = () => {
 
             <div className="  mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Roblox.svg"
                 width={450}
                 height={450}
@@ -262,6 +276,7 @@ const Pagenation = () => {
 
             <div className="  mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Axie%20Infinity.svg"
                 width={450}
                 height={450}
@@ -271,6 +286,7 @@ const Pagenation = () => {
 
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Sandbox.svg"
                 width={450}
                 height={450}
@@ -280,6 +296,7 @@ const Pagenation = () => {
 
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Horizon%20Worlds.svg"
                 width={450}
                 height={450}
@@ -289,6 +306,7 @@ const Pagenation = () => {
 
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Sanskar.svg"
                 width={450}
                 height={450}
@@ -305,6 +323,7 @@ const Pagenation = () => {
           <div className="grid  md:mb-12 grid-cols-6 gap-y-4 gap-x-2">
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Unreal%20engine.svg"
                 width={450}
                 height={450}
@@ -314,6 +333,7 @@ const Pagenation = () => {
 
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Unity.svg"
                 width={450}
                 height={450}
@@ -330,6 +350,7 @@ const Pagenation = () => {
           <div className="grid  md:mb-12 grid-cols-6 gap-y-4 gap-x-2">
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/C%23.svg"
                 width={450}
                 height={450}
@@ -339,6 +360,7 @@ const Pagenation = () => {
 
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/C%2B%2B.svg"
                 width={450}
                 height={450}
@@ -348,6 +370,7 @@ const Pagenation = () => {
 
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Java%20script.svg"
                 width={450}
                 height={450}
@@ -357,6 +380,7 @@ const Pagenation = () => {
 
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Python.svg"
                 width={450}
                 height={450}
@@ -373,6 +397,7 @@ const Pagenation = () => {
           <div className="grid  md:mb-12 grid-cols-6 gap-y-4 gap-x-2">
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/PCG.svg"
                 width={450}
                 height={450}
@@ -382,6 +407,7 @@ const Pagenation = () => {
 
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Natural%20language%20processing.svg"
                 width={450}
                 height={450}
@@ -391,6 +417,7 @@ const Pagenation = () => {
 
             <div className="  mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Machine%20learning.svg"
                 width={450}
                 height={450}
@@ -400,6 +427,7 @@ const Pagenation = () => {
 
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/AGA.svg"
                 width={450}
                 height={450}

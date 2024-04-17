@@ -74,6 +74,7 @@ const Section5 = ({ heading, requirement, execution, delivery, urlimg }) => {
       <div className="w-[100%] h-[100%]">
         {/* Replace 'your-image.jpg' with the actual image source */}
         <Image
+          loading="lazy"
           style={imageStyle}
           width={450}
           height={450}

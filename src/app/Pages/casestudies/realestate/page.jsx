@@ -7,6 +7,7 @@ import "../../../../styles/button.css";
 import "./page.css";
 import CaseStudyCard from "@/components/casestudycard/CaseStudyCard";
 
+
 const data = [
   {
     id: "1",
@@ -77,7 +78,14 @@ const page = () => {
             the best results for our clients.
           </p>
         </div>
-        <img className="read-casestudy-svg" alt="No-img" src="/read-blog.svg" />
+        <Image
+          loading="lazy"
+          width={450}
+          height={450}
+          className="read-casestudy-svg"
+          alt="No-img"
+          src="/read-blog.svg"
+        />
         <div className="casestudyWithCategories mt-16">
           <div className="allcasestudy">
             {data.map((sec, ind) => (

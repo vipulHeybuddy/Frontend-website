@@ -325,7 +325,10 @@ const Page = () => {
 
           {/* ------------------------Section-5------------------------------------- */}
           <div className=" relative">
-            <img
+            <Image
+              loading="lazy"
+              width={450}
+              height={450}
               src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/gamedev5.png"
               alt="bg image"
               className="absolute bottom-0"

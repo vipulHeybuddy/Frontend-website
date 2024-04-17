@@ -84,6 +84,7 @@ const Grid1 = () => {
                   <div className="grid lg:px-12 sm:grid-1 md:grid-cols-2 lg:grid-cols-2">
                     <div className="py-4">
                       <Image
+                        loading="lazy"
                         src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/img1.png"
                         width={300}
                         height={300}
@@ -109,6 +110,7 @@ const Grid1 = () => {
                   <div className="lg:px-10 grid sm:grid-1 md:grid-cols-2 lg:grid-cols-2">
                     <div className="py-4">
                       <Image
+                        loading="lazy"
                         src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/img2.png"
                         width={300}
                         height={300}
@@ -133,6 +135,7 @@ const Grid1 = () => {
                   <div className="lg:px-10 grid sm:grid-1 md:grid-cols-2 lg:grid-cols-2">
                     <div className="py-4">
                       <Image
+                        loading="lazy"
                         src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/img3.png"
                         width={300}
                         height={300}
@@ -155,6 +158,7 @@ const Grid1 = () => {
                   <div className="lg:px-10 grid sm:grid-1 md:grid-cols-2 lg:grid-cols-2">
                     <div className="py-4">
                       <Image
+                        loading="lazy"
                         src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/img4.png"
                         width={300}
                         height={300}

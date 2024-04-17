@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 
 import "../../styles/Slider2.css";
-
+import Image from "next/image";
 function Mobslider() {
   const slideData = [
     {
@@ -101,7 +101,13 @@ function Mobslider() {
               </h1>
               <p>{slide.description}</p>
             </div>
-            <img src={slide.image} alt={`slide_image_${index}`} />
+            <Image
+              loading="lazy"
+              width={450}
+              height={450}
+              src={slide.image}
+              alt={`slide_image_${index}`}
+            />
           </div>
         ))}
       </div>

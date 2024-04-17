@@ -39,14 +39,14 @@ function Company() {
             <MarqueeGroup>
               {row1.map((el) => (
                 <ImageGroup>
-                  <Image src={el} />
+                  <Image loading="lazy" src={el} />
                 </ImageGroup>
               ))}
             </MarqueeGroup>
             <MarqueeGroup>
               {row1.map((el) => (
                 <ImageGroup>
-                  <Image src={el} />
+                  <Image loading="lazy" src={el} />
                 </ImageGroup>
               ))}
             </MarqueeGroup>
@@ -55,15 +55,15 @@ function Company() {
           {/* <Marquee>
           <MarqueeGroup2>
             {row2.map((el) => (
-              <ImageGroup>
-                <Image src={el} />
+              <Image loading="lazy"Group>
+                <Image loading="lazy" src={el} />
               </ImageGroup>
             ))}
           </MarqueeGroup2>
           <MarqueeGroup2>
             {row2.map((el) => (
-              <ImageGroup>
-                <Image src={el} />
+              <Image loading="lazy"Group>
+                <Image loading="lazy" src={el} />
               </ImageGroup>
             ))}
           </MarqueeGroup2>

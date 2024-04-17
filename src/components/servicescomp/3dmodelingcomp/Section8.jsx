@@ -140,6 +140,7 @@ const Pagenation = ({ handlecontactusModal }) => {
           <div className="grid  md:mb-12 grid-cols-5 gap-y-4 gap-x-2  ">
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/3D%20Development%20Icons/blender.svg"
                 width={450}
                 height={450}
@@ -149,6 +150,7 @@ const Pagenation = ({ handlecontactusModal }) => {
 
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/3D%20Development%20Icons/Autodesk%20Maya.svg"
                 width={450}
                 height={450}
@@ -158,6 +160,7 @@ const Pagenation = ({ handlecontactusModal }) => {
 
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/3D%20Development%20Icons/3ds%20max.svg"
                 width={450}
                 height={450}
@@ -167,6 +170,7 @@ const Pagenation = ({ handlecontactusModal }) => {
 
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/3D%20Development%20Icons/Z%20brush.svg"
                 width={450}
                 height={450}
@@ -176,6 +180,7 @@ const Pagenation = ({ handlecontactusModal }) => {
 
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/3D%20Development%20Icons/Cinema%204D.svg"
                 width={450}
                 height={450}
@@ -192,6 +197,7 @@ const Pagenation = ({ handlecontactusModal }) => {
           <div className="grid  md:mb-12 grid-cols-5 gap-y-4 gap-x-2">
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/3D%20Development%20Icons/Houdini.svg"
                 width={450}
                 height={450}
@@ -201,6 +207,7 @@ const Pagenation = ({ handlecontactusModal }) => {
 
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/3D%20Development%20Icons/Substance%20Painter.svg"
                 width={450}
                 height={450}
@@ -210,6 +217,7 @@ const Pagenation = ({ handlecontactusModal }) => {
 
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/3D%20Development%20Icons/Mudbox.svg"
                 width={450}
                 height={450}
@@ -219,6 +227,7 @@ const Pagenation = ({ handlecontactusModal }) => {
 
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/3D%20Development%20Icons/SketchUp.svg"
                 width={450}
                 height={450}
@@ -228,6 +237,7 @@ const Pagenation = ({ handlecontactusModal }) => {
 
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/3D%20Development%20Icons/Rhinoceros%203D.svg"
                 width={450}
                 height={450}
@@ -244,6 +254,7 @@ const Pagenation = ({ handlecontactusModal }) => {
           <div className="grid  md:mb-12 grid-cols-5 gap-y-4 gap-x-2">
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/3D%20Development%20Icons/Unity3D.svg"
                 width={450}
                 height={450}
@@ -253,6 +264,7 @@ const Pagenation = ({ handlecontactusModal }) => {
 
             <div className="  mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/3D%20Development%20Icons/Unreal%20Engine.svg"
                 width={450}
                 height={450}
@@ -262,6 +274,7 @@ const Pagenation = ({ handlecontactusModal }) => {
 
             <div className="  mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/3D%20Development%20Icons/Photoshop.svg"
                 width={450}
                 height={450}
@@ -271,6 +284,7 @@ const Pagenation = ({ handlecontactusModal }) => {
 
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/3D%20Development%20Icons/Marvelous%20Designer.svg"
                 width={450}
                 height={450}
@@ -280,6 +294,7 @@ const Pagenation = ({ handlecontactusModal }) => {
 
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/3D%20Development%20Icons/3D%20coat.svg"
                 width={450}
                 height={450}
@@ -296,6 +311,7 @@ const Pagenation = ({ handlecontactusModal }) => {
           <div className="grid  md:mb-12 grid-cols-5 gap-y-4 gap-x-2">
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/3D%20Development%20Icons/Marmoset%20Toolbag.svg"
                 width={450}
                 height={450}
@@ -306,6 +322,7 @@ const Pagenation = ({ handlecontactusModal }) => {
 
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/3D%20Development%20Icons/KeyShot.svg"
                 width={450}
                 height={450}
@@ -316,6 +333,7 @@ const Pagenation = ({ handlecontactusModal }) => {
 
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/3D%20Development%20Icons/SolidWorks.svg"
                 width={450}
                 height={450}
@@ -326,6 +344,7 @@ const Pagenation = ({ handlecontactusModal }) => {
 
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/3D%20Development%20Icons/Modo.svg"
                 width={450}
                 height={450}
@@ -336,6 +355,7 @@ const Pagenation = ({ handlecontactusModal }) => {
 
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/3D%20Development%20Icons/Daz%203D.svg"
                 width={450}
                 height={450}
@@ -352,7 +372,7 @@ const Pagenation = ({ handlecontactusModal }) => {
         >
          <div className="grid sm:grid-1 md:mb-12 md:grid-cols-2 lg:grid-cols-5 gap-y-4 gap-x-2">
             <div className=" mx-auto text-center"> 
-            <Image 
+            <Image loading="lazy" 
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/3D%20Development%20Icons/Marmoset%20Toolbag.svg"
                 width={450}
                 height={450}
@@ -365,7 +385,7 @@ const Pagenation = ({ handlecontactusModal }) => {
             </div>
 
             <div className=" mx-auto text-center" >
-            <Image 
+            <Image loading="lazy" 
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/3D%20Development%20Icons/KeyShot.svg"
                 width={450}
                 height={450}
@@ -378,7 +398,7 @@ const Pagenation = ({ handlecontactusModal }) => {
             </div>
 
             <div className=" mx-auto text-center" >
-            <Image 
+            <Image loading="lazy" 
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/3D%20Development%20Icons/SolidWorks.svg"
                 width={450}
                 height={450}
@@ -391,7 +411,7 @@ const Pagenation = ({ handlecontactusModal }) => {
             </div>
 
             <div className=" mx-auto text-center" >
-            <Image 
+            <Image loading="lazy" 
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/3D%20Development%20Icons/Modo.svg"
                 width={450}
                 height={450}
@@ -404,7 +424,7 @@ const Pagenation = ({ handlecontactusModal }) => {
             </div>
 
             <div className=" mx-auto text-center" >
-            <Image 
+            <Image loading="lazy" 
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/3D%20Development%20Icons/Daz%203D.svg"
                 width={450}
                 height={450}

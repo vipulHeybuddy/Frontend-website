@@ -278,6 +278,7 @@ const Timelinecomp = () => {
               }}
             >
               <Image
+                loading="lazy"
                 width={700}
                 height={700}
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/wheel-unscreen.gif"
