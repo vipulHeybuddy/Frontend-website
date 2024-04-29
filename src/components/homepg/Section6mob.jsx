@@ -3,7 +3,7 @@ import React, { useEffect, useState, useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { motion, useAnimation } from "framer-motion";
-import SwipeableViews from 'react-swipeable-views-react-18-fix';;
+import SwipeableViews from "react-swipeable-views-react-18-fix";
 
 const Pagenationmob = () => {
   const cards = [
@@ -116,6 +116,7 @@ const Pagenationmob = () => {
             </h1>
             <div className="border-2 rounded-3xl ">
               <Image
+                loading="lazy"
                 src={card.imageurl}
                 width={500}
                 height={500}

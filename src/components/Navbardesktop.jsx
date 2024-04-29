@@ -40,6 +40,7 @@ const Navbardesktop = () => {
           <div className="w-[80%] m-auto">
             <Link href="/">
               <Image
+                loading="lazy"
                 width={300}
                 height={300}
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/logo.png"
@@ -131,7 +132,7 @@ const Navbardesktop = () => {
                 <li>Testimonials</li>
               </Link>
 
-              <Link href="/#aboutus">
+              <Link href="/Pages/Aboutus">
                 <li>About Us</li>
               </Link>
 

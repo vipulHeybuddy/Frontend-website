@@ -18,6 +18,7 @@ import Link from "next/link";
 import gsap from "gsap";
 import MouseFollower from "mouse-follower";
 import "../../app/globals.scss";
+import Image from "next/image";
 
 function Slider1() {
   const controls = useAnimation();
@@ -182,7 +183,13 @@ function Slider1() {
                     larger-than-life 3D visuals.
                   </p>
                 </div>
-                <img src={billBord} alt="slide_image" />
+                <Image
+                  loading="lazy"
+                  width={450}
+                  height={450}
+                  src={billBord}
+                  alt="slide_image"
+                />
               </div>
             </Link>
           </SwiperSlide>
@@ -208,7 +215,13 @@ function Slider1() {
                     in time.
                   </p>
                 </div>
-                <img src={cgi_IMG} alt="slide_image" />
+                <Image
+                  loading="lazy"
+                  width={450}
+                  height={450}
+                  src={cgi_IMG}
+                  alt="slide_image"
+                />
               </div>
             </Link>
           </SwiperSlide>
@@ -235,7 +248,13 @@ function Slider1() {
                     leading platforms like Unity and Unreal.
                   </p>
                 </div>
-                <img src={slide_image_1} alt="slide_image" />
+                <Image
+                  loading="lazy"
+                  width={450}
+                  height={450}
+                  src={slide_image_1}
+                  alt="slide_image"
+                />
               </div>
             </Link>
           </SwiperSlide>
@@ -267,7 +286,13 @@ function Slider1() {
                     through Metaverse platforms.
                   </p>
                 </div>
-                <img src={slide_image_2} alt="slide_image" />
+                <Image
+                  loading="lazy"
+                  width={450}
+                  height={450}
+                  src={slide_image_2}
+                  alt="slide_image"
+                />
               </div>
             </Link>
           </SwiperSlide>
@@ -299,7 +324,13 @@ function Slider1() {
                     through Metaverse platforms.
                   </p>
                 </div>
-                <img src={arDev_IMG} alt="slide_image" />
+                <Image
+                  loading="lazy"
+                  width={450}
+                  height={450}
+                  src={arDev_IMG}
+                  alt="slide_image"
+                />
               </div>
             </Link>
           </SwiperSlide>
@@ -330,7 +361,13 @@ function Slider1() {
                     Android and iOS applications.
                   </p>
                 </div>
-                <img src={customSoftware_IMG} alt="slide_image" />
+                <Image
+                  loading="lazy"
+                  width={450}
+                  height={450}
+                  src={customSoftware_IMG}
+                  alt="slide_image"
+                />
               </div>
             </Link>
           </SwiperSlide>
@@ -357,7 +394,13 @@ function Slider1() {
                     and 1.75% time more confidence.
                   </p>
                 </div>
-                <img src={slide_image_6} alt="slide_image" />
+                <Image
+                  loading="lazy"
+                  width={450}
+                  height={450}
+                  src={slide_image_6}
+                  alt="slide_image"
+                />
               </div>
             </Link>
           </SwiperSlide>
@@ -388,7 +431,13 @@ function Slider1() {
                     financial streams.
                   </p>
                 </div>
-                <img src={web3dev} alt="slide_image" />
+                <Image
+                  loading="lazy"
+                  width={450}
+                  height={450}
+                  src={web3dev}
+                  alt="slide_image"
+                />
               </div>
             </Link>
           </SwiperSlide>

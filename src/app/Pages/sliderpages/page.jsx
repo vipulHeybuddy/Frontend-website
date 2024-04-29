@@ -62,6 +62,7 @@ const page = () => {
 
           <div className=" h-[80vh] rounded-tl-3xl md:rounded-t-none md:rounded-tl-3xl lg:rounded-3xl lg:p-24 overflow-hidden">
             <Image
+              loading="lazy"
               width={700}
               height={700}
               src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/img1.webp"
@@ -128,6 +129,7 @@ const page = () => {
           </div>
           <div className=" h-[80vh] rounded-tl-3xl md:rounded-t-none md:rounded-tl-3xl lg:rounded-3xl lg:p-24 overflow-hidden">
             <Image
+              loading="lazy"
               width={700}
               height={700}
               src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/img1.webp"
@@ -196,6 +198,7 @@ const page = () => {
 
           <div className=" h-[80vh] rounded-tl-3xl md:rounded-t-none md:rounded-tl-3xl lg:rounded-3xl lg:p-24 overflow-hidden">
             <Image
+              loading="lazy"
               width={700}
               height={700}
               src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/img1.webp"
@@ -264,6 +267,7 @@ const page = () => {
 
           <div className=" h-[80vh] rounded-tl-3xl md:rounded-t-none md:rounded-tl-3xl lg:rounded-3xl lg:p-24 overflow-hidden">
             <Image
+              loading="lazy"
               width={700}
               height={700}
               src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/img1.webp"

@@ -2,7 +2,8 @@
 import React from "react";
 import Scrollspy from "react-scrollspy";
 import "../../styles/Font.css";
-import { useMediaQuery } from "react-responsive";
+import Image from "next/image";
+
 import {
   FaChevronRight,
   FaFacebook,
@@ -20,7 +21,7 @@ function BlogContent({ SelectedBlog }) {
   const handleNavClick = (id) => {
     const section = document.getElementById(id);
     if (section) {
-      const top = section.offsetTop + window.innerHeight-20 - navbarHeight;
+      const top = section.offsetTop + window.innerHeight - 20 - navbarHeight;
       window.scrollTo({
         top,
         behavior: "smooth",
@@ -37,11 +38,9 @@ function BlogContent({ SelectedBlog }) {
     pubDate,
   } = SelectedBlog;
 
-  const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
-
   return (
     <div className={`mx-auto px-5 lg:px-0 bg-no-repeat bg-fixed bg-top pt-28`}>
-      <div className=" hidden lg:flex gap-2 items-center py-1 px-5 bg-white/10 w-fit rounded-[10px] text-white ml-[4.1rem]">
+      <div className="hidden lg:flex gap-2 items-center py-1 px-5 bg-white/10 w-fit rounded-[10px] text-white ml-[4.1rem]">
         <span>Blog</span>
         <span>
           <FaChevronRight />
@@ -49,7 +48,7 @@ function BlogContent({ SelectedBlog }) {
         <span>{title}</span>
       </div>
       <div
-        className={`rounded-xl relative overflow-hidden border-2 h-[50vh] w-[100%] lg:h-[72vh] lg:w-[90%] mx-auto mt-4 ${
+        className={`rounded-xl relative overflow-hidden border-2 h-auto w-auto lg:h-[72vh] lg:w-[90%] mx-auto mt-4 ${
           blogType === "Games"
             ? "border-[#FF5C00]"
             : blogType === "Development"
@@ -59,21 +58,29 @@ function BlogContent({ SelectedBlog }) {
             : "border-[#00FFE0]"
         }`}
       >
-        <div className="w-full h-full ">
-          {isMobile ? (
-            <img
-              src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Blogmob/blogmob3.png"
-              alt="Image"
-              className="h-full w-full"
-            />
-          ) : (
-            <img src={blogImage} alt="Image" className="h-full w-full object-auto" />
-          )}
-          {/*<img src={blogImage} alt="Image" className="h-full w-full" /> */}
+        <div className="lg:hidden w-full h-full ">
+          <Image
+            loading="lazy"
+            width={450}
+            height={450}
+            src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Blogmob/blogmob3.png"
+            alt="Image"
+            className="h-full w-full object-auto"
+          />
+        </div>
+        <div className="hidden lg:flex w-full h-full ">
+          <Image
+            loading="lazy"
+            width={450}
+            height={450}
+            src={blogImage}
+            alt="Image"
+            className="h-full w-full object-auto"
+          />
         </div>
         <div className="absolute bottom-0 w-full py-3 md:py-[25px] px-3 md:px-10 backdrop-blur-sm flex flex-col gap-2 md:gap-[21px]">
           <div
-            className={`flex items-center py-[5px] px-4 gap-[6px] w-fit rounded-full ${
+            className={` flex lg:items-center py-[5px] px-4 gap-[6px] w-fit rounded-full ${
               blogType === "Games"
                 ? "bg-[#ff5c0024]"
                 : blogType === "Development"
@@ -108,7 +115,7 @@ function BlogContent({ SelectedBlog }) {
               {blogType}
             </span>
           </div>
-          <h1 className=" text-lg md:text-3xl font-semibold text-white">
+          <h1 className="hidden lg:flex text-lg md:text-3xl font-semibold text-white">
             {title}
           </h1>
           <h1 className="text-white text-sm md:text-base">{pubDate}</h1>

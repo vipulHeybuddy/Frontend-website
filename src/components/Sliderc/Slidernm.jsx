@@ -5,9 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import styled from "styled-components";
 import Slider from "react-slick";
 import Image from "next/image";
-import Img from "../../../public/Images/img1.webp"
-
-
+import Img from "../../../public/Images/img1.webp";
 
 const Slidernm = () => {
   const settings = {
@@ -17,7 +15,6 @@ const Slidernm = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    
   };
 
   const Wrap = styled.div`
@@ -53,7 +50,7 @@ const Slidernm = () => {
     }
     .slick-dots {
       bottom: 25px;
-      margin-x:auto;
+      margin-x: auto;
 
       padding-right: 20px;
     }
@@ -66,31 +63,47 @@ const Slidernm = () => {
     .slick-prev:before {
     }
     .overlay {
-        position: absolute;
-        top: 0;
-        left: 0;
-        background:rgba(0,0,0,0.64);
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: rgba(0, 0, 0, 0.64);
     }
   `;
   return (
     <>
       <div className="lg:w-[80%]">
         <Carousel {...settings}>
-          <Wrap >
-            <Image src={Img} alt="badag" className="h-[50vh] lg:h-[70vh]" />
-           
+          <Wrap>
+            <Image
+              loading="lazy"
+              src={Img}
+              alt="badag"
+              className="h-[50vh] lg:h-[70vh]"
+            />
           </Wrap>
-          <Wrap >
-          <Image src={Img} alt="badag" className="h-[50vh] lg:h-[70vh]" />
-           
+          <Wrap>
+            <Image
+              loading="lazy"
+              src={Img}
+              alt="badag"
+              className="h-[50vh] lg:h-[70vh]"
+            />
           </Wrap>
-          <Wrap >
-          <Image src={Img} alt="badag" className="h-[50vh] lg:h-[70vh]" />
-            
+          <Wrap>
+            <Image
+              loading="lazy"
+              src={Img}
+              alt="badag"
+              className="h-[50vh] lg:h-[70vh]"
+            />
           </Wrap>
-          <Wrap >
-          <Image src={Img} alt="badag" className="h-[50vh] lg:h-[70vh]" />
-            
+          <Wrap>
+            <Image
+              loading="lazy"
+              src={Img}
+              alt="badag"
+              className="h-[50vh] lg:h-[70vh]"
+            />
           </Wrap>
         </Carousel>
       </div>

@@ -145,6 +145,7 @@ const Pagenation = () => {
           <div className=" grid  md:mb-12 grid-cols-5 gap-y-4 gap-x-2  ">
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Custom%20Software%20Development%20Icons/cloud%20computing.svg"
                 width={450}
                 height={450}
@@ -154,6 +155,7 @@ const Pagenation = () => {
 
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Custom%20Software%20Development%20Icons/Internet%20of%20Things%20(IoT).svg"
                 width={450}
                 height={450}
@@ -163,6 +165,7 @@ const Pagenation = () => {
 
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Custom%20Software%20Development%20Icons/Artificial%20Intelligence%20(AI).svg"
                 width={450}
                 height={450}
@@ -172,6 +175,7 @@ const Pagenation = () => {
 
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Custom%20Software%20Development%20Icons/Blockchain.svg"
                 width={450}
                 height={450}
@@ -181,6 +185,7 @@ const Pagenation = () => {
 
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Custom%20Software%20Development%20Icons/AR%20VR.svg"
                 width={450}
                 height={450}
@@ -189,7 +194,7 @@ const Pagenation = () => {
             </div>
 
             {/* <div className=" mx-auto text-center"> 
-            <Image 
+            <Image loading="lazy" 
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Decentraland.svg"
                 width={450}
                 height={450}
@@ -208,6 +213,7 @@ const Pagenation = () => {
           <div className=" grid  md:mb-12 grid-cols-5 gap-y-4 gap-x-2 ">
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Custom%20Software%20Development%20Icons/Git.svg"
                 width={450}
                 height={450}
@@ -217,6 +223,7 @@ const Pagenation = () => {
 
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Custom%20Software%20Development%20Icons/Jira-.svg"
                 width={450}
                 height={450}
@@ -226,6 +233,7 @@ const Pagenation = () => {
 
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Custom%20Software%20Development%20Icons/Docker.svg"
                 width={450}
                 height={450}
@@ -235,6 +243,7 @@ const Pagenation = () => {
 
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Custom%20Software%20Development%20Icons/Jenkins.svg"
                 width={450}
                 height={450}
@@ -244,6 +253,7 @@ const Pagenation = () => {
 
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Custom%20Software%20Development%20Icons/Selenium.svg"
                 width={450}
                 height={450}
@@ -260,6 +270,7 @@ const Pagenation = () => {
           <div className=" grid  md:mb-12 grid-cols-5 gap-y-4 gap-x-2">
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Custom%20Software%20Development%20Icons/AWS%20(Amazon%20Web%20Services).svg"
                 width={450}
                 height={450}
@@ -269,6 +280,7 @@ const Pagenation = () => {
 
             <div className="  mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Custom%20Software%20Development%20Icons/Microsoft%20Azure.svg"
                 width={450}
                 height={450}
@@ -278,6 +290,7 @@ const Pagenation = () => {
 
             <div className="  mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Custom%20Software%20Development%20Icons/Google%20Cloud%20Platform.svg"
                 width={450}
                 height={450}
@@ -287,6 +300,7 @@ const Pagenation = () => {
 
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Custom%20Software%20Development%20Icons/Heroku.svg"
                 width={450}
                 height={450}
@@ -296,6 +310,7 @@ const Pagenation = () => {
 
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Custom%20Software%20Development%20Icons/IBM%20Cloud.svg"
                 width={450}
                 height={450}
@@ -312,6 +327,7 @@ const Pagenation = () => {
           <div className=" grid  md:mb-12 grid-cols-5 gap-y-4 gap-x-2 ">
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Custom%20Software%20Development%20Icons/Java.svg"
                 width={450}
                 height={450}
@@ -322,6 +338,7 @@ const Pagenation = () => {
 
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Custom%20Software%20Development%20Icons/Python.svg"
                 width={450}
                 height={450}
@@ -332,6 +349,7 @@ const Pagenation = () => {
 
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Custom%20Software%20Development%20Icons/Java%20script.svg"
                 width={450}
                 height={450}
@@ -342,6 +360,7 @@ const Pagenation = () => {
 
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Custom%20Software%20Development%20Icons/C%23.svg"
                 width={450}
                 height={450}
@@ -352,6 +371,7 @@ const Pagenation = () => {
 
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Custom%20Software%20Development%20Icons/ruby.svg"
                 width={450}
                 height={450}
@@ -369,6 +389,7 @@ const Pagenation = () => {
           <div className="grid  md:mb-12 grid-cols-5 gap-y-4 gap-x-2 ">
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Custom%20Software%20Development%20Icons/Django.svg"
                 width={450}
                 height={450}
@@ -378,6 +399,7 @@ const Pagenation = () => {
             </div>
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Custom%20Software%20Development%20Icons/Ruby%20on%20Rails.svg"
                 width={450}
                 height={450}
@@ -388,6 +410,7 @@ const Pagenation = () => {
 
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Custom%20Software%20Development%20Icons/Angular.svg"
                 width={450}
                 height={450}
@@ -398,6 +421,7 @@ const Pagenation = () => {
 
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Custom%20Software%20Development%20Icons/React.svg"
                 width={450}
                 height={450}
@@ -409,6 +433,7 @@ const Pagenation = () => {
 
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Custom%20Software%20Development%20Icons/Laravel.svg"
                 width={450}
                 height={450}
@@ -426,6 +451,7 @@ const Pagenation = () => {
           <div className="grid  md:mb-12 grid-cols-5 gap-y-4 gap-x-2 ">
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Custom%20Software%20Development%20Icons/MySQL.svg"
                 width={450}
                 height={450}
@@ -437,6 +463,7 @@ const Pagenation = () => {
 
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Custom%20Software%20Development%20Icons/PostgreSQL.svg"
                 width={450}
                 height={450}
@@ -447,6 +474,7 @@ const Pagenation = () => {
 
             <div className="  mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Custom%20Software%20Development%20Icons/MongoDB.svg"
                 width={450}
                 height={450}
@@ -457,6 +485,7 @@ const Pagenation = () => {
 
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Custom%20Software%20Development%20Icons/Oracle.svg"
                 width={450}
                 height={450}
@@ -467,6 +496,7 @@ const Pagenation = () => {
 
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Custom%20Software%20Development%20Icons/Microsoft%20SQL%20Server.svg"
                 width={450}
                 height={450}
@@ -484,6 +514,7 @@ const Pagenation = () => {
           <div className="grid  md:mb-12 grid-cols-5 gap-y-4 gap-x-2 ">
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Custom%20Software%20Development%20Icons/Agile.svg"
                 width={450}
                 height={450}
@@ -495,6 +526,7 @@ const Pagenation = () => {
 
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Custom%20Software%20Development%20Icons/Scrum.svg"
                 width={450}
                 height={450}
@@ -505,6 +537,7 @@ const Pagenation = () => {
 
             <div className="  mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Custom%20Software%20Development%20Icons/DevOps.svg"
                 width={450}
                 height={450}
@@ -515,6 +548,7 @@ const Pagenation = () => {
 
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Custom%20Software%20Development%20Icons/waterfall.svg"
                 width={450}
                 height={450}
@@ -526,6 +560,7 @@ const Pagenation = () => {
 
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Custom%20Software%20Development%20Icons/kanban.svg"
                 width={450}
                 height={450}
@@ -544,6 +579,7 @@ const Pagenation = () => {
           <div className="grid  md:mb-12 grid-cols-5 gap-y-4 gap-x-2">
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Custom%20Software%20Development%20Icons/Flutter.svg"
                 width={450}
                 height={450}
@@ -555,6 +591,7 @@ const Pagenation = () => {
 
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Custom%20Software%20Development%20Icons/React%20Native-01.svg"
                 width={450}
                 height={450}
@@ -565,6 +602,7 @@ const Pagenation = () => {
 
             <div className="  mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Custom%20Software%20Development%20Icons/Swift.svg"
                 width={450}
                 height={450}
@@ -576,6 +614,7 @@ const Pagenation = () => {
 
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Custom%20Software%20Development%20Icons/Xamarin.svg"
                 width={450}
                 height={450}
@@ -586,6 +625,7 @@ const Pagenation = () => {
 
             <div className=" mx-auto text-center">
               <Image
+                loading="lazy"
                 src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Custom%20Software%20Development%20Icons/Kotlin.svg"
                 width={450}
                 height={450}

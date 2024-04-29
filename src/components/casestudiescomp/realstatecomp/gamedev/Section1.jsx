@@ -101,6 +101,7 @@ const Section1 = ({ heading1, heading2, url1 }) => {
         <div style={imageContainerStyle}>
           {/* Replace 'your-image.jpg' with the actual image source */}
           <Image
+            loading="lazy"
             style={imageStyle}
             width={450}
             height={450}

@@ -1,18 +1,26 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 // import 'src/app/Pages/Blog/page.css'
 
 const BlogCard = ({ category, id, name, img, title, summary }) => {
   return (
     <div className="blog">
       <Link href={`/Pages/Blog/${name}`}>
-        <img src={img} alt="" className="h-[13rem] w-full rounded-lg" />
+        <Image
+          loading="lazy"
+          src={img}
+          width={400}
+          height={400}
+          alt="card image"
+          className=" w-full rounded-lg"
+        />
         <p className="font-extrabold my-4">{title}</p>
         <p className="md:text-[1em]  text-[1.8vw]">{summary}</p>
 
         <div className="flex items-center justify-between my-2">
           <span className="flex items-center gap-2">
-            {/* <img className='w-[1.7em] h-[1.7em]' src={'/Images/blog/blogUser.png'} alt="No-img" />
+            {/* <Image loading="lazy" width={450} height={450} className='w-[1.7em] h-[1.7em]' src={'/Images/blog/blogUser.png'} alt="No-img" />
              */}
             <span
               className={`h-4 w-4 rounded-full ${

@@ -182,6 +182,7 @@ const Pagenation = () => {
                 <div className="grid sm:grid-1 gap-y-4 gap-x-16  md:mb-12 md:grid-cols-2 lg:grid-cols-2">
                   <div className="border-2 rounded-3xl ">
                     <Image
+                      loading="lazy"
                       src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/A%20cubic%20shaped%20yellow%20duck%20in%20a%20Euclidean%20world.jpg"
                       width={700}
                       height={700}
@@ -219,6 +220,7 @@ const Pagenation = () => {
                 <div className="grid sm:grid-1 gap-y-4 gap-x-16  md:mb-12 md:grid-cols-2 lg:grid-cols-2">
                   <div className="border-2 rounded-3xl ">
                     <Image
+                      loading="lazy"
                       src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/homepage%20banner.jpg"
                       width={700}
                       height={700}
@@ -258,6 +260,7 @@ const Pagenation = () => {
                 <div className="grid sm:grid-1 gap-y-4 gap-x-16  md:mb-12 md:grid-cols-2 lg:grid-cols-2">
                   <div className="border-2 rounded-3xl ">
                     <Image
+                      loading="lazy"
                       src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/home%20page%20banner.jpg"
                       width={700}
                       height={700}
@@ -295,6 +298,7 @@ const Pagenation = () => {
                 <div className="grid sm:grid-1 gap-y-4 gap-x-16  md:mb-12 md:grid-cols-2 lg:grid-cols-2">
                   <div className="border-2 rounded-3xl ">
                     <Image
+                      loading="lazy"
                       src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/meta%20vr%20glasses.jpg"
                       width={700}
                       height={700}
