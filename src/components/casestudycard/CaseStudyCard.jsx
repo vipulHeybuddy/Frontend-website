@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const CaseStudyCard = ({ heading, para1, imgurl, link, id }) => {
   return (
-    <div className="casestudy ">
+    <div className="casestudy">
       <Link href={link} as={`/Pages/casestudies/realestate/gamedev/${id}`}>
         <Image
           loading="lazy"
@@ -16,9 +16,9 @@ const CaseStudyCard = ({ heading, para1, imgurl, link, id }) => {
           className=" w-full rounded-lg"
         />
         <p className="font-extrabold my-4">{heading}</p>
-        <p className="md:text-[1em]  text-[1.8vw] mb-2">{para1}</p>
-        <div className=" flex items-center justify-between my-2">
-          <span className="flex items-center gap-2">
+        <p className="md:text-[1em]  text-[1.8vw] ">{para1}</p>
+        <div className=" flex items-center justify-between my-2 ">
+          <span className="flex items-center gap-2 ">
             {/* <Image loading="lazy" width={450} height={450} className='w-[1.7em] h-[1.7em]' src={'/Images/blog/blogUser.png'} alt="No-img" />
              */}
             <span

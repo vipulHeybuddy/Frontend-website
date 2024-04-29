@@ -39,7 +39,7 @@ const Footer = () => {
                       alt="Hey Buddy"
                     />
                   </Link>
-                  <div className="text-white pt-6   text-sm">
+                  <div className="text-white pt-6   text-xs">
                     Hey Buddy is one of India’s fastest-growing technology
                     companies. With hundreds of successful projects delivered
                     for clients across the industry, we have built a strong
@@ -50,7 +50,7 @@ const Footer = () => {
                   {/* <h1 className="text-white text-2xl font-semibold lg:pb-4">
                     Follow Us
                   </h1> */}
-                  <ul class="mx-auto justify-center pt-16 flex lg:justify-start gap-6 sm:mt-0 sm:justify-end">
+                  <ul class="mx-auto justify-center pt-4  lg:pt-16 flex lg:justify-start gap-6 sm:mt-0 sm:justify-end">
                     <li>
                       <a
                         href="https://www.facebook.com/heybuddyofficialin?mibextid=LQQJ4d"
@@ -128,10 +128,10 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            <div className="py-4">
+            <div className="lg:py-4">
               <p class="font-bold text-white text-xl">Our Services</p>
 
-              <ul class="mt-6 space-y-2 text-sm">
+              <ul class="mt-6 space-y-2 text-xs">
                 <li>
                   <a
                     href="/Pages/services/3dmodeling"
@@ -220,7 +220,7 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div className="py-4">
+            <div className="lg:py-4">
               <p class="font-bold text-white text-xl">Featured Work</p>
               <div class="mt-6 space-y-2 text-sm flex flex-col items-center lg:items-start ">
                 <div className="flex items-center gap-2">
@@ -231,7 +231,7 @@ const Footer = () => {
                       width={700}
                       height={700}
                       alt="hey b"
-                      className="rounded-md border-2 w-[5vh] h-[5vh] lg:w-[10vh] lg:h-[10vh] cursor-pointer "
+                      className="rounded-md border-1 w-[5vh] h-[5vh] xl:w-[10vh] xl:h-[10vh] cursor-pointer "
                     />
                   </Link>
                   <Link href="/">
@@ -241,7 +241,7 @@ const Footer = () => {
                       width={700}
                       height={700}
                       alt="hey b"
-                      className="rounded-md border-2 w-[5vh] h-[5vh] lg:w-[10vh] lg:h-[10vh] cursor-pointer "
+                      className="rounded-md border-1 w-[5vh] h-[5vh] xl:w-[10vh] xl:h-[10vh] cursor-pointer "
                     />
                   </Link>
 
@@ -252,25 +252,25 @@ const Footer = () => {
                       width={700}
                       height={700}
                       alt="hey b"
-                      className="rounded-md border-2 w-[5vh] h-[5vh] lg:w-[10vh] lg:h-[10vh] cursor-pointer "
+                      className="rounded-md border-1 w-[5vh] h-[5vh] xl:w-[10vh] xl:h-[10vh] cursor-pointer "
                     />
                   </Link>
                 </div>
-                <div className="pt-4">
+                <div className="pt-4 px-auto">
                   <Link href="/Pages/Contactus">
-                    <div className="rounded-md w-[20vh] lg:w-[33vh] bg-[#3F8AE2] px-4 py-2 text-sm  text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600  flex items-center justify-center gap-x-2">
+                    <div className=" rounded-md w-full  bg-[#3F8AE2] px-6 py-2 text-sm  text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600  flex items-center justify-center gap-x-2">
                       Schedule a Consultation
                     </div>
                   </Link>
                 </div>
               </div>
             </div>
-            <div className="py-4">
+            <div className="lg:py-4">
               <p class="font-bold text-white text-xl">Contact Information</p>
-              <ul class="mt-6 space-y-2 text-sm">
+              <ul class="mt-6 space-y-2 text-xs">
                 <li className="text-white">+91 9318398188</li>
-                <li className="text-white pt-2">Info@heybuddy.co.in</li>
-                <li className="text-white pt-2">
+                <li className="text-white lg:pt-2">Info@heybuddy.co.in</li>
+                <li className="text-white lg:pt-2">
                   Address: Forum, DLF Cyber City, DLF Phase 3, Sector 24,
                   Gurugram, Haryana 122002
                 </li>
