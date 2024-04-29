@@ -73,7 +73,7 @@ const Section3 = ({ heading1, heading2, heading3, para1, para2, para3 }) => {
     {
       id: "1",
       serialno: "01",
-      heading: "Name",
+      heading: "Avdhesh Kashyap",
       imgurl:
         "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Aboutus/faceimg1.png",
       para: para1,
@@ -81,18 +81,10 @@ const Section3 = ({ heading1, heading2, heading3, para1, para2, para3 }) => {
     {
       id: "2",
       serialno: "02",
-      heading: "Name",
+      heading: "Kapil Panchal",
       imgurl:
         "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Aboutus/faceimg2.png",
       para: para2,
-    },
-    {
-      id: "3",
-      serialno: "03",
-      heading: "Name",
-      imgurl:
-        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Aboutus/faceimg3.png",
-      para: para3,
     },
   ];
 
@@ -148,15 +140,15 @@ const Section3 = ({ heading1, heading2, heading3, para1, para2, para3 }) => {
       >
         <div className="py-14 w-full lg:w-[90%] mx-auto">
           <div className="py-8  text-white mx-auto text-center">
-            <h1 className="py-4 font-bold text-2xl lg:text-4xl">
-              People at Board
+            <h1 className="py-2 p-2 font-bold text-xl  lg:text-2xl">
+              Here, Meet Our Founding Buddies
             </h1>
           </div>
 
-          <div className="grid justify-center rounded-xl shadow-sm sm:grid-1 md:mb-12 md:grid-cols-2 lg:grid-cols-3 gap-y-4 gap-x-4">
+          <div className="rounded-xl flex flex-col lg:flex-row w-[80%] lg:w-full mx-auto justify-center items-center gap-2">
             {List.map((section, index) => (
-              <div className="px-2  " key={index}>
-                <figure class="flex flex-col items-center justify-center p-4   h-full w-full ">
+              <div className="px-2 " key={index}>
+                <figure class="flex flex-col items-center justify-center   h-full w-full ">
                   <Image
                     loading="lazy"
                     width={450}
@@ -175,7 +167,7 @@ const Section3 = ({ heading1, heading2, heading3, para1, para2, para3 }) => {
 
                     <p className="text-center text-gray-300 ">Co-founder</p>
                   </blockquote>
-                  <div className="mt-4">
+                  <div className=" lg:mt-4">
                     <ul class="mx-auto justify-center mt-8 flex lg:justify-start gap-6 sm:mt-0 sm:justify-end text-center">
                       <li>
                         <a
@@ -255,6 +247,20 @@ const Section3 = ({ heading1, heading2, heading3, para1, para2, para3 }) => {
                 </figure>
               </div>
             ))}
+          </div>
+          <div className="mx-auto w-[90%] lg:w-[60%]">
+            <p className=" text-white  mt-20 text-center ">
+              On one hand, there is Avdhesh - calm, serious and focused, on the
+              other, it is Kapil who brings light to boring business meetings.
+              Think of Buzz Lightyear and Woody of Toy Story where one brings
+              knowledge and experience to the team and the other brings
+              adventure and dynamism.
+            </p>
+            <p className=" text-white  mt-8 text-center ">
+              Together, with an experience of nearly two decades, this duo of
+              Hey Buddy knows what exactly you are looking for and how to
+              deliver for convenience.
+            </p>
           </div>
         </div>
       </motion.div>
