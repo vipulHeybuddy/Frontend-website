@@ -2,16 +2,16 @@
 
 import React from "react";
 import styled, { keyframes, css } from "styled-components";
-import "../../styles/Section2Home.css";
+
 
 function Company() {
   const row1 = [
-    "https://assets.algoexpert.io/spas/main/prod/g523bdeb478-prod/dist/images/7ae42bac3b34999c0db3.png",
-    "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/dotpe.png",
-    "https://assets.algoexpert.io/spas/main/prod/g523bdeb478-prod/dist/images/6591cdc0702b32310306.png",
-    "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/bloomberg-logo-white.png",
-    "https://assets.algoexpert.io/spas/main/prod/g523bdeb478-prod/dist/images/3cd767dea94a85078ca4.png",
-    "https://assets.algoexpert.io/spas/main/prod/g523bdeb478-prod/dist/images/a2b3c3709ffedce2a22a.png",
+    "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Brands/amazon.png",
+    "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Brands/bloomberg.png",
+    "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Brands/dot_pe.png",
+    "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Brands/facebook.png",
+    "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Brands/google.png",
+    "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Brands/two_sigma.png",
   ];
 
   //   const row2 = [
@@ -25,12 +25,26 @@ function Company() {
 
   return (
     <>
-      <div className="text-center mx-auto justify-center  pb-16 mt-16  ">
-        {/* <h1 className="btn-shine text-white text-2xl lg:text-4xl font-bold">
-          Brands that trust us{" "}
-        </h1> */}
+      <div className="text-center mx-auto justify-center  pb-16 sm:pt-16 pt-24   ">
+     
         <div className="py-2 lg:py-8  mx-auto text-center justify-center  text-xl lg:text-2xl font-bold text-white mb-6">
-          <h3>Brands That Trust Us</h3>
+          <h1
+            style={{
+              color: "#ffffff",
+              background:
+                "linear-gradient(to right, #4d4d4d 0, white 10%, #4d4d4d 20%)",
+              backgroundPosition: "0",
+              WebkitBackgroundClip: "text",
+              WebkitTextFillColor: "transparent",
+              animation: "shine 5s infinite linear forwards",
+              WebkitTextSizeAdjust: "none",
+              fontFamily: "customFont",
+              fontWeight: "900",
+            }}
+            className="text-white text-2xl lg:text-4xl font-bold"
+          >
+            Brands that trust us
+          </h1>
         </div>
         <p className="text-white text-sm">These are Our Business Buddies</p>
       </div>
@@ -117,6 +131,7 @@ const Marquee = styled.div`
   width: 1200px;
   overflow: hidden;
   user-select: none;
+  align-items: center;
 
   mask-image: linear-gradient(
     to right,
@@ -143,6 +158,7 @@ const common = css`
   justify-content: space-around;
   white-space: nowrap;
   width: 100%;
+
   animation: ${scrollX} 30s linear infinite;
 `;
 

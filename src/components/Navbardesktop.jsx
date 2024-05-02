@@ -27,7 +27,7 @@ const Navbardesktop = () => {
 
   return (
     <div className="fixed top-0 transition-all duration-800   w-full  z-50">
-      <nav className="relativepx-2  py-0">
+      <nav className="relative px-2  py-0">
         <div
           className={classNames(
             "fixed justify-center mx-auto items-center max-container w-full border-white transition-all duration-800 py-4 z-50",

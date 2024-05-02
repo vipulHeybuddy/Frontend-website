@@ -6,12 +6,12 @@ import "../../styles/Section2Home.css";
 
 function Company() {
   const row1 = [
-    "https://assets.algoexpert.io/spas/main/prod/g523bdeb478-prod/dist/images/7ae42bac3b34999c0db3.png",
-    "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/dotpe.png",
-    "https://assets.algoexpert.io/spas/main/prod/g523bdeb478-prod/dist/images/6591cdc0702b32310306.png",
-    "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/bloomberg-logo-white.png",
-    "https://assets.algoexpert.io/spas/main/prod/g523bdeb478-prod/dist/images/3cd767dea94a85078ca4.png",
-    "https://assets.algoexpert.io/spas/main/prod/g523bdeb478-prod/dist/images/a2b3c3709ffedce2a22a.png",
+    "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Brands/amazon.png",
+    "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Brands/bloomberg.png",
+    "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Brands/dot_pe.png",
+    "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Brands/facebook.png",
+    "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Brands/google.png",
+    "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Brands/two_sigma.png",
   ];
 
   //   const row2 = [

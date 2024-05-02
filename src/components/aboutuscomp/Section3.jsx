@@ -145,7 +145,7 @@ const Section3 = ({ heading1, heading2, heading3, para1, para2, para3 }) => {
             </h1>
           </div>
 
-          <div className="rounded-xl flex flex-col lg:flex-row w-[80%] lg:w-full mx-auto justify-center items-center gap-2">
+          <div className="rounded-xl flex flex-col md:flex-row w-[80%] lg:w-full mx-auto justify-center items-center gap-2">
             {List.map((section, index) => (
               <div className="px-2 " key={index}>
                 <figure class="flex flex-col items-center justify-center   h-full w-full ">
