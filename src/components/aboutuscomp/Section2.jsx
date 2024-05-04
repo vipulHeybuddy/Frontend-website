@@ -11,8 +11,8 @@ const Section2 = () => {
   };
 
   return (
-    <div className="bg-[url('https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Aboutus/Ellipse2.png')] bg-no-repeat bg-auto bg-[center_top_1rem] mx-auto pt-8 lg:pt-20">
-      <div className=" grid grid-cols-1 lg:grid-cols-2 gap-20 w-[90%] lg:w-[80%] mx-auto lg:pt-36 lg:pb-20">
+    <div className="bg-[url('https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Aboutus/Ellipse2.png')] bg-no-repeat bg-auto bg-[center_top_1rem] mx-auto pt-8 lg:pt-20 pb-24 lg:pb-0">
+      <div className=" grid grid-cols-1 lg:grid-cols-2 gap-20 lg:gap-5 xl:gap-20 w-[90%]  xl:w-[80%] mx-auto lg:pt-36 lg:pb-20">
         <div className="w-full pb-14 lg:pb-0 lg:w-[80%] mx-auto">
           <h1 className="text-xl lg:text-4xl text-center lg:text-left text-white my-8">
             Our Goal
@@ -61,66 +61,66 @@ const Section2 = () => {
             height={200}
             className=" -mt-20 left-2 lg:left-12 w-[100%]   "
           />
-          <div className=" py-4 -mt-[17rem] md:-mt-[24rem] lg:-mt-[20rem] xl:-mt-96 ml-20 md:ml-36 lg:ml-24   xl:ml-32   ">
+          <div className=" py-4 w-[60%]     -mt-[80%] ml-[25%]  sm:ml-[30%]   ">
             <div>
-              <div className=" flex gap-4  items-center my-4 lg:my-8">
-                <div className="mr-4 lg:mr-6">
+              <div className=" flex gap-4  items-center mt-2">
+                <div className="mr-6 lg:mr-6">
                   <div className="relative">
-                    <div className=" absolute -top-4  bg-[#979797] opacity-20 w-14 h-14 rounded-xl "></div>
+                    <div className=" absolute -top-4  bg-[#979797] opacity-20 w-12 h-12 sm:w-14 sm:h-14 rounded-xl "></div>
                     <Image
                       loading="lazy"
                       src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Aboutus/onevec.png"
                       alt="bg_img"
                       width={200}
                       height={200}
-                      className=" ml-4  w-6 h-6 "
+                      className=" ml-[100%] sm:ml-4 h-4 w-4 sm:w-6 sm:h-6  "
                     />
                   </div>
                 </div>
                 <div className="">
-                  <p className=" font-semibold text-white text-2xl md:text-4xl lg:text-4xl xl:text-4xl ">
+                  <p className=" font-semibold text-white md:text-2xl lg:text-normal xl:text-4xl ">
                     10+
                   </p>
                   <p className="text-white text-xs">Years of experience</p>
                 </div>
               </div>
-              <div className=" flex gap-4   items-center my-6 lg:my-12">
-                <div className="mr-4 lg:mr-6">
+              <div className=" flex gap-4   items-center mt-6 sm:mt-12 lg:mt-8 xl:mt-10">
+                <div className="mr-6 lg:mr-6">
                   <div className="relative">
-                    <div className="absolute -top-4  bg-[#979797] opacity-20 w-14 h-14 rounded-xl "></div>
+                    <div className=" absolute -top-4  bg-[#979797] opacity-20 w-12 h-12 sm:w-14 sm:h-14 rounded-xl "></div>
                     <Image
                       loading="lazy"
                       src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Aboutus/twovec.png"
                       alt="bg_img"
                       width={200}
                       height={200}
-                      className=" ml-4  w-6 h-6 "
+                      className=" ml-[100%] sm:ml-4 h-4 w-4 sm:w-6 sm:h-6  "
                     />
                   </div>
                 </div>
                 <div className="">
-                  <p className=" font-semibold text-white text-2xl md:text-4xl lg:text-4xl xl:text-4xl ">
+                  <p className=" font-semibold text-white md:text-2xl lg:text-normal xl:text-4xl  ">
                     100+
                   </p>
                   <p className="text-white text-xs">Repeated clients</p>
                 </div>
               </div>
-              <div className=" flex gap-4  items-center my-6 lg:my-12">
-                <div className="mr-4 lg:mr-6">
+              <div className=" flex gap-4  items-center mt-6 sm:mt-12 lg:mt-8 xl:mt-10">
+                <div className="mr-6 lg:mr-6">
                   <div className="relative">
-                    <div className=" absolute -top-4  bg-[#979797] opacity-20 w-14 h-14 rounded-xl "></div>
+                    <div className=" absolute -top-4  bg-[#979797] opacity-20 w-12 h-12 sm:w-14 sm:h-14 rounded-xl "></div>
                     <Image
                       loading="lazy"
                       src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Aboutus/threevec.png"
                       alt="bg_img"
                       width={200}
                       height={200}
-                      className=" ml-4  w-6 h-6 "
+                      className=" ml-[100%] sm:ml-4 h-4 w-4 sm:w-6 sm:h-6  "
                     />
                   </div>
                 </div>
                 <div className="">
-                  <p className=" font-semibold text-white text-2xl md:text-4xl lg:text-4xl xl:text-4xl ">
+                  <p className=" font-semibold text-white text-fit md:text-2xl lg:text-normal xl:text-4xl ">
                     400+
                   </p>
                   <p className="text-white text-xs">Projects completed</p>

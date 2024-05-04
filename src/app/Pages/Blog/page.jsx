@@ -127,8 +127,10 @@ const page = () => {
 
       <div className="blogsWithCategories">
         <div className="blogCategories ">
-          <p className="text-white font-bold md:text-[2vw]  ">Blog Posts</p>
-          <div className=" flex justify-between  w-[60%] items-center text-white md:text-[1em] font-semibold">
+          <p className="text-white font-bold text-normal md:text-[2vw]  ">
+            Blog Posts
+          </p>
+          <div className=" flex justify-between  w-[80%] items-center text-white md:text-[1em] font-semibold">
             <button
               onClick={() => toggleCategory("")}
               className={category === "" ? "tab active-tab" : "tab"}
@@ -162,7 +164,7 @@ const page = () => {
           </div>
         </div>
 
-        <div className="allBlogs">
+        <div className="allBlogs mx-auto">
           {category === "Development"
             ? blogsArray
                 .filter((blog) => blog.category === "Development")
