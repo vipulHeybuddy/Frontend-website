@@ -53,7 +53,7 @@ function BlogContent({ SelectedBlog }) {
             ? "border-[#FF5C00]"
             : blogType === "Development"
             ? "border-[#26B403]"
-            : blogType === "3D"
+            : blogType === "AI"
             ? "border-[#FF001F]"
             : "border-[#00FFE0]"
         }`}
@@ -85,7 +85,7 @@ function BlogContent({ SelectedBlog }) {
                 ? "bg-[#ff5c0024]"
                 : blogType === "Development"
                 ? "bg-[#26b40324]"
-                : blogType === "3D"
+                : blogType === "AI"
                 ? "bg-[#ff001f24]"
                 : "bg-[#00ffe024]"
             }`}
@@ -96,7 +96,7 @@ function BlogContent({ SelectedBlog }) {
                   ? "bg-[#FF5C00]"
                   : blogType === "Development"
                   ? "bg-[#26B403]"
-                  : blogType === "3D"
+                  : blogType === "AI"
                   ? "bg-[#FF001F]"
                   : "bg-[#00FFE0]"
               }`}
@@ -107,7 +107,7 @@ function BlogContent({ SelectedBlog }) {
                   ? "text-[#FF5C00]"
                   : blogType === "Development"
                   ? "text-[#26B403]"
-                  : blogType === "3D"
+                  : blogType === "AI"
                   ? "text-[#FF001F]"
                   : "text-[#00FFE0]"
               }`}
@@ -1032,7 +1032,7 @@ function BlogContent({ SelectedBlog }) {
                   ? "border-[#FF5C00] bg-[#ff5c0024]"
                   : blogType === "Development"
                   ? "border-[#26B403] bg-[#26b40324]"
-                  : blogType === "3D"
+                  : blogType === "AI"
                   ? "border-[#FF001F] bg-[#ff001f24]"
                   : "border-[#00FFE0] bg-[#00ffe024]"
               }`}
@@ -1042,7 +1042,14 @@ function BlogContent({ SelectedBlog }) {
               </h1>
               <div className="flex items-center gap-3">
                 <div>
-                  <FaGithub className=" h-4 md:h-6 w-4 md:w-6 text-white" />
+                  <a
+                    href=""
+                    rel="noreferrer"
+                    target="_blank"
+                    class="text-white transition hover:opacity-75"
+                  >
+                    <FaGithub className=" h-4 md:h-6 w-4 md:w-6 text-white" />
+                  </a>
                 </div>
                 <div>
                   <FaXTwitter className=" h-4 md:h-6 w-4 md:w-6 text-white" />
@@ -1065,7 +1072,7 @@ function BlogContent({ SelectedBlog }) {
                     ? "border-[#FF5C00] bg-[#ff5c0024]"
                     : blogType === "Development"
                     ? "border-[#26B403] bg-[#26b40324]"
-                    : blogType === "3D"
+                    : blogType === "AI"
                     ? "border-[#FF001F] bg-[#ff001f24]"
                     : "border-[#00FFE0] bg-[#00ffe024]"
                 } h-[2px]`}
@@ -1104,7 +1111,7 @@ function BlogContent({ SelectedBlog }) {
                     ? "border-[#FF5C00] text-[#FF5C00]"
                     : blogType === "Development"
                     ? "border-[#26B403] text-[#26B403]"
-                    : blogType === "3D"
+                    : blogType === "AI"
                     ? "border-[#FF001F] text-[#FF001F]"
                     : "border-[#00FFE0] text-[#00FFE0]"
                 }`}

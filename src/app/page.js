@@ -85,7 +85,7 @@ export default function Home() {
 
       {/*  --------------------section-6---------------------------------- */}
 
-      {isMobile ? <Pagenationmob /> : <Pagenation />}
+      {/* {isMobile ? <Pagenationmob /> : <Pagenation />} */}
 
       {/*  --------------------section-7---------------------------------- */}
 

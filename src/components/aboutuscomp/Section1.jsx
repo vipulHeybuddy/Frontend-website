@@ -17,7 +17,7 @@ const Section1 = () => {
         </div>
         <div className="relative">
           <div className="pt-36 lg:pt-48">
-            <div className="w-[90%] lg:w-[70%] mx-auto p-2 lg:p-8 lg:-pb-8 bg-[#FFFFFF] bg-opacity-10 backdrop-blur-lg  rounded-3xl lg:px-24 ">
+            <div className="w-[90%] lg:w-[70%] mx-auto p-2 lg:p-8 lg:-pb-20 bg-[#FFFFFF] bg-opacity-10 backdrop-blur-lg  rounded-3xl lg:px-24 ">
               <h1 className="mx-auto px-2 lg:px-0 text-center text-white text-xl  lg:text-2xl mt-10 font-bold ">
                 HEY BUDDY - THE TECHNOLOGY BUDDY YOU NEED
               </h1>

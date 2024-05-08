@@ -120,7 +120,7 @@ const Navbardesktop = () => {
                 {/* Submenu ends */}
               </li>
 
-              <Link href="/#projects">
+              <Link href="/Pages/casestudies">
                 <li>Projects</li>
               </Link>
 

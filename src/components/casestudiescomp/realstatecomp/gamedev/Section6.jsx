@@ -21,26 +21,26 @@ const Section6 = ({ heading, para, list1, list2, list3, grid }) => {
       </div> */}
 
       <div className=" lg:w-[80%] mx-auto pt-[44px] lg:pt-[44px] " id="aboutus">
-        <div className="mx-auto text-center justify-center ">
+        <div className="mx-auto  justify-center ">
           <div className="p-4 lg:p-4  h-full ">
             <div className="lg:px-8 lg:pt-16">
               <motion.h1
-                className="px-4 text-2xl lg:text-4xl font-bold text-white -mt-8 mb-6"
+                className="px-4 text-2xl lg:text-4xl font-bold text-center  text-white -mt-8 mb-6"
                 {...textAnimation1}
               >
                 {heading}
               </motion.h1>
               <motion.p
-                className="text-gray-300  lg:w-[80%]  mx-auto text-center justify-center"
+                className="text-white text-md  lg:w-[80%]  mx-auto mb-2  justify-center"
                 {...textAnimation1}
               >
                 {para}{" "}
               </motion.p>
               <motion.ul
-                className="text-gray-300   lg:w-[80%]  mx-auto text-center justify-center"
+                className="text-white   lg:w-[80%]  mx-auto  justify-center"
                 {...textAnimation1}
               >
-                <ul classname="list-disc">
+                <ul className="list-disc">
                   <li>{list1}</li>
                   <li>{list2}</li>
                   <li>{list3}</li>

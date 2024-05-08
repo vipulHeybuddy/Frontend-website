@@ -10,20 +10,19 @@ import CaseStudyCard from "@/components/casestudycard/CaseStudyCard";
 const data = [
   {
     id: "1",
-    heading:
-      "Successful Implementation of AR Technology in D2C-Based Online Furniture Store",
+    heading: "Developing CGI Graphics for D2C Based Online Retail Company",
     para1:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aliquid repellendus similique nisi molestias nostrum sequi itaque mollitia minus quisquam animi, optio quaerat deleniti dignissimos officiis quis possimus non natus?",
-    link: "/Pages/casestudies/ardevelopment/ardev/[id]",
+    link: "/Pages/casestudies/cgidevelopment/cgidev/[id]",
     imgurl:
       "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Img/card%20img.png",
   },
   {
     id: "2",
-    heading: "Revamped eCommerce Business: Increase Saled Reduced Returns",
+    heading: "Powering Storytelling with Ultra Realistic CGI Visuals ",
     para1:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aliquid repellendus similique nisi molestias nostrum sequi itaque mollitia minus quisquam animi, optio quaerat deleniti dignissimos officiis quis possimus non natus?",
-    link: "/Pages/casestudies/ardevelopment/ardev/[id]",
+    link: "/Pages/casestudies/cgidevelopment/cgidev/[id]",
     imgurl:
       "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Img/card%20img.png",
   },

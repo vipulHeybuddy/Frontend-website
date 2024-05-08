@@ -1,8 +1,7 @@
 "use client";
 
 import React, { useEffect, useRef } from "react";
-import Slider from "react-slick";
-import Link from "next/link";
+
 import Image from "next/image";
 import { motion, useAnimation } from "framer-motion";
 
@@ -77,6 +76,8 @@ const Section3 = ({ heading1, heading2, heading3, para1, para2, para3 }) => {
       imgurl:
         "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Aboutus/faceimg1.png",
       para: para1,
+      href: "https://www.linkedin.com/in/avdhesh-kashyap-0b240022b/",
+      title:"Founder & CEO"
     },
     {
       id: "2",
@@ -85,6 +86,8 @@ const Section3 = ({ heading1, heading2, heading3, para1, para2, para3 }) => {
       imgurl:
         "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Aboutus/faceimg2.png",
       para: para2,
+      href: "https://www.linkedin.com/in/kapil-panchal-/",
+      title:"Founder & COO"
     },
   ];
 
@@ -165,7 +168,7 @@ const Section3 = ({ heading1, heading2, heading3, para1, para2, para3 }) => {
                       {section.heading}
                     </h3>
 
-                    <p className="text-center text-gray-300 ">Co-founder</p>
+                    <p className="text-center text-gray-300 ">{section.title}</p>
                   </blockquote>
                   <div className=" lg:mt-4">
                     <ul class="mx-auto justify-center mt-8 flex lg:justify-start gap-6 sm:mt-0 sm:justify-end text-center">
@@ -219,7 +222,7 @@ const Section3 = ({ heading1, heading2, heading3, para1, para2, para3 }) => {
 
                       <li>
                         <a
-                          href="https://www.linkedin.com/company/hey-buddy-official/"
+                          href={section.href}
                           rel="noreferrer"
                           target="_blank"
                           class="text-white transition hover:opacity-75"
