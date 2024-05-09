@@ -218,6 +218,14 @@ const Footer = () => {
                     Metaverse Development
                   </a>
                 </li>
+                <li>
+                  <a
+                    href="/Pages/services/aidevelopment"
+                    class="text-white transition hover:opacity-75"
+                  >
+                    AI Development
+                  </a>
+                </li>
               </ul>
             </div>
             <div className="lg:py-4">

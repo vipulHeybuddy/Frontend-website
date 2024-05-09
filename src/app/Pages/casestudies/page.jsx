@@ -160,40 +160,125 @@ const data = [
     imgurl:
       "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/AIcase/23.jpg",
   },
-  // {
-  //   id: "10",
-  //   category: "VR",
-  //   heading: "Virtual Reality Tours Save Time and Impress Buyers",
-  //   para1:
-  //     "Our client in real estate aims to realize dream homes through an enhanced app with VR tech, enabling remote tours. Hey Buddy upgraded the app for stability, hyper-realism, and interactivity, revolutionizing property exploration. This innovation saves...",
-  //   para2:
-  //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aliquid repellendus similique nisi molestias nostrum sequi itaque mollitia minus quisquam animi, optio quaerat deleniti dignissimos officiis quis possimus non natus?",
-  //   para3:
-  //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aliquid repellendus similique nisi molestias nostrum sequi itaque mollitia minus quisquam animi, optio quaerat deleniti dignissimos officiis quis possimus non natus?",
-  //   para4:
-  //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aliquid repellendus similique nisi molestias nostrum sequi itaque mollitia minus quisquam animi, optio quaerat deleniti dignissimos officiis quis possimus non natus?",
-  //   link: "/Pages/casestudies/vrdevelopment/[id]",
-  //   aslink: "/Pages/casestudies/vrdevelopment/",
-  //   imgurl:
-  //     "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/cases13/5.jpg",
-  // },
-  // {
-  //   id: "11",
-  //   category: "VR",
-  //   heading: "Architecture Reimagined: Accelerated Processes with Immersive VR",
-  //   para1:
-  //     "An innovative VR solution with architectural visualization capabilities was developed for a large architectural firm, enhancing design communication and decision-making. This immersive platform offers a high-quality VR experience...",
-  //   para2:
-  //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aliquid repellendus similique nisi molestias nostrum sequi itaque mollitia minus quisquam animi, optio quaerat deleniti dignissimos officiis quis possimus non natus?",
-  //   para3:
-  //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aliquid repellendus similique nisi molestias nostrum sequi itaque mollitia minus quisquam animi, optio quaerat deleniti dignissimos officiis quis possimus non natus?",
-  //   para4:
-  //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aliquid repellendus similique nisi molestias nostrum sequi itaque mollitia minus quisquam animi, optio quaerat deleniti dignissimos officiis quis possimus non natus?",
-  //   link: "/Pages/casestudies/vrdevelopment/[id]",
-  //   aslink: "/Pages/casestudies/vrdevelopment/",
-  //   imgurl:
-  //     "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/cases13/1.jpg",
-  // },
+  {
+    id: "10",
+    category: "VR",
+    heading: "Virtual Reality Tours Save Time and Impress Buyers",
+    para1:
+      "Our client in real estate aims to realize dream homes through an enhanced app with VR tech, enabling remote tours. Hey Buddy upgraded the app for stability, hyper-realism, and interactivity, revolutionizing property exploration. This innovation saves...",
+    para2:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aliquid repellendus similique nisi molestias nostrum sequi itaque mollitia minus quisquam animi, optio quaerat deleniti dignissimos officiis quis possimus non natus?",
+    para3:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aliquid repellendus similique nisi molestias nostrum sequi itaque mollitia minus quisquam animi, optio quaerat deleniti dignissimos officiis quis possimus non natus?",
+    para4:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aliquid repellendus similique nisi molestias nostrum sequi itaque mollitia minus quisquam animi, optio quaerat deleniti dignissimos officiis quis possimus non natus?",
+    link: "/Pages/casestudies/vrdevelopment/[id]",
+    aslink: "/Pages/casestudies/vrdevelopment/",
+    imgurl:
+      "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/case6/1s.jpg",
+  },
+  {
+    id: "11",
+    category: "VR",
+    heading: "Architecture Reimagined: Accelerated Processes with Immersive VR",
+    para1:
+      "An innovative VR solution with architectural visualization capabilities was developed for a large architectural firm, enhancing design communication and decision-making. This immersive platform offers a high-quality VR experience...",
+    para2:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aliquid repellendus similique nisi molestias nostrum sequi itaque mollitia minus quisquam animi, optio quaerat deleniti dignissimos officiis quis possimus non natus?",
+    para3:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aliquid repellendus similique nisi molestias nostrum sequi itaque mollitia minus quisquam animi, optio quaerat deleniti dignissimos officiis quis possimus non natus?",
+    para4:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aliquid repellendus similique nisi molestias nostrum sequi itaque mollitia minus quisquam animi, optio quaerat deleniti dignissimos officiis quis possimus non natus?",
+    link: "/Pages/casestudies/vrdevelopment/[id]",
+    aslink: "/Pages/casestudies/vrdevelopment/",
+    imgurl:
+      "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/case13/1s.jpg",
+  },
+  {
+    id: "12",
+    category: "AI",
+    heading: "AI For Human Matchmaking: Data-driven Relationship",
+    para1:
+      "Our client, a visionary startup, aimed to alter the paradigm of social networking space. They had a vision of an intelligent AI-infused matchmaking app that fosters genuine connections based on shared interests, values...",
+    para2:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aliquid repellendus similique nisi molestias nostrum sequi itaque mollitia minus quisquam animi, optio quaerat deleniti dignissimos officiis quis possimus non natus?",
+    para3:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aliquid repellendus similique nisi molestias nostrum sequi itaque mollitia minus quisquam animi, optio quaerat deleniti dignissimos officiis quis possimus non natus?",
+    para4:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aliquid repellendus similique nisi molestias nostrum sequi itaque mollitia minus quisquam animi, optio quaerat deleniti dignissimos officiis quis possimus non natus?",
+    link: "/Pages/casestudies/AIcasestudy/[id]",
+    aslink: "/Pages/casestudies/AIcasestudy/",
+    imgurl:
+      "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/casestudy/AI/12_2s.png",
+  },
+  {
+    id: "13",
+    category: "Gaming",
+    heading: "Captivating Gaming App Interface For Hyper Engagement",
+    para1:
+      "Hey Buddy partnered with a leading gaming hub known for their captivating games, seeking high-quality graphics. The client's global presence and high standards necessitated exceptional outcomes. Hey Buddy not only met but sur...",
+    para2:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aliquid repellendus similique nisi molestias nostrum sequi itaque mollitia minus quisquam animi, optio quaerat deleniti dignissimos officiis quis possimus non natus?",
+    para3:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aliquid repellendus similique nisi molestias nostrum sequi itaque mollitia minus quisquam animi, optio quaerat deleniti dignissimos officiis quis possimus non natus?",
+    para4:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aliquid repellendus similique nisi molestias nostrum sequi itaque mollitia minus quisquam animi, optio quaerat deleniti dignissimos officiis quis possimus non natus?",
+    link: "/Pages/casestudies/gamedevelopment/[id]",
+    aslink: "/Pages/casestudies/gamedevelopment/",
+    imgurl:
+      "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/casestudy/game/13_3s.png",
+  },
+  {
+    id: "14",
+    category: "Gaming",
+    heading: "AI-Infused Smart and Adaptive Gaming with Unreal’s Magic",
+    para1:
+      "Hey Buddy partnered with a leading game development company for an AI-powered one-on-one duel game. The goal was to create visually stunning gameplay with advanced mechanics. Hey Buddy delivered top-notch AI integration...",
+    para2:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aliquid repellendus similique nisi molestias nostrum sequi itaque mollitia minus quisquam animi, optio quaerat deleniti dignissimos officiis quis possimus non natus?",
+    para3:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aliquid repellendus similique nisi molestias nostrum sequi itaque mollitia minus quisquam animi, optio quaerat deleniti dignissimos officiis quis possimus non natus?",
+    para4:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aliquid repellendus similique nisi molestias nostrum sequi itaque mollitia minus quisquam animi, optio quaerat deleniti dignissimos officiis quis possimus non natus?",
+    link: "/Pages/casestudies/gamedevelopment/[id]",
+    aslink: "/Pages/casestudies/gamedevelopment/",
+    imgurl:
+      "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/casestudy/game/14_1s.png",
+  },
+  {
+    id: "15",
+    category: "Gaming",
+    heading: "Hey Buddy’s Epic Collaboration with a Gaming Studio",
+    para1:
+      "A renowned game development studio joined forces with us for a collaborative effort on an ambitious cross-platform action-adventure game. Our comprehensive game development services, coupled with their expertise, resulted in a visually stunning...",
+    para2:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aliquid repellendus similique nisi molestias nostrum sequi itaque mollitia minus quisquam animi, optio quaerat deleniti dignissimos officiis quis possimus non natus?",
+    para3:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aliquid repellendus similique nisi molestias nostrum sequi itaque mollitia minus quisquam animi, optio quaerat deleniti dignissimos officiis quis possimus non natus?",
+    para4:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aliquid repellendus similique nisi molestias nostrum sequi itaque mollitia minus quisquam animi, optio quaerat deleniti dignissimos officiis quis possimus non natus?",
+    link: "/Pages/casestudies/gamedevelopment/[id]",
+    aslink: "/Pages/casestudies/gamedevelopment/",
+    imgurl:
+      "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/casestudy/game/15_1s.png",
+  },
+  {
+    id: "16",
+    category: "Custom Software",
+    heading: "For a Luxury Watches Brand to Boost Sales Patterns",
+    para1:
+      "A luxury watch brand in India sought to transition to a D2C marketplace, requiring expert software development. After fruitful discussions, they chose us as their development partner. We embarked on the project, addressing challenges with...",
+    para2:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aliquid repellendus similique nisi molestias nostrum sequi itaque mollitia minus quisquam animi, optio quaerat deleniti dignissimos officiis quis possimus non natus?",
+    para3:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aliquid repellendus similique nisi molestias nostrum sequi itaque mollitia minus quisquam animi, optio quaerat deleniti dignissimos officiis quis possimus non natus?",
+    para4:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aliquid repellendus similique nisi molestias nostrum sequi itaque mollitia minus quisquam animi, optio quaerat deleniti dignissimos officiis quis possimus non natus?",
+    link: "/Pages/casestudies/customsoftware/[id]",
+    aslink: "/Pages/casestudies/customsoftware/",
+    imgurl:
+      "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/casestudy/custom_software/16_1s.png",
+  },
 ];
 
 const page = () => {
@@ -263,12 +348,26 @@ const page = () => {
               >
                 AI
               </button>
-              {/* <button
+              <button
                 onClick={() => toggleCategory("VR")}
                 className={category === "VR" ? "tab active-tab" : "tab"}
               >
                 VR
-              </button> */}
+              </button>
+              <button
+                onClick={() => toggleCategory("Gaming")}
+                className={category === "Gaming" ? "tab active-tab" : "tab"}
+              >
+                Gaming
+              </button>
+              <button
+                onClick={() => toggleCategory("Custom Software")}
+                className={
+                  category === "Custom Software" ? "tab active-tab" : "tab"
+                }
+              >
+                Custom Software
+              </button>
             </div>
           </div>
 
@@ -297,13 +396,25 @@ const page = () => {
                   .map((study, index) => (
                     <CaseStudyCard key={index} {...study} />
                   ))
-              : // : category === "VR"
-              // ? data
-              //     .filter((study) => study.category === "VR")
-              //     .map((study, index) => (
-              //       <CaseStudyCard key={index} {...study} />
-              //     ))
-              category === ""
+              : category === "VR"
+              ? data
+                  .filter((study) => study.category === "VR")
+                  .map((study, index) => (
+                    <CaseStudyCard key={index} {...study} />
+                  ))
+              : category === "Gaming"
+              ? data
+                  .filter((study) => study.category === "Gaming")
+                  .map((study, index) => (
+                    <CaseStudyCard key={index} {...study} />
+                  ))
+              : category === "Custom Software"
+              ? data
+                  .filter((study) => study.category === "Custom Software")
+                  .map((study, index) => (
+                    <CaseStudyCard key={index} {...study} />
+                  ))
+              : category === ""
               ? data.map((study, index) => (
                   <CaseStudyCard key={index} {...study} />
                 ))

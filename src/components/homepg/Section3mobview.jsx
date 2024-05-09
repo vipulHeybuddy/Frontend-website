@@ -1,57 +1,81 @@
 import React, { useEffect, useRef } from "react";
 
 import "../../styles/Slider2.css";
+import Link from "next/link";
 import Image from "next/image";
 function Mobslider() {
   const slideData = [
     {
-      title: "Game Development",
+      title: "3D Billboard",
+      link: "/Pages/services/billboard",
       description:
-        "From casual mobile Games to console adventure, we create all here.",
+        "Capture eyeball and captivate your audience with larger-than-life 3D visuals.",
       image:
         "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/game.png",
     },
     {
-      title: "Immersive Development",
+      title: "CGI Development",
+      link: "/Pages/services/cgi",
       description:
-        "From casual mobile Games to console adventure, we create all here.",
+        "Get high-quality CGI custom-made for your project, delivered in time.",
       image:
-        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Immersive.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/game.png",
     },
     {
-      title: "3D Development",
+      title: "Game Development",
+      link: "/Pages/services/gamedevelopment",
       description:
-        "From casual mobile Games to console adventure, we create all here.",
+        "We excel in developing games across diverse genres on leading platforms like Unity and Unreal.",
       image:
-        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/Cube.jpg",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/game.png",
     },
     {
-      title: "AI Services",
+      title: "AR Development",
+      link: "/Pages/services/ardevelopment",
       description:
-        "From casual mobile Games to console adventure, we create all here.",
+        "We create realistic immersive solutions that create a convincing new reality to impress your user with AR, VR or through Metaverse platforms.",
       image:
-        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/ai.jpg",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/game.png",
     },
     {
-      title: "APP Development",
+      title: "Metaverse Development",
+      link: "/Pages/services/metaverse",
       description:
-        "From casual mobile Games to console adventure, we create all here.",
+        "We create realistic immersive solutions that create a convincing new reality to impress your user with AR, VR or through Metaverse platforms.",
       image:
-        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/appdev.jpg",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/game.png",
     },
     {
-      title: "VR Training & Simulation",
+      title: "Custom Software Development",
+      link: "/Pages/services/customsoftware",
       description:
-        "From casual mobile Games to console adventure, we create all here.",
+        "We employ the best software development practices for cross-device and cross-platform compatible, user-friendly Android and iOS applications.",
       image:
-        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/metaverse.jpg",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/game.png",
+    },
+    {
+      title: "VR Development",
+      link: "/Pages/services/vrdevelopment",
+      description:
+        " Help your trainees learn 4 times faster with 500% more focus and 1.75% time more confidence.",
+      image:
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/game.png",
     },
     {
       title: "Web3 Development",
+      link: "/Pages/services/web3",
       description:
-        "From casual mobile Games to console adventure, we create all here.",
+        "Seize the power of pathbreaking Web3 technologies like blockchain with use and open new digital avenues of financial streams.",
       image:
-        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/blockchain.jpg",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/game.png",
+    },
+    {
+      title: "AI Development",
+      link: "/Pages/services/aidevelopment",
+      description:
+        "We infuse intelligence in your business with AI solutions that analyse huge data, predict future trends and automated execution.",
+      image:
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/game.png",
     },
   ];
 
@@ -86,6 +110,7 @@ function Mobslider() {
       </h1>
       <div className="container8">
         {slideData.map((slide, index) => (
+          <Link href={slide.link}>
           <div
             key={index}
             className="textdiv1"
@@ -109,6 +134,7 @@ function Mobslider() {
               alt={`slide_image_${index}`}
             />
           </div>
+          </Link>
         ))}
       </div>
     </div>
