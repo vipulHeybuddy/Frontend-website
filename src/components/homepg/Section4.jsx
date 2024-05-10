@@ -3,9 +3,13 @@ import React, { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 // import  './grid1styles.css';
 import { motion, useAnimation } from "framer-motion";
+import CountUp from "react-countup";
+import ScrollTrigger from "react-scroll-trigger";
+import { AiOutlineFullscreenExit } from "react-icons/ai";
 
 const Grid1 = () => {
   const [userCount, setUserCount] = useState(0);
+  const [counterOn, setCounterOn] = useState(false);
   const controls = useAnimation();
   const ref = useRef();
 
@@ -78,107 +82,138 @@ const Grid1 = () => {
             </div>
           </div>
           <div style={{ marginTop: "2rem" }} className="">
-            <div class="p-4  grid mb-8 mx-auto text-center justify-center rounded-3xl shadow-sm grid-cols-2 md:grid-cols-2">
-              <figure className="flex flex-col py-6 lg:p-12 border-b border-gray-900 rounded-tl-3xl md:rounded-t-none md:rounded-tl-3xl md:border-r h-full w-full bg-gray-600 bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-40">
-                <blockquote className="lg:mb-8 text-white">
-                  <div className="grid lg:px-12 sm:grid-1 md:grid-cols-2 lg:grid-cols-2">
-                    <div className="py-4">
-                      <Image
-                        loading="lazy"
-                        src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/img1.png"
-                        width={300}
-                        height={300}
-                        alt="logo"
-                        className="w-[7vh] h-[7vh] lg:w-[10vh] lg:h-[10vh] lg:float-left mx-auto"
-                      />
+            <ScrollTrigger
+              onEnter={() => setCounterOn(true)}
+              onExit={() => setCounterOn(false)}
+            >
+              <div class="p-4  grid mb-8 mx-auto text-center justify-center rounded-3xl shadow-sm grid-cols-2 md:grid-cols-2">
+                <figure className="flex flex-col py-6 lg:p-12 border-b border-gray-900 rounded-tl-3xl md:rounded-t-none md:rounded-tl-3xl md:border-r h-full w-full bg-gray-600 bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-40">
+                  <blockquote className="lg:mb-8 text-white">
+                    <div className="grid lg:px-12 sm:grid-1 md:grid-cols-2 lg:grid-cols-2 ">
+                      <div className="">
+                        <Image
+                          loading="lazy"
+                          src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/img1.png"
+                          width={300}
+                          height={300}
+                          alt="logo"
+                          className="w-[7vh] h-[7vh] lg:w-[10vh] lg:h-[10vh] lg:float-left mx-auto"
+                        />
+                      </div>
+                      <div className="lg:text-left ">
+                        <h3 className="lg:text-2xl font-semibold  text-white">
+                          {counterOn && (
+                            <CountUp
+                              duration={2}
+                              className="counter"
+                              end={13}
+                            />
+                          )}{" "}
+                          Trillion
+                        </h3>
+                        <p className="text-sm">
+                          The metaverse will reach somewhere between $8 Trillion
+                          to $13 Trillion by 2030.
+                        </p>
+                      </div>
                     </div>
-                    <div className="lg:text-left">
-                      <h3 className="lg:text-2xl font-semibold  text-white">
-                        13 Trillion
-                      </h3>
-                      <p className="text-sm">
-                        The metaverse will reach somewhere between $8 Trillion
-                        to $13 Trillion by 2030.
-                      </p>
-                    </div>
-                  </div>
-                </blockquote>
-              </figure>
+                  </blockquote>
+                </figure>
 
-              <figure class="flex flex-col py-6 lg:p-12 border-b border-gray-900 rounded-tr-3xl  h-full w-full bg-gray-500  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-40">
-                <blockquote class="  lg:mb-8 text-white">
-                  <div className="lg:px-10 grid sm:grid-1 md:grid-cols-2 lg:grid-cols-2">
-                    <div className="py-4">
-                      <Image
-                        loading="lazy"
-                        src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/img2.png"
-                        width={300}
-                        height={300}
-                        className="w-[7vh] h-[7vh] lg:w-[10vh] lg:h-[10vh] lg:float-left mx-auto "
-                      />
-                    </div>
+                <figure class="flex flex-col py-6 lg:p-12 border-b border-gray-900 rounded-tr-3xl  h-full w-full bg-gray-500  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-40">
+                  <blockquote class="  lg:mb-8 text-white">
+                    <div className="lg:px-10 grid sm:grid-1 md:grid-cols-2 lg:grid-cols-2 ">
+                      <div className="">
+                        <Image
+                          loading="lazy"
+                          src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/img2.png"
+                          width={300}
+                          height={300}
+                          className="w-[7vh] h-[7vh] lg:w-[10vh] lg:h-[10vh] lg:float-left mx-auto "
+                        />
+                      </div>
 
-                    <div className="lg:text-left px-4">
-                      <h3 class="lg:text-2xl font-semibold text-white">
-                        280 Billion
-                      </h3>
-                      <p className="text-sm px-2">
-                        By 2024, the metaverse market may reach $280 billion
-                      </p>
+                      <div className="lg:text-left ">
+                        <h3 class="lg:text-2xl font-semibold text-white">
+                          {counterOn && (
+                            <CountUp
+                              duration={2}
+                              className="counter"
+                              end={280}
+                            />
+                          )}{" "}
+                          Billion
+                        </h3>
+                        <p className="text-sm">
+                          By 2024, the metaverse market may reach $280 billion
+                        </p>
+                      </div>
                     </div>
-                  </div>
-                </blockquote>
-              </figure>
+                  </blockquote>
+                </figure>
 
-              <figure class="flex flex-col items-center justify-center py-6 px-2 lg:p-12 text-center  border-b border-gray-900 rounded-bl-3xl md:border-b-0 md:border-r   h-full w-full bg-gray-500  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-40">
-                <blockquote class=" mb-4  lg:mb-8 text-white">
-                  <div className="lg:px-10 grid sm:grid-1 md:grid-cols-2 lg:grid-cols-2">
-                    <div className="py-4">
-                      <Image
-                        loading="lazy"
-                        src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/img3.png"
-                        width={300}
-                        height={300}
-                        className="w-[7vh] h-[7vh] lg:w-[10vh] lg:h-[10vh] lg:float-left mx-auto "
-                      />
+                <figure class="flex flex-col items-center justify-center py-6 px-2 lg:p-12 text-center  border-b border-gray-900 rounded-bl-3xl md:border-b-0 md:border-r   h-full w-full bg-gray-500  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-40">
+                  <blockquote class=" mb-4  lg:mb-8 text-white">
+                    <div className="lg:px-10 grid sm:grid-1 md:grid-cols-2 lg:grid-cols-2 ">
+                      <div className="">
+                        <Image
+                          loading="lazy"
+                          src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/img3.png"
+                          width={300}
+                          height={300}
+                          className="w-[7vh] h-[7vh] lg:w-[10vh] lg:h-[10vh] lg:float-left mx-auto "
+                        />
+                      </div>
+                      <div className="lg:text-left">
+                        <h3 class="lg:text-2xl font-semibold  text-white">
+                          {counterOn && (
+                            <CountUp
+                              duration={2}
+                              className="counter"
+                              end={43}
+                            />
+                          )}
+                          %
+                        </h3>
+                        <p className="text-sm">
+                          Metaverse Market could at a phenomenal CAGR of 43%
+                          between 2021 to 2027
+                        </p>
+                      </div>
                     </div>
-                    <div className="lg:text-left">
-                      <h3 class="lg:text-2xl font-semibold  text-white">43%</h3>
-                      <p className="text-sm">
-                        Metaverse Market could at a phenomenal CAGR of 43%
-                        between 2021 to 2027
-                      </p>
-                    </div>
-                  </div>
-                </blockquote>
-              </figure>
+                  </blockquote>
+                </figure>
 
-              <figure class="flex flex-col items-center justify-center py-6 px-2 lg:p-12 text-center  border-gray-900 rounded-br-3xl md:rounded-br-3xl h-full w-full bg-gray-600  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30">
-                <blockquote class="mb-4  lg:mb-8 text-white">
-                  <div className="lg:px-10 grid sm:grid-1 md:grid-cols-2 lg:grid-cols-2">
-                    <div className="py-4">
-                      <Image
-                        loading="lazy"
-                        src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/img4.png"
-                        width={300}
-                        height={300}
-                        className="w-[7vh] h-[7vh] lg:w-[10vh] lg:h-[10vh] lg:float-left mx-auto "
-                      />
-                    </div>
+                <figure class="flex flex-col items-center justify-center py-6 px-2 lg:p-12 text-center  border-gray-900 rounded-br-3xl md:rounded-br-3xl h-full w-full bg-gray-600  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30">
+                  <blockquote class="mb-4  lg:mb-8 text-white">
+                    <div className="lg:px-10 grid sm:grid-1 md:grid-cols-2 lg:grid-cols-2 ">
+                      <div className="">
+                        <Image
+                          loading="lazy"
+                          src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/img4.png"
+                          width={300}
+                          height={300}
+                          className="w-[7vh] h-[7vh] lg:w-[10vh] lg:h-[10vh] lg:float-left mx-auto "
+                        />
+                      </div>
 
-                    <div className="lg:text-left">
-                      <h3 class="lg:text-2xl font-semibold text-gray-900 text-white">
-                        5 Billion
-                      </h3>
-                      <p className="text-sm">
-                        By 2030, Metaverse’s unique users may reach up to 5
-                        billion!
-                      </p>
+                      <div className="lg:text-left">
+                        <h3 class="lg:text-2xl font-semibold  text-white">
+                          {counterOn && (
+                            <CountUp duration={2} className="counter" end={5} />
+                          )}{" "}
+                          Billion
+                        </h3>
+                        <p className="text-sm">
+                          By 2030, Metaverse’s unique users may reach up to 5
+                          billion!
+                        </p>
+                      </div>
                     </div>
-                  </div>
-                </blockquote>
-              </figure>
-            </div>
+                  </blockquote>
+                </figure>
+              </div>
+            </ScrollTrigger>
           </div>
         </div>
       </div>

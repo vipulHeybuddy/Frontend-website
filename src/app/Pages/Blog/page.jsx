@@ -10,7 +10,7 @@ const blogsArray = [
     category: "Games",
     id: 1,
     name: "blog1",
-    img: "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Blogmob/blogmob1.png",
+    img: "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Blogmob/blogc1.png",
     title: "Top Game Development Companies - Choose the Best One",
     summary:
       "Made up your mind to invest in game development? A great decision indeed. The reasons are many such as diverse monetization models, a loyal global Games community, a higher engagement rate among ot...",
@@ -20,85 +20,68 @@ const blogsArray = [
     category: "Development",
     id: 2,
     name: "blog2",
-    img: "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Blogmob/blogmob2.png",
+    img: "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Blogmob/blogc2.png",
     title: "Why should I invest in game app development? Complete Guide",
     summary:
       " The answer to the above question is pretty straightforward the Games market is booming and you should not miss this opportunity. It is growing in every dimension, geographically, technologicall...",
   },
 
   {
-    category: "3D",
+    category: "AI",
     id: 3,
     name: "blog3",
-    img: "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Blogmob/blogmob3.png",
+    img: "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Blogmob/blogc3.png",
     title: "AI in Games: Refining the Way Games Developed & Play",
     summary:
       "AI in Games is no longer a new phenomenon. It's trending, extensively adapted, and rapidly evolving. Just like Artificial Intelligence (AI) has disrupted all major industries like Healthcare, Hospitality, Banking...",
   },
-
   {
-    category: "Design",
+    category: "CGI",
     id: 4,
     name: "blog4",
-    img: "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Blogmob/blogmob4.png",
+    img: "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Blogmob/blogc4.png",
     title: "What is CGI: Definition, Development & Common Examples",
     summary:
-      "Ever wondered what made the Avatar movie a hit, or why there is such a huge and crazy fan community for the Harry Potter franchise? Well, that’s pretty straightforward, this is because they take us in...",
+      "Ever wondered what made the Avatar movie a hit, or why there is such a huge and crazy fan community for the Harry Potter franchise? Well, that’s pretty straightforward, this is because they take us into a fantasy world where imagination comes to reality. But how is it possible?...",
   },
 
-  // {
-  //   category: "Development",
-  //   id: 5,
-  //   img: "/Images/blog/blogImg1.png",
-  //   title: "Top Game Development Companies - Choose the Best One",
-  //   summary:
-  //     "Made up your mind to invest in game development? A great decision indeed. The reasons are many such as diverse monetization models, a loyal global Games community, a higher engagement rate among ot...",
-  // },
-
-  // {
-  //   category: "3D",
-  //   id: 6,
-  //   img: "/Images/blog/blogImg3.png",
-  //   title: "Top Game Development Companies - Choose the Best One",
-  //   summary:
-  //     "Made up your mind to invest in game development? A great decision indeed. The reasons are many such as diverse monetization models, a loyal global Games community, a higher engagement rate among ot...",
-  // },
-
-  // {
-  //   category: "3D",
-  //   id: 7,
-  //   img: "/Images/blog/blogImg3.png",
-  //   title: "Top Game Development Companies - Choose the Best One",
-  //   summary:
-  //     "Made up your mind to invest in game development? A great decision indeed. The reasons are many such as diverse monetization models, a loyal global Games community, a higher engagement rate among ot...",
-  // },
-
-  // {
-  //   category: "Games",
-  //   id: 8,
-  //   img: "/Images/blog/blogImg2.png",
-  //   title: "Top Game Development Companies - Choose the Best One",
-  //   summary:
-  //     "Made up your mind to invest in game development? A great decision indeed. The reasons are many such as diverse monetization models, a loyal global Games community, a higher engagement rate among ot...",
-  // },
-
-  // {
-  //   category: "Games",
-  //   id: 9,
-  //   img: "/Images/blog/blogImg2.png",
-  //   title: "Top Game Development Companies - Choose the Best One",
-  //   summary:
-  //     "Made up your mind to invest in game development? A great decision indeed. The reasons are many such as diverse monetization models, a loyal global Games community, a higher engagement rate among ot...",
-  // },
-
-  // {
-  //   category: "Games",
-  //   id: 10,
-  //   img: "/Images/blog/blogImg2.png",
-  //   title: "Top Game Development Companies - Choose the Best One",
-  //   summary:
-  //     "Made up your mind to invest in game development? A great decision indeed. The reasons are many such as diverse monetization models, a loyal global Games community, a higher engagement rate among ot...",
-  // },
+  {
+    category: "AR",
+    id: 5,
+    name: "blog5",
+    img: "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Blogmob/blogc5.png",
+    title: "VR Business Applications: Unlocking Possibilities Beyond Gaming",
+    summary:
+      "Till we invent time travel, multi-dimensional travel, or any other sci-fi-inspired traveling - Virtual Reality (VR) is the only technology, for now, that can take you to a different reality.All thanks to its ultra-realistic visuals and real-time interactive experience, and a smart environment...",
+  },
+  {
+    category: "AR",
+    id: 6,
+    name: "blog6",
+    img: "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Blogmob/blogc6.png",
+    title:
+      "Augmented Reality and Virtual Reality: Dual Power Source for Your Skyrocketing Sales",
+    summary:
+      "What is the first thing that matters the most in product sales? The answer is simple and intuitive - the first impression Here are some evidence A consumer forms an impression of a retail interaction...",
+  },
+  {
+    category: "CGI",
+    id: 7,
+    name: "blog7",
+    img: "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Blogmob/blogc7.png",
+    title: "How to Hire The Best VFX Studios for Creating Cinematic Visuals",
+    summary:
+      "Have you ever imagined how in movies you see large-size dragons roaring, breathing fire, and sending shivers down the spine? Or ever thought about how a director shot actors and aliens in a single...",
+  },
+  {
+    category: "CGI",
+    id: 8,
+    name: "blog8",
+    img: "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Blogmob/blogc8.png",
+    title: "Miracles of CGI in eCommerce: Powerful Sales, Great Experience",
+    summary:
+      "If you are running an eCommerce business, you must be aware of the impact that a high-quality visual product representation makes. It boosts your sales and your brand image After all as per a stat....",
+  },
 ];
 
 const page = () => {
@@ -130,7 +113,7 @@ const page = () => {
           <p className="text-white font-bold text-normal md:text-[2vw]  ">
             Blog Posts
           </p>
-          <div className=" flex justify-between  w-[80%] items-center text-white md:text-[1em] font-semibold">
+          <div className=" flex justify-between -gap-y-2 w-[80%] flex-start flex-wrap   items-center text-white md:text-[1em] font-semibold">
             <button
               onClick={() => toggleCategory("")}
               className={category === "" ? "tab active-tab" : "tab"}
@@ -143,17 +126,17 @@ const page = () => {
             >
               Development
             </button>
-            <button
+            {/* <button
               onClick={() => toggleCategory("Design")}
               className={category === "Design" ? "tab active-tab" : "tab"}
             >
               Design
-            </button>
+            </button> */}
             <button
-              onClick={() => toggleCategory("3D")}
-              className={category === "3D" ? "tab active-tab" : "tab"}
+              onClick={() => toggleCategory("AI")}
+              className={category === "AI" ? "tab active-tab" : "tab"}
             >
-              3D
+              AI
             </button>
             <button
               onClick={() => toggleCategory("Games")}
@@ -161,10 +144,22 @@ const page = () => {
             >
               Games
             </button>
+            <button
+              onClick={() => toggleCategory("CGI")}
+              className={category === "CGI" ? "tab active-tab" : "tab"}
+            >
+              CGI
+            </button>
+            <button
+              onClick={() => toggleCategory("AR")}
+              className={category === "AR" ? "tab active-tab" : "tab"}
+            >
+              AR
+            </button>
           </div>
         </div>
 
-        <div className="allBlogs mx-auto">
+        <div className="allBlogs  mx-auto">
           {category === "Development"
             ? blogsArray
                 .filter((blog) => blog.category === "Development")
@@ -177,9 +172,17 @@ const page = () => {
             ? blogsArray
                 .filter((blog) => blog.category === "Games")
                 .map((blog, index) => <BlogCard key={index} {...blog} />)
-            : category === "3D"
+            : category === "AI"
             ? blogsArray
-                .filter((blog) => blog.category === "3D")
+                .filter((blog) => blog.category === "AI")
+                .map((blog, index) => <BlogCard key={index} {...blog} />)
+            : category === "CGI"
+            ? blogsArray
+                .filter((blog) => blog.category === "CGI")
+                .map((blog, index) => <BlogCard key={index} {...blog} />)
+            : category === "AR"
+            ? blogsArray
+                .filter((blog) => blog.category === "AR")
                 .map((blog, index) => <BlogCard key={index} {...blog} />)
             : category === ""
             ? blogsArray.map((blog, index) => (

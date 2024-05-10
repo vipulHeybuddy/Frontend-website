@@ -224,7 +224,7 @@ const Footer = () => {
               <p class="font-bold text-white text-xl">Featured Work</p>
               <div class="mt-6 space-y-2 text-sm flex flex-col items-center lg:items-start ">
                 <div className="flex items-center gap-2">
-                  <Link href="/Pages/casestudies/realestate">
+                  <Link href="/Pages/casestudies">
                     <Image
                       loading="lazy"
                       src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/A%20cubic%20shaped%20yellow%20duck%20in%20a%20Euclidean%20world.jpg"
@@ -234,7 +234,7 @@ const Footer = () => {
                       className="rounded-md border-1 w-[5vh] h-[5vh] xl:w-[10vh] xl:h-[10vh] cursor-pointer "
                     />
                   </Link>
-                  <Link href="/">
+                  <Link href="/Pages/casestudies">
                     <Image
                       loading="lazy"
                       src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/meta%20vr%20glasses.jpg"
@@ -245,7 +245,7 @@ const Footer = () => {
                     />
                   </Link>
 
-                  <Link href="/">
+                  <Link href="/Pages/casestudies">
                     <Image
                       loading="lazy"
                       src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/home%20page%20banner.jpg"

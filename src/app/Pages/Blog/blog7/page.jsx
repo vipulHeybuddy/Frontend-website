@@ -2,7 +2,7 @@ import React from "react";
 
 // import "../../../../styles/Font.css";
 import "./page.css";
-import BlogContent2 from "@/components/Blog/BlogContent2";
+import BlogContent7 from "@/components/Blog/BlogContent7";
 import { Blogs } from "@/components/Blogs";
 // import { useRouter } from "next/router";
 
@@ -13,7 +13,7 @@ import { Blogs } from "@/components/Blogs";
 function page() {
   // const { query } = useRouter();
   //   const { id } = params;
-  const SelectedBlog = Blogs.filter((blog) => blog.name === "blog2");
+  const SelectedBlog = Blogs.filter((blog) => blog.name === "blog7");
   const { blogType } = SelectedBlog[0];
   return (
     <section
@@ -27,7 +27,7 @@ function page() {
           : "bg-[url('/Images/EllipseDesign.svg')]"
       }`}
     >
-      <BlogContent2 SelectedBlog={SelectedBlog[0]} />
+      <BlogContent7 SelectedBlog={SelectedBlog[0]} />
 
       {/* related blogs */}
       <section className="lg:w-[90%] xl:w-[80%] mx-auto px-5 lg:px-0">

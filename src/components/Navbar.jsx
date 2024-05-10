@@ -23,7 +23,7 @@ const Navbartest = () => {
 
   const navLinks = [
     { href: "/#services", label: "Services" },
-    { href: "/#projects", label: "Projects" },
+    { href: "/Pages/casestudies", label: "Projects" },
     { href: "/#whyus", label: "Why Us" },
     { href: "/#testimonials", label: "Testimonials" },
     { href: "/Pages/Aboutus", label: "About Us" },

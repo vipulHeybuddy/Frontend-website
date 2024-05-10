@@ -44,7 +44,7 @@ const Section5 = ({ heading, requirement, execution, delivery, urlimg }) => {
 
           <div className="grid justify-center rounded-xl shadow-sm sm:grid-1 md:mb-12 md:grid-cols-2 lg:grid-cols-3 gap-y-4 gap-x-4">
             {List.map((section, index) => (
-              <div className="px-2 h-[28rem]" key={index}>
+              <div className="px-2" key={index}>
                 <figure class="flex flex-col p-4 lg:p-6 hover:bg-yellow-600 hover:bg-opacity-30 rounded-2xl  h-full w-full bg-gray-700  bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-10 border-2 border-gray-700">
                   <blockquote class="  text-gray-400">
                     <span className="text-left text-4xl lg:text-6xl font-semibold text-gray-400">
@@ -53,12 +53,12 @@ const Section5 = ({ heading, requirement, execution, delivery, urlimg }) => {
 
                     <h3
                       style={{ color: "white" }}
-                      class="py-4 text-xl font-semibold  "
+                      class="py-4 text-xl font-semibold"
                     >
                       {section.heading}
                     </h3>
 
-                    <p className="text-left text-gray-300 ">{section.para}</p>
+                    <p className="text-left text-white">{section.para}</p>
                   </blockquote>
                 </figure>
               </div>

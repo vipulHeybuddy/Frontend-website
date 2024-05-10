@@ -22,7 +22,7 @@ function page() {
           ? "bg-[url('/Images/EllipseGame.svg')]"
           : blogType === "Development"
           ? "bg-[url('/Images/EllipseDev.svg')]"
-          : blogType === "3D"
+          : blogType === "AI"
           ? "bg-[url('/Images/Ellipse3D.svg')]"
           : "bg-[url('/Images/EllipseDesign.svg')]"
       }`}

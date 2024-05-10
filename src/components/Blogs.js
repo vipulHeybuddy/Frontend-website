@@ -22,7 +22,7 @@ export const Blogs = [
   {
     id: 3,
     name: "blog3",
-    blogType: "3D",
+    blogType: "AI",
     title: "AI in Games: Refining the Way Games Developed & Play",
 
     // blogImage: "/Images/Blog.png",
@@ -32,11 +32,52 @@ export const Blogs = [
   {
     id: 4,
     name: "blog4",
-    blogType: "Design",
+    blogType: "CGI",
     title: "What is CGI: Definition, Development & Common Examples",
 
     // blogImage: "/Images/Blog.png",
     blogImage:
-      "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Img/Mask%20group%20(3).png",
+      "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Img/VFX-in-Advertising_-Boosting-Engagement-and-Brand-Appeal-1024x576.png",
+  },
+  {
+    id: 5,
+    name: "blog5",
+    blogType: "AR", //AR
+    title: "VR Business Applications: Unlocking Possibilities Beyond Gaming",
+
+    // blogImage: "/Images/Blog.png",
+    blogImage:
+      "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Img/woman-with-vr-glasses-futuristic-city.jpg",
+  },
+  {
+    id: 6,
+    name: "blog6",
+    blogType: "AR",
+    title:
+      "Augmented Reality and Virtual Reality: Dual Power Source for Your Skyrocketing Sales",
+
+    // blogImage: "/Images/Blog.png",
+    blogImage:
+      "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Img/person-wearing-high-tech-vr-glasses-while-surrounded-by-bright-blue-neon-colors.jpg",
+  },
+  {
+    id: 7,
+    name: "blog7",
+    blogType: "CGI",
+    title: "How to Hire The Best VFX Studios for Creating Cinematic Visuals",
+
+    // blogImage: "/Images/Blog.png",
+    blogImage:
+      "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Img/futuristic-business-office-space.jpg",
+  },
+  {
+    id: 8,
+    name: "blog8",
+    blogType: "CGI",
+    title: "Miracles of CGI in eCommerce: Powerful Sales, Great Experience",
+
+    // blogImage: "/Images/Blog.png",
+    blogImage:
+      "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Img/vsoupdtk-jpg.webp",
   },
 ];
