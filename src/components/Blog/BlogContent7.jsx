@@ -1,8 +1,15 @@
 "use client";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Scrollspy from "react-scrollspy";
 import "../../styles/Font.css";
 import Image from "next/image";
+import {
+  FacebookShare,
+  LinkedinShare,
+  TwitterShare,
+  WhatsappShare,
+  TelegramShare,
+} from "react-share-kit";
 
 import {
   FaChevronRight,
@@ -15,13 +22,21 @@ import {
   FaXTwitter,
 } from "react-icons/fa6";
 import "./page.css";
+import { useRouter } from "next/router";
 
 function BlogContent({ SelectedBlog }) {
+  const [shareUrl, setshareUrl] = useState("");
+  // const shareUrl = window.location.href;
+  useEffect(() => {
+    setshareUrl(window.location.href);
+  }, []);
+  const share_title = "Check out this awesome Blog by Hey Buddy!";
   const navbarHeight = 70;
   const handleNavClick = (id) => {
     const section = document.getElementById(id);
     if (section) {
-      const top = section.offsetTop + window.innerHeight-navbarHeight-navbarHeight;
+      const top =
+        section.offsetTop + window.innerHeight - navbarHeight - navbarHeight;
       window.scrollTo({
         top,
         behavior: "smooth",
@@ -40,7 +55,7 @@ function BlogContent({ SelectedBlog }) {
 
   return (
     <div className={`mx-auto px-5 lg:px-0 bg-no-repeat bg-fixed bg-top pt-28`}>
-      <div className="hidden lg:flex gap-2 items-center py-1 px-5 bg-white/10 w-fit rounded-[10px] text-white ml-[4.1rem]">
+      <div className="hidden lg:flex gap-2 items-center py-1 px-5 bg-white/10 w-fit rounded-[10px] text-white ml-[5%]">
         <span>Blog</span>
         <span>
           <FaChevronRight />
@@ -78,9 +93,9 @@ function BlogContent({ SelectedBlog }) {
             className="h-full w-full object-auto"
           />
         </div>
-        <div className="absolute bottom-0 w-full py-3 md:py-[25px] px-3 md:px-10 backdrop-blur-sm flex flex-col gap-2 md:gap-[21px]">
+        <div className="absolute bottom-0 w-full py-3 md:py-[25px] px-3 md:px-10 flex flex-col gap-2 md:gap-[21px]">
           <div
-            className={` flex lg:items-center py-[5px] px-4 gap-[6px] w-fit rounded-full ${
+            className={` flex  backdrop-blur-sm lg:items-center py-[5px] px-4 gap-[6px] w-fit rounded-full ${
               blogType === "Games"
                 ? "bg-[#ff5c0024]"
                 : blogType === "Development"
@@ -115,8 +130,8 @@ function BlogContent({ SelectedBlog }) {
               {blogType}
             </span>
           </div>
-          <h1 className="hidden lg:flex text-lg md:text-3xl font-semibold text-white">
-            {title}
+          <h1 className="hidden  md:flex text-lg md:text-3xl font-semibold text-white">
+            <span className="md:backdrop-blur-sm">{title}</span>
           </h1>
           <h1 className="text-white text-sm md:text-base">{pubDate}</h1>
         </div>
@@ -133,7 +148,7 @@ function BlogContent({ SelectedBlog }) {
                 id="section1"
                 className="flex flex-col gap-5 text-white text-base font-light"
               >
-                <h1 className="hidden lg:flex text-lg md:text-3xl font-semibold text-white">
+                <h1 className="text-3xl font-extrabold">
                   How to Hire The Best VFX Studios for Creating Cinematic
                   Visuals
                 </h1>
@@ -170,7 +185,9 @@ function BlogContent({ SelectedBlog }) {
                   they offer, and top 10 companies to consider ahead.
                 </p>
 
-                <p className="font-thin text-gray-100">With no further ado, let's get started on the same.</p>
+                <p className="font-thin text-gray-100">
+                  With no further ado, let's get started on the same.
+                </p>
                 <p className=" font-semibold">What is a VFX Company?</p>
 
                 <p className="font-thin text-gray-100">
@@ -191,7 +208,9 @@ function BlogContent({ SelectedBlog }) {
                   CGI-generated visuals and integrate them best with live-action
                   footage.
                 </p>
-                <h1 className="hidden lg:flex text-lg md:text-3xl font-semibold text-white">What Services do VFX Studios Offer?</h1>
+                <p className="font-semibold">
+                  What Services do VFX Studios Offer?
+                </p>
 
                 <p className="font-thin text-gray-100">
                   When it comes to hiring an agency from an extensive list of
@@ -204,7 +223,9 @@ function BlogContent({ SelectedBlog }) {
                   offered by the company you rely on.
                 </p>
 
-                <p className=" font-semibold">Visual Effects Creation & Pre-Visualization:</p>
+                <p className=" font-semibold">
+                  Visual Effects Creation & Pre-Visualization:
+                </p>
                 <p className="font-thin text-gray-100">
                   One of the integral services that VFX studio offers is the
                   creation of visual effects and finalizing the
@@ -257,7 +278,7 @@ function BlogContent({ SelectedBlog }) {
                   movements of characters and turning them into animation
                   effects or creatures.
                 </p>
-                <h1 className="hidden lg:flex text-lg md:text-3xl font-semibold text-white">List of VFX Studios in India</h1>
+                <p className="font-semibold">List of VFX Studios in India</p>
 
                 <p className=" font-semibold">
                   Here's the list of 10 major VFX studios in India that you can
@@ -269,21 +290,29 @@ function BlogContent({ SelectedBlog }) {
                   <li className="font-thin text-gray-100">Prime Focus</li>
                   <li className="font-thin text-gray-100">FUJIFILM</li>
                   <li className="font-thin text-gray-100">DQ Entertainment</li>
-                  <li className="font-thin text-gray-100">DNEG Creative Services</li>
+                  <li className="font-thin text-gray-100">
+                    DNEG Creative Services
+                  </li>
                   <li className="font-thin text-gray-100">Rotomaker</li>
-                  <li className="font-thin text-gray-100">Maya Digital Studios</li>
+                  <li className="font-thin text-gray-100">
+                    Maya Digital Studios
+                  </li>
                   <li className="font-thin text-gray-100">Xentrix Studios</li>
                   <li className="font-thin text-gray-100">Halo Media Works</li>
                   <li className="font-thin text-gray-100">Dawn Digital</li>
                 </ul>
 
-                <p className="font-thin text-gray-100">And, the list goes on.</p>
+                <p className="font-thin text-gray-100">
+                  And, the list goes on.
+                </p>
               </div>
               <div
                 id="section2"
                 className="flex flex-col gap-5 text-white text-base font-light"
               >
-                <h1 className="hidden lg:flex text-lg md:text-3xl font-semibold text-white">Top Reasons to Hire Artists from VFX Studio</h1>
+                <h1 className="text-3xl font-extrabold">
+                  Top Reasons to Hire Artists from VFX Studio
+                </h1>
 
                 <p className="font-thin text-gray-100">
                   Certainly, a VFX artist is a creative professional who
@@ -318,20 +347,30 @@ function BlogContent({ SelectedBlog }) {
                     focus on other important areas of business.
                   </li>
                 </ul>
-                <p className=" font-semibold">Who Can Hire Services from a VFX Studio?</p>
+                <p className=" font-semibold">
+                  Who Can Hire Services from a VFX Studio?
+                </p>
                 <p className="font-thin text-gray-100">
                   There is a wide range of companies and businesses that can
                   look forward to avail of VFX services from a reliable studio.
                 </p>
                 <ul className="list-disc">
-                  <li className="font-thin text-gray-100">Film production companies</li>
-                  <li className="font-thin text-gray-100">Advertising agencies</li>
-                  <li className="font-thin text-gray-100">Educational institutes</li>
+                  <li className="font-thin text-gray-100">
+                    Film production companies
+                  </li>
+                  <li className="font-thin text-gray-100">
+                    Advertising agencies
+                  </li>
+                  <li className="font-thin text-gray-100">
+                    Educational institutes
+                  </li>
                   <li className="font-thin text-gray-100">Media houses</li>
                   <li className="font-thin text-gray-100">Gaming companies</li>
                 </ul>
 
-                <p className=" font-semibold">How to Hire an Ideal VFX Studio?</p>
+                <p className=" font-semibold">
+                  How to Hire an Ideal VFX Studio?
+                </p>
                 <p className="font-thin text-gray-100">
                   It's a matter of great concern to look at what a VFX studio
                   can do for you. Follow the below-mentioned tips while hiring a
@@ -379,7 +418,7 @@ function BlogContent({ SelectedBlog }) {
                 id="section3"
                 className="flex flex-col gap-5 text-white text-base font-light"
               >
-                <h1 className="hidden lg:flex text-lg md:text-3xl font-semibold text-white">Final Thoughts</h1>
+                <h1 className="text-3xl font-extrabold">Final Thoughts</h1>
                 <p className="font-thin text-gray-100">
                   In the rapidly growing digital space, creating attractive
                   visuals for films, television, and ads matters the most to
@@ -407,7 +446,7 @@ function BlogContent({ SelectedBlog }) {
                 id="section4"
                 className="flex flex-col gap-5 text-white text-base font-light"
               >
-                <h1 className="hidden lg:flex text-lg md:text-3xl font-semibold text-white">FAQs</h1>
+                <h1 className="text-3xl font-extrabold">FAQs</h1>
                 <p className=" font-semibold">What does a VFX studio do?</p>
                 <p className="font-thin text-gray-100">
                   VFX combines computer-generated (CG) sequences with
@@ -427,7 +466,9 @@ function BlogContent({ SelectedBlog }) {
                   viewing experience.
                 </p>
 
-                <p className=" font-semibold">Which is the biggest VFX studio in India?</p>
+                <p className=" font-semibold">
+                  Which is the biggest VFX studio in India?
+                </p>
                 <p className="font-thin text-gray-100">
                   The biggest VFX studio in Gurgaon, India, is Hey Buddy. They
                   have delivered several projects with exceptional quality and
@@ -440,7 +481,7 @@ function BlogContent({ SelectedBlog }) {
           {/* bottom community section */}
           <div>
             <div
-              className={` border-2  rounded-[30px] flex items-center justify-between py-[40px] px-5 ${
+              className={` border-2  rounded-[30px] flex items-center justify-between py-8 px-5 ${
                 blogType === "Games"
                   ? "border-[#FF5C00] bg-[#ff5c0024]"
                   : blogType === "Development"
@@ -450,24 +491,52 @@ function BlogContent({ SelectedBlog }) {
                   : "border-[#00FFE0] bg-[#00ffe024]"
               }`}
             >
-              <h1 className=" text-base md:text-xl font-normal text-white">
+              <h1 className=" text-base md:text-xl  font-normal text-white">
                 Share with your community!
               </h1>
               <div className="flex items-center gap-3">
                 <div>
-                  <FaGithub className=" h-4 md:h-6 w-4 md:w-6 text-white" />
+                  <TwitterShare
+                    url={shareUrl}
+                    title={share_title}
+                    hashtags={["HEYBUDDY", "BLOGS"]}
+                    round
+                    size="30px"
+                  />
                 </div>
                 <div>
-                  <FaXTwitter className=" h-4 md:h-6 w-4 md:w-6 text-white" />
+                  <LinkedinShare
+                    url={shareUrl}
+                    quote={share_title}
+                    round
+                    size="30px"
+                  />
+                </div>
+                {/* <div>
+                  <InstagramShare
+                    url={shareUrl}
+                    title={share_title}
+                  />
+                </div> */}
+                <div>
+                  <FacebookShare
+                    url={shareUrl}
+                    quote={share_title}
+                    round
+                    size="30px"
+                  />
                 </div>
                 <div>
-                  <FaLinkedin className=" h-4 md:h-6 w-4 md:w-6 text-white" />
+                  <TelegramShare url={shareUrl} round size="30px" />
                 </div>
                 <div>
-                  <FaInstagram className=" h-4 md:h-6 w-4 md:w-6 text-white" />
-                </div>
-                <div>
-                  <FaFacebook className="h-4 md:h-6 w-4 md:w-6 text-white" />
+                  <WhatsappShare
+                    url={shareUrl}
+                    title={share_title}
+                    separator=":: "
+                    round
+                    size="30px"
+                  />
                 </div>
               </div>
             </div>

@@ -14,13 +14,13 @@ const texts = [
     title: "Custom AI Solutions",
     description:
       "We develop tailored AI applications crafted to align with your unique business goals and specific challenges. We have a team of AI experts that does it all for you with their skills, knowledge, and experience.",
-    img: "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/aiservice/scrl1.jpg",
+    img: "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/aiservice/custom_Ai.jpg",
   },
   {
     title: "Machine Learning Expertise",
     description:
       "We help you capitalize on the power of machine learning for predictive analytics, pattern recognition, and data-driven insights. Thereby, we not only drive informed decision-making for you but also deliver intelligence solutions.",
-    img: "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/aiservice/scrl2.jpg",
+    img: "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/aiservice/ml_expert.jpg",
   },
   {
     title: "Natural Language Processing (NLP)",
@@ -32,7 +32,7 @@ const texts = [
     title: "Computer Vision Applications",
     description:
       "We give sight to your machines adding to their intelligence and capabilities with computer vision solutions. You can use it for image and video analysis, object recognition, and advanced visual data interpretation.",
-    img: "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/aiservice/scrl4.jpg",
+    img: "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/aiservice/computer_vision.jpg",
   },
   {
     title: "Data Analytics and Insights",
@@ -44,7 +44,7 @@ const texts = [
     title: "Automation and Optimization",
     description:
       "We facilitate AI-driven automation to improve your business efficiency and reduce operational costs. This leads to workflow optimization and high overall productivity, resulting in timely quality delivery.",
-    img: "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/aiservice/scrl6.jpg",
+    img: "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/aiservice/automation.jpg",
   },
 ];
 
@@ -113,13 +113,13 @@ const Motionslide = () => {
                 <PhotoItem
                   title="0"
                   imgSrc={
-                    "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/aiservice/scrl1.jpg"
+                    "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/aiservice/custom_Ai.jpg"
                   }
                 />
                 <PhotoItem
                   title="1"
                   imgSrc={
-                    "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/aiservice/scrl2.jpg"
+                    "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/aiservice/ml_expert.jpg"
                   }
                 />
                 <PhotoItem
@@ -131,7 +131,7 @@ const Motionslide = () => {
                 <PhotoItem
                   title="3"
                   imgSrc={
-                    "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/aiservice/scrl4.jpg"
+                    "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/aiservice/computer_vision.jpg"
                   }
                 />
                 <PhotoItem
@@ -143,7 +143,7 @@ const Motionslide = () => {
                 <PhotoItem
                   title="5"
                   imgSrc={
-                    "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/aiservice/scrl6.jpg"
+                    "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/aiservice/automation.jpg"
                   }
                 />
               </div>
