@@ -21,7 +21,8 @@ function BlogContent({ SelectedBlog }) {
   const handleNavClick = (id) => {
     const section = document.getElementById(id);
     if (section) {
-      const top = section.offsetTop + window.innerHeight - 20 - navbarHeight;
+      const top =
+        section.offsetTop + window.innerHeight - navbarHeight - navbarHeight;
       window.scrollTo({
         top,
         behavior: "smooth",
@@ -58,7 +59,7 @@ function BlogContent({ SelectedBlog }) {
             : "border-[#00FFE0]"
         }`}
       >
-        <div className="lg:hidden w-full h-full ">
+        <div className="xl:hidden w-full h-full ">
           <Image
             loading="lazy"
             src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Img/person-wearing-high-tech-vr-glasses-while-surrounded-by-bright-blue-neon-colors.jpg"
@@ -68,7 +69,7 @@ function BlogContent({ SelectedBlog }) {
             className="h-full w-full object-auto"
           />
         </div>
-        <div className="hidden lg:flex w-full h-full ">
+        <div className="hidden xl:flex w-full h-full ">
           <Image
             loading="lazy"
             src={blogImage}
@@ -144,7 +145,9 @@ function BlogContent({ SelectedBlog }) {
                   impression.
                 </p>
 
-                <p className="font-thin text-gray-100">Here are some evidence:</p>
+                <p className="font-thin text-gray-100">
+                  Here are some evidence:
+                </p>
 
                 <ul className="list-disc">
                   <li className="font-thin text-gray-100">
@@ -181,7 +184,9 @@ function BlogContent({ SelectedBlog }) {
                   impression if you want to make the best first impression.
                 </p>
 
-                <p className="font-thin text-gray-100">This is exactly where AR and VR are making a difference.</p>
+                <p className="font-thin text-gray-100">
+                  This is exactly where AR and VR are making a difference.
+                </p>
 
                 <p className="font-thin text-gray-100">
                   The unique ability of AR and showcase products and services in
@@ -193,7 +198,9 @@ function BlogContent({ SelectedBlog }) {
                 id="section2"
                 className="flex flex-col gap-5 text-white text-base font-light"
               >
-                <h1 className="hidden lg:flex text-lg md:text-3xl font-semibold text-white">Augmented Reality in Sales</h1>
+                <h1 className="hidden lg:flex text-lg md:text-3xl font-semibold text-white">
+                  Augmented Reality in Sales
+                </h1>
                 <p className="font-thin text-gray-100">
                   Augmented Reality is a phenomenal immersive technology that
                   overlays digital elements onto real-world objects and syncs
@@ -273,7 +280,9 @@ function BlogContent({ SelectedBlog }) {
                 </p>
                 <p className=" font-semibold">Novelty and Engagement</p>
 
-                <p className="font-thin text-gray-100">Last but not the least!!</p>
+                <p className="font-thin text-gray-100">
+                  Last but not the least!!
+                </p>
 
                 <p className="font-thin text-gray-100">
                   Since AR is still a fairly new and unexplored avenue of
@@ -305,7 +314,9 @@ function BlogContent({ SelectedBlog }) {
                 id="section3"
                 className="flex flex-col gap-5 text-white text-base font-light"
               >
-                <h1 className="hidden lg:flex text-lg md:text-3xl font-semibold text-white">Virtual Reality in Sales</h1>
+                <h1 className="hidden lg:flex text-lg md:text-3xl font-semibold text-white">
+                  Virtual Reality in Sales
+                </h1>
                 <p className="font-thin text-gray-100">
                   Coming to another powerful immersive technology, VR transports
                   its user into virtual environments where they are present in
@@ -378,7 +389,9 @@ function BlogContent({ SelectedBlog }) {
                   detail.
                 </p>
 
-                <p className="font-thin text-gray-100">This will bring your brand two powerful outcomes.</p>
+                <p className="font-thin text-gray-100">
+                  This will bring your brand two powerful outcomes.
+                </p>
 
                 <ul className="list-disc">
                   <li className="font-thin text-gray-100">
@@ -497,7 +510,9 @@ function BlogContent({ SelectedBlog }) {
                   orders.
                 </p>
 
-                <p className="font-thin text-gray-100">Enhanced In-Store Experience:</p>
+                <p className="font-thin text-gray-100">
+                  Enhanced In-Store Experience:
+                </p>
                 <p className="font-thin text-gray-100">
                   AR can also help you add information layers to physical
                   products, gamify shopping experiences, or provide wayfinding
@@ -519,7 +534,9 @@ function BlogContent({ SelectedBlog }) {
                     special offers by just scanning the particular product.
                   </li>
                 </ul>
-                <h1 className="hidden lg:flex text-lg md:text-3xl font-semibold text-white">Immersive Brand Storytelling</h1>
+                <h1 className="hidden lg:flex text-lg md:text-3xl font-semibold text-white">
+                  Immersive Brand Storytelling
+                </h1>
                 <p className="font-thin text-gray-100">
                   Using the amazing VR capability to transport customers into a
                   new reality, brand can use it for immersive story telling. By
@@ -557,7 +574,9 @@ function BlogContent({ SelectedBlog }) {
                   positive emotions and perceptions with your brand.
                 </p>
 
-                <h1 className="hidden lg:flex text-lg md:text-3xl font-semibold text-white">The North Face</h1>
+                <h1 className="hidden lg:flex text-lg md:text-3xl font-semibold text-white">
+                  The North Face
+                </h1>
                 <p className="font-thin text-gray-100">
                   Under its VR initiative, the American outdoor gear and
                   clothing company offers users the opportunity to explore and
@@ -597,7 +616,9 @@ function BlogContent({ SelectedBlog }) {
                   </li>
                 </ul>
 
-                <h1 className="hidden lg:flex text-lg md:text-3xl font-semibold text-white">Hilton</h1>
+                <h1 className="hidden lg:flex text-lg md:text-3xl font-semibold text-white">
+                  Hilton
+                </h1>
                 <p className="font-thin text-gray-100">
                   Hilton is a popular hotel brand that offers a wide range of
                   accommodation options worldwide.
@@ -710,7 +731,7 @@ function BlogContent({ SelectedBlog }) {
                     ? "border-[#FF001F] text-[#FF001F]"
                     : "border-[#00FFE0] text-[#00FFE0]"
                 }`}
-                offset={-70}
+                offset={-140}
               >
                 <h1
                   className={`cursor-pointer pl-2`}

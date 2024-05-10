@@ -21,7 +21,7 @@ function BlogContent({ SelectedBlog }) {
   const handleNavClick = (id) => {
     const section = document.getElementById(id);
     if (section) {
-      const top = section.offsetTop + window.innerHeight - 20 - navbarHeight;
+      const top = section.offsetTop + window.innerHeight-navbarHeight-navbarHeight;
       window.scrollTo({
         top,
         behavior: "smooth",
@@ -58,7 +58,7 @@ function BlogContent({ SelectedBlog }) {
             : "border-[#00FFE0]"
         }`}
       >
-        <div className="lg:hidden w-full h-full ">
+        <div className="xl:hidden w-full h-full ">
           <Image
             loading="lazy"
             src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Img/vsoupdtk-jpg.webp"
@@ -68,7 +68,7 @@ function BlogContent({ SelectedBlog }) {
             className="h-full w-full object-auto"
           />
         </div>
-        <div className="hidden lg:flex w-full h-full ">
+        <div className="hidden xl:flex w-full h-full ">
           <Image
             loading="lazy"
             src={blogImage}
@@ -600,7 +600,7 @@ function BlogContent({ SelectedBlog }) {
                     ? "border-[#FF001F] text-[#FF001F]"
                     : "border-[#00FFE0] text-[#00FFE0]"
                 }`}
-                offset={-70}
+                offset={-140}
               >
                 <h1
                   className={`cursor-pointer pl-2`}

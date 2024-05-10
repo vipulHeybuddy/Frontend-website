@@ -74,10 +74,10 @@ const Section3 = ({ heading1, heading2, heading3, para1, para2, para3 }) => {
       serialno: "01",
       heading: "Avdhesh Kashyap",
       imgurl:
-        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Aboutus/faceimg1.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Avdhesh_profile.png",
       para: para1,
       href: "https://www.linkedin.com/in/avdhesh-kashyap-0b240022b/",
-      title:"Founder & CEO"
+      title: "Founder & CEO",
     },
     {
       id: "2",
@@ -87,7 +87,7 @@ const Section3 = ({ heading1, heading2, heading3, para1, para2, para3 }) => {
         "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Aboutus/faceimg2.png",
       para: para2,
       href: "https://www.linkedin.com/in/kapil-panchal-/",
-      title:"Founder & COO"
+      title: "Founder & COO",
     },
   ];
 
@@ -168,7 +168,9 @@ const Section3 = ({ heading1, heading2, heading3, para1, para2, para3 }) => {
                       {section.heading}
                     </h3>
 
-                    <p className="text-center text-gray-300 ">{section.title}</p>
+                    <p className="text-center text-gray-300 ">
+                      {section.title}
+                    </p>
                   </blockquote>
                   <div className=" lg:mt-4">
                     <ul class="mx-auto justify-center mt-8 flex lg:justify-start gap-6 sm:mt-0 sm:justify-end text-center">

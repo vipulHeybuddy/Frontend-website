@@ -37,7 +37,7 @@ export const Blogs = [
 
     // blogImage: "/Images/Blog.png",
     blogImage:
-      "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Img/VFX-in-Advertising_-Boosting-Engagement-and-Brand-Appeal-1024x576.png",
+      "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Img/VFX-in-Advertising_-Boosting-Engagement-and-Brand-Appeal-1024x576_big.png",
   },
   {
     id: 5,
@@ -47,7 +47,7 @@ export const Blogs = [
 
     // blogImage: "/Images/Blog.png",
     blogImage:
-      "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Img/woman-with-vr-glasses-futuristic-city.jpg",
+      "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Img/woman-with-vr-glasses-futuristic-city_big.png",
   },
   {
     id: 6,
@@ -58,7 +58,7 @@ export const Blogs = [
 
     // blogImage: "/Images/Blog.png",
     blogImage:
-      "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Img/person-wearing-high-tech-vr-glasses-while-surrounded-by-bright-blue-neon-colors.jpg",
+      "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Img/person-wearing-high-tech-vr-glasses-while-surrounded-by-bright-blue-neon-colors_big.png",
   },
   {
     id: 7,
@@ -68,7 +68,7 @@ export const Blogs = [
 
     // blogImage: "/Images/Blog.png",
     blogImage:
-      "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Img/futuristic-business-office-space.jpg",
+      "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Img/futuristic-business-office-space%201_big.png",
   },
   {
     id: 8,
@@ -78,6 +78,6 @@ export const Blogs = [
 
     // blogImage: "/Images/Blog.png",
     blogImage:
-      "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Img/vsoupdtk-jpg.webp",
+      "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Img/vsoupdtk-jpg_big.png",
   },
 ];

@@ -11,7 +11,10 @@ const Timelinecomp = ({
   requirement,
   ideation,
   designing,
+  testing,
+  optimization,
   development,
+
   deployment,
 }) => {
   const controls = useAnimation();
@@ -130,6 +133,20 @@ const Timelinecomp = ({
                         <li>
                           <h3 className="font-bold text-2xl ">Development </h3>
                           <p className="text-lg">{development}</p>
+                        </li>
+                      )}
+                      {testing && (
+                        <li>
+                          <h3 className="font-bold text-2xl ">
+                            Inspection & Testing{" "}
+                          </h3>
+                          <p className="text-lg">{testing}</p>
+                        </li>
+                      )}
+                      {optimization && (
+                        <li>
+                          <h3 className="font-bold text-2xl ">Optimization</h3>
+                          <p className="text-lg">{optimization}</p>
                         </li>
                       )}
 

@@ -103,6 +103,8 @@ function Slider1() {
 
   const billBord =
     "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/home%20page%20service%20card/6.3D%20Billboard.png";
+  const aiimg =
+    "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/aiservice/4.jpg";
 
   return (
     <motion.div
@@ -301,7 +303,7 @@ function Slider1() {
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
           >
-            <Link href="/Pages/services/ardevelopment">
+            <Link href="/Pages/services/metaverse">
               <div
                 className="textdiv"
                 style={{
@@ -436,6 +438,42 @@ function Slider1() {
                   width={450}
                   height={450}
                   src={web3dev}
+                  alt="slide_image"
+                />
+              </div>
+            </Link>
+          </SwiperSlide>
+          <SwiperSlide
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+          >
+            <Link href="/Pages/services/aidevelopment">
+              <div
+                className="textdiv"
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "flex-start",
+                }}
+              >
+                <div style={{ textAlign: "left" }} className="pt-4 px-4">
+                  <h1
+                    style={{ fontSize: "1.7rem", color: "white" }}
+                    className="mt-3"
+                  >
+                    AI Development
+                  </h1>
+                  <p className="text-[#cfcece] pb-2 font-thin">
+                    We infuse intelligence in your business with AI solutions
+                    that analyse huge data, predict future trends and automated
+                    execution.
+                  </p>
+                </div>
+                <Image
+                  loading="lazy"
+                  width={450}
+                  height={450}
+                  src={aiimg}
                   alt="slide_image"
                 />
               </div>

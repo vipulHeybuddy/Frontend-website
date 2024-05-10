@@ -13,7 +13,7 @@ import Section9 from "@/components/casestudiescomp/realstatecomp/gamedev/Section
 
 import React from "react";
 export function generateStaticParams() {
-  return [{ id: "9" }];
+  return [{ id: "9", id: "12" }];
 }
 const page = ({ params }) => {
   const { id } = params;
@@ -98,6 +98,93 @@ const page = ({ params }) => {
         "Hey Buddy's AI development capability brought Servi to the world. Their expertise in AI, voice technology, and deep research of the food industry resulted in a path-breaking solution that combines convenience, personalization, and operational efficiency.",
       section11: {
         para: "Transform Your Customer Experience with AI.",
+      },
+      link: "/Pages/casestudies/AIcasestudy/[id]",
+      imgurl:
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Images/img1.webp",
+    },
+    {
+      id: "12",
+      heading1: "AI For Human Matchmaking: Data-driven Relationship",
+      heading2: "Social Connections with Mechanical Approach",
+      url1: "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/casestudy/AI/12_2.jpg",
+      url3: "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/casestudy/AI/12_1.jpg",
+      para1:
+        "Our client, a visionary startup, aimed to alter the paradigm of social networking space. They had a vision of an intelligent AI-infused matchmaking app that fosters genuine connections based on shared interests, values, and personality traits.",
+      para2:
+        "They approached us to develop an AI-driven mobile app that would tap intelligent technology to facilitate meaningful interactions among users.",
+      para3:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aliquid repellendus similique nisi molestias nostrum sequi itaque mollitia minus quisquam animi, optio quaerat deleniti dignissimos officiis quis possimus non natus?",
+      para4:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aliquid repellendus similique nisi molestias nostrum sequi itaque mollitia minus quisquam animi, optio quaerat deleniti dignissimos officiis quis possimus non natus?",
+      about:
+        "The existing social apps often fail to create genuine connections, leading to superficial interactions and dissatisfaction. However, like all the problems in the world, AI has a data-based solution for it as well. An AI-powered app would use sophisticated algorithms, natural language processing (NLP), and machine learning (ML) to gather and analyze data such as user preferences, behaviors, etc. leading to enhanced matchmaking and personalized experiences. We developed a revolutionary social platform that analyses huge datasets to foster authentic connections and facilitate meaningful interactions, resulting in the start of long-lasting relationships and the creation of a vibrant community driven by shared interests and values.",
+      section5: {
+        heading: "One AI Application to Overcome Varied Social Challenges",
+        requirement:
+          "Providing a personalized matchmaking experience that caters to diverse user preferences, interests, and personalities was a significant challenge. Traditional social apps only stayed relevant for superficial interactions.",
+        execution:
+          "We utilize the expertise of our team in AI, machine learning, and mobile app development. Then, we combine it with a deep understanding of psychological experts on user behavior and social dynamics, bringing forth an ideal solution.",
+        delivery:
+          "An AI-powered matchmaking engine that leverages NLP, ML algorithms, and contextual data analysis. The result - a better matchmaking outcome based on personality compatibility.",
+        urlimg:
+          "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/casestudy/AI/12_3.jpg",
+      },
+      section6: {
+        heading:
+          "Hey Buddy Successfully Delivering A Unique AI-social Solution",
+        para: "Our efforts met success with an AI-driven mobile app, set to revolutionize social connections using huge data sets, advanced algorithms, and machine learning. It deeply analyses user data critical for matchmaking a long-term relationship.",
+        list1:
+          " AI-powered matchmaking engine that analyzes user profiles, interests, values, and personality traits to suggest compatible matches.",
+        list2:
+          " Natural language processing (NLP) for understanding user interactions, interests, and preferences through chat and profile data.",
+        list3:
+          "Contextual data analysis, including location, activity patterns, and real-time feedback, to refine and optimize match recommendations.",
+        grid: {
+          cell11: "40%",
+          cell1: "increase in user engagement and retention",
+          cell21: "35%",
+          cell2:
+            " higher match satisfaction rates compared to traditional apps",
+          cell31: "30%",
+          cell3: "reduction in user churn rate",
+          cell41: "25%",
+          cell4: "increase in positive user reviews and ratings",
+        },
+      },
+      section7: {
+        heading1: "Adopt Data-driven Approach",
+        heading2: "For Assured Success",
+      },
+      section8: {
+        //heading:"",
+        requirement:
+          "Conducted extensive user research, consultation with psychologist, and focus groups to understand critical points in social matchmaking.",
+        ideation:
+          "Collaborated with the client to refine their idea on the AI-powered matchmaking engine, defining key features and user experience.",
+        designing:
+          "Created detailed user interfaces, interaction flows, and AI algorithms for personalized recommendations and contextual data analysis.",
+        development:
+          "Leveraged NLP, ML, and advanced data analytics to build the AI matchmaking engine and mobile app.",
+        deployment:
+          "Meticulous integration of the AI engine with the mobile app for a smooth and engaging user experience across platforms.",
+      },
+      section9: {
+        heading1:
+          "Personalization Perfected: Decoding User Preferences with NLP",
+        heading2: "Fort Knox Security: Safeguarding User Privacy",
+        heading3: "Refining Excellence: AI Optimization for Enhanced Matches",
+        para1:
+          "Our first challenge was developing robust NLP models to accurately interpret user personality traits from unstructured data sources. We employed advanced NLP models, extensive training data, and refined algorithms to overcome this.",
+        para2:
+          "Ensuring data privacy and security while handling sensitive user information and personal data. At Hey Buddy, we prioritize user privacy by implementing robust encryption protocols and stringent security measures.",
+        para3:
+          "It is crucial to continuously refine and optimize the AI models based on real-time user feedback and interaction data, improving match accuracy. We gathered user feedback and interaction data to continuously refine our AI models.",
+      },
+      testimonal:
+        "Our app altered the paradigm in social networking. Hey, Buddy’s team combined AI, machine learning, and user experience design to create a truly intelligent matchmaking platform that understands our users' preferences and personalities.",
+      section11: {
+        para: "Want an intelligent App of your own?",
       },
       link: "/Pages/casestudies/AIcasestudy/[id]",
       imgurl:
