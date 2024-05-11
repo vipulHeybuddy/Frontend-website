@@ -1,9 +1,15 @@
 "use client";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Scrollspy from "react-scrollspy";
 import "../../styles/Font.css";
 import Image from "next/image";
-
+import {
+  FacebookShare,
+  LinkedinShare,
+  TwitterShare,
+  WhatsappShare,
+  TelegramShare,
+} from "react-share-kit";
 import {
   FaChevronRight,
   FaFacebook,
@@ -15,13 +21,21 @@ import {
   FaXTwitter,
 } from "react-icons/fa6";
 import "./page.css";
+import { useRouter } from "next/router";
 
 function BlogContent({ SelectedBlog }) {
+  const [shareUrl, setshareUrl] = useState("");
+  // const shareUrl = window.location.href;
+  useEffect(() => {
+    setshareUrl(window.location.href);
+  }, []);
+  const share_title = "Check out this awesome Blog by Hey Buddy!";
   const navbarHeight = 70;
   const handleNavClick = (id) => {
     const section = document.getElementById(id);
     if (section) {
-      const top = section.offsetTop + window.innerHeight-navbarHeight-navbarHeight;
+      const top =
+        section.offsetTop + window.innerHeight - navbarHeight - navbarHeight;
       window.scrollTo({
         top,
         behavior: "smooth",
@@ -40,7 +54,7 @@ function BlogContent({ SelectedBlog }) {
 
   return (
     <div className={`mx-auto px-5 lg:px-0 bg-no-repeat bg-fixed bg-top pt-28`}>
-      <div className="hidden lg:flex gap-2 items-center py-1 px-5 bg-white/10 w-fit rounded-[10px] text-white ml-[4.1rem]">
+      <div className="hidden lg:flex gap-2 items-center py-1 px-5 bg-white/10 w-fit rounded-[10px] text-white ml-[5%]">
         <span>Blog</span>
         <span>
           <FaChevronRight />
@@ -78,9 +92,9 @@ function BlogContent({ SelectedBlog }) {
             className="h-full w-full object-auto"
           />
         </div>
-        <div className="absolute bottom-0 w-full py-3 md:py-[25px] px-3 md:px-10 backdrop-blur-sm flex flex-col gap-2 md:gap-[21px]">
+        <div className="absolute bottom-0 w-full py-3 md:py-[25px] px-3 md:px-10  flex flex-col gap-2 md:gap-[21px]">
           <div
-            className={` flex lg:items-center py-[5px] px-4 gap-[6px] w-fit rounded-full ${
+            className={` flex backdrop-blur-sm lg:items-center py-[5px] px-4 gap-[6px] w-fit rounded-full ${
               blogType === "Games"
                 ? "bg-[#ff5c0024]"
                 : blogType === "Development"
@@ -115,8 +129,8 @@ function BlogContent({ SelectedBlog }) {
               {blogType}
             </span>
           </div>
-          <h1 className="hidden lg:flex text-lg md:text-3xl font-semibold text-white">
-            {title}
+          <h1 className="hidden  md:flex text-lg md:text-3xl font-semibold text-white">
+            <span className="md:backdrop-blur-sm">{title}</span>
           </h1>
           <h1 className="text-white text-sm md:text-base">{pubDate}</h1>
         </div>
@@ -133,7 +147,7 @@ function BlogContent({ SelectedBlog }) {
                 id="section1"
                 className="flex flex-col gap-5 text-white text-base font-light"
               >
-                <h1 className="hidden lg:flex text-lg md:text-3xl font-semibold text-white">
+                <h1 className="text-3xl font-extrabold">
                   Miracles of CGI in eCommerce: Powerful Sales, Great Experience
                 </h1>
 
@@ -161,7 +175,9 @@ function BlogContent({ SelectedBlog }) {
                   offering that it brings to the customer.
                 </p>
 
-                <p className=" font-semibold">The Role of CGI in Product Visualization</p>
+                <p className=" font-semibold">
+                  The Role of CGI in Product Visualization
+                </p>
 
                 <p className="font-thin text-gray-100">
                   CGI offers a solution that goes beyond traditional
@@ -175,9 +191,15 @@ function BlogContent({ SelectedBlog }) {
                 </p>
 
                 <ul className="list-disc">
-                  <li className="font-thin text-gray-100">They can change their color</li>
-                  <li className="font-thin text-gray-100">Visualize different configurations</li>
-                  <li className="font-thin text-gray-100">Explore variations</li>
+                  <li className="font-thin text-gray-100">
+                    They can change their color
+                  </li>
+                  <li className="font-thin text-gray-100">
+                    Visualize different configurations
+                  </li>
+                  <li className="font-thin text-gray-100">
+                    Explore variations
+                  </li>
                 </ul>
 
                 <p className="font-thin text-gray-100">
@@ -196,8 +218,10 @@ function BlogContent({ SelectedBlog }) {
                   level of immersion and engagement for your customers.
                 </p>
 
-                <p className="font-thin text-gray-100">Let’s discuss these aspects in detail.</p>
-                <h1 className="hidden lg:flex text-lg md:text-3xl font-semibold text-white">Hyper-Realistic Imagery</h1>
+                <p className="font-thin text-gray-100">
+                  Let’s discuss these aspects in detail.
+                </p>
+                <p className="font-semibold">Hyper-Realistic Imagery</p>
                 <p className=" font-semibold">CGI in eCommerce</p>
                 <p className="font-thin text-gray-100">
                   You can use CGI in eCommerce business to create stunning and
@@ -218,8 +242,10 @@ function BlogContent({ SelectedBlog }) {
                   appearance and quality.
                 </p>
 
-                <h1 className="hidden lg:flex text-lg md:text-3xl font-semibold text-white">Customization Options</h1>
-                <p className=" font-semibold">Effective Personalization in eCommerce</p>
+                <p className="font-semibold">Customization Options</p>
+                <p className=" font-semibold">
+                  Effective Personalization in eCommerce
+                </p>
                 <p className="font-thin text-gray-100">
                   Do you know, as per research, that effective personalization
                   can drive a 10 to 15 percent revenue lift? Some businesses can
@@ -228,7 +254,9 @@ function BlogContent({ SelectedBlog }) {
                   scope of sales boost with minimal effort.
                 </p>
 
-                <p className="font-thin text-gray-100">CGI in eCommerce is that innovative power.</p>
+                <p className="font-thin text-gray-100">
+                  CGI in eCommerce is that innovative power.
+                </p>
 
                 <ul className="list-disc">
                   <li className="font-thin text-gray-100">
@@ -296,7 +324,9 @@ function BlogContent({ SelectedBlog }) {
                   increased.
                 </p>
 
-                <p className=" font-semibold">Demonstrating Features and Processes</p>
+                <p className=" font-semibold">
+                  Demonstrating Features and Processes
+                </p>
 
                 <p className="font-thin text-gray-100">
                   You can use CGI animations to demonstrate intricate features
@@ -320,7 +350,7 @@ function BlogContent({ SelectedBlog }) {
                 id="section2"
                 className="flex flex-col gap-5 text-white text-base font-light"
               >
-                <h1 className="hidden lg:flex text-lg md:text-3xl font-semibold text-white">
+                <h1 className="text-3xl font-extrabold">
                   One Biggest Edge with CGI in eCommerce: An Unforgettable
                   Customer Experience
                 </h1>
@@ -373,7 +403,9 @@ function BlogContent({ SelectedBlog }) {
                     infuse entertainment and educational content. Giving them a
                     great experience.
                   </p>
-                  <p className="font-thin text-gray-100">However, this does not mean that AR is a no-go.</p>
+                  <p className="font-thin text-gray-100">
+                    However, this does not mean that AR is a no-go.
+                  </p>
                   <p className="font-thin text-gray-100">
                     At Hey Buddy, one of India’s fastest-growing technology
                     companies, we have a team that integrates augmented reality
@@ -388,7 +420,7 @@ function BlogContent({ SelectedBlog }) {
                 id="section3"
                 className="flex flex-col gap-5 text-white text-base font-light"
               >
-                <h1 className="hidden lg:flex text-lg md:text-3xl font-semibold text-white">
+                <h1 className="text-3xl font-extrabold">
                   Overcoming Challenges and Considerations in CGI Implementation
                 </h1>
                 <p className=" font-semibold">Cost Management:</p>
@@ -404,11 +436,19 @@ function BlogContent({ SelectedBlog }) {
                   analysis to assess the potential ROI of CGI integration.
                 </p>
                 <ul className="list-disc">
-                  <li className="font-thin text-gray-100">Outsourcing development</li>
-                  <li className="font-thin text-gray-100">Utilizing open-source tools</li>
-                  <li className="font-thin text-gray-100">Leveraging cloud-based solutions</li>
+                  <li className="font-thin text-gray-100">
+                    Outsourcing development
+                  </li>
+                  <li className="font-thin text-gray-100">
+                    Utilizing open-source tools
+                  </li>
+                  <li className="font-thin text-gray-100">
+                    Leveraging cloud-based solutions
+                  </li>
                 </ul>
-                <p className="font-thin text-gray-100">These measures can help manage expenses.</p>
+                <p className="font-thin text-gray-100">
+                  These measures can help manage expenses.
+                </p>
 
                 <p className=" font-semibold">Scalability Planning:</p>
                 <p className="font-thin text-gray-100">
@@ -442,7 +482,9 @@ function BlogContent({ SelectedBlog }) {
                   challenges.
                 </p>
 
-                <p className=" font-semibold">Data Security and Intellectual Property Rights:</p>
+                <p className=" font-semibold">
+                  Data Security and Intellectual Property Rights:
+                </p>
                 <p className="font-thin text-gray-100">
                   Your CGI-driven eCommerce solution may involve sensitive data,
                   such as customer information and proprietary assets. It should
@@ -460,7 +502,7 @@ function BlogContent({ SelectedBlog }) {
                 id="section4"
                 className="flex flex-col gap-5 text-white text-base font-light"
               >
-                <h1 className="hidden lg:flex text-lg md:text-3xl font-semibold text-white">Conclusion</h1>
+                <h1 className="text-3xl font-extrabold">Conclusion</h1>
                 <p className=" font-semibold">
                   In conclusion, CGI in eCommerce is a proven transformative
                   force, bringing unparalleled opportunities to businesses. It
@@ -487,7 +529,7 @@ function BlogContent({ SelectedBlog }) {
                 id="section5"
                 className="flex flex-col gap-5 text-white text-base font-light"
               >
-                <h1 className="hidden lg:flex text-lg md:text-3xl font-semibold text-white">FAQs</h1>
+                <h1 className="text-3xl font-extrabold">FAQs</h1>
                 <p className=" font-semibold">Q: What is CGI in eCommerce?</p>
                 <p className="font-thin text-gray-100">
                   A: CGI in eCommerce is basically, the use of
@@ -499,7 +541,9 @@ function BlogContent({ SelectedBlog }) {
                   higher sales.
                 </p>
 
-                <p className=" font-semibold">Q: How does CGI benefit eCommerce businesses?</p>
+                <p className=" font-semibold">
+                  Q: How does CGI benefit eCommerce businesses?
+                </p>
                 <p className="font-thin text-gray-100">
                   A: CGI benefits eCommerce businesses by improving customer
                   experience through realistic product visualizations,
@@ -522,7 +566,7 @@ function BlogContent({ SelectedBlog }) {
           {/* bottom community section */}
           <div>
             <div
-              className={` border-2  rounded-[30px] flex items-center justify-between py-[40px] px-5 ${
+              className={` border-2  rounded-[30px] flex items-center justify-between py-8 px-5 ${
                 blogType === "Games"
                   ? "border-[#FF5C00] bg-[#ff5c0024]"
                   : blogType === "Development"
@@ -532,24 +576,52 @@ function BlogContent({ SelectedBlog }) {
                   : "border-[#00FFE0] bg-[#00ffe024]"
               }`}
             >
-              <h1 className=" text-base md:text-xl font-normal text-white">
+              <h1 className=" text-base md:text-xl  font-normal text-white">
                 Share with your community!
               </h1>
               <div className="flex items-center gap-3">
                 <div>
-                  <FaGithub className=" h-4 md:h-6 w-4 md:w-6 text-white" />
+                  <TwitterShare
+                    url={shareUrl}
+                    title={share_title}
+                    hashtags={["HEYBUDDY", "BLOGS"]}
+                    round
+                    size="30px"
+                  />
                 </div>
                 <div>
-                  <FaXTwitter className=" h-4 md:h-6 w-4 md:w-6 text-white" />
+                  <LinkedinShare
+                    url={shareUrl}
+                    quote={share_title}
+                    round
+                    size="30px"
+                  />
+                </div>
+                {/* <div>
+                  <InstagramShare
+                    url={shareUrl}
+                    title={share_title}
+                  />
+                </div> */}
+                <div>
+                  <FacebookShare
+                    url={shareUrl}
+                    quote={share_title}
+                    round
+                    size="30px"
+                  />
                 </div>
                 <div>
-                  <FaLinkedin className=" h-4 md:h-6 w-4 md:w-6 text-white" />
+                  <TelegramShare url={shareUrl} round size="30px" />
                 </div>
                 <div>
-                  <FaInstagram className=" h-4 md:h-6 w-4 md:w-6 text-white" />
-                </div>
-                <div>
-                  <FaFacebook className="h-4 md:h-6 w-4 md:w-6 text-white" />
+                  <WhatsappShare
+                    url={shareUrl}
+                    title={share_title}
+                    separator=":: "
+                    round
+                    size="30px"
+                  />
                 </div>
               </div>
             </div>

@@ -30,11 +30,10 @@ function page() {
       <BlogContent1 SelectedBlog={SelectedBlog[0]} />
 
       {/* related blogs */}
-      <section className="lg:w-[90%] xl:w-[80%] mx-auto px-5 lg:px-0">
+      {/* <section className="lg:w-[90%] xl:w-[80%] mx-auto px-5 lg:px-0">
         <h1 className="text-lg font-bold text-white">Related blogs</h1>
-        {/* section of the related blogs and this will be added later */}
         <div>related blogs to be added later</div>
-      </section>
+      </section> */}
     </section>
   );
 }

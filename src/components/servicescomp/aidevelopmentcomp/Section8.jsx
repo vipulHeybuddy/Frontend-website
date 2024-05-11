@@ -99,7 +99,7 @@ const Pagenation = ({ handlecontactusModal }) => {
         </p> */}
       </div>
 
-      <nav className="flex justify-between border-b border-gray-300 scrollbar-hide overflow-auto">
+      <nav className="flex border-b justify-between w-[100%] border-gray-300 scrollbar-hide overflow-auto">
         <TabSelector
           isActive={selectedTab === "task1"}
           onClick={() => setSelectedTab("task1")}
@@ -141,10 +141,9 @@ const Pagenation = ({ handlecontactusModal }) => {
             <div className=" mx-auto text-center">
               <Image
                 loading="lazy"
-                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/aiservice/Logo/Kotlin_logo.svg.png"
+                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/ai_service_logo/Kotlin.svg"
                 width={450}
                 height={450}
-                className="h-[80%] w-[80%] bg-white rounded-lg"
                 alt="9"
               />
             </div>
@@ -152,10 +151,9 @@ const Pagenation = ({ handlecontactusModal }) => {
             <div className=" mx-auto text-center">
               <Image
                 loading="lazy"
-                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/aiservice/Logo/Xamarin.png"
+                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/ai_service_logo/Xamarin.svg"
                 width={450}
                 height={450}
-                className="h-[80%] w-[80%] bg-white rounded-lg"
                 alt="9"
               />
             </div>
@@ -163,10 +161,10 @@ const Pagenation = ({ handlecontactusModal }) => {
             <div className=" mx-auto text-center">
               <Image
                 loading="lazy"
-                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/aiservice/Logo/Swift_logo.svg.png"
+                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/ai_service_logo/Swift.svg"
                 width={450}
                 height={450}
-                className="h-[80%] w-[80%] bg-white rounded-lg"
+                // className="h-[80%] w-[80%] bg-white rounded-lg"
                 alt="9"
               />
             </div>
@@ -174,10 +172,10 @@ const Pagenation = ({ handlecontactusModal }) => {
             <div className=" mx-auto text-center">
               <Image
                 loading="lazy"
-                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/aiservice/Logo/react%20native.png"
+                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/ai_service_logo/React%20Native.svg"
                 width={450}
                 height={450}
-                className="h-[80%] w-[80%] bg-white rounded-lg"
+                // className="h-[80%] w-[80%] bg-white rounded-lg"
                 alt="9"
               />
             </div>
@@ -185,30 +183,30 @@ const Pagenation = ({ handlecontactusModal }) => {
             <div className=" mx-auto text-center">
               <Image
                 loading="lazy"
-                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/aiservice/Logo/Apache_Cordova_logo.png"
+                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/ai_service_logo/Cordova.svg"
                 width={450}
                 height={450}
-                className="h-[80%] w-[80%] bg-white rounded-lg"
+                // className="h-[80%] w-[80%] bg-white rounded-lg"
                 alt="9"
               />
             </div>
             <div className=" mx-auto text-center">
               <Image
                 loading="lazy"
-                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/aiservice/Logo/Google-flutter-logo.svg.png"
+                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/ai_service_logo/Flutter.svg"
                 width={450}
                 height={450}
-                className="h-[80%] w-[80%] bg-white rounded-lg"
+                // className="h-[80%] w-[80%] bg-white rounded-lg"
                 alt="9"
               />
             </div>
             <div className=" mx-auto text-center">
               <Image
                 loading="lazy"
-                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/aiservice/Logo/Objective-C.png"
+                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/ai_service_logo/Objective%20C.svg"
                 width={450}
                 height={450}
-                className="h-[80%] w-[80%] rounded-lg"
+                // className="h-[80%] w-[80%] rounded-lg"
                 alt="9"
               />
             </div>
@@ -223,10 +221,10 @@ const Pagenation = ({ handlecontactusModal }) => {
             <div className=" mx-auto text-center">
               <Image
                 loading="lazy"
-                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/aiservice/Logo/Node.js_logo.svg.png"
+                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/ai_service_logo/Node.svg"
                 width={450}
                 height={450}
-                className="h-[80%] w-[80%] bg-white rounded-lg"
+                // className="h-[80%] w-[80%] bg-white rounded-lg"
                 alt="9"
               />
             </div>
@@ -234,10 +232,10 @@ const Pagenation = ({ handlecontactusModal }) => {
             <div className=" mx-auto text-center">
               <Image
                 loading="lazy"
-                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/aiservice/Logo/golang.png"
+                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/ai_service_logo/Golang.svg"
                 width={450}
                 height={450}
-                className="h-[80%] w-[80%] bg-white rounded-lg"
+                // className="h-[80%] w-[80%] bg-white rounded-lg"
                 alt="9"
               />
             </div>
@@ -245,10 +243,10 @@ const Pagenation = ({ handlecontactusModal }) => {
             <div className=" mx-auto text-center">
               <Image
                 loading="lazy"
-                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/aiservice/Logo/kibana.png"
+                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/ai_service_logo/Kibana.svg"
                 width={450}
                 height={450}
-                className="h-[80%] w-[80%] bg-white rounded-lg"
+                // className="h-[80%] w-[80%] bg-white rounded-lg"
                 alt="9"
               />
             </div>
@@ -256,10 +254,10 @@ const Pagenation = ({ handlecontactusModal }) => {
             <div className=" mx-auto text-center">
               <Image
                 loading="lazy"
-                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/aiservice/Logo/Spring_Framework_Logo_2018.svg.png"
+                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/ai_service_logo/Java%20Spring.svg"
                 width={450}
                 height={450}
-                className="h-[80%] w-[80%] bg-white rounded-lg"
+                // className="h-[80%] w-[80%] bg-white rounded-lg"
                 alt="9"
               />
             </div>
@@ -267,30 +265,30 @@ const Pagenation = ({ handlecontactusModal }) => {
             <div className=" mx-auto text-center">
               <Image
                 loading="lazy"
-                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/aiservice/Logo/django.png"
+                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/ai_service_logo/Django.svg"
                 width={450}
                 height={450}
-                className="h-[80%] w-[80%] bg-white rounded-lg"
+                // className="h-[80%] w-[80%] bg-white rounded-lg"
                 alt="9"
               />
             </div>
             <div className=" mx-auto text-center">
               <Image
                 loading="lazy"
-                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/aiservice/Logo/php%20laravel.png"
+                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/ai_service_logo/PHP%20Laravel.svg"
                 width={450}
                 height={450}
-                className="h-[80%] w-[80%] bg-white rounded-lg"
+                // className="h-[80%] w-[80%] bg-white rounded-lg"
                 alt="9"
               />
             </div>
             <div className=" mx-auto text-center">
               <Image
                 loading="lazy"
-                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/aiservice/Logo/asp.net.png"
+                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/ai_service_logo/ASP.%20Net.svg"
                 width={450}
                 height={450}
-                className="h-[80%] w-[80%] rounded-lg"
+                // className="h-[80%] w-[80%] rounded-lg"
                 alt="9"
               />
             </div>
@@ -305,10 +303,10 @@ const Pagenation = ({ handlecontactusModal }) => {
             <div className=" mx-auto text-center">
               <Image
                 loading="lazy"
-                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/aiservice/Logo/Logo-redis.svg.png"
+                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/ai_service_logo/Redis.svg"
                 width={450}
                 height={450}
-                className="h-[80%] w-[80%] bg-white rounded-lg"
+                // className="h-[80%] w-[80%] bg-white rounded-lg"
                 alt="9"
               />
             </div>
@@ -316,10 +314,10 @@ const Pagenation = ({ handlecontactusModal }) => {
             <div className=" mx-auto text-center">
               <Image
                 loading="lazy"
-                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/aiservice/Logo/MongoDB_Logo.svg.png"
+                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/ai_service_logo/MongoDB.svg"
                 width={450}
                 height={450}
-                className="h-[80%] w-[80%] bg-white rounded-lg"
+                // className="h-[80%] w-[80%] bg-white rounded-lg"
                 alt="9"
               />
             </div>
@@ -327,10 +325,10 @@ const Pagenation = ({ handlecontactusModal }) => {
             <div className=" mx-auto text-center">
               <Image
                 loading="lazy"
-                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/aiservice/Logo/Elasticsearch_logo.svg.png"
+                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/ai_service_logo/Elastic%20Search.svg"
                 width={450}
                 height={450}
-                className="h-[80%] w-[80%] bg-white rounded-lg"
+                // className="h-[80%] w-[80%] bg-white rounded-lg"
                 alt="9"
               />
             </div>
@@ -338,30 +336,30 @@ const Pagenation = ({ handlecontactusModal }) => {
             <div className=" mx-auto text-center">
               <Image
                 loading="lazy"
-                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/aiservice/Logo/graphql_logo_icon_171045.png"
+                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/ai_service_logo/GraphQL.svg"
                 width={450}
                 height={450}
-                className="h-[80%] w-[80%] bg-white rounded-lg"
+                // className="h-[80%] w-[80%] bg-white rounded-lg"
                 alt="9"
               />
             </div>
             <div className=" mx-auto text-center">
               <Image
                 loading="lazy"
-                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/aiservice/Logo/microsoft-sql-server-logo.png"
+                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/ai_service_logo/MS%20SQL.svg"
                 width={450}
                 height={450}
-                className="h-[80%] w-[80%] bg-white rounded-lg"
+                // className="h-[80%] w-[80%] bg-white rounded-lg"
                 alt="9"
               />
             </div>
             <div className=" mx-auto text-center">
               <Image
                 loading="lazy"
-                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/aiservice/Logo/Mysql_logo.png"
+                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/ai_service_logo/MySQL.svg"
                 width={450}
                 height={450}
-                className="h-[80%] w-[80%] rounded-lg"
+                // className="h-[80%] w-[80%] rounded-lg"
                 alt="9"
               />
             </div>
@@ -376,10 +374,10 @@ const Pagenation = ({ handlecontactusModal }) => {
             <div className=" mx-auto text-center">
               <Image
                 loading="lazy"
-                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/aiservice/Logo/Docker.png"
+                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/ai_service_logo/Docker.svg"
                 width={450}
                 height={450}
-                className="h-[80%] w-[80%] bg-white rounded-lg"
+                // className="h-[80%] w-[80%] bg-white rounded-lg"
                 alt="9"
               />
             </div>
@@ -387,10 +385,10 @@ const Pagenation = ({ handlecontactusModal }) => {
             <div className=" mx-auto text-center">
               <Image
                 loading="lazy"
-                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/aiservice/Logo/Amazon_Web_Services_Logo.svg.png"
+                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/ai_service_logo/AWS.svg"
                 width={450}
                 height={450}
-                className="h-[80%] w-[80%] bg-white rounded-lg"
+                // className="h-[80%] w-[80%] bg-white rounded-lg"
                 alt="9"
               />
             </div>
@@ -398,10 +396,10 @@ const Pagenation = ({ handlecontactusModal }) => {
             <div className=" mx-auto text-center">
               <Image
                 loading="lazy"
-                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/aiservice/Logo/nginx.png"
+                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/ai_service_logo/Nginx.svg"
                 width={450}
                 height={450}
-                className="h-[80%] w-[80%] bg-white rounded-lg"
+                // className="h-[80%] w-[80%] bg-white rounded-lg"
                 alt="9"
               />
             </div>
@@ -409,10 +407,10 @@ const Pagenation = ({ handlecontactusModal }) => {
             <div className=" mx-auto text-center">
               <Image
                 loading="lazy"
-                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/aiservice/Logo/Microsoft_Azure-Logo.wine.png"
+                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/ai_service_logo/Azure.svg"
                 width={450}
                 height={450}
-                className="h-[80%] w-[80%] bg-white rounded-lg"
+                // className="h-[80%] w-[80%] bg-white rounded-lg"
                 alt="9"
               />
             </div>
@@ -420,30 +418,30 @@ const Pagenation = ({ handlecontactusModal }) => {
             <div className=" mx-auto text-center">
               <Image
                 loading="lazy"
-                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/aiservice/Logo/apache.png"
+                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/ai_service_logo/Apache.svg"
                 width={450}
                 height={450}
-                className="h-[80%] w-[80%] bg-white rounded-lg"
+                // className="h-[80%] w-[80%] bg-white rounded-lg"
                 alt="9"
               />
             </div>
             <div className=" mx-auto text-center">
               <Image
                 loading="lazy"
-                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/aiservice/Logo/Kubernetes-Logo.png"
+                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/ai_service_logo/Kubernetes.svg"
                 width={450}
                 height={450}
-                className="h-[80%] w-[80%] bg-white rounded-lg"
+                // className="h-[80%] w-[80%] bg-white rounded-lg"
                 alt="9"
               />
             </div>
             <div className=" mx-auto text-center">
               <Image
                 loading="lazy"
-                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/aiservice/Logo/gcp.png"
+                src="https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/ai_service_logo/GCP.svg"
                 width={450}
                 height={450}
-                className="h-[80%] w-[80%] rounded-lg"
+                // className="h-[80%] w-[80%] rounded-lg"
                 alt="9"
               />
             </div>
