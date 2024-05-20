@@ -84,7 +84,7 @@ const Section3 = ({ heading1, heading2, heading3, para1, para2, para3 }) => {
       serialno: "02",
       heading: "Kapil Panchal",
       imgurl:
-        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Aboutus/faceimg2.png",
+        "https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/Aboutus/Kapil_profile.png",
       para: para2,
       href: "https://www.linkedin.com/in/kapil-panchal-/",
       title: "Founder & COO",
@@ -148,7 +148,7 @@ const Section3 = ({ heading1, heading2, heading3, para1, para2, para3 }) => {
             </h1>
           </div>
 
-          <div className="rounded-xl flex flex-col md:flex-row w-[80%] lg:w-full mx-auto justify-center items-center gap-2">
+          <div className="rounded-xl flex flex-col md:flex-row w-[80%] lg:w-full mx-auto justify-center items-center gap-8 md:gap-2">
             {List.map((section, index) => (
               <div className="px-2 " key={index}>
                 <figure class="flex flex-col items-center justify-center   h-full w-full ">
