@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import "../../../styles/Font.css";
@@ -282,11 +282,35 @@ const data = [
 ];
 
 const page = () => {
+  const url = new URL(window.location.href);
+  console.log("URL:", url)
+  const [casestudylist, setCasestudylist] = useState([]);
   const [category, setCategory] = useState("");
 
   const toggleCategory = (categ) => {
     setCategory(categ);
   };
+  console.log("1");
+  console.log(casestudylist);
+  const fetchdata = async () => {
+    const result = await fetch(
+      "https://heybuddyapiadmin.azurewebsites.net/service/card"
+    );
+    console.log("result    ->  ", result);
+    const jsondata = await result.json();
+    
+    setCasestudylist(jsondata);
+
+    // console.log("hello");
+  };
+
+  useEffect(() => {
+    // console.log(2);
+    fetchdata();
+  }, []);
+
+  // console.log(casestudylist);
+
   return (
     <div className="px-2 ">
       <div className="casestudyContainer">
@@ -373,49 +397,49 @@ const page = () => {
 
           <div className="allcasestudy  mx-auto">
             {category === "3D"
-              ? data
+              ? casestudylist
                   .filter((study) => study.category === "3D")
                   .map((study, index) => (
                     <CaseStudyCard key={index} {...study} />
                   ))
               : category === "AR"
-              ? data
+              ? casestudylist
                   .filter((study) => study.category === "AR")
                   .map((study, index) => (
                     <CaseStudyCard key={index} {...study} />
                   ))
               : category === "CGI"
-              ? data
+              ? casestudylist
                   .filter((study) => study.category === "CGI")
                   .map((study, index) => (
                     <CaseStudyCard key={index} {...study} />
                   ))
               : category === "AI"
-              ? data
+              ? casestudylist
                   .filter((study) => study.category === "AI")
                   .map((study, index) => (
                     <CaseStudyCard key={index} {...study} />
                   ))
               : category === "VR"
-              ? data
+              ? casestudylist
                   .filter((study) => study.category === "VR")
                   .map((study, index) => (
                     <CaseStudyCard key={index} {...study} />
                   ))
               : category === "Gaming"
-              ? data
+              ? casestudylist
                   .filter((study) => study.category === "Gaming")
                   .map((study, index) => (
                     <CaseStudyCard key={index} {...study} />
                   ))
               : category === "Custom Software"
-              ? data
+              ? casestudylist
                   .filter((study) => study.category === "Custom Software")
                   .map((study, index) => (
                     <CaseStudyCard key={index} {...study} />
                   ))
               : category === ""
-              ? data.map((study, index) => (
+              ? casestudylist.map((study, index) => (
                   <CaseStudyCard key={index} {...study} />
                 ))
               : null}

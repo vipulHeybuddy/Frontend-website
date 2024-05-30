@@ -10,29 +10,63 @@ import Section6 from "@/components/casestudiescomp/realstatecomp/gamedev/Section
 import Section7 from "@/components/casestudiescomp/realstatecomp/gamedev/Section7";
 import Section8 from "@/components/casestudiescomp/realstatecomp/gamedev/Section8";
 import Section9 from "@/components/casestudiescomp/realstatecomp/gamedev/Section9";
+// import { useRouter } from "next/router";
 
-import React, { useState } from "react";
-export function generateStaticParams() {
-  return [{ id: "1" }, { id: "2" }, { id: "3" }, { id: "4" }];
-}
-const page = ({ params }) => {
-  const [json, setJson] = useState(null);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
+import { useSearchParams } from "next/navigation";
 
+import React, { useState, useEffect } from "react";
+// export async function generateStaticParams() {
+//   // console.log(casestudylist);
+
+//   const result = await fetch(
+//     "https://heybuddyapiadmin.azurewebsites.net/service/card"
+//   );
+//   console.log("result    ->  ", result);
+//   const jsondata = await result.json();
+
+//   // console.log("hello");
+
+//   return jsondata.map((data) => ({
+//     id: data._id.toString(),
+//   }));
+//   // return [{ id: "1" }, { id: "2" }, { id: "3" }, { id: "4" }];
+// }
+const page = () => {
+  const searchParams = useSearchParams();
+  // const url = new URL(window.location.href);
+  // url.searchParams.set("q", newQuery);
+  const [caseId, setCaseId] = useState(null);
+
+  useEffect(() => {
+    // This ensures that the code runs only on the client-side
+    if (typeof window !== "undefined") {
+      const url = new URL(window.location.href);
+      const id = url.pathname.split("/").pop(); // Extract the dynamic part of the URL
+      setCaseId(id);
+    }
+  }, []);
+  // const [json, setJson] = useState(null);
+  // const [loading, setLoading] = useState(true);
+  // const [error, setError] = useState(null);
+
+  // const router = useRouter();
+  // const { id } = router.query;
   const { id } = params;
 
-  const fetchDataById = async (id) => {
+  console.log("Dynamic");
+  const fetchDataById = async () => {
     try {
       setLoading(true);
-      const response = await fetch(`https://api.example.com/data/${id}`);
+      const response = await fetch(
+        `https://heybuddyapiadmin.azurewebsites.net/service/card/${id}`
+      );
 
       if (!response.ok) {
         throw new Error("Network response was not ok ");
       }
 
       const result = await response.json();
-      console.log(result);
+      console.log("dynamic", result);
       setJson(result);
     } catch (error) {
       setError(error);
@@ -43,7 +77,7 @@ const page = ({ params }) => {
 
   useEffect(() => {
     if (id) {
-      fetchDataById(id);
+      fetchDataById();
     }
   }, [id]);
 
