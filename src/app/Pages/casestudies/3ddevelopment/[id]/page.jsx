@@ -1,3 +1,5 @@
+"use client";
+
 import Section1 from "@/components/casestudiescomp/realstatecomp/gamedev/Section1";
 import Temp from "@/components/casestudiescomp/realstatecomp/gamedev/Temp";
 import Section11 from "@/components/casestudiescomp/realstatecomp/gamedev/Section11";
@@ -9,10 +11,12 @@ import Section6 from "@/components/casestudiescomp/realstatecomp/gamedev/Section
 import Section7 from "@/components/casestudiescomp/realstatecomp/gamedev/Section7";
 import Section8 from "@/components/casestudiescomp/realstatecomp/gamedev/Section8";
 import Section9 from "@/components/casestudiescomp/realstatecomp/gamedev/Section9";
-import { useEffect, useState } from "react";
+import React, { useState, useEffect } from "react";
 
-// This is a client component
-export default function CaseStudyPage({ params }) {
+// Note: generateStaticParams has been removed as it can't be used with "use client"
+// This should be placed in a separate file if you need static generation
+
+const CaseStudyPage = ({ params }) => {
   const [json, setJson] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -466,4 +470,6 @@ export default function CaseStudyPage({ params }) {
       </div>
     </div>
   );
-}
+};
+
+export default CaseStudyPage;
