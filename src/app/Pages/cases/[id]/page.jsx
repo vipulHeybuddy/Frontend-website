@@ -470,3 +470,4 @@ const ClientComponent = ({ params }) => {
       </div>
     </div>
   );
+}
